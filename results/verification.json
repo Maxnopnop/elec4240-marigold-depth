@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "samples_hash_checked": 64,
+  "unique_scenes": 64,
+  "official_split_membership_checked": true,
+  "prediction_metrics_recomputed": 192,
+  "adaptation_runs_with_80_finite_steps": 3
+}

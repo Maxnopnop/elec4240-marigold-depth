@@ -1,0 +1,4 @@
+mode,train_images,steps,seed,lr,rank,trainable_parameters,unet_parameters,trainable_percent,training_seconds,peak_allocated_mib,latent_cache_time_excluded,precision,latent_cache_seconds
+lora,8,80,17,0.0001,4,829952,866752196,0.09575424254246712,29.737567299999682,2415.888671875,True,"bfloat16 autocast, fp32 trainable params",0.7702767999999196
+lora,32,80,17,0.0001,4,829952,866752196,0.09575424254246712,33.240869400000065,2415.888671875,True,"bfloat16 autocast, fp32 trainable params",1.8933857000001808
+head,32,80,17,0.0001,,11524,865922244,0.0013308354277592619,6.102339100000336,2385.99609375,True,"bfloat16 autocast, fp32 trainable params",1.798761999999897

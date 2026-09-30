@@ -1,0 +1,10 @@
+{
+  "model_id": "depth-anything/Depth-Anything-V2-Metric-Indoor-Small-hf",
+  "revision": "8078d68a9c75a972131914f6afd0c1723be0da7f",
+  "requested_resolution": 256,
+  "actual_input_height_width": [
+    252,
+    336
+  ],
+  "note": "NYUv2-trained metric-depth specialist; different prior supervision; same affine-aligned evaluation."
+}

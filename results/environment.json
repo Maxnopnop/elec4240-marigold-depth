@@ -1,0 +1,18 @@
+{
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "total_vram_mib": 8150.5625,
+  "python": "3.12.14",
+  "cuda": "12.8",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "diffusers": "0.35.2",
+    "transformers": "4.57.1",
+    "peft": "0.17.1",
+    "accelerate": "1.11.0",
+    "numpy": "2.5.2",
+    "Pillow": "12.3.0",
+    "h5py": "3.16.0",
+    "scipy": "1.18.1"
+  }
+}

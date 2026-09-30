@@ -1,0 +1,10 @@
+{
+  "assets": "work\\marigold-local\\assets",
+  "results": "outputs\\marigold-depth\\results",
+  "work": "work\\marigold-local\\runs",
+  "method": "lora8",
+  "steps": 80,
+  "resolution": 256,
+  "denoise_steps": 4,
+  "seed": 17
+}
