@@ -134,7 +134,7 @@ def main():
              '`mixed_prior` adds 0.1 times masked student-versus-original velocity MSE at identical noisy depth/RGB latents and timesteps. '
              'The original denoiser is obtained with the adapter disabled and no teacher gradients. '
              'This implements uniform denoiser-output preservation, not confidence weighting or cross-resolution geometric consistency. '
-             'All adapters update829,952 parameters; the same per-seed image order and timestep schedule were verified across methods.', '',
+             'All adapters update 829,952 parameters; the same per-seed image order and timestep schedule were verified across methods.', '',
              '## Primary fresh64 test results', '',
              '| Training method | Inference long side | AbsRel mean +/- seed SD | RMSE (m) | Delta1 | Inference ms |',
              '|---|---:|---:|---:|---:|---:|']
@@ -147,7 +147,7 @@ def main():
               'It is not a controlled architecture comparison; its validation subset is not known to be unseen during prior training.', '',
               '## Predefined paired test comparisons', '',
               'Differences are compared minus reference; negative favors the compared method. '
-              'Intervals bootstrap64 scenes after averaging per-scene metrics over training seeds (10,000 resamples, seed4254). '
+              'Intervals bootstrap 64 scenes after averaging per-scene metrics over training seeds (10,000 resamples, seed 4254). '
               'They describe scene variation, not training-seed variation, and are not corrected for multiple comparisons.', '',
               '| Compared | Reference | AbsRel difference | 95% scene interval |', '|---|---|---:|---:|']
     for r in contrasts:
@@ -160,11 +160,11 @@ def main():
               '## Figures', '', '![Test ablation](figures/test_ablation.png)', '',
               '![Training cost and losses](figures/training_cost.png)', '', '![Fixed examples](figures/fixed_test_examples.png)', '',
               '## Verification and limitations', '',
-              'All224 sample hashes, official split membership, scene separation,12 distinct checkpoints and all2,592 prediction metrics were verified. '
-              'Each method\'s seed29 checkpoint reproduced a saved512 validation prediction exactly. '
-              'Training/validation scene roles were preserved, and all64 test scenes were excluded from previous manifests. '
+              'All 224 sample hashes, official split membership, scene separation, 12 distinct finite checkpoints and all 2,592 prediction metrics were verified. '
+              'Each method\'s seed-29 checkpoint reproduced a saved 512-pixel validation prediction exactly. '
+              'Training/validation scene roles were preserved, and all 64 test scenes were excluded from previous manifests. '
               'See `verification.json` and `validation_gate.json` for provenance.', '',
-              'The study covers one128-scene training subset, three training seeds, a fixed320-update budget, one teacher weight and one inference seed per image. '
+              'The study covers one 128-scene training subset, three training seeds, a fixed 320-update budget, one teacher weight and one inference seed per image. '
               'Comparisons with earlier phases also change data, schedules and test cohorts; they cannot isolate the effect of scale alone. '
               'This is not the full NYUv2 benchmark. Subsequent tuning must not use these test outcomes as an unseen final evaluation.', '',
               'Reproduction: follow [SCALEUP_PROTOCOL.md](../../SCALEUP_PROTOCOL.md) and `run_scaleup.ps1`. Raw arrays and weights remain outside Git.']

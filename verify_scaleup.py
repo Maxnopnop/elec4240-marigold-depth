@@ -53,6 +53,10 @@ def main():
             checkpoint = a.work/'checkpoints'/cfg['run_id']/'adapter.pt'
             assert stats['checkpoint_sha256'] == sha(checkpoint)
             assert stats['config_sha256'] == sha(rd/'config.json')
+            tensors = torch.load(checkpoint, map_location='cpu', weights_only=True)
+            assert sum(v.numel() for v in tensors.values()) == 829952
+            assert all(torch.isfinite(v).all() for v in tensors.values()), 'Non-finite checkpoint'
+            del tensors
             checkpoints[cfg['run_id']] = stats['checkpoint_sha256']
             paths_to_hash.append(rd/'training.json')
     assert len(checkpoints) == len(set(checkpoints.values())) == 12
