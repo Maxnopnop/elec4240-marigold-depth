@@ -1,0 +1,24 @@
+{
+  "study": "exploratory_final_extension_v5",
+  "sources": {
+    "run_final_control.py": "3ba33ea415518d8b5ed4cb98d3cf04a826524a30fbc93a2b94550efe64f5978f",
+    "FINAL_EXTENSION_PROTOCOL.md": "b2b60be6546a5c453f4240a99722027b730c3bca7a23233b2f4f58d7c037a29c",
+    "experiment.py": "e7dff5abdbf44e23cfafc7d375805549266fffe8acb2264a8efd437be3ee7e0a",
+    "train_scaleup.py": "15466ee5b954c018684a30ea686782292b801d5984085ec869c6246224d5dd44",
+    "run_expanded.py": "f82431774fabe83da81ecb56c16f900a77495c1cc088caf4c813f74b5bb9ef07",
+    "run_robustness.py": "c37e2c7e96440a61a94a10fcc4b98438fee4a70dcd6fe6e033c05802d1b7097e",
+    "run_prospective.py": "1b6336e3edf1316f1d47697ff3c944e4d92f42862e04a4398eb2ee55e86a6432",
+    "prospective_metrics.py": "5bd10bea9aaaa70e031a627e8392f75db21740dd2df2e175a09cac9ee0d9125f"
+  },
+  "nyu_manifest": "5ca21fdd731a4232b4a0e945cf62e950ce2c3dbb69a5b4bfb5f11fbf6defc0be",
+  "external_manifest": "7c2002242a66b9e1adca6f1dd08ab91aa7cd7bf515e22c7aac259b19c9ef440c",
+  "historical_commit": "d14701c251ac1df58c9bfb9025287c476b127d3a",
+  "seeds": [
+    17,
+    29,
+    43,
+    59,
+    71
+  ],
+  "steps": 320
+}
