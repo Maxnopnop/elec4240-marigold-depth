@@ -1,0 +1,18 @@
+{
+  "source_sha256": {
+    "benchmark_final_v5.py": "8cc137468101733d10e01dd69ba43cc4b02cac70af00196cd26ca3ffff0e8908",
+    "train_budget_v5.py": "c6d32267d0bf4a5f222fcc83d821b869f97014129524d61cd082c46488a597de",
+    "FINAL_EXTENSION_PROTOCOL.md": "b2b60be6546a5c453f4240a99722027b730c3bca7a23233b2f4f58d7c037a29c"
+  },
+  "rounds": 5,
+  "images": 8,
+  "warmup_calls": 3,
+  "seed": 4285,
+  "budget_seconds": 120.0,
+  "budget_seeds": [
+    17,
+    29,
+    43
+  ],
+  "draw": "draw1"
+}
