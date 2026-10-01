@@ -1,0 +1,11 @@
+{
+  "reason": "Official Princeton endpoints began closing connections after89 accepted groups; no external inference occurred.",
+  "official_url": "https://rgbd.cs.princeton.edu/data/SUNRGBD.zip",
+  "mirror_url": "https://huggingface.co/datasets/ZHAO11564/SUNRGBD.zip/resolve/4fafeae5f5bad5764cb8f3e89c38a5389ad2b633/SUNRGBD.zip",
+  "mirror_revision": "4fafeae5f5bad5764cb8f3e89c38a5389ad2b633",
+  "archive_bytes": 6885481608,
+  "verification": "Every mirror member must match official central-directory name, byte length, compression metadata and CRC32. Previously cached official bytes retained.",
+  "selection_rules_changed": false,
+  "wrapper_sha256": "6849e5e8fa39e92b1a2e6ddc4c8cc89ac095556fa26d7b2a974b95d92c050a38",
+  "transport_source_sha256": "0533fcd31b669c02de7fc46dc2c1a5621e65198fcbb7652e34b644db57c2489e"
+}

@@ -1,0 +1,1042 @@
+{
+  "availability": [
+    {
+      "space": "home_ac",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cs_3",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85_2floor",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_46_6lounge",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_36_ti_lab2",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_g451",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85_4",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_graz",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_d507",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_beijing",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_c11",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "home_at",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_masseeh_xc",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_ne47_huge_office",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_d466",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cs_2",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_bm_3",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85_8",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85k2",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_nips2012",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w59_conference",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_tea_1",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cogsci_5",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_d446",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_d428",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cogsci_3",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_g825",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w20_flr4",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_3_270",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_3_huge_office",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_sh_basement",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w20_athena",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_mcc_flr1",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_lab_hj",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_next_dn",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "home_ph_cz",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cogsci_8",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_76_studyroom",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_tea_3",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_masseeh_wm",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_next_536",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_ucla_ant",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_d475a",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "home_bksh",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cs_9",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_124",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_ne47_2biolab",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_restroom_2",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "home_puigpunyen",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "home_amo",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_masseeh_md",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cogsci_1",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_c10",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_bar",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "home_md",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_lounge_d429",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_76_4printroom",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cs_1",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cogsci_6",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_ny",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_13_xh_lab2",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_13_xh_lab1",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_d6_lounge",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_mcc_313",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cogsci_2",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_46_5conf_1",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_76_4kitchen",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_1_375",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cs_5",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_36_144",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_76_417",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85_5",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_lab_16",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_conf_big",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_dq_office",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_restroom_1",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_florence_jx",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_c9",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_d460",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_bikeroom",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cs_8",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "providence_station",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_mr",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_6_120",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_46_4conf_1",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85h",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_ec_tam",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_masseeh_sr",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_g631",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_g660",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_c4",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_gym_tohoku",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_lounge_d4_bill",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_c7",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cs_6",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_corridor_lounge",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_c6",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_baker_cj",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_c2",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_46_5bathroom",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_lab_pdl",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_46_6bathroom",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_g882",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_g449",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_mcc_wflr7",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_g5_lounge",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_ne47_2corridor",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_397",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_bm_2",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85_12",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_gym_dupont",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_34_302",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_26_100",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_76_4lounge",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_d463",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_printroom1",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_76_458",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85a",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_261",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_sh_flr1",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_singapore_2012",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_d407",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_pittsburg",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "home_pt",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_masseeh_flr4a",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_g460",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_gym_z_squash",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_g442",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_barcelona",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85_basement",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_d451",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_g7_lounge",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_umd",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_g725",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_bm_4",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hyatt_cambridge",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85k1",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85_lounge1",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_lab_koch",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_3_133",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_robotics_lab",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_ucsd",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "home_ag",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_g431",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w16",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "home_ts",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_next_sj",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cs_10",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85_playroom",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_bm_1",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_46_6conf",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_gym_wrestling",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_36_ti_office",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_46_5conf_2",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85j",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_pool",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "home_rz",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_casarural",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_mcc_nk",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_c8",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_c3",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85_10",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cs_7",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_mcc_wph",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_c5",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_144",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_123",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "Portland_hotel",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cogsci_4",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cs_4",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_next_552",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "home_han",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_46_4conf_2",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_florence_ant",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_computer_lab",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_ucla_jx",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_mcc_eflr6",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_g9_lounge",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_46_ted_lab2",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_grenoble",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_bm_6",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85_basement_bathroom",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_5_234",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_g531",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_76_459",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85g",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_1_242",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_46_ted_lab1",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85d",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_uc",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_pedraza",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_next_jc",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_sf",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_46_5lounge",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_bm_5",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_ne47_2conf",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_d530",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85_16",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cogsci_7",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm3",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_tea_2",
+      "available": true,
+      "selected": false
+    },
+    {
+      "space": "mit_32_pingpong",
+      "available": true,
+      "selected": false
+    },
+    {
+      "space": "hotel_hkust",
+      "available": true,
+      "selected": false
+    },
+    {
+      "space": "hotel_stb",
+      "available": true,
+      "selected": false
+    },
+    {
+      "space": "hotel_m",
+      "available": true,
+      "selected": false
+    },
+    {
+      "space": "mit_36_ti_lab",
+      "available": true,
+      "selected": false
+    },
+    {
+      "space": "mit_32_262",
+      "available": true,
+      "selected": false
+    }
+  ],
+  "exclusions": [],
+  "earlier_rgb_hashes_checked": 546,
+  "source_index_sha256": "06873903f7cbd25bb167283f760a473ac49a644346c93d10cb8f80abd2562c4a"
+}

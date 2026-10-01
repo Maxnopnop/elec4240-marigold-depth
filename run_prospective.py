@@ -47,6 +47,7 @@ def main():
     for rid,h in checkpoint_hashes.items():assert h==read(prior/'runs'/rid/'training.json')['checkpoint_sha256']
     fingerprint={'study':'prospective_v4','manifest_sha256':sha(out/'manifest.json'),
                  'decision_sha256':sha(out/'sample_size_decision.json'),
+                 'acquisition_transport_sha256':sha(out/'acquisition_transport.json'),
                  'power_results_sha256':sha(out/'power/design_and_results.json'),
                  'source_sha256':{n:sha(n) for n in SOURCE_FILES},'checkpoint_sha256':checkpoint_hashes,
                  'calibration_sha256':sha(prior/'calibration.json'),

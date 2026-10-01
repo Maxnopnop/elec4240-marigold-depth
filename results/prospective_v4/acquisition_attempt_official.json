@@ -1,0 +1,2793 @@
+{
+  "availability": [
+    {
+      "space": "home_ac",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cs_3",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85_2floor",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_46_6lounge",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_36_ti_lab2",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_g451",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85_4",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_graz",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_d507",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_beijing",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_c11",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "home_at",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_masseeh_xc",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_ne47_huge_office",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_d466",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cs_2",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_bm_3",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85_8",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85k2",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_nips2012",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w59_conference",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_tea_1",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cogsci_5",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_d446",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_d428",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cogsci_3",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_g825",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w20_flr4",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_3_270",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_3_huge_office",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_sh_basement",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w20_athena",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_mcc_flr1",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_lab_hj",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_next_dn",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "home_ph_cz",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cogsci_8",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_76_studyroom",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_tea_3",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_masseeh_wm",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_next_536",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_ucla_ant",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_d475a",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "home_bksh",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cs_9",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_124",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_ne47_2biolab",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_restroom_2",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "home_puigpunyen",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "home_amo",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_masseeh_md",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cogsci_1",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_c10",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_bar",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "home_md",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_lounge_d429",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_76_4printroom",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cs_1",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cogsci_6",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_ny",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_13_xh_lab2",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_13_xh_lab1",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_d6_lounge",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_mcc_313",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cogsci_2",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_46_5conf_1",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_76_4kitchen",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_1_375",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cs_5",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_36_144",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_76_417",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85_5",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_lab_16",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_conf_big",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_dq_office",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_restroom_1",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_florence_jx",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "harvard_c9",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_d460",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_bikeroom",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "brown_cs_8",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "providence_station",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "hotel_mr",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_6_120",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_46_4conf_1",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_w85h",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_ec_tam",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_dorm_masseeh_sr",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_32_g631",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_32_g660",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "harvard_c4",
+      "available": true,
+      "selected": true
+    },
+    {
+      "space": "mit_gym_tohoku",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_32_lounge_d4_bill",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "harvard_c7",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "brown_cs_6",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "harvard_corridor_lounge",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "harvard_c6",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_dorm_baker_cj",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "harvard_c2",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_46_5bathroom",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_lab_pdl",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_46_6bathroom",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_32_g882",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_32_g449",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_dorm_mcc_wflr7",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_32_g5_lounge",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_ne47_2corridor",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_32_397",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "brown_bm_2",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_w85_12",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_gym_dupont",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_34_302",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_26_100",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_76_4lounge",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_32_d463",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "harvard_printroom1",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_76_458",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_w85a",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_32_261",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_dorm_sh_flr1",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "hotel_singapore_2012",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_32_d407",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "hotel_pittsburg",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "home_pt",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_dorm_masseeh_flr4a",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_32_g460",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_gym_z_squash",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_32_g442",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "hotel_barcelona",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_w85_basement",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_32_d451",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_32_g7_lounge",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "hotel_umd",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_32_g725",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "brown_bm_4",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "hyatt_cambridge",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_w85k1",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_w85_lounge1",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_lab_koch",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_3_133",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "harvard_robotics_lab",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "hotel_ucsd",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "home_ag",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_32_g431",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_w16",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "home_ts",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_dorm_next_sj",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "brown_cs_10",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_w85_playroom",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "brown_bm_1",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_46_6conf",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_gym_wrestling",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_36_ti_office",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_46_5conf_2",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_w85j",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_32_pool",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "home_rz",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "hotel_casarural",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_dorm_mcc_nk",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "harvard_c8",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "harvard_c3",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_w85_10",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "brown_cs_7",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_dorm_mcc_wph",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "harvard_c5",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_32_144",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_32_123",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "Portland_hotel",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "brown_cogsci_4",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "brown_cs_4",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_dorm_next_552",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "home_han",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_46_4conf_2",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "hotel_florence_ant",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "harvard_computer_lab",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "hotel_ucla_jx",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_dorm_mcc_eflr6",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_32_g9_lounge",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_46_ted_lab2",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "hotel_grenoble",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "brown_bm_6",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_w85_basement_bathroom",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_5_234",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_32_g531",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_76_459",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_w85g",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_1_242",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_46_ted_lab1",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_w85d",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "hotel_uc",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "hotel_pedraza",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_dorm_next_jc",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "hotel_sf",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_46_5lounge",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "brown_bm_5",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_ne47_2conf",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_32_d530",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_w85_16",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "brown_cogsci_7",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_dorm3",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "harvard_tea_2",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_32_pingpong",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "hotel_hkust",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "hotel_stb",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "hotel_m",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_36_ti_lab",
+      "available": false,
+      "selected": false
+    },
+    {
+      "space": "mit_32_262",
+      "available": false,
+      "selected": false
+    }
+  ],
+  "exclusions": [
+    {
+      "space": "mit_dorm_masseeh_sr",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_sr/dorm_masseeh_sr_scan1_oct_26_2012_erika/0001606-000074289149/image/0001606-000074289149.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_masseeh_sr",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_sr/dorm_masseeh_sr_scan1_oct_26_2012_erika/0001849-000085483493/image/0001849-000085483493.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_masseeh_sr",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_sr/dorm_masseeh_sr_scan1_oct_26_2012_erika/0000794-000037388033/image/0000794-000037388033.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g660",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g660/g660_1/0000434-000014580082/image/0000434-000014580082.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g660",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g660/g660_1/0002199-000073735822/image/0002199-000073735822.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g660",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g660/g660_1/0005415-000181523278/image/0005415-000181523278.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_gym_tohoku",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_gym_tohoku/gym_tohoku_oct_28_2012_scan1_erika/0002780-000121776934/image/0002780-000121776934.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_gym_tohoku",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_gym_tohoku/gym_tohoku_oct_28_2012_scan1_erika/0002362-000103845874/image/0002362-000103845874.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_gym_tohoku",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_gym_tohoku/gym_tohoku_oct_28_2012_scan1_erika/0001305-000056923474/image/0001305-000056923474.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_lounge_d4_bill",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_lounge_d4_bill/d4_lounge_vision_1/0007318-000245404152/image/0007318-000245404152.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_lounge_d4_bill",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_lounge_d4_bill/d4_lounge_vision_1/0006169-000206894268/image/0006169-000206894268.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_lounge_d4_bill",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_lounge_d4_bill/d4_lounge_vision_1/0000567-000019137636/image/0000567-000019137636.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_c7",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_c7/hv_c7_2/0000528-000017662932/image/0000528-000017662932.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_c7",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_c7/hv_c7_1/0000021-000000670320/image/0000021-000000670320.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_c7",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_c7/hv_c7_3/0001408-000047278874/image/0001408-000047278874.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_cs_6",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_cs_6/brown_cs6/0000004-000000100548/image/0000004-000000100548.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_cs_6",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_cs_6/brown_cs6/0002196-000073802232/image/0002196-000073802232.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_cs_6",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_cs_6/brown_cs6/0000232-000007976808/image/0000232-000007976808.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_corridor_lounge",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_corridor_lounge/hv_lounge_corridor2_1/0005332-000178673914/image/0005332-000178673914.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_corridor_lounge",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_corridor_lounge/hv_lounge1_2/0001049-000035124768/image/0001049-000035124768.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_corridor_lounge",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_corridor_lounge/hv_lounge_corridor_1/0001648-000055430062/image/0001648-000055430062.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_c6",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_c6/hv_c6_1/0001222-000040940496/image/0001222-000040940496.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_c6",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_c6/hv_c6_2/0000700-000023461200/image/0000700-000023461200.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_c6",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_c6/hv_c6_1/0001512-000050660136/image/0001512-000050660136.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_baker_cj",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_baker_cj/dorm_baker_cj_oct_29_2012_scan1_erika/0001221-000052083864/image/0001221-000052083864.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_baker_cj",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_baker_cj/dorm_baker_cj_oct_29_2012_scan1_erika/0001569-000067199580/image/0001569-000067199580.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_baker_cj",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_baker_cj/dorm_baker_cj_oct_29_2012_scan1_erika/0001073-000045682308/image/0001073-000045682308.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_c2",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_c2/hv_c2_1/0001521-000050944320/image/0001521-000050944320.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_c2",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_c2/hv_c2_1/0002055-000068841864/image/0002055-000068841864.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_c2",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_c2/hv_c2_1/0001200-000040185684/image/0001200-000040185684.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_5bathroom",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_5bathroom/bcs_floor5_bathroom/0001022-000034454448/image/0001022-000034454448.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_5bathroom",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_5bathroom/bcs_floor5_bathroom/0000359-000012233340/image/0000359-000012233340.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_5bathroom",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_5bathroom/bcs_floor5_bathroom/0001347-000045347148/image/0001347-000045347148.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_lab_pdl",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_lab_pdl/lab_pdl_nov_2_2012_scan1_erika/0003339-000146350125/image/0003339-000146350125.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_lab_pdl",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_lab_pdl/lab_pdl_nov_2_2012_scan1_erika/0001751-000077307165/image/0001751-000077307165.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_lab_pdl",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_lab_pdl/lab_pdl_nov_2_2012_scan1_erika/0000383-000016006401/image/0000383-000016006401.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_6bathroom",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_6bathroom/bcs_floor6_restroom/0000329-000011294892/image/0000329-000011294892.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_6bathroom",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_6bathroom/bcs_floor6_restroom/0001031-000034823124/image/0001031-000034823124.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_6bathroom",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_6bathroom/bcs_floor6_restroom/0000391-000013372884/image/0000391-000013372884.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g882",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g882/g882_1/0001218-000041087755/image/0001218-000041087755.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g882",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g882/g882_1/0003980-000133658947/image/0003980-000133658947.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g882",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g882/g882_1/0004870-000163488187/image/0004870-000163488187.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g449",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g449/g449_1/0001347-000045112536/image/0001347-000045112536.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g449",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g449/g449_1/0003176-000106413300/image/0003176-000106413300.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g449",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g449/g449_1/0003469-000116233488/image/0003469-000116233488.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_mcc_wflr7",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_wflr7/dorm_mcc_wflr7_oct_31_2012_scan1_erika/0004618-000200469180/image/0004618-000200469180.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_mcc_wflr7",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_wflr7/dorm_mcc_wflr7_oct_31_2012_scan1_erika/0001619-000069924360/image/0001619-000069924360.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_mcc_wflr7",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_wflr7/dorm_mcc_wflr7_oct_31_2012_scan1_erika/0002537-000110143560/image/0002537-000110143560.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g5_lounge",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g5_lounge/g5_lounge_1/0000577-000019340858/image/0000577-000019340858.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g5_lounge",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g5_lounge/g5_lounge_1/0003373-000113051594/image/0003373-000113051594.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g5_lounge",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g5_lounge/g5_lounge_1/0002025-000067872026/image/0002025-000067872026.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_ne47_2corridor",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_ne47_2corridor/ne47_floor2_corridor/0002584-000086639064/image/0002584-000086639064.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_ne47_2corridor",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_ne47_2corridor/ne47_floor2_corridor/0000369-000012334092/image/0000369-000012334092.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_ne47_2corridor",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_ne47_2corridor/ne47_floor2_corridor/0000818-000027416292/image/0000818-000027416292.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_397",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_397/397_1/0002366-000079282539/image/0002366-000079282539.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_397",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_397/397_1/0003244-000108709587/image/0003244-000108709587.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_397",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_397/397_1/0000386-000012920859/image/0000386-000012920859.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_bm_2",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_bm_2/brown_bm_2/0000338-000011569815/image/0000338-000011569815.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_bm_2",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_bm_2/brown_bm_2/0000658-000022294935/image/0000658-000022294935.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_bm_2",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_bm_2/brown_bm_2/0001022-000034494759/image/0001022-000034494759.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85_12",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85_12/12_1_1/0006380-000214267788/image/0006380-000214267788.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85_12",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85_12/12_1_1/0006184-000207698652/image/0006184-000207698652.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85_12",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85_12/12_1_1/0003938-000132421716/image/0003938-000132421716.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_gym_dupont",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_gym_dupont/gym_dupont_nov_1_2012_scan1.erika/0013601-000583848720/image/0013601-000583848720.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_gym_dupont",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_gym_dupont/gym_dupont_nov_1_2012_scan1.erika/0001828-000076785156/image/0001828-000076785156.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_gym_dupont",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_gym_dupont/gym_dupont_nov_1_2012_scan1.erika/0000556-000023059008/image/0000556-000023059008.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_34_302",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_34_302/classroom_34302_oct_30_2012_scan1_erika/0001323-000055173234/image/0001323-000055173234.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_34_302",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_34_302/classroom_34302_oct_30_2012_scan1_erika/0001679-000070288950/image/0001679-000070288950.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_34_302",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_34_302/classroom_34302_oct_30_2012_scan1_erika/0000793-000033119706/image/0000793-000033119706.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_26_100",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_26_100/classroom_26100_nov_2_2012_scan1_erika/0006997-000305722660/image/0006997-000305722660.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_26_100",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_26_100/classroom_26100_nov_2_2012_scan1_erika/0003042-000129193888/image/0003042-000129193888.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_26_100",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_26_100/classroom_26100_nov_2_2012_scan1_erika/0011151-000483726136/image/0011151-000483726136.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_76_4lounge",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_76_4lounge/76-4lounge/0000801-000026835123/image/0000801-000026835123.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_76_4lounge",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_76_4lounge/76-4lounge/0000101-000003373923/image/0000101-000003373923.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_76_4lounge",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_76_4lounge/76-4lounge/0000394-000013194111/image/0000394-000013194111.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_d463",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_d463/d463_1/0004263-000142894552/image/0004263-000142894552.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_d463",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_d463/d463_1/0005514-000184823068/image/0005514-000184823068.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_d463",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_d463/d463_1/0001214-000040670752/image/0001214-000040670752.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_printroom1",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_printroom1/hv_printroom1_2/0000001-000000000000/image/0000001-000000000000.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_printroom1",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_printroom1/hv_printroom1_2/0000175-000005865300/image/0000175-000005865300.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_printroom1",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_printroom1/hv_printroom1_1/0000333-000011127312/image/0000333-000011127312.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_76_458",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_76_458/76-458a/0000320-000010816095/image/0000320-000010816095.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_76_458",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_76_458/76-458a/0000012-000000493167/image/0000012-000000493167.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_76_458",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_76_458/76-458a/0001531-000051437487/image/0001531-000051437487.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85a",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85a/a2/0000688-000023025492/image/0000688-000023025492.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85a",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85a/a2/0004985-000167077260/image/0004985-000167077260.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85a",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85a/a2/0005085-000170428860/image/0005085-000170428860.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_261",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_261/261_1/0000238-000007967214/image/0000238-000007967214.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_261",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_261/261_1/0001988-000066620214/image/0001988-000066620214.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_261",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_261/261_1/0001384-000046376550/image/0001384-000046376550.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_sh_flr1",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_sh_flr1/dorm_sh_flr1_oct_28_2012_scan1_erika/0000600-000023595264/image/0000600-000023595264.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_sh_flr1",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_sh_flr1/dorm_sh_flr1_oct_28_2012_scan1_erika/0001522-000061032636/image/0001522-000061032636.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_singapore_2012",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_singapore_2012/singapore_hotel1/0002249-000075411000/image/0002249-000075411000.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_singapore_2012",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_singapore_2012/singapore_hotel1/0002009-000067367160/image/0002009-000067367160.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_singapore_2012",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_singapore_2012/singapore_hotel1/0003227-000108189648/image/0003227-000108189648.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_d407",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_d407/d407-1/0000387-000012946800/image/0000387-000012946800.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_d407",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_d407/d407-1/0001618-000054204996/image/0001618-000054204996.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_d407",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_d407/d407-1/0000004-000000110172/image/0000004-000000110172.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_pittsburg",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_pittsburg/hotel_pittsburg_scan1_2012_dec_12/0001602-000053662527/image/0001602-000053662527.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_pittsburg",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_pittsburg/hotel_pittsburg_scan1_2012_dec_12/0002294-000076889115/image/0002294-000076889115.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_pittsburg",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_pittsburg/hotel_pittsburg_scan1_2012_dec_12/0001835-000061505271/image/0001835-000061505271.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "home_pt",
+      "image_member": "SUNRGBD/xtion/sun3ddata/home_pt/home_pt_scan1_2012_oct_19/0002046-000068540220/image/0002046-000068540220.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "home_pt",
+      "image_member": "SUNRGBD/xtion/sun3ddata/home_pt/home_pt_scan1_2012_oct_19/0006499-000217820484/image/0006499-000217820484.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "home_pt",
+      "image_member": "SUNRGBD/xtion/sun3ddata/home_pt/home_pt_scan1_2012_oct_19/0001291-000043235640/image/0001291-000043235640.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_masseeh_flr4a",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_flr4a/dorm_masseeh_flr4_scan1_oct_26_2012_erika/0006626-000295544088/image/0006626-000295544088.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_masseeh_flr4a",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_flr4a/dorm_masseeh_flr4_scan1_oct_26_2012_erika/0008074-000359291520/image/0008074-000359291520.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_masseeh_flr4a",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_flr4a/dorm_masseeh_flr4_scan1_oct_26_2012_erika/0012543-000555293088/image/0012543-000555293088.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g460",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g460/g460_1/0003202-000107421521/image/0003202-000107421521.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g460",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g460/g460_1/0002508-000084127901/image/0002508-000084127901.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g460",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g460/g460_1/0001629-000054667337/image/0001629-000054667337.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_gym_z_squash",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_gym_z_squash/gym_z_squash_scan1_oct_26_2012_erika/0000966-000041157648/image/0000966-000041157648.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_gym_z_squash",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_gym_z_squash/gym_z_squash_scan1_oct_26_2012_erika/0000483-000020612340/image/0000483-000020612340.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_gym_z_squash",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_gym_z_squash/gym_z_squash_scan1_oct_26_2012_erika/0003687-000154240632/image/0003687-000154240632.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g442",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g442/g442_1/0000804-000026958954/image/0000804-000026958954.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g442",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g442/g442_1/0003108-000104179818/image/0003108-000104179818.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g442",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g442/g442_1/0002762-000092583282/image/0002762-000092583282.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_barcelona",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_barcelona/scan1_2012_july_23/0000801-000111668999/image/0000801-000111668999.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_barcelona",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_barcelona/scan1_2012_july_23/0000263-000083103996/image/0000263-000083103996.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_barcelona",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_barcelona/scan1_2012_july_23/0001611-000166005997/image/0001611-000166005997.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85_basement",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85_basement/wg_small_lounge_1/0000695-000023315084/image/0000695-000023315084.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85_basement",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85_basement/wg_big_lounge_1/0004368-000146397888/image/0004368-000146397888.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85_basement",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85_basement/wg_small_lounge_1/0001094-000036687968/image/0001094-000036687968.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_d451",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_d451/d451-1/0005457-000182889010/image/0005457-000182889010.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_d451",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_d451/d451-1/0002323-000077849866/image/0002323-000077849866.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_d451",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_d451/d451-1/0003346-000112136734/image/0003346-000112136734.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g7_lounge",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g7_lounge/g7_lounge_1/0005210-000174584844/image/0005210-000174584844.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g7_lounge",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g7_lounge/g7_lounge_1/0001973-000066093552/image/0001973-000066093552.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g7_lounge",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g7_lounge/g7_lounge_1/0006720-000225194004/image/0006720-000225194004.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_umd",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_umd/maryland_hotel1/0001800-000060295284/image/0001800-000060295284.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_umd",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_umd/maryland_hotel1/0000316-000010557540/image/0000316-000010557540.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_umd",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_umd/maryland_hotel1/0004964-000166339908/image/0004964-000166339908.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g725",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g725/g725_1/0002870-000096193519/image/0002870-000096193519.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g725",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g725/g725_1/0000736-000024670375/image/0000736-000024670375.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g725",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g725/g725_1/0000602-000020179231/image/0000602-000020179231.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_bm_4",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_bm_4/brown_bm_4/0001390-000046889064/image/0001390-000046889064.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_bm_4",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_bm_4/brown_bm_4/0002432-000081812736/image/0002432-000081812736.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_bm_4",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_bm_4/brown_bm_4/0001599-000053893908/image/0001599-000053893908.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hyatt_cambridge",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hyatt_cambridge/hyatt_cambridge/0014056-000471100896/image/0014056-000471100896.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hyatt_cambridge",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hyatt_cambridge/hyatt_cambridge/0001885-000063144144/image/0001885-000063144144.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hyatt_cambridge",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hyatt_cambridge/hyatt_cambridge/0013755-000461012580/image/0013755-000461012580.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85k1",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85k1/scan_1/0008939-000299576363/image/0008939-000299576363.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85k1",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85k1/scan_1/0000346-000011573375/image/0000346-000011573375.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85k1",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85k1/scan_1/0004534-000151938383/image/0004534-000151938383.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85_lounge1",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85_lounge1/wg_lounge1_1/0003850-000129069259/image/0003850-000129069259.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85_lounge1",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85_lounge1/wg_lounge1_1/0002682-000089922571/image/0002682-000089922571.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85_lounge1",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85_lounge1/wg_lounge1_1/0002080-000069745939/image/0002080-000069745939.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_lab_koch",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_lab_koch/lab_koch_chem_nov_2_2012_scan1_erika/0000021-000000804384/image/0000021-000000804384.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_lab_koch",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_lab_koch/lab_koch_hood_nov_2_2012_scan1_erika/0001538-000065701966/image/0001538-000065701966.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_lab_koch",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_lab_koch/lab_koch_bench_nov_2_2012_scan1_erika/0001886-000083393935/image/0001886-000083393935.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_3_133",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_3_133/classroom_3133_nov_6_2012_scan1_erika/0000414-000017495352/image/0000414-000017495352.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_3_133",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_3_133/classroom_3133_nov_6_2012_scan1_erika/0003665-000160239996/image/0003665-000160239996.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_3_133",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_3_133/classroom_3133_nov_6_2012_scan1_erika/0000556-000023997456/image/0000556-000023997456.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_robotics_lab",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_robotics_lab/hv_s1_2/0000068-000002308706/image/0000068-000002308706.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_robotics_lab",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_robotics_lab/hv_s1_1/0000514-000017249047/image/0000514-000017249047.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_robotics_lab",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_robotics_lab/hv_s1_1/0000200-000006725023/image/0000200-000006725023.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_ucsd",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_ucsd/la1/0000988-000033147324/image/0000988-000033147324.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_ucsd",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_ucsd/la1/0000007-000000201096/image/0000007-000000201096.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_ucsd",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_ucsd/la1/0003516-000117875772/image/0003516-000117875772.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "home_ag",
+      "image_member": "SUNRGBD/xtion/sun3ddata/home_ag/apartment_ag_nov_7_2012_scan1_erika/0000970-000040793573/image/0000970-000040793573.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "home_ag",
+      "image_member": "SUNRGBD/xtion/sun3ddata/home_ag/apartment_ag_nov_7_2012_scan1_erika/0004433-000187493105/image/0004433-000187493105.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "home_ag",
+      "image_member": "SUNRGBD/xtion/sun3ddata/home_ag/apartment_ag_nov_7_2012_scan1_erika/0013295-000570681533/image/0013295-000570681533.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g431",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g431/g431_1/0002844-000095290599/image/0002844-000095290599.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g431",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g431/g431_1/0001502-000050312127/image/0001502-000050312127.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g431",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g431/g431_1/0000836-000027990471/image/0000836-000027990471.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w16",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w16/kresge_back/0003982-000172851446/image/0003982-000172851446.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w16",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w16/kresge_back/0014287-000618379634/image/0014287-000618379634.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w16",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w16/kresge_stage/0000832-000034856640/image/0000832-000034856640.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "home_ts",
+      "image_member": "SUNRGBD/xtion/sun3ddata/home_ts/apartment_ts_oct_31_2012_scan1_erika/0002212-000089327299/image/0002212-000089327299.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "home_ts",
+      "image_member": "SUNRGBD/xtion/sun3ddata/home_ts/apartment_ts_oct_31_2012_scan1_erika/0000331-000013681687/image/0000331-000013681687.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "home_ts",
+      "image_member": "SUNRGBD/xtion/sun3ddata/home_ts/apartment_ts_oct_31_2012_scan1_erika/0006847-000278558635/image/0006847-000278558635.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_next_sj",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_next_sj/dorm_next_sj_oct_30_2012_scan1_erika/0000373-000015953616/image/0000373-000015953616.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_next_sj",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_next_sj/dorm_next_sj_oct_30_2012_scan1_erika/0000655-000027985860/image/0000655-000027985860.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_next_sj",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_next_sj/dorm_next_sj_oct_30_2012_scan1_erika/0000499-000021383208/image/0000499-000021383208.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_cs_10",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_cs_10/brown_cs10/0000004-000000116061/image/0000004-000000116061.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_cs_10",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_cs_10/brown_cs10/0000218-000007556613/image/0000218-000007556613.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_cs_10",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_cs_10/brown_cs10/0000429-000014628489/image/0000429-000014628489.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85_playroom",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85_playroom/westgate_playroom_1/0000641-000021461280/image/0000641-000021461280.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85_playroom",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85_playroom/westgate_playroom_1/0000315-000010535064/image/0000315-000010535064.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85_playroom",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85_playroom/westgate_playroom_1/0000764-000025583748/image/0000764-000025583748.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_bm_1",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_bm_1/brown_bm_1/0005316-000178493131/image/0005316-000178493131.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_bm_1",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_bm_1/brown_bm_1/0000711-000024118435/image/0000711-000024118435.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_bm_1",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_bm_1/brown_bm_1/0005654-000189821539/image/0005654-000189821539.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_6conf",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_6conf/bcs_floor6_conf_1/0002302-000077455476/image/0002302-000077455476.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_6conf",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_6conf/bcs_floor6_conf_1/0002770-000093140964/image/0002770-000093140964.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_6conf",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_6conf/bcs_floor6_conf_1/0002335-000078561504/image/0002335-000078561504.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_gym_wrestling",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_gym_wrestling/gym_wrestling_nov_1_2012_scan1_erika/0001786-000076315932/image/0001786-000076315932.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_gym_wrestling",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_gym_wrestling/gym_wrestling_nov_1_2012_scan1_erika/0001307-000055536012/image/0001307-000055536012.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_gym_wrestling",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_gym_wrestling/gym_wrestling_nov_1_2012_scan1_erika/0001505-000064082592/image/0001505-000064082592.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_36_ti_office",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_36_ti_office/tian_office_1/0000755-000025271064/image/0000755-000025271064.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_36_ti_office",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_36_ti_office/tian_office_1/0001805-000060496380/image/0001805-000060496380.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_36_ti_office",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_36_ti_office/tian_office_1/0001210-000040554360/image/0001210-000040554360.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_5conf_2",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_5conf_2/bcs_floor5_conf_a/0003034-000101711212/image/0003034-000101711212.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_5conf_2",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_5conf_2/bcs_floor5_conf_a/0002479-000083076316/image/0002479-000083076316.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_5conf_2",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_5conf_2/bcs_floor5_conf_a/0001520-000050934472/image/0001520-000050934472.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85j",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85j/j1/0000912-000030533076/image/0000912-000030533076.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85j",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85j/j1/0003331-000111675312/image/0003331-000111675312.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85j",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85j/j1/0005638-000188996724/image/0005638-000188996724.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_pool",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_pool/pool_1/0001970-000066002779/image/0001970-000066002779.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_pool",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_pool/pool_1/0000363-000012142567/image/0000363-000012142567.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_pool",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_pool/pool_1/0001461-000048943135/image/0001461-000048943135.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "home_rz",
+      "image_member": "SUNRGBD/xtion/sun3ddata/home_rz/home_rz_scan1_2012_oct_31/0016981-000569400534/image/0016981-000569400534.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "home_rz",
+      "image_member": "SUNRGBD/xtion/sun3ddata/home_rz/home_rz_scan1_2012_oct_31/0030162-001011275478/image/0030162-001011275478.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "home_rz",
+      "image_member": "SUNRGBD/xtion/sun3ddata/home_rz/home_rz_scan1_2012_oct_31/0021541-000722233494/image/0021541-000722233494.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_casarural",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_casarural/casarural_scan1_2012_july_22/0001486-000173022995/image/0001486-000173022995.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_casarural",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_casarural/casarural_scan1_2012_july_22/0000213-000076808998/image/0000213-000076808998.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_casarural",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_casarural/casarural_scan1_2012_july_22/0001369-000157210007/image/0001369-000157210007.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_mcc_nk",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_nk/dorm_mcc_nk_oct_31_2012_scan1_erika/0000003-000000134064/image/0000003-000000134064.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_mcc_nk",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_nk/dorm_mcc_nk_oct_31_2012_scan1_erika/0003544-000160575156/image/0003544-000160575156.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_mcc_nk",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_nk/dorm_mcc_nk_oct_31_2012_scan1_erika/0003998-000181221012/image/0003998-000181221012.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_c8",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_c8/hv_c8_2/0001654-000055502496/image/0001654-000055502496.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_c8",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_c8/hv_c8_3/0000022-000000804384/image/0000022-000000804384.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_c8",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_c8/hv_c8_2/0001844-000061870536/image/0001844-000061870536.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_c3",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_c3/hv_c3_1/0001397-000046822524/image/0001397-000046822524.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_c3",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_c3/hv_c3_1/0000549-000018400956/image/0000549-000018400956.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_c3",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_c3/hv_c3_2/0000249-000008311968/image/0000249-000008311968.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85_10",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85_10/10_1/0001421-000047592720/image/0001421-000047592720.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85_10",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85_10/10_1/0002338-000078326892/image/0002338-000078326892.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85_10",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85_10/10_1/0000422-000014110236/image/0000422-000014110236.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_cs_7",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_cs_7/brown_cs7/0002021-000067941622/image/0002021-000067941622.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_cs_7",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_cs_7/brown_cs7/0001441-000048502342/image/0001441-000048502342.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_cs_7",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_cs_7/brown_cs7/0000004-000000105238/image/0000004-000000105238.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_mcc_wph",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_wph/dorm_mcc_wph_oct_31_2012_scan1_erika/0002178-000095827766/image/0002178-000095827766.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_mcc_wph",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_wph/dorm_mcc_wph_oct_31_2012_scan1_erika/0006762-000300845138/image/0006762-000300845138.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_mcc_wph",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_wph/dorm_mcc_wph_oct_31_2012_scan1_erika/0007393-000329836478/image/0007393-000329836478.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_c5",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_c5/hv_c5_2/0000397-000013305852/image/0000397-000013305852.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_c5",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_c5/hv_c5_1/0000004-000000124122/image/0000004-000000124122.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_c5",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_c5/hv_c5_1/0001255-000042052638/image/0001255-000042052638.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_144",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_144/classroom_32144_nov_2_2012_scan1_erika/0008250-000370890563/image/0008250-000370890563.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_144",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_144/classroom_32144_nov_2_2012_scan1_erika/0007420-000332548259/image/0007420-000332548259.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_144",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_144/classroom_32144_nov_2_2012_scan1_erika/0007099-000317734187/image/0007099-000317734187.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_123",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_123/123_1/0003759-000125958028/image/0003759-000125958028.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_123",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_123/123_1/0006041-000202441540/image/0006041-000202441540.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_123",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_123/123_1/0004690-000157161424/image/0004690-000157161424.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "Portland_hotel",
+      "image_member": "SUNRGBD/xtion/sun3ddata/Portland_hotel/Portland_hotel/0001632-000054664596/image/0001632-000054664596.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "Portland_hotel",
+      "image_member": "SUNRGBD/xtion/sun3ddata/Portland_hotel/Portland_hotel/0012320-000412883604/image/0012320-000412883604.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "Portland_hotel",
+      "image_member": "SUNRGBD/xtion/sun3ddata/Portland_hotel/Portland_hotel/0001061-000035526960/image/0001061-000035526960.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_cogsci_4",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_cogsci_4/brown_cogsci_4/0000875-000029324310/image/0000875-000029324310.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_cogsci_4",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_cogsci_4/brown_cogsci_4/0000650-000021783210/image/0000650-000021783210.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_cogsci_4",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_cogsci_4/brown_cogsci_4/0000005-000000165390/image/0000005-000000165390.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_cs_4",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_cs_4/brown_cs4/0001789-000060127704/image/0001789-000060127704.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_cs_4",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_cs_4/brown_cs4/0005859-000196537824/image/0005859-000196537824.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_cs_4",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_cs_4/brown_cs4/0001579-000053089344/image/0001579-000053089344.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_next_552",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_next_552/dorm_next_552_oct_30_2012_scan1_erika/0001072-000049637196/image/0001072-000049637196.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_next_552",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_next_552/dorm_next_552_oct_30_2012_scan1_erika/0001433-000066797388/image/0001433-000066797388.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_next_552",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_next_552/dorm_next_552_oct_30_2012_scan1_erika/0000515-000023494716/image/0000515-000023494716.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "home_han",
+      "image_member": "SUNRGBD/xtion/sun3ddata/home_han/apartment_han_oct_31_2012_scan1_erika/0000267-000011127312/image/0000267-000011127312.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "home_han",
+      "image_member": "SUNRGBD/xtion/sun3ddata/home_han/apartment_han_oct_31_2012_scan1_erika/0001884-000078628536/image/0001884-000078628536.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "home_han",
+      "image_member": "SUNRGBD/xtion/sun3ddata/home_han/apartment_han_oct_31_2012_scan1_erika/0006150-000255492468/image/0006150-000255492468.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_4conf_2",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_4conf_2/bcs_floor4_conf_a/0002895-000097354678/image/0002895-000097354678.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_4conf_2",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_4conf_2/bcs_floor4_conf_a/0001727-000058207990/image/0001727-000058207990.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_4conf_2",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_4conf_2/bcs_floor4_conf_a/0000477-000016312990/image/0000477-000016312990.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_florence_ant",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_florence_ant/hotel_room_florence_scan1_2012_oct_09/0009146-000306671400/image/0009146-000306671400.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_florence_ant",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_florence_ant/hotel_room_florence_scan1_2012_oct_09/0002805-000094045896/image/0002805-000094045896.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_florence_ant",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_florence_ant/hotel_room_florence_scan1_2012_oct_09/0000896-000030030336/image/0000896-000030030336.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_computer_lab",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_computer_lab/hv_c1_1/0001991-000066696840/image/0001991-000066696840.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_computer_lab",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_computer_lab/hv_c1_2/0000389-000013004208/image/0000389-000013004208.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_computer_lab",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_computer_lab/hv_c1_1/0002348-000078662052/image/0002348-000078662052.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_ucla_jx",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_ucla_jx/ucla_hotel_1/0005420-000181723752/image/0005420-000181723752.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_ucla_jx",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_ucla_jx/ucla_hotel_1/0000175-000005831784/image/0000175-000005831784.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_ucla_jx",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_ucla_jx/ucla_hotel_1/0006884-000230791176/image/0006884-000230791176.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_mcc_eflr6",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_eflr6/dorm_mcc_eflr6_oct_31_2012_scan1_erika/0009155-000403275747/image/0009155-000403275747.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_mcc_eflr6",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_eflr6/dorm_mcc_eflr6_oct_31_2012_scan1_erika/0002236-000097743891/image/0002236-000097743891.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_mcc_eflr6",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_eflr6/dorm_mcc_eflr6_oct_31_2012_scan1_erika/0009287-000409141047/image/0009287-000409141047.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g9_lounge",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g9_lounge/g9_lounge_1/0001404-000047022948/image/0001404-000047022948.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g9_lounge",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g9_lounge/g9_lounge_1/0005837-000195699924/image/0005837-000195699924.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g9_lounge",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g9_lounge/g9_lounge_1/0002807-000094045896/image/0002807-000094045896.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_ted_lab2",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_ted_lab2/ted_lab_a/0000180-000006210807/image/0000180-000006210807.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_ted_lab2",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_ted_lab2/ted_lab_a/0004170-000139973163/image/0004170-000139973163.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_ted_lab2",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_ted_lab2/ted_lab_a/0012812-000429618435/image/0012812-000429618435.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_grenoble",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_grenoble/scan1_2012_july_11_another/0000143-000171996994/image/0000143-000171996994.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_grenoble",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_grenoble/scan1_2012_july_11/0000280-000535057983/image/0000280-000535057983.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_grenoble",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_grenoble/scan1_2012_july_11/0000008-000416091003/image/0000008-000416091003.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_bm_6",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_bm_6/brown_bm_6/0000536-000018299736/image/0000536-000018299736.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_bm_6",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_bm_6/brown_bm_6/0001082-000036666504/image/0001082-000036666504.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85_basement_bathroom",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85_basement_bathroom/wg_bathroom_1/0000117-000003887856/image/0000117-000003887856.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85_basement_bathroom",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85_basement_bathroom/wg_bathroom_1/0000372-000012434436/image/0000372-000012434436.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85_basement_bathroom",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85_basement_bathroom/wg_bathroom_1/0001035-000034655544/image/0001035-000034655544.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_5_234",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_5_234/classroom_5234_nov_6_2012_scan1_erika/0003424-000151015407/image/0003424-000151015407.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_5_234",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_5_234/classroom_5234_nov_6_2012_scan1_erika/0000068-000002841171/image/0000068-000002841171.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_5_234",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_5_234/classroom_5234_nov_6_2012_scan1_erika/0001345-000059114535/image/0001345-000059114535.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g531",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g531/g531_1/0001872-000062708436/image/0001872-000062708436.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g531",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g531/g531_1/0000504-000016858548/image/0000504-000016858548.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_g531",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_g531/g531_1/0003436-000115127460/image/0003436-000115127460.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_76_459",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_76_459/76-459a/0000294-000009920736/image/0000294-000009920736.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_76_459",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_76_459/76-459a/0001697-000056943684/image/0001697-000056943684.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_76_459",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_76_459/76-459a/0002471-000082885068/image/0002471-000082885068.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85g",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85g/g_0/0002002-000067065516/image/0002002-000067065516.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85g",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85g/g_0/0001213-000040621392/image/0001213-000040621392.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85g",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85g/g_0/0000430-000014378364/image/0000430-000014378364.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_1_242",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_1_242/classroom_1242_oct_30_2012_scan1_erika/0001659-000069622913/image/0001659-000069622913.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_1_242",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_1_242/classroom_1242_oct_30_2012_scan1_erika/0004552-000192727181/image/0004552-000192727181.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_1_242",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_1_242/classroom_1242_oct_30_2012_scan1_erika/0004313-000182538317/image/0004313-000182538317.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_ted_lab1",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_ted_lab1/ted_lab_1/0008928-000299343903/image/0008928-000299343903.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_ted_lab1",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_ted_lab1/ted_lab_1/0000172-000005810775/image/0000172-000005810775.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_ted_lab1",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_ted_lab1/ted_lab_1/0007501-000251516571/image/0007501-000251516571.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85d",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85d/d1/0003056-000102754012/image/0003056-000102754012.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85d",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85d/d1/0003744-000125813020/image/0003744-000125813020.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85d",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85d/d1/0000209-000007300444/image/0000209-000007300444.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_uc",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_uc/scan2/0002058-000215875000/image/0002058-000215875000.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_uc",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_uc/scan2/0006784-000374315002/image/0006784-000374315002.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_uc",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_uc/scan2/0007644-000403144989/image/0007644-000403144989.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_pedraza",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_pedraza/hotel_room_pedraza_2012_nov_25/0003092-000103712437/image/0003092-000103712437.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_pedraza",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_pedraza/hotel_room_pedraza_2012_nov_25/0005529-000185390929/image/0005529-000185390929.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_pedraza",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_pedraza/hotel_room_pedraza_2012_nov_25/0002650-000088898365/image/0002650-000088898365.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_next_jc",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_next_jc/dorm_next_jc_oct_30_2012_scan1_erika/0000275-000013138272/image/0000275-000013138272.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_next_jc",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_next_jc/dorm_next_jc_oct_30_2012_scan1_erika/0000348-000016154712/image/0000348-000016154712.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm_next_jc",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm_next_jc/dorm_next_jc_oct_30_2012_scan1_erika/0001001-000043972992/image/0001001-000043972992.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_sf",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_sf/scan2/0000463-000058026001/image/0000463-000058026001.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_sf",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_sf/scan2/0002424-000124850998/image/0002424-000124850998.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_sf",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_sf/scan1/0009418-000430492004/image/0009418-000430492004.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_5lounge",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_5lounge/bcs_floor5_lounge/0000004-000000120323/image/0000004-000000120323.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_5lounge",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_5lounge/bcs_floor5_lounge/0001982-000066649583/image/0001982-000066649583.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_46_5lounge",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_46_5lounge/bcs_floor5_lounge/0001374-000046271855/image/0001374-000046271855.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_bm_5",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_bm_5/brown_bm_5/0000302-000010389960/image/0000302-000010389960.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_bm_5",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_bm_5/brown_bm_5/0000004-000000100548/image/0000004-000000100548.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_bm_5",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_bm_5/brown_bm_5/0001954-000065791908/image/0001954-000065791908.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_ne47_2conf",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_ne47_2conf/ne47_floor2_conf_room/0000788-000026377092/image/0000788-000026377092.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_ne47_2conf",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_ne47_2conf/ne47_floor2_conf_room/0001746-000058485420/image/0001746-000058485420.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_ne47_2conf",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_ne47_2conf/ne47_floor2_conf_room/0000879-000029427048/image/0000879-000029427048.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_d530",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_d530/d530_scan_oldest/0000215-000153727997/image/0000215-000153727997.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_d530",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_d530/d530_scan_oldest/0000141-000130634995/image/0000141-000130634995.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_d530",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_d530/d530_scan_oldest/0000049-000103632004/image/0000049-000103632004.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85_16",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85_16/16_1/0002119-000070986888/image/0002119-000070986888.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85_16",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85_16/16_1/0006140-000205754724/image/0006140-000205754724.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_w85_16",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_w85_16/16_1/0009387-000314648208/image/0009387-000314648208.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_cogsci_7",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_cogsci_7/brown_cogsci_7/0000445-000015084745/image/0000445-000015084745.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_cogsci_7",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_cogsci_7/brown_cogsci_7/0000005-000000136609/image/0000005-000000136609.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "brown_cogsci_7",
+      "image_member": "SUNRGBD/xtion/sun3ddata/brown_cogsci_7/brown_cogsci_7/0001250-000042065125/image/0001250-000042065125.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_dorm3",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_dorm3/corridor/0002340-000078393924/image/0002340-000078393924.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_tea_2",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_tea_2/hv_tea2_1/0000088-000002952858/image/0000088-000002952858.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_tea_2",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_tea_2/hv_tea2_1/0000935-000031340910/image/0000935-000031340910.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "harvard_tea_2",
+      "image_member": "SUNRGBD/xtion/sun3ddata/harvard_tea_2/hv_tea2_2/0000563-000018869508/image/0000563-000018869508.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_pingpong",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_pingpong/pingpong_1/0000837-000028019376/image/0000837-000028019376.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_pingpong",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_pingpong/pingpong_1/0002565-000085935024/image/0002565-000085935024.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_pingpong",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_pingpong/pingpong_1/0000204-000006803748/image/0000204-000006803748.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_hkust",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_hkust/hk_hotel_1/0000340-000011361924/image/0000340-000011361924.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_hkust",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_hkust/hk_hotel_1/0004993-000167378904/image/0004993-000167378904.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_hkust",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_hkust/hk_hotel_1/0000087-000002882376/image/0000087-000002882376.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_stb",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_stb/scan1/0002436-000202360992/image/0002436-000202360992.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_stb",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_stb/scan1/0000129-000124099998/image/0000129-000124099998.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_stb",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_stb/scan1/0003171-000227287994/image/0003171-000227287994.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_m",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_m/scan1/0002385-000359437988/image/0002385-000359437988.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_m",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_m/scan1/0004500-000430582001/image/0004500-000430582001.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "hotel_m",
+      "image_member": "SUNRGBD/xtion/sun3ddata/hotel_m/scan1/0000870-000308325989/image/0000870-000308325989.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_36_ti_lab",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_36_ti_lab/tian_lab_1/0000192-000006421332/image/0000192-000006421332.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_36_ti_lab",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_36_ti_lab/tian_lab_1/0002505-000083943840/image/0002505-000083943840.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_36_ti_lab",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_36_ti_lab/tian_lab_1/0003688-000123593268/image/0003688-000123593268.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_262",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_262/262_1/0001829-000061334280/image/0001829-000061334280.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_262",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_262/262_1/0002524-000084627900/image/0002524-000084627900.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    },
+    {
+      "space": "mit_32_262",
+      "image_member": "SUNRGBD/xtion/sun3ddata/mit_32_262/262_1/0001268-000042531804/image/0001268-000042531804.jpg",
+      "reason": "HTTPSConnectionPool(host='rgbd.cs.princeton.edu', port=443): Max retries exceeded with url: /data/SUNRGBD.zip (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))"
+    }
+  ],
+  "earlier_rgb_hashes_checked": 546,
+  "source_index_sha256": "06873903f7cbd25bb167283f760a473ac49a644346c93d10cb8f80abd2562c4a"
+}
