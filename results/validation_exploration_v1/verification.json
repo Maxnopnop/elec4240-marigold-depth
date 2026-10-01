@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "validation_hashes_checked": 16,
+  "prediction_hashes_and_metrics_checked": 576,
+  "configurations": 12,
+  "timing_rounds": 3,
+  "expanded_validation_predictions_reproduced": 64,
+  "maximum_restoration_difference": 0.0,
+  "repeated_predictions_compared": 384,
+  "maximum_repeat_difference": 0.0,
+  "test_predictions_generated": 0,
+  "checkpoint_and_frozen_sources_verified": true
+}

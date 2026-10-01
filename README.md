@@ -18,6 +18,19 @@ Run or resume the expanded phase with the same environment and external work dir
 
 `run_expanded.py` also accepts `--only lora64_seed29` to run a particular predefined condition. Completed evaluations are skipped only when their configuration, completion hash and local prediction files match. Dataset selection, source-code hashes and training checkpoint hashes are retained for auditing. Changes to frozen training/evaluation code are rejected on resume; use a new versioned experiment directory and protocol for a changed study.
 
+## Validation exploration
+
+The follow-up [inference study](results/validation_exploration_v1/RESULTS.md) tests LoRA merging and 256/512 processing resolution on **validation16 only**, using the fixed LoRA64 seed-17 checkpoint. Twelve configurations each receive three randomized timing rounds (576 predictions); this adds no training or test evaluation. See the [predefined exploration protocol](EXPLORATION_PROTOCOL.md).
+
+Resolution materially changes the interpretation: one-step unmerged LoRA improves from **0.09676** at 256 to **0.07527** at 512, but pretrained Marigold at 512 reaches **0.07362** on the same validation scenes. Thus the low-resolution adaptation advantage does not establish an advantage at higher resolution. BF16 LoRA fusion changes predictions slightly; its measured quality and latency effects are reported separately. These validation findings motivate future experiments and do not replace the frozen expanded test results.
+
+After completing the expanded run, reproduce this study from the repository directory:
+
+```powershell
+python explore_inference.py --assets 'E:\elec4240-marigold-work\assets' --expanded-work 'E:\elec4240-marigold-work\expanded_v1' --work 'E:\elec4240-marigold-work\validation_exploration_v1'
+python summarize_exploration.py --assets 'E:\elec4240-marigold-work\assets' --expanded-work 'E:\elec4240-marigold-work\expanded_v1' --work 'E:\elec4240-marigold-work\validation_exploration_v1'
+```
+
 ## Original pilot setup
 
 - **Data:** 32 training, 8 validation and 24 test frames from NYU Depth V2. One frame per scene; selected scenes are disjoint across splits. The 8-image adaptation set is nested within the 32-image set (25% versus 100% of this pilot's training pool, not of the full dataset).
@@ -80,6 +93,6 @@ Weights, dataset arrays, raw predictions, environments and checkpoints are exclu
 
 ## Course-project interpretation
 
-The original work here is the constrained experiment: controlled trainable-parameter and data-budget comparisons, consistent evaluation, and a measured quality/cost analysis. Merely running a pretrained model would be insufficient. The current pilot establishes an executable starting point; a stronger final project should expand scene coverage, repeat adaptation with several seeds, use validation for a planned learning-rate/step search, and evaluate once on a fixed larger test set. Claims of novelty or general improvement require additional evidence.
+The original work here is the constrained experiment: controlled trainable-parameter and data-budget comparisons, consistent evaluation, and a measured quality/cost analysis. The expanded phase now includes more scenes and three training seeds, with separate validation exploration of inference cost and resolution. A useful next research question is whether adapting at higher resolution preserves or improves the already strong pretrained high-resolution predictions. A future training search should use validation data and reserve new unseen evaluation scenes for any selected configuration. Claims of broad novelty or general improvement require additional evidence.
 
 All model and method sources are acknowledged in [REFERENCES.md](REFERENCES.md). Academic claims should cite the original papers as well as describe this pilot's departures from their training recipes.

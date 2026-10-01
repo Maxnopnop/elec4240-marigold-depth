@@ -1,0 +1,151 @@
+{
+  "version": "validation_exploration_v1",
+  "validation_ids": [
+    1241,
+    969,
+    1301,
+    294,
+    599,
+    654,
+    367,
+    407,
+    738,
+    368,
+    941,
+    826,
+    24,
+    546,
+    450,
+    114
+  ],
+  "checkpoint": "lora64_seed17",
+  "checkpoint_sha256": "9a1afe642240d014f97f71a39ac6e421967d0708f241ed6b61e50c54e8278654",
+  "manifest_sha256": "b35c0afb3c6bea49068bb61609a1f74181cf1654847b7f836f85c98ed1a67ee7",
+  "inference_seed_offset": 17,
+  "warmup_images": 2,
+  "timing_rounds": 3,
+  "orders": [
+    [
+      "unmerged_r256_s1",
+      "merged_r512_s1",
+      "merged_r256_s4",
+      "base_r256_s4",
+      "base_r512_s1",
+      "unmerged_r256_s4",
+      "base_r256_s1",
+      "unmerged_r512_s1",
+      "base_r512_s4",
+      "merged_r256_s1",
+      "merged_r512_s4",
+      "unmerged_r512_s4"
+    ],
+    [
+      "unmerged_r512_s4",
+      "base_r512_s1",
+      "merged_r512_s4",
+      "base_r256_s1",
+      "base_r512_s4",
+      "merged_r512_s1",
+      "unmerged_r256_s1",
+      "unmerged_r512_s1",
+      "merged_r256_s4",
+      "merged_r256_s1",
+      "base_r256_s4",
+      "unmerged_r256_s4"
+    ],
+    [
+      "merged_r512_s4",
+      "base_r256_s1",
+      "unmerged_r256_s1",
+      "merged_r256_s4",
+      "unmerged_r512_s4",
+      "base_r256_s4",
+      "merged_r256_s1",
+      "unmerged_r256_s4",
+      "merged_r512_s1",
+      "base_r512_s4",
+      "unmerged_r512_s1",
+      "base_r512_s1"
+    ]
+  ],
+  "configurations": [
+    {
+      "label": "base_r256_s1",
+      "mode": "base",
+      "resolution": 256,
+      "steps": 1
+    },
+    {
+      "label": "base_r256_s4",
+      "mode": "base",
+      "resolution": 256,
+      "steps": 4
+    },
+    {
+      "label": "base_r512_s1",
+      "mode": "base",
+      "resolution": 512,
+      "steps": 1
+    },
+    {
+      "label": "base_r512_s4",
+      "mode": "base",
+      "resolution": 512,
+      "steps": 4
+    },
+    {
+      "label": "unmerged_r256_s1",
+      "mode": "unmerged",
+      "resolution": 256,
+      "steps": 1
+    },
+    {
+      "label": "unmerged_r256_s4",
+      "mode": "unmerged",
+      "resolution": 256,
+      "steps": 4
+    },
+    {
+      "label": "unmerged_r512_s1",
+      "mode": "unmerged",
+      "resolution": 512,
+      "steps": 1
+    },
+    {
+      "label": "unmerged_r512_s4",
+      "mode": "unmerged",
+      "resolution": 512,
+      "steps": 4
+    },
+    {
+      "label": "merged_r256_s1",
+      "mode": "merged",
+      "resolution": 256,
+      "steps": 1
+    },
+    {
+      "label": "merged_r256_s4",
+      "mode": "merged",
+      "resolution": 256,
+      "steps": 4
+    },
+    {
+      "label": "merged_r512_s1",
+      "mode": "merged",
+      "resolution": 512,
+      "steps": 1
+    },
+    {
+      "label": "merged_r512_s4",
+      "mode": "merged",
+      "resolution": 512,
+      "steps": 4
+    }
+  ],
+  "protocol_sha256": "4d5f78f6dd2f7c10f202d5dc79b4b7c234b9936b5cf83b93f85ba54886b5796a",
+  "source_sha256": {
+    "explore_inference.py": "e4cb5bcf2c71fa218b48f10d5fb7589da35b74d2768e8d68ce444a421bcf33e0",
+    "experiment.py": "e7dff5abdbf44e23cfafc7d375805549266fffe8acb2264a8efd437be3ee7e0a",
+    "run_expanded.py": "f82431774fabe83da81ecb56c16f900a77495c1cc088caf4c813f74b5bb9ef07"
+  }
+}
