@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "sample_hashes_checked": 200,
+  "unique_scenes": 200,
+  "fresh_test_scenes": 96,
+  "official_split_membership_checked": true,
+  "pilot_roles_preserved": true,
+  "prediction_metrics_recomputed": 2856,
+  "evaluation_conditions": 21,
+  "pilot_baseline_metric_records_reproduced": 64,
+  "finite_160_step_training_runs": 9,
+  "distinct_checkpoint_hashes": 9,
+  "checkpoint_restoration_checks": [
+    {
+      "run_id": "lora64_seed29",
+      "frame_id": 1241,
+      "max_absolute_prediction_difference": 0.0
+    },
+    {
+      "run_id": "head64_seed29",
+      "frame_id": 1241,
+      "max_absolute_prediction_difference": 0.0
+    }
+  ]
+}

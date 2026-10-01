@@ -1,0 +1,9 @@
+{
+  "condition": "head64_seed43_s4",
+  "images": 136,
+  "metrics_sha256": "60404d23c18a199735a378d99ca655161f562c5c89dd7acd3944bb1ae1eabe0f",
+  "config_sha256": "56960c219205d5a4da340f0e2d7cbcda6dbcdf0fcdfb1cadd8f97592c432d583",
+  "finished_utc": "2026-10-01T00:37:20.126415+00:00",
+  "inference_seed_offset": 17,
+  "denoising_steps": 4
+}

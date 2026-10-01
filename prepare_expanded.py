@@ -8,13 +8,14 @@ import h5py
 import numpy as np
 from scipy.io import loadmat
 from prepare_subset import RangeFile, extract_frame, SPLIT_SHA256
-from download_assets import NYU_URL, SPLIT_URL
+from download_assets import NYU_URL, SPLIT_URL, download
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--assets',required=True)
     p.add_argument('--pilot',default='results/split_manifest.json')
     p.add_argument('--results',default='results/expanded_v1');a=p.parse_args()
     assets=Path(a.assets);out=Path(a.results);out.mkdir(parents=True,exist_ok=True)
+    assets.mkdir(parents=True,exist_ok=True);download(SPLIT_URL,assets/'splits.mat')
     pilot_path=Path(a.pilot);pilot=json.loads(pilot_path.read_text())
     pilot_sha=hashlib.sha256(pilot_path.read_bytes()).hexdigest()
     assert hashlib.sha256((assets/'splits.mat').read_bytes()).hexdigest()==SPLIT_SHA256

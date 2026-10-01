@@ -1,0 +1,36 @@
+{
+  "version": "expanded_v1",
+  "resolution": 256,
+  "training_steps": 160,
+  "training_seeds": [
+    17,
+    29,
+    43
+  ],
+  "inference_seed_offset": 17,
+  "denoising_steps": [
+    1,
+    4
+  ],
+  "lr": 0.0001,
+  "rank": 4,
+  "batch_size": 1,
+  "train_sizes": [
+    32,
+    64
+  ],
+  "model_id": "prs-eth/marigold-depth-v1-1",
+  "model_revision": "9571e7123e258cf052b4e54241f17971c290e9a8",
+  "expert_id": "depth-anything/Depth-Anything-V2-Metric-Indoor-Small-hf",
+  "expert_revision": "8078d68a9c75a972131914f6afd0c1723be0da7f",
+  "run_id": "lora32_seed29",
+  "mode": "lora",
+  "train_images": 32,
+  "train_seed": 29,
+  "manifest_sha256": "b35c0afb3c6bea49068bb61609a1f74181cf1654847b7f836f85c98ed1a67ee7",
+  "protocol_sha256": "d45dc1094f7a962907f0692630bd04dc2618bb1b82b37abac419d020bb67bd0e",
+  "source_sha256": {
+    "run_expanded.py": "f82431774fabe83da81ecb56c16f900a77495c1cc088caf4c813f74b5bb9ef07",
+    "experiment.py": "e7dff5abdbf44e23cfafc7d375805549266fffe8acb2264a8efd437be3ee7e0a"
+  }
+}

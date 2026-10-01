@@ -1,0 +1,9 @@
+{
+  "condition": "expert",
+  "images": 136,
+  "metrics_sha256": "4ac17a370533492f3b3216348090616244823b0c2fdfafc0ecdd993a5a827338",
+  "config_sha256": "b9db152f6ad853b0c916e461d1890f094b19bf976e1f55e660f8e9c51b0d4895",
+  "finished_utc": "2026-10-01T00:37:29.178871+00:00",
+  "inference_seed_offset": 17,
+  "denoising_steps": null
+}

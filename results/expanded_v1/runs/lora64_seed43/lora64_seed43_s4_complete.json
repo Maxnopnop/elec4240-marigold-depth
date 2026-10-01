@@ -1,0 +1,9 @@
+{
+  "condition": "lora64_seed43_s4",
+  "images": 136,
+  "metrics_sha256": "4d9d1be1cfb82312b88006471cb338a56dd28f19eec9bf11df1c720523be0e34",
+  "config_sha256": "46f051e4af742fdaf0a385f1fe24a92cea592514baa27358fdac8a5f4b3ce084",
+  "finished_utc": "2026-10-01T00:34:53.065843+00:00",
+  "inference_seed_offset": 17,
+  "denoising_steps": 4
+}

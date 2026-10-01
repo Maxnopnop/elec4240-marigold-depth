@@ -1,0 +1,17 @@
+{
+  "state": "requested_runs_finished",
+  "runs": [
+    "base",
+    "lora32_seed17",
+    "lora32_seed29",
+    "lora32_seed43",
+    "lora64_seed17",
+    "lora64_seed29",
+    "lora64_seed43",
+    "head64_seed17",
+    "head64_seed29",
+    "head64_seed43",
+    "expert"
+  ],
+  "updated_utc": "2026-10-01T00:44:41.865650+00:00"
+}

@@ -1,0 +1,9 @@
+# Source hashes must survive Windows/Linux checkouts.
+.gitattributes text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.ps1 text eol=crlf
+# Manifests and completion records use byte-level SHA256 provenance.
+*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+*.csv text eol=lf
+*.png binary

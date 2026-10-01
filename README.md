@@ -1,8 +1,24 @@
 # ELEC4240: Low-cost adaptation of Marigold for indoor depth
 
-A local course-project pilot that measures the accuracy and compute cost of adapting a diffusion-based depth model on an 8 GB laptop GPU. The starting point is the public **Marigold Depth v1.1** checkpoint. The project is inspired by transferring image generators to perception, including Vision Banana, but does not implement Vision Banana.
+A local course-project study that measures the accuracy and compute cost of adapting a diffusion-based depth model on an 8 GB laptop GPU. The starting point is the public **Marigold Depth v1.1** checkpoint. The project is inspired by transferring image generators to perception, including Vision Banana, but does not implement Vision Banana.
 
-## What was run
+## Expanded evaluation
+
+The completed expanded phase preserves the pilot and extends it to **64 training, 16 validation and 120 test scenes**, with **96 previously unused test scenes as the primary evaluation**. It repeats LoRA32, LoRA64 and output-head64 adaptation with training seeds 17, 29 and 43, at 160 optimizer steps. Each trained checkpoint is evaluated at both 1 and 4 denoising steps. Inference noise stays fixed independently of the training seed. There are nine adaptation runs and 21 evaluation conditions, including the original model and the specialist reference.
+
+See the [frozen expanded protocol](EXPANDED_PROTOCOL.md), [expanded results](results/expanded_v1/RESULTS.md), and [expanded verification](results/expanded_v1/verification.json). Mean and sample SD across training seeds are reported separately from paired scene-bootstrap intervals. Pilot results below remain the original measurements; comparisons between phases also change the optimization budget and evaluation cohort.
+
+On the fresh 96 test scenes, one-step LoRA64 reached **0.10697 +/- 0.00108 AbsRel** across three training seeds, versus **0.13585** for the one-step pretrained model (21.3% lower). LoRA32 reached **0.10913 +/- 0.00052**; the small LoRA64-versus-LoRA32 difference has a paired scene interval crossing zero. One-step inference outperformed four-step inference in this setup. The specialist reference remained best at **0.10089**, with different prior supervision. All **2,856** saved predictions, **200** data hashes and all nine training records were checked; LoRA and output-head checkpoint restoration reproduced saved predictions exactly on a fixed validation image.
+
+Run or resume the expanded phase with the same environment and external work directory:
+
+```powershell
+.\run_expanded.ps1 -Python "$PWD\.venv\Scripts\python.exe" -WorkDir 'E:\elec4240-marigold-work'
+```
+
+`run_expanded.py` also accepts `--only lora64_seed29` to run a particular predefined condition. Completed evaluations are skipped only when their configuration, completion hash and local prediction files match. Dataset selection, source-code hashes and training checkpoint hashes are retained for auditing. Changes to frozen training/evaluation code are rejected on resume; use a new versioned experiment directory and protocol for a changed study.
+
+## Original pilot setup
 
 - **Data:** 32 training, 8 validation and 24 test frames from NYU Depth V2. One frame per scene; selected scenes are disjoint across splits. The 8-image adaptation set is nested within the 32-image set (25% versus 100% of this pilot's training pool, not of the full dataset).
 - **Controlled comparisons:** pretrained Marigold; rank-4 attention LoRA with 8 or 32 images; output-convolution-only adaptation with 32 images. All adaptations use 80 optimizer steps and one training seed.
