@@ -1,0 +1,226 @@
+{
+  "status": "passed",
+  "training_frame_ids": [
+    349,
+    401
+  ],
+  "source_sha256": "15466ee5b954c018684a30ea686782292b801d5984085ec869c6246224d5dd44",
+  "runs": [
+    {
+      "mode": "low256",
+      "seed": 17,
+      "steps": 4,
+      "train_images": 2,
+      "training_seconds": 1.4544653000002654,
+      "peak_allocated_mib": 2415.9189453125,
+      "trainable_parameters": 829952,
+      "teacher_weight": 0,
+      "history": [
+        {
+          "step": 1,
+          "resolution": 256,
+          "sample_index": 1,
+          "timestep": 667,
+          "loss": 0.27015578746795654,
+          "supervised_loss": 0.27015578746795654,
+          "prior_loss": 0.0,
+          "gradient_norm": 1.4316470623016357
+        },
+        {
+          "step": 2,
+          "resolution": 256,
+          "sample_index": 0,
+          "timestep": 318,
+          "loss": 0.3015838861465454,
+          "supervised_loss": 0.3015838861465454,
+          "prior_loss": 0.0,
+          "gradient_norm": 1.014170527458191
+        },
+        {
+          "step": 3,
+          "resolution": 256,
+          "sample_index": 1,
+          "timestep": 19,
+          "loss": 0.7077799439430237,
+          "supervised_loss": 0.7077799439430237,
+          "prior_loss": 0.0,
+          "gradient_norm": 0.7738151550292969
+        },
+        {
+          "step": 4,
+          "resolution": 256,
+          "sample_index": 0,
+          "timestep": 616,
+          "loss": 0.37551113963127136,
+          "supervised_loss": 0.37551113963127136,
+          "prior_loss": 0.0,
+          "gradient_norm": 2.8116726875305176
+        }
+      ],
+      "restoration_max_difference": 0.0,
+      "inference_512_peak_mib": 2958.8154296875
+    },
+    {
+      "mode": "high512",
+      "seed": 17,
+      "steps": 4,
+      "train_images": 2,
+      "training_seconds": 0.794406799999706,
+      "peak_allocated_mib": 2510.49609375,
+      "trainable_parameters": 829952,
+      "teacher_weight": 0,
+      "history": [
+        {
+          "step": 1,
+          "resolution": 512,
+          "sample_index": 1,
+          "timestep": 667,
+          "loss": 0.21077582240104675,
+          "supervised_loss": 0.21077582240104675,
+          "prior_loss": 0.0,
+          "gradient_norm": 0.8435972929000854
+        },
+        {
+          "step": 2,
+          "resolution": 512,
+          "sample_index": 0,
+          "timestep": 318,
+          "loss": 0.23204317688941956,
+          "supervised_loss": 0.23204317688941956,
+          "prior_loss": 0.0,
+          "gradient_norm": 0.3809182345867157
+        },
+        {
+          "step": 3,
+          "resolution": 512,
+          "sample_index": 1,
+          "timestep": 19,
+          "loss": 0.6488749384880066,
+          "supervised_loss": 0.6488749384880066,
+          "prior_loss": 0.0,
+          "gradient_norm": 0.6625019907951355
+        },
+        {
+          "step": 4,
+          "resolution": 512,
+          "sample_index": 0,
+          "timestep": 616,
+          "loss": 0.28589749336242676,
+          "supervised_loss": 0.28589749336242676,
+          "prior_loss": 0.0,
+          "gradient_norm": 1.0845917463302612
+        }
+      ],
+      "restoration_max_difference": 0.0,
+      "inference_512_peak_mib": 2959.8154296875
+    },
+    {
+      "mode": "mixed",
+      "seed": 17,
+      "steps": 4,
+      "train_images": 2,
+      "training_seconds": 0.9561923000001116,
+      "peak_allocated_mib": 2510.99609375,
+      "trainable_parameters": 829952,
+      "teacher_weight": 0,
+      "history": [
+        {
+          "step": 1,
+          "resolution": 256,
+          "sample_index": 1,
+          "timestep": 667,
+          "loss": 0.27015578746795654,
+          "supervised_loss": 0.27015578746795654,
+          "prior_loss": 0.0,
+          "gradient_norm": 1.4303443431854248
+        },
+        {
+          "step": 2,
+          "resolution": 512,
+          "sample_index": 0,
+          "timestep": 318,
+          "loss": 0.23263351619243622,
+          "supervised_loss": 0.23263351619243622,
+          "prior_loss": 0.0,
+          "gradient_norm": 0.38514983654022217
+        },
+        {
+          "step": 3,
+          "resolution": 256,
+          "sample_index": 1,
+          "timestep": 19,
+          "loss": 0.7102808952331543,
+          "supervised_loss": 0.7102808952331543,
+          "prior_loss": 0.0,
+          "gradient_norm": 0.8264042139053345
+        },
+        {
+          "step": 4,
+          "resolution": 512,
+          "sample_index": 0,
+          "timestep": 616,
+          "loss": 0.29359936714172363,
+          "supervised_loss": 0.29359936714172363,
+          "prior_loss": 0.0,
+          "gradient_norm": 1.1236883401870728
+        }
+      ],
+      "restoration_max_difference": 0.0,
+      "inference_512_peak_mib": 2960.3154296875
+    },
+    {
+      "mode": "mixed_prior",
+      "seed": 17,
+      "steps": 4,
+      "train_images": 2,
+      "training_seconds": 1.2368227999995725,
+      "peak_allocated_mib": 2511.078125,
+      "trainable_parameters": 829952,
+      "teacher_weight": 0.1,
+      "history": [
+        {
+          "step": 1,
+          "resolution": 256,
+          "sample_index": 1,
+          "timestep": 667,
+          "loss": 0.27015578746795654,
+          "supervised_loss": 0.27015578746795654,
+          "prior_loss": 0.0,
+          "gradient_norm": 1.4322500228881836
+        },
+        {
+          "step": 2,
+          "resolution": 512,
+          "sample_index": 0,
+          "timestep": 318,
+          "loss": 0.23251739144325256,
+          "supervised_loss": 0.23251120746135712,
+          "prior_loss": 6.178219337016344e-05,
+          "gradient_norm": 0.3834155201911926
+        },
+        {
+          "step": 3,
+          "resolution": 256,
+          "sample_index": 1,
+          "timestep": 19,
+          "loss": 0.7098089456558228,
+          "supervised_loss": 0.7097862362861633,
+          "prior_loss": 0.00022706847812514752,
+          "gradient_norm": 0.8120730519294739
+        },
+        {
+          "step": 4,
+          "resolution": 512,
+          "sample_index": 0,
+          "timestep": 616,
+          "loss": 0.29327231645584106,
+          "supervised_loss": 0.29315894842147827,
+          "prior_loss": 0.001133734011091292,
+          "gradient_norm": 1.1082932949066162
+        }
+      ],
+      "restoration_max_difference": 0.0,
+      "inference_512_peak_mib": 2960.3154296875
+    }
+  ]
+}
