@@ -8,6 +8,7 @@ from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 import hashlib
 import io
 import json
+import os
 from pathlib import Path
 import time
 import h5py
@@ -23,7 +24,7 @@ class RangeFile(io.RawIOBase):
     def __init__(self, url, cache):
         self.url=url; self.pos=0; self.size=2972037809; self.bs=262144
         self.cache=Path(cache); self.cache.mkdir(parents=True,exist_ok=True)
-        self.blocks={}; self.downloaded=0
+        self.blocks={}; self.downloaded=0; self.session=requests.Session()
     def seek(self,pos,whence=0):
         self.pos=pos if whence==0 else self.pos+pos if whence==1 else self.size+pos
         return self.pos
@@ -38,11 +39,12 @@ class RangeFile(io.RawIOBase):
         start=block*self.bs;end=start+expected-1
         for attempt in range(3):
             try:
-                r=requests.get(self.url,headers={'Range':f'bytes={start}-{end}'},timeout=(20,60))
+                r=self.session.get(self.url,headers={'Range':f'bytes={start}-{end}'},timeout=(20,60))
                 r.raise_for_status()
                 if r.status_code!=206 or len(r.content)!=expected:
                     raise IOError('Server did not honor byte range')
-                path.write_bytes(r.content);self.downloaded+=len(r.content)
+                tmp=path.with_name(path.name+f'.{os.getpid()}.partial')
+                tmp.write_bytes(r.content);os.replace(tmp,path);self.downloaded+=len(r.content)
                 return r.content
             except (requests.RequestException,IOError):
                 if attempt==2:raise
@@ -75,7 +77,9 @@ def extract_frame(args):
             image=f['images'][i].transpose(2,1,0)
             depth=f['depths'][i].T
             assert image.shape==(480,640,3) and depth.shape==(480,640)
-        np.savez_compressed(path,image=image,depth=depth)
+        tmp=path.with_suffix('.npz.partial')
+        with tmp.open('wb') as stream:np.savez_compressed(stream,image=image,depth=depth)
+        os.replace(tmp,path)
     with np.load(path) as sample:
         assert sample['image'].shape==(480,640,3) and sample['depth'].shape==(480,640)
     row['sha256']=hashlib.sha256(path.read_bytes()).hexdigest()
