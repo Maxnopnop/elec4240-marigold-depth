@@ -1,0 +1,1246 @@
+{
+  "target_scenes": 200,
+  "space_seed": 4271,
+  "frame_seed": 4272,
+  "candidate_spaces": [
+    "home_ac",
+    "brown_cs_3",
+    "mit_w85_2floor",
+    "mit_46_6lounge",
+    "mit_36_ti_lab2",
+    "mit_32_g451",
+    "mit_w85_4",
+    "hotel_graz",
+    "mit_32_d507",
+    "hotel_beijing",
+    "harvard_c11",
+    "home_at",
+    "mit_dorm_masseeh_xc",
+    "mit_ne47_huge_office",
+    "mit_32_d466",
+    "brown_cs_2",
+    "brown_bm_3",
+    "mit_w85_8",
+    "mit_w85k2",
+    "hotel_nips2012",
+    "mit_w59_conference",
+    "harvard_tea_1",
+    "brown_cogsci_5",
+    "mit_32_d446",
+    "mit_32_d428",
+    "brown_cogsci_3",
+    "mit_32_g825",
+    "mit_w20_flr4",
+    "mit_3_270",
+    "mit_3_huge_office",
+    "mit_dorm_sh_basement",
+    "mit_w20_athena",
+    "mit_dorm_mcc_flr1",
+    "mit_lab_hj",
+    "mit_dorm_next_dn",
+    "home_ph_cz",
+    "brown_cogsci_8",
+    "mit_76_studyroom",
+    "harvard_tea_3",
+    "mit_dorm_masseeh_wm",
+    "mit_dorm_next_536",
+    "hotel_ucla_ant",
+    "mit_32_d475a",
+    "home_bksh",
+    "brown_cs_9",
+    "mit_32_124",
+    "mit_ne47_2biolab",
+    "harvard_restroom_2",
+    "home_puigpunyen",
+    "home_amo",
+    "mit_dorm_masseeh_md",
+    "brown_cogsci_1",
+    "harvard_c10",
+    "mit_32_bar",
+    "home_md",
+    "mit_32_lounge_d429",
+    "mit_76_4printroom",
+    "brown_cs_1",
+    "brown_cogsci_6",
+    "hotel_ny",
+    "mit_13_xh_lab2",
+    "mit_13_xh_lab1",
+    "mit_32_d6_lounge",
+    "mit_dorm_mcc_313",
+    "brown_cogsci_2",
+    "mit_46_5conf_1",
+    "mit_76_4kitchen",
+    "mit_1_375",
+    "brown_cs_5",
+    "mit_36_144",
+    "mit_76_417",
+    "mit_w85_5",
+    "mit_lab_16",
+    "harvard_conf_big",
+    "harvard_dq_office",
+    "harvard_restroom_1",
+    "hotel_florence_jx",
+    "harvard_c9",
+    "mit_32_d460",
+    "mit_32_bikeroom",
+    "brown_cs_8",
+    "providence_station",
+    "hotel_mr",
+    "mit_6_120",
+    "mit_46_4conf_1",
+    "mit_w85h",
+    "mit_dorm_ec_tam",
+    "mit_dorm_masseeh_sr",
+    "mit_32_g631",
+    "mit_32_g660",
+    "harvard_c4",
+    "mit_gym_tohoku",
+    "mit_32_lounge_d4_bill",
+    "harvard_c7",
+    "brown_cs_6",
+    "harvard_corridor_lounge",
+    "harvard_c6",
+    "mit_dorm_baker_cj",
+    "harvard_c2",
+    "mit_46_5bathroom",
+    "mit_lab_pdl",
+    "mit_46_6bathroom",
+    "mit_32_g882",
+    "mit_32_g449",
+    "mit_dorm_mcc_wflr7",
+    "mit_32_g5_lounge",
+    "mit_ne47_2corridor",
+    "mit_32_397",
+    "brown_bm_2",
+    "mit_w85_12",
+    "mit_gym_dupont",
+    "mit_34_302",
+    "mit_26_100",
+    "mit_76_4lounge",
+    "mit_32_d463",
+    "harvard_printroom1",
+    "mit_76_458",
+    "mit_w85a",
+    "mit_32_261",
+    "mit_dorm_sh_flr1",
+    "hotel_singapore_2012",
+    "mit_32_d407",
+    "hotel_pittsburg",
+    "home_pt",
+    "mit_dorm_masseeh_flr4a",
+    "mit_32_g460",
+    "mit_gym_z_squash",
+    "mit_32_g442",
+    "hotel_barcelona",
+    "mit_w85_basement",
+    "mit_32_d451",
+    "mit_32_g7_lounge",
+    "hotel_umd",
+    "mit_32_g725",
+    "brown_bm_4",
+    "hyatt_cambridge",
+    "mit_w85k1",
+    "mit_w85_lounge1",
+    "mit_lab_koch",
+    "mit_3_133",
+    "harvard_robotics_lab",
+    "hotel_ucsd",
+    "home_ag",
+    "mit_32_g431",
+    "mit_w16",
+    "home_ts",
+    "mit_dorm_next_sj",
+    "brown_cs_10",
+    "mit_w85_playroom",
+    "brown_bm_1",
+    "mit_46_6conf",
+    "mit_gym_wrestling",
+    "mit_36_ti_office",
+    "mit_46_5conf_2",
+    "mit_w85j",
+    "mit_32_pool",
+    "home_rz",
+    "hotel_casarural",
+    "mit_dorm_mcc_nk",
+    "harvard_c8",
+    "harvard_c3",
+    "mit_w85_10",
+    "brown_cs_7",
+    "mit_dorm_mcc_wph",
+    "harvard_c5",
+    "mit_32_144",
+    "mit_32_123",
+    "Portland_hotel",
+    "brown_cogsci_4",
+    "brown_cs_4",
+    "mit_dorm_next_552",
+    "home_han",
+    "mit_46_4conf_2",
+    "hotel_florence_ant",
+    "harvard_computer_lab",
+    "hotel_ucla_jx",
+    "mit_dorm_mcc_eflr6",
+    "mit_32_g9_lounge",
+    "mit_46_ted_lab2",
+    "hotel_grenoble",
+    "brown_bm_6",
+    "mit_w85_basement_bathroom",
+    "mit_5_234",
+    "mit_32_g531",
+    "mit_76_459",
+    "mit_w85g",
+    "mit_1_242",
+    "mit_46_ted_lab1",
+    "mit_w85d",
+    "hotel_uc",
+    "hotel_pedraza",
+    "mit_dorm_next_jc",
+    "hotel_sf",
+    "mit_46_5lounge",
+    "brown_bm_5",
+    "mit_ne47_2conf",
+    "mit_32_d530",
+    "mit_w85_16",
+    "brown_cogsci_7",
+    "mit_dorm3",
+    "harvard_tea_2",
+    "mit_32_pingpong",
+    "hotel_hkust",
+    "hotel_stb",
+    "hotel_m",
+    "mit_36_ti_lab",
+    "mit_32_262"
+  ],
+  "inventory_sha256": "06873903f7cbd25bb167283f760a473ac49a644346c93d10cb8f80abd2562c4a",
+  "candidates": {
+    "home_ac": [
+      "SUNRGBD/xtion/sun3ddata/home_ac/home_ac_scan1_2012_aug_22/0001000-000149350006/image/0001000-000149350006.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_ac/home_ac_scan1_2012_aug_22/0007357-000365717987/image/0007357-000365717987.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_ac/home_ac_scan2_2012_aug_22/0001081-000868189026/image/0001081-000868189026.jpg"
+    ],
+    "brown_cs_3": [
+      "SUNRGBD/xtion/sun3ddata/brown_cs_3/brown_cs3/0001769-000059471890/image/0001769-000059471890.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cs_3/brown_cs3/0002071-000069593722/image/0002071-000069593722.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cs_3/brown_cs3/0000917-000030916258/image/0000917-000030916258.jpg"
+    ],
+    "mit_w85_2floor": [
+      "SUNRGBD/xtion/sun3ddata/mit_w85_2floor/k_stair/0001019-000034119288/image/0001019-000034119288.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85_2floor/k_stair/0000008-000000234612/image/0000008-000000234612.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85_2floor/2_stair_4/0000006-000000197551/image/0000006-000000197551.jpg"
+    ],
+    "mit_46_6lounge": [
+      "SUNRGBD/xtion/sun3ddata/mit_46_6lounge/bcs_floor6_long/0008727-000292749297/image/0008727-000292749297.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_46_6lounge/bcs_floor6_long/0003165-000106333305/image/0003165-000106333305.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_46_6lounge/bcs_floor6_long/0004556-000152954061/image/0004556-000152954061.jpg"
+    ],
+    "mit_36_ti_lab2": [
+      "SUNRGBD/xtion/sun3ddata/mit_36_ti_lab2/tian_lab_a/0002431-000081443880/image/0002431-000081443880.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_36_ti_lab2/tian_lab_a/0000830-000027784764/image/0000830-000027784764.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_36_ti_lab2/tian_lab_a/0000318-000010624572/image/0000318-000010624572.jpg"
+    ],
+    "mit_32_g451": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_g451/g451_1/0001966-000065882350/image/0001966-000065882350.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g451/g451_1/0002998-000100470862/image/0002998-000100470862.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g451/g451_1/0000211-000007061770/image/0000211-000007061770.jpg"
+    ],
+    "mit_w85_4": [
+      "SUNRGBD/xtion/sun3ddata/mit_w85_4/4_1/0008065-000270373171/image/0008065-000270373171.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85_4/4_1/0000380-000012735679/image/0000380-000012735679.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85_4/4_1/0002967-000099475087/image/0002967-000099475087.jpg"
+    ],
+    "hotel_graz": [
+      "SUNRGBD/xtion/sun3ddata/hotel_graz/scan1_2012_aug_29/0001865-000187539993/image/0001865-000187539993.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_graz/scan1_2012_aug_29/0003357-000251576004/image/0003357-000251576004.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_graz/scan1_2012_aug_29/0000021-000117317001/image/0000021-000117317001.jpg"
+    ],
+    "mit_32_d507": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_d507/d507_1/0002140-000071690724/image/0002140-000071690724.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_d507/d507_1/0003520-000117942804/image/0003520-000117942804.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_d507/d507_1/0002501-000083790000/image/0002501-000083790000.jpg"
+    ],
+    "hotel_beijing": [
+      "SUNRGBD/xtion/sun3ddata/hotel_beijing/beijing_hotel_1/0000135-000004524660/image/0000135-000004524660.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_beijing/beijing_hotel_1/0001002-000033583032/image/0001002-000033583032.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_beijing/beijing_hotel_1/0003266-000109463256/image/0003266-000109463256.jpg"
+    ],
+    "harvard_c11": [
+      "SUNRGBD/xtion/sun3ddata/harvard_c11/hv_c11_1/0000157-000005262012/image/0000157-000005262012.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_c11/hv_c11_1/0000279-000009350964/image/0000279-000009350964.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_c11/hv_c11_2/0000001-000000020293/image/0000001-000000020293.jpg"
+    ],
+    "home_at": [
+      "SUNRGBD/xtion/sun3ddata/home_at/home_at_scan1_2013_jan_1/0007758-000260151192/image/0007758-000260151192.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_at/home_at_scan1_2013_jan_1/0012196-000408895200/image/0012196-000408895200.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_at/home_at_scan1_2013_jan_1/0007984-000267725808/image/0007984-000267725808.jpg"
+    ],
+    "mit_dorm_masseeh_xc": [
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_xc/dorm_masseeh_xc_oct_29_2012_scan1_erika/0001034-000044341716/image/0001034-000044341716.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_xc/dorm_masseeh_xc_oct_29_2012_scan1_erika/0001716-000075276984/image/0001716-000075276984.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_xc/dorm_masseeh_xc_oct_29_2012_scan1_erika/0000661-000027751296/image/0000661-000027751296.jpg"
+    ],
+    "mit_ne47_huge_office": [
+      "SUNRGBD/xtion/sun3ddata/mit_ne47_huge_office/ne47_floor2_office_2/0001715-000057459548/image/0001715-000057459548.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_ne47_huge_office/ne47_floor2_office_1/0000726-000024299100/image/0000726-000024299100.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_ne47_huge_office/ne47_floor2_office_2/0002695-000090305228/image/0002695-000090305228.jpg"
+    ],
+    "mit_32_d466": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_d466/d466-1/0001982-000066395196/image/0001982-000066395196.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_d466/d466-1/0002570-000086102604/image/0002570-000086102604.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_d466/d466-1/0003072-000102927636/image/0003072-000102927636.jpg"
+    ],
+    "brown_cs_2": [
+      "SUNRGBD/xtion/sun3ddata/brown_cs_2/brown_cs2/0000914-000030834720/image/0000914-000030834720.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cs_2/brown_cs2/0003398-000114088464/image/0003398-000114088464.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cs_2/brown_cs2/0000599-000020277180/image/0000599-000020277180.jpg"
+    ],
+    "brown_bm_3": [
+      "SUNRGBD/xtion/sun3ddata/brown_bm_3/brown_bm_3/0006705-000224992908/image/0006705-000224992908.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_bm_3/brown_bm_3/0005873-000197107596/image/0005873-000197107596.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_bm_3/brown_bm_3/0003200-000107485812/image/0003200-000107485812.jpg"
+    ],
+    "mit_w85_8": [
+      "SUNRGBD/xtion/sun3ddata/mit_w85_8/8_1/0001473-000049364622/image/0001473-000049364622.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85_8/8_1/0005307-000178066062/image/0005307-000178066062.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85_8/8_1/0005807-000194824062/image/0005807-000194824062.jpg"
+    ],
+    "mit_w85k2": [
+      "SUNRGBD/xtion/sun3ddata/mit_w85k2/k1/0007266-000243540903/image/0007266-000243540903.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85k2/k1/0000758-000025385259/image/0000758-000025385259.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85k2/k1/0005051-000169302963/image/0005051-000169302963.jpg"
+    ],
+    "hotel_nips2012": [
+      "SUNRGBD/xtion/sun3ddata/hotel_nips2012/nips_1/0003770-000126339970/image/0003770-000126339970.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_nips2012/nips_1/0009556-000320297062/image/0009556-000320297062.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_nips2012/nips_1/0008930-000299316046/image/0008930-000299316046.jpg"
+    ],
+    "mit_w59_conference": [
+      "SUNRGBD/xtion/sun3ddata/mit_w59_conference/conference_w59_nov_6_2012_scan1_erika/0001127-000046989432/image/0001127-000046989432.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w59_conference/conference_w59_nov_6_2012_scan1_erika/0002852-000122668560/image/0002852-000122668560.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w59_conference/conference_w59_nov_6_2012_scan1_erika/0001379-000058116744/image/0001379-000058116744.jpg"
+    ],
+    "harvard_tea_1": [
+      "SUNRGBD/xtion/sun3ddata/harvard_tea_1/hv_tea1_1/0000131-000004357080/image/0000131-000004357080.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_tea_1/hv_tea1_1/0000430-000014378364/image/0000430-000014378364.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_tea_1/hv_tea1_1/0000386-000012903660/image/0000386-000012903660.jpg"
+    ],
+    "brown_cogsci_5": [
+      "SUNRGBD/xtion/sun3ddata/brown_cogsci_5/brown_cogsci_5/0002966-000099374940/image/0002966-000099374940.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cogsci_5/brown_cogsci_5/0000295-000009853704/image/0000295-000009853704.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cogsci_5/brown_cogsci_5/0000700-000023427684/image/0000700-000023427684.jpg"
+    ],
+    "mit_32_d446": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_d446/d446_1/0004585-000153637344/image/0004585-000153637344.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_d446/d446_1/0000681-000022790880/image/0000681-000022790880.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_d446/d446_1/0000264-000008814708/image/0000264-000008814708.jpg"
+    ],
+    "mit_32_d428": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_d428/bs4j179mmv/0001432-000047961396/image/0001432-000047961396.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_d428/bs4j179mmv/0000501-000016758000/image/0000501-000016758000.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_d428/bs4j179mmv/0002340-000078393924/image/0002340-000078393924.jpg"
+    ],
+    "brown_cogsci_3": [
+      "SUNRGBD/xtion/sun3ddata/brown_cogsci_3/brown_cogsci_3/0001243-000041626872/image/0001243-000041626872.jpg"
+    ],
+    "mit_32_g825": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_g825/g825_1/0000814-000027248508/image/0000814-000027248508.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g825/g825_1/0002785-000093342060/image/0002785-000093342060.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g825/g825_1/0002093-000070115472/image/0002093-000070115472.jpg"
+    ],
+    "mit_w20_flr4": [
+      "SUNRGBD/xtion/sun3ddata/mit_w20_flr4/sc_flr4_oct_29_2012_scan1_erika/0009705-000413129091/image/0009705-000413129091.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w20_flr4/sc_flr4_oct_29_2012_scan1_erika/0011561-000490919727/image/0011561-000490919727.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w20_flr4/sc_flr4_oct_29_2012_scan1_erika/0014634-000619554135/image/0014634-000619554135.jpg"
+    ],
+    "mit_3_270": [
+      "SUNRGBD/xtion/sun3ddata/mit_3_270/classroom_3270_oct_30_2012_scan1_erika/0004445-000193152708/image/0004445-000193152708.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_3_270/classroom_3270_oct_30_2012_scan1_erika/0002654-000115160976/image/0002654-000115160976.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_3_270/classroom_3270_oct_30_2012_scan1_erika/0005370-000233237844/image/0005370-000233237844.jpg"
+    ],
+    "mit_3_huge_office": [
+      "SUNRGBD/xtion/sun3ddata/mit_3_huge_office/cl_1/0008016-000268630740/image/0008016-000268630740.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_3_huge_office/cl_1/0001351-000045246600/image/0001351-000045246600.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_3_huge_office/cl_1/0002859-000095788728/image/0002859-000095788728.jpg"
+    ],
+    "mit_dorm_sh_basement": [
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_sh_basement/dorm_sh_basement_oct_28_2012_scan1_erika/0002835-000116212626/image/0002835-000116212626.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_sh_basement/dorm_sh_basement_oct_28_2012_scan1_erika/0007224-000298506150/image/0007224-000298506150.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_sh_basement/dorm_sh_basement_oct_28_2012_scan1_erika/0003914-000161258130/image/0003914-000161258130.jpg"
+    ],
+    "mit_w20_athena": [
+      "SUNRGBD/xtion/sun3ddata/mit_w20_athena/sc_athena_oct_29_2012_scan1_erika/0006267-000269770284/image/0006267-000269770284.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w20_athena/sc_athena_oct_29_2012_scan1_erika/0000493-000021081564/image/0000493-000021081564.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w20_athena/sc_athena_oct_29_2012_scan1_erika/0009266-000397734372/image/0009266-000397734372.jpg"
+    ],
+    "mit_dorm_mcc_flr1": [
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_flr1/dorm_mcc_flr1_oct_31_2012_scan1_erika/0000004-000000152206/image/0000004-000000152206.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_flr1/dorm_mcc_flr1_oct_31_2012_scan1_erika/0004099-000189651670/image/0004099-000189651670.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_flr1/dorm_mcc_flr1_oct_31_2012_scan1_erika/0001153-000051532234/image/0001153-000051532234.jpg"
+    ],
+    "mit_lab_hj": [
+      "SUNRGBD/xtion/sun3ddata/mit_lab_hj/lab_hj_work_nov_2_2012_scan1_erika/0007865-000316055880/image/0007865-000316055880.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_lab_hj/lab_hj_hall5_nov_2_2012_scan1_erika/0002214-000087912468/image/0002214-000087912468.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_lab_hj/lab_hj_work_nov_2_2012_scan1_erika/0001093-000047994912/image/0001093-000047994912.jpg"
+    ],
+    "mit_dorm_next_dn": [
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_next_dn/dorm_next_dn_oct_30_2012_scan1_erika/0002529-000111511536/image/0002529-000111511536.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_next_dn/dorm_next_dn_oct_30_2012_scan1_erika/0001513-000067069320/image/0001513-000067069320.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_next_dn/dorm_next_dn_oct_30_2012_scan1_erika/0001045-000046356432/image/0001045-000046356432.jpg"
+    ],
+    "home_ph_cz": [
+      "SUNRGBD/xtion/sun3ddata/home_ph_cz/ph_cz_1/0015338-000514034892/image/0015338-000514034892.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_ph_cz/ph_cz_1/0005624-000188460468/image/0005624-000188460468.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_ph_cz/ph_cz_1/0004054-000135840348/image/0004054-000135840348.jpg"
+    ],
+    "brown_cogsci_8": [
+      "SUNRGBD/xtion/sun3ddata/brown_cogsci_8/brown_cogsci_8/0000294-000010021284/image/0000294-000010021284.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cogsci_8/brown_cogsci_8/0000925-000031169880/image/0000925-000031169880.jpg"
+    ],
+    "mit_76_studyroom": [
+      "SUNRGBD/xtion/sun3ddata/mit_76_studyroom/76-1studyroom1/0000976-000032678100/image/0000976-000032678100.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_76_studyroom/76-1studyroom1/0002290-000076718124/image/0002290-000076718124.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_76_studyroom/76-1studyroom1/0001145-000038342304/image/0001145-000038342304.jpg"
+    ],
+    "harvard_tea_3": [
+      "SUNRGBD/xtion/sun3ddata/harvard_tea_3/hv_tea3_1/0000120-000004078546/image/0000120-000004078546.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_tea_3/hv_tea3_1/0000262-000008837818/image/0000262-000008837818.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_tea_3/hv_tea3_1/0000609-000020467870/image/0000609-000020467870.jpg"
+    ],
+    "mit_dorm_masseeh_wm": [
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_wm/dorm_masseeh_wm_oct_29_2012_scan1_erika/0007157-000317136773/image/0007157-000317136773.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_wm/dorm_masseeh_wm_oct_29_2012_scan1_erika/0003350-000152841341/image/0003350-000152841341.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_wm/dorm_masseeh_wm_oct_29_2012_scan1_erika/0000004-000000175961/image/0000004-000000175961.jpg"
+    ],
+    "mit_dorm_next_536": [
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_next_536/dorm_next_536_oct_29_2012_scan1_erika/0000005-000000201700/image/0000005-000000201700.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_next_536/dorm_next_536_oct_29_2012_scan1_erika/0000598-000025975504/image/0000598-000025975504.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_next_536/dorm_next_536_oct_29_2012_scan1_erika/0002449-000109664956/image/0002449-000109664956.jpg"
+    ],
+    "hotel_ucla_ant": [
+      "SUNRGBD/xtion/sun3ddata/hotel_ucla_ant/hotel_room_ucla_scan1_2012_oct_05/0000432-000014512428/image/0000432-000014512428.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_ucla_ant/hotel_room_ucla_scan1_2012_oct_05/0006322-000211921668/image/0006322-000211921668.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_ucla_ant/hotel_room_ucla_scan1_2012_oct_05/0005148-000172573884/image/0005148-000172573884.jpg"
+    ],
+    "mit_32_d475a": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_d475a/d475a-1/0002747-000092034936/image/0002747-000092034936.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_d475a/d475a-1/0005214-000174718908/image/0005214-000174718908.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_d475a/d475a-1/0000006-000000167580/image/0000006-000000167580.jpg"
+    ],
+    "home_bksh": [
+      "SUNRGBD/xtion/sun3ddata/home_bksh/home_bksh_2012_oct_19_scan1/0003685-000156643345/image/0003685-000156643345.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_bksh/home_bksh_2012_oct_19_scan1/0005689-000244756909/image/0005689-000244756909.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_bksh/home_bksh_oct_30_2012_scan2_erika/0010234-000446569544/image/0010234-000446569544.jpg"
+    ],
+    "brown_cs_9": [
+      "SUNRGBD/xtion/sun3ddata/brown_cs_9/brown_cs9/0000589-000019958877/image/0000589-000019958877.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cs_9/brown_cs9/0000194-000006720057/image/0000194-000006720057.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cs_9/brown_cs9/0000429-000014596317/image/0000429-000014596317.jpg"
+    ],
+    "mit_32_124": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_124/124_1/0006015-000201933900/image/0006015-000201933900.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_124/124_1/0004711-000158229036/image/0004711-000158229036.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_124/124_1/0002777-000093409092/image/0002777-000093409092.jpg"
+    ],
+    "mit_ne47_2biolab": [
+      "SUNRGBD/xtion/sun3ddata/mit_ne47_2biolab/ne47_floor2/0000476-000015951164/image/0000476-000015951164.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_ne47_2biolab/ne47_floor2/0022192-000743985716/image/0022192-000743985716.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_ne47_2biolab/ne47_floor2/0000005-000000165128/image/0000005-000000165128.jpg"
+    ],
+    "harvard_restroom_2": [
+      "SUNRGBD/xtion/sun3ddata/harvard_restroom_2/hv_restroom4_1/0001906-000063847980/image/0001906-000063847980.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_restroom_2/hv_restroom4_1/0000216-000007205940/image/0000216-000007205940.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_restroom_2/hv_restroom4_1/0001070-000035828604/image/0001070-000035828604.jpg"
+    ],
+    "home_puigpunyen": [
+      "SUNRGBD/xtion/sun3ddata/home_puigpunyen/home_puigpunyent_scan1_2012_aug_22/0009023-000554046021/image/0009023-000554046021.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_puigpunyen/home_puigpunyent_scan4_2012_dec_23/0000872-000029337670/image/0000872-000029337670.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_puigpunyen/home_puigpunyent_scan4_2012_dec_23/0018114-000607321090/image/0018114-000607321090.jpg"
+    ],
+    "home_amo": [
+      "SUNRGBD/xtion/sun3ddata/home_amo/amo-apt-floor1-1/0001913-000064756572/image/0001913-000064756572.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_amo/amo-apt-floor1-1/0002407-000081615120/image/0002407-000081615120.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_amo/floor1v2/0000760-000025673256/image/0000760-000025673256.jpg"
+    ],
+    "mit_dorm_masseeh_md": [
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_md/dorm_masseeh_md_scan1_oct_26_2012_erika/0001253-000056945830/image/0001253-000056945830.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_md/dorm_masseeh_md_scan1_oct_26_2012_erika/0003950-000180385258/image/0003950-000180385258.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_md/dorm_masseeh_md_scan1_oct_26_2012_erika/0001871-000085300366/image/0001871-000085300366.jpg"
+    ],
+    "brown_cogsci_1": [
+      "SUNRGBD/xtion/sun3ddata/brown_cogsci_1/brown_cogsci_1/0000001-000000001587/image/0000001-000000001587.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cogsci_1/brown_cogsci_1/0001997-000066899523/image/0001997-000066899523.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cogsci_1/brown_cogsci_1/0002257-000075613683/image/0002257-000075613683.jpg"
+    ],
+    "harvard_c10": [
+      "SUNRGBD/xtion/sun3ddata/harvard_c10/hv_c10_1/0000713-000023954726/image/0000713-000023954726.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_c10/hv_c10_1/0000277-000009341750/image/0000277-000009341750.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_c10/hv_c10_2/0000804-000026940480/image/0000804-000026940480.jpg"
+    ],
+    "mit_32_bar": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_bar/bar_1/0003433-000115058743/image/0003433-000115058743.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_bar/bar_1/0001900-000063678715/image/0001900-000063678715.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_bar/bar_1/0000175-000005863615/image/0000175-000005863615.jpg"
+    ],
+    "home_md": [
+      "SUNRGBD/xtion/sun3ddata/home_md/home_md_scan3_2012_july_9/0000833-003383608887/image/0000833-003383608887.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_md/home_md_scan5_2012_aug_20/0001404-000183552002/image/0001404-000183552002.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_md/home_md_scan1_lowres_2012_july_14/0001305-000329790009/image/0001305-000329790009.jpg"
+    ],
+    "mit_32_lounge_d429": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_lounge_d429/d4_lounge_1/0000335-000011194344/image/0000335-000011194344.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_lounge_d429/d4_lounge_1/0002081-000069713280/image/0002081-000069713280.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_lounge_d429/d4_lounge_1/0003315-000111072024/image/0003315-000111072024.jpg"
+    ],
+    "mit_76_4printroom": [
+      "SUNRGBD/xtion/sun3ddata/mit_76_4printroom/76-4printroom1/0002258-000075669308/image/0002258-000075669308.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_76_4printroom/76-4printroom1/0001557-000052174592/image/0001557-000052174592.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_76_4printroom/76-4printroom1/0000977-000032735312/image/0000977-000032735312.jpg"
+    ],
+    "brown_cs_1": [
+      "SUNRGBD/xtion/sun3ddata/brown_cs_1/brown_cs1/0001249-000042005834/image/0001249-000042005834.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cs_1/brown_cs1/0002248-000075488318/image/0002248-000075488318.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cs_1/brown_cs1/0002998-000100625318/image/0002998-000100625318.jpg"
+    ],
+    "brown_cogsci_6": [
+      "SUNRGBD/xtion/sun3ddata/brown_cogsci_6/brown_cogsci_6/0002955-000099249043/image/0002955-000099249043.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cogsci_6/brown_cogsci_6/0003673-000123313531/image/0003673-000123313531.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cogsci_6/brown_cogsci_6/0004997-000167688715/image/0004997-000167688715.jpg"
+    ],
+    "hotel_ny": [
+      "SUNRGBD/xtion/sun3ddata/hotel_ny/hotel_ny_2012_oct_21_scan1/0003405-000142241904/image/0003405-000142241904.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_ny/hotel_ny_2012_oct_21_scan1/0001477-000062708436/image/0001477-000062708436.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_ny/hotel_ny_2012_oct_21_scan1/0002024-000085164156/image/0002024-000085164156.jpg"
+    ],
+    "mit_13_xh_lab2": [
+      "SUNRGBD/xtion/sun3ddata/mit_13_xh_lab2/xh_lab2_1/0002356-000078930180/image/0002356-000078930180.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_13_xh_lab2/xh_lab2_1/0000005-000000134064/image/0000005-000000134064.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_13_xh_lab2/xh_lab2_1/0002139-000071657208/image/0002139-000071657208.jpg"
+    ],
+    "mit_13_xh_lab1": [
+      "SUNRGBD/xtion/sun3ddata/mit_13_xh_lab1/xh_lab1_1/0002852-000095554116/image/0002852-000095554116.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_13_xh_lab1/xh_lab1_1/0000006-000000167580/image/0000006-000000167580.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_13_xh_lab1/xh_lab1_1/0000666-000022288140/image/0000666-000022288140.jpg"
+    ],
+    "mit_32_d6_lounge": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_d6_lounge/d6_lounge_1/0000032-000001072512/image/0000032-000001072512.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_d6_lounge/d6_lounge_1/0005409-000181288044/image/0005409-000181288044.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_d6_lounge/d6_lounge_1/0002843-000095285988/image/0002843-000095285988.jpg"
+    ],
+    "mit_dorm_mcc_313": [
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_313/dorm_mcc_313_oct_31_2012_scan1_erika/0002128-000091898083/image/0002128-000091898083.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_313/dorm_mcc_313_oct_31_2012_scan1_erika/0001985-000086099815/image/0001985-000086099815.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_313/dorm_mcc_313_oct_31_2012_scan1_erika/0000005-000000231823/image/0000005-000000231823.jpg"
+    ],
+    "brown_cogsci_2": [
+      "SUNRGBD/xtion/sun3ddata/brown_cogsci_2/brown_cogsci_2/0001150-000038512712/image/0001150-000038512712.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cogsci_2/brown_cogsci_2/0001356-000045417008/image/0001356-000045417008.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cogsci_2/brown_cogsci_2/0000013-000000405020/image/0000013-000000405020.jpg"
+    ],
+    "mit_46_5conf_1": [
+      "SUNRGBD/xtion/sun3ddata/mit_46_5conf_1/bcs_floor5_conf_1/0002836-000095252472/image/0002836-000095252472.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_46_5conf_1/bcs_floor5_conf_1/0001842-000061937568/image/0001842-000061937568.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_46_5conf_1/bcs_floor5_conf_1/0003038-000102022704/image/0003038-000102022704.jpg"
+    ],
+    "mit_76_4kitchen": [
+      "SUNRGBD/xtion/sun3ddata/mit_76_4kitchen/76-4kitchen1/0001678-000056376960/image/0001678-000056376960.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_76_4kitchen/76-4kitchen1/0001124-000037809096/image/0001124-000037809096.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_76_4kitchen/76-4kitchen1/0000911-000030670188/image/0000911-000030670188.jpg"
+    ],
+    "mit_1_375": [
+      "SUNRGBD/xtion/sun3ddata/mit_1_375/classroom_1375_nov_6_2012_scan1_erika/0002369-000103500436/image/0002369-000103500436.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_1_375/classroom_1375_nov_6_2012_scan1_erika/0003202-000139798264/image/0003202-000139798264.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_1_375/classroom_1375_nov_6_2012_scan1_erika/0000366-000015655000/image/0000366-000015655000.jpg"
+    ],
+    "brown_cs_5": [
+      "SUNRGBD/xtion/sun3ddata/brown_cs_5/brown_cs5/0000781-000026383882/image/0000781-000026383882.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cs_5/brown_cs5/0000634-000021457030/image/0000634-000021457030.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cs_5/brown_cs5/0001788-000060134494/image/0001788-000060134494.jpg"
+    ],
+    "mit_36_144": [
+      "SUNRGBD/xtion/sun3ddata/mit_36_144/classroom_36144_nov_2_2012_scan1_erika/0000813-000033180840/image/0000813-000033180840.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_36_144/classroom_36144_nov_2_2012_scan1_erika/0002487-000104737500/image/0002487-000104737500.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_36_144/classroom_36144_nov_2_2012_scan1_erika/0001332-000053960760/image/0001332-000053960760.jpg"
+    ],
+    "mit_76_417": [
+      "SUNRGBD/xtion/sun3ddata/mit_76_417/76-417a/0004168-000139694688/image/0004168-000139694688.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_76_417/76-417a/0015714-000526703940/image/0015714-000526703940.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_76_417/76-417a/0002835-000094984344/image/0002835-000094984344.jpg"
+    ],
+    "mit_w85_5": [
+      "SUNRGBD/xtion/sun3ddata/mit_w85_5/5_1/0001590-000053331837/image/0001590-000053331837.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85_5/5_1/0000495-000016598301/image/0000495-000016598301.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85_5/5_1/0000007-000000242493/image/0000007-000000242493.jpg"
+    ],
+    "mit_lab_16": [
+      "SUNRGBD/xtion/sun3ddata/mit_lab_16/lab_16_nov_2_2012_scan1_erika/0007957-000341326944/image/0007957-000341326944.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_lab_16/lab_16_nov_2_2012_scan1_erika/0003384-000142007292/image/0003384-000142007292.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_lab_16/lab_16_nov_2_2012_scan1_erika/0003163-000132857424/image/0003163-000132857424.jpg"
+    ],
+    "harvard_conf_big": [
+      "SUNRGBD/xtion/sun3ddata/harvard_conf_big/hv_conf_big_2/0004247-000142443000/image/0004247-000142443000.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_conf_big/hv_conf_big_1/0000125-000004189500/image/0000125-000004189500.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_conf_big/hv_conf_big_2/0000403-000013607496/image/0000403-000013607496.jpg"
+    ],
+    "harvard_dq_office": [
+      "SUNRGBD/xtion/sun3ddata/harvard_dq_office/hv_dq_office_1/0000019-000000745897/image/0000019-000000745897.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_dq_office/hv_dq_office_1/0000929-000031245457/image/0000929-000031245457.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_dq_office/hv_dq_office_2/0001286-000043121886/image/0001286-000043121886.jpg"
+    ],
+    "harvard_restroom_1": [
+      "SUNRGBD/xtion/sun3ddata/harvard_restroom_1/hv_restroom1_1/0000609-000020438188/image/0000609-000020438188.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_restroom_1/hv_restroom1_1/0000009-000000328588/image/0000009-000000328588.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_restroom_1/hv_restroom1_2/0000474-000015853068/image/0000474-000015853068.jpg"
+    ],
+    "hotel_florence_jx": [
+      "SUNRGBD/xtion/sun3ddata/hotel_florence_jx/florence_hotel_another_room/0001208-000040577128/image/0001208-000040577128.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_florence_jx/florence_hotel_another_room/0001474-000049492384/image/0001474-000049492384.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_florence_jx/florence_hotel_another_room/0000990-000033270640/image/0000990-000033270640.jpg"
+    ],
+    "harvard_c9": [
+      "SUNRGBD/xtion/sun3ddata/harvard_c9/hv_c9_2/0000013-000000406487/image/0000013-000000406487.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_c9/hv_c9_1/0000906-000030331980/image/0000906-000030331980.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_c9/hv_c9_2/0000299-000009992063/image/0000299-000009992063.jpg"
+    ],
+    "mit_32_d460": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_d460/d460-1/0001894-000063445788/image/0001894-000063445788.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_d460/d460-1/0003421-000114624720/image/0003421-000114624720.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_d460/d460-1/0000684-000022891428/image/0000684-000022891428.jpg"
+    ],
+    "mit_32_bikeroom": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_bikeroom/bikeroom_1/0000263-000008781192/image/0000263-000008781192.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_bikeroom/bikeroom_1/0001840-000061635924/image/0001840-000061635924.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_bikeroom/bikeroom_1/0000004-000000100548/image/0000004-000000100548.jpg"
+    ],
+    "brown_cs_8": [
+      "SUNRGBD/xtion/sun3ddata/brown_cs_8/brown_cs8/0000749-000025365973/image/0000749-000025365973.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cs_8/brown_cs8/0000940-000031767529/image/0000940-000031767529.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cs_8/brown_cs8/0001998-000067227457/image/0001998-000067227457.jpg"
+    ],
+    "providence_station": [
+      "SUNRGBD/xtion/sun3ddata/providence_station/providence_station/0000040-000001608768/image/0000040-000001608768.jpg"
+    ],
+    "hotel_mr": [
+      "SUNRGBD/xtion/sun3ddata/hotel_mr/scan1/0005002-000216570999/image/0005002-000216570999.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_mr/scan1/0000008-000046165001/image/0000008-000046165001.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_mr/scan1/0002408-000128110001/image/0002408-000128110001.jpg"
+    ],
+    "mit_6_120": [
+      "SUNRGBD/xtion/sun3ddata/mit_6_120/classroom_6120_nov_2_2012_scan1_erika/0002965-000131765796/image/0002965-000131765796.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_6_120/classroom_6120_nov_2_2012_scan1_erika/0003406-000151205076/image/0003406-000151205076.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_6_120/classroom_6120_nov_2_2012_scan1_erika/0003127-000138603060/image/0003127-000138603060.jpg"
+    ],
+    "mit_46_4conf_1": [
+      "SUNRGBD/xtion/sun3ddata/mit_46_4conf_1/bcs_floor4_conf_1/0001837-000061870536/image/0001837-000061870536.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_46_4conf_1/bcs_floor4_conf_1/0000341-000011730600/image/0000341-000011730600.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_46_4conf_1/bcs_floor4_conf_1/0001284-000043336188/image/0001284-000043336188.jpg"
+    ],
+    "mit_w85h": [
+      "SUNRGBD/xtion/sun3ddata/mit_w85h/h2_1/0003771-000126388836/image/0003771-000126388836.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85h/h2_1/0001926-000064551816/image/0001926-000064551816.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85h/h4_1/0000820-000027466587/image/0000820-000027466587.jpg"
+    ],
+    "mit_dorm_ec_tam": [
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_ec_tam/dorm_ec_tam_oct_30_2012_scan1_erika/0001899-000084221432/image/0001899-000084221432.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_ec_tam/dorm_ec_tam_oct_30_2012_scan1_erika/0001032-000046415384/image/0001032-000046415384.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_ec_tam/dorm_ec_tam_oct_30_2012_scan1_erika/0000928-000041957756/image/0000928-000041957756.jpg"
+    ],
+    "mit_dorm_masseeh_sr": [
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_sr/dorm_masseeh_sr_scan1_oct_26_2012_erika/0001606-000074289149/image/0001606-000074289149.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_sr/dorm_masseeh_sr_scan1_oct_26_2012_erika/0001849-000085483493/image/0001849-000085483493.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_sr/dorm_masseeh_sr_scan1_oct_26_2012_erika/0000794-000037388033/image/0000794-000037388033.jpg"
+    ],
+    "mit_32_g631": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_g631/g631_1/0000926-000031025605/image/0000926-000031025605.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g631/g631_1/0000751-000025160305/image/0000751-000025160305.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g631/g631_1/0004133-000138511417/image/0004133-000138511417.jpg"
+    ],
+    "mit_32_g660": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_g660/g660_1/0000434-000014580082/image/0000434-000014580082.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g660/g660_1/0002199-000073735822/image/0002199-000073735822.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g660/g660_1/0005415-000181523278/image/0005415-000181523278.jpg"
+    ],
+    "harvard_c4": [
+      "SUNRGBD/xtion/sun3ddata/harvard_c4/hv_c4_2/0000767-000025676561/image/0000767-000025676561.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_c4/hv_c4_2/0000489-000016359113/image/0000489-000016359113.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_c4/hv_c4_3/0001597-000053494540/image/0001597-000053494540.jpg"
+    ],
+    "mit_gym_tohoku": [
+      "SUNRGBD/xtion/sun3ddata/mit_gym_tohoku/gym_tohoku_oct_28_2012_scan1_erika/0002780-000121776934/image/0002780-000121776934.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_gym_tohoku/gym_tohoku_oct_28_2012_scan1_erika/0002362-000103845874/image/0002362-000103845874.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_gym_tohoku/gym_tohoku_oct_28_2012_scan1_erika/0001305-000056923474/image/0001305-000056923474.jpg"
+    ],
+    "mit_32_lounge_d4_bill": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_lounge_d4_bill/d4_lounge_vision_1/0007318-000245404152/image/0007318-000245404152.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_lounge_d4_bill/d4_lounge_vision_1/0006169-000206894268/image/0006169-000206894268.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_lounge_d4_bill/d4_lounge_vision_1/0000567-000019137636/image/0000567-000019137636.jpg"
+    ],
+    "harvard_c7": [
+      "SUNRGBD/xtion/sun3ddata/harvard_c7/hv_c7_2/0000528-000017662932/image/0000528-000017662932.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_c7/hv_c7_1/0000021-000000670320/image/0000021-000000670320.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_c7/hv_c7_3/0001408-000047278874/image/0001408-000047278874.jpg"
+    ],
+    "brown_cs_6": [
+      "SUNRGBD/xtion/sun3ddata/brown_cs_6/brown_cs6/0000004-000000100548/image/0000004-000000100548.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cs_6/brown_cs6/0002196-000073802232/image/0002196-000073802232.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cs_6/brown_cs6/0000232-000007976808/image/0000232-000007976808.jpg"
+    ],
+    "harvard_corridor_lounge": [
+      "SUNRGBD/xtion/sun3ddata/harvard_corridor_lounge/hv_lounge_corridor2_1/0005332-000178673914/image/0005332-000178673914.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_corridor_lounge/hv_lounge1_2/0001049-000035124768/image/0001049-000035124768.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_corridor_lounge/hv_lounge_corridor_1/0001648-000055430062/image/0001648-000055430062.jpg"
+    ],
+    "harvard_c6": [
+      "SUNRGBD/xtion/sun3ddata/harvard_c6/hv_c6_1/0001222-000040940496/image/0001222-000040940496.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_c6/hv_c6_2/0000700-000023461200/image/0000700-000023461200.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_c6/hv_c6_1/0001512-000050660136/image/0001512-000050660136.jpg"
+    ],
+    "mit_dorm_baker_cj": [
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_baker_cj/dorm_baker_cj_oct_29_2012_scan1_erika/0001221-000052083864/image/0001221-000052083864.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_baker_cj/dorm_baker_cj_oct_29_2012_scan1_erika/0001569-000067199580/image/0001569-000067199580.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_baker_cj/dorm_baker_cj_oct_29_2012_scan1_erika/0001073-000045682308/image/0001073-000045682308.jpg"
+    ],
+    "harvard_c2": [
+      "SUNRGBD/xtion/sun3ddata/harvard_c2/hv_c2_1/0001521-000050944320/image/0001521-000050944320.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_c2/hv_c2_1/0002055-000068841864/image/0002055-000068841864.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_c2/hv_c2_1/0001200-000040185684/image/0001200-000040185684.jpg"
+    ],
+    "mit_46_5bathroom": [
+      "SUNRGBD/xtion/sun3ddata/mit_46_5bathroom/bcs_floor5_bathroom/0001022-000034454448/image/0001022-000034454448.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_46_5bathroom/bcs_floor5_bathroom/0000359-000012233340/image/0000359-000012233340.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_46_5bathroom/bcs_floor5_bathroom/0001347-000045347148/image/0001347-000045347148.jpg"
+    ],
+    "mit_lab_pdl": [
+      "SUNRGBD/xtion/sun3ddata/mit_lab_pdl/lab_pdl_nov_2_2012_scan1_erika/0003339-000146350125/image/0003339-000146350125.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_lab_pdl/lab_pdl_nov_2_2012_scan1_erika/0001751-000077307165/image/0001751-000077307165.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_lab_pdl/lab_pdl_nov_2_2012_scan1_erika/0000383-000016006401/image/0000383-000016006401.jpg"
+    ],
+    "mit_46_6bathroom": [
+      "SUNRGBD/xtion/sun3ddata/mit_46_6bathroom/bcs_floor6_restroom/0000329-000011294892/image/0000329-000011294892.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_46_6bathroom/bcs_floor6_restroom/0001031-000034823124/image/0001031-000034823124.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_46_6bathroom/bcs_floor6_restroom/0000391-000013372884/image/0000391-000013372884.jpg"
+    ],
+    "mit_32_g882": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_g882/g882_1/0001218-000041087755/image/0001218-000041087755.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g882/g882_1/0003980-000133658947/image/0003980-000133658947.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g882/g882_1/0004870-000163488187/image/0004870-000163488187.jpg"
+    ],
+    "mit_32_g449": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_g449/g449_1/0001347-000045112536/image/0001347-000045112536.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g449/g449_1/0003176-000106413300/image/0003176-000106413300.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g449/g449_1/0003469-000116233488/image/0003469-000116233488.jpg"
+    ],
+    "mit_dorm_mcc_wflr7": [
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_wflr7/dorm_mcc_wflr7_oct_31_2012_scan1_erika/0004618-000200469180/image/0004618-000200469180.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_wflr7/dorm_mcc_wflr7_oct_31_2012_scan1_erika/0001619-000069924360/image/0001619-000069924360.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_wflr7/dorm_mcc_wflr7_oct_31_2012_scan1_erika/0002537-000110143560/image/0002537-000110143560.jpg"
+    ],
+    "mit_32_g5_lounge": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_g5_lounge/g5_lounge_1/0000577-000019340858/image/0000577-000019340858.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g5_lounge/g5_lounge_1/0003373-000113051594/image/0003373-000113051594.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g5_lounge/g5_lounge_1/0002025-000067872026/image/0002025-000067872026.jpg"
+    ],
+    "mit_ne47_2corridor": [
+      "SUNRGBD/xtion/sun3ddata/mit_ne47_2corridor/ne47_floor2_corridor/0002584-000086639064/image/0002584-000086639064.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_ne47_2corridor/ne47_floor2_corridor/0000369-000012334092/image/0000369-000012334092.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_ne47_2corridor/ne47_floor2_corridor/0000818-000027416292/image/0000818-000027416292.jpg"
+    ],
+    "mit_32_397": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_397/397_1/0002366-000079282539/image/0002366-000079282539.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_397/397_1/0003244-000108709587/image/0003244-000108709587.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_397/397_1/0000386-000012920859/image/0000386-000012920859.jpg"
+    ],
+    "brown_bm_2": [
+      "SUNRGBD/xtion/sun3ddata/brown_bm_2/brown_bm_2/0000338-000011569815/image/0000338-000011569815.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_bm_2/brown_bm_2/0000658-000022294935/image/0000658-000022294935.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_bm_2/brown_bm_2/0001022-000034494759/image/0001022-000034494759.jpg"
+    ],
+    "mit_w85_12": [
+      "SUNRGBD/xtion/sun3ddata/mit_w85_12/12_1_1/0006380-000214267788/image/0006380-000214267788.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85_12/12_1_1/0006184-000207698652/image/0006184-000207698652.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85_12/12_1_1/0003938-000132421716/image/0003938-000132421716.jpg"
+    ],
+    "mit_gym_dupont": [
+      "SUNRGBD/xtion/sun3ddata/mit_gym_dupont/gym_dupont_nov_1_2012_scan1.erika/0013601-000583848720/image/0013601-000583848720.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_gym_dupont/gym_dupont_nov_1_2012_scan1.erika/0001828-000076785156/image/0001828-000076785156.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_gym_dupont/gym_dupont_nov_1_2012_scan1.erika/0000556-000023059008/image/0000556-000023059008.jpg"
+    ],
+    "mit_34_302": [
+      "SUNRGBD/xtion/sun3ddata/mit_34_302/classroom_34302_oct_30_2012_scan1_erika/0001323-000055173234/image/0001323-000055173234.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_34_302/classroom_34302_oct_30_2012_scan1_erika/0001679-000070288950/image/0001679-000070288950.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_34_302/classroom_34302_oct_30_2012_scan1_erika/0000793-000033119706/image/0000793-000033119706.jpg"
+    ],
+    "mit_26_100": [
+      "SUNRGBD/xtion/sun3ddata/mit_26_100/classroom_26100_nov_2_2012_scan1_erika/0006997-000305722660/image/0006997-000305722660.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_26_100/classroom_26100_nov_2_2012_scan1_erika/0003042-000129193888/image/0003042-000129193888.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_26_100/classroom_26100_nov_2_2012_scan1_erika/0011151-000483726136/image/0011151-000483726136.jpg"
+    ],
+    "mit_76_4lounge": [
+      "SUNRGBD/xtion/sun3ddata/mit_76_4lounge/76-4lounge/0000801-000026835123/image/0000801-000026835123.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_76_4lounge/76-4lounge/0000101-000003373923/image/0000101-000003373923.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_76_4lounge/76-4lounge/0000394-000013194111/image/0000394-000013194111.jpg"
+    ],
+    "mit_32_d463": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_d463/d463_1/0004263-000142894552/image/0004263-000142894552.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_d463/d463_1/0005514-000184823068/image/0005514-000184823068.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_d463/d463_1/0001214-000040670752/image/0001214-000040670752.jpg"
+    ],
+    "harvard_printroom1": [
+      "SUNRGBD/xtion/sun3ddata/harvard_printroom1/hv_printroom1_2/0000001-000000000000/image/0000001-000000000000.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_printroom1/hv_printroom1_2/0000175-000005865300/image/0000175-000005865300.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_printroom1/hv_printroom1_1/0000333-000011127312/image/0000333-000011127312.jpg"
+    ],
+    "mit_76_458": [
+      "SUNRGBD/xtion/sun3ddata/mit_76_458/76-458a/0000320-000010816095/image/0000320-000010816095.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_76_458/76-458a/0000012-000000493167/image/0000012-000000493167.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_76_458/76-458a/0001531-000051437487/image/0001531-000051437487.jpg"
+    ],
+    "mit_w85a": [
+      "SUNRGBD/xtion/sun3ddata/mit_w85a/a2/0000688-000023025492/image/0000688-000023025492.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85a/a2/0004985-000167077260/image/0004985-000167077260.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85a/a2/0005085-000170428860/image/0005085-000170428860.jpg"
+    ],
+    "mit_32_261": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_261/261_1/0000238-000007967214/image/0000238-000007967214.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_261/261_1/0001988-000066620214/image/0001988-000066620214.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_261/261_1/0001384-000046376550/image/0001384-000046376550.jpg"
+    ],
+    "mit_dorm_sh_flr1": [
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_sh_flr1/dorm_sh_flr1_oct_28_2012_scan1_erika/0000600-000023595264/image/0000600-000023595264.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_sh_flr1/dorm_sh_flr1_oct_28_2012_scan1_erika/0001522-000061032636/image/0001522-000061032636.jpg"
+    ],
+    "hotel_singapore_2012": [
+      "SUNRGBD/xtion/sun3ddata/hotel_singapore_2012/singapore_hotel1/0002249-000075411000/image/0002249-000075411000.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_singapore_2012/singapore_hotel1/0002009-000067367160/image/0002009-000067367160.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_singapore_2012/singapore_hotel1/0003227-000108189648/image/0003227-000108189648.jpg"
+    ],
+    "mit_32_d407": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_d407/d407-1/0000387-000012946800/image/0000387-000012946800.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_d407/d407-1/0001618-000054204996/image/0001618-000054204996.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_d407/d407-1/0000004-000000110172/image/0000004-000000110172.jpg"
+    ],
+    "hotel_pittsburg": [
+      "SUNRGBD/xtion/sun3ddata/hotel_pittsburg/hotel_pittsburg_scan1_2012_dec_12/0001602-000053662527/image/0001602-000053662527.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_pittsburg/hotel_pittsburg_scan1_2012_dec_12/0002294-000076889115/image/0002294-000076889115.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_pittsburg/hotel_pittsburg_scan1_2012_dec_12/0001835-000061505271/image/0001835-000061505271.jpg"
+    ],
+    "home_pt": [
+      "SUNRGBD/xtion/sun3ddata/home_pt/home_pt_scan1_2012_oct_19/0002046-000068540220/image/0002046-000068540220.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_pt/home_pt_scan1_2012_oct_19/0006499-000217820484/image/0006499-000217820484.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_pt/home_pt_scan1_2012_oct_19/0001291-000043235640/image/0001291-000043235640.jpg"
+    ],
+    "mit_dorm_masseeh_flr4a": [
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_flr4a/dorm_masseeh_flr4_scan1_oct_26_2012_erika/0006626-000295544088/image/0006626-000295544088.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_flr4a/dorm_masseeh_flr4_scan1_oct_26_2012_erika/0008074-000359291520/image/0008074-000359291520.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_masseeh_flr4a/dorm_masseeh_flr4_scan1_oct_26_2012_erika/0012543-000555293088/image/0012543-000555293088.jpg"
+    ],
+    "mit_32_g460": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_g460/g460_1/0003202-000107421521/image/0003202-000107421521.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g460/g460_1/0002508-000084127901/image/0002508-000084127901.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g460/g460_1/0001629-000054667337/image/0001629-000054667337.jpg"
+    ],
+    "mit_gym_z_squash": [
+      "SUNRGBD/xtion/sun3ddata/mit_gym_z_squash/gym_z_squash_scan1_oct_26_2012_erika/0000966-000041157648/image/0000966-000041157648.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_gym_z_squash/gym_z_squash_scan1_oct_26_2012_erika/0000483-000020612340/image/0000483-000020612340.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_gym_z_squash/gym_z_squash_scan1_oct_26_2012_erika/0003687-000154240632/image/0003687-000154240632.jpg"
+    ],
+    "mit_32_g442": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_g442/g442_1/0000804-000026958954/image/0000804-000026958954.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g442/g442_1/0003108-000104179818/image/0003108-000104179818.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g442/g442_1/0002762-000092583282/image/0002762-000092583282.jpg"
+    ],
+    "hotel_barcelona": [
+      "SUNRGBD/xtion/sun3ddata/hotel_barcelona/scan1_2012_july_23/0000801-000111668999/image/0000801-000111668999.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_barcelona/scan1_2012_july_23/0000263-000083103996/image/0000263-000083103996.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_barcelona/scan1_2012_july_23/0001611-000166005997/image/0001611-000166005997.jpg"
+    ],
+    "mit_w85_basement": [
+      "SUNRGBD/xtion/sun3ddata/mit_w85_basement/wg_small_lounge_1/0000695-000023315084/image/0000695-000023315084.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85_basement/wg_big_lounge_1/0004368-000146397888/image/0004368-000146397888.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85_basement/wg_small_lounge_1/0001094-000036687968/image/0001094-000036687968.jpg"
+    ],
+    "mit_32_d451": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_d451/d451-1/0005457-000182889010/image/0005457-000182889010.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_d451/d451-1/0002323-000077849866/image/0002323-000077849866.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_d451/d451-1/0003346-000112136734/image/0003346-000112136734.jpg"
+    ],
+    "mit_32_g7_lounge": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_g7_lounge/g7_lounge_1/0005210-000174584844/image/0005210-000174584844.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g7_lounge/g7_lounge_1/0001973-000066093552/image/0001973-000066093552.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g7_lounge/g7_lounge_1/0006720-000225194004/image/0006720-000225194004.jpg"
+    ],
+    "hotel_umd": [
+      "SUNRGBD/xtion/sun3ddata/hotel_umd/maryland_hotel1/0001800-000060295284/image/0001800-000060295284.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_umd/maryland_hotel1/0000316-000010557540/image/0000316-000010557540.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_umd/maryland_hotel1/0004964-000166339908/image/0004964-000166339908.jpg"
+    ],
+    "mit_32_g725": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_g725/g725_1/0002870-000096193519/image/0002870-000096193519.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g725/g725_1/0000736-000024670375/image/0000736-000024670375.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g725/g725_1/0000602-000020179231/image/0000602-000020179231.jpg"
+    ],
+    "brown_bm_4": [
+      "SUNRGBD/xtion/sun3ddata/brown_bm_4/brown_bm_4/0001390-000046889064/image/0001390-000046889064.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_bm_4/brown_bm_4/0002432-000081812736/image/0002432-000081812736.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_bm_4/brown_bm_4/0001599-000053893908/image/0001599-000053893908.jpg"
+    ],
+    "hyatt_cambridge": [
+      "SUNRGBD/xtion/sun3ddata/hyatt_cambridge/hyatt_cambridge/0014056-000471100896/image/0014056-000471100896.jpg",
+      "SUNRGBD/xtion/sun3ddata/hyatt_cambridge/hyatt_cambridge/0001885-000063144144/image/0001885-000063144144.jpg",
+      "SUNRGBD/xtion/sun3ddata/hyatt_cambridge/hyatt_cambridge/0013755-000461012580/image/0013755-000461012580.jpg"
+    ],
+    "mit_w85k1": [
+      "SUNRGBD/xtion/sun3ddata/mit_w85k1/scan_1/0008939-000299576363/image/0008939-000299576363.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85k1/scan_1/0000346-000011573375/image/0000346-000011573375.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85k1/scan_1/0004534-000151938383/image/0004534-000151938383.jpg"
+    ],
+    "mit_w85_lounge1": [
+      "SUNRGBD/xtion/sun3ddata/mit_w85_lounge1/wg_lounge1_1/0003850-000129069259/image/0003850-000129069259.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85_lounge1/wg_lounge1_1/0002682-000089922571/image/0002682-000089922571.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85_lounge1/wg_lounge1_1/0002080-000069745939/image/0002080-000069745939.jpg"
+    ],
+    "mit_lab_koch": [
+      "SUNRGBD/xtion/sun3ddata/mit_lab_koch/lab_koch_chem_nov_2_2012_scan1_erika/0000021-000000804384/image/0000021-000000804384.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_lab_koch/lab_koch_hood_nov_2_2012_scan1_erika/0001538-000065701966/image/0001538-000065701966.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_lab_koch/lab_koch_bench_nov_2_2012_scan1_erika/0001886-000083393935/image/0001886-000083393935.jpg"
+    ],
+    "mit_3_133": [
+      "SUNRGBD/xtion/sun3ddata/mit_3_133/classroom_3133_nov_6_2012_scan1_erika/0000414-000017495352/image/0000414-000017495352.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_3_133/classroom_3133_nov_6_2012_scan1_erika/0003665-000160239996/image/0003665-000160239996.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_3_133/classroom_3133_nov_6_2012_scan1_erika/0000556-000023997456/image/0000556-000023997456.jpg"
+    ],
+    "harvard_robotics_lab": [
+      "SUNRGBD/xtion/sun3ddata/harvard_robotics_lab/hv_s1_2/0000068-000002308706/image/0000068-000002308706.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_robotics_lab/hv_s1_1/0000514-000017249047/image/0000514-000017249047.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_robotics_lab/hv_s1_1/0000200-000006725023/image/0000200-000006725023.jpg"
+    ],
+    "hotel_ucsd": [
+      "SUNRGBD/xtion/sun3ddata/hotel_ucsd/la1/0000988-000033147324/image/0000988-000033147324.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_ucsd/la1/0000007-000000201096/image/0000007-000000201096.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_ucsd/la1/0003516-000117875772/image/0003516-000117875772.jpg"
+    ],
+    "home_ag": [
+      "SUNRGBD/xtion/sun3ddata/home_ag/apartment_ag_nov_7_2012_scan1_erika/0000970-000040793573/image/0000970-000040793573.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_ag/apartment_ag_nov_7_2012_scan1_erika/0004433-000187493105/image/0004433-000187493105.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_ag/apartment_ag_nov_7_2012_scan1_erika/0013295-000570681533/image/0013295-000570681533.jpg"
+    ],
+    "mit_32_g431": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_g431/g431_1/0002844-000095290599/image/0002844-000095290599.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g431/g431_1/0001502-000050312127/image/0001502-000050312127.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g431/g431_1/0000836-000027990471/image/0000836-000027990471.jpg"
+    ],
+    "mit_w16": [
+      "SUNRGBD/xtion/sun3ddata/mit_w16/kresge_back/0003982-000172851446/image/0003982-000172851446.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w16/kresge_back/0014287-000618379634/image/0014287-000618379634.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w16/kresge_stage/0000832-000034856640/image/0000832-000034856640.jpg"
+    ],
+    "home_ts": [
+      "SUNRGBD/xtion/sun3ddata/home_ts/apartment_ts_oct_31_2012_scan1_erika/0002212-000089327299/image/0002212-000089327299.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_ts/apartment_ts_oct_31_2012_scan1_erika/0000331-000013681687/image/0000331-000013681687.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_ts/apartment_ts_oct_31_2012_scan1_erika/0006847-000278558635/image/0006847-000278558635.jpg"
+    ],
+    "mit_dorm_next_sj": [
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_next_sj/dorm_next_sj_oct_30_2012_scan1_erika/0000373-000015953616/image/0000373-000015953616.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_next_sj/dorm_next_sj_oct_30_2012_scan1_erika/0000655-000027985860/image/0000655-000027985860.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_next_sj/dorm_next_sj_oct_30_2012_scan1_erika/0000499-000021383208/image/0000499-000021383208.jpg"
+    ],
+    "brown_cs_10": [
+      "SUNRGBD/xtion/sun3ddata/brown_cs_10/brown_cs10/0000004-000000116061/image/0000004-000000116061.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cs_10/brown_cs10/0000218-000007556613/image/0000218-000007556613.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cs_10/brown_cs10/0000429-000014628489/image/0000429-000014628489.jpg"
+    ],
+    "mit_w85_playroom": [
+      "SUNRGBD/xtion/sun3ddata/mit_w85_playroom/westgate_playroom_1/0000641-000021461280/image/0000641-000021461280.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85_playroom/westgate_playroom_1/0000315-000010535064/image/0000315-000010535064.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85_playroom/westgate_playroom_1/0000764-000025583748/image/0000764-000025583748.jpg"
+    ],
+    "brown_bm_1": [
+      "SUNRGBD/xtion/sun3ddata/brown_bm_1/brown_bm_1/0005316-000178493131/image/0005316-000178493131.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_bm_1/brown_bm_1/0000711-000024118435/image/0000711-000024118435.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_bm_1/brown_bm_1/0005654-000189821539/image/0005654-000189821539.jpg"
+    ],
+    "mit_46_6conf": [
+      "SUNRGBD/xtion/sun3ddata/mit_46_6conf/bcs_floor6_conf_1/0002302-000077455476/image/0002302-000077455476.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_46_6conf/bcs_floor6_conf_1/0002770-000093140964/image/0002770-000093140964.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_46_6conf/bcs_floor6_conf_1/0002335-000078561504/image/0002335-000078561504.jpg"
+    ],
+    "mit_gym_wrestling": [
+      "SUNRGBD/xtion/sun3ddata/mit_gym_wrestling/gym_wrestling_nov_1_2012_scan1_erika/0001786-000076315932/image/0001786-000076315932.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_gym_wrestling/gym_wrestling_nov_1_2012_scan1_erika/0001307-000055536012/image/0001307-000055536012.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_gym_wrestling/gym_wrestling_nov_1_2012_scan1_erika/0001505-000064082592/image/0001505-000064082592.jpg"
+    ],
+    "mit_36_ti_office": [
+      "SUNRGBD/xtion/sun3ddata/mit_36_ti_office/tian_office_1/0000755-000025271064/image/0000755-000025271064.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_36_ti_office/tian_office_1/0001805-000060496380/image/0001805-000060496380.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_36_ti_office/tian_office_1/0001210-000040554360/image/0001210-000040554360.jpg"
+    ],
+    "mit_46_5conf_2": [
+      "SUNRGBD/xtion/sun3ddata/mit_46_5conf_2/bcs_floor5_conf_a/0003034-000101711212/image/0003034-000101711212.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_46_5conf_2/bcs_floor5_conf_a/0002479-000083076316/image/0002479-000083076316.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_46_5conf_2/bcs_floor5_conf_a/0001520-000050934472/image/0001520-000050934472.jpg"
+    ],
+    "mit_w85j": [
+      "SUNRGBD/xtion/sun3ddata/mit_w85j/j1/0000912-000030533076/image/0000912-000030533076.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85j/j1/0003331-000111675312/image/0003331-000111675312.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85j/j1/0005638-000188996724/image/0005638-000188996724.jpg"
+    ],
+    "mit_32_pool": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_pool/pool_1/0001970-000066002779/image/0001970-000066002779.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_pool/pool_1/0000363-000012142567/image/0000363-000012142567.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_pool/pool_1/0001461-000048943135/image/0001461-000048943135.jpg"
+    ],
+    "home_rz": [
+      "SUNRGBD/xtion/sun3ddata/home_rz/home_rz_scan1_2012_oct_31/0016981-000569400534/image/0016981-000569400534.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_rz/home_rz_scan1_2012_oct_31/0030162-001011275478/image/0030162-001011275478.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_rz/home_rz_scan1_2012_oct_31/0021541-000722233494/image/0021541-000722233494.jpg"
+    ],
+    "hotel_casarural": [
+      "SUNRGBD/xtion/sun3ddata/hotel_casarural/casarural_scan1_2012_july_22/0001486-000173022995/image/0001486-000173022995.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_casarural/casarural_scan1_2012_july_22/0000213-000076808998/image/0000213-000076808998.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_casarural/casarural_scan1_2012_july_22/0001369-000157210007/image/0001369-000157210007.jpg"
+    ],
+    "mit_dorm_mcc_nk": [
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_nk/dorm_mcc_nk_oct_31_2012_scan1_erika/0000003-000000134064/image/0000003-000000134064.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_nk/dorm_mcc_nk_oct_31_2012_scan1_erika/0003544-000160575156/image/0003544-000160575156.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_nk/dorm_mcc_nk_oct_31_2012_scan1_erika/0003998-000181221012/image/0003998-000181221012.jpg"
+    ],
+    "harvard_c8": [
+      "SUNRGBD/xtion/sun3ddata/harvard_c8/hv_c8_2/0001654-000055502496/image/0001654-000055502496.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_c8/hv_c8_3/0000022-000000804384/image/0000022-000000804384.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_c8/hv_c8_2/0001844-000061870536/image/0001844-000061870536.jpg"
+    ],
+    "harvard_c3": [
+      "SUNRGBD/xtion/sun3ddata/harvard_c3/hv_c3_1/0001397-000046822524/image/0001397-000046822524.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_c3/hv_c3_1/0000549-000018400956/image/0000549-000018400956.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_c3/hv_c3_2/0000249-000008311968/image/0000249-000008311968.jpg"
+    ],
+    "mit_w85_10": [
+      "SUNRGBD/xtion/sun3ddata/mit_w85_10/10_1/0001421-000047592720/image/0001421-000047592720.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85_10/10_1/0002338-000078326892/image/0002338-000078326892.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85_10/10_1/0000422-000014110236/image/0000422-000014110236.jpg"
+    ],
+    "brown_cs_7": [
+      "SUNRGBD/xtion/sun3ddata/brown_cs_7/brown_cs7/0002021-000067941622/image/0002021-000067941622.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cs_7/brown_cs7/0001441-000048502342/image/0001441-000048502342.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cs_7/brown_cs7/0000004-000000105238/image/0000004-000000105238.jpg"
+    ],
+    "mit_dorm_mcc_wph": [
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_wph/dorm_mcc_wph_oct_31_2012_scan1_erika/0002178-000095827766/image/0002178-000095827766.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_wph/dorm_mcc_wph_oct_31_2012_scan1_erika/0006762-000300845138/image/0006762-000300845138.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_wph/dorm_mcc_wph_oct_31_2012_scan1_erika/0007393-000329836478/image/0007393-000329836478.jpg"
+    ],
+    "harvard_c5": [
+      "SUNRGBD/xtion/sun3ddata/harvard_c5/hv_c5_2/0000397-000013305852/image/0000397-000013305852.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_c5/hv_c5_1/0000004-000000124122/image/0000004-000000124122.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_c5/hv_c5_1/0001255-000042052638/image/0001255-000042052638.jpg"
+    ],
+    "mit_32_144": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_144/classroom_32144_nov_2_2012_scan1_erika/0008250-000370890563/image/0008250-000370890563.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_144/classroom_32144_nov_2_2012_scan1_erika/0007420-000332548259/image/0007420-000332548259.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_144/classroom_32144_nov_2_2012_scan1_erika/0007099-000317734187/image/0007099-000317734187.jpg"
+    ],
+    "mit_32_123": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_123/123_1/0003759-000125958028/image/0003759-000125958028.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_123/123_1/0006041-000202441540/image/0006041-000202441540.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_123/123_1/0004690-000157161424/image/0004690-000157161424.jpg"
+    ],
+    "Portland_hotel": [
+      "SUNRGBD/xtion/sun3ddata/Portland_hotel/Portland_hotel/0001632-000054664596/image/0001632-000054664596.jpg",
+      "SUNRGBD/xtion/sun3ddata/Portland_hotel/Portland_hotel/0012320-000412883604/image/0012320-000412883604.jpg",
+      "SUNRGBD/xtion/sun3ddata/Portland_hotel/Portland_hotel/0001061-000035526960/image/0001061-000035526960.jpg"
+    ],
+    "brown_cogsci_4": [
+      "SUNRGBD/xtion/sun3ddata/brown_cogsci_4/brown_cogsci_4/0000875-000029324310/image/0000875-000029324310.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cogsci_4/brown_cogsci_4/0000650-000021783210/image/0000650-000021783210.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cogsci_4/brown_cogsci_4/0000005-000000165390/image/0000005-000000165390.jpg"
+    ],
+    "brown_cs_4": [
+      "SUNRGBD/xtion/sun3ddata/brown_cs_4/brown_cs4/0001789-000060127704/image/0001789-000060127704.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cs_4/brown_cs4/0005859-000196537824/image/0005859-000196537824.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cs_4/brown_cs4/0001579-000053089344/image/0001579-000053089344.jpg"
+    ],
+    "mit_dorm_next_552": [
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_next_552/dorm_next_552_oct_30_2012_scan1_erika/0001072-000049637196/image/0001072-000049637196.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_next_552/dorm_next_552_oct_30_2012_scan1_erika/0001433-000066797388/image/0001433-000066797388.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_next_552/dorm_next_552_oct_30_2012_scan1_erika/0000515-000023494716/image/0000515-000023494716.jpg"
+    ],
+    "home_han": [
+      "SUNRGBD/xtion/sun3ddata/home_han/apartment_han_oct_31_2012_scan1_erika/0000267-000011127312/image/0000267-000011127312.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_han/apartment_han_oct_31_2012_scan1_erika/0001884-000078628536/image/0001884-000078628536.jpg",
+      "SUNRGBD/xtion/sun3ddata/home_han/apartment_han_oct_31_2012_scan1_erika/0006150-000255492468/image/0006150-000255492468.jpg"
+    ],
+    "mit_46_4conf_2": [
+      "SUNRGBD/xtion/sun3ddata/mit_46_4conf_2/bcs_floor4_conf_a/0002895-000097354678/image/0002895-000097354678.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_46_4conf_2/bcs_floor4_conf_a/0001727-000058207990/image/0001727-000058207990.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_46_4conf_2/bcs_floor4_conf_a/0000477-000016312990/image/0000477-000016312990.jpg"
+    ],
+    "hotel_florence_ant": [
+      "SUNRGBD/xtion/sun3ddata/hotel_florence_ant/hotel_room_florence_scan1_2012_oct_09/0009146-000306671400/image/0009146-000306671400.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_florence_ant/hotel_room_florence_scan1_2012_oct_09/0002805-000094045896/image/0002805-000094045896.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_florence_ant/hotel_room_florence_scan1_2012_oct_09/0000896-000030030336/image/0000896-000030030336.jpg"
+    ],
+    "harvard_computer_lab": [
+      "SUNRGBD/xtion/sun3ddata/harvard_computer_lab/hv_c1_1/0001991-000066696840/image/0001991-000066696840.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_computer_lab/hv_c1_2/0000389-000013004208/image/0000389-000013004208.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_computer_lab/hv_c1_1/0002348-000078662052/image/0002348-000078662052.jpg"
+    ],
+    "hotel_ucla_jx": [
+      "SUNRGBD/xtion/sun3ddata/hotel_ucla_jx/ucla_hotel_1/0005420-000181723752/image/0005420-000181723752.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_ucla_jx/ucla_hotel_1/0000175-000005831784/image/0000175-000005831784.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_ucla_jx/ucla_hotel_1/0006884-000230791176/image/0006884-000230791176.jpg"
+    ],
+    "mit_dorm_mcc_eflr6": [
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_eflr6/dorm_mcc_eflr6_oct_31_2012_scan1_erika/0009155-000403275747/image/0009155-000403275747.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_eflr6/dorm_mcc_eflr6_oct_31_2012_scan1_erika/0002236-000097743891/image/0002236-000097743891.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_mcc_eflr6/dorm_mcc_eflr6_oct_31_2012_scan1_erika/0009287-000409141047/image/0009287-000409141047.jpg"
+    ],
+    "mit_32_g9_lounge": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_g9_lounge/g9_lounge_1/0001404-000047022948/image/0001404-000047022948.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g9_lounge/g9_lounge_1/0005837-000195699924/image/0005837-000195699924.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g9_lounge/g9_lounge_1/0002807-000094045896/image/0002807-000094045896.jpg"
+    ],
+    "mit_46_ted_lab2": [
+      "SUNRGBD/xtion/sun3ddata/mit_46_ted_lab2/ted_lab_a/0000180-000006210807/image/0000180-000006210807.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_46_ted_lab2/ted_lab_a/0004170-000139973163/image/0004170-000139973163.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_46_ted_lab2/ted_lab_a/0012812-000429618435/image/0012812-000429618435.jpg"
+    ],
+    "hotel_grenoble": [
+      "SUNRGBD/xtion/sun3ddata/hotel_grenoble/scan1_2012_july_11_another/0000143-000171996994/image/0000143-000171996994.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_grenoble/scan1_2012_july_11/0000280-000535057983/image/0000280-000535057983.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_grenoble/scan1_2012_july_11/0000008-000416091003/image/0000008-000416091003.jpg"
+    ],
+    "brown_bm_6": [
+      "SUNRGBD/xtion/sun3ddata/brown_bm_6/brown_bm_6/0000536-000018299736/image/0000536-000018299736.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_bm_6/brown_bm_6/0001082-000036666504/image/0001082-000036666504.jpg"
+    ],
+    "mit_w85_basement_bathroom": [
+      "SUNRGBD/xtion/sun3ddata/mit_w85_basement_bathroom/wg_bathroom_1/0000117-000003887856/image/0000117-000003887856.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85_basement_bathroom/wg_bathroom_1/0000372-000012434436/image/0000372-000012434436.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85_basement_bathroom/wg_bathroom_1/0001035-000034655544/image/0001035-000034655544.jpg"
+    ],
+    "mit_5_234": [
+      "SUNRGBD/xtion/sun3ddata/mit_5_234/classroom_5234_nov_6_2012_scan1_erika/0003424-000151015407/image/0003424-000151015407.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_5_234/classroom_5234_nov_6_2012_scan1_erika/0000068-000002841171/image/0000068-000002841171.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_5_234/classroom_5234_nov_6_2012_scan1_erika/0001345-000059114535/image/0001345-000059114535.jpg"
+    ],
+    "mit_32_g531": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_g531/g531_1/0001872-000062708436/image/0001872-000062708436.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g531/g531_1/0000504-000016858548/image/0000504-000016858548.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_g531/g531_1/0003436-000115127460/image/0003436-000115127460.jpg"
+    ],
+    "mit_76_459": [
+      "SUNRGBD/xtion/sun3ddata/mit_76_459/76-459a/0000294-000009920736/image/0000294-000009920736.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_76_459/76-459a/0001697-000056943684/image/0001697-000056943684.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_76_459/76-459a/0002471-000082885068/image/0002471-000082885068.jpg"
+    ],
+    "mit_w85g": [
+      "SUNRGBD/xtion/sun3ddata/mit_w85g/g_0/0002002-000067065516/image/0002002-000067065516.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85g/g_0/0001213-000040621392/image/0001213-000040621392.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85g/g_0/0000430-000014378364/image/0000430-000014378364.jpg"
+    ],
+    "mit_1_242": [
+      "SUNRGBD/xtion/sun3ddata/mit_1_242/classroom_1242_oct_30_2012_scan1_erika/0001659-000069622913/image/0001659-000069622913.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_1_242/classroom_1242_oct_30_2012_scan1_erika/0004552-000192727181/image/0004552-000192727181.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_1_242/classroom_1242_oct_30_2012_scan1_erika/0004313-000182538317/image/0004313-000182538317.jpg"
+    ],
+    "mit_46_ted_lab1": [
+      "SUNRGBD/xtion/sun3ddata/mit_46_ted_lab1/ted_lab_1/0008928-000299343903/image/0008928-000299343903.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_46_ted_lab1/ted_lab_1/0000172-000005810775/image/0000172-000005810775.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_46_ted_lab1/ted_lab_1/0007501-000251516571/image/0007501-000251516571.jpg"
+    ],
+    "mit_w85d": [
+      "SUNRGBD/xtion/sun3ddata/mit_w85d/d1/0003056-000102754012/image/0003056-000102754012.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85d/d1/0003744-000125813020/image/0003744-000125813020.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85d/d1/0000209-000007300444/image/0000209-000007300444.jpg"
+    ],
+    "hotel_uc": [
+      "SUNRGBD/xtion/sun3ddata/hotel_uc/scan2/0002058-000215875000/image/0002058-000215875000.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_uc/scan2/0006784-000374315002/image/0006784-000374315002.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_uc/scan2/0007644-000403144989/image/0007644-000403144989.jpg"
+    ],
+    "hotel_pedraza": [
+      "SUNRGBD/xtion/sun3ddata/hotel_pedraza/hotel_room_pedraza_2012_nov_25/0003092-000103712437/image/0003092-000103712437.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_pedraza/hotel_room_pedraza_2012_nov_25/0005529-000185390929/image/0005529-000185390929.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_pedraza/hotel_room_pedraza_2012_nov_25/0002650-000088898365/image/0002650-000088898365.jpg"
+    ],
+    "mit_dorm_next_jc": [
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_next_jc/dorm_next_jc_oct_30_2012_scan1_erika/0000275-000013138272/image/0000275-000013138272.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_next_jc/dorm_next_jc_oct_30_2012_scan1_erika/0000348-000016154712/image/0000348-000016154712.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_dorm_next_jc/dorm_next_jc_oct_30_2012_scan1_erika/0001001-000043972992/image/0001001-000043972992.jpg"
+    ],
+    "hotel_sf": [
+      "SUNRGBD/xtion/sun3ddata/hotel_sf/scan2/0000463-000058026001/image/0000463-000058026001.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_sf/scan2/0002424-000124850998/image/0002424-000124850998.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_sf/scan1/0009418-000430492004/image/0009418-000430492004.jpg"
+    ],
+    "mit_46_5lounge": [
+      "SUNRGBD/xtion/sun3ddata/mit_46_5lounge/bcs_floor5_lounge/0000004-000000120323/image/0000004-000000120323.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_46_5lounge/bcs_floor5_lounge/0001982-000066649583/image/0001982-000066649583.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_46_5lounge/bcs_floor5_lounge/0001374-000046271855/image/0001374-000046271855.jpg"
+    ],
+    "brown_bm_5": [
+      "SUNRGBD/xtion/sun3ddata/brown_bm_5/brown_bm_5/0000302-000010389960/image/0000302-000010389960.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_bm_5/brown_bm_5/0000004-000000100548/image/0000004-000000100548.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_bm_5/brown_bm_5/0001954-000065791908/image/0001954-000065791908.jpg"
+    ],
+    "mit_ne47_2conf": [
+      "SUNRGBD/xtion/sun3ddata/mit_ne47_2conf/ne47_floor2_conf_room/0000788-000026377092/image/0000788-000026377092.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_ne47_2conf/ne47_floor2_conf_room/0001746-000058485420/image/0001746-000058485420.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_ne47_2conf/ne47_floor2_conf_room/0000879-000029427048/image/0000879-000029427048.jpg"
+    ],
+    "mit_32_d530": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_d530/d530_scan_oldest/0000215-000153727997/image/0000215-000153727997.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_d530/d530_scan_oldest/0000141-000130634995/image/0000141-000130634995.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_d530/d530_scan_oldest/0000049-000103632004/image/0000049-000103632004.jpg"
+    ],
+    "mit_w85_16": [
+      "SUNRGBD/xtion/sun3ddata/mit_w85_16/16_1/0002119-000070986888/image/0002119-000070986888.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85_16/16_1/0006140-000205754724/image/0006140-000205754724.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_w85_16/16_1/0009387-000314648208/image/0009387-000314648208.jpg"
+    ],
+    "brown_cogsci_7": [
+      "SUNRGBD/xtion/sun3ddata/brown_cogsci_7/brown_cogsci_7/0000445-000015084745/image/0000445-000015084745.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cogsci_7/brown_cogsci_7/0000005-000000136609/image/0000005-000000136609.jpg",
+      "SUNRGBD/xtion/sun3ddata/brown_cogsci_7/brown_cogsci_7/0001250-000042065125/image/0001250-000042065125.jpg"
+    ],
+    "mit_dorm3": [
+      "SUNRGBD/xtion/sun3ddata/mit_dorm3/corridor/0002340-000078393924/image/0002340-000078393924.jpg"
+    ],
+    "harvard_tea_2": [
+      "SUNRGBD/xtion/sun3ddata/harvard_tea_2/hv_tea2_1/0000088-000002952858/image/0000088-000002952858.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_tea_2/hv_tea2_1/0000935-000031340910/image/0000935-000031340910.jpg",
+      "SUNRGBD/xtion/sun3ddata/harvard_tea_2/hv_tea2_2/0000563-000018869508/image/0000563-000018869508.jpg"
+    ],
+    "mit_32_pingpong": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_pingpong/pingpong_1/0000837-000028019376/image/0000837-000028019376.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_pingpong/pingpong_1/0002565-000085935024/image/0002565-000085935024.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_pingpong/pingpong_1/0000204-000006803748/image/0000204-000006803748.jpg"
+    ],
+    "hotel_hkust": [
+      "SUNRGBD/xtion/sun3ddata/hotel_hkust/hk_hotel_1/0000340-000011361924/image/0000340-000011361924.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_hkust/hk_hotel_1/0004993-000167378904/image/0004993-000167378904.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_hkust/hk_hotel_1/0000087-000002882376/image/0000087-000002882376.jpg"
+    ],
+    "hotel_stb": [
+      "SUNRGBD/xtion/sun3ddata/hotel_stb/scan1/0002436-000202360992/image/0002436-000202360992.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_stb/scan1/0000129-000124099998/image/0000129-000124099998.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_stb/scan1/0003171-000227287994/image/0003171-000227287994.jpg"
+    ],
+    "hotel_m": [
+      "SUNRGBD/xtion/sun3ddata/hotel_m/scan1/0002385-000359437988/image/0002385-000359437988.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_m/scan1/0004500-000430582001/image/0004500-000430582001.jpg",
+      "SUNRGBD/xtion/sun3ddata/hotel_m/scan1/0000870-000308325989/image/0000870-000308325989.jpg"
+    ],
+    "mit_36_ti_lab": [
+      "SUNRGBD/xtion/sun3ddata/mit_36_ti_lab/tian_lab_1/0000192-000006421332/image/0000192-000006421332.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_36_ti_lab/tian_lab_1/0002505-000083943840/image/0002505-000083943840.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_36_ti_lab/tian_lab_1/0003688-000123593268/image/0003688-000123593268.jpg"
+    ],
+    "mit_32_262": [
+      "SUNRGBD/xtion/sun3ddata/mit_32_262/262_1/0001829-000061334280/image/0001829-000061334280.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_262/262_1/0002524-000084627900/image/0002524-000084627900.jpg",
+      "SUNRGBD/xtion/sun3ddata/mit_32_262/262_1/0001268-000042531804/image/0001268-000042531804.jpg"
+    ]
+  },
+  "selection_rule": "first 200 eligible groups, one raw RGB/depth pair each; all QC before model inference",
+  "source_sha256": "8de86e67b5c9f480f271edf8a8ccbd6e53d951928dc98712de895681fa093327",
+  "protocol_sha256": "1ea7245dc2099009c3ce5df094e4ea4ee0c61489281b13245b2a4fafa86341c0"
+}

@@ -1,0 +1,13 @@
+{
+  "target_scenes": 200,
+  "training_draws": 3,
+  "training_seeds": 5,
+  "new_training_runs": 0,
+  "planning_source": "fresh31",
+  "assumed_target_gain": 0.009,
+  "assumed_error_sd_multiplier": 1.0,
+  "selection_reason": "first candidate N reaching approximately80% planning power with existing 3x5 models; preserve all checkpoints",
+  "limitations": "Not80% power under every scenario. SDx1.5/effect.009 requires750 candidates; external domain shift is unknown.",
+  "power_results_sha256": "c03c0a9a81af2210983e57cda6166840e50ff4a9f6ac334da0586423210b9a40",
+  "external_model_predictions_exist": false
+}

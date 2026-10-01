@@ -1,0 +1,737 @@
+{
+  "method": "Prospective planning from pilot paired data; no external outcomes are read.\n\nKnown-pilot-distribution approximation: simulate joint centered crossed-bootstrap\nerrors for four base contrasts; derive all six coherent contrasts, then apply\ntwo-sided empirical tail tests and Holm in every simulated trial. Both nested\nand crossed calibration distributions must reject, as in the intended analysis.\nIndependent calibration and trial resamples, each 20,000. This does NOT re-estimate a bootstrap\ndistribution inside every future trial, and does NOT guarantee actual test power.\n",
+  "source_sha256": "6f97c294eba9229c2d55b1b7079a0fe0bba5b4b2a39885a1d223c8bfe74eb661",
+  "pilot_source_sha256": {
+    "results\\robustness_v3\\evaluations\\test\\base_r256\\per_image.json": "12dd7e0f17a964f6cbcbc62b5bfe5faf01a18ee6f006b65dfbf929bf220f313b",
+    "results\\robustness_v3\\evaluations\\test\\base_r512\\per_image.json": "6175697d196a216e9eb05d08942aac15179505849cb10b8abde4d84d62c5f64c",
+    "results\\robustness_v3\\evaluations\\test\\draw1_mixed_seed17_r256\\per_image.json": "986df81b4368521de8db2c6448c4be354509ab4c7a0ad20612ebc9c992e9c77b",
+    "results\\robustness_v3\\evaluations\\test\\draw1_mixed_seed17_r512\\per_image.json": "ef94c09371621e9e6e953e412fb705318c3eeb63b45ac8f501d83a029549410b",
+    "results\\robustness_v3\\evaluations\\test\\draw1_high512_seed17_r256\\per_image.json": "c40ee246f507312b3ccf0a00907862ae4eef77249b79c165490d1b20415f541f",
+    "results\\robustness_v3\\evaluations\\test\\draw1_high512_seed17_r512\\per_image.json": "23b3f39d56708bd462c5240cfc076e95c815469430edd5c10822dae120fdbcf8",
+    "results\\robustness_v3\\evaluations\\test\\draw1_mixed_seed29_r256\\per_image.json": "2ac992d2eb6dec6cadec0606a5e246df2170d72bd2ebcdf0f4920d0bdd9a3d55",
+    "results\\robustness_v3\\evaluations\\test\\draw1_mixed_seed29_r512\\per_image.json": "4d27cdbc58cf6692ac5fd837036778688d72062086d4b58723eca17e6b2212b5",
+    "results\\robustness_v3\\evaluations\\test\\draw1_high512_seed29_r256\\per_image.json": "6a86c6bfedf8699edc49135a3f406f60bc0a7f00a931be09f81f1d4d5208223d",
+    "results\\robustness_v3\\evaluations\\test\\draw1_high512_seed29_r512\\per_image.json": "119e1a123750cf19c64e7558dce8b3f0922318839a3b14daa2d7a1d34b68dd3a",
+    "results\\robustness_v3\\evaluations\\test\\draw1_mixed_seed43_r256\\per_image.json": "03b03ad4a21c530a727267a1af4bc5a0e97bf48c9e2c700638b2ab7850cab581",
+    "results\\robustness_v3\\evaluations\\test\\draw1_mixed_seed43_r512\\per_image.json": "0643972608b3b357c1498ef51b69721dd08bd647343e37cf02dccb377e8bf399",
+    "results\\robustness_v3\\evaluations\\test\\draw1_high512_seed43_r256\\per_image.json": "239fffc5088b1774200c366d4dbf54d856ca624a32674b88698d5b30cd760a4b",
+    "results\\robustness_v3\\evaluations\\test\\draw1_high512_seed43_r512\\per_image.json": "35375903a2d40a99261c8ea875d9a16c68eeef67415952be81c803c08bcd4fd0",
+    "results\\robustness_v3\\evaluations\\test\\draw1_mixed_seed59_r256\\per_image.json": "5da388015bcaee62a940b819d0cb1015a6e226f36709bad870a1c7906bc12e8a",
+    "results\\robustness_v3\\evaluations\\test\\draw1_mixed_seed59_r512\\per_image.json": "9b241572f033f9091ecc92b52ea910dca8a2ce82e3ca39d0d959b27d648d6ff3",
+    "results\\robustness_v3\\evaluations\\test\\draw1_high512_seed59_r256\\per_image.json": "23d9922d6324ec0c645b6e2f499dd957357975b64776dc9ab5b9de69b317a9cc",
+    "results\\robustness_v3\\evaluations\\test\\draw1_high512_seed59_r512\\per_image.json": "3b6530104ca7ae9903bd5c822d449461938a33dd5559e51bd00dd9bf7d4977cb",
+    "results\\robustness_v3\\evaluations\\test\\draw1_mixed_seed71_r256\\per_image.json": "19a3dbeb311ee1355f89a06ea54dc926bf453317e0837c35f5b9e479d929ad90",
+    "results\\robustness_v3\\evaluations\\test\\draw1_mixed_seed71_r512\\per_image.json": "0c6a9b9d632a8edc0c26d6cc5b545dea345ce18963afae5f2830b43057e6d3f3",
+    "results\\robustness_v3\\evaluations\\test\\draw1_high512_seed71_r256\\per_image.json": "fed87722bbdf521d79ab53807587692bb48655191bc34e64ef3c6d7d291e782a",
+    "results\\robustness_v3\\evaluations\\test\\draw1_high512_seed71_r512\\per_image.json": "dda1fb423b127e056ff1e4e4ddc3fde062b6aa3ed62c10d13d9e5b447982422b",
+    "results\\robustness_v3\\evaluations\\test\\draw2_mixed_seed17_r256\\per_image.json": "87c04eba74d7315ff7d405eef394d2bc9e5d8c73bd18801eb786f29d7db19879",
+    "results\\robustness_v3\\evaluations\\test\\draw2_mixed_seed17_r512\\per_image.json": "d67ffe45805f29e400938946f003063705cb4f24efe228423eaffb17967d73be",
+    "results\\robustness_v3\\evaluations\\test\\draw2_high512_seed17_r256\\per_image.json": "5c393b4c12578d3f715fc2e747cfc67b5b613c224b05a6620e5c3bbea47397db",
+    "results\\robustness_v3\\evaluations\\test\\draw2_high512_seed17_r512\\per_image.json": "3d35be071ba1e153c9002bc374a110fbe6295c47449a7b9c51eca90f1416772a",
+    "results\\robustness_v3\\evaluations\\test\\draw2_mixed_seed29_r256\\per_image.json": "08f698d70a5a82254676bbd4def97bb7bdd2b670eae34f5c6c184ac37531ef05",
+    "results\\robustness_v3\\evaluations\\test\\draw2_mixed_seed29_r512\\per_image.json": "909b28414b0e870ccc883dafe99fd8ad379f6f32bcfccfbc228118181fa14995",
+    "results\\robustness_v3\\evaluations\\test\\draw2_high512_seed29_r256\\per_image.json": "fcdb7d36ce90f6a0511a618ed57c2d7a5f9bf1d1dc1ce4a4387adf0b1942b1d6",
+    "results\\robustness_v3\\evaluations\\test\\draw2_high512_seed29_r512\\per_image.json": "433386d90866244eb6812e6a9dfadda797453b73ec9d4c53141b15696a3e54c1",
+    "results\\robustness_v3\\evaluations\\test\\draw2_mixed_seed43_r256\\per_image.json": "f8e048149e57de47f4b0e0714a4f663ebd842a93c4332d088122b66a165ff9b6",
+    "results\\robustness_v3\\evaluations\\test\\draw2_mixed_seed43_r512\\per_image.json": "9a6f22fae941e9d4c1e0b45c2b02da9fe70585fd75bdf8390eb3facdd1a9b713",
+    "results\\robustness_v3\\evaluations\\test\\draw2_high512_seed43_r256\\per_image.json": "1908d9d8aed528d95dd8a4a32baff28dd55d9d3fa64ea7081e02164e01e5b739",
+    "results\\robustness_v3\\evaluations\\test\\draw2_high512_seed43_r512\\per_image.json": "05a1a6ab7e7fa959b7550d14d326a2593192facb5344f10516a84d29caa96f4f",
+    "results\\robustness_v3\\evaluations\\test\\draw2_mixed_seed59_r256\\per_image.json": "6b43241af67b60f2c89d442a642ca8052ffc86624daf77bca20b2c319944d845",
+    "results\\robustness_v3\\evaluations\\test\\draw2_mixed_seed59_r512\\per_image.json": "fd60701afdee0c01629cd20ceff4d54b9a69471db24a3f772ee9e31b56e2d9b6",
+    "results\\robustness_v3\\evaluations\\test\\draw2_high512_seed59_r256\\per_image.json": "5c7f05ffc1129d3476860efbb23dacbc298058bbfcb9fdb8032b1e5f0092d995",
+    "results\\robustness_v3\\evaluations\\test\\draw2_high512_seed59_r512\\per_image.json": "470d2ed348f38d629727e8da6f55db0b8ac0d8315489d204258ed51535d469bf",
+    "results\\robustness_v3\\evaluations\\test\\draw2_mixed_seed71_r256\\per_image.json": "a04fcea9d22641b16587d3346b6207ad29ced183b6720ac5e42b3b2cc6eb46ae",
+    "results\\robustness_v3\\evaluations\\test\\draw2_mixed_seed71_r512\\per_image.json": "921d90cbcabd1393193a5f2d1808bb33f3534b65db667aa50b66c110380587b0",
+    "results\\robustness_v3\\evaluations\\test\\draw2_high512_seed71_r256\\per_image.json": "1e74f0820b91ee01156af888b78b4e279ad5cd4967a07e373a6a32723d049e40",
+    "results\\robustness_v3\\evaluations\\test\\draw2_high512_seed71_r512\\per_image.json": "476b60678ed95a93409ad09f031615f18a97feabe6fb668c03a61dd2e95c47cd",
+    "results\\robustness_v3\\evaluations\\test\\draw3_mixed_seed17_r256\\per_image.json": "c47e33d161dabdbfeae070a9d1c73ae76954705360d514d610fad9fd66b95e26",
+    "results\\robustness_v3\\evaluations\\test\\draw3_mixed_seed17_r512\\per_image.json": "e109f09aa9d16695b5fc6a89f84c0daf7565eba893b026288f7479639140bf02",
+    "results\\robustness_v3\\evaluations\\test\\draw3_high512_seed17_r256\\per_image.json": "52650b7957c2236c34138d963df2e849161672ee6b0f293356d6b0a8fdadc23b",
+    "results\\robustness_v3\\evaluations\\test\\draw3_high512_seed17_r512\\per_image.json": "73159a7f8aa8176970d51761703bd1e5fb1bf0328369c701246779cfb15b0df8",
+    "results\\robustness_v3\\evaluations\\test\\draw3_mixed_seed29_r256\\per_image.json": "e39806734504d25b05dbf29dfce8923bd0ced4c5d0eb6bbc8c5337ebf1e3abe1",
+    "results\\robustness_v3\\evaluations\\test\\draw3_mixed_seed29_r512\\per_image.json": "ef29f57f538eead76418211298960858370fa5e9ff4bb45be772b1ff7b537676",
+    "results\\robustness_v3\\evaluations\\test\\draw3_high512_seed29_r256\\per_image.json": "8b972487e018b1107f9fab687879aa7246b2c14c3920a6ea3fcf96ab59a4630c",
+    "results\\robustness_v3\\evaluations\\test\\draw3_high512_seed29_r512\\per_image.json": "f09499bf270a787e96b0406fb22886f2af46acb915b56f3688d15c0f51a5988f",
+    "results\\robustness_v3\\evaluations\\test\\draw3_mixed_seed43_r256\\per_image.json": "2b71d10a121853afc6c7a415e5bbedce95e225c1527f0ebca8c3cd2c5e33e37f",
+    "results\\robustness_v3\\evaluations\\test\\draw3_mixed_seed43_r512\\per_image.json": "7ec7eba0f3dd53b655be61496f7f80b1004ae1b4d7aff401936ce1ce01be4eaa",
+    "results\\robustness_v3\\evaluations\\test\\draw3_high512_seed43_r256\\per_image.json": "b75990135bd58ad32e66c03cc330c729262296ab269736edb8d00436ab31b1f2",
+    "results\\robustness_v3\\evaluations\\test\\draw3_high512_seed43_r512\\per_image.json": "e0886c2d490c757b44db736bcaad19f13852d18810eb7e84984381ea7949a4e5",
+    "results\\robustness_v3\\evaluations\\test\\draw3_mixed_seed59_r256\\per_image.json": "d8b6c7562a5eb93a8710a88b7a41e9202107514b3df7aab6a9bcf1ad5a11cc94",
+    "results\\robustness_v3\\evaluations\\test\\draw3_mixed_seed59_r512\\per_image.json": "3de352fa4c9360783eed548a4be168a33bdec24037c190621830f5090843ad54",
+    "results\\robustness_v3\\evaluations\\test\\draw3_high512_seed59_r256\\per_image.json": "f1aab1f9dd9cafe65491a0e7a45d48e953f1300d3c1f0a66aa5d65724f1fe461",
+    "results\\robustness_v3\\evaluations\\test\\draw3_high512_seed59_r512\\per_image.json": "52021122bb6a60d350e9c1fe362367c311a660b044781cab0da1631327bd57d8",
+    "results\\robustness_v3\\evaluations\\test\\draw3_mixed_seed71_r256\\per_image.json": "fadd548825be994ea3144692aa74ece9153a75b9df65a2999e0f752588cddddc",
+    "results\\robustness_v3\\evaluations\\test\\draw3_mixed_seed71_r512\\per_image.json": "b0363db2db8e40b32e2bfd6fc08a42cf460b67ab33fee7347679bd07aaac9bd7",
+    "results\\robustness_v3\\evaluations\\test\\draw3_high512_seed71_r256\\per_image.json": "05aac10fdcd4c31c1e78a7c5f76c94422be0c865fc13a188f79e64dc1c26f7bd",
+    "results\\robustness_v3\\evaluations\\test\\draw3_high512_seed71_r512\\per_image.json": "e07f45ff9d549c2e112baa96ad1a0cfc9ebb3522f16d867234e20e779641f002"
+  },
+  "contrasts": [
+    "mixed256-base256",
+    "mixed512-base512",
+    "high256-base256",
+    "high512-base512",
+    "mixed256-high256",
+    "mixed512-high512"
+  ],
+  "simulation_replicates_per_grid": 20000,
+  "effect_assumption": "All four base contrasts scale proportionally to the target mixed512 effect; no incoherent independent contrast shifts. Future mean errors follow crossed-factor pilot resampling; both nested and crossed test branches must reject.",
+  "limits": [
+    "Only 3 observed training draws and 5 seeds; resampling cannot discover unobserved variability.",
+    "Pilot distribution reused as known planning distribution; actual future bootstrap test re-estimates uncertainty.",
+    "No external outcomes enter planning; domain shift can change means, variance, tails and correlations.",
+    "Candidate counts are distinct sampling units, not repeated frames from one room.",
+    "Monte Carlo SE is simulation precision only, not uncertainty in estimated population power."
+  ],
+  "minimum_candidates": [
+    {
+      "pilot": "fresh31",
+      "draws": 3,
+      "sd_multiplier": 1.0,
+      "effect": 0.006,
+      "minimum_n_power_80": 750,
+      "minimum_n_power_90": null
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 3,
+      "sd_multiplier": 1.0,
+      "effect": 0.009,
+      "minimum_n_power_80": 200,
+      "minimum_n_power_90": 250
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 3,
+      "sd_multiplier": 1.0,
+      "effect": 0.012,
+      "minimum_n_power_80": 100,
+      "minimum_n_power_90": 150
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 3,
+      "sd_multiplier": 1.5,
+      "effect": 0.006,
+      "minimum_n_power_80": null,
+      "minimum_n_power_90": null
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 3,
+      "sd_multiplier": 1.5,
+      "effect": 0.009,
+      "minimum_n_power_80": 750,
+      "minimum_n_power_90": null
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 3,
+      "sd_multiplier": 1.5,
+      "effect": 0.012,
+      "minimum_n_power_80": 250,
+      "minimum_n_power_90": 500
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 5,
+      "sd_multiplier": 1.0,
+      "effect": 0.006,
+      "minimum_n_power_80": 500,
+      "minimum_n_power_90": 750
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 5,
+      "sd_multiplier": 1.0,
+      "effect": 0.009,
+      "minimum_n_power_80": 200,
+      "minimum_n_power_90": 200
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 5,
+      "sd_multiplier": 1.0,
+      "effect": 0.012,
+      "minimum_n_power_80": 100,
+      "minimum_n_power_90": 150
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 5,
+      "sd_multiplier": 1.5,
+      "effect": 0.006,
+      "minimum_n_power_80": null,
+      "minimum_n_power_90": null
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 5,
+      "sd_multiplier": 1.5,
+      "effect": 0.009,
+      "minimum_n_power_80": 500,
+      "minimum_n_power_90": 750
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 5,
+      "sd_multiplier": 1.5,
+      "effect": 0.012,
+      "minimum_n_power_80": 250,
+      "minimum_n_power_90": 300
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 10,
+      "sd_multiplier": 1.0,
+      "effect": 0.006,
+      "minimum_n_power_80": 500,
+      "minimum_n_power_90": 500
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 10,
+      "sd_multiplier": 1.0,
+      "effect": 0.009,
+      "minimum_n_power_80": 150,
+      "minimum_n_power_90": 200
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 10,
+      "sd_multiplier": 1.0,
+      "effect": 0.012,
+      "minimum_n_power_80": 100,
+      "minimum_n_power_90": 100
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 10,
+      "sd_multiplier": 1.5,
+      "effect": 0.006,
+      "minimum_n_power_80": null,
+      "minimum_n_power_90": null
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 10,
+      "sd_multiplier": 1.5,
+      "effect": 0.009,
+      "minimum_n_power_80": 500,
+      "minimum_n_power_90": 500
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 10,
+      "sd_multiplier": 1.5,
+      "effect": 0.012,
+      "minimum_n_power_80": 200,
+      "minimum_n_power_90": 250
+    },
+    {
+      "pilot": "observed64",
+      "draws": 3,
+      "sd_multiplier": 1.0,
+      "effect": 0.006,
+      "minimum_n_power_80": 100,
+      "minimum_n_power_90": 150
+    },
+    {
+      "pilot": "observed64",
+      "draws": 3,
+      "sd_multiplier": 1.0,
+      "effect": 0.009,
+      "minimum_n_power_80": 64,
+      "minimum_n_power_90": 64
+    },
+    {
+      "pilot": "observed64",
+      "draws": 3,
+      "sd_multiplier": 1.0,
+      "effect": 0.012,
+      "minimum_n_power_80": 31,
+      "minimum_n_power_90": 31
+    },
+    {
+      "pilot": "observed64",
+      "draws": 3,
+      "sd_multiplier": 1.5,
+      "effect": 0.006,
+      "minimum_n_power_80": 250,
+      "minimum_n_power_90": 300
+    },
+    {
+      "pilot": "observed64",
+      "draws": 3,
+      "sd_multiplier": 1.5,
+      "effect": 0.009,
+      "minimum_n_power_80": 100,
+      "minimum_n_power_90": 150
+    },
+    {
+      "pilot": "observed64",
+      "draws": 3,
+      "sd_multiplier": 1.5,
+      "effect": 0.012,
+      "minimum_n_power_80": 64,
+      "minimum_n_power_90": 64
+    },
+    {
+      "pilot": "observed64",
+      "draws": 5,
+      "sd_multiplier": 1.0,
+      "effect": 0.006,
+      "minimum_n_power_80": 100,
+      "minimum_n_power_90": 150
+    },
+    {
+      "pilot": "observed64",
+      "draws": 5,
+      "sd_multiplier": 1.0,
+      "effect": 0.009,
+      "minimum_n_power_80": 64,
+      "minimum_n_power_90": 64
+    },
+    {
+      "pilot": "observed64",
+      "draws": 5,
+      "sd_multiplier": 1.0,
+      "effect": 0.012,
+      "minimum_n_power_80": 31,
+      "minimum_n_power_90": 31
+    },
+    {
+      "pilot": "observed64",
+      "draws": 5,
+      "sd_multiplier": 1.5,
+      "effect": 0.006,
+      "minimum_n_power_80": 250,
+      "minimum_n_power_90": 300
+    },
+    {
+      "pilot": "observed64",
+      "draws": 5,
+      "sd_multiplier": 1.5,
+      "effect": 0.009,
+      "minimum_n_power_80": 100,
+      "minimum_n_power_90": 150
+    },
+    {
+      "pilot": "observed64",
+      "draws": 5,
+      "sd_multiplier": 1.5,
+      "effect": 0.012,
+      "minimum_n_power_80": 64,
+      "minimum_n_power_90": 64
+    },
+    {
+      "pilot": "observed64",
+      "draws": 10,
+      "sd_multiplier": 1.0,
+      "effect": 0.006,
+      "minimum_n_power_80": 100,
+      "minimum_n_power_90": 150
+    },
+    {
+      "pilot": "observed64",
+      "draws": 10,
+      "sd_multiplier": 1.0,
+      "effect": 0.009,
+      "minimum_n_power_80": 64,
+      "minimum_n_power_90": 64
+    },
+    {
+      "pilot": "observed64",
+      "draws": 10,
+      "sd_multiplier": 1.0,
+      "effect": 0.012,
+      "minimum_n_power_80": 31,
+      "minimum_n_power_90": 31
+    },
+    {
+      "pilot": "observed64",
+      "draws": 10,
+      "sd_multiplier": 1.5,
+      "effect": 0.006,
+      "minimum_n_power_80": 200,
+      "minimum_n_power_90": 300
+    },
+    {
+      "pilot": "observed64",
+      "draws": 10,
+      "sd_multiplier": 1.5,
+      "effect": 0.009,
+      "minimum_n_power_80": 100,
+      "minimum_n_power_90": 150
+    },
+    {
+      "pilot": "observed64",
+      "draws": 10,
+      "sd_multiplier": 1.5,
+      "effect": 0.012,
+      "minimum_n_power_80": 64,
+      "minimum_n_power_90": 64
+    }
+  ],
+  "diagnostics": [
+    {
+      "pilot": "fresh31",
+      "draws": 3,
+      "scenes": 31,
+      "target_standard_error": 0.005592151609788017
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 3,
+      "scenes": 64,
+      "target_standard_error": 0.004050593619328604
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 3,
+      "scenes": 100,
+      "target_standard_error": 0.0033106131552989096
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 3,
+      "scenes": 150,
+      "target_standard_error": 0.002814813588449971
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 3,
+      "scenes": 200,
+      "target_standard_error": 0.0025465458861687147
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 3,
+      "scenes": 250,
+      "target_standard_error": 0.002356606674266079
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 3,
+      "scenes": 300,
+      "target_standard_error": 0.0022313197986139426
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 3,
+      "scenes": 500,
+      "target_standard_error": 0.0019313548898519414
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 3,
+      "scenes": 750,
+      "target_standard_error": 0.0017464164297823525
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 3,
+      "scenes": 1000,
+      "target_standard_error": 0.001660494096973507
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 5,
+      "scenes": 31,
+      "target_standard_error": 0.005461818028429122
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 5,
+      "scenes": 64,
+      "target_standard_error": 0.003890229269316347
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 5,
+      "scenes": 100,
+      "target_standard_error": 0.0031661815635694564
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 5,
+      "scenes": 150,
+      "target_standard_error": 0.002673490401082655
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 5,
+      "scenes": 200,
+      "target_standard_error": 0.002378305285883212
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 5,
+      "scenes": 250,
+      "target_standard_error": 0.0021887768585390844
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 5,
+      "scenes": 300,
+      "target_standard_error": 0.0020399724431980053
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 5,
+      "scenes": 500,
+      "target_standard_error": 0.0017281721575271932
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 5,
+      "scenes": 750,
+      "target_standard_error": 0.0015359208086893996
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 5,
+      "scenes": 1000,
+      "target_standard_error": 0.0014471050075765808
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 10,
+      "scenes": 31,
+      "target_standard_error": 0.005394403971059156
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 10,
+      "scenes": 64,
+      "target_standard_error": 0.0038093596722656633
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 10,
+      "scenes": 100,
+      "target_standard_error": 0.003071396695817545
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 10,
+      "scenes": 150,
+      "target_standard_error": 0.0025498494216914433
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 10,
+      "scenes": 200,
+      "target_standard_error": 0.0022639543911049105
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 10,
+      "scenes": 250,
+      "target_standard_error": 0.0020564447042775197
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 10,
+      "scenes": 300,
+      "target_standard_error": 0.0018950749600183889
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 10,
+      "scenes": 500,
+      "target_standard_error": 0.0015650923700442252
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 10,
+      "scenes": 750,
+      "target_standard_error": 0.001358208099338918
+    },
+    {
+      "pilot": "fresh31",
+      "draws": 10,
+      "scenes": 1000,
+      "target_standard_error": 0.0012427796088394847
+    },
+    {
+      "pilot": "observed64",
+      "draws": 3,
+      "scenes": 31,
+      "target_standard_error": 0.002904857815341941
+    },
+    {
+      "pilot": "observed64",
+      "draws": 3,
+      "scenes": 64,
+      "target_standard_error": 0.0020383088408793696
+    },
+    {
+      "pilot": "observed64",
+      "draws": 3,
+      "scenes": 100,
+      "target_standard_error": 0.001663979960280047
+    },
+    {
+      "pilot": "observed64",
+      "draws": 3,
+      "scenes": 150,
+      "target_standard_error": 0.0013848540055736488
+    },
+    {
+      "pilot": "observed64",
+      "draws": 3,
+      "scenes": 200,
+      "target_standard_error": 0.0012070754441233943
+    },
+    {
+      "pilot": "observed64",
+      "draws": 3,
+      "scenes": 250,
+      "target_standard_error": 0.0011215622853017544
+    },
+    {
+      "pilot": "observed64",
+      "draws": 3,
+      "scenes": 300,
+      "target_standard_error": 0.001041778795957441
+    },
+    {
+      "pilot": "observed64",
+      "draws": 3,
+      "scenes": 500,
+      "target_standard_error": 0.000859676340524612
+    },
+    {
+      "pilot": "observed64",
+      "draws": 3,
+      "scenes": 750,
+      "target_standard_error": 0.0007527565166551288
+    },
+    {
+      "pilot": "observed64",
+      "draws": 3,
+      "scenes": 1000,
+      "target_standard_error": 0.0007080702460715901
+    },
+    {
+      "pilot": "observed64",
+      "draws": 5,
+      "scenes": 31,
+      "target_standard_error": 0.0028836977578741087
+    },
+    {
+      "pilot": "observed64",
+      "draws": 5,
+      "scenes": 64,
+      "target_standard_error": 0.002044494718638416
+    },
+    {
+      "pilot": "observed64",
+      "draws": 5,
+      "scenes": 100,
+      "target_standard_error": 0.001638856157406361
+    },
+    {
+      "pilot": "observed64",
+      "draws": 5,
+      "scenes": 150,
+      "target_standard_error": 0.001359117713148009
+    },
+    {
+      "pilot": "observed64",
+      "draws": 5,
+      "scenes": 200,
+      "target_standard_error": 0.001188167097588417
+    },
+    {
+      "pilot": "observed64",
+      "draws": 5,
+      "scenes": 250,
+      "target_standard_error": 0.001095849755939729
+    },
+    {
+      "pilot": "observed64",
+      "draws": 5,
+      "scenes": 300,
+      "target_standard_error": 0.0010139885960731144
+    },
+    {
+      "pilot": "observed64",
+      "draws": 5,
+      "scenes": 500,
+      "target_standard_error": 0.0008256426360347375
+    },
+    {
+      "pilot": "observed64",
+      "draws": 5,
+      "scenes": 750,
+      "target_standard_error": 0.0007234004620996405
+    },
+    {
+      "pilot": "observed64",
+      "draws": 5,
+      "scenes": 1000,
+      "target_standard_error": 0.0006621872941647068
+    },
+    {
+      "pilot": "observed64",
+      "draws": 10,
+      "scenes": 31,
+      "target_standard_error": 0.0028573824876029414
+    },
+    {
+      "pilot": "observed64",
+      "draws": 10,
+      "scenes": 64,
+      "target_standard_error": 0.002017244287345942
+    },
+    {
+      "pilot": "observed64",
+      "draws": 10,
+      "scenes": 100,
+      "target_standard_error": 0.0016243169347732362
+    },
+    {
+      "pilot": "observed64",
+      "draws": 10,
+      "scenes": 150,
+      "target_standard_error": 0.0013532075096826092
+    },
+    {
+      "pilot": "observed64",
+      "draws": 10,
+      "scenes": 200,
+      "target_standard_error": 0.0011809666578655744
+    },
+    {
+      "pilot": "observed64",
+      "draws": 10,
+      "scenes": 250,
+      "target_standard_error": 0.0010716787141002724
+    },
+    {
+      "pilot": "observed64",
+      "draws": 10,
+      "scenes": 300,
+      "target_standard_error": 0.0009933369827385644
+    },
+    {
+      "pilot": "observed64",
+      "draws": 10,
+      "scenes": 500,
+      "target_standard_error": 0.0008043905597976024
+    },
+    {
+      "pilot": "observed64",
+      "draws": 10,
+      "scenes": 750,
+      "target_standard_error": 0.0007014436202650812
+    },
+    {
+      "pilot": "observed64",
+      "draws": 10,
+      "scenes": 1000,
+      "target_standard_error": 0.0006403249532724727
+    }
+  ]
+}
