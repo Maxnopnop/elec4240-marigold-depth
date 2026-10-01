@@ -6,7 +6,9 @@ Can a small depth adapter retain low-resolution adaptation gains while preservin
 
 Working project title: **Resolution-Consistent, Prior-Preserving LoRA for Efficient Monocular Depth Estimation**.
 
-This is a proposed course-project extension. It has not been implemented or validated by the existing experiments. The underlying components are related to established methods; neither the title nor the combination establishes publication-level novelty.
+The complete design below remains a proposed course-project extension; the partial prototype is distinguished in the status update below. The underlying components are related to established methods; neither the title nor the combination establishes publication-level novelty.
+
+Implementation status update: `scaleup_v2` now implements and tests mixed-resolution LoRA and a lightweight uniform denoiser-velocity preservation penalty. See [the fixed larger experiment](SCALEUP_PROTOCOL.md). This is a partial prototype: confidence-weighted depth preservation and explicit cross-resolution geometric consistency below remain proposed, unimplemented extensions. Do not describe the lightweight velocity objective as the complete proposed method.
 
 ## Evidence and the simplest control
 

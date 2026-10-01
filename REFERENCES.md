@@ -19,4 +19,6 @@ Additional context for proposed extensions (not reproduced): Wortsman et al., [R
 
 This is a deliberately smaller adaptation experiment, not the complete original training recipe. It uses a depth-specialized checkpoint, cached latents at 256x192, Gaussian noise, an empty text prompt, fixed learning rate, no image augmentation, and only a short sequence of optimization steps. It omits the original large synthetic-data mixture, multi-resolution noise, large training resolution, full UNet updates, and full training schedule. These differences must be retained in any report.
 
+The later `scaleup_v2` prototype extends this compact trainer to 256/512 processing long sides and alternating-resolution updates. Its optional teacher term is uniform masked MSE between adapted and original denoiser velocity outputs at identical training inputs, implemented by temporarily disabling LoRA for a no-gradient teacher pass. It is not an implementation of Iris, ResAdapter, confidence-weighted depth distillation or cross-resolution consistency. Existing-method attribution remains applicable.
+
 Third-party package and model licenses remain applicable. No upstream source tree, training dataset, model weights, access tokens or local environment is included in the GitHub upload.

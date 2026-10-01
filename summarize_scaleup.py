@@ -82,8 +82,9 @@ def main():
         ax.set(title=f'Inference long side {res}', ylabel='Aligned AbsRel (lower is better)')
         ax.grid(axis='y', alpha=.2); ax.set_axisbelow(True)
         for i, value in enumerate(means):
-            ax.text(i, value+.002, f'{value:.4f}', ha='center', va='bottom', fontsize=8)
-        ax.set_ylim(0, max(means)*1.18); ax.legend(fontsize=8)
+            ax.text(i, value+errors[i]+.0015, f'{value:.4f}', ha='center', va='bottom', fontsize=8)
+        ax.set_ylim(0, max(max(means), lookup[('test', 'expert')]['abs_rel_mean'])*1.18)
+        ax.legend(fontsize=8)
     fig.suptitle('64 previously unused test scenes | 128 training scenes | error bars: training-seed SD', fontsize=12)
     fig.savefig(figdir/'test_ablation.png', dpi=140); plt.close(fig)
     fig, axes = plt.subplots(1, 2, figsize=(11, 4.3), layout='constrained')
@@ -97,7 +98,7 @@ def main():
         losses = np.array([[h['supervised_loss'] for h in hist] for hist in histories])
         smooth = np.convolve(losses.mean(axis=0), np.ones(20)/20, mode='valid')
         axes[1].plot(np.arange(20, 321), smooth, color=color, label=names[m])
-    axes[0].set(xlabel='Training seconds (cache/loading excluded)', ylabel='Test AbsRel at inference512', title='Accuracy and training cost')
+    axes[0].set(xlabel='Training seconds (cache/loading excluded)', ylabel='Test AbsRel at inference 512', title='Accuracy and training cost (bars: run SD)')
     axes[1].set(xlabel='Optimizer update', ylabel='Supervised velocity MSE', title='Mean over seeds; 20-update moving average')
     for ax in axes:
         ax.grid(alpha=.2); ax.legend(fontsize=8)
@@ -121,7 +122,7 @@ def main():
             if i == 0:
                 axes[i, j].set_title((['RGB', 'GT']+[c[1] for c in columns]+['Prior error (0-1m)'])[j], fontsize=10)
         axes[i, 0].set_ylabel(f"Frame {row['id']}")
-    fig.suptitle('Fixed first three new test scenes | all inference512, seed17 | GT affine alignment | shared depth range0-7m', fontsize=12)
+    fig.suptitle('Fixed first three new test scenes | inference 512, seed 17 | GT affine alignment | shared depth range 0-7m', fontsize=12)
     fig.savefig(figdir/'fixed_test_examples.png', dpi=125); plt.close(fig)
     lines = ['# Larger local experiment: training resolution and denoiser preservation', '',
              'Completed 12 independent LoRA training runs (four methods x three seeds), each with 128 training scenes and 320 updates. '
@@ -129,14 +130,30 @@ def main():
              'All 27 predefined conditions were evaluated on both splits, giving 2,592 predictions. '
              'The full fixed matrix was evaluated after a technical validation audit; no winner was selected to determine test entries.', '',
              '**All metrics use per-image ground-truth affine alignment: results concern relative depth geometry, not uncalibrated metric distance.**', '',
+             '## Main findings', '',
+             'At 512-pixel inference, mixed-resolution training reduces mean test AbsRel from 0.06661 to 0.05968 (10.4%). '
+             'The paired difference is -0.00693, with a scene-bootstrap interval of [-0.01102, -0.00357]. '
+             'Training only at 512 reaches 0.06075; the mixed-versus-high512 interval crosses zero, so the smaller mixed mean '
+             'does not establish a reliable advantage over high-resolution-only training.', '',
+             'The best observed low-resolution result comes from training at 256: AbsRel 0.08149 versus 0.11161 for the original model. '
+             'Mixed training reaches 0.08545 at that inference resolution. It therefore trades some low-resolution accuracy '
+             'for stronger high-resolution performance; it does not dominate single-resolution adaptation at every operating point.', '',
+             'Uniform denoiser preservation adds no convincing high-resolution gain: 0.05967 versus 0.05968, '
+             'with a paired difference interval of [-0.00045, +0.00058]. At 256, its mean is slightly worse '
+             '(difference +0.00060; unadjusted interval [+0.00002, +0.00124]). '
+             'Mean training time increases from 105.5 to 137.0 seconds, approximately 30%, excluding latent preparation. '
+             'The lower observed high-resolution seed SD with preservation is based on only three seeds and is insufficient '
+             'to establish a general stability benefit. These results do not support adding this particular penalty for improved mean accuracy.', '',
+             'The specialist reference reaches 0.08877 AbsRel at 22.7 ms/image. The better high-resolution Marigold scores '
+             'come with much slower inference and different input processing; this is not evidence of general superiority over specialist depth models.', '',
              '## Method and boundaries', '',
-             '`low256` and `high512` train at a single resolution; `mixed` alternates256/512 updates. '
+             '`low256` and `high512` train at a single resolution; `mixed` alternates 256/512 updates. '
              '`mixed_prior` adds 0.1 times masked student-versus-original velocity MSE at identical noisy depth/RGB latents and timesteps. '
              'The original denoiser is obtained with the adapter disabled and no teacher gradients. '
              'This implements uniform denoiser-output preservation, not confidence weighting or cross-resolution geometric consistency. '
              'All adapters update 829,952 parameters; the same per-seed image order and timestep schedule were verified across methods.', '',
              '## Primary fresh64 test results', '',
-             '| Training method | Inference long side | AbsRel mean +/- seed SD | RMSE (m) | Delta1 | Inference ms |',
+             '| Training method | Inference long side / size | AbsRel mean +/- seed SD | RMSE (m) | Delta1 | Inference ms |',
              '|---|---:|---:|---:|---:|---:|']
     for group in order:
         r = lookup[('test', group)]

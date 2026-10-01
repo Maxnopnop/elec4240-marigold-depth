@@ -2,6 +2,22 @@
 
 A local course-project study that measures the accuracy and compute cost of adapting a diffusion-based depth model on an 8 GB laptop GPU. The starting point is the public **Marigold Depth v1.1** checkpoint. The project is inspired by transferring image generators to perception, including Vision Banana, but does not implement Vision Banana.
 
+## Larger local experiment: scaleup_v2
+
+The larger study uses **128 training scenes, 32 validation scenes and 64 new test scenes** that were excluded from all earlier selections. It compares LoRA trained at 256, at 512, with alternating 256/512 updates, and with alternating resolutions plus a uniform original-denoiser preservation penalty. Each condition has three training seeds and 320 optimizer updates, followed by one-step inference at both resolutions. Original Marigold and the Depth Anything V2 specialist remain references: 27 evaluation conditions and 2,592 predictions in total.
+
+The added loss is masked student-versus-original **velocity MSE**, weighted by 0.1, at identical noisy training inputs. It is a lightweight prototype; confidence-weighted depth preservation and explicit cross-resolution consistency remain future methods. Equal updates do not imply equal compute. Read the [frozen protocol](SCALEUP_PROTOCOL.md), [full results](results/scaleup_v2/RESULTS.md), and [technical verification](results/scaleup_v2/verification.json). The complete fixed matrix enters fresh test evaluation only after the training/validation technical gate passes, with no model selection between stages.
+
+**Completed findings:** at 512-pixel inference, mixed-resolution LoRA reaches **0.05968 +/- 0.00119 AbsRel**, versus **0.06661** for original Marigold (10.4% lower). The scene-bootstrap interval for the paired difference excludes zero. High-resolution-only training reaches 0.06075; its difference from mixed training remains uncertain. Uniform denoiser preservation reaches 0.05967 and provides no reliable extra mean-accuracy gain while increasing measured training time by about30%. At 256-pixel inference, low-resolution-only training remains strongest among the tested adaptation modes. All **2,592** predictions and **224** data hashes passed verification; peak allocated training memory was **2,512 MiB** on the local RTX5060 Laptop GPU.
+
+With the pinned assets and Python environment already prepared:
+
+```powershell
+.\run_scaleup.ps1 -Python "$PWD\.venv\Scripts\python.exe" -WorkDir 'E:\elec4240-marigold-work'
+```
+
+The wrapper prepares the larger subset, runs or resumes matching completed conditions, audits validation, evaluates the fixed fresh test matrix, recomputes metrics and generates the report. Local preflight checked all four training paths and checkpoint restoration before full runs. Earlier result directories remain unchanged.
+
 ## Expanded evaluation
 
 The completed expanded phase preserves the pilot and extends it to **64 training, 16 validation and 120 test scenes**, with **96 previously unused test scenes as the primary evaluation**. It repeats LoRA32, LoRA64 and output-head64 adaptation with training seeds 17, 29 and 43, at 160 optimizer steps. Each trained checkpoint is evaluated at both 1 and 4 denoising steps. Inference noise stays fixed independently of the training seed. There are nine adaptation runs and 21 evaluation conditions, including the original model and the specialist reference.
@@ -31,9 +47,9 @@ python explore_inference.py --assets 'E:\elec4240-marigold-work\assets' --expand
 python summarize_exploration.py --assets 'E:\elec4240-marigold-work\assets' --expanded-work 'E:\elec4240-marigold-work\expanded_v1' --work 'E:\elec4240-marigold-work\validation_exploration_v1'
 ```
 
-## Original pilot setup
-
 For a proposed method extension, see [resolution-consistent, prior-preserving adaptation](METHOD_DIRECTIONS.md). A completed [adapter-strength diagnostic](results/scaling_v1/RESULTS.md) checks five strengths at each resolution on validation16. Its descriptive grid minima differ by resolution, but the apparent high-resolution gain over the original model has a scene interval crossing zero. Scalar interpolation is an existing-method baseline; the more substantial training modifications in the method note remain proposals.
+
+## Original pilot setup
 
 - **Data:** 32 training, 8 validation and 24 test frames from NYU Depth V2. One frame per scene; selected scenes are disjoint across splits. The 8-image adaptation set is nested within the 32-image set (25% versus 100% of this pilot's training pool, not of the full dataset).
 - **Controlled comparisons:** pretrained Marigold; rank-4 attention LoRA with 8 or 32 images; output-convolution-only adaptation with 32 images. All adaptations use 80 optimizer steps and one training seed.
