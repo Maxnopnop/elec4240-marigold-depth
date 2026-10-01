@@ -1,0 +1,6070 @@
+{
+  "group": "base_r512",
+  "conditions": [
+    "base_r512"
+  ],
+  "summary": {
+    "1-2m": {
+      "scenes": 190,
+      "aligned": 0.1129859522813806,
+      "calibrated": 0.37242246946486324
+    },
+    "2-4m": {
+      "scenes": 190,
+      "aligned": 0.0727216233811978,
+      "calibrated": 0.23220193356305863
+    },
+    "4-10m": {
+      "scenes": 97,
+      "aligned": 0.09961763760885627,
+      "calibrated": 0.362120939944858
+    },
+    "boundary": {
+      "scenes": 200,
+      "aligned": 0.1507554844819894,
+      "calibrated": 0.37950291512901707
+    },
+    "interior": {
+      "scenes": 200,
+      "aligned": 0.06818130807525961,
+      "calibrated": 0.37993256898189715
+    },
+    "0.1-1m": {
+      "scenes": 89,
+      "aligned": 0.3219485934442497,
+      "calibrated": 1.0670270944380098
+    }
+  },
+  "per_scene": [
+    {
+      "id": 1,
+      "space": "home_ac",
+      "regions": {
+        "1-2m": {
+          "pixels": 18419,
+          "aligned": 0.04408148289362636,
+          "calibrated": 0.12387637225448209
+        },
+        "2-4m": {
+          "pixels": 160343,
+          "aligned": 0.026794479451539947,
+          "calibrated": 0.2666292634460486
+        },
+        "4-10m": {
+          "pixels": 55479,
+          "aligned": 0.03267186012632472,
+          "calibrated": 0.4240178108504877
+        },
+        "boundary": {
+          "pixels": 16046,
+          "aligned": 0.08114571434921615,
+          "calibrated": 0.2810272540306272
+        },
+        "interior": {
+          "pixels": 218195,
+          "aligned": 0.02575119525019739,
+          "calibrated": 0.2935380540309533
+        }
+      }
+    },
+    {
+      "id": 2,
+      "space": "brown_cs_3",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 24499,
+          "aligned": 0.024400352439904172,
+          "calibrated": 1.0190492907506759
+        },
+        "1-2m": {
+          "pixels": 191179,
+          "aligned": 0.0308305436552275,
+          "calibrated": 0.6793581148040251
+        },
+        "2-4m": {
+          "pixels": 41461,
+          "aligned": 0.031114859991165273,
+          "calibrated": 0.5241805804127748
+        },
+        "boundary": {
+          "pixels": 6415,
+          "aligned": 0.06559370867177754,
+          "calibrated": 0.5932744290941192
+        },
+        "interior": {
+          "pixels": 250724,
+          "aligned": 0.029359799256761222,
+          "calibrated": 0.6890919464673297
+        }
+      }
+    },
+    {
+      "id": 3,
+      "space": "mit_w85_2floor",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 5999,
+          "aligned": 1.483253742278506,
+          "calibrated": 1.3839901592376738
+        },
+        "1-2m": {
+          "pixels": 8519,
+          "aligned": 0.7253584915029377,
+          "calibrated": 0.5315332663876549
+        },
+        "2-4m": {
+          "pixels": 176775,
+          "aligned": 0.06908929985197194,
+          "calibrated": 0.1762125853473631
+        },
+        "4-10m": {
+          "pixels": 30032,
+          "aligned": 0.07405341514523482,
+          "calibrated": 0.28115838055747305
+        },
+        "boundary": {
+          "pixels": 9781,
+          "aligned": 0.5089708981609838,
+          "calibrated": 0.4202527851522026
+        },
+        "interior": {
+          "pixels": 211544,
+          "aligned": 0.11598701442302183,
+          "calibrated": 0.22838711865962488
+        }
+      }
+    },
+    {
+      "id": 4,
+      "space": "mit_46_6lounge",
+      "regions": {
+        "1-2m": {
+          "pixels": 168347,
+          "aligned": 0.05670890126178399,
+          "calibrated": 0.3119247323463549
+        },
+        "2-4m": {
+          "pixels": 91368,
+          "aligned": 0.023668350862461506,
+          "calibrated": 0.35042122850336543
+        },
+        "boundary": {
+          "pixels": 6759,
+          "aligned": 0.08609045845943614,
+          "calibrated": 0.36783410826348295
+        },
+        "interior": {
+          "pixels": 252956,
+          "aligned": 0.04398953918306584,
+          "calibrated": 0.3243358093283197
+        }
+      }
+    },
+    {
+      "id": 5,
+      "space": "mit_36_ti_lab2",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 22407,
+          "aligned": 0.4036144109920829,
+          "calibrated": 1.1541178640563516
+        },
+        "1-2m": {
+          "pixels": 59619,
+          "aligned": 0.14232555458073864,
+          "calibrated": 0.28539560666379965
+        },
+        "2-4m": {
+          "pixels": 146275,
+          "aligned": 0.10265723085823059,
+          "calibrated": 0.10445991606692785
+        },
+        "4-10m": {
+          "pixels": 26909,
+          "aligned": 0.13027284448580093,
+          "calibrated": 0.3393283076967402
+        },
+        "boundary": {
+          "pixels": 30547,
+          "aligned": 0.1725694799202942,
+          "calibrated": 0.20441630188076282
+        },
+        "interior": {
+          "pixels": 224663,
+          "aligned": 0.137002149257241,
+          "calibrated": 0.2717041726254414
+        }
+      }
+    },
+    {
+      "id": 6,
+      "space": "mit_32_g451",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 848,
+          "aligned": 0.34546218089780173,
+          "calibrated": 0.834129163260323
+        },
+        "1-2m": {
+          "pixels": 125452,
+          "aligned": 0.06375846683006894,
+          "calibrated": 0.3141620029926904
+        },
+        "2-4m": {
+          "pixels": 134020,
+          "aligned": 0.04166144543824768,
+          "calibrated": 0.05212125147293435
+        },
+        "boundary": {
+          "pixels": 12352,
+          "aligned": 0.17520385355579876,
+          "calibrated": 0.26672031838924937
+        },
+        "interior": {
+          "pixels": 247968,
+          "aligned": 0.047227577867627574,
+          "calibrated": 0.17667744983039102
+        }
+      }
+    },
+    {
+      "id": 7,
+      "space": "mit_w85_4",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 27464,
+          "aligned": 0.03439816705424595,
+          "calibrated": 0.8585037043918722
+        },
+        "1-2m": {
+          "pixels": 230903,
+          "aligned": 0.03620528895107758,
+          "calibrated": 0.9362315155204808
+        },
+        "boundary": {
+          "pixels": 5998,
+          "aligned": 0.12030851637486507,
+          "calibrated": 1.0624639577761852
+        },
+        "interior": {
+          "pixels": 252369,
+          "aligned": 0.03400976591194654,
+          "calibrated": 0.9247726644195696
+        }
+      }
+    },
+    {
+      "id": 8,
+      "space": "hotel_graz",
+      "regions": {
+        "1-2m": {
+          "pixels": 64821,
+          "aligned": 0.05579704150032824,
+          "calibrated": 0.0558377867615051
+        },
+        "2-4m": {
+          "pixels": 184614,
+          "aligned": 0.027342775261445296,
+          "calibrated": 0.02762036602732373
+        },
+        "boundary": {
+          "pixels": 9670,
+          "aligned": 0.10506382130543218,
+          "calibrated": 0.10461275379428604
+        },
+        "interior": {
+          "pixels": 239765,
+          "aligned": 0.03190086954803958,
+          "calibrated": 0.03214381623775413
+        }
+      }
+    },
+    {
+      "id": 9,
+      "space": "mit_32_d507",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 1467,
+          "aligned": 0.5138593928124361,
+          "calibrated": 0.856898735775644
+        },
+        "1-2m": {
+          "pixels": 106787,
+          "aligned": 0.039312716601487434,
+          "calibrated": 0.25664532374223853
+        },
+        "2-4m": {
+          "pixels": 145072,
+          "aligned": 0.03019786739494021,
+          "calibrated": 0.24947835842464122
+        },
+        "boundary": {
+          "pixels": 10519,
+          "aligned": 0.11661065787528448,
+          "calibrated": 0.29579662748878355
+        },
+        "interior": {
+          "pixels": 242807,
+          "aligned": 0.03338518372825961,
+          "calibrated": 0.2542937160817865
+        }
+      }
+    },
+    {
+      "id": 10,
+      "space": "hotel_beijing",
+      "regions": {
+        "1-2m": {
+          "pixels": 75160,
+          "aligned": 0.0631158107749987,
+          "calibrated": 0.053387605036981284
+        },
+        "2-4m": {
+          "pixels": 150770,
+          "aligned": 0.06767401351175252,
+          "calibrated": 0.1505338230969563
+        },
+        "4-10m": {
+          "pixels": 33219,
+          "aligned": 0.04083206500069141,
+          "calibrated": 0.38594076757248647
+        },
+        "boundary": {
+          "pixels": 10518,
+          "aligned": 0.12353517168999711,
+          "calibrated": 0.22113759837378774
+        },
+        "interior": {
+          "pixels": 248631,
+          "aligned": 0.06034666950797932,
+          "calibrated": 0.14963233869148476
+        }
+      }
+    },
+    {
+      "id": 11,
+      "space": "harvard_c11",
+      "regions": {
+        "1-2m": {
+          "pixels": 10023,
+          "aligned": 0.07300014882664319,
+          "calibrated": 0.12041656128223603
+        },
+        "2-4m": {
+          "pixels": 232121,
+          "aligned": 0.06557289877052325,
+          "calibrated": 0.2776419781810864
+        },
+        "4-10m": {
+          "pixels": 9578,
+          "aligned": 0.17956867945438204,
+          "calibrated": 0.5154982424709111
+        },
+        "boundary": {
+          "pixels": 13057,
+          "aligned": 0.21752507742780966,
+          "calibrated": 0.30620783676017244
+        },
+        "interior": {
+          "pixels": 238665,
+          "aligned": 0.06214657031002129,
+          "calibrated": 0.2790218727208121
+        }
+      }
+    },
+    {
+      "id": 12,
+      "space": "home_at",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 210289,
+          "aligned": 0.0656759633806572,
+          "calibrated": 1.8891449660934876
+        },
+        "1-2m": {
+          "pixels": 50137,
+          "aligned": 0.05852116958370583,
+          "calibrated": 1.7988488070322204
+        },
+        "boundary": {
+          "pixels": 5700,
+          "aligned": 0.1298883426354303,
+          "calibrated": 1.957813598776842
+        },
+        "interior": {
+          "pixels": 254726,
+          "aligned": 0.06283082602385044,
+          "calibrated": 1.8698356308346216
+        }
+      }
+    },
+    {
+      "id": 13,
+      "space": "mit_dorm_masseeh_xc",
+      "regions": {
+        "1-2m": {
+          "pixels": 10244,
+          "aligned": 0.33382543317720953,
+          "calibrated": 0.03271848576444075
+        },
+        "2-4m": {
+          "pixels": 205373,
+          "aligned": 0.05111804523932302,
+          "calibrated": 0.2597501961478054
+        },
+        "4-10m": {
+          "pixels": 44753,
+          "aligned": 0.02328949530608588,
+          "calibrated": 0.2537991839798471
+        },
+        "boundary": {
+          "pixels": 21096,
+          "aligned": 0.09639996423149268,
+          "calibrated": 0.24030164909059978
+        },
+        "interior": {
+          "pixels": 239274,
+          "aligned": 0.05402423656731827,
+          "calibrated": 0.25063198046201834
+        }
+      }
+    },
+    {
+      "id": 14,
+      "space": "mit_ne47_huge_office",
+      "regions": {
+        "1-2m": {
+          "pixels": 55039,
+          "aligned": 0.11566016854541919,
+          "calibrated": 0.25568091940542903
+        },
+        "2-4m": {
+          "pixels": 205076,
+          "aligned": 0.0681338944743014,
+          "calibrated": 0.21464971877838057
+        },
+        "boundary": {
+          "pixels": 20789,
+          "aligned": 0.11474373905327676,
+          "calibrated": 0.28734489833543686
+        },
+        "interior": {
+          "pixels": 239326,
+          "aligned": 0.07501499615004048,
+          "calibrated": 0.21777121900610544
+        }
+      }
+    },
+    {
+      "id": 15,
+      "space": "mit_32_d466",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 18168,
+          "aligned": 0.45399730212455647,
+          "calibrated": 0.9599550744502829
+        },
+        "1-2m": {
+          "pixels": 81127,
+          "aligned": 0.1256320290127877,
+          "calibrated": 0.2542899539851186
+        },
+        "2-4m": {
+          "pixels": 149645,
+          "aligned": 0.07664190090662577,
+          "calibrated": 0.09607044576512827
+        },
+        "boundary": {
+          "pixels": 19045,
+          "aligned": 0.15573708416728213,
+          "calibrated": 0.21351531970598006
+        },
+        "interior": {
+          "pixels": 229895,
+          "aligned": 0.1171988825156071,
+          "calibrated": 0.2104452357914947
+        }
+      }
+    },
+    {
+      "id": 16,
+      "space": "brown_cs_2",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 74946,
+          "aligned": 0.20864018133769283,
+          "calibrated": 1.4185477626663394
+        },
+        "1-2m": {
+          "pixels": 30326,
+          "aligned": 0.12468144489233532,
+          "calibrated": 0.525131669521942
+        },
+        "2-4m": {
+          "pixels": 29886,
+          "aligned": 0.1511049115413325,
+          "calibrated": 0.1358907787721772
+        },
+        "4-10m": {
+          "pixels": 95664,
+          "aligned": 0.0234151320027023,
+          "calibrated": 0.22373922526599718
+        },
+        "boundary": {
+          "pixels": 13047,
+          "aligned": 0.2957356385139481,
+          "calibrated": 0.5464935876639886
+        },
+        "interior": {
+          "pixels": 217775,
+          "aligned": 0.10246943049881291,
+          "calibrated": 0.6455035832978693
+        }
+      }
+    },
+    {
+      "id": 17,
+      "space": "brown_bm_3",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 10319,
+          "aligned": 0.23156058878821675,
+          "calibrated": 0.9739702118520431
+        },
+        "1-2m": {
+          "pixels": 139480,
+          "aligned": 0.34486247905989775,
+          "calibrated": 0.9982058262537123
+        },
+        "2-4m": {
+          "pixels": 110824,
+          "aligned": 0.19674539538892163,
+          "calibrated": 0.23899771048877444
+        },
+        "boundary": {
+          "pixels": 16728,
+          "aligned": 0.1871083648714112,
+          "calibrated": 0.36851287278343975
+        },
+        "interior": {
+          "pixels": 243895,
+          "aligned": 0.2835853759445377,
+          "calibrated": 0.6953908288126267
+        }
+      }
+    },
+    {
+      "id": 18,
+      "space": "mit_w85_8",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 98302,
+          "aligned": 0.16758279171838264,
+          "calibrated": 1.445912125709971
+        },
+        "1-2m": {
+          "pixels": 141361,
+          "aligned": 0.1409708097513956,
+          "calibrated": 0.89384780819499
+        },
+        "2-4m": {
+          "pixels": 20901,
+          "aligned": 0.24541882046702793,
+          "calibrated": 0.24867194115430452
+        },
+        "boundary": {
+          "pixels": 15447,
+          "aligned": 0.23876802617038168,
+          "calibrated": 0.6954151970402621
+        },
+        "interior": {
+          "pixels": 245117,
+          "aligned": 0.15438646562700648,
+          "calibrated": 1.0727394978282971
+        }
+      }
+    },
+    {
+      "id": 19,
+      "space": "mit_w85k2",
+      "regions": {
+        "1-2m": {
+          "pixels": 78799,
+          "aligned": 0.022082137437054925,
+          "calibrated": 0.1587120709242407
+        },
+        "2-4m": {
+          "pixels": 179908,
+          "aligned": 0.025143639580041077,
+          "calibrated": 0.15337952307465322
+        },
+        "boundary": {
+          "pixels": 8818,
+          "aligned": 0.060251441164099216,
+          "calibrated": 0.14975298497661996
+        },
+        "interior": {
+          "pixels": 249889,
+          "aligned": 0.022939365275316214,
+          "calibrated": 0.15518903950374016
+        }
+      }
+    },
+    {
+      "id": 20,
+      "space": "hotel_nips2012",
+      "regions": {
+        "1-2m": {
+          "pixels": 260624,
+          "aligned": 0.019831217424425732,
+          "calibrated": 0.8195476484963621
+        },
+        "boundary": {
+          "pixels": 3040,
+          "aligned": 0.08579367456612118,
+          "calibrated": 0.38227166962729126
+        },
+        "interior": {
+          "pixels": 257584,
+          "aligned": 0.019052730135965448,
+          "calibrated": 0.8247083687886239
+        }
+      }
+    },
+    {
+      "id": 21,
+      "space": "mit_w59_conference",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 2553,
+          "aligned": 0.7299021335653372,
+          "calibrated": 1.5785054075948284
+        },
+        "1-2m": {
+          "pixels": 37017,
+          "aligned": 0.06788394252480344,
+          "calibrated": 0.30462478017792183
+        },
+        "2-4m": {
+          "pixels": 15546,
+          "aligned": 0.12686493485161945,
+          "calibrated": 0.24132588788903334
+        },
+        "4-10m": {
+          "pixels": 182205,
+          "aligned": 0.07023651724006315,
+          "calibrated": 0.4139706685784745
+        },
+        "boundary": {
+          "pixels": 13066,
+          "aligned": 0.15421282942491338,
+          "calibrated": 0.38313441302706536
+        },
+        "interior": {
+          "pixels": 224255,
+          "aligned": 0.07639090374393444,
+          "calibrated": 0.39900721711572956
+        }
+      }
+    },
+    {
+      "id": 22,
+      "space": "harvard_tea_1",
+      "regions": {
+        "1-2m": {
+          "pixels": 72667,
+          "aligned": 0.018757761840647976,
+          "calibrated": 0.3077952138216611
+        },
+        "2-4m": {
+          "pixels": 187061,
+          "aligned": 0.01940422011920511,
+          "calibrated": 0.33344953617624673
+        },
+        "boundary": {
+          "pixels": 7910,
+          "aligned": 0.06856782381818519,
+          "calibrated": 0.3375512347071401
+        },
+        "interior": {
+          "pixels": 251818,
+          "aligned": 0.017673365736330007,
+          "calibrated": 0.32591763981490623
+        }
+      }
+    },
+    {
+      "id": 23,
+      "space": "brown_cogsci_5",
+      "regions": {
+        "1-2m": {
+          "pixels": 743,
+          "aligned": 0.3927743400254415,
+          "calibrated": 0.29214276756973245
+        },
+        "2-4m": {
+          "pixels": 66122,
+          "aligned": 0.12792187208004804,
+          "calibrated": 0.16172007338233288
+        },
+        "4-10m": {
+          "pixels": 123961,
+          "aligned": 0.061686212895846464,
+          "calibrated": 0.2968301495463336
+        },
+        "boundary": {
+          "pixels": 6428,
+          "aligned": 0.17051457832060732,
+          "calibrated": 0.34322920625423414
+        },
+        "interior": {
+          "pixels": 184398,
+          "aligned": 0.08297757181559996,
+          "calibrated": 0.2467456349776124
+        }
+      }
+    },
+    {
+      "id": 24,
+      "space": "mit_32_d446",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 17219,
+          "aligned": 0.041443240468863246,
+          "calibrated": 0.8188492046562327
+        },
+        "1-2m": {
+          "pixels": 236455,
+          "aligned": 0.03521962709300558,
+          "calibrated": 0.7564858941926971
+        },
+        "2-4m": {
+          "pixels": 4596,
+          "aligned": 0.03223796600771033,
+          "calibrated": 0.7045549122230395
+        },
+        "boundary": {
+          "pixels": 3888,
+          "aligned": 0.07599540198111689,
+          "calibrated": 0.7273022359420418
+        },
+        "interior": {
+          "pixels": 254382,
+          "aligned": 0.03496380895967028,
+          "calibrated": 0.7602150303462677
+        }
+      }
+    },
+    {
+      "id": 25,
+      "space": "mit_32_d428",
+      "regions": {
+        "1-2m": {
+          "pixels": 257592,
+          "aligned": 0.030323597292237083,
+          "calibrated": 0.78564509415567
+        },
+        "boundary": {
+          "pixels": 4324,
+          "aligned": 0.055951598216573965,
+          "calibrated": 0.8482353058463069
+        },
+        "interior": {
+          "pixels": 253268,
+          "aligned": 0.029886054941853955,
+          "calibrated": 0.7845765024845931
+        }
+      }
+    },
+    {
+      "id": 26,
+      "space": "brown_cogsci_3",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 55942,
+          "aligned": 0.5058876510392164,
+          "calibrated": 1.8167075350714263
+        },
+        "1-2m": {
+          "pixels": 69210,
+          "aligned": 0.4435518462125693,
+          "calibrated": 1.0233673727540866
+        },
+        "2-4m": {
+          "pixels": 61803,
+          "aligned": 0.2634274226037265,
+          "calibrated": 0.12333874340682718
+        },
+        "4-10m": {
+          "pixels": 319,
+          "aligned": 0.2828916051477892,
+          "calibrated": 0.17822472046448623
+        },
+        "boundary": {
+          "pixels": 8302,
+          "aligned": 0.33302884073056827,
+          "calibrated": 0.6722884794085993
+        },
+        "interior": {
+          "pixels": 178972,
+          "aligned": 0.40567592828086424,
+          "calibrated": 0.9753242288392944
+        }
+      }
+    },
+    {
+      "id": 27,
+      "space": "mit_32_g825",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 2569,
+          "aligned": 0.0731475090925457,
+          "calibrated": 0.7007983853628995
+        },
+        "1-2m": {
+          "pixels": 104720,
+          "aligned": 0.053787066461132654,
+          "calibrated": 0.5153278704373115
+        },
+        "2-4m": {
+          "pixels": 153187,
+          "aligned": 0.026618000353863556,
+          "calibrated": 0.42959754344482837
+        },
+        "boundary": {
+          "pixels": 6046,
+          "aligned": 0.12814592569029812,
+          "calibrated": 0.43875082997090376
+        },
+        "interior": {
+          "pixels": 254430,
+          "aligned": 0.03585763826652642,
+          "calibrated": 0.46740383214979125
+        }
+      }
+    },
+    {
+      "id": 28,
+      "space": "mit_w20_flr4",
+      "regions": {
+        "1-2m": {
+          "pixels": 154417,
+          "aligned": 0.07771205231138188,
+          "calibrated": 0.27806845372219957
+        },
+        "2-4m": {
+          "pixels": 55447,
+          "aligned": 0.02033703055834262,
+          "calibrated": 0.16702584959383968
+        },
+        "4-10m": {
+          "pixels": 45715,
+          "aligned": 0.0289186905341951,
+          "calibrated": 0.26445256054848293
+        },
+        "boundary": {
+          "pixels": 4065,
+          "aligned": 0.133111236704726,
+          "calibrated": 0.30382435537017227
+        },
+        "interior": {
+          "pixels": 251514,
+          "aligned": 0.05529954625071009,
+          "calibrated": 0.25069770073134956
+        }
+      }
+    },
+    {
+      "id": 29,
+      "space": "mit_3_270",
+      "regions": {
+        "1-2m": {
+          "pixels": 19788,
+          "aligned": 0.11761475324207213,
+          "calibrated": 0.07121246729147124
+        },
+        "2-4m": {
+          "pixels": 240607,
+          "aligned": 0.04621312200720173,
+          "calibrated": 0.15479454883930235
+        },
+        "boundary": {
+          "pixels": 11121,
+          "aligned": 0.08234379743048215,
+          "calibrated": 0.145297217589796
+        },
+        "interior": {
+          "pixels": 249274,
+          "aligned": 0.05026924594107896,
+          "calibrated": 0.14858330174236195
+        }
+      }
+    },
+    {
+      "id": 30,
+      "space": "mit_3_huge_office",
+      "regions": {
+        "1-2m": {
+          "pixels": 15588,
+          "aligned": 0.12835238866447565,
+          "calibrated": 0.06612936707663315
+        },
+        "2-4m": {
+          "pixels": 211037,
+          "aligned": 0.02790559768813832,
+          "calibrated": 0.18032129458898988
+        },
+        "4-10m": {
+          "pixels": 32986,
+          "aligned": 0.04166853091939996,
+          "calibrated": 0.24857832541896324
+        },
+        "boundary": {
+          "pixels": 17264,
+          "aligned": 0.09092132008901313,
+          "calibrated": 0.20718473056815662
+        },
+        "interior": {
+          "pixels": 242347,
+          "aligned": 0.03175068453376398,
+          "calibrated": 0.18035320046837172
+        }
+      }
+    },
+    {
+      "id": 31,
+      "space": "mit_dorm_sh_basement",
+      "regions": {
+        "2-4m": {
+          "pixels": 58761,
+          "aligned": 0.05063395425219749,
+          "calibrated": 0.4418613240772104
+        },
+        "4-10m": {
+          "pixels": 78044,
+          "aligned": 0.037486316056912744,
+          "calibrated": 0.6169696177429396
+        },
+        "boundary": {
+          "pixels": 5463,
+          "aligned": 0.0794308907227666,
+          "calibrated": 0.5986538161881997
+        },
+        "interior": {
+          "pixels": 131342,
+          "aligned": 0.04162379802455119,
+          "calibrated": 0.5393898700598043
+        }
+      }
+    },
+    {
+      "id": 32,
+      "space": "mit_w20_athena",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 84881,
+          "aligned": 0.09438557711894906,
+          "calibrated": 1.3721823534083066
+        },
+        "1-2m": {
+          "pixels": 32250,
+          "aligned": 0.0720755583675179,
+          "calibrated": 0.5865330449565187
+        },
+        "2-4m": {
+          "pixels": 140267,
+          "aligned": 0.058755205845081974,
+          "calibrated": 0.07961488456139616
+        },
+        "4-10m": {
+          "pixels": 132,
+          "aligned": 0.23976113899547233,
+          "calibrated": 0.22477098119044425
+        },
+        "boundary": {
+          "pixels": 6387,
+          "aligned": 0.23488832025449458,
+          "calibrated": 0.3716004811692118
+        },
+        "interior": {
+          "pixels": 251143,
+          "aligned": 0.06812378667109983,
+          "calibrated": 0.5742206613306402
+        }
+      }
+    },
+    {
+      "id": 33,
+      "space": "mit_dorm_mcc_flr1",
+      "regions": {
+        "1-2m": {
+          "pixels": 5027,
+          "aligned": 0.446460314705802,
+          "calibrated": 0.06840731441210421
+        },
+        "2-4m": {
+          "pixels": 66082,
+          "aligned": 0.031953555421394934,
+          "calibrated": 0.36634170654687137
+        },
+        "4-10m": {
+          "pixels": 154385,
+          "aligned": 0.03598158094554513,
+          "calibrated": 0.6297933201994637
+        },
+        "boundary": {
+          "pixels": 16535,
+          "aligned": 0.11748113080294469,
+          "calibrated": 0.552469816447679
+        },
+        "interior": {
+          "pixels": 209022,
+          "aligned": 0.040227755921946044,
+          "calibrated": 0.5395228638421005
+        }
+      }
+    },
+    {
+      "id": 34,
+      "space": "mit_lab_hj",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 1571,
+          "aligned": 0.732427728085559,
+          "calibrated": 0.9022976562153844
+        },
+        "1-2m": {
+          "pixels": 21419,
+          "aligned": 0.13582609096020104,
+          "calibrated": 0.08508770437603767
+        },
+        "2-4m": {
+          "pixels": 149634,
+          "aligned": 0.09636300988704731,
+          "calibrated": 0.1306489572740822
+        },
+        "4-10m": {
+          "pixels": 78542,
+          "aligned": 0.03811344136138001,
+          "calibrated": 0.2654779179161424
+        },
+        "boundary": {
+          "pixels": 21082,
+          "aligned": 0.15363824621305003,
+          "calibrated": 0.1950594683382312
+        },
+        "interior": {
+          "pixels": 230084,
+          "aligned": 0.07924753580987545,
+          "calibrated": 0.17180009104569552
+        }
+      }
+    },
+    {
+      "id": 35,
+      "space": "mit_dorm_next_dn",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 7851,
+          "aligned": 0.27162074953640786,
+          "calibrated": 0.7442593304000985
+        },
+        "1-2m": {
+          "pixels": 208973,
+          "aligned": 0.08706306939563976,
+          "calibrated": 0.5103243126444093
+        },
+        "2-4m": {
+          "pixels": 43807,
+          "aligned": 0.18800281737836808,
+          "calibrated": 0.22583232040747975
+        },
+        "boundary": {
+          "pixels": 21656,
+          "aligned": 0.13342670795392858,
+          "calibrated": 0.44453896784765634
+        },
+        "interior": {
+          "pixels": 238975,
+          "aligned": 0.10742829140650387,
+          "calibrated": 0.4718204128531977
+        }
+      }
+    },
+    {
+      "id": 36,
+      "space": "home_ph_cz",
+      "regions": {
+        "1-2m": {
+          "pixels": 134422,
+          "aligned": 0.04526334286489029,
+          "calibrated": 0.2668522243280089
+        },
+        "2-4m": {
+          "pixels": 124979,
+          "aligned": 0.03811640246972595,
+          "calibrated": 0.29901723652323464
+        },
+        "boundary": {
+          "pixels": 19702,
+          "aligned": 0.09405044493137125,
+          "calibrated": 0.2931982641518151
+        },
+        "interior": {
+          "pixels": 239699,
+          "aligned": 0.037526886106367924,
+          "calibrated": 0.2814575475981873
+        }
+      }
+    },
+    {
+      "id": 37,
+      "space": "brown_cogsci_8",
+      "regions": {
+        "1-2m": {
+          "pixels": 244628,
+          "aligned": 0.021195569181211966,
+          "calibrated": 0.6311543936208505
+        },
+        "2-4m": {
+          "pixels": 11885,
+          "aligned": 0.028282540961461485,
+          "calibrated": 0.6568146072176418
+        },
+        "boundary": {
+          "pixels": 5367,
+          "aligned": 0.09493822580442526,
+          "calibrated": 0.6357165159078642
+        },
+        "interior": {
+          "pixels": 251146,
+          "aligned": 0.019955062947831698,
+          "calibrated": 0.6322712209972908
+        }
+      }
+    },
+    {
+      "id": 38,
+      "space": "mit_76_studyroom",
+      "regions": {
+        "1-2m": {
+          "pixels": 15037,
+          "aligned": 0.14997905417452612,
+          "calibrated": 0.09554393735748565
+        },
+        "2-4m": {
+          "pixels": 245439,
+          "aligned": 0.056824006791161195,
+          "calibrated": 0.12514370324280685
+        },
+        "boundary": {
+          "pixels": 19496,
+          "aligned": 0.12496053671998818,
+          "calibrated": 0.15285585614002237
+        },
+        "interior": {
+          "pixels": 240980,
+          "aligned": 0.057124374705557604,
+          "calibrated": 0.1210547007840896
+        }
+      }
+    },
+    {
+      "id": 39,
+      "space": "harvard_tea_3",
+      "regions": {
+        "1-2m": {
+          "pixels": 156688,
+          "aligned": 0.023283667179987026,
+          "calibrated": 0.44392980985921815
+        },
+        "2-4m": {
+          "pixels": 103155,
+          "aligned": 0.02312903750846147,
+          "calibrated": 0.43596082988984697
+        },
+        "boundary": {
+          "pixels": 7071,
+          "aligned": 0.08229010046019805,
+          "calibrated": 0.447546125106722
+        },
+        "interior": {
+          "pixels": 252772,
+          "aligned": 0.021569927867521283,
+          "calibrated": 0.4405765464682746
+        }
+      }
+    },
+    {
+      "id": 40,
+      "space": "mit_dorm_masseeh_wm",
+      "regions": {
+        "1-2m": {
+          "pixels": 91177,
+          "aligned": 0.1015765085646452,
+          "calibrated": 0.37606854446780347
+        },
+        "2-4m": {
+          "pixels": 169453,
+          "aligned": 0.03153475620461535,
+          "calibrated": 0.13420647588026502
+        },
+        "boundary": {
+          "pixels": 12511,
+          "aligned": 0.17133690770822257,
+          "calibrated": 0.2951424608293779
+        },
+        "interior": {
+          "pixels": 248119,
+          "aligned": 0.05022390188660188,
+          "calibrated": 0.2149692861443223
+        }
+      }
+    },
+    {
+      "id": 41,
+      "space": "mit_dorm_next_536",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 715,
+          "aligned": 0.03724622612310874,
+          "calibrated": 0.6721247756104133
+        },
+        "1-2m": {
+          "pixels": 144666,
+          "aligned": 0.037770675802394224,
+          "calibrated": 0.5818545297829367
+        },
+        "2-4m": {
+          "pixels": 114466,
+          "aligned": 0.01624075639420565,
+          "calibrated": 0.526402402690363
+        },
+        "boundary": {
+          "pixels": 15294,
+          "aligned": 0.05979228646880507,
+          "calibrated": 0.565197837989573
+        },
+        "interior": {
+          "pixels": 244553,
+          "aligned": 0.026314601863286997,
+          "calibrated": 0.5572050979226684
+        }
+      }
+    },
+    {
+      "id": 42,
+      "space": "hotel_ucla_ant",
+      "regions": {
+        "1-2m": {
+          "pixels": 25526,
+          "aligned": 0.07491260303474809,
+          "calibrated": 0.10852362247505584
+        },
+        "2-4m": {
+          "pixels": 235105,
+          "aligned": 0.02936098125194315,
+          "calibrated": 0.2233785519676643
+        },
+        "boundary": {
+          "pixels": 19954,
+          "aligned": 0.05230283943078049,
+          "calibrated": 0.252732427875371
+        },
+        "interior": {
+          "pixels": 240677,
+          "aligned": 0.03229008897527092,
+          "calibrated": 0.20876346963702735
+        }
+      }
+    },
+    {
+      "id": 43,
+      "space": "mit_32_d475a",
+      "regions": {
+        "1-2m": {
+          "pixels": 6452,
+          "aligned": 0.1898609409425872,
+          "calibrated": 0.07547846367598643
+        },
+        "2-4m": {
+          "pixels": 150373,
+          "aligned": 0.043862878338003446,
+          "calibrated": 0.2884162349045364
+        },
+        "4-10m": {
+          "pixels": 99232,
+          "aligned": 0.029334484730262036,
+          "calibrated": 0.38678765976270074
+        },
+        "boundary": {
+          "pixels": 15141,
+          "aligned": 0.10853265254639716,
+          "calibrated": 0.29669276469797773
+        },
+        "interior": {
+          "pixels": 240916,
+          "aligned": 0.037724360739139484,
+          "calibrated": 0.32271202179273084
+        }
+      }
+    },
+    {
+      "id": 44,
+      "space": "home_bksh",
+      "regions": {
+        "1-2m": {
+          "pixels": 143473,
+          "aligned": 0.21769388906057444,
+          "calibrated": 0.14333179284907238
+        },
+        "2-4m": {
+          "pixels": 67780,
+          "aligned": 0.2204082312713059,
+          "calibrated": 0.14253693052767805
+        },
+        "4-10m": {
+          "pixels": 34201,
+          "aligned": 0.1685421352429676,
+          "calibrated": 0.5553895303648781
+        },
+        "boundary": {
+          "pixels": 19922,
+          "aligned": 0.2011060844716373,
+          "calibrated": 0.33431545057475226
+        },
+        "interior": {
+          "pixels": 225532,
+          "aligned": 0.21252123607008178,
+          "calibrated": 0.18870954183113686
+        }
+      }
+    },
+    {
+      "id": 45,
+      "space": "brown_cs_9",
+      "regions": {
+        "1-2m": {
+          "pixels": 44938,
+          "aligned": 0.08868747382627348,
+          "calibrated": 0.11963215715529221
+        },
+        "2-4m": {
+          "pixels": 74076,
+          "aligned": 0.11025411047673331,
+          "calibrated": 0.2619940823956591
+        },
+        "4-10m": {
+          "pixels": 91281,
+          "aligned": 0.08327855729880237,
+          "calibrated": 0.6086355076083141
+        },
+        "boundary": {
+          "pixels": 18292,
+          "aligned": 0.21587454744558407,
+          "calibrated": 0.4133980133404505
+        },
+        "interior": {
+          "pixels": 192003,
+          "aligned": 0.0823195155981778,
+          "calibrated": 0.3790486858838474
+        }
+      }
+    },
+    {
+      "id": 46,
+      "space": "mit_32_124",
+      "regions": {
+        "1-2m": {
+          "pixels": 57384,
+          "aligned": 0.06036391340816081,
+          "calibrated": 0.13372232874697573
+        },
+        "2-4m": {
+          "pixels": 138749,
+          "aligned": 0.0767595836995463,
+          "calibrated": 0.24314537954157042
+        },
+        "4-10m": {
+          "pixels": 47530,
+          "aligned": 0.10029770853818794,
+          "calibrated": 0.49690910800004395
+        },
+        "boundary": {
+          "pixels": 23870,
+          "aligned": 0.14938241186348175,
+          "calibrated": 0.30685977308872553
+        },
+        "interior": {
+          "pixels": 219793,
+          "aligned": 0.06968206540418037,
+          "calibrated": 0.2625335997890926
+        }
+      }
+    },
+    {
+      "id": 47,
+      "space": "mit_ne47_2biolab",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 50062,
+          "aligned": 0.15258002885289704,
+          "calibrated": 1.9357055634254476
+        },
+        "1-2m": {
+          "pixels": 67837,
+          "aligned": 0.06052402795661371,
+          "calibrated": 0.5507995289891002
+        },
+        "2-4m": {
+          "pixels": 98278,
+          "aligned": 0.047933942894735904,
+          "calibrated": 0.22422742235030596
+        },
+        "boundary": {
+          "pixels": 11871,
+          "aligned": 0.14220776644087008,
+          "calibrated": 0.3977277718273113
+        },
+        "interior": {
+          "pixels": 204306,
+          "aligned": 0.07227851131790462,
+          "calibrated": 0.7419511702966125
+        }
+      }
+    },
+    {
+      "id": 48,
+      "space": "harvard_restroom_2",
+      "regions": {
+        "1-2m": {
+          "pixels": 239773,
+          "aligned": 0.060914081263134016,
+          "calibrated": 0.5511060216924463
+        },
+        "2-4m": {
+          "pixels": 20138,
+          "aligned": 0.10341579121212059,
+          "calibrated": 0.4991422642013626
+        },
+        "boundary": {
+          "pixels": 2721,
+          "aligned": 0.11947985084421414,
+          "calibrated": 0.37811415085002953
+        },
+        "interior": {
+          "pixels": 257190,
+          "aligned": 0.06362235909634127,
+          "calibrated": 0.5488674616092658
+        }
+      }
+    },
+    {
+      "id": 49,
+      "space": "home_puigpunyen",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 76345,
+          "aligned": 0.06900679258172604,
+          "calibrated": 1.0937312016483196
+        },
+        "1-2m": {
+          "pixels": 103632,
+          "aligned": 0.04932542651135864,
+          "calibrated": 0.7139692735433637
+        },
+        "2-4m": {
+          "pixels": 60794,
+          "aligned": 0.03956489942311978,
+          "calibrated": 0.4815539218763784
+        },
+        "boundary": {
+          "pixels": 8287,
+          "aligned": 0.08447918616858255,
+          "calibrated": 0.606462377432588
+        },
+        "interior": {
+          "pixels": 232484,
+          "aligned": 0.05198312855778072,
+          "calibrated": 0.7817346903462411
+        }
+      }
+    },
+    {
+      "id": 50,
+      "space": "home_amo",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 95579,
+          "aligned": 0.13768334797331694,
+          "calibrated": 1.3708894887987726
+        },
+        "1-2m": {
+          "pixels": 4499,
+          "aligned": 0.334545340965706,
+          "calibrated": 1.1457775397431489
+        },
+        "2-4m": {
+          "pixels": 155096,
+          "aligned": 0.030806403737588087,
+          "calibrated": 0.32685518578256356
+        },
+        "boundary": {
+          "pixels": 5636,
+          "aligned": 0.2894964751195155,
+          "calibrated": 0.7068663754204472
+        },
+        "interior": {
+          "pixels": 249538,
+          "aligned": 0.07137631969983627,
+          "calibrated": 0.7329269794719248
+        }
+      }
+    },
+    {
+      "id": 51,
+      "space": "mit_dorm_masseeh_md",
+      "regions": {
+        "1-2m": {
+          "pixels": 239902,
+          "aligned": 0.03666366772017648,
+          "calibrated": 0.6469420672822636
+        },
+        "2-4m": {
+          "pixels": 20711,
+          "aligned": 0.12312308714775433,
+          "calibrated": 0.47407450633519027
+        },
+        "boundary": {
+          "pixels": 16766,
+          "aligned": 0.08850223360005882,
+          "calibrated": 0.6852518730561769
+        },
+        "interior": {
+          "pixels": 243847,
+          "aligned": 0.04044282284704889,
+          "calibrated": 0.6296256259958001
+        }
+      }
+    },
+    {
+      "id": 52,
+      "space": "brown_cogsci_1",
+      "regions": {
+        "1-2m": {
+          "pixels": 2114,
+          "aligned": 0.28492293921081285,
+          "calibrated": 0.24070185653869539
+        },
+        "2-4m": {
+          "pixels": 96272,
+          "aligned": 0.06018644035508969,
+          "calibrated": 0.1798082834954407
+        },
+        "4-10m": {
+          "pixels": 80316,
+          "aligned": 0.028529775059713904,
+          "calibrated": 0.26984397995646214
+        },
+        "boundary": {
+          "pixels": 5093,
+          "aligned": 0.1572257097922871,
+          "calibrated": 0.2375668941036804
+        },
+        "interior": {
+          "pixels": 173609,
+          "aligned": 0.045431071851578644,
+          "calibrated": 0.22050819770812016
+        }
+      }
+    },
+    {
+      "id": 53,
+      "space": "harvard_c10",
+      "regions": {
+        "1-2m": {
+          "pixels": 15330,
+          "aligned": 0.01037462449787269,
+          "calibrated": 0.13576843994311696
+        },
+        "2-4m": {
+          "pixels": 175881,
+          "aligned": 0.020074169845721655,
+          "calibrated": 0.19600114865180496
+        },
+        "4-10m": {
+          "pixels": 68800,
+          "aligned": 0.02434610506965635,
+          "calibrated": 0.26649919220859436
+        },
+        "boundary": {
+          "pixels": 4888,
+          "aligned": 0.07565270239281681,
+          "calibrated": 0.24426692714154544
+        },
+        "interior": {
+          "pixels": 255123,
+          "aligned": 0.01957851577350543,
+          "calibrated": 0.21046858140755442
+        }
+      }
+    },
+    {
+      "id": 54,
+      "space": "mit_32_bar",
+      "regions": {
+        "1-2m": {
+          "pixels": 1014,
+          "aligned": 1.1139484695826904,
+          "calibrated": 0.46217239141039723
+        },
+        "2-4m": {
+          "pixels": 94287,
+          "aligned": 0.14170336792872834,
+          "calibrated": 0.3089391098819727
+        },
+        "4-10m": {
+          "pixels": 129564,
+          "aligned": 0.06196784893281584,
+          "calibrated": 0.326175997563601
+        },
+        "boundary": {
+          "pixels": 8974,
+          "aligned": 0.17197160275304932,
+          "calibrated": 0.3488737148021637
+        },
+        "interior": {
+          "pixels": 215891,
+          "aligned": 0.09715948518501624,
+          "calibrated": 0.3183433255208762
+        }
+      }
+    },
+    {
+      "id": 55,
+      "space": "home_md",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 8901,
+          "aligned": 0.04364663484866076,
+          "calibrated": 0.8831817611569192
+        },
+        "1-2m": {
+          "pixels": 241074,
+          "aligned": 0.03151054538452723,
+          "calibrated": 0.8195816776422072
+        },
+        "2-4m": {
+          "pixels": 895,
+          "aligned": 0.02734950726439342,
+          "calibrated": 0.7485288816193306
+        },
+        "boundary": {
+          "pixels": 7237,
+          "aligned": 0.07206032266865779,
+          "calibrated": 0.8630238639955521
+        },
+        "interior": {
+          "pixels": 243633,
+          "aligned": 0.030734133588906278,
+          "calibrated": 0.8203538266872251
+        }
+      }
+    },
+    {
+      "id": 56,
+      "space": "mit_32_lounge_d429",
+      "regions": {
+        "1-2m": {
+          "pixels": 63177,
+          "aligned": 0.05509884585005656,
+          "calibrated": 0.0422225792924244
+        },
+        "2-4m": {
+          "pixels": 188256,
+          "aligned": 0.032635951363964126,
+          "calibrated": 0.1694775432259452
+        },
+        "4-10m": {
+          "pixels": 6532,
+          "aligned": 0.1456443020038795,
+          "calibrated": 0.38937883991027106
+        },
+        "boundary": {
+          "pixels": 7866,
+          "aligned": 0.10885983438969797,
+          "calibrated": 0.17824170462449185
+        },
+        "interior": {
+          "pixels": 250099,
+          "aligned": 0.038864411963356243,
+          "calibrated": 0.14279958577690705
+        }
+      }
+    },
+    {
+      "id": 57,
+      "space": "mit_76_4printroom",
+      "regions": {
+        "1-2m": {
+          "pixels": 260498,
+          "aligned": 0.0877167927933282,
+          "calibrated": 0.8537850211635556
+        },
+        "boundary": {
+          "pixels": 18162,
+          "aligned": 0.12612751011757029,
+          "calibrated": 1.0075420256199408
+        },
+        "interior": {
+          "pixels": 242336,
+          "aligned": 0.08483808121913829,
+          "calibrated": 0.8422616209467622
+        }
+      }
+    },
+    {
+      "id": 58,
+      "space": "brown_cs_1",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 5383,
+          "aligned": 0.08428213745293149,
+          "calibrated": 0.7847429082765887
+        },
+        "1-2m": {
+          "pixels": 81805,
+          "aligned": 0.1512571880956855,
+          "calibrated": 0.27435115692852996
+        },
+        "2-4m": {
+          "pixels": 68669,
+          "aligned": 0.10068112199289593,
+          "calibrated": 0.1974336507095624
+        },
+        "4-10m": {
+          "pixels": 68793,
+          "aligned": 0.07320272650806856,
+          "calibrated": 0.5465323826796336
+        },
+        "boundary": {
+          "pixels": 15481,
+          "aligned": 0.23220177659286453,
+          "calibrated": 0.3346069236177184
+        },
+        "interior": {
+          "pixels": 209169,
+          "aligned": 0.10126776169242227,
+          "calibrated": 0.34729186086619124
+        }
+      }
+    },
+    {
+      "id": 59,
+      "space": "brown_cogsci_6",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 3849,
+          "aligned": 0.05282102008961484,
+          "calibrated": 0.6789118757586607
+        },
+        "1-2m": {
+          "pixels": 57659,
+          "aligned": 0.07055603408293601,
+          "calibrated": 0.3378487336217825
+        },
+        "2-4m": {
+          "pixels": 146256,
+          "aligned": 0.07158072261642406,
+          "calibrated": 0.25320503111286524
+        },
+        "4-10m": {
+          "pixels": 31807,
+          "aligned": 0.11875587737845412,
+          "calibrated": 0.6226297975018493
+        },
+        "boundary": {
+          "pixels": 9005,
+          "aligned": 0.18298386895775764,
+          "calibrated": 0.40892194639441837
+        },
+        "interior": {
+          "pixels": 230566,
+          "aligned": 0.07316823423363608,
+          "calibrated": 0.3263601346859305
+        }
+      }
+    },
+    {
+      "id": 60,
+      "space": "hotel_ny",
+      "regions": {
+        "1-2m": {
+          "pixels": 252830,
+          "aligned": 0.06456378951698206,
+          "calibrated": 0.7660378922023107
+        },
+        "2-4m": {
+          "pixels": 4329,
+          "aligned": 0.1137332777457167,
+          "calibrated": 0.6402931823330065
+        },
+        "boundary": {
+          "pixels": 7167,
+          "aligned": 0.11329360902111747,
+          "calibrated": 0.7579831038591748
+        },
+        "interior": {
+          "pixels": 250054,
+          "aligned": 0.0640274653219173,
+          "calibrated": 0.7640935511343542
+        }
+      }
+    },
+    {
+      "id": 61,
+      "space": "mit_13_xh_lab2",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 35124,
+          "aligned": 0.09241660122627124,
+          "calibrated": 0.9542274777509626
+        },
+        "1-2m": {
+          "pixels": 148886,
+          "aligned": 0.06903229354652339,
+          "calibrated": 0.4711574606864585
+        },
+        "2-4m": {
+          "pixels": 76621,
+          "aligned": 0.04784731203814036,
+          "calibrated": 0.11158725166154987
+        },
+        "boundary": {
+          "pixels": 18196,
+          "aligned": 0.11554467654540757,
+          "calibrated": 0.30040470070796876
+        },
+        "interior": {
+          "pixels": 242435,
+          "aligned": 0.062233756345797225,
+          "calibrated": 0.4403192546281118
+        }
+      }
+    },
+    {
+      "id": 62,
+      "space": "mit_13_xh_lab1",
+      "regions": {
+        "1-2m": {
+          "pixels": 146887,
+          "aligned": 0.1299898244536576,
+          "calibrated": 0.4103726280090344
+        },
+        "2-4m": {
+          "pixels": 113688,
+          "aligned": 0.09237726458812245,
+          "calibrated": 0.2612908452135829
+        },
+        "boundary": {
+          "pixels": 32420,
+          "aligned": 0.13376428694254072,
+          "calibrated": 0.3175200589547561
+        },
+        "interior": {
+          "pixels": 228155,
+          "aligned": 0.11071141819526943,
+          "calibrated": 0.3492802590769068
+        }
+      }
+    },
+    {
+      "id": 63,
+      "space": "mit_32_d6_lounge",
+      "regions": {
+        "1-2m": {
+          "pixels": 156514,
+          "aligned": 0.06964881480147639,
+          "calibrated": 0.1362642153611612
+        },
+        "2-4m": {
+          "pixels": 82834,
+          "aligned": 0.08852146122456028,
+          "calibrated": 0.09055643244099543
+        },
+        "4-10m": {
+          "pixels": 16211,
+          "aligned": 0.034957024282861716,
+          "calibrated": 0.28569852276159885
+        },
+        "boundary": {
+          "pixels": 18601,
+          "aligned": 0.1766520975818233,
+          "calibrated": 0.15604356540736977
+        },
+        "interior": {
+          "pixels": 236958,
+          "aligned": 0.06547313858339232,
+          "calibrated": 0.1289566139155462
+        }
+      }
+    },
+    {
+      "id": 64,
+      "space": "mit_dorm_mcc_313",
+      "regions": {
+        "1-2m": {
+          "pixels": 39403,
+          "aligned": 0.11153362907002105,
+          "calibrated": 0.3584439250945231
+        },
+        "2-4m": {
+          "pixels": 221228,
+          "aligned": 0.018691597618839203,
+          "calibrated": 0.2731511345169299
+        },
+        "boundary": {
+          "pixels": 15343,
+          "aligned": 0.10605386407682839,
+          "calibrated": 0.36821489958539166
+        },
+        "interior": {
+          "pixels": 245288,
+          "aligned": 0.028141123527183638,
+          "calibrated": 0.2809062162155189
+        }
+      }
+    },
+    {
+      "id": 65,
+      "space": "brown_cogsci_2",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 15907,
+          "aligned": 0.2090916949779808,
+          "calibrated": 0.9715305008936528
+        },
+        "1-2m": {
+          "pixels": 103747,
+          "aligned": 0.1337102700979912,
+          "calibrated": 0.3580332140296021
+        },
+        "2-4m": {
+          "pixels": 93070,
+          "aligned": 0.17013685051129734,
+          "calibrated": 0.16362247457606224
+        },
+        "4-10m": {
+          "pixels": 35221,
+          "aligned": 0.08709935877820289,
+          "calibrated": 0.2639327432169319
+        },
+        "boundary": {
+          "pixels": 9242,
+          "aligned": 0.1677311007459234,
+          "calibrated": 0.24014158662801438
+        },
+        "interior": {
+          "pixels": 238703,
+          "aligned": 0.14474159664265107,
+          "calibrated": 0.31379554445342556
+        }
+      }
+    },
+    {
+      "id": 66,
+      "space": "mit_46_5conf_1",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 2504,
+          "aligned": 0.2606847243632397,
+          "calibrated": 0.6869791648558591
+        },
+        "1-2m": {
+          "pixels": 85027,
+          "aligned": 0.08092244293121514,
+          "calibrated": 0.26761971528526274
+        },
+        "2-4m": {
+          "pixels": 136109,
+          "aligned": 0.09450324842603347,
+          "calibrated": 0.09210316843252397
+        },
+        "4-10m": {
+          "pixels": 36596,
+          "aligned": 0.08614061819835102,
+          "calibrated": 0.23260891809168027
+        },
+        "boundary": {
+          "pixels": 19051,
+          "aligned": 0.1883135339771321,
+          "calibrated": 0.23549688731075813
+        },
+        "interior": {
+          "pixels": 241185,
+          "aligned": 0.08276190755115567,
+          "calibrated": 0.17014852614742784
+        }
+      }
+    },
+    {
+      "id": 67,
+      "space": "mit_76_4kitchen",
+      "regions": {
+        "1-2m": {
+          "pixels": 34022,
+          "aligned": 0.021381462845976116,
+          "calibrated": 0.0921359203149214
+        },
+        "2-4m": {
+          "pixels": 199625,
+          "aligned": 0.03146021431502685,
+          "calibrated": 0.15428161639130503
+        },
+        "4-10m": {
+          "pixels": 14483,
+          "aligned": 0.09451994804943026,
+          "calibrated": 0.2563578680292592
+        },
+        "boundary": {
+          "pixels": 7781,
+          "aligned": 0.09537106456478513,
+          "calibrated": 0.16163488493051836
+        },
+        "interior": {
+          "pixels": 240349,
+          "aligned": 0.03176437416342211,
+          "calibrated": 0.15139761728191892
+        }
+      }
+    },
+    {
+      "id": 68,
+      "space": "mit_1_375",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 12533,
+          "aligned": 0.2847986255352038,
+          "calibrated": 0.9566632501665364
+        },
+        "1-2m": {
+          "pixels": 45825,
+          "aligned": 0.09407315090255092,
+          "calibrated": 0.24215756060300914
+        },
+        "2-4m": {
+          "pixels": 93155,
+          "aligned": 0.08276557063933566,
+          "calibrated": 0.2536408616634336
+        },
+        "4-10m": {
+          "pixels": 86106,
+          "aligned": 0.06951465844697374,
+          "calibrated": 0.4873297691095591
+        },
+        "boundary": {
+          "pixels": 23360,
+          "aligned": 0.16321545983192656,
+          "calibrated": 0.35549054594760876
+        },
+        "interior": {
+          "pixels": 214259,
+          "aligned": 0.0829053906039454,
+          "calibrated": 0.37511797937467645
+        }
+      }
+    },
+    {
+      "id": 69,
+      "space": "brown_cs_5",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 74705,
+          "aligned": 0.3534470910486522,
+          "calibrated": 1.0907770276924187
+        },
+        "1-2m": {
+          "pixels": 38714,
+          "aligned": 0.20893240596593105,
+          "calibrated": 0.2342887515157951
+        },
+        "2-4m": {
+          "pixels": 43910,
+          "aligned": 0.1337179952507451,
+          "calibrated": 0.19709302469280654
+        },
+        "4-10m": {
+          "pixels": 97267,
+          "aligned": 0.06631325885663532,
+          "calibrated": 0.5157172605691484
+        },
+        "boundary": {
+          "pixels": 21661,
+          "aligned": 0.327788169951036,
+          "calibrated": 0.4712143827438043
+        },
+        "interior": {
+          "pixels": 232935,
+          "aligned": 0.1704952174328194,
+          "calibrated": 0.5974473708690045
+        }
+      }
+    },
+    {
+      "id": 70,
+      "space": "mit_36_144",
+      "regions": {
+        "2-4m": {
+          "pixels": 100302,
+          "aligned": 0.055113063670276234,
+          "calibrated": 0.3695744568720136
+        },
+        "4-10m": {
+          "pixels": 147255,
+          "aligned": 0.033064376844854755,
+          "calibrated": 0.3947930419676356
+        },
+        "boundary": {
+          "pixels": 6689,
+          "aligned": 0.1330739077337927,
+          "calibrated": 0.4120976768190012
+        },
+        "interior": {
+          "pixels": 240868,
+          "aligned": 0.03946856351077684,
+          "calibrated": 0.3838109886239708
+        }
+      }
+    },
+    {
+      "id": 71,
+      "space": "mit_76_417",
+      "regions": {
+        "1-2m": {
+          "pixels": 107552,
+          "aligned": 0.05868275952528001,
+          "calibrated": 0.08530707369843823
+        },
+        "2-4m": {
+          "pixels": 130039,
+          "aligned": 0.05447464553072025,
+          "calibrated": 0.12243806494298554
+        },
+        "4-10m": {
+          "pixels": 18358,
+          "aligned": 0.07325030597822112,
+          "calibrated": 0.3021595389758971
+        },
+        "boundary": {
+          "pixels": 19657,
+          "aligned": 0.10565717640121436,
+          "calibrated": 0.15610496729972767
+        },
+        "interior": {
+          "pixels": 236292,
+          "aligned": 0.053590906942519244,
+          "calibrated": 0.11669950481541524
+        }
+      }
+    },
+    {
+      "id": 72,
+      "space": "mit_w85_5",
+      "regions": {
+        "1-2m": {
+          "pixels": 78134,
+          "aligned": 0.16242357438304755,
+          "calibrated": 0.188534869060239
+        },
+        "2-4m": {
+          "pixels": 151981,
+          "aligned": 0.19130050801165494,
+          "calibrated": 0.22404200306850375
+        },
+        "4-10m": {
+          "pixels": 17095,
+          "aligned": 0.18313688600799138,
+          "calibrated": 0.5687293294931178
+        },
+        "boundary": {
+          "pixels": 15664,
+          "aligned": 0.2605842238226057,
+          "calibrated": 0.27698972528163657
+        },
+        "interior": {
+          "pixels": 231546,
+          "aligned": 0.1762663999953084,
+          "calibrated": 0.23392661483411625
+        }
+      }
+    },
+    {
+      "id": 73,
+      "space": "mit_lab_16",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 3759,
+          "aligned": 1.432317404329973,
+          "calibrated": 1.1345526426896022
+        },
+        "1-2m": {
+          "pixels": 26643,
+          "aligned": 0.13201727027574042,
+          "calibrated": 0.06389867726297645
+        },
+        "2-4m": {
+          "pixels": 158115,
+          "aligned": 0.10187059227477278,
+          "calibrated": 0.34904321239801817
+        },
+        "4-10m": {
+          "pixels": 49017,
+          "aligned": 0.09824993166142688,
+          "calibrated": 0.570349106499887
+        },
+        "boundary": {
+          "pixels": 29979,
+          "aligned": 0.15156274594708946,
+          "calibrated": 0.4117582648744852
+        },
+        "interior": {
+          "pixels": 207555,
+          "aligned": 0.12180339327821053,
+          "calibrated": 0.36987258558518515
+        }
+      }
+    },
+    {
+      "id": 74,
+      "space": "harvard_conf_big",
+      "regions": {
+        "2-4m": {
+          "pixels": 102750,
+          "aligned": 0.029955037984376112,
+          "calibrated": 0.39292116532521254
+        },
+        "4-10m": {
+          "pixels": 147972,
+          "aligned": 0.03477323464229489,
+          "calibrated": 0.48942760848248024
+        },
+        "boundary": {
+          "pixels": 11157,
+          "aligned": 0.11955489454089394,
+          "calibrated": 0.4337739772352603
+        },
+        "interior": {
+          "pixels": 239565,
+          "aligned": 0.028758254632319208,
+          "calibrated": 0.4506276607831752
+        }
+      }
+    },
+    {
+      "id": 75,
+      "space": "harvard_dq_office",
+      "regions": {
+        "1-2m": {
+          "pixels": 1488,
+          "aligned": 0.66957058327904,
+          "calibrated": 0.2436600446754025
+        },
+        "2-4m": {
+          "pixels": 150071,
+          "aligned": 0.0660709154496942,
+          "calibrated": 0.2258526007635408
+        },
+        "4-10m": {
+          "pixels": 77053,
+          "aligned": 0.040918959796032404,
+          "calibrated": 0.2420259766987952
+        },
+        "boundary": {
+          "pixels": 10165,
+          "aligned": 0.11466033785847107,
+          "calibrated": 0.23207692870820132
+        },
+        "interior": {
+          "pixels": 218447,
+          "aligned": 0.059048902732482464,
+          "calibrated": 0.23138911222363193
+        }
+      }
+    },
+    {
+      "id": 76,
+      "space": "harvard_restroom_1",
+      "regions": {
+        "1-2m": {
+          "pixels": 183424,
+          "aligned": 0.029498970289657582,
+          "calibrated": 0.5672017812875942
+        },
+        "2-4m": {
+          "pixels": 76590,
+          "aligned": 0.02389681395117502,
+          "calibrated": 0.5588924109617929
+        },
+        "boundary": {
+          "pixels": 5793,
+          "aligned": 0.053827291262192094,
+          "calibrated": 0.5852884603837428
+        },
+        "interior": {
+          "pixels": 254221,
+          "aligned": 0.027256814380593138,
+          "calibrated": 0.5642862439981606
+        }
+      }
+    },
+    {
+      "id": 77,
+      "space": "hotel_florence_jx",
+      "regions": {
+        "2-4m": {
+          "pixels": 239896,
+          "aligned": 0.025499231937763156,
+          "calibrated": 0.2548754599179354
+        },
+        "4-10m": {
+          "pixels": 20735,
+          "aligned": 0.02610180274826185,
+          "calibrated": 0.18715893817570686
+        },
+        "boundary": {
+          "pixels": 1430,
+          "aligned": 0.07429226937539155,
+          "calibrated": 0.24889400193782002
+        },
+        "interior": {
+          "pixels": 259201,
+          "aligned": 0.025278246147661585,
+          "calibrated": 0.2494914197583159
+        }
+      }
+    },
+    {
+      "id": 78,
+      "space": "harvard_c9",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 100,
+          "aligned": 0.46880849927831586,
+          "calibrated": 0.6750316905011132
+        },
+        "1-2m": {
+          "pixels": 66266,
+          "aligned": 0.09066000254026164,
+          "calibrated": 0.1233683593578277
+        },
+        "2-4m": {
+          "pixels": 120656,
+          "aligned": 0.06640945730890843,
+          "calibrated": 0.23394982447069404
+        },
+        "4-10m": {
+          "pixels": 70487,
+          "aligned": 0.052647185151145914,
+          "calibrated": 0.4325449851614398
+        },
+        "boundary": {
+          "pixels": 20252,
+          "aligned": 0.15868984182542475,
+          "calibrated": 0.2606366646431208
+        },
+        "interior": {
+          "pixels": 237257,
+          "aligned": 0.06138664622086929,
+          "calibrated": 0.2599732169264296
+        }
+      }
+    },
+    {
+      "id": 79,
+      "space": "mit_32_d460",
+      "regions": {
+        "1-2m": {
+          "pixels": 61058,
+          "aligned": 0.06909571939776832,
+          "calibrated": 0.2869159076470412
+        },
+        "2-4m": {
+          "pixels": 180811,
+          "aligned": 0.019464837783482406,
+          "calibrated": 0.31795083325062234
+        },
+        "boundary": {
+          "pixels": 6230,
+          "aligned": 0.10754447714208816,
+          "calibrated": 0.3448711701967478
+        },
+        "interior": {
+          "pixels": 235639,
+          "aligned": 0.02999631269383661,
+          "calibrated": 0.30919742576426473
+        }
+      }
+    },
+    {
+      "id": 80,
+      "space": "mit_32_bikeroom",
+      "regions": {
+        "1-2m": {
+          "pixels": 100185,
+          "aligned": 0.0600274836320713,
+          "calibrated": 0.2679996444936884
+        },
+        "2-4m": {
+          "pixels": 160319,
+          "aligned": 0.030156507428833766,
+          "calibrated": 0.16901143768102997
+        },
+        "boundary": {
+          "pixels": 17046,
+          "aligned": 0.12756169271752063,
+          "calibrated": 0.2441375202601171
+        },
+        "interior": {
+          "pixels": 243458,
+          "aligned": 0.03562872424853324,
+          "calibrated": 0.20448586980436567
+        }
+      }
+    },
+    {
+      "id": 81,
+      "space": "brown_cs_8",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 53182,
+          "aligned": 0.03718383332237844,
+          "calibrated": 0.8880001207595213
+        },
+        "1-2m": {
+          "pixels": 170498,
+          "aligned": 0.020310608357401193,
+          "calibrated": 0.6681985950648933
+        },
+        "2-4m": {
+          "pixels": 29047,
+          "aligned": 0.0237672184925232,
+          "calibrated": 0.5917775397496975
+        },
+        "boundary": {
+          "pixels": 7072,
+          "aligned": 0.10001162246195938,
+          "calibrated": 0.690249800856106
+        },
+        "interior": {
+          "pixels": 245655,
+          "aligned": 0.022077763241017942,
+          "calibrated": 0.7061124833162855
+        }
+      }
+    },
+    {
+      "id": 82,
+      "space": "providence_station",
+      "regions": {
+        "1-2m": {
+          "pixels": 6785,
+          "aligned": 0.6053691745361479,
+          "calibrated": 0.4010543417141712
+        },
+        "2-4m": {
+          "pixels": 129254,
+          "aligned": 0.19225491672579514,
+          "calibrated": 0.09373152878682835
+        },
+        "4-10m": {
+          "pixels": 47718,
+          "aligned": 0.28119573792852426,
+          "calibrated": 0.3959718421615154
+        },
+        "boundary": {
+          "pixels": 20214,
+          "aligned": 0.23599481613354073,
+          "calibrated": 0.19040680136045768
+        },
+        "interior": {
+          "pixels": 163543,
+          "aligned": 0.2299385841329413,
+          "calibrated": 0.182719101471211
+        }
+      }
+    },
+    {
+      "id": 83,
+      "space": "hotel_mr",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 31220,
+          "aligned": 0.14942710556532196,
+          "calibrated": 1.213985264341115
+        },
+        "1-2m": {
+          "pixels": 213919,
+          "aligned": 0.05671397523966328,
+          "calibrated": 0.9318982413488286
+        },
+        "2-4m": {
+          "pixels": 5966,
+          "aligned": 0.09432532981518005,
+          "calibrated": 0.7391925005628317
+        },
+        "boundary": {
+          "pixels": 7096,
+          "aligned": 0.2280030345300655,
+          "calibrated": 1.2769059445105435
+        },
+        "interior": {
+          "pixels": 244009,
+          "aligned": 0.06451461417281698,
+          "calibrated": 0.9532454037348651
+        }
+      }
+    },
+    {
+      "id": 84,
+      "space": "mit_6_120",
+      "regions": {
+        "1-2m": {
+          "pixels": 6197,
+          "aligned": 0.12219918379245595,
+          "calibrated": 0.09376949713260006
+        },
+        "2-4m": {
+          "pixels": 249608,
+          "aligned": 0.038351032003701546,
+          "calibrated": 0.10730287905285979
+        },
+        "boundary": {
+          "pixels": 15780,
+          "aligned": 0.08346869086316829,
+          "calibrated": 0.1178726767881608
+        },
+        "interior": {
+          "pixels": 240104,
+          "aligned": 0.037580863952497885,
+          "calibrated": 0.1062721754513614
+        }
+      }
+    },
+    {
+      "id": 85,
+      "space": "mit_46_4conf_1",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 975,
+          "aligned": 0.3889178230739784,
+          "calibrated": 0.7743915282143744
+        },
+        "1-2m": {
+          "pixels": 101187,
+          "aligned": 0.10121508522645967,
+          "calibrated": 0.21769923507941283
+        },
+        "2-4m": {
+          "pixels": 114092,
+          "aligned": 0.05663342577405345,
+          "calibrated": 0.14427952905613542
+        },
+        "4-10m": {
+          "pixels": 43619,
+          "aligned": 0.11141436073565329,
+          "calibrated": 0.3414944266172527
+        },
+        "boundary": {
+          "pixels": 21296,
+          "aligned": 0.1438884759322294,
+          "calibrated": 0.2291162714695088
+        },
+        "interior": {
+          "pixels": 238577,
+          "aligned": 0.07912665737768483,
+          "calibrated": 0.20647794861392946
+        }
+      }
+    },
+    {
+      "id": 86,
+      "space": "mit_w85h",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 117980,
+          "aligned": 0.16593306015629694,
+          "calibrated": 1.7521363400660488
+        },
+        "1-2m": {
+          "pixels": 139086,
+          "aligned": 0.08987382909237088,
+          "calibrated": 1.4567025040941382
+        },
+        "boundary": {
+          "pixels": 784,
+          "aligned": 0.48239471063788253,
+          "calibrated": 0.11350805152084477
+        },
+        "interior": {
+          "pixels": 256368,
+          "aligned": 0.12383575581687388,
+          "calibrated": 1.5963142142575761
+        }
+      }
+    },
+    {
+      "id": 87,
+      "space": "mit_dorm_ec_tam",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 45178,
+          "aligned": 0.08770209286294922,
+          "calibrated": 1.007771102373622
+        },
+        "1-2m": {
+          "pixels": 123142,
+          "aligned": 0.12928390497011627,
+          "calibrated": 0.474057310937591
+        },
+        "2-4m": {
+          "pixels": 91321,
+          "aligned": 0.0832423480057795,
+          "calibrated": 0.24112399745749732
+        },
+        "boundary": {
+          "pixels": 14294,
+          "aligned": 0.1324985719988395,
+          "calibrated": 0.41672282865775556
+        },
+        "interior": {
+          "pixels": 245347,
+          "aligned": 0.1043025741145266,
+          "calibrated": 0.48897478553026724
+        }
+      }
+    },
+    {
+      "id": 88,
+      "space": "mit_dorm_masseeh_sr",
+      "regions": {
+        "1-2m": {
+          "pixels": 6875,
+          "aligned": 0.31106465449446236,
+          "calibrated": 0.05247797331035627
+        },
+        "2-4m": {
+          "pixels": 233254,
+          "aligned": 0.07890363725181912,
+          "calibrated": 0.09545677747578685
+        },
+        "4-10m": {
+          "pixels": 18320,
+          "aligned": 0.46402664373081814,
+          "calibrated": 0.5310600034126519
+        },
+        "boundary": {
+          "pixels": 13218,
+          "aligned": 0.15735709948019952,
+          "calibrated": 0.2188995109771259
+        },
+        "interior": {
+          "pixels": 245231,
+          "aligned": 0.10995420838068823,
+          "calibrated": 0.12014005882726907
+        }
+      }
+    },
+    {
+      "id": 89,
+      "space": "mit_32_g631",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 1744,
+          "aligned": 0.04215904454239158,
+          "calibrated": 0.7029665045154746
+        },
+        "1-2m": {
+          "pixels": 172694,
+          "aligned": 0.08002781408306771,
+          "calibrated": 0.3835746934606994
+        },
+        "2-4m": {
+          "pixels": 82365,
+          "aligned": 0.06666579634690033,
+          "calibrated": 0.10022708416127411
+        },
+        "4-10m": {
+          "pixels": 2668,
+          "aligned": 0.11342805814098025,
+          "calibrated": 0.16321453909767406
+        },
+        "boundary": {
+          "pixels": 14077,
+          "aligned": 0.15789255125826035,
+          "calibrated": 0.24748797777087714
+        },
+        "interior": {
+          "pixels": 245394,
+          "aligned": 0.07117023900386023,
+          "calibrated": 0.2961514691090748
+        }
+      }
+    },
+    {
+      "id": 90,
+      "space": "mit_32_g660",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 41005,
+          "aligned": 0.07979581682213216,
+          "calibrated": 1.0932362570316883
+        },
+        "1-2m": {
+          "pixels": 157750,
+          "aligned": 0.040973691617118474,
+          "calibrated": 0.6357446069785808
+        },
+        "2-4m": {
+          "pixels": 51538,
+          "aligned": 0.025982404597061557,
+          "calibrated": 0.3464747434170546
+        },
+        "boundary": {
+          "pixels": 5311,
+          "aligned": 0.16156598438865832,
+          "calibrated": 0.634800509780614
+        },
+        "interior": {
+          "pixels": 244982,
+          "aligned": 0.04170360086221502,
+          "calibrated": 0.6514848204734993
+        }
+      }
+    },
+    {
+      "id": 91,
+      "space": "harvard_c4",
+      "regions": {
+        "1-2m": {
+          "pixels": 29944,
+          "aligned": 0.0870268766213994,
+          "calibrated": 0.07527653302263917
+        },
+        "2-4m": {
+          "pixels": 108676,
+          "aligned": 0.04585514762369133,
+          "calibrated": 0.2557356192204019
+        },
+        "4-10m": {
+          "pixels": 106391,
+          "aligned": 0.04307490614042611,
+          "calibrated": 0.39987297838102115
+        },
+        "boundary": {
+          "pixels": 19343,
+          "aligned": 0.12775544691611232,
+          "calibrated": 0.27454304801009827
+        },
+        "interior": {
+          "pixels": 225668,
+          "aligned": 0.04298746630532985,
+          "calibrated": 0.29813178884246855
+        }
+      }
+    },
+    {
+      "id": 92,
+      "space": "mit_gym_tohoku",
+      "regions": {
+        "2-4m": {
+          "pixels": 93156,
+          "aligned": 0.18841903474158386,
+          "calibrated": 0.38555441911247684
+        },
+        "4-10m": {
+          "pixels": 126578,
+          "aligned": 0.1435098700803574,
+          "calibrated": 0.5512094288673929
+        },
+        "boundary": {
+          "pixels": 29314,
+          "aligned": 0.20474545152144716,
+          "calibrated": 0.5191547374348855
+        },
+        "interior": {
+          "pixels": 190420,
+          "aligned": 0.15605318647998512,
+          "calibrated": 0.4751034165573601
+        }
+      }
+    },
+    {
+      "id": 93,
+      "space": "mit_32_lounge_d4_bill",
+      "regions": {
+        "1-2m": {
+          "pixels": 11968,
+          "aligned": 0.05903354070645967,
+          "calibrated": 0.08872002811723247
+        },
+        "2-4m": {
+          "pixels": 248663,
+          "aligned": 0.02353505766699475,
+          "calibrated": 0.07224954822255748
+        },
+        "boundary": {
+          "pixels": 12246,
+          "aligned": 0.05778754330994376,
+          "calibrated": 0.11650668502789818
+        },
+        "interior": {
+          "pixels": 248385,
+          "aligned": 0.023556757471060057,
+          "calibrated": 0.07086116247487251
+        }
+      }
+    },
+    {
+      "id": 94,
+      "space": "harvard_c7",
+      "regions": {
+        "1-2m": {
+          "pixels": 90813,
+          "aligned": 0.09535831807668055,
+          "calibrated": 0.1962932226635926
+        },
+        "2-4m": {
+          "pixels": 133030,
+          "aligned": 0.06301640399787835,
+          "calibrated": 0.12985823715016975
+        },
+        "4-10m": {
+          "pixels": 20899,
+          "aligned": 0.08845768378861464,
+          "calibrated": 0.243037071391203
+        },
+        "boundary": {
+          "pixels": 13606,
+          "aligned": 0.1284998937552844,
+          "calibrated": 0.18021368653639155
+        },
+        "interior": {
+          "pixels": 231136,
+          "aligned": 0.07416912442198188,
+          "calibrated": 0.16322970914884105
+        }
+      }
+    },
+    {
+      "id": 95,
+      "space": "brown_cs_6",
+      "regions": {
+        "1-2m": {
+          "pixels": 24395,
+          "aligned": 0.08925107843985161,
+          "calibrated": 0.10156869882661161
+        },
+        "2-4m": {
+          "pixels": 117688,
+          "aligned": 0.05984734088335535,
+          "calibrated": 0.33350535080088967
+        },
+        "4-10m": {
+          "pixels": 81443,
+          "aligned": 0.0708210307694909,
+          "calibrated": 0.5870751207899406
+        },
+        "boundary": {
+          "pixels": 17695,
+          "aligned": 0.14563375303247592,
+          "calibrated": 0.5333232281734315
+        },
+        "interior": {
+          "pixels": 205831,
+          "aligned": 0.060299380858425074,
+          "calibrated": 0.3891704877928814
+        }
+      }
+    },
+    {
+      "id": 96,
+      "space": "harvard_corridor_lounge",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 9904,
+          "aligned": 1.581689705096481,
+          "calibrated": 1.348059208447482
+        },
+        "1-2m": {
+          "pixels": 97449,
+          "aligned": 0.42521772432834937,
+          "calibrated": 0.2467557889330794
+        },
+        "2-4m": {
+          "pixels": 83938,
+          "aligned": 0.22178249557370983,
+          "calibrated": 0.24148707488258397
+        },
+        "4-10m": {
+          "pixels": 62420,
+          "aligned": 0.21372773697178346,
+          "calibrated": 0.3864657570490392
+        },
+        "boundary": {
+          "pixels": 37844,
+          "aligned": 0.4037079389302783,
+          "calibrated": 0.3353480780689083
+        },
+        "interior": {
+          "pixels": 215867,
+          "aligned": 0.34178933357908436,
+          "calibrated": 0.3201022169032743
+        }
+      }
+    },
+    {
+      "id": 97,
+      "space": "harvard_c6",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 1922,
+          "aligned": 1.7546063532013325,
+          "calibrated": 1.6973565419143117
+        },
+        "1-2m": {
+          "pixels": 105500,
+          "aligned": 0.1906476103590976,
+          "calibrated": 0.36019496007690094
+        },
+        "2-4m": {
+          "pixels": 105271,
+          "aligned": 0.07393027662422604,
+          "calibrated": 0.08655128810472325
+        },
+        "4-10m": {
+          "pixels": 47938,
+          "aligned": 0.06511730806710632,
+          "calibrated": 0.24610239958652352
+        },
+        "boundary": {
+          "pixels": 28968,
+          "aligned": 0.3445583254019011,
+          "calibrated": 0.3099863918926416
+        },
+        "interior": {
+          "pixels": 231663,
+          "aligned": 0.10536347365839743,
+          "calibrated": 0.2296102495555069
+        }
+      }
+    },
+    {
+      "id": 98,
+      "space": "mit_dorm_baker_cj",
+      "regions": {
+        "1-2m": {
+          "pixels": 48810,
+          "aligned": 0.16610829050306106,
+          "calibrated": 0.3257853676994692
+        },
+        "2-4m": {
+          "pixels": 154809,
+          "aligned": 0.04030753910009973,
+          "calibrated": 0.18938117747628408
+        },
+        "4-10m": {
+          "pixels": 55056,
+          "aligned": 0.06601951647072028,
+          "calibrated": 0.29528603403415843
+        },
+        "boundary": {
+          "pixels": 20800,
+          "aligned": 0.12144239439261678,
+          "calibrated": 0.2456073372806938
+        },
+        "interior": {
+          "pixels": 237875,
+          "aligned": 0.06497733757413472,
+          "calibrated": 0.23696533799551592
+        }
+      }
+    },
+    {
+      "id": 99,
+      "space": "harvard_c2",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 445,
+          "aligned": 0.2595763156953575,
+          "calibrated": 0.671990953267318
+        },
+        "1-2m": {
+          "pixels": 45317,
+          "aligned": 0.07311555490460703,
+          "calibrated": 0.1679760993718752
+        },
+        "2-4m": {
+          "pixels": 151506,
+          "aligned": 0.08757140866507325,
+          "calibrated": 0.21274264146758606
+        },
+        "4-10m": {
+          "pixels": 52970,
+          "aligned": 0.09484162343999201,
+          "calibrated": 0.4775841131322231
+        },
+        "boundary": {
+          "pixels": 26080,
+          "aligned": 0.15111254470088217,
+          "calibrated": 0.2704757590122517
+        },
+        "interior": {
+          "pixels": 224158,
+          "aligned": 0.07931561011038853,
+          "calibrated": 0.26047082051589354
+        }
+      }
+    },
+    {
+      "id": 100,
+      "space": "mit_46_5bathroom",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 23556,
+          "aligned": 0.2585696274056277,
+          "calibrated": 0.8921788373957438
+        },
+        "1-2m": {
+          "pixels": 174925,
+          "aligned": 0.11502301382071048,
+          "calibrated": 0.7284301414001322
+        },
+        "2-4m": {
+          "pixels": 59843,
+          "aligned": 0.1470591673717018,
+          "calibrated": 0.4394208649777219
+        },
+        "4-10m": {
+          "pixels": 636,
+          "aligned": 0.7278987674681097,
+          "calibrated": 0.5922266960948002
+        },
+        "boundary": {
+          "pixels": 6406,
+          "aligned": 0.15269180678060829,
+          "calibrated": 0.5002682610526953
+        },
+        "interior": {
+          "pixels": 252554,
+          "aligned": 0.13659070333731652,
+          "calibrated": 0.6806663434330353
+        }
+      }
+    },
+    {
+      "id": 101,
+      "space": "mit_lab_pdl",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 15810,
+          "aligned": 1.4021337400156435,
+          "calibrated": 1.8105190910792301
+        },
+        "1-2m": {
+          "pixels": 26462,
+          "aligned": 0.24417757563674786,
+          "calibrated": 0.30826237011335744
+        },
+        "2-4m": {
+          "pixels": 197468,
+          "aligned": 0.08119109248579227,
+          "calibrated": 0.06186520133854152
+        },
+        "boundary": {
+          "pixels": 21542,
+          "aligned": 0.19634571565699072,
+          "calibrated": 0.20164280984934319
+        },
+        "interior": {
+          "pixels": 218198,
+          "aligned": 0.18530016169006353,
+          "calibrated": 0.20464969356294216
+        }
+      }
+    },
+    {
+      "id": 102,
+      "space": "mit_46_6bathroom",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 109424,
+          "aligned": 0.06592769741820921,
+          "calibrated": 1.3542992678201633
+        },
+        "1-2m": {
+          "pixels": 146229,
+          "aligned": 0.18857688356509647,
+          "calibrated": 1.5017235133184017
+        },
+        "2-4m": {
+          "pixels": 4133,
+          "aligned": 0.556670539327168,
+          "calibrated": 0.19360475258339052
+        },
+        "boundary": {
+          "pixels": 9649,
+          "aligned": 0.255346943901779,
+          "calibrated": 1.3017834845662646
+        },
+        "interior": {
+          "pixels": 250137,
+          "aligned": 0.13842957317974364,
+          "calibrated": 1.4233305361095616
+        }
+      }
+    },
+    {
+      "id": 103,
+      "space": "mit_32_g882",
+      "regions": {
+        "1-2m": {
+          "pixels": 15207,
+          "aligned": 0.04979531783164446,
+          "calibrated": 0.11184014236425224
+        },
+        "2-4m": {
+          "pixels": 188046,
+          "aligned": 0.03622781597293494,
+          "calibrated": 0.28060279994365744
+        },
+        "4-10m": {
+          "pixels": 52813,
+          "aligned": 0.03447358448339972,
+          "calibrated": 0.4003093969872229
+        },
+        "boundary": {
+          "pixels": 10434,
+          "aligned": 0.10767948714929963,
+          "calibrated": 0.3048627020268704
+        },
+        "interior": {
+          "pixels": 245632,
+          "aligned": 0.0336554639831876,
+          "calibrated": 0.29486219186944707
+        }
+      }
+    },
+    {
+      "id": 104,
+      "space": "mit_32_g449",
+      "regions": {
+        "1-2m": {
+          "pixels": 30729,
+          "aligned": 0.05693655314915485,
+          "calibrated": 0.11356768525855496
+        },
+        "2-4m": {
+          "pixels": 229383,
+          "aligned": 0.04446975785787741,
+          "calibrated": 0.04988066508739679
+        },
+        "boundary": {
+          "pixels": 6587,
+          "aligned": 0.11901319909835459,
+          "calibrated": 0.12712325773361174
+        },
+        "interior": {
+          "pixels": 253525,
+          "aligned": 0.04404405824267038,
+          "calibrated": 0.05559308589433458
+        }
+      }
+    },
+    {
+      "id": 105,
+      "space": "mit_dorm_mcc_wflr7",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 10260,
+          "aligned": 0.04672696189372198,
+          "calibrated": 0.7135997747737886
+        },
+        "1-2m": {
+          "pixels": 223948,
+          "aligned": 0.03243465566121219,
+          "calibrated": 0.5831391200553512
+        },
+        "2-4m": {
+          "pixels": 26326,
+          "aligned": 0.027026926017305684,
+          "calibrated": 0.5024157905300508
+        },
+        "boundary": {
+          "pixels": 5149,
+          "aligned": 0.15140169283916086,
+          "calibrated": 0.554760170895762
+        },
+        "interior": {
+          "pixels": 255385,
+          "aligned": 0.03005281607357317,
+          "calibrated": 0.5806312482287006
+        }
+      }
+    },
+    {
+      "id": 106,
+      "space": "mit_32_g5_lounge",
+      "regions": {
+        "1-2m": {
+          "pixels": 103046,
+          "aligned": 0.05183367985252617,
+          "calibrated": 0.07724243741835805
+        },
+        "2-4m": {
+          "pixels": 118184,
+          "aligned": 0.06055205601550085,
+          "calibrated": 0.201577106269075
+        },
+        "4-10m": {
+          "pixels": 31693,
+          "aligned": 0.058041949289105894,
+          "calibrated": 0.4263988916947063
+        },
+        "boundary": {
+          "pixels": 8463,
+          "aligned": 0.1732158781610553,
+          "calibrated": 0.20405110229742865
+        },
+        "interior": {
+          "pixels": 244460,
+          "aligned": 0.052651292989290624,
+          "calibrated": 0.17822829309193192
+        }
+      }
+    },
+    {
+      "id": 107,
+      "space": "mit_ne47_2corridor",
+      "regions": {
+        "1-2m": {
+          "pixels": 79728,
+          "aligned": 0.08403574243574866,
+          "calibrated": 0.19695170616784075
+        },
+        "2-4m": {
+          "pixels": 176184,
+          "aligned": 0.051617659098891655,
+          "calibrated": 0.09723959188063729
+        },
+        "boundary": {
+          "pixels": 20007,
+          "aligned": 0.12926521105515554,
+          "calibrated": 0.16923826338469486
+        },
+        "interior": {
+          "pixels": 235905,
+          "aligned": 0.0559886320595833,
+          "calibrated": 0.1248327756923771
+        }
+      }
+    },
+    {
+      "id": 108,
+      "space": "mit_32_397",
+      "regions": {
+        "1-2m": {
+          "pixels": 104290,
+          "aligned": 0.02840646901578659,
+          "calibrated": 0.39707403599317426
+        },
+        "2-4m": {
+          "pixels": 156126,
+          "aligned": 0.04036385721430989,
+          "calibrated": 0.18788792009310473
+        },
+        "boundary": {
+          "pixels": 10613,
+          "aligned": 0.09352203413518737,
+          "calibrated": 0.20682111272328402
+        },
+        "interior": {
+          "pixels": 249803,
+          "aligned": 0.033113328810386526,
+          "calibrated": 0.27441643277643585
+        }
+      }
+    },
+    {
+      "id": 109,
+      "space": "brown_bm_2",
+      "regions": {
+        "1-2m": {
+          "pixels": 93662,
+          "aligned": 0.037608430789271556,
+          "calibrated": 0.07980731212172902
+        },
+        "2-4m": {
+          "pixels": 166940,
+          "aligned": 0.024565226506143747,
+          "calibrated": 0.26793022840387204
+        },
+        "boundary": {
+          "pixels": 6688,
+          "aligned": 0.05981365752610641,
+          "calibrated": 0.21570446472385166
+        },
+        "interior": {
+          "pixels": 253914,
+          "aligned": 0.028448080909228284,
+          "calibrated": 0.19991238505011405
+        }
+      }
+    },
+    {
+      "id": 110,
+      "space": "mit_w85_12",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 64392,
+          "aligned": 0.041650566603660004,
+          "calibrated": 1.0867185178589605
+        },
+        "1-2m": {
+          "pixels": 167246,
+          "aligned": 0.05204194190004573,
+          "calibrated": 0.7651941317759586
+        },
+        "2-4m": {
+          "pixels": 28820,
+          "aligned": 0.02447994177098069,
+          "calibrated": 0.6350068484499113
+        },
+        "boundary": {
+          "pixels": 10384,
+          "aligned": 0.12632096221870942,
+          "calibrated": 0.8057826760756531
+        },
+        "interior": {
+          "pixels": 250074,
+          "aligned": 0.04310550057150486,
+          "calibrated": 0.8312950831711136
+        }
+      }
+    },
+    {
+      "id": 111,
+      "space": "mit_gym_dupont",
+      "regions": {
+        "4-10m": {
+          "pixels": 245252,
+          "aligned": 0.036951707360807155,
+          "calibrated": 0.5318219514103227
+        },
+        "boundary": {
+          "pixels": 8250,
+          "aligned": 0.08077471500488649,
+          "calibrated": 0.5634221924237259
+        },
+        "interior": {
+          "pixels": 237002,
+          "aligned": 0.0354262357906784,
+          "calibrated": 0.5307219523033085
+        }
+      }
+    },
+    {
+      "id": 112,
+      "space": "mit_34_302",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 4946,
+          "aligned": 0.42391195438230206,
+          "calibrated": 0.8496622767751932
+        },
+        "1-2m": {
+          "pixels": 9282,
+          "aligned": 0.1860066537240758,
+          "calibrated": 0.42944955230320037
+        },
+        "2-4m": {
+          "pixels": 70737,
+          "aligned": 0.10315859385619576,
+          "calibrated": 0.2734894468462377
+        },
+        "4-10m": {
+          "pixels": 161710,
+          "aligned": 0.054213557359549955,
+          "calibrated": 0.5029864444335882
+        },
+        "boundary": {
+          "pixels": 25337,
+          "aligned": 0.20249029404905647,
+          "calibrated": 0.37961827961794953
+        },
+        "interior": {
+          "pixels": 221338,
+          "aligned": 0.06667038429975573,
+          "calibrated": 0.44842707960515715
+        }
+      }
+    },
+    {
+      "id": 113,
+      "space": "mit_26_100",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 2495,
+          "aligned": 0.4638636297818316,
+          "calibrated": 1.0064325989106397
+        },
+        "1-2m": {
+          "pixels": 122886,
+          "aligned": 0.07453144675272794,
+          "calibrated": 0.11376669493461453
+        },
+        "2-4m": {
+          "pixels": 75168,
+          "aligned": 0.088321906157996,
+          "calibrated": 0.2914971601526805
+        },
+        "4-10m": {
+          "pixels": 34692,
+          "aligned": 0.09398619155267353,
+          "calibrated": 0.523038688228822
+        },
+        "boundary": {
+          "pixels": 41772,
+          "aligned": 0.11485671583186695,
+          "calibrated": 0.32365037370468314
+        },
+        "interior": {
+          "pixels": 193469,
+          "aligned": 0.0796921800787839,
+          "calibrated": 0.22240450255087924
+        }
+      }
+    },
+    {
+      "id": 114,
+      "space": "mit_76_4lounge",
+      "regions": {
+        "1-2m": {
+          "pixels": 43973,
+          "aligned": 0.06444673928363652,
+          "calibrated": 0.18327226643231706
+        },
+        "2-4m": {
+          "pixels": 160311,
+          "aligned": 0.0454433000660074,
+          "calibrated": 0.12085210445469746
+        },
+        "4-10m": {
+          "pixels": 55610,
+          "aligned": 0.04366704234893002,
+          "calibrated": 0.28524944065769975
+        },
+        "boundary": {
+          "pixels": 17200,
+          "aligned": 0.10733835446753005,
+          "calibrated": 0.16245462648990408
+        },
+        "interior": {
+          "pixels": 242694,
+          "aligned": 0.044092898347645765,
+          "calibrated": 0.16688280265854782
+        }
+      }
+    },
+    {
+      "id": 115,
+      "space": "mit_32_d463",
+      "regions": {
+        "1-2m": {
+          "pixels": 71866,
+          "aligned": 0.09702009577007759,
+          "calibrated": 0.1391305089267463
+        },
+        "2-4m": {
+          "pixels": 148713,
+          "aligned": 0.04595429345242699,
+          "calibrated": 0.09544108229563726
+        },
+        "4-10m": {
+          "pixels": 7853,
+          "aligned": 0.04096354885187117,
+          "calibrated": 0.1714311658413417
+        },
+        "boundary": {
+          "pixels": 7576,
+          "aligned": 0.08335509981646745,
+          "calibrated": 0.12388320283349254
+        },
+        "interior": {
+          "pixels": 220856,
+          "aligned": 0.06111056778048755,
+          "calibrated": 0.1113838547589659
+        }
+      }
+    },
+    {
+      "id": 116,
+      "space": "harvard_printroom1",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 2486,
+          "aligned": 0.026971977853320037,
+          "calibrated": 0.7458286137951531
+        },
+        "1-2m": {
+          "pixels": 50050,
+          "aligned": 0.11269802667868507,
+          "calibrated": 0.5082824220032311
+        },
+        "2-4m": {
+          "pixels": 208090,
+          "aligned": 0.039812554852423014,
+          "calibrated": 0.27918268611592384
+        },
+        "boundary": {
+          "pixels": 31970,
+          "aligned": 0.07886435714727748,
+          "calibrated": 0.3118646375905457
+        },
+        "interior": {
+          "pixels": 228656,
+          "aligned": 0.05016658042410339,
+          "calibrated": 0.3298338020662013
+        }
+      }
+    },
+    {
+      "id": 117,
+      "space": "mit_76_458",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 6261,
+          "aligned": 0.24825405967072037,
+          "calibrated": 0.8610863367266708
+        },
+        "1-2m": {
+          "pixels": 111216,
+          "aligned": 0.07743730074415309,
+          "calibrated": 0.40372170325914963
+        },
+        "2-4m": {
+          "pixels": 141351,
+          "aligned": 0.05354212582726503,
+          "calibrated": 0.11167764050953066
+        },
+        "boundary": {
+          "pixels": 21011,
+          "aligned": 0.14745543579213646,
+          "calibrated": 0.2737274885394359
+        },
+        "interior": {
+          "pixels": 237817,
+          "aligned": 0.061545778365471225,
+          "calibrated": 0.2536657699234111
+        }
+      }
+    },
+    {
+      "id": 118,
+      "space": "mit_w85a",
+      "regions": {
+        "1-2m": {
+          "pixels": 25372,
+          "aligned": 0.01753973961309511,
+          "calibrated": 0.019214023273720057
+        },
+        "2-4m": {
+          "pixels": 232699,
+          "aligned": 0.012304874409147097,
+          "calibrated": 0.11438233284675493
+        },
+        "boundary": {
+          "pixels": 932,
+          "aligned": 0.05166098248364534,
+          "calibrated": 0.12603976319556476
+        },
+        "interior": {
+          "pixels": 257139,
+          "aligned": 0.012678754323236896,
+          "calibrated": 0.10494978828691713
+        }
+      }
+    },
+    {
+      "id": 119,
+      "space": "mit_32_261",
+      "regions": {
+        "1-2m": {
+          "pixels": 22370,
+          "aligned": 0.20380587315583634,
+          "calibrated": 0.08356967729297657
+        },
+        "2-4m": {
+          "pixels": 154582,
+          "aligned": 0.051495239688005436,
+          "calibrated": 0.23938626332315727
+        },
+        "4-10m": {
+          "pixels": 77939,
+          "aligned": 0.04344206291267992,
+          "calibrated": 0.34136857227169437
+        },
+        "boundary": {
+          "pixels": 18012,
+          "aligned": 0.1479697923265248,
+          "calibrated": 0.2392071222050656
+        },
+        "interior": {
+          "pixels": 236879,
+          "aligned": 0.055893403661419164,
+          "calibrated": 0.258239808118027
+        }
+      }
+    },
+    {
+      "id": 120,
+      "space": "mit_dorm_sh_flr1",
+      "regions": {
+        "1-2m": {
+          "pixels": 48094,
+          "aligned": 0.3032596965551251,
+          "calibrated": 0.46796717370559
+        },
+        "2-4m": {
+          "pixels": 211707,
+          "aligned": 0.08813938386102572,
+          "calibrated": 0.14033886420693434
+        },
+        "boundary": {
+          "pixels": 4412,
+          "aligned": 0.25603708288624855,
+          "calibrated": 0.2874356219811703
+        },
+        "interior": {
+          "pixels": 255391,
+          "aligned": 0.12575027499263458,
+          "calibrated": 0.19949588613417246
+        }
+      }
+    },
+    {
+      "id": 121,
+      "space": "hotel_singapore_2012",
+      "regions": {
+        "1-2m": {
+          "pixels": 84497,
+          "aligned": 0.06608112464995304,
+          "calibrated": 0.24197067139565537
+        },
+        "2-4m": {
+          "pixels": 175856,
+          "aligned": 0.04824751955905053,
+          "calibrated": 0.19952742903965234
+        },
+        "boundary": {
+          "pixels": 7312,
+          "aligned": 0.08278073417022656,
+          "calibrated": 0.15647171038979177
+        },
+        "interior": {
+          "pixels": 253041,
+          "aligned": 0.05320473702234332,
+          "calibrated": 0.21494449609251318
+        }
+      }
+    },
+    {
+      "id": 122,
+      "space": "mit_32_d407",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 1922,
+          "aligned": 0.3376800807261353,
+          "calibrated": 0.7132460058984953
+        },
+        "1-2m": {
+          "pixels": 84025,
+          "aligned": 0.1159181172682778,
+          "calibrated": 0.2704065890552873
+        },
+        "2-4m": {
+          "pixels": 166032,
+          "aligned": 0.07317013836573026,
+          "calibrated": 0.05968929793911651
+        },
+        "4-10m": {
+          "pixels": 5483,
+          "aligned": 0.11066795369613734,
+          "calibrated": 0.19448702622735717
+        },
+        "boundary": {
+          "pixels": 25895,
+          "aligned": 0.1410422268604211,
+          "calibrated": 0.16467380543360427
+        },
+        "interior": {
+          "pixels": 231567,
+          "aligned": 0.08417490081629471,
+          "calibrated": 0.1330252158435193
+        }
+      }
+    },
+    {
+      "id": 123,
+      "space": "hotel_pittsburg",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 11589,
+          "aligned": 0.19176623444962487,
+          "calibrated": 0.9487382059110288
+        },
+        "1-2m": {
+          "pixels": 209949,
+          "aligned": 0.04539800478784679,
+          "calibrated": 0.596715615614824
+        },
+        "2-4m": {
+          "pixels": 39093,
+          "aligned": 0.07352572804885056,
+          "calibrated": 0.4993234998568234
+        },
+        "boundary": {
+          "pixels": 8978,
+          "aligned": 0.11817658765118634,
+          "calibrated": 0.5757243652834739
+        },
+        "interior": {
+          "pixels": 251653,
+          "aligned": 0.05391152293404693,
+          "calibrated": 0.5985463081282851
+        }
+      }
+    },
+    {
+      "id": 124,
+      "space": "home_pt",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 80819,
+          "aligned": 0.040583953116322236,
+          "calibrated": 1.178218329486997
+        },
+        "1-2m": {
+          "pixels": 133562,
+          "aligned": 0.03873901512355936,
+          "calibrated": 0.6793104828455265
+        },
+        "2-4m": {
+          "pixels": 45326,
+          "aligned": 0.04142999939135682,
+          "calibrated": 0.41157787395095696
+        },
+        "boundary": {
+          "pixels": 8818,
+          "aligned": 0.14159227491919957,
+          "calibrated": 0.6281959915895526
+        },
+        "interior": {
+          "pixels": 250889,
+          "aligned": 0.03620449807291678,
+          "calibrated": 0.7934514480168051
+        }
+      }
+    },
+    {
+      "id": 125,
+      "space": "mit_dorm_masseeh_flr4a",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 79932,
+          "aligned": 0.16303415015625297,
+          "calibrated": 0.8811398504986151
+        },
+        "1-2m": {
+          "pixels": 34242,
+          "aligned": 0.5507454821142094,
+          "calibrated": 0.9715281797568077
+        },
+        "2-4m": {
+          "pixels": 146367,
+          "aligned": 0.10663605246086459,
+          "calibrated": 0.09023291292881885
+        },
+        "boundary": {
+          "pixels": 5775,
+          "aligned": 1.0833551812612539,
+          "calibrated": 0.932576246961363
+        },
+        "interior": {
+          "pixels": 254766,
+          "aligned": 0.1618814732248416,
+          "calibrated": 0.43773435780967024
+        }
+      }
+    },
+    {
+      "id": 126,
+      "space": "mit_32_g460",
+      "regions": {
+        "1-2m": {
+          "pixels": 111402,
+          "aligned": 0.008929267691021939,
+          "calibrated": 0.26921386648436474
+        },
+        "2-4m": {
+          "pixels": 149180,
+          "aligned": 0.012570099971721803,
+          "calibrated": 0.30656014181143304
+        },
+        "boundary": {
+          "pixels": 1771,
+          "aligned": 0.0784721955434339,
+          "calibrated": 0.3360570318718801
+        },
+        "interior": {
+          "pixels": 258811,
+          "aligned": 0.010551991742195127,
+          "calibrated": 0.2902830563850674
+        }
+      }
+    },
+    {
+      "id": 127,
+      "space": "mit_gym_z_squash",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 1254,
+          "aligned": 0.4730366372344387,
+          "calibrated": 0.8126000032834967
+        },
+        "1-2m": {
+          "pixels": 119862,
+          "aligned": 0.10132599356691413,
+          "calibrated": 0.2626628565147962
+        },
+        "2-4m": {
+          "pixels": 139515,
+          "aligned": 0.06577853506578363,
+          "calibrated": 0.1496840228531461
+        },
+        "boundary": {
+          "pixels": 8390,
+          "aligned": 0.17466660337735837,
+          "calibrated": 0.22287934221000288
+        },
+        "interior": {
+          "pixels": 252241,
+          "aligned": 0.0810731153990676,
+          "calibrated": 0.20423128864422815
+        }
+      }
+    },
+    {
+      "id": 128,
+      "space": "mit_32_g442",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 4454,
+          "aligned": 0.4365237615172224,
+          "calibrated": 0.9348707054928969
+        },
+        "1-2m": {
+          "pixels": 102973,
+          "aligned": 0.07357101348722804,
+          "calibrated": 0.290018424501295
+        },
+        "2-4m": {
+          "pixels": 150581,
+          "aligned": 0.05710359190803577,
+          "calibrated": 0.12004404965440024
+        },
+        "boundary": {
+          "pixels": 16173,
+          "aligned": 0.1537978820634156,
+          "calibrated": 0.26223629326878817
+        },
+        "interior": {
+          "pixels": 241835,
+          "aligned": 0.06463682937585691,
+          "calibrated": 0.1979167069217042
+        }
+      }
+    },
+    {
+      "id": 129,
+      "space": "hotel_barcelona",
+      "regions": {
+        "1-2m": {
+          "pixels": 132332,
+          "aligned": 0.02490541263281806,
+          "calibrated": 0.20277267675647445
+        },
+        "2-4m": {
+          "pixels": 107618,
+          "aligned": 0.022750431692894903,
+          "calibrated": 0.045770320599926265
+        },
+        "boundary": {
+          "pixels": 7259,
+          "aligned": 0.11645761296969041,
+          "calibrated": 0.1636792934760138
+        },
+        "interior": {
+          "pixels": 232695,
+          "aligned": 0.021061126431433347,
+          "calibrated": 0.131385304009847
+        }
+      }
+    },
+    {
+      "id": 130,
+      "space": "mit_w85_basement",
+      "regions": {
+        "1-2m": {
+          "pixels": 71283,
+          "aligned": 0.05565353311962728,
+          "calibrated": 0.07124515410071475
+        },
+        "2-4m": {
+          "pixels": 189348,
+          "aligned": 0.041891147246548924,
+          "calibrated": 0.086235773688206
+        },
+        "boundary": {
+          "pixels": 10742,
+          "aligned": 0.1138597311930986,
+          "calibrated": 0.15843174529876505
+        },
+        "interior": {
+          "pixels": 249889,
+          "aligned": 0.04272326720155618,
+          "calibrated": 0.07885607524971625
+        }
+      }
+    },
+    {
+      "id": 131,
+      "space": "mit_32_d451",
+      "regions": {
+        "1-2m": {
+          "pixels": 81634,
+          "aligned": 0.1029805611832024,
+          "calibrated": 0.2179365677721577
+        },
+        "2-4m": {
+          "pixels": 162722,
+          "aligned": 0.05411182733517661,
+          "calibrated": 0.07980352540165499
+        },
+        "4-10m": {
+          "pixels": 15415,
+          "aligned": 0.04976212549407218,
+          "calibrated": 0.16613965576143144
+        },
+        "boundary": {
+          "pixels": 12909,
+          "aligned": 0.16590967202379836,
+          "calibrated": 0.19846867983482264
+        },
+        "interior": {
+          "pixels": 246862,
+          "aligned": 0.06415428501592008,
+          "calibrated": 0.12466816942054736
+        }
+      }
+    },
+    {
+      "id": 132,
+      "space": "mit_32_g7_lounge",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 5296,
+          "aligned": 0.1698898275333728,
+          "calibrated": 0.7380158957624544
+        },
+        "1-2m": {
+          "pixels": 66588,
+          "aligned": 0.1515499012431567,
+          "calibrated": 0.301872574289667
+        },
+        "2-4m": {
+          "pixels": 90734,
+          "aligned": 0.0830842311917308,
+          "calibrated": 0.14939815692173808
+        },
+        "4-10m": {
+          "pixels": 94412,
+          "aligned": 0.046196178722785,
+          "calibrated": 0.3025658787973085
+        },
+        "boundary": {
+          "pixels": 16403,
+          "aligned": 0.11635837587494384,
+          "calibrated": 0.21023355981898464
+        },
+        "interior": {
+          "pixels": 240627,
+          "aligned": 0.087199496189727,
+          "calibrated": 0.2604965535795899
+        }
+      }
+    },
+    {
+      "id": 133,
+      "space": "hotel_umd",
+      "regions": {
+        "1-2m": {
+          "pixels": 93892,
+          "aligned": 0.030374726732234635,
+          "calibrated": 0.3058923288507944
+        },
+        "2-4m": {
+          "pixels": 159910,
+          "aligned": 0.027358562759647865,
+          "calibrated": 0.06021228715268498
+        },
+        "4-10m": {
+          "pixels": 3237,
+          "aligned": 0.13970043371368723,
+          "calibrated": 0.17389409747887413
+        },
+        "boundary": {
+          "pixels": 6321,
+          "aligned": 0.0964897342777853,
+          "calibrated": 0.15363395898288768
+        },
+        "interior": {
+          "pixels": 250781,
+          "aligned": 0.028209627121741118,
+          "calibrated": 0.1514631877234378
+        }
+      }
+    },
+    {
+      "id": 134,
+      "space": "mit_32_g725",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 4691,
+          "aligned": 0.16481945538032017,
+          "calibrated": 0.8139861839158327
+        },
+        "1-2m": {
+          "pixels": 123724,
+          "aligned": 0.05479824365440561,
+          "calibrated": 0.2881461540113629
+        },
+        "2-4m": {
+          "pixels": 114105,
+          "aligned": 0.042216135032071674,
+          "calibrated": 0.068199180581577
+        },
+        "4-10m": {
+          "pixels": 15700,
+          "aligned": 0.04175178054552368,
+          "calibrated": 0.21994383660054775
+        },
+        "boundary": {
+          "pixels": 16099,
+          "aligned": 0.17780457423652862,
+          "calibrated": 0.25084451781756006
+        },
+        "interior": {
+          "pixels": 242121,
+          "aligned": 0.04197539728008783,
+          "calibrated": 0.19273687036727744
+        }
+      }
+    },
+    {
+      "id": 135,
+      "space": "brown_bm_4",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 7304,
+          "aligned": 0.16502169597352787,
+          "calibrated": 0.7258233986347039
+        },
+        "1-2m": {
+          "pixels": 128850,
+          "aligned": 0.06065342284036934,
+          "calibrated": 0.4280223538448999
+        },
+        "2-4m": {
+          "pixels": 124477,
+          "aligned": 0.05208463767951275,
+          "calibrated": 0.29063799652135514
+        },
+        "boundary": {
+          "pixels": 17203,
+          "aligned": 0.16059802685799854,
+          "calibrated": 0.4047828613063764
+        },
+        "interior": {
+          "pixels": 243428,
+          "aligned": 0.05234025497792693,
+          "calibrated": 0.3683485906571075
+        }
+      }
+    },
+    {
+      "id": 136,
+      "space": "hyatt_cambridge",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 127111,
+          "aligned": 0.06915460126074048,
+          "calibrated": 1.6921335239415454
+        },
+        "1-2m": {
+          "pixels": 125855,
+          "aligned": 0.021111004202174107,
+          "calibrated": 1.9867505383511221
+        },
+        "boundary": {
+          "pixels": 15797,
+          "aligned": 0.12177298513201872,
+          "calibrated": 1.944597956922912
+        },
+        "interior": {
+          "pixels": 237169,
+          "aligned": 0.040155282134630196,
+          "calibrated": 1.831657844998305
+        }
+      }
+    },
+    {
+      "id": 137,
+      "space": "mit_w85k1",
+      "regions": {
+        "1-2m": {
+          "pixels": 161133,
+          "aligned": 0.08642148158808793,
+          "calibrated": 0.15964464396027273
+        },
+        "2-4m": {
+          "pixels": 99086,
+          "aligned": 0.03937185487050409,
+          "calibrated": 0.02615673944428557
+        },
+        "4-10m": {
+          "pixels": 161,
+          "aligned": 0.08964148392808084,
+          "calibrated": 0.14470332378079365
+        },
+        "boundary": {
+          "pixels": 11766,
+          "aligned": 0.14191857254624263,
+          "calibrated": 0.20648891234565978
+        },
+        "interior": {
+          "pixels": 248687,
+          "aligned": 0.0651536995412972,
+          "calibrated": 0.1043871574184617
+        }
+      }
+    },
+    {
+      "id": 138,
+      "space": "mit_w85_lounge1",
+      "regions": {
+        "1-2m": {
+          "pixels": 133278,
+          "aligned": 0.030398731327031595,
+          "calibrated": 0.039855758785437956
+        },
+        "2-4m": {
+          "pixels": 115379,
+          "aligned": 0.027681726287077057,
+          "calibrated": 0.09874612783576449
+        },
+        "4-10m": {
+          "pixels": 7511,
+          "aligned": 0.05335904393888157,
+          "calibrated": 0.28088934856972536
+        },
+        "boundary": {
+          "pixels": 4989,
+          "aligned": 0.06232169553942359,
+          "calibrated": 0.10660461614257952
+        },
+        "interior": {
+          "pixels": 251179,
+          "aligned": 0.0292031931453646,
+          "calibrated": 0.07278886678480345
+        }
+      }
+    },
+    {
+      "id": 139,
+      "space": "mit_lab_koch",
+      "regions": {
+        "1-2m": {
+          "pixels": 1077,
+          "aligned": 0.09364417394513637,
+          "calibrated": 0.1161953376052066
+        },
+        "2-4m": {
+          "pixels": 154854,
+          "aligned": 0.049970264930524394,
+          "calibrated": 0.2995083650622362
+        },
+        "4-10m": {
+          "pixels": 100007,
+          "aligned": 0.05153819568900198,
+          "calibrated": 0.5014248814823491
+        },
+        "boundary": {
+          "pixels": 22755,
+          "aligned": 0.09053528309089601,
+          "calibrated": 0.39169751842675105
+        },
+        "interior": {
+          "pixels": 233183,
+          "aligned": 0.04688592286070177,
+          "calibrated": 0.3762629858632615
+        }
+      }
+    },
+    {
+      "id": 140,
+      "space": "mit_3_133",
+      "regions": {
+        "1-2m": {
+          "pixels": 92815,
+          "aligned": 0.05765128690521805,
+          "calibrated": 0.4311238387872472
+        },
+        "2-4m": {
+          "pixels": 161595,
+          "aligned": 0.05310962647710871,
+          "calibrated": 0.2234456639599951
+        },
+        "boundary": {
+          "pixels": 10855,
+          "aligned": 0.11615637816899305,
+          "calibrated": 0.2656527746226698
+        },
+        "interior": {
+          "pixels": 243555,
+          "aligned": 0.05203045225781354,
+          "calibrated": 0.30070743896091096
+        }
+      }
+    },
+    {
+      "id": 141,
+      "space": "harvard_robotics_lab",
+      "regions": {
+        "1-2m": {
+          "pixels": 4483,
+          "aligned": 0.11675401936274837,
+          "calibrated": 0.15300973576568563
+        },
+        "2-4m": {
+          "pixels": 234733,
+          "aligned": 0.062328966681777315,
+          "calibrated": 0.19952851938360425
+        },
+        "4-10m": {
+          "pixels": 19269,
+          "aligned": 0.10586404132232816,
+          "calibrated": 0.2710833773366751
+        },
+        "boundary": {
+          "pixels": 12055,
+          "aligned": 0.10247348369002837,
+          "calibrated": 0.19742877814008505
+        },
+        "interior": {
+          "pixels": 246430,
+          "aligned": 0.06475936359726284,
+          "calibrated": 0.204380035966931
+        }
+      }
+    },
+    {
+      "id": 142,
+      "space": "hotel_ucsd",
+      "regions": {
+        "1-2m": {
+          "pixels": 198822,
+          "aligned": 0.06815243129910348,
+          "calibrated": 0.39581315198133954
+        },
+        "2-4m": {
+          "pixels": 59587,
+          "aligned": 0.0576082461975924,
+          "calibrated": 0.37955644296703517
+        },
+        "boundary": {
+          "pixels": 14689,
+          "aligned": 0.12062819748343091,
+          "calibrated": 0.42426486653624707
+        },
+        "interior": {
+          "pixels": 243720,
+          "aligned": 0.06241177445056695,
+          "calibrated": 0.3901237717288679
+        }
+      }
+    },
+    {
+      "id": 143,
+      "space": "home_ag",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 13529,
+          "aligned": 0.22840097557857086,
+          "calibrated": 0.9006180401045065
+        },
+        "1-2m": {
+          "pixels": 98923,
+          "aligned": 0.07854710229017098,
+          "calibrated": 0.054611575455228906
+        },
+        "2-4m": {
+          "pixels": 103393,
+          "aligned": 0.07483719262243929,
+          "calibrated": 0.1917196886004697
+        },
+        "4-10m": {
+          "pixels": 37419,
+          "aligned": 0.04533143222475696,
+          "calibrated": 0.48133503018530527
+        },
+        "boundary": {
+          "pixels": 23918,
+          "aligned": 0.13809722801439978,
+          "calibrated": 0.23485248765032024
+        },
+        "interior": {
+          "pixels": 229346,
+          "aligned": 0.07408474975815886,
+          "calibrated": 0.21715290348069477
+        }
+      }
+    },
+    {
+      "id": 144,
+      "space": "mit_32_g431",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 23533,
+          "aligned": 0.121826067949003,
+          "calibrated": 1.0672444337511484
+        },
+        "1-2m": {
+          "pixels": 178804,
+          "aligned": 0.041845041350010714,
+          "calibrated": 0.4664580777608869
+        },
+        "2-4m": {
+          "pixels": 55651,
+          "aligned": 0.0767650697092216,
+          "calibrated": 0.19262627197418947
+        },
+        "boundary": {
+          "pixels": 18607,
+          "aligned": 0.1628854395651863,
+          "calibrated": 0.49922799428345954
+        },
+        "interior": {
+          "pixels": 239381,
+          "aligned": 0.04841753167958056,
+          "calibrated": 0.4593127389702051
+        }
+      }
+    },
+    {
+      "id": 145,
+      "space": "mit_w16",
+      "regions": {
+        "1-2m": {
+          "pixels": 83510,
+          "aligned": 0.10696863037145483,
+          "calibrated": 0.059045551319588746
+        },
+        "2-4m": {
+          "pixels": 117407,
+          "aligned": 0.15293119404233105,
+          "calibrated": 0.22550821895169912
+        },
+        "4-10m": {
+          "pixels": 37982,
+          "aligned": 0.19980228446108922,
+          "calibrated": 0.500639465924465
+        },
+        "boundary": {
+          "pixels": 28564,
+          "aligned": 0.23519607628845132,
+          "calibrated": 0.21394923552068137
+        },
+        "interior": {
+          "pixels": 210335,
+          "aligned": 0.1319746721494089,
+          "calibrated": 0.21066954945440028
+        }
+      }
+    },
+    {
+      "id": 146,
+      "space": "home_ts",
+      "regions": {
+        "1-2m": {
+          "pixels": 121093,
+          "aligned": 0.037467277042532825,
+          "calibrated": 0.12670048584238683
+        },
+        "2-4m": {
+          "pixels": 139538,
+          "aligned": 0.018787655877395223,
+          "calibrated": 0.13912672170430007
+        },
+        "boundary": {
+          "pixels": 15652,
+          "aligned": 0.04744516673403678,
+          "calibrated": 0.10806392809289053
+        },
+        "interior": {
+          "pixels": 244979,
+          "aligned": 0.02619002100184203,
+          "calibrated": 0.13496907825885832
+        }
+      }
+    },
+    {
+      "id": 147,
+      "space": "mit_dorm_next_sj",
+      "regions": {
+        "1-2m": {
+          "pixels": 93141,
+          "aligned": 0.043549751686381706,
+          "calibrated": 0.3046458997478978
+        },
+        "2-4m": {
+          "pixels": 167490,
+          "aligned": 0.028982440724641127,
+          "calibrated": 0.21064763271014386
+        },
+        "boundary": {
+          "pixels": 7928,
+          "aligned": 0.09978380522777537,
+          "calibrated": 0.24511898637376267
+        },
+        "interior": {
+          "pixels": 252703,
+          "aligned": 0.03213040767598967,
+          "calibrated": 0.24421195010375718
+        }
+      }
+    },
+    {
+      "id": 148,
+      "space": "brown_cs_10",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 54367,
+          "aligned": 0.2967360378019246,
+          "calibrated": 1.0492632836001339
+        },
+        "1-2m": {
+          "pixels": 6856,
+          "aligned": 0.13462281130042286,
+          "calibrated": 0.08539565514810614
+        },
+        "2-4m": {
+          "pixels": 38397,
+          "aligned": 0.12345951786559708,
+          "calibrated": 0.1740529431142021
+        },
+        "4-10m": {
+          "pixels": 145859,
+          "aligned": 0.05929518090058995,
+          "calibrated": 0.4655856808775015
+        },
+        "boundary": {
+          "pixels": 20025,
+          "aligned": 0.25637214979860234,
+          "calibrated": 0.44820992692413036
+        },
+        "interior": {
+          "pixels": 225454,
+          "aligned": 0.11226671853327244,
+          "calibrated": 0.5466673398937065
+        }
+      }
+    },
+    {
+      "id": 149,
+      "space": "mit_w85_playroom",
+      "regions": {
+        "2-4m": {
+          "pixels": 238412,
+          "aligned": 0.05113550580303894,
+          "calibrated": 0.1698967470156781
+        },
+        "4-10m": {
+          "pixels": 8665,
+          "aligned": 0.3617514018025543,
+          "calibrated": 0.43044911895700916
+        },
+        "boundary": {
+          "pixels": 7995,
+          "aligned": 0.11869782621483145,
+          "calibrated": 0.14411781148928282
+        },
+        "interior": {
+          "pixels": 239082,
+          "aligned": 0.060133782491135566,
+          "calibrated": 0.180201951474421
+        }
+      }
+    },
+    {
+      "id": 150,
+      "space": "brown_bm_1",
+      "regions": {
+        "1-2m": {
+          "pixels": 64094,
+          "aligned": 0.06860019895915177,
+          "calibrated": 0.1299491036679392
+        },
+        "2-4m": {
+          "pixels": 158582,
+          "aligned": 0.04977631885359331,
+          "calibrated": 0.17733712417719397
+        },
+        "4-10m": {
+          "pixels": 254,
+          "aligned": 0.0650956110531771,
+          "calibrated": 0.17213052644722038
+        },
+        "boundary": {
+          "pixels": 7773,
+          "aligned": 0.1707046803133461,
+          "calibrated": 0.23968903339065387
+        },
+        "interior": {
+          "pixels": 215157,
+          "aligned": 0.05103313465822759,
+          "calibrated": 0.16096177198014805
+        }
+      }
+    },
+    {
+      "id": 151,
+      "space": "mit_46_6conf",
+      "regions": {
+        "1-2m": {
+          "pixels": 8179,
+          "aligned": 0.08783999686376132,
+          "calibrated": 0.120289450698969
+        },
+        "2-4m": {
+          "pixels": 251134,
+          "aligned": 0.012680840106345478,
+          "calibrated": 0.054462017463264
+        },
+        "4-10m": {
+          "pixels": 383,
+          "aligned": 0.5836096313792736,
+          "calibrated": 0.5749834560668833
+        },
+        "boundary": {
+          "pixels": 5156,
+          "aligned": 0.13312416480319622,
+          "calibrated": 0.17378307266957113
+        },
+        "interior": {
+          "pixels": 254540,
+          "aligned": 0.013515234260660999,
+          "calibrated": 0.054943446420505686
+        }
+      }
+    },
+    {
+      "id": 152,
+      "space": "mit_gym_wrestling",
+      "regions": {
+        "2-4m": {
+          "pixels": 96328,
+          "aligned": 0.1651972888137506,
+          "calibrated": 0.28585786142269803
+        },
+        "4-10m": {
+          "pixels": 159182,
+          "aligned": 0.051005305598561264,
+          "calibrated": 0.41534306696201967
+        },
+        "boundary": {
+          "pixels": 15350,
+          "aligned": 0.2479437532110082,
+          "calibrated": 0.3800277505366023
+        },
+        "interior": {
+          "pixels": 240160,
+          "aligned": 0.08422016314478752,
+          "calibrated": 0.3656638498898111
+        }
+      }
+    },
+    {
+      "id": 153,
+      "space": "mit_36_ti_office",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 40336,
+          "aligned": 0.09186332985841833,
+          "calibrated": 1.2638410149088808
+        },
+        "1-2m": {
+          "pixels": 219891,
+          "aligned": 0.0631827076323617,
+          "calibrated": 1.002651174677049
+        },
+        "boundary": {
+          "pixels": 15856,
+          "aligned": 0.11613507172296605,
+          "calibrated": 1.0111867591383348
+        },
+        "interior": {
+          "pixels": 244371,
+          "aligned": 0.06448093407121736,
+          "calibrated": 1.045209469926375
+        }
+      }
+    },
+    {
+      "id": 154,
+      "space": "mit_46_5conf_2",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 12088,
+          "aligned": 0.1725299874234568,
+          "calibrated": 0.757139251076746
+        },
+        "1-2m": {
+          "pixels": 89753,
+          "aligned": 0.061686076270685966,
+          "calibrated": 0.36416611953541544
+        },
+        "2-4m": {
+          "pixels": 128728,
+          "aligned": 0.048559926276360084,
+          "calibrated": 0.08158717230917424
+        },
+        "4-10m": {
+          "pixels": 13669,
+          "aligned": 0.02740003997496831,
+          "calibrated": 0.18100592041427965
+        },
+        "boundary": {
+          "pixels": 14721,
+          "aligned": 0.15407724959117483,
+          "calibrated": 0.24404196047323098
+        },
+        "interior": {
+          "pixels": 229517,
+          "aligned": 0.05219410778455218,
+          "calibrated": 0.22317075744589546
+        }
+      }
+    },
+    {
+      "id": 155,
+      "space": "mit_w85j",
+      "regions": {
+        "1-2m": {
+          "pixels": 148355,
+          "aligned": 0.06347519412082686,
+          "calibrated": 0.294238960249499
+        },
+        "2-4m": {
+          "pixels": 112276,
+          "aligned": 0.05729118486238084,
+          "calibrated": 0.28902174735222463
+        },
+        "boundary": {
+          "pixels": 21579,
+          "aligned": 0.0852678741464986,
+          "calibrated": 0.25325524521160003
+        },
+        "interior": {
+          "pixels": 239052,
+          "aligned": 0.05860353412310563,
+          "calibrated": 0.29548814365540416
+        }
+      }
+    },
+    {
+      "id": 156,
+      "space": "mit_32_pool",
+      "regions": {
+        "2-4m": {
+          "pixels": 230848,
+          "aligned": 0.022947009884069888,
+          "calibrated": 0.26739025129306354
+        },
+        "4-10m": {
+          "pixels": 22848,
+          "aligned": 0.10345083863578203,
+          "calibrated": 0.2889994972554122
+        },
+        "boundary": {
+          "pixels": 4984,
+          "aligned": 0.13021782558515588,
+          "calibrated": 0.2728644086857119
+        },
+        "interior": {
+          "pixels": 248712,
+          "aligned": 0.028192891602141015,
+          "calibrated": 0.2692656929738139
+        }
+      }
+    },
+    {
+      "id": 157,
+      "space": "home_rz",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 24151,
+          "aligned": 0.38162306357359366,
+          "calibrated": 1.4167123733007578
+        },
+        "1-2m": {
+          "pixels": 161802,
+          "aligned": 0.06697237603967575,
+          "calibrated": 0.5093568080514251
+        },
+        "2-4m": {
+          "pixels": 54370,
+          "aligned": 0.04210715102116115,
+          "calibrated": 0.10663055523275296
+        },
+        "4-10m": {
+          "pixels": 13900,
+          "aligned": 0.045022852207323855,
+          "calibrated": 0.2107056725408035
+        },
+        "boundary": {
+          "pixels": 12424,
+          "aligned": 0.14858765081994432,
+          "calibrated": 0.37635307053364997
+        },
+        "interior": {
+          "pixels": 241799,
+          "aligned": 0.08735343599126887,
+          "calibrated": 0.499094174797808
+        }
+      }
+    },
+    {
+      "id": 158,
+      "space": "hotel_casarural",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 6617,
+          "aligned": 0.031614278440875575,
+          "calibrated": 0.7593337675770507
+        },
+        "1-2m": {
+          "pixels": 246979,
+          "aligned": 0.04599590439368347,
+          "calibrated": 0.8400480346543882
+        },
+        "2-4m": {
+          "pixels": 6227,
+          "aligned": 0.2623272796179078,
+          "calibrated": 0.3626818251038528
+        },
+        "boundary": {
+          "pixels": 6292,
+          "aligned": 0.09802395188602234,
+          "calibrated": 0.8385104211602977
+        },
+        "interior": {
+          "pixels": 253531,
+          "aligned": 0.049642684392065206,
+          "calibrated": 0.8262549638740216
+        }
+      }
+    },
+    {
+      "id": 159,
+      "space": "mit_dorm_mcc_nk",
+      "regions": {
+        "1-2m": {
+          "pixels": 22754,
+          "aligned": 0.32150708445389736,
+          "calibrated": 0.11053681546836831
+        },
+        "2-4m": {
+          "pixels": 213699,
+          "aligned": 0.08331329087898565,
+          "calibrated": 0.1431369380297543
+        },
+        "4-10m": {
+          "pixels": 20833,
+          "aligned": 0.05021656530246123,
+          "calibrated": 0.15430998625038195
+        },
+        "boundary": {
+          "pixels": 13814,
+          "aligned": 0.12839300661874883,
+          "calibrated": 0.19423478208096628
+        },
+        "interior": {
+          "pixels": 243472,
+          "aligned": 0.10018433273118516,
+          "calibrated": 0.13814712116003258
+        }
+      }
+    },
+    {
+      "id": 160,
+      "space": "harvard_c8",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 126,
+          "aligned": 0.4131989222706257,
+          "calibrated": 0.7693514790458235
+        },
+        "1-2m": {
+          "pixels": 103338,
+          "aligned": 0.04435583890113511,
+          "calibrated": 0.18568927310959019
+        },
+        "2-4m": {
+          "pixels": 149345,
+          "aligned": 0.03106574321774568,
+          "calibrated": 0.0716754571237973
+        },
+        "4-10m": {
+          "pixels": 4710,
+          "aligned": 0.025823908863259856,
+          "calibrated": 0.15782089653927997
+        },
+        "boundary": {
+          "pixels": 16468,
+          "aligned": 0.11672987359672887,
+          "calibrated": 0.158483247725786
+        },
+        "interior": {
+          "pixels": 241051,
+          "aligned": 0.03100814025986555,
+          "calibrated": 0.11667033878417381
+        }
+      }
+    },
+    {
+      "id": 161,
+      "space": "harvard_c3",
+      "regions": {
+        "1-2m": {
+          "pixels": 43521,
+          "aligned": 0.06834647261473287,
+          "calibrated": 0.1970070215525351
+        },
+        "2-4m": {
+          "pixels": 178683,
+          "aligned": 0.03948798997953428,
+          "calibrated": 0.05567253320731165
+        },
+        "boundary": {
+          "pixels": 7473,
+          "aligned": 0.13980393559507867,
+          "calibrated": 0.12753716220572142
+        },
+        "interior": {
+          "pixels": 214731,
+          "aligned": 0.041845772326664005,
+          "calibrated": 0.08181675036630291
+        }
+      }
+    },
+    {
+      "id": 162,
+      "space": "mit_w85_10",
+      "regions": {
+        "1-2m": {
+          "pixels": 64191,
+          "aligned": 0.02068604996425771,
+          "calibrated": 0.029429239811230717
+        },
+        "2-4m": {
+          "pixels": 196191,
+          "aligned": 0.026157880729623634,
+          "calibrated": 0.04391667607685753
+        },
+        "boundary": {
+          "pixels": 8252,
+          "aligned": 0.06415379442134583,
+          "calibrated": 0.07006750461513014
+        },
+        "interior": {
+          "pixels": 252130,
+          "aligned": 0.023521206916734667,
+          "calibrated": 0.039372355058237475
+        }
+      }
+    },
+    {
+      "id": 163,
+      "space": "brown_cs_7",
+      "regions": {
+        "1-2m": {
+          "pixels": 10674,
+          "aligned": 0.093160933261156,
+          "calibrated": 0.13693874920120322
+        },
+        "2-4m": {
+          "pixels": 140063,
+          "aligned": 0.035063117877843074,
+          "calibrated": 0.26769617214201885
+        },
+        "4-10m": {
+          "pixels": 109798,
+          "aligned": 0.029394041624724067,
+          "calibrated": 0.3406270434536389
+        },
+        "boundary": {
+          "pixels": 4963,
+          "aligned": 0.15724320991732071,
+          "calibrated": 0.23072729593465444
+        },
+        "interior": {
+          "pixels": 255572,
+          "aligned": 0.032681413505570654,
+          "calibrated": 0.2942852961791596
+        }
+      }
+    },
+    {
+      "id": 164,
+      "space": "mit_dorm_mcc_wph",
+      "regions": {
+        "1-2m": {
+          "pixels": 188550,
+          "aligned": 0.07729078920291,
+          "calibrated": 0.3180724816785593
+        },
+        "2-4m": {
+          "pixels": 71996,
+          "aligned": 0.08847975852470931,
+          "calibrated": 0.182720561492053
+        },
+        "boundary": {
+          "pixels": 28235,
+          "aligned": 0.16033245246640876,
+          "calibrated": 0.3190753902097931
+        },
+        "interior": {
+          "pixels": 232311,
+          "aligned": 0.07066553113526525,
+          "calibrated": 0.2760033847863454
+        }
+      }
+    },
+    {
+      "id": 165,
+      "space": "harvard_c5",
+      "regions": {
+        "1-2m": {
+          "pixels": 77511,
+          "aligned": 0.06094084568870845,
+          "calibrated": 0.11965974401257136
+        },
+        "2-4m": {
+          "pixels": 178642,
+          "aligned": 0.033772928803281484,
+          "calibrated": 0.03331298704176274
+        },
+        "boundary": {
+          "pixels": 10796,
+          "aligned": 0.11412402030862882,
+          "calibrated": 0.1208422257903889
+        },
+        "interior": {
+          "pixels": 245357,
+          "aligned": 0.038820031685264066,
+          "calibrated": 0.056739495427642006
+        }
+      }
+    },
+    {
+      "id": 166,
+      "space": "mit_32_144",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 4407,
+          "aligned": 0.050676435818250654,
+          "calibrated": 0.7208087347363743
+        },
+        "1-2m": {
+          "pixels": 190053,
+          "aligned": 0.05575814868292038,
+          "calibrated": 0.5740895946167747
+        },
+        "2-4m": {
+          "pixels": 54718,
+          "aligned": 0.023774660030795414,
+          "calibrated": 0.4931216658882562
+        },
+        "boundary": {
+          "pixels": 12033,
+          "aligned": 0.11577105393585978,
+          "calibrated": 0.5893671668504764
+        },
+        "interior": {
+          "pixels": 237145,
+          "aligned": 0.045238833792999894,
+          "calibrated": 0.5573587046534688
+        }
+      }
+    },
+    {
+      "id": 167,
+      "space": "mit_32_123",
+      "regions": {
+        "1-2m": {
+          "pixels": 98439,
+          "aligned": 0.04258977202457501,
+          "calibrated": 0.09298901994284124
+        },
+        "2-4m": {
+          "pixels": 161662,
+          "aligned": 0.03978388294632977,
+          "calibrated": 0.05315231100352341
+        },
+        "boundary": {
+          "pixels": 10653,
+          "aligned": 0.09692214079829857,
+          "calibrated": 0.10990983637202892
+        },
+        "interior": {
+          "pixels": 249448,
+          "aligned": 0.038451000157437326,
+          "calibrated": 0.06644906172321977
+        }
+      }
+    },
+    {
+      "id": 168,
+      "space": "Portland_hotel",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 43684,
+          "aligned": 0.12570370586510857,
+          "calibrated": 0.9775855975726625
+        },
+        "1-2m": {
+          "pixels": 134612,
+          "aligned": 0.10122499496577436,
+          "calibrated": 0.5474399717737725
+        },
+        "2-4m": {
+          "pixels": 81160,
+          "aligned": 0.08073884206028586,
+          "calibrated": 0.4374283853830774
+        },
+        "boundary": {
+          "pixels": 19013,
+          "aligned": 0.10794188608336555,
+          "calibrated": 0.5335372902519168
+        },
+        "interior": {
+          "pixels": 240443,
+          "aligned": 0.09822621182922352,
+          "calibrated": 0.5895550379212791
+        }
+      }
+    },
+    {
+      "id": 169,
+      "space": "brown_cogsci_4",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 44500,
+          "aligned": 0.16069433837879626,
+          "calibrated": 1.4250631406581893
+        },
+        "1-2m": {
+          "pixels": 101806,
+          "aligned": 0.09408740635044893,
+          "calibrated": 0.6828411323227369
+        },
+        "2-4m": {
+          "pixels": 113216,
+          "aligned": 0.03364316008067545,
+          "calibrated": 0.1730604427381537
+        },
+        "boundary": {
+          "pixels": 15119,
+          "aligned": 0.263783171891367,
+          "calibrated": 0.7588330634065921
+        },
+        "interior": {
+          "pixels": 244403,
+          "aligned": 0.06771752713607612,
+          "calibrated": 0.5771330469590656
+        }
+      }
+    },
+    {
+      "id": 170,
+      "space": "brown_cs_4",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 13700,
+          "aligned": 0.3849531310774271,
+          "calibrated": 1.0155262423465223
+        },
+        "1-2m": {
+          "pixels": 52316,
+          "aligned": 0.16912780668353097,
+          "calibrated": 0.1913721217562384
+        },
+        "2-4m": {
+          "pixels": 58912,
+          "aligned": 0.16041091544173705,
+          "calibrated": 0.2187953164890601
+        },
+        "4-10m": {
+          "pixels": 124850,
+          "aligned": 0.07256779731565742,
+          "calibrated": 0.5199142064216478
+        },
+        "boundary": {
+          "pixels": 28038,
+          "aligned": 0.23571746478635025,
+          "calibrated": 0.29253602650428545
+        },
+        "interior": {
+          "pixels": 221740,
+          "aligned": 0.11735870523090157,
+          "calibrated": 0.42177039184434834
+        }
+      }
+    },
+    {
+      "id": 171,
+      "space": "mit_dorm_next_552",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 15641,
+          "aligned": 1.416122916901503,
+          "calibrated": 2.5235273842912807
+        },
+        "1-2m": {
+          "pixels": 100645,
+          "aligned": 0.1188991724378345,
+          "calibrated": 0.3475785123745111
+        },
+        "2-4m": {
+          "pixels": 144170,
+          "aligned": 0.036117420405262037,
+          "calibrated": 0.30619799368323286
+        },
+        "boundary": {
+          "pixels": 3984,
+          "aligned": 0.4185713392552043,
+          "calibrated": 0.8316200124914988
+        },
+        "interior": {
+          "pixels": 256472,
+          "aligned": 0.14682166488932966,
+          "calibrated": 0.4494990557065807
+        }
+      }
+    },
+    {
+      "id": 172,
+      "space": "home_han",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 28200,
+          "aligned": 0.3799962318732922,
+          "calibrated": 1.1354413672950345
+        },
+        "1-2m": {
+          "pixels": 146042,
+          "aligned": 0.13127580277083845,
+          "calibrated": 0.6081219127823719
+        },
+        "2-4m": {
+          "pixels": 83113,
+          "aligned": 0.14079642663553013,
+          "calibrated": 0.2593350205970249
+        },
+        "boundary": {
+          "pixels": 27575,
+          "aligned": 0.22973463377588757,
+          "calibrated": 0.5941304862574688
+        },
+        "interior": {
+          "pixels": 229780,
+          "aligned": 0.15342830275774366,
+          "calibrated": 0.5483582137375489
+        }
+      }
+    },
+    {
+      "id": 173,
+      "space": "mit_46_4conf_2",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 9307,
+          "aligned": 0.17363156572972233,
+          "calibrated": 0.6807372727948019
+        },
+        "1-2m": {
+          "pixels": 83921,
+          "aligned": 0.18511856240848595,
+          "calibrated": 0.5657707185078159
+        },
+        "2-4m": {
+          "pixels": 22377,
+          "aligned": 0.16940175997843798,
+          "calibrated": 0.1668047519895927
+        },
+        "4-10m": {
+          "pixels": 142594,
+          "aligned": 0.043424975208329906,
+          "calibrated": 0.2888249178158343
+        },
+        "boundary": {
+          "pixels": 12049,
+          "aligned": 0.3589063029762311,
+          "calibrated": 0.44295992664247924
+        },
+        "interior": {
+          "pixels": 246150,
+          "aligned": 0.09266587816966308,
+          "calibrated": 0.379426091310106
+        }
+      }
+    },
+    {
+      "id": 174,
+      "space": "hotel_florence_ant",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 41833,
+          "aligned": 0.1170259168375861,
+          "calibrated": 1.1632348883293386
+        },
+        "1-2m": {
+          "pixels": 167664,
+          "aligned": 0.07326976263997036,
+          "calibrated": 0.5012467858383389
+        },
+        "2-4m": {
+          "pixels": 48194,
+          "aligned": 0.1286028715761919,
+          "calibrated": 0.14772972877784932
+        },
+        "boundary": {
+          "pixels": 9766,
+          "aligned": 0.12867242933801745,
+          "calibrated": 0.4434001374454096
+        },
+        "interior": {
+          "pixels": 247925,
+          "aligned": 0.08922665527947017,
+          "calibrated": 0.5465043339344894
+        }
+      }
+    },
+    {
+      "id": 175,
+      "space": "harvard_computer_lab",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 8209,
+          "aligned": 0.15312462583598363,
+          "calibrated": 0.7851712707069184
+        },
+        "1-2m": {
+          "pixels": 101155,
+          "aligned": 0.06469203923886534,
+          "calibrated": 0.2843195343163909
+        },
+        "2-4m": {
+          "pixels": 124682,
+          "aligned": 0.08521270102985155,
+          "calibrated": 0.12593788756784127
+        },
+        "4-10m": {
+          "pixels": 11032,
+          "aligned": 0.09841650676707656,
+          "calibrated": 0.3129680759400422
+        },
+        "boundary": {
+          "pixels": 14090,
+          "aligned": 0.14534339127930185,
+          "calibrated": 0.21620816153953418
+        },
+        "interior": {
+          "pixels": 230988,
+          "aligned": 0.07560243732154047,
+          "calibrated": 0.2221513324086953
+        }
+      }
+    },
+    {
+      "id": 176,
+      "space": "hotel_ucla_jx",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 12901,
+          "aligned": 0.09649495337486581,
+          "calibrated": 0.7486105276262403
+        },
+        "1-2m": {
+          "pixels": 168329,
+          "aligned": 0.06218932782668965,
+          "calibrated": 0.3149079393890193
+        },
+        "2-4m": {
+          "pixels": 62540,
+          "aligned": 0.06789639113184705,
+          "calibrated": 0.08293733501968102
+        },
+        "4-10m": {
+          "pixels": 15371,
+          "aligned": 0.03202307347638365,
+          "calibrated": 0.27010737838487175
+        },
+        "boundary": {
+          "pixels": 10667,
+          "aligned": 0.11833241452245812,
+          "calibrated": 0.18682359333305404
+        },
+        "interior": {
+          "pixels": 248474,
+          "aligned": 0.06113059658277378,
+          "calibrated": 0.2817672558155838
+        }
+      }
+    },
+    {
+      "id": 177,
+      "space": "mit_dorm_mcc_eflr6",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 840,
+          "aligned": 2.008779092977106,
+          "calibrated": 2.5143123880151053
+        },
+        "1-2m": {
+          "pixels": 156731,
+          "aligned": 0.034770956269258566,
+          "calibrated": 0.13802437317653524
+        },
+        "2-4m": {
+          "pixels": 97658,
+          "aligned": 0.03336693788592291,
+          "calibrated": 0.164466128368982
+        },
+        "boundary": {
+          "pixels": 8166,
+          "aligned": 0.10961479194391004,
+          "calibrated": 0.19694945969722927
+        },
+        "interior": {
+          "pixels": 247063,
+          "aligned": 0.038453735339518354,
+          "calibrated": 0.15460778957041202
+        }
+      }
+    },
+    {
+      "id": 178,
+      "space": "mit_32_g9_lounge",
+      "regions": {
+        "1-2m": {
+          "pixels": 38929,
+          "aligned": 0.08007221205549282,
+          "calibrated": 0.08217952974057091
+        },
+        "2-4m": {
+          "pixels": 174070,
+          "aligned": 0.06947116805012203,
+          "calibrated": 0.1958631433258785
+        },
+        "4-10m": {
+          "pixels": 16855,
+          "aligned": 0.08258555593359117,
+          "calibrated": 0.36559087023606635
+        },
+        "boundary": {
+          "pixels": 16826,
+          "aligned": 0.14579026550498994,
+          "calibrated": 0.2147176314913128
+        },
+        "interior": {
+          "pixels": 213028,
+          "aligned": 0.06641798215946608,
+          "calibrated": 0.18702827573071343
+        }
+      }
+    },
+    {
+      "id": 179,
+      "space": "mit_46_ted_lab2",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 12276,
+          "aligned": 0.027333721268641854,
+          "calibrated": 0.8565177609261252
+        },
+        "1-2m": {
+          "pixels": 130597,
+          "aligned": 0.05607902115448144,
+          "calibrated": 0.5778833820646828
+        },
+        "2-4m": {
+          "pixels": 117744,
+          "aligned": 0.048431002601113445,
+          "calibrated": 0.3602183802279742
+        },
+        "boundary": {
+          "pixels": 24235,
+          "aligned": 0.0781664396158178,
+          "calibrated": 0.4484679614388127
+        },
+        "interior": {
+          "pixels": 236382,
+          "aligned": 0.04851214133978821,
+          "calibrated": 0.49720105590410213
+        }
+      }
+    },
+    {
+      "id": 180,
+      "space": "hotel_grenoble",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 123123,
+          "aligned": 0.14504946343610736,
+          "calibrated": 1.361585798302292
+        },
+        "1-2m": {
+          "pixels": 130649,
+          "aligned": 0.08943632109447683,
+          "calibrated": 1.4275500251800384
+        },
+        "2-4m": {
+          "pixels": 5420,
+          "aligned": 0.5606337583710033,
+          "calibrated": 0.13884598895809191
+        },
+        "boundary": {
+          "pixels": 8239,
+          "aligned": 0.26072830586961,
+          "calibrated": 0.8692877773671538
+        },
+        "interior": {
+          "pixels": 250953,
+          "aligned": 0.12127444365927988,
+          "calibrated": 1.3856817601166145
+        }
+      }
+    },
+    {
+      "id": 181,
+      "space": "brown_bm_6",
+      "regions": {
+        "1-2m": {
+          "pixels": 69342,
+          "aligned": 0.06573214557850553,
+          "calibrated": 0.37011458230787586
+        },
+        "2-4m": {
+          "pixels": 178558,
+          "aligned": 0.017333244644457724,
+          "calibrated": 0.1841859780328676
+        },
+        "boundary": {
+          "pixels": 6486,
+          "aligned": 0.10443505097573202,
+          "calibrated": 0.20148260324331455
+        },
+        "interior": {
+          "pixels": 241414,
+          "aligned": 0.028894853634425566,
+          "calibrated": 0.2371260534490517
+        }
+      }
+    },
+    {
+      "id": 182,
+      "space": "mit_w85_basement_bathroom",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 2560,
+          "aligned": 0.04109576856672424,
+          "calibrated": 0.7260626662042942
+        },
+        "1-2m": {
+          "pixels": 257834,
+          "aligned": 0.023245155378000485,
+          "calibrated": 0.8614661945955294
+        },
+        "boundary": {
+          "pixels": 1304,
+          "aligned": 0.05397070887604555,
+          "calibrated": 0.7652091533958885
+        },
+        "interior": {
+          "pixels": 259090,
+          "aligned": 0.02326689086760518,
+          "calibrated": 0.8606127697201688
+        }
+      }
+    },
+    {
+      "id": 183,
+      "space": "mit_5_234",
+      "regions": {
+        "1-2m": {
+          "pixels": 16060,
+          "aligned": 0.06405601671279118,
+          "calibrated": 0.10255588229653893
+        },
+        "2-4m": {
+          "pixels": 242624,
+          "aligned": 0.027231306813802314,
+          "calibrated": 0.117151421310046
+        },
+        "4-10m": {
+          "pixels": 1694,
+          "aligned": 0.5536614486601862,
+          "calibrated": 0.5020585266432859
+        },
+        "boundary": {
+          "pixels": 17757,
+          "aligned": 0.0997937114902291,
+          "calibrated": 0.1459940088616528
+        },
+        "interior": {
+          "pixels": 242621,
+          "aligned": 0.028033738925722654,
+          "calibrated": 0.1167618031513693
+        }
+      }
+    },
+    {
+      "id": 184,
+      "space": "mit_32_g531",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 3271,
+          "aligned": 0.14536949114438927,
+          "calibrated": 0.7122107582723274
+        },
+        "1-2m": {
+          "pixels": 125170,
+          "aligned": 0.058972334225675854,
+          "calibrated": 0.2977241855838021
+        },
+        "2-4m": {
+          "pixels": 131706,
+          "aligned": 0.034526857330505194,
+          "calibrated": 0.07362672009613307
+        },
+        "boundary": {
+          "pixels": 19919,
+          "aligned": 0.14695349784571,
+          "calibrated": 0.2157123108965294
+        },
+        "interior": {
+          "pixels": 240228,
+          "aligned": 0.03945126391821089,
+          "calibrated": 0.18730574694068394
+        }
+      }
+    },
+    {
+      "id": 185,
+      "space": "mit_76_459",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 12840,
+          "aligned": 0.2583033784867365,
+          "calibrated": 0.8031218367662564
+        },
+        "1-2m": {
+          "pixels": 135597,
+          "aligned": 0.08311921310339004,
+          "calibrated": 0.23796066148143644
+        },
+        "2-4m": {
+          "pixels": 94341,
+          "aligned": 0.09282942570862647,
+          "calibrated": 0.1256999578992194
+        },
+        "4-10m": {
+          "pixels": 11865,
+          "aligned": 0.056455345815613005,
+          "calibrated": 0.36002363280053873
+        },
+        "boundary": {
+          "pixels": 19148,
+          "aligned": 0.2023098986645269,
+          "calibrated": 0.2823515583997561
+        },
+        "interior": {
+          "pixels": 235495,
+          "aligned": 0.0855260829665237,
+          "calibrated": 0.2263432713649427
+        }
+      }
+    },
+    {
+      "id": 186,
+      "space": "mit_w85g",
+      "regions": {
+        "1-2m": {
+          "pixels": 224596,
+          "aligned": 0.029828907199369162,
+          "calibrated": 0.45102401632630107
+        },
+        "2-4m": {
+          "pixels": 30909,
+          "aligned": 0.04133398650685185,
+          "calibrated": 0.4899874371623402
+        },
+        "boundary": {
+          "pixels": 11698,
+          "aligned": 0.06333394958652538,
+          "calibrated": 0.4665783370198863
+        },
+        "interior": {
+          "pixels": 243807,
+          "aligned": 0.029679889781780776,
+          "calibrated": 0.4552173574984067
+        }
+      }
+    },
+    {
+      "id": 187,
+      "space": "mit_1_242",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 3199,
+          "aligned": 0.3045165706526498,
+          "calibrated": 0.8048746547070574
+        },
+        "1-2m": {
+          "pixels": 63274,
+          "aligned": 0.10096841996334055,
+          "calibrated": 0.27588312882498
+        },
+        "2-4m": {
+          "pixels": 148338,
+          "aligned": 0.08158929224488283,
+          "calibrated": 0.11928191710333806
+        },
+        "4-10m": {
+          "pixels": 41614,
+          "aligned": 0.05440191496356157,
+          "calibrated": 0.3845352484844012
+        },
+        "boundary": {
+          "pixels": 23303,
+          "aligned": 0.17119819759987315,
+          "calibrated": 0.21525611985803714
+        },
+        "interior": {
+          "pixels": 233122,
+          "aligned": 0.07609777900808792,
+          "calibrated": 0.20895068076943685
+        }
+      }
+    },
+    {
+      "id": 188,
+      "space": "mit_46_ted_lab1",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 73774,
+          "aligned": 0.05529281289207459,
+          "calibrated": 1.0406248685888024
+        },
+        "1-2m": {
+          "pixels": 181273,
+          "aligned": 0.061807238232767375,
+          "calibrated": 0.8597797105237265
+        },
+        "2-4m": {
+          "pixels": 5080,
+          "aligned": 0.09827256666073286,
+          "calibrated": 0.6238548930420105
+        },
+        "boundary": {
+          "pixels": 12250,
+          "aligned": 0.14827786681414168,
+          "calibrated": 0.896670086291318
+        },
+        "interior": {
+          "pixels": 247877,
+          "aligned": 0.05634236433647187,
+          "calibrated": 0.9069453027938154
+        }
+      }
+    },
+    {
+      "id": 189,
+      "space": "mit_w85d",
+      "regions": {
+        "1-2m": {
+          "pixels": 100263,
+          "aligned": 0.09560642413896454,
+          "calibrated": 0.2690038782242556
+        },
+        "2-4m": {
+          "pixels": 157206,
+          "aligned": 0.02944904915721058,
+          "calibrated": 0.17736297402835927
+        },
+        "boundary": {
+          "pixels": 10318,
+          "aligned": 0.11282642610429552,
+          "calibrated": 0.23107264144137576
+        },
+        "interior": {
+          "pixels": 247151,
+          "aligned": 0.05280662858215959,
+          "calibrated": 0.2122971463724956
+        }
+      }
+    },
+    {
+      "id": 190,
+      "space": "hotel_uc",
+      "regions": {
+        "1-2m": {
+          "pixels": 9122,
+          "aligned": 0.0925912481747034,
+          "calibrated": 0.12799329137015494
+        },
+        "2-4m": {
+          "pixels": 214403,
+          "aligned": 0.04481559396057845,
+          "calibrated": 0.046890896207397684
+        },
+        "boundary": {
+          "pixels": 16267,
+          "aligned": 0.0949656762335129,
+          "calibrated": 0.09617386735477543
+        },
+        "interior": {
+          "pixels": 207258,
+          "aligned": 0.04298221782748551,
+          "calibrated": 0.04659237917558361
+        }
+      }
+    },
+    {
+      "id": 191,
+      "space": "hotel_pedraza",
+      "regions": {
+        "1-2m": {
+          "pixels": 41575,
+          "aligned": 0.0256145861659108,
+          "calibrated": 0.015223413972405977
+        },
+        "2-4m": {
+          "pixels": 164396,
+          "aligned": 0.031896525464783866,
+          "calibrated": 0.17161795908868088
+        },
+        "4-10m": {
+          "pixels": 53520,
+          "aligned": 0.04458259791514581,
+          "calibrated": 0.23844881480886887
+        },
+        "boundary": {
+          "pixels": 1067,
+          "aligned": 0.19513990452720534,
+          "calibrated": 0.33925217355120324
+        },
+        "interior": {
+          "pixels": 258424,
+          "aligned": 0.032839186694906146,
+          "calibrated": 0.1596059883665491
+        }
+      }
+    },
+    {
+      "id": 192,
+      "space": "mit_dorm_next_jc",
+      "regions": {
+        "1-2m": {
+          "pixels": 18304,
+          "aligned": 0.17399370494570965,
+          "calibrated": 0.0989346471056849
+        },
+        "2-4m": {
+          "pixels": 198320,
+          "aligned": 0.0726412775621055,
+          "calibrated": 0.1814374351910564
+        },
+        "4-10m": {
+          "pixels": 43250,
+          "aligned": 0.0937312077089423,
+          "calibrated": 0.2433247173060145
+        },
+        "boundary": {
+          "pixels": 17623,
+          "aligned": 0.11588029427502361,
+          "calibrated": 0.24715272339126854
+        },
+        "interior": {
+          "pixels": 242251,
+          "aligned": 0.08091902716127508,
+          "calibrated": 0.18147208270295506
+        }
+      }
+    },
+    {
+      "id": 193,
+      "space": "hotel_sf",
+      "regions": {
+        "1-2m": {
+          "pixels": 25815,
+          "aligned": 0.09816129070711661,
+          "calibrated": 0.15938346484645735
+        },
+        "2-4m": {
+          "pixels": 216367,
+          "aligned": 0.027345349190408895,
+          "calibrated": 0.08984232308313457
+        },
+        "boundary": {
+          "pixels": 14529,
+          "aligned": 0.08267877419482082,
+          "calibrated": 0.11804949097916742
+        },
+        "interior": {
+          "pixels": 227653,
+          "aligned": 0.0318441882057731,
+          "calibrated": 0.0959278244042624
+        }
+      }
+    },
+    {
+      "id": 194,
+      "space": "mit_46_5lounge",
+      "regions": {
+        "1-2m": {
+          "pixels": 46070,
+          "aligned": 0.10978665740956767,
+          "calibrated": 0.1522294018424145
+        },
+        "2-4m": {
+          "pixels": 207080,
+          "aligned": 0.03239152261334632,
+          "calibrated": 0.1041699371591144
+        },
+        "4-10m": {
+          "pixels": 6049,
+          "aligned": 0.015028373516523646,
+          "calibrated": 0.15122560370885188
+        },
+        "boundary": {
+          "pixels": 8529,
+          "aligned": 0.16083837201140452,
+          "calibrated": 0.19819624761611784
+        },
+        "interior": {
+          "pixels": 250670,
+          "aligned": 0.041826401109613116,
+          "calibrated": 0.11093895165239728
+        }
+      }
+    },
+    {
+      "id": 195,
+      "space": "brown_bm_5",
+      "regions": {
+        "1-2m": {
+          "pixels": 29391,
+          "aligned": 0.05758399932474344,
+          "calibrated": 0.09652697501914
+        },
+        "2-4m": {
+          "pixels": 112310,
+          "aligned": 0.03946922074237943,
+          "calibrated": 0.33172152349787765
+        },
+        "4-10m": {
+          "pixels": 100848,
+          "aligned": 0.047215323724209404,
+          "calibrated": 0.562652707141034
+        },
+        "boundary": {
+          "pixels": 15249,
+          "aligned": 0.10737501075089724,
+          "calibrated": 0.4118461327209954
+        },
+        "interior": {
+          "pixels": 227300,
+          "aligned": 0.04069269218534449,
+          "calibrated": 0.3983934322865407
+        }
+      }
+    },
+    {
+      "id": 196,
+      "space": "mit_ne47_2conf",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 49886,
+          "aligned": 0.10398761293447205,
+          "calibrated": 1.0105013574453092
+        },
+        "1-2m": {
+          "pixels": 155253,
+          "aligned": 0.11875667168212407,
+          "calibrated": 0.7655678458723303
+        },
+        "2-4m": {
+          "pixels": 55104,
+          "aligned": 0.125837795729419,
+          "calibrated": 0.4103558794869708
+        },
+        "boundary": {
+          "pixels": 17214,
+          "aligned": 0.1960355693974973,
+          "calibrated": 0.7334359460948614
+        },
+        "interior": {
+          "pixels": 243029,
+          "aligned": 0.11185687803422334,
+          "calibrated": 0.737580533598487
+        }
+      }
+    },
+    {
+      "id": 197,
+      "space": "mit_32_d530",
+      "regions": {
+        "0.1-1m": {
+          "pixels": 3570,
+          "aligned": 0.9708781654654459,
+          "calibrated": 1.4505297469612097
+        },
+        "1-2m": {
+          "pixels": 99974,
+          "aligned": 0.03158123824963603,
+          "calibrated": 0.23280726020358333
+        },
+        "2-4m": {
+          "pixels": 149052,
+          "aligned": 0.031288288447447014,
+          "calibrated": 0.24642800493311218
+        },
+        "boundary": {
+          "pixels": 6020,
+          "aligned": 0.16149735771387355,
+          "calibrated": 0.36498861487498657
+        },
+        "interior": {
+          "pixels": 246576,
+          "aligned": 0.04183175020972077,
+          "calibrated": 0.25544424338941085
+        }
+      }
+    },
+    {
+      "id": 198,
+      "space": "mit_w85_16",
+      "regions": {
+        "1-2m": {
+          "pixels": 119116,
+          "aligned": 0.08209693138535594,
+          "calibrated": 0.19985557865633774
+        },
+        "2-4m": {
+          "pixels": 141374,
+          "aligned": 0.05389654028184446,
+          "calibrated": 0.2233159197342601
+        },
+        "boundary": {
+          "pixels": 8825,
+          "aligned": 0.08455850150132198,
+          "calibrated": 0.1829922389589453
+        },
+        "interior": {
+          "pixels": 251665,
+          "aligned": 0.06616891021379362,
+          "calibrated": 0.2136258734227124
+        }
+      }
+    },
+    {
+      "id": 199,
+      "space": "brown_cogsci_7",
+      "regions": {
+        "1-2m": {
+          "pixels": 50173,
+          "aligned": 0.03435884709446346,
+          "calibrated": 0.054149019208937006
+        },
+        "2-4m": {
+          "pixels": 82442,
+          "aligned": 0.09264304693335744,
+          "calibrated": 0.14548154844609532
+        },
+        "4-10m": {
+          "pixels": 68621,
+          "aligned": 0.053451901031064245,
+          "calibrated": 0.29727926321199744
+        },
+        "boundary": {
+          "pixels": 3950,
+          "aligned": 0.3131966220769945,
+          "calibrated": 0.2953503561104652
+        },
+        "interior": {
+          "pixels": 197286,
+          "aligned": 0.05977292232595776,
+          "calibrated": 0.17205262903600418
+        }
+      }
+    },
+    {
+      "id": 200,
+      "space": "mit_dorm3",
+      "regions": {
+        "2-4m": {
+          "pixels": 215711,
+          "aligned": 0.03157928638271812,
+          "calibrated": 0.29166036073082635
+        },
+        "4-10m": {
+          "pixels": 33041,
+          "aligned": 0.03497701122884159,
+          "calibrated": 0.3463396789085569
+        },
+        "boundary": {
+          "pixels": 7022,
+          "aligned": 0.0683341093575099,
+          "calibrated": 0.303572097252581
+        },
+        "interior": {
+          "pixels": 241730,
+          "aligned": 0.030976017693319945,
+          "calibrated": 0.29878821055523636
+        }
+      }
+    }
+  ]
+}

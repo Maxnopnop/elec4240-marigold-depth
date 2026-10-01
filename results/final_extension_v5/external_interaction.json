@@ -1,0 +1,11 @@
+{
+  "interpretation": "post-hoc exploratory difference of paired differences; separate single diagnostic, not original confirmation",
+  "crossed": {
+    "difference": -0.012883447733073126,
+    "ci_low": -0.01799839718962039,
+    "ci_high": -0.008077933406315019,
+    "bonferroni_ci_low": -0.01799839718962039,
+    "bonferroni_ci_high": -0.008077933406315019,
+    "p_bootstrap": 4.999750012499375e-05
+  }
+}

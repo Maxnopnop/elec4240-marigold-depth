@@ -1,0 +1,18 @@
+{
+  "rule": "three largest scene-mean mixed512-minus-base512 aligned errors; post-hoc error-selected",
+  "indices": [
+    124,
+    195,
+    57
+  ],
+  "ids": [
+    125,
+    196,
+    58
+  ],
+  "differences": [
+    0.04373510537722827,
+    0.04223784508573619,
+    0.037115507872981054
+  ]
+}

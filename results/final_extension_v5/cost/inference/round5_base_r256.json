@@ -1,0 +1,64 @@
+{
+  "round": 5,
+  "condition": "base_r256",
+  "before_telemetry": "49, 15.71, 1590, 3126, 37",
+  "after_telemetry": "59, 37.09, 2392, 3126, 72",
+  "records": [
+    {
+      "id": 1241,
+      "seconds": 0.06868529999337625,
+      "peak_mib": 2602.22216796875,
+      "reference_sha256": "37f03d8665130c6efdbcd04973bdcd07d4c48b43297c6c6a36a1a926f21ca7d9",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 969,
+      "seconds": 0.06692450000264216,
+      "peak_mib": 2602.22216796875,
+      "reference_sha256": "4dcd2bd339da5c46473a6ce6559002cda63682a8c892ba144c913d3025ef1e2a",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 1301,
+      "seconds": 0.0659317999961786,
+      "peak_mib": 2602.22216796875,
+      "reference_sha256": "78577f582a6eeb7f4f5ada1a7e49a9f469903bac2281cc58d60dc187e54146de",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 294,
+      "seconds": 0.06677859999763314,
+      "peak_mib": 2602.22216796875,
+      "reference_sha256": "f9eb72e34332531d030916d8edd6ad350087d2c638a0e1d3f64b9cb03a180d1c",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 599,
+      "seconds": 0.06732500001089647,
+      "peak_mib": 2602.22216796875,
+      "reference_sha256": "1c594e10730f8800ca2c92c824b9fae68a54a7a4584ff150eddf1b1667b2ffb2",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 654,
+      "seconds": 0.06606660000397824,
+      "peak_mib": 2602.22216796875,
+      "reference_sha256": "762cb58921f6d6b075fc253d6197094c32a06fa4955f64a8714dabedc67d9367",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 367,
+      "seconds": 0.06593329999304842,
+      "peak_mib": 2602.22216796875,
+      "reference_sha256": "f9728e37d346b2fd535bc4bc392faa31609bfb5c07e3f5274ad551992dd34852",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 407,
+      "seconds": 0.06658149999566376,
+      "peak_mib": 2602.22216796875,
+      "reference_sha256": "c1429dd50cb39724a3bee561fc27c3edd8d25dd96ac531cf14b4bb4be8669dc0",
+      "exact_prediction_match": true
+    }
+  ]
+}

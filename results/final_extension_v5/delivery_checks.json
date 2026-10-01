@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "historical_result_blobs_unchanged": 939,
+  "control_raw_prediction_hashes_verified": 7890,
+  "control_checkpoint_restorations": 30,
+  "timing_records_and_reference_hashes_verified": 320,
+  "budget_metrics_independently_recomputed": 576,
+  "all_comparison_image_orders_match": true,
+  "no_weights_or_raw_arrays_tracked": true
+}

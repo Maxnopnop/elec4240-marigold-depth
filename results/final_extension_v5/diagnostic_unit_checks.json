@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks": [
+    "constant valid depth: no boundary and full interior",
+    "one step: exactly the expected six boundary columns after dilation",
+    "invalid and NaN depth excluded from every region",
+    "boundary and interior partition valid pixels",
+    "known Holm example [0.01,0.04,0.03] -> [0.03,0.06,0.06]"
+  ],
+  "scope": "small synthetic CPU checks; full saved-prediction audits are separate"
+}

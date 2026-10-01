@@ -1,0 +1,64 @@
+{
+  "round": 1,
+  "condition": "high512_r512",
+  "before_telemetry": "54, 31.89, 2722, 3649, 87",
+  "after_telemetry": "61, 85.80, 2640, 3649, 70",
+  "records": [
+    {
+      "id": 1241,
+      "seconds": 0.195622999992338,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "9454b8e41b44d7036aa94453f28d2edeeeb632d25d2475b10ba629f7bf79e873",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 969,
+      "seconds": 0.19412759999977425,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "b0796e1497658a7a4954d1d48a4dd01bd7ec7d3eb71cf4683d9f3833e97ddedb",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 1301,
+      "seconds": 0.1931468999973731,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "3b6ec1f5a99c302225087cc4b1d27ab20a873191f25c4f7c788520bddb7001ec",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 294,
+      "seconds": 0.19420919999538455,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "2a0e802ad1a2923ad41ee50606b5b028027ff09f601e190282936ea6f67f0e7f",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 599,
+      "seconds": 0.19457520000287332,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "323327b96bbc217933de83786aa488166c19387e6d3cf225ebc5b8ad3fc8fcc3",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 654,
+      "seconds": 0.19329310000466648,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "ec25212ebcba683ebf54c0934753d96c35c906184cd62bf9f7178d47220ab8d4",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 367,
+      "seconds": 0.19390330000896938,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "c24858e2f8e88cecdd2adab9dcc3267a6416beba5568de2273134618a900aee2",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 407,
+      "seconds": 0.193851200005156,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "7a2fbd87e347ef46a3f84990525f251ff8ed6ac4eab24da8cfce34bea54729dc",
+      "exact_prediction_match": true
+    }
+  ]
+}

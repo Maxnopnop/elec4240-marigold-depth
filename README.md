@@ -4,6 +4,14 @@ A local course-project study that measures the accuracy and compute cost of adap
 
 **Provenance correction (2026-10-01):** the fixed Depth Anything V2 indoor reference is metric-fine-tuned on **Hypersim**, not NYUv2. Earlier NYUv2-supervision wording and the overlap inference derived from it are withdrawn; measured results are unchanged. See [the correction and pinned primary sources](CORRECTIONS.md).
 
+## Completed final report and matched controls
+
+The [final findings](FINAL_FINDINGS.md) integrate **24 additional trainings**, **7,890 matched-control predictions**, **576 fixed-time validation predictions**, and **320 controlled timing matches**. All **939 historical result blobs** remain unchanged. The [independent audit](results/final_extension_v5/delivery_checks.json) passed.
+
+The added low-only control reaches **0.09277 aligned AbsRel** at external 256 inference, versus mixed **0.09632** (crossed Holm8 p=**0.01560**, location p=**0.03660**, favoring low-only). The mixed-versus-low difference at 512 remains unconfirmed. In the separate 120-second validation diagnostic, low-only has the best mean at 256 and high-only at 512. These findings qualify the benefit of mixing; the extension is exploratory and does not replace the original frozen six-test conclusions.
+
+Deliverables: [eight-page English PDF](reports/final/final_report.pdf), [Overleaf source](reports/final/overleaf_source.zip), [code supplement below 10 MB](reports/final/supplementary_code.zip), [complete extension tables and figures](results/final_extension_v5/RESULTS.md), and [reproduction instructions](FINAL_REPRODUCE.md). The PDF lists all three team members. No Canvas submission was made.
+
 ## Prospective external validation: prospective_v4
 
 The [sample-size study](results/prospective_v4/power/RESULTS.md) explores 480 planning scenarios using only earlier NYUv2 results. Under a hypothetical 0.009 AbsRel gain and fresh31-like error variation, 200 new groups yield approximately **84.3%** estimated power; inflating the error SD by 1.5 lowers it to **38.5%**. These are conditional planning approximations with uncertainty in the pilot distribution, not guarantees of significance.

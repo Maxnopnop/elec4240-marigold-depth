@@ -1,0 +1,64 @@
+{
+  "round": 4,
+  "condition": "mixed_r512",
+  "before_telemetry": "59, 55.70, 2745, 3648, 96",
+  "after_telemetry": "63, 89.08, 2700, 3648, 96",
+  "records": [
+    {
+      "id": 1241,
+      "seconds": 0.1936268999997992,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "9aaa7d62e67ff33bc476e536e84913d79eaf9e61823c8c18c6a6bc52ecc01574",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 969,
+      "seconds": 0.19367100000090431,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "eebff7bc3a607ac90608e8a20644360e0b13582359962f89b4cbe5cca0a3de51",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 1301,
+      "seconds": 0.1935251000104472,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "88d0c41d022195dc9806e8a1fb39f1bcfecc481ade70f0f718f0457b8936ed8b",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 294,
+      "seconds": 0.19337259999883827,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "8a64cc4eb3a434b7cc74be7ed5e93c3e071b8688e129556d7f67ad2615efa55d",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 599,
+      "seconds": 0.19353319999936502,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "f2dfa78a7371a64a573781b9f115bd9367cf7c21c954f22f8f731a1e0073b2d9",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 654,
+      "seconds": 0.1933497999998508,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "eec9377bdcf37ba8465bffea75886452e64162eb56278c2816cd0e2cd0288fcc",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 367,
+      "seconds": 0.1939888999913819,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "2cbe544e2a451db97b0ec2e078573486b9fd05f81ca9bdc47b9e05f789109401",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 407,
+      "seconds": 0.19548950000898913,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "77a8bebcf9fcb1a3151f2d8de132ba167b2bc4f8d7d5a815f444ba55fdf298aa",
+      "exact_prediction_match": true
+    }
+  ]
+}

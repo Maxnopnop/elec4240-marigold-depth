@@ -1,0 +1,17 @@
+{
+  "overleaf": {
+    "file": "overleaf_source.zip",
+    "bytes": 1302002,
+    "uncompressed_bytes": 1358565,
+    "entries": 5,
+    "sha256": "dcdf579a58a39f81a7dd13d9e4d2f9fcfa1f756bee5a909464d1b505d22e234c"
+  },
+  "supplement": {
+    "file": "supplementary_code.zip",
+    "bytes": 3294804,
+    "uncompressed_bytes": 6769148,
+    "entries": 217,
+    "sha256": "ea34e254e60160a59b1cb0dea83008c4551ca33416a59990d42f7aa39f0bdbbb"
+  },
+  "pdf_sha256": "aeb80a6c6fc44a5c8afd709eb45e3e0f4dc63b90e0b1e6b1730e2418ab4180d4"
+}

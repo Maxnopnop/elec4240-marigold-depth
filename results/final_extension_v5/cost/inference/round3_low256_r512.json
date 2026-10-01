@@ -1,0 +1,64 @@
+{
+  "round": 3,
+  "condition": "low256_r512",
+  "before_telemetry": "58, 37.43, 2715, 3648, 81",
+  "after_telemetry": "61, 88.30, 2707, 3648, 96",
+  "records": [
+    {
+      "id": 1241,
+      "seconds": 0.1943559999926947,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "e6374e1694998033de953c4d85c01d4c47523e7e10ffe2cb7722ff0a86487e78",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 969,
+      "seconds": 0.1934802000032505,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "6876c14a4219fae0274e137264ec31f73da74c042482fe4d302ef7b5ca6ff108",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 1301,
+      "seconds": 0.19335479999426752,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "a300c040611ce1a0b2663f77c41fbc1a858f3a035162b49a084d0bb7bc236f85",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 294,
+      "seconds": 0.19405879999976605,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "2bd15465c19288cf1d2aab02812b97ca14c7df41263642b49c3839e50654812e",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 599,
+      "seconds": 0.19616720000340138,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "e83cb6e049bdbb40bd7c0af8fdaa9510bdf343d133190598585424413726c040",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 654,
+      "seconds": 0.19454830000177026,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "e6ea5d15a844565efed55d3e927a4250dece7091c5f530c625689f67db7fd13a",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 367,
+      "seconds": 0.19305040000472218,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "20af9eadbc69b05b5e70e88299e18388964cd223e47ac7ea57b3bab828e36aed",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 407,
+      "seconds": 0.19375449999643024,
+      "peak_mib": 2946.732421875,
+      "reference_sha256": "847678fcc77f8996c9a48990953031ffe5bcd77eb466d1da5668439561b678ea",
+      "exact_prediction_match": true
+    }
+  ]
+}

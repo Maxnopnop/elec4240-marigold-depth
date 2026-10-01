@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "exact_timing_prediction_matches": 320,
+  "budget_runs": 9,
+  "budget_metrics_recomputed": 576,
+  "finished_utc": "2026-10-01T23:44:50.177610+00:00"
+}

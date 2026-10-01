@@ -1,0 +1,64 @@
+{
+  "round": 1,
+  "condition": "base_r512",
+  "before_telemetry": "59, 48.32, 2745, 3647, 93",
+  "after_telemetry": "60, 86.34, 2670, 3646, 84",
+  "records": [
+    {
+      "id": 1241,
+      "seconds": 0.18820969999069348,
+      "peak_mib": 2945.1494140625,
+      "reference_sha256": "53e09449b48a482ad01dc145fbc4f7b3170e70c15641f813b21a516b50d19b6f",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 969,
+      "seconds": 0.18813419999787584,
+      "peak_mib": 2945.1494140625,
+      "reference_sha256": "3a5a790c6c40e39ded0aa25fa8cc0e2904e3526d77a061cc5055713748ad564f",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 1301,
+      "seconds": 0.1916588000021875,
+      "peak_mib": 2945.1494140625,
+      "reference_sha256": "824f0bc8100f38e33ef6acd3cc6f5d9f2ed8b46d846f149ca4b8dbd78f682378",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 294,
+      "seconds": 0.19105039999703877,
+      "peak_mib": 2945.1494140625,
+      "reference_sha256": "1cb5626dd547c449d37e0f40ad2436b1346b0c3e9db952c8fab510f0d360c50b",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 599,
+      "seconds": 0.18814639998890925,
+      "peak_mib": 2945.1494140625,
+      "reference_sha256": "8ea363efe9f93aa6cb9d7263a9728dc7ad1b2d31e9091e301274cd2739a8e310",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 654,
+      "seconds": 0.1887120000028517,
+      "peak_mib": 2945.1494140625,
+      "reference_sha256": "a166d64dfeefadb43269f43e4625b2e7efa8d5ddd4b727b48600c495aa003824",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 367,
+      "seconds": 0.18886110000312328,
+      "peak_mib": 2945.1494140625,
+      "reference_sha256": "c4eef9a234b7e4f42755b7b674354e68db2b47a449afefb39ec8f64b9d139b0d",
+      "exact_prediction_match": true
+    },
+    {
+      "id": 407,
+      "seconds": 0.19147779999184422,
+      "peak_mib": 2945.1494140625,
+      "reference_sha256": "5a455b9d47bf2bf586c831036246f72dcbc72de7885a7825b29b2ca31ab8528c",
+      "exact_prediction_match": true
+    }
+  ]
+}

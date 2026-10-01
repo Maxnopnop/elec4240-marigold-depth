@@ -1,0 +1,107 @@
+{
+  "draw1_low256_seed17": {
+    "resolutions": [
+      256,
+      512
+    ],
+    "max_abs_difference": 0
+  },
+  "draw1_low256_seed29": {
+    "resolutions": [
+      256,
+      512
+    ],
+    "max_abs_difference": 0
+  },
+  "draw1_low256_seed43": {
+    "resolutions": [
+      256,
+      512
+    ],
+    "max_abs_difference": 0
+  },
+  "draw1_low256_seed59": {
+    "resolutions": [
+      256,
+      512
+    ],
+    "max_abs_difference": 0
+  },
+  "draw1_low256_seed71": {
+    "resolutions": [
+      256,
+      512
+    ],
+    "max_abs_difference": 0
+  },
+  "draw2_low256_seed17": {
+    "resolutions": [
+      256,
+      512
+    ],
+    "max_abs_difference": 0
+  },
+  "draw2_low256_seed29": {
+    "resolutions": [
+      256,
+      512
+    ],
+    "max_abs_difference": 0
+  },
+  "draw2_low256_seed43": {
+    "resolutions": [
+      256,
+      512
+    ],
+    "max_abs_difference": 0
+  },
+  "draw2_low256_seed59": {
+    "resolutions": [
+      256,
+      512
+    ],
+    "max_abs_difference": 0
+  },
+  "draw2_low256_seed71": {
+    "resolutions": [
+      256,
+      512
+    ],
+    "max_abs_difference": 0
+  },
+  "draw3_low256_seed17": {
+    "resolutions": [
+      256,
+      512
+    ],
+    "max_abs_difference": 0
+  },
+  "draw3_low256_seed29": {
+    "resolutions": [
+      256,
+      512
+    ],
+    "max_abs_difference": 0
+  },
+  "draw3_low256_seed43": {
+    "resolutions": [
+      256,
+      512
+    ],
+    "max_abs_difference": 0
+  },
+  "draw3_low256_seed59": {
+    "resolutions": [
+      256,
+      512
+    ],
+    "max_abs_difference": 0
+  },
+  "draw3_low256_seed71": {
+    "resolutions": [
+      256,
+      512
+    ],
+    "max_abs_difference": 0
+  }
+}

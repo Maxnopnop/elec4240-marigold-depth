@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "pages": 8,
+  "abstract_whitespace_words": 167,
+  "all_author_fields_verified": true,
+  "all_external_aligned_means_verified": true,
+  "original_style_exact": true,
+  "page_format": "Letter; CVPR2022 10pt two-column",
+  "fonts": [
+    "AKHCZK+CMSY10",
+    "BZIVMZ+NimbusRomNo9L-Regu",
+    "CAFSZL+CMR7",
+    "DDIEWW+CMEX10",
+    "FKPJSN+CMSY7",
+    "IHAIZV+NimbusRomNo9L-Medi",
+    "IXFAWU+NimbusRomNo9L-ReguItal",
+    "PVTTLK+NimbusMonL-Regu",
+    "TQTHRL+CMR10",
+    "VDVGTR+CMMI7",
+    "YEUUOC+CMMI10"
+  ],
+  "characters_within_page": 27634,
+  "no_overfull_boxes_or_undefined_references": true,
+  "pdf_sha256": "aeb80a6c6fc44a5c8afd709eb45e3e0f4dc63b90e0b1e6b1730e2418ab4180d4",
+  "source_sha256": "9f32d54b891409ba543358aeceb16aaddf38610a3e6dc3e8a94cc6d1abf08498",
+  "visual_review_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "latest_render_changed_pages": [
+    5
+  ],
+  "latest_render_other_pages_pixel_identical": true,
+  "figures_visually_reviewed": true
+}
