@@ -2,6 +2,7 @@
 import unittest
 import numpy as np
 from robustness_stats import holm, bootstrap
+from crossed_bootstrap_sensitivity import crossed_bootstrap
 from run_robustness import fit_calibration, fixed_metrics, perturb, matrix, conditions
 
 
@@ -14,6 +15,13 @@ class RobustnessTests(unittest.TestCase):
         for name in ['scene', 'hierarchical']:
             self.assertAlmostEqual(result[name]['ci_low'], -.02)
             self.assertLess(result[name]['p_bootstrap'], .002)
+
+    def test_crossed_seed_variability_is_preserved(self):
+        seed_effect = np.array([-2., -1., 0., 1., 2.])
+        delta = np.broadcast_to(seed_effect[None, :, None], (3, 5, 7))
+        nested = bootstrap(delta, replicates=2000)['hierarchical']
+        crossed = crossed_bootstrap(delta, replicates=2000)
+        self.assertGreater(crossed['ci_high']-crossed['ci_low'], nested['ci_high']-nested['ci_low'])
 
     def test_calibration_recovers_fixed_mapping(self):
         pred = np.tile(np.linspace(.1, .9, 640), (480, 1))

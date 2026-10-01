@@ -10,6 +10,7 @@ from run_expanded import read, write
 from experiment import load_sample
 from robustness_stats import CONTRASTS, bootstrap, holm
 from analyze_scaleup_multiplicity import analyze
+from crossed_bootstrap_sensitivity import crossed_bootstrap
 
 
 def csv_out(path, rows):
@@ -72,14 +73,15 @@ def main():
             for compared, reference in CONTRASTS:
                 delta = data[(cohort, compared, metric)]-data[(cohort, reference, metric)]
                 result = bootstrap(delta)
+                result['crossed'] = crossed_bootstrap(delta)
                 family.append({'cohort': cohort, 'metric': metric, 'compared': compared, 'reference': reference, **result})
-            for kind in ['scene', 'hierarchical']:
+            for kind in ['scene', 'hierarchical', 'crossed']:
                 for r, p in zip(family, holm([r[kind]['p_bootstrap'] for r in family])):
                     r[kind]['p_holm'] = p
             comparisons.extend(family)
     write(out/'paired_comparisons.json', comparisons)
     flat = [{'cohort': r['cohort'], 'metric': r['metric'], 'compared': r['compared'], 'reference': r['reference'],
-             'uncertainty': kind, **r[kind]} for r in comparisons for kind in ['scene', 'hierarchical']]
+             'uncertainty': kind, **r[kind]} for r in comparisons for kind in ['scene', 'hierarchical', 'crossed']]
     csv_out(out/'paired_comparisons.csv', flat)
     posthoc = analyze(out/'scaleup_posthoc_multiplicity.json')
     c = next(iter(read(out/'calibration.json')['conditions'].values()))['constant_depth_m']
@@ -103,6 +105,26 @@ def main():
                                     'calibrated_change': float(np.mean([r['calibrated_abs_rel']-c['calibrated_abs_rel'] for r, c in zip(rows, clean)])),
                                     'native_abs_rel': float(np.mean([r['native_abs_rel'] for r in rows])) if cfg['mode'] == 'expert' else None})
     csv_out(out/'corruption_summary.csv', corruption_rows)
+    corruption_comparisons = []
+    for kind in ['dark', 'blur']:
+        for metric in ['abs_rel', 'calibrated_abs_rel']:
+            scene_values = {}
+            for mode in ['base', 'mixed', 'expert']:
+                batches = []
+                for cfg in matrix():
+                    if cfg['mode'] != mode:
+                        continue
+                    for label, _, corruption in conditions(cfg, 'corruption'):
+                        if corruption == kind:
+                            rr = read(out/'evaluations'/'corruption'/label/'per_image.json')
+                            batches.append([r[metric] for r in rr])
+                scene_values[mode] = np.mean(batches, axis=0)
+            for reference in ['base', 'expert']:
+                delta = scene_values['mixed']-scene_values[reference]
+                corruption_comparisons.append({'corruption': kind, 'metric': metric, 'compared': 'mixed',
+                                               'reference': reference, 'mean_difference': float(delta.mean()),
+                                               'scene_win_fraction': float(np.mean(delta < 0))})
+    write(out/'corruption_comparisons.json', corruption_comparisons)
     # Figures: display all draws and uncertainty, without selecting a winning run.
     figdir = out/'figures'; figdir.mkdir(exist_ok=True)
     plt.rcParams.update({'font.size': 10, 'axes.spines.top': False, 'axes.spines.right': False})
@@ -176,10 +198,13 @@ def main():
               'Negative differences favor the first method. Intervals below resample training draws, seeds within each draw, and paired test scenes. '
               'Holm p-values cover the six aligned comparisons as one family. Bootstrap p-values and interval coverage are approximate with only three training draws. '
               'The CSV also reports scene-only intervals and conservative Bonferroni intervals.', '',
-              '| Comparison | Difference | Hierarchical 95% interval | Holm p |', '|---|---:|---|---:|']
+              'The pre-test [sensitivity addendum](../../STATISTICAL_SENSITIVITY_V3.md) also resamples seed indices jointly across training draws '
+              'because numerical seeds share initialization/schedules. Both analyses are shown; no favorable analysis is selected.', '',
+              '| Comparison | Difference | Nested 95% interval | Nested Holm p | Crossed 95% interval | Crossed Holm p |', '|---|---:|---|---:|---|---:|']
     for r in primary:
         h = r['hierarchical']
-        lines.append(f"| {r['compared']} - {r['reference']} | {h['difference']:+.5f} | [{h['ci_low']:+.5f}, {h['ci_high']:+.5f}] | {h['p_holm']:.4f} |")
+        x = r['crossed']
+        lines.append(f"| {r['compared']} - {r['reference']} | {h['difference']:+.5f} | [{h['ci_low']:+.5f}, {h['ci_high']:+.5f}] | {h['p_holm']:.4f} | [{x['ci_low']:+.5f}, {x['ci_high']:+.5f}] | {x['p_holm']:.4f} |")
     lines += ['', '![Multiplicity-aware comparisons](figures/corrected_comparisons.png)', '', '## Previously observed 64-scene cohort', '',
               'This cohort is a replication/sensitivity check for new trainings; it is not newly unseen test data.', '',
               '| Method | Aligned AbsRel | Calibrated AbsRel |', '|---|---:|---:|']
@@ -194,6 +219,8 @@ def main():
         for mode in ['base', 'mixed', 'expert']:
             rr = [r for r in corruption_rows if r['corruption'] == corruption and r['mode'] == mode]
             lines.append(f"| {corruption} | {mode} | {np.mean([r['abs_rel'] for r in rr]):.5f} | {np.mean([r['aligned_change'] for r in rr]):+.5f} | {np.mean([r['calibrated_abs_rel'] for r in rr]):.5f} |")
+    lines += ['', 'The per-scene win fractions and paired descriptive changes are in `corruption_comparisons.json`; '
+              'the specialist\'s native metric scores under each perturbation are in `corruption_summary.csv`.', '']
     lines += ['', '## Retrospective multiple-comparison sensitivity', '',
               'All 21 originally published scaleup_v2 contrasts are included in a post-hoc Holm family. This reanalysis averages the '
               'original three training seeds first and resamples scenes only; it does not retroactively make the original study preregistered.', '',

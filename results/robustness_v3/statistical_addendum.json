@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-01T12:06:56.133378+00:00",
+  "pre_test_status": {
+    "stage": "validation",
+    "run_id": "draw1_mixed_seed29",
+    "state": "running",
+    "updated_utc": "2026-10-01T12:05:44.059896+00:00"
+  },
+  "test_prediction_directory_absent": true,
+  "source_sha256": {
+    "STATISTICAL_SENSITIVITY_V3.md": "7c17ec2ef7c5993ec26ea6c7bdb25b4af997b14348c0d304f9ab717e70491388",
+    "crossed_bootstrap_sensitivity.py": "bc62c5af789829fe4994c12bcc036b8abae9284c9a81da2749659141f29d2499"
+  }
+}

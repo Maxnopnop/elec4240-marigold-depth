@@ -1,5 +1,6 @@
 """Recompute v3 metrics, freeze calibration, and gate test inference."""
 import gc
+import hashlib
 from pathlib import Path
 from types import SimpleNamespace
 import numpy as np
@@ -16,6 +17,11 @@ def main():
     a = arguments()
     assert read(a.results/'protocol.json') == fingerprint(a.results)
     manifest = read(a.results/'split_manifest.json')
+    addendum = read(a.results/'statistical_addendum.json')
+    assert addendum['pre_test_status']['stage'] == 'validation'
+    assert addendum['test_prediction_directory_absent'] is True
+    for name, checksum in addendum['source_sha256'].items():
+        assert sha(name) == checksum
     census_path = a.results/'scene_census.json'
     assert sha(census_path) == manifest['census_sha256']
     census = read(census_path)
@@ -51,7 +57,7 @@ def main():
     expected_fresh = sorted({r['scene'] for r in census if r['official_split'] == 'test'} - {r['scene'] for r in old})
     assert [r['scene'] for r in fresh] == expected_fresh
     assert [r['id'] for r in fresh] == [canonical[s] for s in expected_fresh]
-    artifacts, checkpoints = {}, {}
+    artifacts, checkpoints, tensor_hashes = {}, {}, {}
     def record(path):
         artifacts[path.relative_to(a.results).as_posix()] = sha(path)
     for cfg in matrix():
@@ -75,9 +81,15 @@ def main():
         tensors = torch.load(cp, map_location='cpu', weights_only=True)
         assert sum(t.numel() for t in tensors.values()) == 829952
         assert all(torch.isfinite(t).all() for t in tensors.values())
+        digest = hashlib.sha256()
+        for name, tensor in sorted(tensors.items()):
+            digest.update(name.encode('utf-8'))
+            digest.update(tensor.contiguous().numpy().tobytes())
+        tensor_hashes[cfg['run_id']] = digest.hexdigest()
         checkpoints[cfg['run_id']] = sha(cp)
         record(rd/'training.json')
     assert len(checkpoints) == len(set(checkpoints.values())) == 30
+    assert len(set(tensor_hashes.values())) == 30
     for d in DRAWS:
         for seed in SEEDS:
             histories = [read(a.results/'runs'/f'{d}_{m}_seed{seed}'/'training.json')['history'] for m in MODES]
@@ -153,6 +165,7 @@ def main():
               'calibration_sha256': sha(a.results/'calibration.json'), 'sample_hashes_verified': len(unique),
               'training_runs': 30, 'updates_per_run': 320, 'metrics_recomputed': total,
               'checkpoint_restorations': restores, 'paired_training_schedules_verified': True,
+              'checkpoint_tensor_sha256': tensor_hashes,
               'checkpoint_sha256': checkpoints, 'audited_artifact_sha256': artifacts}
     write(a.results/('validation_gate.json' if a.stage == 'validation' else 'verification.json'), report)
     print('ROBUSTNESS_AUDIT_PASSED', a.stage, total, flush=True)
