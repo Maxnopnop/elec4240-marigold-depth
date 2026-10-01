@@ -1,0 +1,1708 @@
+{
+  "version": "scaleup_v2",
+  "prior_manifest_sha256": "b35c0afb3c6bea49068bb61609a1f74181cf1654847b7f836f85c98ed1a67ee7",
+  "selection_seeds": [
+    4251,
+    4252,
+    4253
+  ],
+  "source_url": "https://horatio.cs.nyu.edu/mit/silberman/nyu_depth_v2/nyu_depth_v2_labeled.mat",
+  "counts": {
+    "train": 128,
+    "val": 32,
+    "test": 64
+  },
+  "excluded_previous_test_ids": [
+    212,
+    1182,
+    298,
+    327,
+    168,
+    1124,
+    315,
+    1180,
+    1,
+    802,
+    583,
+    1330,
+    190,
+    1295,
+    686,
+    557,
+    1002,
+    357,
+    472,
+    1208,
+    1355,
+    725,
+    186,
+    272,
+    1263,
+    604,
+    1414,
+    525,
+    1218,
+    1053,
+    77,
+    1095,
+    767,
+    1010,
+    1082,
+    663,
+    515,
+    1193,
+    668,
+    1076,
+    511,
+    1103,
+    63,
+    765,
+    970,
+    446,
+    785,
+    476,
+    1022,
+    220,
+    760,
+    976,
+    709,
+    1256,
+    1397,
+    962,
+    840,
+    90,
+    1298,
+    1390,
+    1386,
+    199,
+    29,
+    520,
+    1130,
+    1348,
+    359,
+    1258,
+    1443,
+    671,
+    718,
+    743,
+    775,
+    694,
+    1365,
+    396,
+    680,
+    40,
+    713,
+    1175,
+    656,
+    1332,
+    9,
+    688,
+    1329,
+    1394,
+    857,
+    510,
+    414,
+    550,
+    1101,
+    1170,
+    908,
+    273,
+    823,
+    566,
+    301,
+    462,
+    1145,
+    125,
+    1183,
+    1154,
+    1401,
+    570,
+    36,
+    1292,
+    1278,
+    1107,
+    633,
+    285,
+    1048,
+    384,
+    1369,
+    47,
+    994,
+    1157,
+    619,
+    363,
+    812,
+    134
+  ],
+  "samples": [
+    {
+      "id": 349,
+      "scene": "excercise_room_0001",
+      "split": "train",
+      "file": "0349.npz",
+      "sha256": "79329ded91700f346e0a8d8202074d8bab5a58df65f29e918aa17fcbaffc8a03"
+    },
+    {
+      "id": 401,
+      "scene": "home_storage_0001",
+      "split": "train",
+      "file": "0401.npz",
+      "sha256": "43edc9562c0c948265c539d2a9f516bfda5457aa1d9f53fadea9ee00ba01273e"
+    },
+    {
+      "id": 1236,
+      "scene": "living_room_0037",
+      "split": "train",
+      "file": "1236.npz",
+      "sha256": "7ca69673cc85649e870aeb6bba17b03d39c88e3a53d4131c02e70a66c9921024"
+    },
+    {
+      "id": 342,
+      "scene": "conference_room_0002",
+      "split": "train",
+      "file": "0342.npz",
+      "sha256": "a5593d4f555a7dade4ee10564411c645e4a5c0ad1317ff11258fd75a0a21f7e7"
+    },
+    {
+      "id": 1439,
+      "scene": "dining_room_0034",
+      "split": "train",
+      "file": "1439.npz",
+      "sha256": "a868c96db59dec69c2e861e6be5a532be80c89655e917b2db35f1b519ff8b06f"
+    },
+    {
+      "id": 502,
+      "scene": "bathroom_0055",
+      "split": "train",
+      "file": "0502.npz",
+      "sha256": "36f95916a0b25bae788f7e941340ed7a2c41dadaf28748508ac865760427fb00"
+    },
+    {
+      "id": 245,
+      "scene": "furniture_store_0002",
+      "split": "train",
+      "file": "0245.npz",
+      "sha256": "f446c29ddaa565c9da9908c9d3a18c7fb09a0cd8a4f348200fb9032d3264fa56"
+    },
+    {
+      "id": 1373,
+      "scene": "dining_room_0013",
+      "split": "train",
+      "file": "1373.npz",
+      "sha256": "517d26a7d42ab3e556f6808082f036810df5378b6e87fc731c0f13c43a92f645"
+    },
+    {
+      "id": 375,
+      "scene": "home_office_0006",
+      "split": "train",
+      "file": "0375.npz",
+      "sha256": "1abebd06f4d3ab460a1e8bf839fc17dad610a29c520fbc70e96dd6ded9148caa"
+    },
+    {
+      "id": 940,
+      "scene": "bedroom_0034",
+      "split": "train",
+      "file": "0940.npz",
+      "sha256": "b145b9a244964f5724db15909f904af91f85ccc5333a61d2b707deb2a8c6a015"
+    },
+    {
+      "id": 277,
+      "scene": "study_room_0005",
+      "split": "train",
+      "file": "0277.npz",
+      "sha256": "4db6af7428ce764300fd41400a3d3a169c2f39cc3903a6e7f930f1760db439e9"
+    },
+    {
+      "id": 685,
+      "scene": "bathroom_0024",
+      "split": "train",
+      "file": "0685.npz",
+      "sha256": "88e7ca8d02b73bad98c77759baa6ee27f632c99e73983f3bd560dc8ce84908ca"
+    },
+    {
+      "id": 113,
+      "scene": "bookstore_0000",
+      "split": "train",
+      "file": "0113.npz",
+      "sha256": "cfb82d02c56d116d0ffdee84bc8104746821207534c76792393edb03bedc6522"
+    },
+    {
+      "id": 275,
+      "scene": "study_room_0004",
+      "split": "train",
+      "file": "0275.npz",
+      "sha256": "f0430ea55ceec12d7edc8f1b9132c28d226c9897fcabf6ca2e69f9095de30fa2"
+    },
+    {
+      "id": 999,
+      "scene": "bedroom_0057",
+      "split": "train",
+      "file": "0999.npz",
+      "sha256": "15e6eee822bbef906ae639c9550ea5dbce0aeb53d1b27c2284da0b18bb986b28"
+    },
+    {
+      "id": 1363,
+      "scene": "dining_room_0008",
+      "split": "train",
+      "file": "1363.npz",
+      "sha256": "c9799ceaea7ac174ba43c9de479aae905444121c934ad3bd7d3ceebd12771487"
+    },
+    {
+      "id": 981,
+      "scene": "bedroom_0051",
+      "split": "train",
+      "file": "0981.npz",
+      "sha256": "57f691ef41765ff8965d4e1a4a0d27ddacb7792645cf59036ea0fc2cf0a88ca3"
+    },
+    {
+      "id": 794,
+      "scene": "kitchen_0028",
+      "split": "train",
+      "file": "0794.npz",
+      "sha256": "43c7691b8f929440ac588da8b6cea279ac72d617f57b84a1cca99b5412477d5e"
+    },
+    {
+      "id": 646,
+      "scene": "study_0008",
+      "split": "train",
+      "file": "0646.npz",
+      "sha256": "9f901654c94ab21c76b843dfc1e41e89e319d1ce1adf31c1af23af75b4d3f558"
+    },
+    {
+      "id": 1198,
+      "scene": "bedroom_0129",
+      "split": "train",
+      "file": "1198.npz",
+      "sha256": "612c50cac0e764774c37a8e4f82939cffdf866c570853b89233214437219fb98"
+    },
+    {
+      "id": 1312,
+      "scene": "living_room_0063",
+      "split": "train",
+      "file": "1312.npz",
+      "sha256": "83c1596ff2d1150cd22fbded440f1d941603b6e73071644656cc10858ba312cb"
+    },
+    {
+      "id": 1252,
+      "scene": "living_room_0042",
+      "split": "train",
+      "file": "1252.npz",
+      "sha256": "793cc270f4fb94a988eb6a5b29b93f32dde6be993288bd2fd6fa7887c295a1f7"
+    },
+    {
+      "id": 863,
+      "scene": "kitchen_0045",
+      "split": "train",
+      "file": "0863.npz",
+      "sha256": "daa5631b9eb357fd34dca39d774e3421d20a891f5ca95cd4020db9e8519ad710"
+    },
+    {
+      "id": 48,
+      "scene": "bathroom_0005",
+      "split": "train",
+      "file": "0048.npz",
+      "sha256": "91bc95d587e5755b92590b67f68accb4913ed97ea9b69044f5e8aec5a993fd69"
+    },
+    {
+      "id": 459,
+      "scene": "reception_room_0002",
+      "split": "train",
+      "file": "0459.npz",
+      "sha256": "768b175adb2e0735963c2629631825e786400add72d408d178ac2e812cb70b02"
+    },
+    {
+      "id": 122,
+      "scene": "cafe_0001",
+      "split": "train",
+      "file": "0122.npz",
+      "sha256": "9c85ed32287688e0a36123413319bcf4000c8d61b8308b75aedd614659cf3cef"
+    },
+    {
+      "id": 642,
+      "scene": "student_lounge_0001",
+      "split": "train",
+      "file": "0642.npz",
+      "sha256": "7851667fda6a0ab903c6197bfe3457541e5e1d7d1b6a7ff89e661156a2a372aa"
+    },
+    {
+      "id": 702,
+      "scene": "bathroom_0034",
+      "split": "train",
+      "file": "0702.npz",
+      "sha256": "d1551051ae7904190f7bacc0b860ac8478c68fd2610fc3c0aabf6f18ca077295"
+    },
+    {
+      "id": 882,
+      "scene": "kitchen_0049",
+      "split": "train",
+      "file": "0882.npz",
+      "sha256": "9b48225ece0b8ae25a73e248222a8fa971cb73bfb4775dca9ddaefb008cd59f8"
+    },
+    {
+      "id": 1014,
+      "scene": "bedroom_0062",
+      "split": "train",
+      "file": "1014.npz",
+      "sha256": "0e17c96afba6b1f15cfc83ccd4eb94ac76b7e270011a27329ae4526de841cfdb"
+    },
+    {
+      "id": 45,
+      "scene": "bathroom_0002",
+      "split": "train",
+      "file": "0045.npz",
+      "sha256": "d07cc260b602a07a4b893eeeb74cbc2e18e61f533847666309205863fa96660b"
+    },
+    {
+      "id": 142,
+      "scene": "kitchen_0011",
+      "split": "train",
+      "file": "0142.npz",
+      "sha256": "45443e6632c681607af01192335d06ae97ac87daacaa0ea9b9b12859dc588461"
+    },
+    {
+      "id": 925,
+      "scene": "bedroom_0029",
+      "split": "train",
+      "file": "0925.npz",
+      "sha256": "9a3cad8d8a999a4c8d39e16cd6a0e5ab9fed542299e89786fca210dfc6bede19"
+    },
+    {
+      "id": 64,
+      "scene": "bedroom_0014",
+      "split": "train",
+      "file": "0064.npz",
+      "sha256": "1bc6dc0a979c8f8e6a47db3860a3984864b035427420732c2a23873d22514f87"
+    },
+    {
+      "id": 1345,
+      "scene": "dining_room_0001",
+      "split": "train",
+      "file": "1345.npz",
+      "sha256": "5e01a7039683bf49c1e1daf2b2b60c35dff6b32e333fe7ee76b3bc480c80c77f"
+    },
+    {
+      "id": 1025,
+      "scene": "bedroom_0065",
+      "split": "train",
+      "file": "1025.npz",
+      "sha256": "e0f6db1704621b13f876313a4bcf490f36af8f6a42f54fb8aa449d0d4d919a83"
+    },
+    {
+      "id": 377,
+      "scene": "home_office_0007",
+      "split": "train",
+      "file": "0377.npz",
+      "sha256": "6111ae093eb78ae9e5d359104cea07f5ad23d3a16d302af821f31843d01885f0"
+    },
+    {
+      "id": 486,
+      "scene": "study_0005",
+      "split": "train",
+      "file": "0486.npz",
+      "sha256": "b84dfabcde9b7371fde428ab202e8a1b1681dad3cad1ec77966c8296bc26482c"
+    },
+    {
+      "id": 623,
+      "scene": "office_0023",
+      "split": "train",
+      "file": "0623.npz",
+      "sha256": "5f9c7ca41b60eabb94f1f2813aead60ac7235534e6822976f4caa02068ec217e"
+    },
+    {
+      "id": 1231,
+      "scene": "living_room_0035",
+      "split": "train",
+      "file": "1231.npz",
+      "sha256": "c088c415d09b8c74460e6b61613e8c11e5977e934df0b2b3325049cc856e5a2e"
+    },
+    {
+      "id": 214,
+      "scene": "office_0000",
+      "split": "train",
+      "file": "0214.npz",
+      "sha256": "f33d3e6463f33c2f0110aaa90bf8d8182d89985ac600498a8772438fef04595c"
+    },
+    {
+      "id": 1055,
+      "scene": "bedroom_0076",
+      "split": "train",
+      "file": "1055.npz",
+      "sha256": "21c8a2929f61b444fdf33ad769c698d5a21a52c128a115a10c40933d1bb33cc8"
+    },
+    {
+      "id": 225,
+      "scene": "furniture_store_0001",
+      "split": "train",
+      "file": "0225.npz",
+      "sha256": "1897e6f713ccba61ea97c2481d6e50ed4c1f056b326b4033db647b919574cb9e"
+    },
+    {
+      "id": 289,
+      "scene": "classroom_0004",
+      "split": "train",
+      "file": "0289.npz",
+      "sha256": "973c7c63e2ef20918b87f0c0cf36495af7e943c5629deee186d0011bce48e621"
+    },
+    {
+      "id": 752,
+      "scene": "kitchen_0019",
+      "split": "train",
+      "file": "0752.npz",
+      "sha256": "a7325b459e777f2c6b47fb4bb25a5e2492ddf6a60469eb6eaea939eab87b3a41"
+    },
+    {
+      "id": 952,
+      "scene": "bedroom_0040",
+      "split": "train",
+      "file": "0952.npz",
+      "sha256": "0eefc059a6fde6e9c328e521ac0effb5b505e5b846415dac21091047c01defa7"
+    },
+    {
+      "id": 51,
+      "scene": "living_room_0000",
+      "split": "train",
+      "file": "0051.npz",
+      "sha256": "5eb1cfc50e36df584bee60a8ed0d94749fb2f9357f84aeb06c068507ccc6c2a5"
+    },
+    {
+      "id": 1065,
+      "scene": "bedroom_0079",
+      "split": "train",
+      "file": "1065.npz",
+      "sha256": "6e649144ae23a72a40eb4851d2dd6c78250237e6f49e52a158490f3e25add52f"
+    },
+    {
+      "id": 674,
+      "scene": "bathroom_0019",
+      "split": "train",
+      "file": "0674.npz",
+      "sha256": "1fadab71c2916af54e7eed31997a42fe0f64f707ee8f0ec3a80cc32877973018"
+    },
+    {
+      "id": 152,
+      "scene": "living_room_0006",
+      "split": "train",
+      "file": "0152.npz",
+      "sha256": "d9e277a8b3cc6a5cd26ce9776614273e11728bd070824a569dcbe2166bcd02ca"
+    },
+    {
+      "id": 1322,
+      "scene": "living_room_0069",
+      "split": "train",
+      "file": "1322.npz",
+      "sha256": "234b99b7467f6cbe77453d2f92e73d337187f2570db4fb14d721ed200950eadd"
+    },
+    {
+      "id": 576,
+      "scene": "kitchen_0060",
+      "split": "train",
+      "file": "0576.npz",
+      "sha256": "7c4679cc7470ad262600b106c9c80ad618ab64f1e1f3549b2d9ea8dd7f8bd3b8"
+    },
+    {
+      "id": 507,
+      "scene": "bathroom_0057",
+      "split": "train",
+      "file": "0507.npz",
+      "sha256": "beca8ce01422b031e548c83c0ab1a93a47b32d7d76e5714fefc2003e5b365497"
+    },
+    {
+      "id": 1005,
+      "scene": "bedroom_0059",
+      "split": "train",
+      "file": "1005.npz",
+      "sha256": "0438786253ef33c987d33cbca8b49a2b38636bed296987a4bc33a906c8d78317"
+    },
+    {
+      "id": 741,
+      "scene": "bathroom_0051",
+      "split": "train",
+      "file": "0741.npz",
+      "sha256": "165fe1cd9e30c96b60a98139f0bf11339266d3808e9ee05b72cb328f2d1b01b0"
+    },
+    {
+      "id": 135,
+      "scene": "kitchen_0008",
+      "split": "train",
+      "file": "0135.npz",
+      "sha256": "23abfb440976ffbec4f68edfc42742e0d4c20e7d21b62fe773e0c668cca2f047"
+    },
+    {
+      "id": 955,
+      "scene": "bedroom_0041",
+      "split": "train",
+      "file": "0955.npz",
+      "sha256": "d1f0db1be4c8afecf4466470d0384660f846310db470434d331459e706054f5c"
+    },
+    {
+      "id": 254,
+      "scene": "kitchen_0017",
+      "split": "train",
+      "file": "0254.npz",
+      "sha256": "6250b97d902277e2a12b46021ef86d1817acb200a76763123cab95ba1e50a520"
+    },
+    {
+      "id": 701,
+      "scene": "bathroom_0033",
+      "split": "train",
+      "file": "0701.npz",
+      "sha256": "1dbd54f4b79fdc30417e12cca1641e7f0e04e1fef26e71f3cf95197e8545ba58"
+    },
+    {
+      "id": 798,
+      "scene": "kitchen_0029",
+      "split": "train",
+      "file": "0798.npz",
+      "sha256": "ebe1ceb65daaa99a3956f214db1912123613fb0821b3b9c14705e3a9fdc5112f"
+    },
+    {
+      "id": 256,
+      "scene": "living_room_0018",
+      "split": "train",
+      "file": "0256.npz",
+      "sha256": "38530d301e51a5b5c941e351f88402c67b72bb6ae7d117fb2f76d7be36beee8b"
+    },
+    {
+      "id": 1173,
+      "scene": "bedroom_0118",
+      "split": "train",
+      "file": "1173.npz",
+      "sha256": "8e39ea831dfc4cfe7148e17c620b15e351a0f128226d6e37609c02d721997f13"
+    },
+    {
+      "id": 419,
+      "scene": "playroom_0002",
+      "split": "train",
+      "file": "0419.npz",
+      "sha256": "405dc8066b5f33d09072b32b3da97203b604667427310d8784e122f7f5d08628"
+    },
+    {
+      "id": 139,
+      "scene": "kitchen_0010",
+      "split": "train",
+      "file": "0139.npz",
+      "sha256": "e5a4469b8c3b1e22a5d0387edfb1e9050a303295b5ed953ee23d724631b23fbe"
+    },
+    {
+      "id": 496,
+      "scene": "basement_0001",
+      "split": "train",
+      "file": "0496.npz",
+      "sha256": "a59e3a4c4ff4834adf7c40f45ae821cae09cd1cbd9153fe840f0d0e1c09e99d2"
+    },
+    {
+      "id": 1138,
+      "scene": "bedroom_0106",
+      "split": "train",
+      "file": "1138.npz",
+      "sha256": "f48d9e32259fb0c775014d90de168e10ab76c4db3ad636ef3fba92ac6d96a24f"
+    },
+    {
+      "id": 1020,
+      "scene": "bedroom_0063",
+      "split": "train",
+      "file": "1020.npz",
+      "sha256": "e366d9329c9d1abe872d4516c96265d8460c5fba35e12d5951622303ed27a1e8"
+    },
+    {
+      "id": 381,
+      "scene": "home_office_0008",
+      "split": "train",
+      "file": "0381.npz",
+      "sha256": "2bf0ea64786336b1964675f25db5e01993d46ecf9e19ce3e37de0f224f3fa4f4"
+    },
+    {
+      "id": 1113,
+      "scene": "bedroom_0097",
+      "split": "train",
+      "file": "1113.npz",
+      "sha256": "ed74b12846b54bbc7c024244db8f4ccde6ca2d0b77e3effd25fbb6bf1b2a14c8"
+    },
+    {
+      "id": 1221,
+      "scene": "living_room_0032",
+      "split": "train",
+      "file": "1221.npz",
+      "sha256": "b3d0dc89f0e6273bba32477e12427bcf396b07e8cc687a6de479782ccdce08aa"
+    },
+    {
+      "id": 428,
+      "scene": "playroom_0004",
+      "split": "train",
+      "file": "0428.npz",
+      "sha256": "fd42cfa2fd13de65ff0e86c35249cb979fcb7e6b41e1a7326ef9fe9f10922e6b"
+    },
+    {
+      "id": 665,
+      "scene": "bathroom_0016",
+      "split": "train",
+      "file": "0665.npz",
+      "sha256": "d163a67f6f7cb5c978fbdae98545adc92500d021ac68911d932143868cab9ea8"
+    },
+    {
+      "id": 1296,
+      "scene": "living_room_0055",
+      "split": "train",
+      "file": "1296.npz",
+      "sha256": "721d5664f8876ab1449f3acd20b0e1c4766ab5ab4f5e6e8c8fe708416213afbe"
+    },
+    {
+      "id": 1066,
+      "scene": "bedroom_0080",
+      "split": "train",
+      "file": "1066.npz",
+      "sha256": "eca1d57c15b8bca827de594aa0ff0a100cdbf184f95ab48c4f04ea83942c37b7"
+    },
+    {
+      "id": 692,
+      "scene": "bathroom_0028",
+      "split": "train",
+      "file": "0692.npz",
+      "sha256": "9b79a8d8a6f651d6d911bf7b47075dd1b239e6f92d58fe86a4909b07a70cad58"
+    },
+    {
+      "id": 910,
+      "scene": "bedroom_0025",
+      "split": "train",
+      "file": "0910.npz",
+      "sha256": "10e8619aa15ad55f6db85056a4bfc0fb07ee58b5cfb950bfed18367782b3b9ba"
+    },
+    {
+      "id": 1327,
+      "scene": "living_room_0071",
+      "split": "train",
+      "file": "1327.npz",
+      "sha256": "4d197656519ebb77941374657b0fc7148895388903214cadca2e995432d25047"
+    },
+    {
+      "id": 487,
+      "scene": "study_0006",
+      "split": "train",
+      "file": "0487.npz",
+      "sha256": "83ca0c967b44de155087e0ef24277c30a8e89922446141d6757c881f7ac6072e"
+    },
+    {
+      "id": 1351,
+      "scene": "dining_room_0004",
+      "split": "train",
+      "file": "1351.npz",
+      "sha256": "b290b6e287dd1d67d0530886f63267b6c6d9ebf0e31a0d361b58fac5e42b5947"
+    },
+    {
+      "id": 629,
+      "scene": "office_0025",
+      "split": "train",
+      "file": "0629.npz",
+      "sha256": "c73de00dfa593e53ff4f363183f5bfa045add7dd0fa0502cf6776f3f38dca4fb"
+    },
+    {
+      "id": 266,
+      "scene": "living_room_0022",
+      "split": "train",
+      "file": "0266.npz",
+      "sha256": "b075b6d3c27809d926b74e4236e642f27e533ea13aa681afdbc66cedc6c9afc8"
+    },
+    {
+      "id": 899,
+      "scene": "kitchen_0052",
+      "split": "train",
+      "file": "0899.npz",
+      "sha256": "fe7ea038ba3a87897028557f6fb3ca381dede8556112e19230553371ef5d54cc"
+    },
+    {
+      "id": 661,
+      "scene": "bathroom_0014",
+      "split": "train",
+      "file": "0661.npz",
+      "sha256": "c368a1aee77b2368e559d550d6113fc5365133a94be203ff955a6edda74342f4"
+    },
+    {
+      "id": 1393,
+      "scene": "dining_room_0019",
+      "split": "train",
+      "file": "1393.npz",
+      "sha256": "eb2f62bd7f7844c61cbb565a4e1a27ae8a1e963d9db46071a3266af8e3357ba4"
+    },
+    {
+      "id": 1040,
+      "scene": "bedroom_0071",
+      "split": "train",
+      "file": "1040.npz",
+      "sha256": "ae557ed5f245b865d0c79f2d8baa6b470365ef69d030eddfd8dbdc44df6e246c"
+    },
+    {
+      "id": 83,
+      "scene": "bedroom_0019",
+      "split": "train",
+      "file": "0083.npz",
+      "sha256": "fc6d76cf0473df3d59c113512420eb48d0ca3b747c2cbb02d3ce25c416e171f8"
+    },
+    {
+      "id": 341,
+      "scene": "conference_room_0001",
+      "split": "train",
+      "file": "0341.npz",
+      "sha256": "cd6a1d73af8d9ae9b2138e3918fd1d84c20b04c8e557d382feadb5b67f139ee3"
+    },
+    {
+      "id": 259,
+      "scene": "living_room_0019",
+      "split": "train",
+      "file": "0259.npz",
+      "sha256": "bdd0faed6e939f52162b1eac5530fe84a3c751f5e7abb268ef9d6d7dc4bf0600"
+    },
+    {
+      "id": 540,
+      "scene": "bedroom_0140",
+      "split": "train",
+      "file": "0540.npz",
+      "sha256": "0ea2ce2cfa3cdf6af423c87b3ff2d0d0b273c5dab3480d260bd2a2142684a48c"
+    },
+    {
+      "id": 424,
+      "scene": "playroom_0003",
+      "split": "train",
+      "file": "0424.npz",
+      "sha256": "b1357665c83666e36627a2c14a86c8797bf854082ff1683e147fe45abc1c01e8"
+    },
+    {
+      "id": 1246,
+      "scene": "living_room_0040",
+      "split": "train",
+      "file": "1246.npz",
+      "sha256": "c1a81894591b69e4c209ad39fd0c54092d26becf93c4eb53cd71fb1ff91fc43d"
+    },
+    {
+      "id": 1371,
+      "scene": "dining_room_0012",
+      "split": "train",
+      "file": "1371.npz",
+      "sha256": "b0c99c91d77564ae821a9bb61d2f4658e5e699782d9da3205dc72f0e4dc0638a"
+    },
+    {
+      "id": 632,
+      "scene": "office_0026",
+      "split": "train",
+      "file": "0632.npz",
+      "sha256": "a4e8c3fcb82408894e3e99825d95286efcc8551211e45f2e2d61d71c3e7d9b6c"
+    },
+    {
+      "id": 951,
+      "scene": "bedroom_0039",
+      "split": "train",
+      "file": "0951.npz",
+      "sha256": "86d076635c0cc1a49a6fd3c86cb783370e98ba84dcf749b44e4b63957c042098"
+    },
+    {
+      "id": 1199,
+      "scene": "bedroom_0130",
+      "split": "train",
+      "file": "1199.npz",
+      "sha256": "f7bb40e8f3d49c5c7ace548bce0d26123fce2908feef7a4f042a259e5203f141"
+    },
+    {
+      "id": 586,
+      "scene": "living_room_0082",
+      "split": "train",
+      "file": "0586.npz",
+      "sha256": "644321759a7645ced7e1ada32eb12c47b3f4c7e5bd5f5a8ca40204de99c14d11"
+    },
+    {
+      "id": 809,
+      "scene": "kitchen_0031",
+      "split": "train",
+      "file": "0809.npz",
+      "sha256": "c5a225db0fb66e5e2be474eba718ae92af5dd2b3d81baba8c0e5d98e9a706ed6"
+    },
+    {
+      "id": 1046,
+      "scene": "bedroom_0072",
+      "split": "train",
+      "file": "1046.npz",
+      "sha256": "5f8ef0dd375c7da057bb0f6a7e1fa117758609027ebc131084ca2a02f9c27942"
+    },
+    {
+      "id": 67,
+      "scene": "bedroom_0015",
+      "split": "train",
+      "file": "0067.npz",
+      "sha256": "9a1e5b7177b029e3d5d6b099f7ae1c5baeadb5a9ab698a1074f383f12f40d02b"
+    },
+    {
+      "id": 1427,
+      "scene": "dining_room_0031",
+      "split": "train",
+      "file": "1427.npz",
+      "sha256": "0af69f489e5f4440e093f03a33218137a43679741acf1e500f75b58a476cab11"
+    },
+    {
+      "id": 1367,
+      "scene": "dining_room_0010",
+      "split": "train",
+      "file": "1367.npz",
+      "sha256": "a4e2ac77535a88096d1a17c4d3544d8ca3a9357e5a23811e6c7c0a787664e4a2"
+    },
+    {
+      "id": 1318,
+      "scene": "living_room_0068",
+      "split": "train",
+      "file": "1318.npz",
+      "sha256": "3ed4490c638c50768765e4ef743f9b6ba4bf0389138c81a4bc6847b5ff49c39f"
+    },
+    {
+      "id": 69,
+      "scene": "bedroom_0016",
+      "split": "train",
+      "file": "0069.npz",
+      "sha256": "4f413b06495549cb95ffbf0bf237c29d2a3ae7c0876e89cd442bf20a350a247a"
+    },
+    {
+      "id": 1377,
+      "scene": "dining_room_0014",
+      "split": "train",
+      "file": "1377.npz",
+      "sha256": "abfe322a9caa51138c4d10cfa174c7a2bc6dc056259250c27ea30c96b4772582"
+    },
+    {
+      "id": 878,
+      "scene": "kitchen_0048",
+      "split": "train",
+      "file": "0878.npz",
+      "sha256": "eb47f03686e8bc118f2e86452cb82752c2c51047e1789d4560ab91c931e5bea3"
+    },
+    {
+      "id": 649,
+      "scene": "bathroom_0007",
+      "split": "train",
+      "file": "0649.npz",
+      "sha256": "f287c1a87a024751c2baf408455483a18c3fb07e67b2e103b75231eb0d5477a0"
+    },
+    {
+      "id": 1051,
+      "scene": "bedroom_0074",
+      "split": "train",
+      "file": "1051.npz",
+      "sha256": "2eb2c97c63d2839b0d340d4cd0aada5b17445587464d8110432169f8d591b3a5"
+    },
+    {
+      "id": 483,
+      "scene": "study_0004",
+      "split": "train",
+      "file": "0483.npz",
+      "sha256": "157b9f7c9c83373847becec1bc1cf18366b56763c056d538d798536a9380cb5c"
+    },
+    {
+      "id": 262,
+      "scene": "living_room_0020",
+      "split": "train",
+      "file": "0262.npz",
+      "sha256": "4af40ff707bc0cf67f216822d72f2d49c84f52a53c083a84d009269fc2e2d44f"
+    },
+    {
+      "id": 346,
+      "scene": "dinette_0001",
+      "split": "train",
+      "file": "0346.npz",
+      "sha256": "9e07c959208771a10c1d062a6ea54e81b18d66a281dfa3270c9b2ca37e34a2df"
+    },
+    {
+      "id": 504,
+      "scene": "bathroom_0056",
+      "split": "train",
+      "file": "0504.npz",
+      "sha256": "510b0827a616171968117c7f6014451585e788ba1b7cae8bd47466dd228e4b19"
+    },
+    {
+      "id": 930,
+      "scene": "bedroom_0031",
+      "split": "train",
+      "file": "0930.npz",
+      "sha256": "e9d30fd2986e895bc5cb94470bf6dda73ef8d7b9c5d4be372f03f65cb3d0d0c5"
+    },
+    {
+      "id": 1379,
+      "scene": "dining_room_0015",
+      "split": "train",
+      "file": "1379.npz",
+      "sha256": "5a5203c8f13f446ef60bd19cc490b562ed692d8acf67c328b48f04f91cbc69eb"
+    },
+    {
+      "id": 653,
+      "scene": "bathroom_0010",
+      "split": "train",
+      "file": "0653.npz",
+      "sha256": "99805b3e87adf7010947c3a393c43717f1ecb24c7be8694f7aaf438e8370e1f9"
+    },
+    {
+      "id": 1271,
+      "scene": "living_room_0047",
+      "split": "train",
+      "file": "1271.npz",
+      "sha256": "d4086b766ff903369e921198d1d228dad747d2dac994d23f7694b342c43f6393"
+    },
+    {
+      "id": 922,
+      "scene": "bedroom_0028",
+      "split": "train",
+      "file": "0922.npz",
+      "sha256": "8630efa9f88370f788bd2976b1b65b8c6111a979437642d0ce7c9970c1f1a1e4"
+    },
+    {
+      "id": 1141,
+      "scene": "bedroom_0107",
+      "split": "train",
+      "file": "1141.npz",
+      "sha256": "d10d33994dbdd69d659d4669b6fa2ab78df02245bf903622b901490688a0a39f"
+    },
+    {
+      "id": 1160,
+      "scene": "bedroom_0113",
+      "split": "train",
+      "file": "1160.npz",
+      "sha256": "845048ca33dde432c0b7d92c23e175cebaa6b11e42435ed9153eb3e703ceb3cd"
+    },
+    {
+      "id": 307,
+      "scene": "classroom_0011",
+      "split": "train",
+      "file": "0307.npz",
+      "sha256": "aac64ce24759188086bce9f0a8d162e31d5f448bbfc9c942f3aa0108c59142e0"
+    },
+    {
+      "id": 403,
+      "scene": "indoor_balcony_0001",
+      "split": "train",
+      "file": "0403.npz",
+      "sha256": "796345cb90ecf580e66a402fe0be53590e0a2f8bcea165a0789994350cda4ec7"
+    },
+    {
+      "id": 1316,
+      "scene": "living_room_0067",
+      "split": "train",
+      "file": "1316.npz",
+      "sha256": "b89c79a2fe184b55fef17708e1a1cd803a453cb90787058fc37415f349217392"
+    },
+    {
+      "id": 74,
+      "scene": "bedroom_0017",
+      "split": "train",
+      "file": "0074.npz",
+      "sha256": "439d6dcc12dc734776655994203698040056a783fbff5241100ffd4f1510b021"
+    },
+    {
+      "id": 452,
+      "scene": "reception_room_0001",
+      "split": "train",
+      "file": "0452.npz",
+      "sha256": "2ba3ed41d825967a4dade975af7e75910127a0a7fb6146705a424e9bb00f2356"
+    },
+    {
+      "id": 1417,
+      "scene": "dining_room_0029",
+      "split": "train",
+      "file": "1417.npz",
+      "sha256": "21a9807dd61f3569cb1c58d6c7d4019c3a0d7dfb013f83af6c7e6379e8cde173"
+    },
+    {
+      "id": 943,
+      "scene": "bedroom_0036",
+      "split": "train",
+      "file": "0943.npz",
+      "sha256": "7a934571bcf68b4c3e5a1f8560f4c04318dcb41d2688762700239a58504c6590"
+    },
+    {
+      "id": 888,
+      "scene": "kitchen_0051",
+      "split": "train",
+      "file": "0888.npz",
+      "sha256": "ed0a3b39fb6e8455210996af729a30d6e7f9bb5122f29c712d8a5d742fa77d86"
+    },
+    {
+      "id": 1268,
+      "scene": "living_room_0046",
+      "split": "train",
+      "file": "1268.npz",
+      "sha256": "85d5d6af001cce06f9207299559f970bcff146d1287d688fed1ae6e7d7c79c3d"
+    },
+    {
+      "id": 309,
+      "scene": "classroom_0012",
+      "split": "train",
+      "file": "0309.npz",
+      "sha256": "0d219025410d72491216894cd6fd0c674e4972ae2aa0021d2d67c6a6b23da0bd"
+    },
+    {
+      "id": 1241,
+      "scene": "living_room_0039",
+      "split": "val",
+      "file": "1241.npz",
+      "sha256": "343b0b94aec0c9fa479793b8bae5cf153818a4657ad78acc5ae695767975406e"
+    },
+    {
+      "id": 969,
+      "scene": "bedroom_0047",
+      "split": "val",
+      "file": "0969.npz",
+      "sha256": "01794108b9d7b0f5ba28e66fe383cb73e2221a4a32e45205c659baebf5b04401"
+    },
+    {
+      "id": 1301,
+      "scene": "living_room_0058",
+      "split": "val",
+      "file": "1301.npz",
+      "sha256": "7b927436c3ffe65a6e05539fee07b92953cacc952f08ab13cb5a26c11480b0d0"
+    },
+    {
+      "id": 294,
+      "scene": "classroom_0006",
+      "split": "val",
+      "file": "0294.npz",
+      "sha256": "b9141274b1685c4973f3233ba02ff69f451febacc1d38c3c5cb18bb68f12da3d"
+    },
+    {
+      "id": 599,
+      "scene": "living_room_0086",
+      "split": "val",
+      "file": "0599.npz",
+      "sha256": "3a738c14502a40aadddf3b6161fbe1179e1f77ba5fb3fe889312be64997743be"
+    },
+    {
+      "id": 654,
+      "scene": "bathroom_0011",
+      "split": "val",
+      "file": "0654.npz",
+      "sha256": "845605d354da047eacc0cfe832250c0ebc4135054617a9fbd5d7eee92263a25e"
+    },
+    {
+      "id": 367,
+      "scene": "home_office_0004",
+      "split": "val",
+      "file": "0367.npz",
+      "sha256": "9e83b27f3dc5cc46d12c7b61d8cabbe9028d571647a966298df615ab2bff8cfa"
+    },
+    {
+      "id": 407,
+      "scene": "laundry_room_0001",
+      "split": "val",
+      "file": "0407.npz",
+      "sha256": "b85fa05ab382f01d466773d056c1133c72c2e6f7abdf0b43bc342b51b25e6a22"
+    },
+    {
+      "id": 738,
+      "scene": "bathroom_0049",
+      "split": "val",
+      "file": "0738.npz",
+      "sha256": "62969b06f53a1cf3c0f9aa919f875df00f80179a052f32bc056b82baf2f6fec1"
+    },
+    {
+      "id": 368,
+      "scene": "home_office_0005",
+      "split": "val",
+      "file": "0368.npz",
+      "sha256": "43e99d09216ea5a066ad51d597981f4f5b89d997901d5320c33afc088add27dc"
+    },
+    {
+      "id": 941,
+      "scene": "bedroom_0035",
+      "split": "val",
+      "file": "0941.npz",
+      "sha256": "3114b0f4da4b0306d69f1d52cba0661d7b760cb10a6ccc4ef2674813aa1a8d24"
+    },
+    {
+      "id": 826,
+      "scene": "kitchen_0035",
+      "split": "val",
+      "file": "0826.npz",
+      "sha256": "da3302c1a912bd2a0b6d7e42a99057a12c3e3e6e2ae4acadc8373bf74c9fbd4c"
+    },
+    {
+      "id": 24,
+      "scene": "office_0011",
+      "split": "val",
+      "file": "0024.npz",
+      "sha256": "a3ca8598ad950fcff1fcfeb1a6e436e6a37a86400f349bc0b41ba8f2c1ce5032"
+    },
+    {
+      "id": 546,
+      "scene": "dining_room_0037",
+      "split": "val",
+      "file": "0546.npz",
+      "sha256": "939e6f96bacff7a6e0b5e78d2513428b2e194bca5871b4d0ae17407773d3534e"
+    },
+    {
+      "id": 450,
+      "scene": "printer_room_0001",
+      "split": "val",
+      "file": "0450.npz",
+      "sha256": "520b8974e945b22a7e8cb36f67f6a2430aeb412ac033d17df7d83a373c53125e"
+    },
+    {
+      "id": 114,
+      "scene": "bookstore_0002",
+      "split": "val",
+      "file": "0114.npz",
+      "sha256": "2d2796711e04ae477cf647fe28c53893ee109438312c35ed88a09dfad29f6973"
+    },
+    {
+      "id": 916,
+      "scene": "bedroom_0026",
+      "split": "val",
+      "file": "0916.npz",
+      "sha256": "a9ffbaf58608c1d32cbae042f7fe6374bdaa7ab3fc83e291a39831b52020c82c"
+    },
+    {
+      "id": 1185,
+      "scene": "bedroom_0124",
+      "split": "val",
+      "file": "1185.npz",
+      "sha256": "17df272a6da404e09e718c827ed4d438fe0eb73db99462d2966441befcf46764"
+    },
+    {
+      "id": 3,
+      "scene": "office_0003",
+      "split": "val",
+      "file": "0003.npz",
+      "sha256": "b3bfd3962af771383f62af2a2206cbe0ab605821569cc25beb2a069c0958f573"
+    },
+    {
+      "id": 1284,
+      "scene": "living_room_0050",
+      "split": "val",
+      "file": "1284.npz",
+      "sha256": "c7af1625b4ca4d5844bb1eac4a3e671f8576d5e8ebd2bc34c68d5e388c9fb6bd"
+    },
+    {
+      "id": 146,
+      "scene": "living_room_0004",
+      "split": "val",
+      "file": "0146.npz",
+      "sha256": "eb6884b320e8b721682998a0697a5099d556a0a2c4de5dfa30db85b283fa6ad0"
+    },
+    {
+      "id": 440,
+      "scene": "playroom_0006",
+      "split": "val",
+      "file": "0440.npz",
+      "sha256": "c231987b59a9e15e4b5c256209943c2b5ba2763ac6d17dd2d4f2bb533923fad1"
+    },
+    {
+      "id": 159,
+      "scene": "living_room_0010",
+      "split": "val",
+      "file": "0159.npz",
+      "sha256": "c5bd8b430d323fe883d4e0ef20b2f83da065a883af9949669ff83d196645a94a"
+    },
+    {
+      "id": 964,
+      "scene": "bedroom_0045",
+      "split": "val",
+      "file": "0964.npz",
+      "sha256": "69b6ece9e78e37d0f264ac598922e178d04b3fe28493c0441f5ed46e56843e0a"
+    },
+    {
+      "id": 179,
+      "scene": "bedroom_0004",
+      "split": "val",
+      "file": "0179.npz",
+      "sha256": "e05febc88a64a63d6e277dea01e7568b9b4e4e21817ec334d8ca83b89cf22db3"
+    },
+    {
+      "id": 527,
+      "scene": "bedroom_0136",
+      "split": "val",
+      "file": "0527.npz",
+      "sha256": "a0f8cf6b9980866be010a28b9811ca0edd109a0dabdb4f8bab8ef027277a2239"
+    },
+    {
+      "id": 49,
+      "scene": "bathroom_0006",
+      "split": "val",
+      "file": "0049.npz",
+      "sha256": "6bd771038f14a08024bfca8f354ee98381a03369b34a2a9692fdd51d692e412f"
+    },
+    {
+      "id": 291,
+      "scene": "classroom_0005",
+      "split": "val",
+      "file": "0291.npz",
+      "sha256": "23c8126af76d14a2bd3d2d0132ff3973c7f46e1debf0d4c964a2d6ab922ae97d"
+    },
+    {
+      "id": 165,
+      "scene": "living_room_0012",
+      "split": "val",
+      "file": "0165.npz",
+      "sha256": "96d9ecdba18da409dd498a35173e3d5c7fa7a2b7cfcb8a0be8d6d995acf0fd08"
+    },
+    {
+      "id": 416,
+      "scene": "office_kitchen_0003",
+      "split": "val",
+      "file": "0416.npz",
+      "sha256": "d6682f058e1708ab965b7489ed933bed66567d530b14e73ff38a1f07564e2942"
+    },
+    {
+      "id": 716,
+      "scene": "bathroom_0039",
+      "split": "val",
+      "file": "0716.npz",
+      "sha256": "a4775e7c4279e2aabc4d4cc81a859bbe06ee1da8d82bea6331132f0f428dc5b0"
+    },
+    {
+      "id": 170,
+      "scene": "bathroom_0001",
+      "split": "val",
+      "file": "0170.npz",
+      "sha256": "4974555506029a904857a219dd50f171233d66e37b3e29459b8aa69c2d17ad77"
+    },
+    {
+      "id": 1164,
+      "scene": "bedroom_0114",
+      "split": "test",
+      "file": "1164.npz",
+      "sha256": "389b6db58128193e705b936dfefcf11d476d26fd76b892fca22cac14e137cd26"
+    },
+    {
+      "id": 1306,
+      "scene": "living_room_0060",
+      "split": "test",
+      "file": "1306.npz",
+      "sha256": "74d7e6753b9a5818adf0c7c021c12eaf9a107f087237a65a892925f51f0d1b72"
+    },
+    {
+      "id": 1340,
+      "scene": "living_room_0080",
+      "split": "test",
+      "file": "1340.npz",
+      "sha256": "86a1401982a4d8acbf11a686160989e8a8ae206855d3564ccd3301870a98d830"
+    },
+    {
+      "id": 1288,
+      "scene": "living_room_0051",
+      "split": "test",
+      "file": "1288.npz",
+      "sha256": "844d8b1a0ab0e51a05b7f12930c733e81eca6726404353fdfd4db98ba8ac74d3"
+    },
+    {
+      "id": 1217,
+      "scene": "living_room_0030",
+      "split": "test",
+      "file": "1217.npz",
+      "sha256": "764f7b76df1f1f62b43783befdf4666521b70b3014db623a1ce654a7254e8e62"
+    },
+    {
+      "id": 679,
+      "scene": "bathroom_0021",
+      "split": "test",
+      "file": "0679.npz",
+      "sha256": "88771349ba9fc7be4c8225f56703593acec6e3ab18c0a39c1dd17ca6a20b49d5"
+    },
+    {
+      "id": 594,
+      "scene": "living_room_0084",
+      "split": "test",
+      "file": "0594.npz",
+      "sha256": "f3ffe9bfc15c6cbeef2c368fb4eb687e8b85e2a68197ebb6403595f1b943ff7d"
+    },
+    {
+      "id": 708,
+      "scene": "bathroom_0036",
+      "split": "test",
+      "file": "0708.npz",
+      "sha256": "b0f83abc752522b689afa73b68c2c542206bd712fa6e4f093d297891bff454cc"
+    },
+    {
+      "id": 1077,
+      "scene": "bedroom_0084",
+      "split": "test",
+      "file": "1077.npz",
+      "sha256": "e5ce0f84b93205afda875fd45f5a53d41a0e3491d4ff4d68d26dbc8fccacb532"
+    },
+    {
+      "id": 698,
+      "scene": "bathroom_0031",
+      "split": "test",
+      "file": "0698.npz",
+      "sha256": "91e3f40a194e3a149bf871f71d396881a78b1c33ac54e9cd7b3cc74086f409a7"
+    },
+    {
+      "id": 1089,
+      "scene": "bedroom_0087",
+      "split": "test",
+      "file": "1089.npz",
+      "sha256": "f0d5c6b73637373da6ae89c1d851607c8d72f8d52bb58255d944a362d5e09cb2"
+    },
+    {
+      "id": 310,
+      "scene": "classroom_0014",
+      "split": "test",
+      "file": "0310.npz",
+      "sha256": "fb47e67b73f5e141accd8dfdfd70e4155053683fbcf2f6a60752f4036e4c9290"
+    },
+    {
+      "id": 435,
+      "scene": "playroom_0005",
+      "split": "test",
+      "file": "0435.npz",
+      "sha256": "f12912e507a4be1e6acc3dadca42519025025ce55478bdf23fb51af41a9da31a"
+    },
+    {
+      "id": 559,
+      "scene": "kitchen_0055",
+      "split": "test",
+      "file": "0559.npz",
+      "sha256": "2a58ca4491e14f3a02cd23713d17e1cf68ac6d0e303f0ca4a6558951e9743f66"
+    },
+    {
+      "id": 283,
+      "scene": "bedroom_0131",
+      "split": "test",
+      "file": "0283.npz",
+      "sha256": "8b77c677414afbdbe8be123614fef1ee54a33565a8697f61d6751a7d87fd382a"
+    },
+    {
+      "id": 1276,
+      "scene": "living_room_0048",
+      "split": "test",
+      "file": "1276.npz",
+      "sha256": "0839cd9e7c18bb209851e2d17677a2e4055246ea9eea5377d7d64d9881966592"
+    },
+    {
+      "id": 1039,
+      "scene": "bedroom_0070",
+      "split": "test",
+      "file": "1039.npz",
+      "sha256": "a6834f65bc93a07dffa744b303a696cd308d9601934dabb74a6c683400b323fd"
+    },
+    {
+      "id": 1433,
+      "scene": "dining_room_0032",
+      "split": "test",
+      "file": "1433.npz",
+      "sha256": "6a332448453878542aac034cfde536926b616d7b9a123b0960372b0d54915de4"
+    },
+    {
+      "id": 173,
+      "scene": "bedroom_0003",
+      "split": "test",
+      "file": "0173.npz",
+      "sha256": "3474bf44257fbbdbf0c28bc03401c79f7e86ed5c4ae175ff06da7e6a0986e398"
+    },
+    {
+      "id": 17,
+      "scene": "office_0008",
+      "split": "test",
+      "file": "0017.npz",
+      "sha256": "2a8b3dfe646d68e7580b49bc30773c1cc8da67902fd8be812eb599d7ad69845a"
+    },
+    {
+      "id": 221,
+      "scene": "bedroom_0024",
+      "split": "test",
+      "file": "0221.npz",
+      "sha256": "5d34a8f83ef1e7d83057365868a2b70b420915f1d354ad1b88006893801e7e53"
+    },
+    {
+      "id": 390,
+      "scene": "home_office_0010",
+      "split": "test",
+      "file": "0390.npz",
+      "sha256": "ab0c12745d7c1a10c25ae675b87c05488c7087310496a4a5f12aaada514b3e0f"
+    },
+    {
+      "id": 1057,
+      "scene": "bedroom_0077",
+      "split": "test",
+      "file": "1057.npz",
+      "sha256": "814866eb9f3326b95b39b553ff90e159563bbda7ecab9bc01cfb4c2acad94d84"
+    },
+    {
+      "id": 734,
+      "scene": "bathroom_0047",
+      "split": "test",
+      "file": "0734.npz",
+      "sha256": "038f148874af8e113c369d891af10742ac6a6f8a04379c788e11ff330c3d1616"
+    },
+    {
+      "id": 1118,
+      "scene": "bedroom_0099",
+      "split": "test",
+      "file": "1118.npz",
+      "sha256": "21ca23af0b52e8f49c70f760eb0eb97a2be3c8d5924d58e05e5dcdf36faadadb"
+    },
+    {
+      "id": 1229,
+      "scene": "living_room_0034",
+      "split": "test",
+      "file": "1229.npz",
+      "sha256": "887e301105950ceb6c510f044f581740d866561080bdd77aad6c28db048b90f8"
+    },
+    {
+      "id": 300,
+      "scene": "classroom_0008",
+      "split": "test",
+      "file": "0300.npz",
+      "sha256": "53744913c7ee8715ae9055596b5f19e091bd2d5f2f272aaebf9c5b6ed6ec1ee5"
+    },
+    {
+      "id": 1448,
+      "scene": "dining_room_0036",
+      "split": "test",
+      "file": "1448.npz",
+      "sha256": "6a4aa6d0e502c8b58f30bc1d1362ce8897b5fef89db8be5e071956a861579dc1"
+    },
+    {
+      "id": 1424,
+      "scene": "dining_room_0030",
+      "split": "test",
+      "file": "1424.npz",
+      "sha256": "be498401e2ab020864c16eface388177d53bf226377d25558fdc196a2b13b4ef"
+    },
+    {
+      "id": 676,
+      "scene": "bathroom_0020",
+      "split": "test",
+      "file": "0676.npz",
+      "sha256": "bd922d7b8bb9467fd0e0a6a5ef571a9f2f850316d749586a36bf3aee33123b0c"
+    },
+    {
+      "id": 959,
+      "scene": "bedroom_0043",
+      "split": "test",
+      "file": "0959.npz",
+      "sha256": "e0f9e421cc37d81a57825ce68d63ab7202bfe2a8f0dff4773949b994cd82d0db"
+    },
+    {
+      "id": 539,
+      "scene": "bedroom_0139",
+      "split": "test",
+      "file": "0539.npz",
+      "sha256": "6d382fdeb7cf00a31c75aca5c9feed79353e4e70a67cd5bd61e8bf2d2888b46f"
+    },
+    {
+      "id": 1235,
+      "scene": "living_room_0036",
+      "split": "test",
+      "file": "1235.npz",
+      "sha256": "c731244128c8686f9e7a1ef7edd9c255e1c40a7ba1610d4a1bb17cdd24ed48c6"
+    },
+    {
+      "id": 850,
+      "scene": "kitchen_0042",
+      "split": "test",
+      "file": "0850.npz",
+      "sha256": "77d5ed5f09c0ca10ef107665eb9f613c22c93fcbd87750c4f99c228dad8fa2dd"
+    },
+    {
+      "id": 946,
+      "scene": "bedroom_0037",
+      "split": "test",
+      "file": "0946.npz",
+      "sha256": "92dbfee43a622521b3d79255e4a68db9d602026cc82f20227608f021a4970cf6"
+    },
+    {
+      "id": 352,
+      "scene": "foyer_0001",
+      "split": "test",
+      "file": "0352.npz",
+      "sha256": "9ed3252253524969a3801409b3fe0c5a69106bed6898a5a1235f678adc748efb"
+    },
+    {
+      "id": 1203,
+      "scene": "living_room_0025",
+      "split": "test",
+      "file": "1203.npz",
+      "sha256": "4fd3febb0b0d87a6681d41a016c7a82fc19c9ddc8804cf041524f17a27b1d2c9"
+    },
+    {
+      "id": 1205,
+      "scene": "living_room_0026",
+      "split": "test",
+      "file": "1205.npz",
+      "sha256": "0cfb0ece8639a87b3c45efa06ec0a2440694e75bf4fb7c69ed480954f70011f3"
+    },
+    {
+      "id": 1410,
+      "scene": "dining_room_0025",
+      "split": "test",
+      "file": "1410.npz",
+      "sha256": "7624960823a752c2956d93165b5262375b3c39e9b6ef88996f41095d1d1e9e64"
+    },
+    {
+      "id": 613,
+      "scene": "office_0020",
+      "split": "test",
+      "file": "0613.npz",
+      "sha256": "dc2a7290e8d82d405faac8b22a01c82732e0b897aff7a84e0560b9d2facdf0dd"
+    },
+    {
+      "id": 1128,
+      "scene": "bedroom_0102",
+      "split": "test",
+      "file": "1128.npz",
+      "sha256": "69aca517ae969dcaf505820a0ee474f15da65a08044d0215b281511e0f289c2a"
+    },
+    {
+      "id": 846,
+      "scene": "kitchen_0040",
+      "split": "test",
+      "file": "0846.npz",
+      "sha256": "6cce1f83468aec8c840a039e30da77dc36e72bbdfde725ba46c0278b779e9d07"
+    },
+    {
+      "id": 1034,
+      "scene": "bedroom_0068",
+      "split": "test",
+      "file": "1034.npz",
+      "sha256": "9705aa689ecb6cfbf5a3f5a39343af7f89ec3a2e9cee6238b7866b202a38f287"
+    },
+    {
+      "id": 1136,
+      "scene": "bedroom_0105",
+      "split": "test",
+      "file": "1136.npz",
+      "sha256": "d0f188ae9fd242e6f842256714d98f7978ef94592b8f18f3c5c90fc6c5b4743a"
+    },
+    {
+      "id": 834,
+      "scene": "kitchen_0038",
+      "split": "test",
+      "file": "0834.npz",
+      "sha256": "12301385f7742599c6e1721f12e5dbb2e91225779b6115f4b868ee3daddb2883"
+    },
+    {
+      "id": 264,
+      "scene": "living_room_0021",
+      "split": "test",
+      "file": "0264.npz",
+      "sha256": "8e0fce2b0fb954ae5453263cbcda7fa31f59921a1eafeab6d452252ceeecc838"
+    },
+    {
+      "id": 57,
+      "scene": "bedroom_0011",
+      "split": "test",
+      "file": "0057.npz",
+      "sha256": "035435b7bb6ccf5efb785a312287ae31b5c4d229663e0b09de4715cbdb7aefc4"
+    },
+    {
+      "id": 1248,
+      "scene": "living_room_0041",
+      "split": "test",
+      "file": "1248.npz",
+      "sha256": "85497950a431cf240d22264ad2c81738e617cb8349b66d30aade0a7efd9fd12f"
+    },
+    {
+      "id": 781,
+      "scene": "kitchen_0026",
+      "split": "test",
+      "file": "0781.npz",
+      "sha256": "e8450d7fbc0cc6b785655cf9b661dc98dd39892f38c1ab323cf8cf75eafd2e11"
+    },
+    {
+      "id": 935,
+      "scene": "bedroom_0032",
+      "split": "test",
+      "file": "0935.npz",
+      "sha256": "54f41ae5008393830869d69efa6a24b432ce11a61744c68f9cdcbcbef0724d33"
+    },
+    {
+      "id": 727,
+      "scene": "bathroom_0044",
+      "split": "test",
+      "file": "0727.npz",
+      "sha256": "c5048a7a32e7528de704ae4963045a30c0f6e9dfeb7b0e12806014eccae6b281"
+    },
+    {
+      "id": 332,
+      "scene": "classroom_0026",
+      "split": "test",
+      "file": "0332.npz",
+      "sha256": "754e888f4cefbb17338f5c595d9375c4db2e2fe5a592db83a8380e1a0fabbfb0"
+    },
+    {
+      "id": 330,
+      "scene": "classroom_0024",
+      "split": "test",
+      "file": "0330.npz",
+      "sha256": "332a759a3e707fd168f78336aab6ae8d87d2d4cfdfd90792f94dca1425695137"
+    },
+    {
+      "id": 918,
+      "scene": "bedroom_0027",
+      "split": "test",
+      "file": "0918.npz",
+      "sha256": "0770916c40e7d14000543b0312c88f004515ae3771969ae5fb4892c8bf64e7dd"
+    },
+    {
+      "id": 927,
+      "scene": "bedroom_0030",
+      "split": "test",
+      "file": "0927.npz",
+      "sha256": "5489284ace0ba1f1671f861e87aee378d53f4f4fe385d682d6b712eee022d95b"
+    },
+    {
+      "id": 1147,
+      "scene": "bedroom_0109",
+      "split": "test",
+      "file": "1147.npz",
+      "sha256": "362319967cbd9d293906759c5b1a85574a82c9a9bb07b242fd685342674654f8"
+    },
+    {
+      "id": 1303,
+      "scene": "living_room_0059",
+      "split": "test",
+      "file": "1303.npz",
+      "sha256": "4ecde6c67d6b40f1c6d8a2d47028839bcc20f9bae451f70981f1356751ac01d1"
+    },
+    {
+      "id": 137,
+      "scene": "kitchen_0009",
+      "split": "test",
+      "file": "0137.npz",
+      "sha256": "25b74eb3d65bc8c3da5404afc5819ff644dd8bc9b9548b2e952bf12a24c44425"
+    },
+    {
+      "id": 154,
+      "scene": "living_room_0008",
+      "split": "test",
+      "file": "0154.npz",
+      "sha256": "1b81dd7fb5d44f4aa45d6c467b486b7059ad358481292c78ada1b34293de5aee"
+    },
+    {
+      "id": 561,
+      "scene": "kitchen_0056",
+      "split": "test",
+      "file": "0561.npz",
+      "sha256": "895687d65dce2215e82e2663c8c451f2903370ab4adf317421efc7bce003bd7b"
+    },
+    {
+      "id": 966,
+      "scene": "bedroom_0046",
+      "split": "test",
+      "file": "0966.npz",
+      "sha256": "f95f02d2039cc7f4e9a779c0251120bef010eb6b9a1ee87a40fd2b519ded1fd3"
+    },
+    {
+      "id": 442,
+      "scene": "playroom_0007",
+      "split": "test",
+      "file": "0442.npz",
+      "sha256": "1e3501e0405026d6de0e8cafb2f3f7895c7f7b54b1d1fa23a2da70e21b78ec8b"
+    },
+    {
+      "id": 1098,
+      "scene": "bedroom_0091",
+      "split": "test",
+      "file": "1098.npz",
+      "sha256": "b8ab9bd4a8c8a883e0ef1426ba9aaee96d22b7893f118a4512dffa959afce210"
+    },
+    {
+      "id": 1211,
+      "scene": "living_room_0028",
+      "split": "test",
+      "file": "1211.npz",
+      "sha256": "58ef1ad2dd8d0db33bdde279a67f584f40d168fd8aa7dbaf64be3494fa96d5d8"
+    }
+  ],
+  "selection_plan_sha256": "7d89d85bcc2f0230a46cb3d812da899e8986441b0504ce5f195ac36142ceadda"
+}
