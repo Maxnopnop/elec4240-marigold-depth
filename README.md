@@ -4,6 +4,28 @@ A local course-project study that measures the accuracy and compute cost of adap
 
 **Provenance correction (2026-10-01):** the fixed Depth Anything V2 indoor reference is metric-fine-tuned on **Hypersim**, not NYUv2. Earlier NYUv2-supervision wording and the overlap inference derived from it are withdrawn; measured results are unchanged. See [the correction and pinned primary sources](CORRECTIONS.md).
 
+## Prospective external validation: prospective_v4
+
+The [sample-size study](results/prospective_v4/power/RESULTS.md) explores 480 planning scenarios using only earlier NYUv2 results. Under a hypothetical 0.009 AbsRel gain and fresh31-like error variation, 200 new groups yield approximately **84.3%** estimated power; inflating the error SD by 1.5 lowers it to **38.5%**. These are conditional planning approximations with uncertainty in the pilot distribution, not guarantees of significance.
+
+The [frozen external protocol](PROSPECTIVE_PROTOCOL.md) selects **200 SUN3D-source space groups**, one image per group, from the official SUNRGBD archive. All NYUv2-containing branches are excluded. Source grouping yields 63 broader location proxies for a clustering sensitivity. The complete matrix reuses all 30 v3 adapters, original Marigold at two resolutions, and a descriptive specialist reference: **63 conditions / 12,600 predictions**. No additional training, external calibration, checkpoint selection, or significance-based stopping is allowed. The sample manifest and code were committed as `1fa376f` before external prediction.
+
+After official-host connectivity failures, a pinned public mirror supplied archive members checked against the official central-directory names, lengths and CRC32 values. The original failed availability attempt and final successful acquisition audit are retained. All 200 selected groups passed the original first-choice selection and QC rules; no result-driven substitution occurred.
+
+**Completed findings:** all **12,600 predictions** passed audit. At **256 inference**, mixed training reduces aligned AbsRel from **0.11106 to 0.09632 (13.3%)**, supported by nested/crossed Holm p=0.00030/0.00030 and broader-location p=0.00150. It also beats high512-only training at 256 (all three adjusted p=0.00030). At **512 inference**, mixed reaches **0.07038 versus 0.07224 (2.6% lower)**, but the primary tests remain nonsignificant (Holm p=0.29684/0.30778; location p=0.61617). The actual mean gain of 0.00186 is much smaller than the assumed 0.009 planning gain. The study supports a low-resolution benefit on this cohort; it does not establish a resolution interaction or universal superiority.
+
+Fixed-calibration mixed512 AbsRel is **0.37886**, versus specialist **0.18231**; absolute-distance accuracy remains a limitation. The earlier fresh31 NYUv2 result is unchanged. Read the [complete English report](results/prospective_v4/RESULTS.md), [prediction audit](results/prospective_v4/verification.json), and [delivery checks](results/prospective_v4/delivery_checks.json). Three figures show the scores, complete comparison family, and examples fixed before outcome inspection. No new training was required; measured inference totaled **32.10 minutes**, peaking at **2,946.7 MiB** allocated VRAM (loading and audit excluded).
+
+Exact local resume/audit uses the retained v3 checkpoints and old validation predictions for restoration checks, plus the pinned assets and new raw dataset/predictions outside Git:
+
+```powershell
+.\run_prospective.ps1
+# To recompute/check all saved predictions without new inference:
+.\run_prospective.ps1 -AuditOnly
+```
+
+This wrapper replays the frozen local study; a clone alone lacks excluded weights and raw arrays. Regenerate the earlier experiments and acquire the new data before attempting inference. Strict checkpoint/restoration checks intentionally reject mismatched training artifacts. This external subset is not the standard full SUNRGBD benchmark, and its raw-depth full-image mask differs from the earlier NYUv2 crop.
+
 ## Robustness replication: robustness_v3
 
 The [frozen replication design](ROBUSTNESS_PROTOCOL.md) directly examines the limitations of the earlier single-training-set result. It uses **three new random draws of 128 training scenes**, **five training seeds**, and two fixed methods (high512 and mixed): 30 new training runs. The primary test contains **all 31 previously unused official test scenes**. The earlier 64-scene cohort is reported separately as an already observed replication cohort; the two cohorts are not described as 95 unseen scenes.

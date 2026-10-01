@@ -1,0 +1,122 @@
+[
+  {
+    "compared": "mixed_r256",
+    "reference": "base_r256",
+    "hierarchical": {
+      "difference": -0.014740634485450765,
+      "ci_low": -0.019899963708573238,
+      "ci_high": -0.009581305262328293,
+      "bonferroni_ci_low": -0.021693556877521086,
+      "bonferroni_ci_high": -0.0077877120933804445,
+      "p_bootstrap_reproduced": 4.999750012499375e-05
+    },
+    "crossed": {
+      "difference": -0.014740634485450765,
+      "ci_low": -0.01987680737865008,
+      "ci_high": -0.009604461592251451,
+      "bonferroni_ci_low": -0.02173365445680523,
+      "bonferroni_ci_high": -0.007747614514096301,
+      "p_bootstrap_reproduced": 4.999750012499375e-05
+    }
+  },
+  {
+    "compared": "mixed_r512",
+    "reference": "base_r512",
+    "hierarchical": {
+      "difference": -0.0018571867523776366,
+      "ci_low": -0.00405770392231638,
+      "ci_high": 0.00034333041756110655,
+      "bonferroni_ci_low": -0.004827654615756544,
+      "bonferroni_ci_high": 0.0011132811110012705,
+      "p_bootstrap_reproduced": 0.09894505274736264
+    },
+    "crossed": {
+      "difference": -0.0018571867523776366,
+      "ci_low": -0.004082565237559935,
+      "ci_high": 0.0003681917328046615,
+      "bonferroni_ci_low": -0.004905056103476127,
+      "bonferroni_ci_high": 0.0011906825987208535,
+      "p_bootstrap_reproduced": 0.10259487025648717
+    }
+  },
+  {
+    "compared": "high512_r256",
+    "reference": "base_r256",
+    "hierarchical": {
+      "difference": 0.0008200728553111725,
+      "ci_low": -0.003362187046497534,
+      "ci_high": 0.005002332757119879,
+      "bonferroni_ci_low": -0.004835264658424348,
+      "bonferroni_ci_high": 0.0064754103690466925,
+      "p_bootstrap_reproduced": 0.6984650767461626
+    },
+    "crossed": {
+      "difference": 0.0008200728553111725,
+      "ci_low": -0.003712486911934789,
+      "ci_high": 0.005352632622557134,
+      "bonferroni_ci_low": -0.005216377856154642,
+      "bonferroni_ci_high": 0.006856523566776987,
+      "p_bootstrap_reproduced": 0.7170641467926604
+    }
+  },
+  {
+    "compared": "high512_r512",
+    "reference": "base_r512",
+    "hierarchical": {
+      "difference": -0.000701590587593296,
+      "ci_low": -0.002710651201516796,
+      "ci_high": 0.0013074700263302037,
+      "bonferroni_ci_low": -0.003493178952065748,
+      "bonferroni_ci_high": 0.0020899977768791553,
+      "p_bootstrap_reproduced": 0.496225188740563
+    },
+    "crossed": {
+      "difference": -0.000701590587593296,
+      "ci_low": -0.002791574922231731,
+      "ci_high": 0.0013883937470451386,
+      "bonferroni_ci_low": -0.003530867057676042,
+      "bonferroni_ci_high": 0.0021276858824894503,
+      "p_bootstrap_reproduced": 0.5059247037648118
+    }
+  },
+  {
+    "compared": "mixed_r256",
+    "reference": "high512_r256",
+    "hierarchical": {
+      "difference": -0.015560707340761936,
+      "ci_low": -0.01950541812433082,
+      "ci_high": -0.011615996557193052,
+      "bonferroni_ci_low": -0.02092971427085744,
+      "bonferroni_ci_high": -0.010191700410666433,
+      "p_bootstrap_reproduced": 4.999750012499375e-05
+    },
+    "crossed": {
+      "difference": -0.015560707340761936,
+      "ci_low": -0.01977951657652973,
+      "ci_high": -0.011341898104994141,
+      "bonferroni_ci_low": -0.02143805762244896,
+      "bonferroni_ci_high": -0.009683357059074912,
+      "p_bootstrap_reproduced": 4.999750012499375e-05
+    }
+  },
+  {
+    "compared": "mixed_r512",
+    "reference": "high512_r512",
+    "hierarchical": {
+      "difference": -0.0011555961647843405,
+      "ci_low": -0.002398025882031969,
+      "ci_high": 8.683355246328793e-05,
+      "bonferroni_ci_low": -0.002890352170572979,
+      "bonferroni_ci_high": 0.0005791598410042978,
+      "p_bootstrap_reproduced": 0.06659667016649168
+    },
+    "crossed": {
+      "difference": -0.0011555961647843405,
+      "ci_low": -0.0024190047200189904,
+      "ci_high": 0.00010781239045030912,
+      "bonferroni_ci_low": -0.0029780581141888047,
+      "bonferroni_ci_high": 0.0006668657846201236,
+      "p_bootstrap_reproduced": 0.07009649517524123
+    }
+  }
+]

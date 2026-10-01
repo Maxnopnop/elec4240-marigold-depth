@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "historical_result_blobs_unchanged": 788,
+  "frozen_source_hashes_verified": 9,
+  "first_200_ranked_spaces_selected": true,
+  "all_first_ranked_frames_selected": true,
+  "prediction_metrics_verified": 12600,
+  "distinct_source_groups": 200,
+  "broader_location_proxies": 63,
+  "source_image_depth_pairs_redecoded": 200,
+  "source_member_crcs_and_hashes_verified": 400,
+  "no_raw_arrays_or_weights_tracked": true,
+  "report_relative_links_valid": true
+}
