@@ -1,0 +1,221 @@
+{
+  "version": "robustness_v3",
+  "matrix": [
+    {
+      "run_id": "base",
+      "mode": "base",
+      "draw": null,
+      "seed": null
+    },
+    {
+      "run_id": "draw1_high512_seed17",
+      "mode": "high512",
+      "draw": "draw1",
+      "seed": 17
+    },
+    {
+      "run_id": "draw1_mixed_seed17",
+      "mode": "mixed",
+      "draw": "draw1",
+      "seed": 17
+    },
+    {
+      "run_id": "draw1_high512_seed29",
+      "mode": "high512",
+      "draw": "draw1",
+      "seed": 29
+    },
+    {
+      "run_id": "draw1_mixed_seed29",
+      "mode": "mixed",
+      "draw": "draw1",
+      "seed": 29
+    },
+    {
+      "run_id": "draw1_high512_seed43",
+      "mode": "high512",
+      "draw": "draw1",
+      "seed": 43
+    },
+    {
+      "run_id": "draw1_mixed_seed43",
+      "mode": "mixed",
+      "draw": "draw1",
+      "seed": 43
+    },
+    {
+      "run_id": "draw1_high512_seed59",
+      "mode": "high512",
+      "draw": "draw1",
+      "seed": 59
+    },
+    {
+      "run_id": "draw1_mixed_seed59",
+      "mode": "mixed",
+      "draw": "draw1",
+      "seed": 59
+    },
+    {
+      "run_id": "draw1_high512_seed71",
+      "mode": "high512",
+      "draw": "draw1",
+      "seed": 71
+    },
+    {
+      "run_id": "draw1_mixed_seed71",
+      "mode": "mixed",
+      "draw": "draw1",
+      "seed": 71
+    },
+    {
+      "run_id": "draw2_high512_seed17",
+      "mode": "high512",
+      "draw": "draw2",
+      "seed": 17
+    },
+    {
+      "run_id": "draw2_mixed_seed17",
+      "mode": "mixed",
+      "draw": "draw2",
+      "seed": 17
+    },
+    {
+      "run_id": "draw2_high512_seed29",
+      "mode": "high512",
+      "draw": "draw2",
+      "seed": 29
+    },
+    {
+      "run_id": "draw2_mixed_seed29",
+      "mode": "mixed",
+      "draw": "draw2",
+      "seed": 29
+    },
+    {
+      "run_id": "draw2_high512_seed43",
+      "mode": "high512",
+      "draw": "draw2",
+      "seed": 43
+    },
+    {
+      "run_id": "draw2_mixed_seed43",
+      "mode": "mixed",
+      "draw": "draw2",
+      "seed": 43
+    },
+    {
+      "run_id": "draw2_high512_seed59",
+      "mode": "high512",
+      "draw": "draw2",
+      "seed": 59
+    },
+    {
+      "run_id": "draw2_mixed_seed59",
+      "mode": "mixed",
+      "draw": "draw2",
+      "seed": 59
+    },
+    {
+      "run_id": "draw2_high512_seed71",
+      "mode": "high512",
+      "draw": "draw2",
+      "seed": 71
+    },
+    {
+      "run_id": "draw2_mixed_seed71",
+      "mode": "mixed",
+      "draw": "draw2",
+      "seed": 71
+    },
+    {
+      "run_id": "draw3_high512_seed17",
+      "mode": "high512",
+      "draw": "draw3",
+      "seed": 17
+    },
+    {
+      "run_id": "draw3_mixed_seed17",
+      "mode": "mixed",
+      "draw": "draw3",
+      "seed": 17
+    },
+    {
+      "run_id": "draw3_high512_seed29",
+      "mode": "high512",
+      "draw": "draw3",
+      "seed": 29
+    },
+    {
+      "run_id": "draw3_mixed_seed29",
+      "mode": "mixed",
+      "draw": "draw3",
+      "seed": 29
+    },
+    {
+      "run_id": "draw3_high512_seed43",
+      "mode": "high512",
+      "draw": "draw3",
+      "seed": 43
+    },
+    {
+      "run_id": "draw3_mixed_seed43",
+      "mode": "mixed",
+      "draw": "draw3",
+      "seed": 43
+    },
+    {
+      "run_id": "draw3_high512_seed59",
+      "mode": "high512",
+      "draw": "draw3",
+      "seed": 59
+    },
+    {
+      "run_id": "draw3_mixed_seed59",
+      "mode": "mixed",
+      "draw": "draw3",
+      "seed": 59
+    },
+    {
+      "run_id": "draw3_high512_seed71",
+      "mode": "high512",
+      "draw": "draw3",
+      "seed": 71
+    },
+    {
+      "run_id": "draw3_mixed_seed71",
+      "mode": "mixed",
+      "draw": "draw3",
+      "seed": 71
+    },
+    {
+      "run_id": "expert256",
+      "mode": "expert",
+      "draw": null,
+      "seed": null,
+      "input_long_side": 256
+    },
+    {
+      "run_id": "expert504",
+      "mode": "expert",
+      "draw": null,
+      "seed": null,
+      "input_long_side": 504
+    }
+  ],
+  "training_steps": 320,
+  "resolutions": [
+    256,
+    512
+  ],
+  "inference_seed_offset": 17,
+  "manifest_sha256": "5ca21fdd731a4232b4a0e945cf62e950ce2c3dbb69a5b4bfb5f11fbf6defc0be",
+  "protocol_sha256": "c354b0077fe9c95944576bc891dfc38ad907a1513e17e7523ec58e628aaa1745",
+  "source_sha256": {
+    "run_robustness.py": "c37e2c7e96440a61a94a10fcc4b98438fee4a70dcd6fe6e033c05802d1b7097e",
+    "prepare_robustness.py": "130009cf19ad5d1c953d8800c2a7678c651cb769a74e6825678f969851cffe06",
+    "train_scaleup.py": "15466ee5b954c018684a30ea686782292b801d5984085ec869c6246224d5dd44",
+    "experiment.py": "e7dff5abdbf44e23cfafc7d375805549266fffe8acb2264a8efd437be3ee7e0a",
+    "run_expanded.py": "f82431774fabe83da81ecb56c16f900a77495c1cc088caf4c813f74b5bb9ef07",
+    "robustness_stats.py": "2af9e178a674a6133e33d1875436474ae94064f08197c27d7a65295c71fa994f"
+  }
+}

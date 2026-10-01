@@ -1,0 +1,3712 @@
+{
+  "version": "robustness_v3",
+  "source_manifests": {
+    "results\\expanded_v1\\split_manifest.json": "b35c0afb3c6bea49068bb61609a1f74181cf1654847b7f836f85c98ed1a67ee7",
+    "results\\scaleup_v2\\split_manifest.json": "e36024e4c81cf7d40e7fc7623504ae9f4b1ec43bbf947825fd1bc85a0b23e28f"
+  },
+  "census_sha256": "15a5c60863af0d0b08a0581335104a7398c25a459e21d1b0efd750953bfbafe9",
+  "selection_seeds": [
+    4261,
+    4262,
+    4263
+  ],
+  "counts": {
+    "train_per_draw": 128,
+    "draws": 3,
+    "validation": 32,
+    "observed64": 64,
+    "fresh31": 31
+  },
+  "draws": {
+    "draw1": [
+      {
+        "id": 614,
+        "scene": "office_0021",
+        "file": "0614.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 888,
+        "scene": "kitchen_0051",
+        "file": "0888.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 377,
+        "scene": "home_office_0007",
+        "file": "0377.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 260,
+        "scene": "living_room_0020",
+        "file": "0260.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1213,
+        "scene": "living_room_0029",
+        "file": "1213.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 702,
+        "scene": "bathroom_0034",
+        "file": "0702.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1113,
+        "scene": "bedroom_0097",
+        "file": "1113.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 80,
+        "scene": "bedroom_0019",
+        "file": "0080.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1024,
+        "scene": "bedroom_0065",
+        "file": "1024.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 67,
+        "scene": "bedroom_0015",
+        "file": "0067.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 152,
+        "scene": "living_room_0006",
+        "file": "0152.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 588,
+        "scene": "living_room_0083",
+        "file": "0588.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 452,
+        "scene": "reception_room_0001",
+        "file": "0452.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 722,
+        "scene": "bathroom_0042",
+        "file": "0722.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 303,
+        "scene": "classroom_0010",
+        "file": "0303.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 788,
+        "scene": "kitchen_0028",
+        "file": "0788.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 929,
+        "scene": "bedroom_0031",
+        "file": "0929.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 276,
+        "scene": "study_room_0005",
+        "file": "0276.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1050,
+        "scene": "bedroom_0074",
+        "file": "1050.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1199,
+        "scene": "bedroom_0130",
+        "file": "1199.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 948,
+        "scene": "bedroom_0038",
+        "file": "0948.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 503,
+        "scene": "bathroom_0056",
+        "file": "0503.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1059,
+        "scene": "bedroom_0078",
+        "file": "1059.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 584,
+        "scene": "living_room_0082",
+        "file": "0584.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 353,
+        "scene": "foyer_0002",
+        "file": "0353.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1110,
+        "scene": "bedroom_0096",
+        "file": "1110.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1361,
+        "scene": "dining_room_0008",
+        "file": "1361.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 223,
+        "scene": "furniture_store_0001",
+        "file": "0223.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 403,
+        "scene": "indoor_balcony_0001",
+        "file": "0403.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1238,
+        "scene": "living_room_0038",
+        "file": "1238.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1415,
+        "scene": "dining_room_0028",
+        "file": "1415.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1044,
+        "scene": "bedroom_0072",
+        "file": "1044.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 339,
+        "scene": "conference_room_0001",
+        "file": "0339.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 142,
+        "scene": "kitchen_0011",
+        "file": "0142.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 251,
+        "scene": "kitchen_0016",
+        "file": "0251.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 130,
+        "scene": "kitchen_0006",
+        "file": "0130.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1221,
+        "scene": "living_room_0032",
+        "file": "1221.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 659,
+        "scene": "bathroom_0013",
+        "file": "0659.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1120,
+        "scene": "bedroom_0100",
+        "file": "1120.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1187,
+        "scene": "bedroom_0125",
+        "file": "1187.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 665,
+        "scene": "bathroom_0016",
+        "file": "0665.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 938,
+        "scene": "bedroom_0034",
+        "file": "0938.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 552,
+        "scene": "home_office_0013",
+        "file": "0552.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 288,
+        "scene": "classroom_0004",
+        "file": "0288.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 936,
+        "scene": "bedroom_0033",
+        "file": "0936.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 391,
+        "scene": "home_office_0011",
+        "file": "0391.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 978,
+        "scene": "bedroom_0050",
+        "file": "0978.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1251,
+        "scene": "living_room_0042",
+        "file": "1251.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1378,
+        "scene": "dining_room_0015",
+        "file": "1378.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 872,
+        "scene": "kitchen_0047",
+        "file": "0872.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1115,
+        "scene": "bedroom_0098",
+        "file": "1115.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1392,
+        "scene": "dining_room_0019",
+        "file": "1392.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 265,
+        "scene": "living_room_0022",
+        "file": "0265.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1177,
+        "scene": "bedroom_0120",
+        "file": "1177.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 478,
+        "scene": "study_0003",
+        "file": "0478.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 943,
+        "scene": "bedroom_0036",
+        "file": "0943.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1434,
+        "scene": "dining_room_0033",
+        "file": "1434.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1159,
+        "scene": "bedroom_0113",
+        "file": "1159.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1382,
+        "scene": "dining_room_0016",
+        "file": "1382.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 253,
+        "scene": "kitchen_0017",
+        "file": "0253.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 624,
+        "scene": "office_0024",
+        "file": "0624.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1168,
+        "scene": "bedroom_0116",
+        "file": "1168.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1005,
+        "scene": "bedroom_0059",
+        "file": "1005.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 490,
+        "scene": "basement_0001",
+        "file": "0490.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1372,
+        "scene": "dining_room_0013",
+        "file": "1372.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 213,
+        "scene": "office_0000",
+        "file": "0213.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 920,
+        "scene": "bedroom_0028",
+        "file": "0920.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 682,
+        "scene": "bathroom_0023",
+        "file": "0682.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1054,
+        "scene": "bedroom_0076",
+        "file": "1054.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1066,
+        "scene": "bedroom_0080",
+        "file": "1066.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 514,
+        "scene": "bedroom_0132",
+        "file": "0514.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 863,
+        "scene": "kitchen_0045",
+        "file": "0863.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 372,
+        "scene": "home_office_0006",
+        "file": "0372.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 648,
+        "scene": "bathroom_0007",
+        "file": "0648.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1132,
+        "scene": "bedroom_0104",
+        "file": "1132.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1085,
+        "scene": "bedroom_0086",
+        "file": "1085.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 540,
+        "scene": "bedroom_0140",
+        "file": "0540.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1097,
+        "scene": "bedroom_0090",
+        "file": "1097.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1013,
+        "scene": "bedroom_0062",
+        "file": "1013.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 135,
+        "scene": "kitchen_0008",
+        "file": "0135.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1376,
+        "scene": "dining_room_0014",
+        "file": "1376.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 998,
+        "scene": "bedroom_0057",
+        "file": "0998.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 286,
+        "scene": "classroom_0003",
+        "file": "0286.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 5,
+        "scene": "office_0004",
+        "file": "0005.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 830,
+        "scene": "kitchen_0037",
+        "file": "0830.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1404,
+        "scene": "dining_room_0024",
+        "file": "1404.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 739,
+        "scene": "bathroom_0050",
+        "file": "0739.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 674,
+        "scene": "bathroom_0019",
+        "file": "0674.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 68,
+        "scene": "bedroom_0016",
+        "file": "0068.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 458,
+        "scene": "reception_room_0002",
+        "file": "0458.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 661,
+        "scene": "bathroom_0014",
+        "file": "0661.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 609,
+        "scene": "office_0019",
+        "file": "0609.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1236,
+        "scene": "living_room_0037",
+        "file": "1236.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1317,
+        "scene": "living_room_0068",
+        "file": "1317.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1172,
+        "scene": "bedroom_0118",
+        "file": "1172.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1312,
+        "scene": "living_room_0063",
+        "file": "1312.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 895,
+        "scene": "kitchen_0052",
+        "file": "0895.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1008,
+        "scene": "bedroom_0060",
+        "file": "1008.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 608,
+        "scene": "office_0018",
+        "file": "0608.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 321,
+        "scene": "classroom_0022",
+        "file": "0321.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 217,
+        "scene": "bedroom_0020",
+        "file": "0217.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 499,
+        "scene": "bathroom_0054",
+        "file": "0499.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1029,
+        "scene": "bedroom_0067",
+        "file": "1029.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1333,
+        "scene": "living_room_0078",
+        "file": "1333.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 958,
+        "scene": "bedroom_0042",
+        "file": "0958.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1027,
+        "scene": "bedroom_0066",
+        "file": "1027.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1320,
+        "scene": "living_room_0069",
+        "file": "1320.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1309,
+        "scene": "living_room_0062",
+        "file": "1309.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 48,
+        "scene": "bathroom_0005",
+        "file": "0048.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 336,
+        "scene": "computer_lab_0002",
+        "file": "0336.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 700,
+        "scene": "bathroom_0033",
+        "file": "0700.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 986,
+        "scene": "bedroom_0052",
+        "file": "0986.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 500,
+        "scene": "bathroom_0055",
+        "file": "0500.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 735,
+        "scene": "bathroom_0048",
+        "file": "0735.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 684,
+        "scene": "bathroom_0024",
+        "file": "0684.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 318,
+        "scene": "classroom_0018",
+        "file": "0318.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 398,
+        "scene": "home_storage_0001",
+        "file": "0398.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 719,
+        "scene": "bathroom_0041",
+        "file": "0719.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 795,
+        "scene": "kitchen_0029",
+        "file": "0795.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1244,
+        "scene": "living_room_0040",
+        "file": "1244.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 348,
+        "scene": "excercise_room_0001",
+        "file": "0348.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 639,
+        "scene": "student_lounge_0001",
+        "file": "0639.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 981,
+        "scene": "bedroom_0051",
+        "file": "0981.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 950,
+        "scene": "bedroom_0039",
+        "file": "0950.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1231,
+        "scene": "living_room_0035",
+        "file": "1231.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 628,
+        "scene": "office_0025",
+        "file": "0628.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 255,
+        "scene": "living_room_0018",
+        "file": "0255.npz",
+        "split": "train",
+        "cohort": "draw1"
+      },
+      {
+        "id": 1417,
+        "scene": "dining_room_0029",
+        "file": "1417.npz",
+        "split": "train",
+        "cohort": "draw1"
+      }
+    ],
+    "draw2": [
+      {
+        "id": 506,
+        "scene": "bathroom_0057",
+        "file": "0506.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1066,
+        "scene": "bedroom_0080",
+        "file": "1066.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 552,
+        "scene": "home_office_0013",
+        "file": "0552.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 138,
+        "scene": "kitchen_0010",
+        "file": "0138.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 251,
+        "scene": "kitchen_0016",
+        "file": "0251.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 342,
+        "scene": "conference_room_0002",
+        "file": "0342.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 989,
+        "scene": "bedroom_0053",
+        "file": "0989.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1141,
+        "scene": "bedroom_0107",
+        "file": "1141.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 884,
+        "scene": "kitchen_0050",
+        "file": "0884.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1059,
+        "scene": "bedroom_0078",
+        "file": "1059.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 306,
+        "scene": "classroom_0011",
+        "file": "0306.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1199,
+        "scene": "bedroom_0130",
+        "file": "1199.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 691,
+        "scene": "bathroom_0028",
+        "file": "0691.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 151,
+        "scene": "living_room_0005",
+        "file": "0151.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1187,
+        "scene": "bedroom_0125",
+        "file": "1187.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 503,
+        "scene": "bathroom_0056",
+        "file": "0503.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 288,
+        "scene": "classroom_0004",
+        "file": "0288.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 339,
+        "scene": "conference_room_0001",
+        "file": "0339.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 639,
+        "scene": "student_lounge_0001",
+        "file": "0639.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 50,
+        "scene": "living_room_0000",
+        "file": "0050.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 398,
+        "scene": "home_storage_0001",
+        "file": "0398.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 64,
+        "scene": "bedroom_0014",
+        "file": "0064.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 260,
+        "scene": "living_room_0020",
+        "file": "0260.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1271,
+        "scene": "living_room_0047",
+        "file": "1271.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 318,
+        "scene": "classroom_0018",
+        "file": "0318.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 952,
+        "scene": "bedroom_0040",
+        "file": "0952.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 534,
+        "scene": "bedroom_0138",
+        "file": "0534.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 624,
+        "scene": "office_0024",
+        "file": "0624.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1350,
+        "scene": "dining_room_0004",
+        "file": "1350.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1378,
+        "scene": "dining_room_0015",
+        "file": "1378.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1434,
+        "scene": "dining_room_0033",
+        "file": "1434.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1008,
+        "scene": "bedroom_0060",
+        "file": "1008.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 695,
+        "scene": "bathroom_0030",
+        "file": "0695.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 588,
+        "scene": "living_room_0083",
+        "file": "0588.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 497,
+        "scene": "bathroom_0053",
+        "file": "0497.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 421,
+        "scene": "playroom_0003",
+        "file": "0421.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 659,
+        "scene": "bathroom_0013",
+        "file": "0659.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1316,
+        "scene": "living_room_0067",
+        "file": "1316.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 391,
+        "scene": "home_office_0011",
+        "file": "0391.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 219,
+        "scene": "bedroom_0021",
+        "file": "0219.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 938,
+        "scene": "bedroom_0034",
+        "file": "0938.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 408,
+        "scene": "office_kitchen_0001",
+        "file": "0408.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 929,
+        "scene": "bedroom_0031",
+        "file": "0929.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 923,
+        "scene": "bedroom_0029",
+        "file": "0923.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1159,
+        "scene": "bedroom_0113",
+        "file": "1159.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 426,
+        "scene": "playroom_0004",
+        "file": "0426.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1266,
+        "scene": "living_room_0046",
+        "file": "1266.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 805,
+        "scene": "kitchen_0031",
+        "file": "0805.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 217,
+        "scene": "bedroom_0020",
+        "file": "0217.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1213,
+        "scene": "living_room_0029",
+        "file": "1213.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1372,
+        "scene": "dining_room_0013",
+        "file": "1372.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 500,
+        "scene": "bathroom_0055",
+        "file": "0500.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1309,
+        "scene": "living_room_0062",
+        "file": "1309.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 909,
+        "scene": "bedroom_0025",
+        "file": "0909.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 353,
+        "scene": "foyer_0002",
+        "file": "0353.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 729,
+        "scene": "bathroom_0045",
+        "file": "0729.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 120,
+        "scene": "cafe_0001",
+        "file": "0120.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 499,
+        "scene": "bathroom_0054",
+        "file": "0499.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 665,
+        "scene": "bathroom_0016",
+        "file": "0665.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 372,
+        "scene": "home_office_0006",
+        "file": "0372.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 628,
+        "scene": "office_0025",
+        "file": "0628.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1120,
+        "scene": "bedroom_0100",
+        "file": "1120.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1417,
+        "scene": "dining_room_0029",
+        "file": "1417.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1168,
+        "scene": "bedroom_0116",
+        "file": "1168.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 740,
+        "scene": "bathroom_0051",
+        "file": "0740.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 68,
+        "scene": "bedroom_0016",
+        "file": "0068.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 872,
+        "scene": "kitchen_0047",
+        "file": "0872.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 336,
+        "scene": "computer_lab_0002",
+        "file": "0336.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 380,
+        "scene": "home_office_0008",
+        "file": "0380.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1251,
+        "scene": "living_room_0042",
+        "file": "1251.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1085,
+        "scene": "bedroom_0086",
+        "file": "1085.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 482,
+        "scene": "study_0004",
+        "file": "0482.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 609,
+        "scene": "office_0019",
+        "file": "0609.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1177,
+        "scene": "bedroom_0120",
+        "file": "1177.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1115,
+        "scene": "bedroom_0098",
+        "file": "1115.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1027,
+        "scene": "bedroom_0066",
+        "file": "1027.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 514,
+        "scene": "bedroom_0132",
+        "file": "0514.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1238,
+        "scene": "living_room_0038",
+        "file": "1238.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 265,
+        "scene": "living_room_0022",
+        "file": "0265.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1312,
+        "scene": "living_room_0063",
+        "file": "1312.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1324,
+        "scene": "living_room_0070",
+        "file": "1324.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1346,
+        "scene": "dining_room_0002",
+        "file": "1346.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 661,
+        "scene": "bathroom_0014",
+        "file": "0661.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1105,
+        "scene": "bedroom_0094",
+        "file": "1105.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1361,
+        "scene": "dining_room_0008",
+        "file": "1361.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 920,
+        "scene": "bedroom_0028",
+        "file": "0920.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1244,
+        "scene": "living_room_0040",
+        "file": "1244.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1137,
+        "scene": "bedroom_0106",
+        "file": "1137.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1024,
+        "scene": "bedroom_0065",
+        "file": "1024.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 674,
+        "scene": "bathroom_0019",
+        "file": "0674.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 705,
+        "scene": "bathroom_0035",
+        "file": "0705.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 815,
+        "scene": "kitchen_0033",
+        "file": "0815.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 863,
+        "scene": "kitchen_0045",
+        "file": "0863.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 239,
+        "scene": "furniture_store_0002",
+        "file": "0239.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1357,
+        "scene": "dining_room_0007",
+        "file": "1357.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 888,
+        "scene": "kitchen_0051",
+        "file": "0888.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 10,
+        "scene": "office_0006",
+        "file": "0010.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 622,
+        "scene": "office_0023",
+        "file": "0622.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 986,
+        "scene": "bedroom_0052",
+        "file": "0986.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 223,
+        "scene": "furniture_store_0001",
+        "file": "0223.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1113,
+        "scene": "bedroom_0097",
+        "file": "1113.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1062,
+        "scene": "bedroom_0079",
+        "file": "1062.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 104,
+        "scene": "bookstore_0000",
+        "file": "0104.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1404,
+        "scene": "dining_room_0024",
+        "file": "1404.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 58,
+        "scene": "bedroom_0012",
+        "file": "0058.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1132,
+        "scene": "bedroom_0104",
+        "file": "1132.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1050,
+        "scene": "bedroom_0074",
+        "file": "1050.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 646,
+        "scene": "study_0008",
+        "file": "0646.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 936,
+        "scene": "bedroom_0033",
+        "file": "0936.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1070,
+        "scene": "bedroom_0081",
+        "file": "1070.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1005,
+        "scene": "bedroom_0059",
+        "file": "1005.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 540,
+        "scene": "bedroom_0140",
+        "file": "0540.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 160,
+        "scene": "living_room_0011",
+        "file": "0160.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1366,
+        "scene": "dining_room_0010",
+        "file": "1366.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 478,
+        "scene": "study_0003",
+        "file": "0478.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 702,
+        "scene": "bathroom_0034",
+        "file": "0702.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 467,
+        "scene": "reception_room_0004",
+        "file": "0467.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1392,
+        "scene": "dining_room_0019",
+        "file": "1392.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 948,
+        "scene": "bedroom_0038",
+        "file": "0948.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 955,
+        "scene": "bedroom_0041",
+        "file": "0955.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 142,
+        "scene": "kitchen_0011",
+        "file": "0142.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1029,
+        "scene": "bedroom_0067",
+        "file": "1029.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 943,
+        "scene": "bedroom_0036",
+        "file": "0943.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 203,
+        "scene": "kitchen_0003",
+        "file": "0203.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 719,
+        "scene": "bathroom_0041",
+        "file": "0719.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 135,
+        "scene": "kitchen_0008",
+        "file": "0135.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1018,
+        "scene": "bedroom_0063",
+        "file": "1018.npz",
+        "split": "train",
+        "cohort": "draw2"
+      },
+      {
+        "id": 1044,
+        "scene": "bedroom_0072",
+        "file": "1044.npz",
+        "split": "train",
+        "cohort": "draw2"
+      }
+    ],
+    "draw3": [
+      {
+        "id": 639,
+        "scene": "student_lounge_0001",
+        "file": "0639.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1110,
+        "scene": "bedroom_0096",
+        "file": "1110.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 485,
+        "scene": "study_0005",
+        "file": "0485.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 50,
+        "scene": "living_room_0000",
+        "file": "0050.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 342,
+        "scene": "conference_room_0002",
+        "file": "0342.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 487,
+        "scene": "study_0006",
+        "file": "0487.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 909,
+        "scene": "bedroom_0025",
+        "file": "0909.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 303,
+        "scene": "classroom_0010",
+        "file": "0303.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 923,
+        "scene": "bedroom_0029",
+        "file": "0923.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 584,
+        "scene": "living_room_0082",
+        "file": "0584.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1317,
+        "scene": "living_room_0068",
+        "file": "1317.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1059,
+        "scene": "bedroom_0078",
+        "file": "1059.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 306,
+        "scene": "classroom_0011",
+        "file": "0306.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 255,
+        "scene": "living_room_0018",
+        "file": "0255.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 308,
+        "scene": "classroom_0012",
+        "file": "0308.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1238,
+        "scene": "living_room_0038",
+        "file": "1238.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 348,
+        "scene": "excercise_room_0001",
+        "file": "0348.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1320,
+        "scene": "living_room_0069",
+        "file": "1320.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 795,
+        "scene": "kitchen_0029",
+        "file": "0795.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1333,
+        "scene": "living_room_0078",
+        "file": "1333.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 48,
+        "scene": "bathroom_0005",
+        "file": "0048.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 948,
+        "scene": "bedroom_0038",
+        "file": "0948.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 73,
+        "scene": "bedroom_0017",
+        "file": "0073.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1141,
+        "scene": "bedroom_0107",
+        "file": "1141.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 251,
+        "scene": "kitchen_0016",
+        "file": "0251.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 608,
+        "scene": "office_0018",
+        "file": "0608.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 336,
+        "scene": "computer_lab_0002",
+        "file": "0336.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 630,
+        "scene": "office_0026",
+        "file": "0630.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 996,
+        "scene": "bedroom_0056",
+        "file": "0996.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 900,
+        "scene": "kitchen_0053",
+        "file": "0900.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1199,
+        "scene": "bedroom_0130",
+        "file": "1199.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 5,
+        "scene": "office_0004",
+        "file": "0005.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 313,
+        "scene": "classroom_0016",
+        "file": "0313.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 691,
+        "scene": "bathroom_0028",
+        "file": "0691.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 68,
+        "scene": "bedroom_0016",
+        "file": "0068.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 575,
+        "scene": "kitchen_0060",
+        "file": "0575.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 729,
+        "scene": "bathroom_0045",
+        "file": "0729.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 705,
+        "scene": "bathroom_0035",
+        "file": "0705.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 64,
+        "scene": "bedroom_0014",
+        "file": "0064.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 920,
+        "scene": "bedroom_0028",
+        "file": "0920.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 258,
+        "scene": "living_room_0019",
+        "file": "0258.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 286,
+        "scene": "classroom_0003",
+        "file": "0286.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 614,
+        "scene": "office_0021",
+        "file": "0614.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1236,
+        "scene": "living_room_0037",
+        "file": "1236.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 595,
+        "scene": "living_room_0085",
+        "file": "0595.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 805,
+        "scene": "kitchen_0031",
+        "file": "0805.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1113,
+        "scene": "bedroom_0097",
+        "file": "1113.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1370,
+        "scene": "dining_room_0012",
+        "file": "1370.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 130,
+        "scene": "kitchen_0006",
+        "file": "0130.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 950,
+        "scene": "bedroom_0039",
+        "file": "0950.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 880,
+        "scene": "kitchen_0049",
+        "file": "0880.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 514,
+        "scene": "bedroom_0132",
+        "file": "0514.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 888,
+        "scene": "kitchen_0051",
+        "file": "0888.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1376,
+        "scene": "dining_room_0014",
+        "file": "1376.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1402,
+        "scene": "dining_room_0023",
+        "file": "1402.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1159,
+        "scene": "bedroom_0113",
+        "file": "1159.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1341,
+        "scene": "dining_room_0001",
+        "file": "1341.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1231,
+        "scene": "living_room_0035",
+        "file": "1231.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 884,
+        "scene": "kitchen_0050",
+        "file": "0884.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 44,
+        "scene": "bathroom_0002",
+        "file": "0044.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 684,
+        "scene": "bathroom_0024",
+        "file": "0684.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 503,
+        "scene": "bathroom_0056",
+        "file": "0503.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 895,
+        "scene": "kitchen_0052",
+        "file": "0895.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 648,
+        "scene": "bathroom_0007",
+        "file": "0648.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 661,
+        "scene": "bathroom_0014",
+        "file": "0661.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1350,
+        "scene": "dining_room_0004",
+        "file": "1350.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 622,
+        "scene": "office_0023",
+        "file": "0622.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1434,
+        "scene": "dining_room_0033",
+        "file": "1434.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1244,
+        "scene": "living_room_0040",
+        "file": "1244.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 372,
+        "scene": "home_office_0006",
+        "file": "0372.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1137,
+        "scene": "bedroom_0106",
+        "file": "1137.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1040,
+        "scene": "bedroom_0071",
+        "file": "1040.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1251,
+        "scene": "living_room_0042",
+        "file": "1251.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 955,
+        "scene": "bedroom_0041",
+        "file": "0955.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 572,
+        "scene": "kitchen_0059",
+        "file": "0572.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1054,
+        "scene": "bedroom_0076",
+        "file": "1054.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 151,
+        "scene": "living_room_0005",
+        "file": "0151.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 138,
+        "scene": "kitchen_0010",
+        "file": "0138.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1392,
+        "scene": "dining_room_0019",
+        "file": "1392.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 943,
+        "scene": "bedroom_0036",
+        "file": "0943.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1417,
+        "scene": "dining_room_0029",
+        "file": "1417.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 276,
+        "scene": "study_room_0005",
+        "file": "0276.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1309,
+        "scene": "living_room_0062",
+        "file": "1309.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 609,
+        "scene": "office_0019",
+        "file": "0609.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1177,
+        "scene": "bedroom_0120",
+        "file": "1177.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 391,
+        "scene": "home_office_0011",
+        "file": "0391.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1316,
+        "scene": "living_room_0067",
+        "file": "1316.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 318,
+        "scene": "classroom_0018",
+        "file": "0318.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 847,
+        "scene": "kitchen_0041",
+        "file": "0847.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1415,
+        "scene": "dining_room_0028",
+        "file": "1415.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1197,
+        "scene": "bedroom_0129",
+        "file": "1197.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 682,
+        "scene": "bathroom_0023",
+        "file": "0682.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1372,
+        "scene": "dining_room_0013",
+        "file": "1372.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1018,
+        "scene": "bedroom_0063",
+        "file": "1018.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 478,
+        "scene": "study_0003",
+        "file": "0478.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 104,
+        "scene": "bookstore_0000",
+        "file": "0104.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 265,
+        "scene": "living_room_0022",
+        "file": "0265.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 788,
+        "scene": "kitchen_0028",
+        "file": "0788.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1382,
+        "scene": "dining_room_0016",
+        "file": "1382.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1366,
+        "scene": "dining_room_0010",
+        "file": "1366.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1224,
+        "scene": "living_room_0033",
+        "file": "1224.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1425,
+        "scene": "dining_room_0031",
+        "file": "1425.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1073,
+        "scene": "bedroom_0082",
+        "file": "1073.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 142,
+        "scene": "kitchen_0011",
+        "file": "0142.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1027,
+        "scene": "bedroom_0066",
+        "file": "1027.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 239,
+        "scene": "furniture_store_0002",
+        "file": "0239.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 490,
+        "scene": "basement_0001",
+        "file": "0490.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 26,
+        "scene": "office_0012",
+        "file": "0026.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 426,
+        "scene": "playroom_0004",
+        "file": "0426.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 217,
+        "scene": "bedroom_0020",
+        "file": "0217.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 876,
+        "scene": "kitchen_0048",
+        "file": "0876.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 989,
+        "scene": "bedroom_0053",
+        "file": "0989.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 321,
+        "scene": "classroom_0022",
+        "file": "0321.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 938,
+        "scene": "bedroom_0034",
+        "file": "0938.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 339,
+        "scene": "conference_room_0001",
+        "file": "0339.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1105,
+        "scene": "bedroom_0094",
+        "file": "1105.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1296,
+        "scene": "living_room_0055",
+        "file": "1296.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 58,
+        "scene": "bedroom_0012",
+        "file": "0058.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 418,
+        "scene": "playroom_0002",
+        "file": "0418.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 408,
+        "scene": "office_kitchen_0001",
+        "file": "0408.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 253,
+        "scene": "kitchen_0017",
+        "file": "0253.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1324,
+        "scene": "living_room_0070",
+        "file": "1324.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 403,
+        "scene": "indoor_balcony_0001",
+        "file": "0403.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 1266,
+        "scene": "living_room_0046",
+        "file": "1266.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 853,
+        "scene": "kitchen_0043",
+        "file": "0853.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 10,
+        "scene": "office_0006",
+        "file": "0010.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 497,
+        "scene": "bathroom_0053",
+        "file": "0497.npz",
+        "split": "train",
+        "cohort": "draw3"
+      },
+      {
+        "id": 929,
+        "scene": "bedroom_0031",
+        "file": "0929.npz",
+        "split": "train",
+        "cohort": "draw3"
+      }
+    ]
+  },
+  "validation": [
+    {
+      "id": 1241,
+      "scene": "living_room_0039",
+      "split": "validation",
+      "file": "1241.npz",
+      "sha256": "343b0b94aec0c9fa479793b8bae5cf153818a4657ad78acc5ae695767975406e",
+      "cohort": "validation"
+    },
+    {
+      "id": 969,
+      "scene": "bedroom_0047",
+      "split": "validation",
+      "file": "0969.npz",
+      "sha256": "01794108b9d7b0f5ba28e66fe383cb73e2221a4a32e45205c659baebf5b04401",
+      "cohort": "validation"
+    },
+    {
+      "id": 1301,
+      "scene": "living_room_0058",
+      "split": "validation",
+      "file": "1301.npz",
+      "sha256": "7b927436c3ffe65a6e05539fee07b92953cacc952f08ab13cb5a26c11480b0d0",
+      "cohort": "validation"
+    },
+    {
+      "id": 294,
+      "scene": "classroom_0006",
+      "split": "validation",
+      "file": "0294.npz",
+      "sha256": "b9141274b1685c4973f3233ba02ff69f451febacc1d38c3c5cb18bb68f12da3d",
+      "cohort": "validation"
+    },
+    {
+      "id": 599,
+      "scene": "living_room_0086",
+      "split": "validation",
+      "file": "0599.npz",
+      "sha256": "3a738c14502a40aadddf3b6161fbe1179e1f77ba5fb3fe889312be64997743be",
+      "cohort": "validation"
+    },
+    {
+      "id": 654,
+      "scene": "bathroom_0011",
+      "split": "validation",
+      "file": "0654.npz",
+      "sha256": "845605d354da047eacc0cfe832250c0ebc4135054617a9fbd5d7eee92263a25e",
+      "cohort": "validation"
+    },
+    {
+      "id": 367,
+      "scene": "home_office_0004",
+      "split": "validation",
+      "file": "0367.npz",
+      "sha256": "9e83b27f3dc5cc46d12c7b61d8cabbe9028d571647a966298df615ab2bff8cfa",
+      "cohort": "validation"
+    },
+    {
+      "id": 407,
+      "scene": "laundry_room_0001",
+      "split": "validation",
+      "file": "0407.npz",
+      "sha256": "b85fa05ab382f01d466773d056c1133c72c2e6f7abdf0b43bc342b51b25e6a22",
+      "cohort": "validation"
+    },
+    {
+      "id": 738,
+      "scene": "bathroom_0049",
+      "split": "validation",
+      "file": "0738.npz",
+      "sha256": "62969b06f53a1cf3c0f9aa919f875df00f80179a052f32bc056b82baf2f6fec1",
+      "cohort": "validation"
+    },
+    {
+      "id": 368,
+      "scene": "home_office_0005",
+      "split": "validation",
+      "file": "0368.npz",
+      "sha256": "43e99d09216ea5a066ad51d597981f4f5b89d997901d5320c33afc088add27dc",
+      "cohort": "validation"
+    },
+    {
+      "id": 941,
+      "scene": "bedroom_0035",
+      "split": "validation",
+      "file": "0941.npz",
+      "sha256": "3114b0f4da4b0306d69f1d52cba0661d7b760cb10a6ccc4ef2674813aa1a8d24",
+      "cohort": "validation"
+    },
+    {
+      "id": 826,
+      "scene": "kitchen_0035",
+      "split": "validation",
+      "file": "0826.npz",
+      "sha256": "da3302c1a912bd2a0b6d7e42a99057a12c3e3e6e2ae4acadc8373bf74c9fbd4c",
+      "cohort": "validation"
+    },
+    {
+      "id": 24,
+      "scene": "office_0011",
+      "split": "validation",
+      "file": "0024.npz",
+      "sha256": "a3ca8598ad950fcff1fcfeb1a6e436e6a37a86400f349bc0b41ba8f2c1ce5032",
+      "cohort": "validation"
+    },
+    {
+      "id": 546,
+      "scene": "dining_room_0037",
+      "split": "validation",
+      "file": "0546.npz",
+      "sha256": "939e6f96bacff7a6e0b5e78d2513428b2e194bca5871b4d0ae17407773d3534e",
+      "cohort": "validation"
+    },
+    {
+      "id": 450,
+      "scene": "printer_room_0001",
+      "split": "validation",
+      "file": "0450.npz",
+      "sha256": "520b8974e945b22a7e8cb36f67f6a2430aeb412ac033d17df7d83a373c53125e",
+      "cohort": "validation"
+    },
+    {
+      "id": 114,
+      "scene": "bookstore_0002",
+      "split": "validation",
+      "file": "0114.npz",
+      "sha256": "2d2796711e04ae477cf647fe28c53893ee109438312c35ed88a09dfad29f6973",
+      "cohort": "validation"
+    },
+    {
+      "id": 916,
+      "scene": "bedroom_0026",
+      "split": "validation",
+      "file": "0916.npz",
+      "sha256": "a9ffbaf58608c1d32cbae042f7fe6374bdaa7ab3fc83e291a39831b52020c82c",
+      "cohort": "validation"
+    },
+    {
+      "id": 1185,
+      "scene": "bedroom_0124",
+      "split": "validation",
+      "file": "1185.npz",
+      "sha256": "17df272a6da404e09e718c827ed4d438fe0eb73db99462d2966441befcf46764",
+      "cohort": "validation"
+    },
+    {
+      "id": 3,
+      "scene": "office_0003",
+      "split": "validation",
+      "file": "0003.npz",
+      "sha256": "b3bfd3962af771383f62af2a2206cbe0ab605821569cc25beb2a069c0958f573",
+      "cohort": "validation"
+    },
+    {
+      "id": 1284,
+      "scene": "living_room_0050",
+      "split": "validation",
+      "file": "1284.npz",
+      "sha256": "c7af1625b4ca4d5844bb1eac4a3e671f8576d5e8ebd2bc34c68d5e388c9fb6bd",
+      "cohort": "validation"
+    },
+    {
+      "id": 146,
+      "scene": "living_room_0004",
+      "split": "validation",
+      "file": "0146.npz",
+      "sha256": "eb6884b320e8b721682998a0697a5099d556a0a2c4de5dfa30db85b283fa6ad0",
+      "cohort": "validation"
+    },
+    {
+      "id": 440,
+      "scene": "playroom_0006",
+      "split": "validation",
+      "file": "0440.npz",
+      "sha256": "c231987b59a9e15e4b5c256209943c2b5ba2763ac6d17dd2d4f2bb533923fad1",
+      "cohort": "validation"
+    },
+    {
+      "id": 159,
+      "scene": "living_room_0010",
+      "split": "validation",
+      "file": "0159.npz",
+      "sha256": "c5bd8b430d323fe883d4e0ef20b2f83da065a883af9949669ff83d196645a94a",
+      "cohort": "validation"
+    },
+    {
+      "id": 964,
+      "scene": "bedroom_0045",
+      "split": "validation",
+      "file": "0964.npz",
+      "sha256": "69b6ece9e78e37d0f264ac598922e178d04b3fe28493c0441f5ed46e56843e0a",
+      "cohort": "validation"
+    },
+    {
+      "id": 179,
+      "scene": "bedroom_0004",
+      "split": "validation",
+      "file": "0179.npz",
+      "sha256": "e05febc88a64a63d6e277dea01e7568b9b4e4e21817ec334d8ca83b89cf22db3",
+      "cohort": "validation"
+    },
+    {
+      "id": 527,
+      "scene": "bedroom_0136",
+      "split": "validation",
+      "file": "0527.npz",
+      "sha256": "a0f8cf6b9980866be010a28b9811ca0edd109a0dabdb4f8bab8ef027277a2239",
+      "cohort": "validation"
+    },
+    {
+      "id": 49,
+      "scene": "bathroom_0006",
+      "split": "validation",
+      "file": "0049.npz",
+      "sha256": "6bd771038f14a08024bfca8f354ee98381a03369b34a2a9692fdd51d692e412f",
+      "cohort": "validation"
+    },
+    {
+      "id": 291,
+      "scene": "classroom_0005",
+      "split": "validation",
+      "file": "0291.npz",
+      "sha256": "23c8126af76d14a2bd3d2d0132ff3973c7f46e1debf0d4c964a2d6ab922ae97d",
+      "cohort": "validation"
+    },
+    {
+      "id": 165,
+      "scene": "living_room_0012",
+      "split": "validation",
+      "file": "0165.npz",
+      "sha256": "96d9ecdba18da409dd498a35173e3d5c7fa7a2b7cfcb8a0be8d6d995acf0fd08",
+      "cohort": "validation"
+    },
+    {
+      "id": 416,
+      "scene": "office_kitchen_0003",
+      "split": "validation",
+      "file": "0416.npz",
+      "sha256": "d6682f058e1708ab965b7489ed933bed66567d530b14e73ff38a1f07564e2942",
+      "cohort": "validation"
+    },
+    {
+      "id": 716,
+      "scene": "bathroom_0039",
+      "split": "validation",
+      "file": "0716.npz",
+      "sha256": "a4775e7c4279e2aabc4d4cc81a859bbe06ee1da8d82bea6331132f0f428dc5b0",
+      "cohort": "validation"
+    },
+    {
+      "id": 170,
+      "scene": "bathroom_0001",
+      "split": "validation",
+      "file": "0170.npz",
+      "sha256": "4974555506029a904857a219dd50f171233d66e37b3e29459b8aa69c2d17ad77",
+      "cohort": "validation"
+    }
+  ],
+  "observed64": [
+    {
+      "id": 1164,
+      "scene": "bedroom_0114",
+      "split": "test",
+      "file": "1164.npz",
+      "sha256": "389b6db58128193e705b936dfefcf11d476d26fd76b892fca22cac14e137cd26",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1306,
+      "scene": "living_room_0060",
+      "split": "test",
+      "file": "1306.npz",
+      "sha256": "74d7e6753b9a5818adf0c7c021c12eaf9a107f087237a65a892925f51f0d1b72",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1340,
+      "scene": "living_room_0080",
+      "split": "test",
+      "file": "1340.npz",
+      "sha256": "86a1401982a4d8acbf11a686160989e8a8ae206855d3564ccd3301870a98d830",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1288,
+      "scene": "living_room_0051",
+      "split": "test",
+      "file": "1288.npz",
+      "sha256": "844d8b1a0ab0e51a05b7f12930c733e81eca6726404353fdfd4db98ba8ac74d3",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1217,
+      "scene": "living_room_0030",
+      "split": "test",
+      "file": "1217.npz",
+      "sha256": "764f7b76df1f1f62b43783befdf4666521b70b3014db623a1ce654a7254e8e62",
+      "cohort": "observed64"
+    },
+    {
+      "id": 679,
+      "scene": "bathroom_0021",
+      "split": "test",
+      "file": "0679.npz",
+      "sha256": "88771349ba9fc7be4c8225f56703593acec6e3ab18c0a39c1dd17ca6a20b49d5",
+      "cohort": "observed64"
+    },
+    {
+      "id": 594,
+      "scene": "living_room_0084",
+      "split": "test",
+      "file": "0594.npz",
+      "sha256": "f3ffe9bfc15c6cbeef2c368fb4eb687e8b85e2a68197ebb6403595f1b943ff7d",
+      "cohort": "observed64"
+    },
+    {
+      "id": 708,
+      "scene": "bathroom_0036",
+      "split": "test",
+      "file": "0708.npz",
+      "sha256": "b0f83abc752522b689afa73b68c2c542206bd712fa6e4f093d297891bff454cc",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1077,
+      "scene": "bedroom_0084",
+      "split": "test",
+      "file": "1077.npz",
+      "sha256": "e5ce0f84b93205afda875fd45f5a53d41a0e3491d4ff4d68d26dbc8fccacb532",
+      "cohort": "observed64"
+    },
+    {
+      "id": 698,
+      "scene": "bathroom_0031",
+      "split": "test",
+      "file": "0698.npz",
+      "sha256": "91e3f40a194e3a149bf871f71d396881a78b1c33ac54e9cd7b3cc74086f409a7",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1089,
+      "scene": "bedroom_0087",
+      "split": "test",
+      "file": "1089.npz",
+      "sha256": "f0d5c6b73637373da6ae89c1d851607c8d72f8d52bb58255d944a362d5e09cb2",
+      "cohort": "observed64"
+    },
+    {
+      "id": 310,
+      "scene": "classroom_0014",
+      "split": "test",
+      "file": "0310.npz",
+      "sha256": "fb47e67b73f5e141accd8dfdfd70e4155053683fbcf2f6a60752f4036e4c9290",
+      "cohort": "observed64"
+    },
+    {
+      "id": 435,
+      "scene": "playroom_0005",
+      "split": "test",
+      "file": "0435.npz",
+      "sha256": "f12912e507a4be1e6acc3dadca42519025025ce55478bdf23fb51af41a9da31a",
+      "cohort": "observed64"
+    },
+    {
+      "id": 559,
+      "scene": "kitchen_0055",
+      "split": "test",
+      "file": "0559.npz",
+      "sha256": "2a58ca4491e14f3a02cd23713d17e1cf68ac6d0e303f0ca4a6558951e9743f66",
+      "cohort": "observed64"
+    },
+    {
+      "id": 283,
+      "scene": "bedroom_0131",
+      "split": "test",
+      "file": "0283.npz",
+      "sha256": "8b77c677414afbdbe8be123614fef1ee54a33565a8697f61d6751a7d87fd382a",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1276,
+      "scene": "living_room_0048",
+      "split": "test",
+      "file": "1276.npz",
+      "sha256": "0839cd9e7c18bb209851e2d17677a2e4055246ea9eea5377d7d64d9881966592",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1039,
+      "scene": "bedroom_0070",
+      "split": "test",
+      "file": "1039.npz",
+      "sha256": "a6834f65bc93a07dffa744b303a696cd308d9601934dabb74a6c683400b323fd",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1433,
+      "scene": "dining_room_0032",
+      "split": "test",
+      "file": "1433.npz",
+      "sha256": "6a332448453878542aac034cfde536926b616d7b9a123b0960372b0d54915de4",
+      "cohort": "observed64"
+    },
+    {
+      "id": 173,
+      "scene": "bedroom_0003",
+      "split": "test",
+      "file": "0173.npz",
+      "sha256": "3474bf44257fbbdbf0c28bc03401c79f7e86ed5c4ae175ff06da7e6a0986e398",
+      "cohort": "observed64"
+    },
+    {
+      "id": 17,
+      "scene": "office_0008",
+      "split": "test",
+      "file": "0017.npz",
+      "sha256": "2a8b3dfe646d68e7580b49bc30773c1cc8da67902fd8be812eb599d7ad69845a",
+      "cohort": "observed64"
+    },
+    {
+      "id": 221,
+      "scene": "bedroom_0024",
+      "split": "test",
+      "file": "0221.npz",
+      "sha256": "5d34a8f83ef1e7d83057365868a2b70b420915f1d354ad1b88006893801e7e53",
+      "cohort": "observed64"
+    },
+    {
+      "id": 390,
+      "scene": "home_office_0010",
+      "split": "test",
+      "file": "0390.npz",
+      "sha256": "ab0c12745d7c1a10c25ae675b87c05488c7087310496a4a5f12aaada514b3e0f",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1057,
+      "scene": "bedroom_0077",
+      "split": "test",
+      "file": "1057.npz",
+      "sha256": "814866eb9f3326b95b39b553ff90e159563bbda7ecab9bc01cfb4c2acad94d84",
+      "cohort": "observed64"
+    },
+    {
+      "id": 734,
+      "scene": "bathroom_0047",
+      "split": "test",
+      "file": "0734.npz",
+      "sha256": "038f148874af8e113c369d891af10742ac6a6f8a04379c788e11ff330c3d1616",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1118,
+      "scene": "bedroom_0099",
+      "split": "test",
+      "file": "1118.npz",
+      "sha256": "21ca23af0b52e8f49c70f760eb0eb97a2be3c8d5924d58e05e5dcdf36faadadb",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1229,
+      "scene": "living_room_0034",
+      "split": "test",
+      "file": "1229.npz",
+      "sha256": "887e301105950ceb6c510f044f581740d866561080bdd77aad6c28db048b90f8",
+      "cohort": "observed64"
+    },
+    {
+      "id": 300,
+      "scene": "classroom_0008",
+      "split": "test",
+      "file": "0300.npz",
+      "sha256": "53744913c7ee8715ae9055596b5f19e091bd2d5f2f272aaebf9c5b6ed6ec1ee5",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1448,
+      "scene": "dining_room_0036",
+      "split": "test",
+      "file": "1448.npz",
+      "sha256": "6a4aa6d0e502c8b58f30bc1d1362ce8897b5fef89db8be5e071956a861579dc1",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1424,
+      "scene": "dining_room_0030",
+      "split": "test",
+      "file": "1424.npz",
+      "sha256": "be498401e2ab020864c16eface388177d53bf226377d25558fdc196a2b13b4ef",
+      "cohort": "observed64"
+    },
+    {
+      "id": 676,
+      "scene": "bathroom_0020",
+      "split": "test",
+      "file": "0676.npz",
+      "sha256": "bd922d7b8bb9467fd0e0a6a5ef571a9f2f850316d749586a36bf3aee33123b0c",
+      "cohort": "observed64"
+    },
+    {
+      "id": 959,
+      "scene": "bedroom_0043",
+      "split": "test",
+      "file": "0959.npz",
+      "sha256": "e0f9e421cc37d81a57825ce68d63ab7202bfe2a8f0dff4773949b994cd82d0db",
+      "cohort": "observed64"
+    },
+    {
+      "id": 539,
+      "scene": "bedroom_0139",
+      "split": "test",
+      "file": "0539.npz",
+      "sha256": "6d382fdeb7cf00a31c75aca5c9feed79353e4e70a67cd5bd61e8bf2d2888b46f",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1235,
+      "scene": "living_room_0036",
+      "split": "test",
+      "file": "1235.npz",
+      "sha256": "c731244128c8686f9e7a1ef7edd9c255e1c40a7ba1610d4a1bb17cdd24ed48c6",
+      "cohort": "observed64"
+    },
+    {
+      "id": 850,
+      "scene": "kitchen_0042",
+      "split": "test",
+      "file": "0850.npz",
+      "sha256": "77d5ed5f09c0ca10ef107665eb9f613c22c93fcbd87750c4f99c228dad8fa2dd",
+      "cohort": "observed64"
+    },
+    {
+      "id": 946,
+      "scene": "bedroom_0037",
+      "split": "test",
+      "file": "0946.npz",
+      "sha256": "92dbfee43a622521b3d79255e4a68db9d602026cc82f20227608f021a4970cf6",
+      "cohort": "observed64"
+    },
+    {
+      "id": 352,
+      "scene": "foyer_0001",
+      "split": "test",
+      "file": "0352.npz",
+      "sha256": "9ed3252253524969a3801409b3fe0c5a69106bed6898a5a1235f678adc748efb",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1203,
+      "scene": "living_room_0025",
+      "split": "test",
+      "file": "1203.npz",
+      "sha256": "4fd3febb0b0d87a6681d41a016c7a82fc19c9ddc8804cf041524f17a27b1d2c9",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1205,
+      "scene": "living_room_0026",
+      "split": "test",
+      "file": "1205.npz",
+      "sha256": "0cfb0ece8639a87b3c45efa06ec0a2440694e75bf4fb7c69ed480954f70011f3",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1410,
+      "scene": "dining_room_0025",
+      "split": "test",
+      "file": "1410.npz",
+      "sha256": "7624960823a752c2956d93165b5262375b3c39e9b6ef88996f41095d1d1e9e64",
+      "cohort": "observed64"
+    },
+    {
+      "id": 613,
+      "scene": "office_0020",
+      "split": "test",
+      "file": "0613.npz",
+      "sha256": "dc2a7290e8d82d405faac8b22a01c82732e0b897aff7a84e0560b9d2facdf0dd",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1128,
+      "scene": "bedroom_0102",
+      "split": "test",
+      "file": "1128.npz",
+      "sha256": "69aca517ae969dcaf505820a0ee474f15da65a08044d0215b281511e0f289c2a",
+      "cohort": "observed64"
+    },
+    {
+      "id": 846,
+      "scene": "kitchen_0040",
+      "split": "test",
+      "file": "0846.npz",
+      "sha256": "6cce1f83468aec8c840a039e30da77dc36e72bbdfde725ba46c0278b779e9d07",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1034,
+      "scene": "bedroom_0068",
+      "split": "test",
+      "file": "1034.npz",
+      "sha256": "9705aa689ecb6cfbf5a3f5a39343af7f89ec3a2e9cee6238b7866b202a38f287",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1136,
+      "scene": "bedroom_0105",
+      "split": "test",
+      "file": "1136.npz",
+      "sha256": "d0f188ae9fd242e6f842256714d98f7978ef94592b8f18f3c5c90fc6c5b4743a",
+      "cohort": "observed64"
+    },
+    {
+      "id": 834,
+      "scene": "kitchen_0038",
+      "split": "test",
+      "file": "0834.npz",
+      "sha256": "12301385f7742599c6e1721f12e5dbb2e91225779b6115f4b868ee3daddb2883",
+      "cohort": "observed64"
+    },
+    {
+      "id": 264,
+      "scene": "living_room_0021",
+      "split": "test",
+      "file": "0264.npz",
+      "sha256": "8e0fce2b0fb954ae5453263cbcda7fa31f59921a1eafeab6d452252ceeecc838",
+      "cohort": "observed64"
+    },
+    {
+      "id": 57,
+      "scene": "bedroom_0011",
+      "split": "test",
+      "file": "0057.npz",
+      "sha256": "035435b7bb6ccf5efb785a312287ae31b5c4d229663e0b09de4715cbdb7aefc4",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1248,
+      "scene": "living_room_0041",
+      "split": "test",
+      "file": "1248.npz",
+      "sha256": "85497950a431cf240d22264ad2c81738e617cb8349b66d30aade0a7efd9fd12f",
+      "cohort": "observed64"
+    },
+    {
+      "id": 781,
+      "scene": "kitchen_0026",
+      "split": "test",
+      "file": "0781.npz",
+      "sha256": "e8450d7fbc0cc6b785655cf9b661dc98dd39892f38c1ab323cf8cf75eafd2e11",
+      "cohort": "observed64"
+    },
+    {
+      "id": 935,
+      "scene": "bedroom_0032",
+      "split": "test",
+      "file": "0935.npz",
+      "sha256": "54f41ae5008393830869d69efa6a24b432ce11a61744c68f9cdcbcbef0724d33",
+      "cohort": "observed64"
+    },
+    {
+      "id": 727,
+      "scene": "bathroom_0044",
+      "split": "test",
+      "file": "0727.npz",
+      "sha256": "c5048a7a32e7528de704ae4963045a30c0f6e9dfeb7b0e12806014eccae6b281",
+      "cohort": "observed64"
+    },
+    {
+      "id": 332,
+      "scene": "classroom_0026",
+      "split": "test",
+      "file": "0332.npz",
+      "sha256": "754e888f4cefbb17338f5c595d9375c4db2e2fe5a592db83a8380e1a0fabbfb0",
+      "cohort": "observed64"
+    },
+    {
+      "id": 330,
+      "scene": "classroom_0024",
+      "split": "test",
+      "file": "0330.npz",
+      "sha256": "332a759a3e707fd168f78336aab6ae8d87d2d4cfdfd90792f94dca1425695137",
+      "cohort": "observed64"
+    },
+    {
+      "id": 918,
+      "scene": "bedroom_0027",
+      "split": "test",
+      "file": "0918.npz",
+      "sha256": "0770916c40e7d14000543b0312c88f004515ae3771969ae5fb4892c8bf64e7dd",
+      "cohort": "observed64"
+    },
+    {
+      "id": 927,
+      "scene": "bedroom_0030",
+      "split": "test",
+      "file": "0927.npz",
+      "sha256": "5489284ace0ba1f1671f861e87aee378d53f4f4fe385d682d6b712eee022d95b",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1147,
+      "scene": "bedroom_0109",
+      "split": "test",
+      "file": "1147.npz",
+      "sha256": "362319967cbd9d293906759c5b1a85574a82c9a9bb07b242fd685342674654f8",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1303,
+      "scene": "living_room_0059",
+      "split": "test",
+      "file": "1303.npz",
+      "sha256": "4ecde6c67d6b40f1c6d8a2d47028839bcc20f9bae451f70981f1356751ac01d1",
+      "cohort": "observed64"
+    },
+    {
+      "id": 137,
+      "scene": "kitchen_0009",
+      "split": "test",
+      "file": "0137.npz",
+      "sha256": "25b74eb3d65bc8c3da5404afc5819ff644dd8bc9b9548b2e952bf12a24c44425",
+      "cohort": "observed64"
+    },
+    {
+      "id": 154,
+      "scene": "living_room_0008",
+      "split": "test",
+      "file": "0154.npz",
+      "sha256": "1b81dd7fb5d44f4aa45d6c467b486b7059ad358481292c78ada1b34293de5aee",
+      "cohort": "observed64"
+    },
+    {
+      "id": 561,
+      "scene": "kitchen_0056",
+      "split": "test",
+      "file": "0561.npz",
+      "sha256": "895687d65dce2215e82e2663c8c451f2903370ab4adf317421efc7bce003bd7b",
+      "cohort": "observed64"
+    },
+    {
+      "id": 966,
+      "scene": "bedroom_0046",
+      "split": "test",
+      "file": "0966.npz",
+      "sha256": "f95f02d2039cc7f4e9a779c0251120bef010eb6b9a1ee87a40fd2b519ded1fd3",
+      "cohort": "observed64"
+    },
+    {
+      "id": 442,
+      "scene": "playroom_0007",
+      "split": "test",
+      "file": "0442.npz",
+      "sha256": "1e3501e0405026d6de0e8cafb2f3f7895c7f7b54b1d1fa23a2da70e21b78ec8b",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1098,
+      "scene": "bedroom_0091",
+      "split": "test",
+      "file": "1098.npz",
+      "sha256": "b8ab9bd4a8c8a883e0ef1426ba9aaee96d22b7893f118a4512dffa959afce210",
+      "cohort": "observed64"
+    },
+    {
+      "id": 1211,
+      "scene": "living_room_0028",
+      "split": "test",
+      "file": "1211.npz",
+      "sha256": "58ef1ad2dd8d0db33bdde279a67f584f40d168fd8aa7dbaf64be3494fa96d5d8",
+      "cohort": "observed64"
+    }
+  ],
+  "fresh31": [
+    {
+      "id": 46,
+      "scene": "bathroom_0003",
+      "file": "0046.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 650,
+      "scene": "bathroom_0008",
+      "file": "0650.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 651,
+      "scene": "bathroom_0009",
+      "file": "0651.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 731,
+      "scene": "bathroom_0046",
+      "file": "0731.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 180,
+      "scene": "bedroom_0005",
+      "file": "0180.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 991,
+      "scene": "bedroom_0054",
+      "file": "0991.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 1091,
+      "scene": "bedroom_0088",
+      "file": "1091.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 1150,
+      "scene": "bedroom_0110",
+      "file": "1150.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 1165,
+      "scene": "bedroom_0115",
+      "file": "1165.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 1195,
+      "scene": "bedroom_0128",
+      "file": "1195.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 531,
+      "scene": "bedroom_0137",
+      "file": "0531.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 312,
+      "scene": "classroom_0015",
+      "file": "0312.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 333,
+      "scene": "computer_lab_0001",
+      "file": "0333.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 1353,
+      "scene": "dining_room_0005",
+      "file": "1353.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 250,
+      "scene": "kitchen_0015",
+      "file": "0250.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 777,
+      "scene": "kitchen_0025",
+      "file": "0777.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 869,
+      "scene": "kitchen_0046",
+      "file": "0869.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 207,
+      "scene": "living_room_0002",
+      "file": "0207.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 155,
+      "scene": "living_room_0009",
+      "file": "0155.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 169,
+      "scene": "living_room_0014",
+      "file": "0169.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 1289,
+      "scene": "living_room_0052",
+      "file": "1289.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 1297,
+      "scene": "living_room_0056",
+      "file": "1297.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 1308,
+      "scene": "living_room_0061",
+      "file": "1308.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 1314,
+      "scene": "living_room_0064",
+      "file": "1314.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 1315,
+      "scene": "living_room_0066",
+      "file": "1315.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 1335,
+      "scene": "living_room_0079",
+      "file": "1335.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 14,
+      "scene": "office_0007",
+      "file": "0014.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 21,
+      "scene": "office_0010",
+      "file": "0021.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 271,
+      "scene": "office_0016",
+      "file": "0271.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 644,
+      "scene": "study_0007",
+      "file": "0644.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    },
+    {
+      "id": 279,
+      "scene": "study_room_0006",
+      "file": "0279.npz",
+      "split": "test",
+      "cohort": "fresh31"
+    }
+  ],
+  "training_scene_intersections": {
+    "draw1-draw2": 76,
+    "draw1-draw3": 68,
+    "draw2-draw3": 68
+  }
+}
