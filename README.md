@@ -2,6 +2,16 @@
 
 A local course-project study that measures the accuracy and compute cost of adapting a diffusion-based depth model on an 8 GB laptop GPU. The starting point is the public **Marigold Depth v1.1** checkpoint. The project is inspired by transferring image generators to perception, including Vision Banana, but does not implement Vision Banana.
 
+**Provenance correction (2026-10-01):** the fixed Depth Anything V2 indoor reference is metric-fine-tuned on **Hypersim**, not NYUv2. Earlier NYUv2-supervision wording and the overlap inference derived from it are withdrawn; measured results are unchanged. See [the correction and pinned primary sources](CORRECTIONS.md).
+
+## Robustness replication: robustness_v3
+
+The [frozen replication design](ROBUSTNESS_PROTOCOL.md) directly examines the limitations of the earlier single-training-set result. It uses **three new random draws of 128 training scenes**, **five training seeds**, and two fixed methods (high512 and mixed): 30 new training runs. The primary test contains **all 31 previously unused official test scenes**. The earlier 64-scene cohort is reported separately as an already observed replication cohort; the two cohorts are not described as 95 unseen scenes.
+
+The analysis includes paired scene uncertainty, training-draw/seed/scene uncertainty, Holm adjustment of six predefined comparisons, and a [pre-test crossed-seed sensitivity](STATISTICAL_SENSITIVITY_V3.md). It also measures depth using **fixed validation-only scale/shift calibration**, compares a native metric-depth specialist at two input sizes, and probes brightness reduction and blur. GT per-image alignment and fixed calibration answer different questions and are reported separately. Three draws from one indoor dataset cannot establish universal superiority or cross-dataset generalization.
+
+The protocol and source hashes were committed before new training. The statistical sensitivity addendum was committed during validation, before test inference. Earlier result directories are preserved; old low256 and preservation-loss results receive a retrospective 21-comparison adjustment but are not retrained in this replication.
+
 ## Larger local experiment: scaleup_v2
 
 The larger study uses **128 training scenes, 32 validation scenes and 64 new test scenes** that were excluded from all earlier selections. It compares LoRA trained at 256, at 512, with alternating 256/512 updates, and with alternating resolutions plus a uniform original-denoiser preservation penalty. Each condition has three training seeds and 320 optimizer updates, followed by one-step inference at both resolutions. Original Marigold and the Depth Anything V2 specialist remain references: 27 evaluation conditions and 2,592 predictions in total.
@@ -59,7 +69,7 @@ For a proposed method extension, see [resolution-consistent, prior-preserving ad
 
 Read the [recorded results](results/RESULTS.md), [predefined protocol](PROTOCOL.md), and [sources and implementation attribution](REFERENCES.md). Exact package versions are in [environment.json](results/environment.json).
 
-**Evaluation uses ground-truth affine alignment for every method.** It measures relative depth structure; the scores are not evidence of accurate absolute distances from an uncalibrated model. Depth Anything has different pretraining and NYUv2 supervision, so it is a useful reference but not a controlled architecture ablation. This 24-scene, single-seed, low-resolution pilot is not the full NYUv2 benchmark.
+**The original pilot evaluation uses ground-truth affine alignment for every method.** It measures relative depth structure; the scores are not evidence of accurate absolute distances from an uncalibrated model. Depth Anything has different pretraining and Hypersim metric-depth fine-tuning, so it is a useful reference but not a controlled architecture ablation. This 24-scene, single-seed, low-resolution pilot is not the full NYUv2 benchmark.
 
 ![Quality and inference time](results/figures/quality_and_latency.png)
 

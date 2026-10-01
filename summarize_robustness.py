@@ -7,7 +7,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from run_robustness import arguments, matrix, conditions, DRAWS, SEEDS, fixed_metrics
 from run_expanded import read, write
-from experiment import load_sample
+from experiment import load_sample, evaluate_depth
 from robustness_stats import CONTRASTS, bootstrap, holm
 from analyze_scaleup_multiplicity import analyze
 from crossed_bootstrap_sensitivity import crossed_bootstrap
@@ -166,10 +166,36 @@ def main():
         ax.set_ylim(0, max(vals)*1.2)
     fig.suptitle('Fresh test scenes | aligned structure and calibrated metric depth are different evaluations')
     fig.savefig(figdir/'alignment_vs_calibration.png', dpi=150); plt.close(fig)
+    # Fixed first three fresh scenes, fixed draw1/seed17; never select examples by score.
+    cal = read(out/'calibration.json')['conditions']['draw1_mixed_seed17_r512']
+    fig, axes = plt.subplots(3, 7, figsize=(16, 7), layout='constrained')
+    titles = ['RGB', 'GT depth', 'Original aligned', 'Mixed aligned', 'Mixed calibrated', 'Expert native', 'Mixed metric error']
+    for i, row in enumerate(manifest['fresh31'][:3]):
+        rgb, gt = load_sample(a.assets, row)
+        preds = {label: np.load(a.work/'predictions'/'test'/label/f"{row['id']:04d}.npy")
+                 for label in ['base_r512', 'draw1_mixed_seed17_r512', 'expert504']}
+        _, base_aligned, _ = evaluate_depth(preds['base_r512'], gt)
+        _, mixed_aligned, mask = evaluate_depth(preds['draw1_mixed_seed17_r512'], gt)
+        metric = np.clip(preds['draw1_mixed_seed17_r512']*cal['scale']+cal['shift'], .001, 10)
+        axes[i, 0].imshow(rgb)
+        for j, depth in enumerate([gt, base_aligned, mixed_aligned, metric, preds['expert504']], 1):
+            axes[i, j].imshow(depth, cmap='magma_r', vmin=0, vmax=7)
+        axes[i, 6].imshow(np.where(mask, abs(metric-gt), np.nan), cmap='inferno', vmin=0, vmax=2)
+        for j in range(7):
+            axes[i, j].set_xticks([]); axes[i, j].set_yticks([])
+            if i == 0:
+                axes[i, j].set_title(titles[j], fontsize=9)
+        axes[i, 0].set_ylabel(f"Frame {row['id']}")
+    fig.suptitle('Fixed first three fresh scenes | Mixed: draw1, seed17 | depth 0-7 m; error 0-2 m', fontsize=11)
+    fig.savefig(figdir/'fixed_metric_examples.png', dpi=130); plt.close(fig)
     lookup = {(r['cohort'], r['group']): r for r in summary}
     lines = ['# Robustness replication: training draws, uncertainty, and depth calibration', '',
              'This study tests whether the earlier mixed-resolution result survives new training samples, more seeds, '
-             'multiplicity adjustment, and evaluation without fitting to test depths. All protocol choices were fixed before the new runs.', '',
+             'multiplicity adjustment, and evaluation without fitting to test depths. The training/data design and primary analysis were frozen '
+             'before the new runs; the crossed-seed sensitivity addendum was fixed during validation, before new test inference.', '',
+             '**Training-provenance correction:** the fixed Depth Anything V2 indoor reference was metric-fine-tuned on Hypersim, '
+             'not NYUv2. Earlier NYUv2-supervision and derived validation-overlap descriptions are withdrawn; '
+             '[the correction](../../CORRECTIONS.md) records the pinned model-card evidence. No weights or measurements changed.', '',
              '## Design and audit', '',
              '- Three new scene-uniform training draws of 128 from 217 eligible scenes; five seeds (17,29,43,59,71); '
              'high512 and mixed; 30 fresh trainings of 320 updates.',
@@ -194,6 +220,7 @@ def main():
     cc = [r for r in constant if r['cohort'] == 'fresh31']
     lines.append(f"| Constant {c:.3f} m from validation | {np.mean([r['abs_rel'] for r in cc]):.5f} | {np.mean([r['rmse_m'] for r in cc]):.4f} | {np.mean([r['delta1'] for r in cc]):.4f} |")
     lines += ['', '![Training draw replication](figures/training_draws.png)', '', '![Alignment versus calibration](figures/alignment_vs_calibration.png)', '',
+              '![Fixed qualitative examples](figures/fixed_metric_examples.png)', '',
               '## Predefined fresh-scene comparisons', '',
               'Negative differences favor the first method. Intervals below resample training draws, seeds within each draw, and paired test scenes. '
               'Holm p-values cover the six aligned comparisons as one family. Bootstrap p-values and interval coverage are approximate with only three training draws. '
@@ -229,11 +256,13 @@ def main():
         lines.append(f"| {r['compared']} - {r['reference']} | {r['difference']:+.5f} | {r['p_holm']:.4f} |")
     lines += ['', '## Computational cost and limits', '',
               f"- New training total: {sum(r['training_seconds'] for r in costs)/60:.2f} minutes, excluding latent caching, model loading, evaluation and data extraction; peak allocated training VRAM {max(r['peak_allocated_mib'] for r in costs):.1f} MiB.",
-              '- Three draws and five seeds strengthen the evidence within this finite NYUv2 pool, but do not establish universal performance. The fresh cohort has only 31 scenes and is deliberately separate from the previously observed cohort.',
-              '- The specialist has different prior supervision, precision, architecture and compute. Its 378x504 input is approximately matched to Marigold 384x512, not an architecture-controlled comparison. Its prior NYUv2 supervision can include our validation scenes.',
+              '- Three draws and five seeds strengthen the evidence within this finite NYUv2 pool, but do not establish universal performance. The fresh cohort has only 31 scenes and is deliberately separate from the previously observed cohort. This is not the standard full 654-frame NYUv2 benchmark.',
+              '- The specialist has different pretraining and Hypersim metric-depth fine-tuning, precision, architecture and compute. Its 378x504 input is approximately matched to Marigold 384x512, not an architecture-controlled comparison. The model-card evidence does not support the earlier claim of NYUv2-labeled training overlap with our validation scenes.',
               '- Calibration removes test-target fitting but adds a simple validation-trained postprocessor. It does not convert the original Marigold architecture into a natively metric model; conclusions concern the measured calibrated system and indoor split.',
               '- Mixed-prior and low256 were not retrained in this phase. No conclusion about their across-training-set robustness or equivalence is implied.',
               '- Centered bootstrap p-values are approximate; small numbers of training draws constrain uncertainty estimates. Report effect sizes, both interval types, all seed/draw scores and the adjusted comparisons together.',
+              '- Inference noise is fixed per scene to isolate training effects. This study does not estimate variation over multiple inference-noise seeds.',
+              '- The 32 calibration scenes are held fixed. Calibrated-score intervals do not include uncertainty from selecting a different calibration dataset.',
               '- Raw weights/data/predictions remain local. Code, hashes, coefficients, scores and figures are published in the private course repository.', '']
     (out/'RESULTS.md').write_text('\n'.join(lines), encoding='utf-8')
     print('ROBUSTNESS_REPORT_READY', flush=True)

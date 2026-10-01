@@ -1,0 +1,18 @@
+{
+  "verified_utc": "2026-10-01T13:01:44.283021+00:00",
+  "model_id": "depth-anything/Depth-Anything-V2-Metric-Indoor-Small-hf",
+  "revision": "8078d68a9c75a972131914f6afd0c1723be0da7f",
+  "pinned_model_card_url": "https://huggingface.co/depth-anything/Depth-Anything-V2-Metric-Indoor-Small-hf/resolve/8078d68a9c75a972131914f6afd0c1723be0da7f/README.md",
+  "local_model_card_sha256": "523c7990c4cd09ad35972abda5b68989426dafb4b92b6fc37c6899ac5d0740fe",
+  "stated_metric_finetuning_dataset": "Hypersim (synthetic indoor)",
+  "previous_claim_withdrawn": "NYUv2-supervised reference and inferred validation-training overlap",
+  "corroborating_url": "https://raw.githubusercontent.com/DepthAnything/Depth-Anything-V2/main/metric_depth/README.md",
+  "local_max_depth_configuration": 20,
+  "weights_or_predictions_changed": false,
+  "pre_test_status": {
+    "stage": "validation",
+    "run_id": "draw3_high512_seed59",
+    "state": "running",
+    "updated_utc": "2026-10-01T13:00:35.840458+00:00"
+  }
+}
