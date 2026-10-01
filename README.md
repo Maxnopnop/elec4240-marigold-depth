@@ -33,6 +33,8 @@ python summarize_exploration.py --assets 'E:\elec4240-marigold-work\assets' --ex
 
 ## Original pilot setup
 
+For a proposed method extension, see [resolution-consistent, prior-preserving adaptation](METHOD_DIRECTIONS.md). A completed [adapter-strength diagnostic](results/scaling_v1/RESULTS.md) checks five strengths at each resolution on validation16. Its descriptive grid minima differ by resolution, but the apparent high-resolution gain over the original model has a scene interval crossing zero. Scalar interpolation is an existing-method baseline; the more substantial training modifications in the method note remain proposals.
+
 - **Data:** 32 training, 8 validation and 24 test frames from NYU Depth V2. One frame per scene; selected scenes are disjoint across splits. The 8-image adaptation set is nested within the 32-image set (25% versus 100% of this pilot's training pool, not of the full dataset).
 - **Controlled comparisons:** pretrained Marigold; rank-4 attention LoRA with 8 or 32 images; output-convolution-only adaptation with 32 images. All adaptations use 80 optimizer steps and one training seed.
 - **Additional comparisons:** pretrained Marigold at 1 versus 4 denoising steps; Depth Anything V2 Metric Indoor Small as a specialist reference.

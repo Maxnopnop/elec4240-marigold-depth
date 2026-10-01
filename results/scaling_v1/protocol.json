@@ -1,0 +1,41 @@
+{
+  "checkpoint_sha256": "9a1afe642240d014f97f71a39ac6e421967d0708f241ed6b61e50c54e8278654",
+  "validation_ids": [
+    1241,
+    969,
+    1301,
+    294,
+    599,
+    654,
+    367,
+    407,
+    738,
+    368,
+    941,
+    826,
+    24,
+    546,
+    450,
+    114
+  ],
+  "manifest_sha256": "b35c0afb3c6bea49068bb61609a1f74181cf1654847b7f836f85c98ed1a67ee7",
+  "resolutions": [
+    256,
+    512
+  ],
+  "scales": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "denoising_steps": 1,
+  "inference_seed_offset": 17,
+  "source_sha256": {
+    "explore_scaling.py": "9423aecda486fe647b58d48c90afacff08b710352c48cf0543480f7806be705b",
+    "experiment.py": "e7dff5abdbf44e23cfafc7d375805549266fffe8acb2264a8efd437be3ee7e0a",
+    "run_expanded.py": "f82431774fabe83da81ecb56c16f900a77495c1cc088caf4c813f74b5bb9ef07"
+  },
+  "protocol_sha256": "4762e586c24b898540b1c8b049a1a1c05a125ad66ab63f17b26fcba30f8fd4ca"
+}

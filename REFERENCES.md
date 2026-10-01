@@ -13,6 +13,8 @@
 
 ## Implementation attribution
 
+Additional context for proposed extensions (not reproduced): Wortsman et al., [Robust Fine-Tuning of Zero-Shot Models / WiSE-FT](https://arxiv.org/abs/2109.01903); Cheng et al., [ResAdapter: Domain Consistent Resolution Adapter for Diffusion Models](https://arxiv.org/abs/2403.02084); Cai et al., [Iris: Bringing Real-World Priors into Diffusion Model for Monocular Depth Estimation](https://arxiv.org/abs/2603.16340). The validation adapter-strength diagnostic is related to existing weight interpolation; it is not claimed as an original algorithm.
+
 `experiment.py` reimplements the latent denoising training formulation documented in the Apache-2.0 Marigold `src/trainer/marigold_depth_trainer.py`: frozen VAE and text encoder, concatenated RGB/depth latents, DDPM noise, velocity target, and a masked latent MSE. Depth normalization follows the 2%/98% quantiles described in `src/util/depth_transform.py`. The evaluation crop follows `src/dataset/nyu_dataset.py`.
 
 This is a deliberately smaller adaptation experiment, not the complete original training recipe. It uses a depth-specialized checkpoint, cached latents at 256x192, Gaussian noise, an empty text prompt, fixed learning rate, no image augmentation, and only a short sequence of optimization steps. It omits the original large synthetic-data mixture, multi-resolution noise, large training resolution, full UNet updates, and full training schedule. These differences must be retained in any report.

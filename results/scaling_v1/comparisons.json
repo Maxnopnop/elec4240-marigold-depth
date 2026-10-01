@@ -1,0 +1,58 @@
+[
+  {
+    "resolution": 256,
+    "strength": 0.25,
+    "abs_rel_difference_vs_base": -0.005701208297743988,
+    "scene_ci_low": -0.009185796150130541,
+    "scene_ci_high": -0.002338161978426887
+  },
+  {
+    "resolution": 256,
+    "strength": 0.5,
+    "abs_rel_difference_vs_base": -0.012350565166278839,
+    "scene_ci_low": -0.021141017518888174,
+    "scene_ci_high": -0.0038771806088803646
+  },
+  {
+    "resolution": 256,
+    "strength": 0.75,
+    "abs_rel_difference_vs_base": -0.017582752931301578,
+    "scene_ci_low": -0.030993515718975132,
+    "scene_ci_high": -0.0052161131313698435
+  },
+  {
+    "resolution": 256,
+    "strength": 1,
+    "abs_rel_difference_vs_base": -0.019535818164648756,
+    "scene_ci_low": -0.03616940868506293,
+    "scene_ci_high": -0.004375452517517866
+  },
+  {
+    "resolution": 512,
+    "strength": 0.25,
+    "abs_rel_difference_vs_base": -0.0005032141975575466,
+    "scene_ci_low": -0.0017942599109181602,
+    "scene_ci_high": 0.0008701954971231732
+  },
+  {
+    "resolution": 512,
+    "strength": 0.5,
+    "abs_rel_difference_vs_base": -0.0006573151136797007,
+    "scene_ci_low": -0.003300943960197274,
+    "scene_ci_high": 0.0021588509701420695
+  },
+  {
+    "resolution": 512,
+    "strength": 0.75,
+    "abs_rel_difference_vs_base": -0.00015789457171855857,
+    "scene_ci_low": -0.003918750888112037,
+    "scene_ci_high": 0.0037362995284400164
+  },
+  {
+    "resolution": 512,
+    "strength": 1,
+    "abs_rel_difference_vs_base": 0.0016529819922597795,
+    "scene_ci_low": -0.003108074880124798,
+    "scene_ci_high": 0.006540654947606428
+  }
+]

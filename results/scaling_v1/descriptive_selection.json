@@ -1,0 +1,23 @@
+{
+  "per_resolution_grid_minima": {
+    "256": {
+      "resolution": 256,
+      "strength": 1,
+      "abs_rel": 0.09675837836215095,
+      "rmse_m": 0.3834824018637219,
+      "delta1": 0.8922197245975856
+    },
+    "512": {
+      "resolution": 512,
+      "strength": 0.5,
+      "abs_rel": 0.07296300145838515,
+      "rmse_m": 0.32306024756596324,
+      "delta1": 0.9415189050972502
+    }
+  },
+  "common_strength_grid_minimum": {
+    "strength": 1,
+    "equal_resolution_mean_abs_rel": 0.08601583846323779
+  },
+  "warning": "Selected and scored on the same observed validation scenes; descriptive only, not a held-out gain."
+}
