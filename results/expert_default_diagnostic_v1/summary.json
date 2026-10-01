@@ -1,0 +1,26 @@
+[
+  {
+    "cohort": "fresh31",
+    "images": 31,
+    "abs_rel": 0.09204882492237515,
+    "native_abs_rel": 0.25369491864342825,
+    "native_rmse_m": 0.7566856119965267,
+    "native_delta1": 0.5811157266177711,
+    "calibrated_abs_rel": 0.15036167345210597,
+    "calibrated_rmse_m": 0.5069033576619655,
+    "calibrated_delta1": 0.8036429599099976,
+    "inference_seconds": 0.06827972903251535
+  },
+  {
+    "cohort": "observed64",
+    "images": 64,
+    "abs_rel": 0.07299741460283246,
+    "native_abs_rel": 0.20571153407535755,
+    "native_rmse_m": 0.609090281632485,
+    "native_delta1": 0.6795754998742454,
+    "calibrated_abs_rel": 0.1381728135444359,
+    "calibrated_rmse_m": 0.47616597938664407,
+    "calibrated_delta1": 0.8074385767731388,
+    "inference_seconds": 0.07392711875007763
+  }
+]

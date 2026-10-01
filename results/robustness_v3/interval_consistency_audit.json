@@ -1,0 +1,126 @@
+{
+  "analysis": "post-hoc display audit; all 12 original p-values exactly reproduced",
+  "source_sha256": "2b880c58164332cfc13d3a5fe450dc0eab027cfc0858e9392820f1ba01b55447",
+  "comparisons": [
+    {
+      "compared": "mixed_r256",
+      "reference": "base_r256",
+      "hierarchical": {
+        "difference": -0.02558133225486405,
+        "ci_low": -0.044690474084491956,
+        "ci_high": -0.006472190425236141,
+        "bonferroni_ci_low": -0.05434771027524138,
+        "bonferroni_ci_high": 0.003185045765513282,
+        "p_bootstrap_reproduced": 0.014299285035748212
+      },
+      "crossed": {
+        "difference": -0.02558133225486405,
+        "ci_low": -0.04480306326908633,
+        "ci_high": -0.00635960124064177,
+        "bonferroni_ci_low": -0.05419098052376185,
+        "bonferroni_ci_high": 0.00302831601403376,
+        "p_bootstrap_reproduced": 0.01559922003899805
+      }
+    },
+    {
+      "compared": "mixed_r512",
+      "reference": "base_r512",
+      "hierarchical": {
+        "difference": -0.012247995934618183,
+        "ci_low": -0.02288073726957738,
+        "ci_high": -0.0016152545996589857,
+        "bonferroni_ci_low": -0.028026272836326492,
+        "bonferroni_ci_high": 0.003530280967090127,
+        "p_bootstrap_reproduced": 0.0271986400679966
+      },
+      "crossed": {
+        "difference": -0.012247995934618183,
+        "ci_low": -0.022732159946019213,
+        "ci_high": -0.0017638319232171525,
+        "bonferroni_ci_low": -0.0285063301454145,
+        "bonferroni_ci_high": 0.004010338276178135,
+        "p_bootstrap_reproduced": 0.02734863256837158
+      }
+    },
+    {
+      "compared": "high512_r256",
+      "reference": "base_r256",
+      "hierarchical": {
+        "difference": 9.684198196567874e-05,
+        "ci_low": -0.014975558280825424,
+        "ci_high": 0.015169242244756782,
+        "bonferroni_ci_low": -0.022653410774826268,
+        "bonferroni_ci_high": 0.022847094738757626,
+        "p_bootstrap_reproduced": 0.9889005549722514
+      },
+      "crossed": {
+        "difference": 9.684198196567874e-05,
+        "ci_low": -0.015460735381246022,
+        "ci_high": 0.01565441934517738,
+        "bonferroni_ci_low": -0.023568417678461042,
+        "bonferroni_ci_high": 0.0237621016423924,
+        "p_bootstrap_reproduced": 0.9895005249737513
+      }
+    },
+    {
+      "compared": "high512_r512",
+      "reference": "base_r512",
+      "hierarchical": {
+        "difference": -0.01348459879722607,
+        "ci_low": -0.027244176666050196,
+        "ci_high": 0.0002749790715980572,
+        "bonferroni_ci_low": -0.035793535033860624,
+        "bonferroni_ci_high": 0.008824337439408487,
+        "p_bootstrap_reproduced": 0.05434728263586821
+      },
+      "crossed": {
+        "difference": -0.01348459879722607,
+        "ci_low": -0.02736298579471419,
+        "ci_high": 0.00039378820026204735,
+        "bonferroni_ci_low": -0.036635107144499794,
+        "bonferroni_ci_high": 0.009665909550047654,
+        "p_bootstrap_reproduced": 0.05474726263686815
+      }
+    },
+    {
+      "compared": "mixed_r256",
+      "reference": "high512_r256",
+      "hierarchical": {
+        "difference": -0.02567817423682973,
+        "ci_low": -0.03809929918814467,
+        "ci_high": -0.013257049285514796,
+        "bonferroni_ci_low": -0.043654561196365634,
+        "bonferroni_ci_high": -0.007701787277293828,
+        "p_bootstrap_reproduced": 0.0006999650017499125
+      },
+      "crossed": {
+        "difference": -0.02567817423682973,
+        "ci_low": -0.03838174083328614,
+        "ci_high": -0.012974607640373321,
+        "bonferroni_ci_low": -0.04416889630793813,
+        "bonferroni_ci_high": -0.007187452165721326,
+        "p_bootstrap_reproduced": 0.001399930003499825
+      }
+    },
+    {
+      "compared": "mixed_r512",
+      "reference": "high512_r512",
+      "hierarchical": {
+        "difference": 0.0012366028626078854,
+        "ci_low": -0.005802660357662536,
+        "ci_high": 0.008275866082878306,
+        "bonferroni_ci_low": -0.009416285670524056,
+        "bonferroni_ci_high": 0.011889491395739828,
+        "p_bootstrap_reproduced": 0.7271636418179092
+      },
+      "crossed": {
+        "difference": 0.0012366028626078854,
+        "ci_low": -0.006116870260899516,
+        "ci_high": 0.008590075986115287,
+        "bonferroni_ci_low": -0.00997698874100541,
+        "bonferroni_ci_high": 0.012450194466221183,
+        "p_bootstrap_reproduced": 0.7341632918354082
+      }
+    }
+  ]
+}

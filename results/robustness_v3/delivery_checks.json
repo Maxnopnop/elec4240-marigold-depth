@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "frozen_source_hashes_verified": 11,
+  "audited_artifact_hashes_verified": 387,
+  "prior_result_blobs_unchanged": 367,
+  "prior_json_bytes_unchanged": true,
+  "new_directory_preparation_matches_frozen_selection": true,
+  "report_relative_links_valid": true,
+  "primary_bootstrap_pvalues_replayed": 12,
+  "figures_visually_reviewed": [
+    "training_draws.png",
+    "corrected_comparisons.png",
+    "alignment_vs_calibration.png",
+    "fixed_metric_examples.png"
+  ]
+}

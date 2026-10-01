@@ -1,0 +1,9 @@
+{
+  "design": "post-hoc official-default preprocessing, no new confirmatory claims",
+  "model_id": "depth-anything/Depth-Anything-V2-Metric-Indoor-Small-hf",
+  "revision": "8078d68a9c75a972131914f6afd0c1723be0da7f",
+  "manifest_sha256": "5ca21fdd731a4232b4a0e945cf62e950ce2c3dbb69a5b4bfb5f11fbf6defc0be",
+  "script_sha256": "708db1606fb8b156827bf3f864fc4cc33c5b6adc49e8764942984b859dd8ba0c",
+  "protocol_sha256": "7419cecb4c4e1532952f205136ac28390955b1b89790dcbec2452827e06279a9",
+  "processor_config_sha256": "533b16a60445d7cab5086d39b45f92be45624b977972c62d5984d93e98366063"
+}

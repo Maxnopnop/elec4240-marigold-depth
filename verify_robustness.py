@@ -161,11 +161,30 @@ def main():
     else:
         restores = read(a.results/'validation_gate.json')['checkpoint_restorations']
         assert total == (9182 if a.stage == 'corruption' else 8128)
+    # Extra reproducibility check where the previous local raw arrays are available.
+    prior_root = a.work.parent/'scaleup_v2'/'predictions'
+    previous_reproductions = {'available': prior_root.exists(), 'arrays_compared': 0,
+                             'maximum_absolute_difference': None}
+    if prior_root.exists():
+        largest = 0.
+        for stage in ['validation'] + (['test'] if a.stage != 'validation' else []):
+            selected = validation if stage == 'validation' else observed
+            for current, previous in [('base_r256', 'base_r256'), ('base_r512', 'base_r512'), ('expert256', 'expert')]:
+                for row in selected:
+                    filename = f"{row['id']:04d}.npy"
+                    new = np.load(a.work/'predictions'/stage/current/filename)
+                    old = np.load(prior_root/stage/previous/filename)
+                    diff = float(np.max(abs(new-old)))
+                    largest = max(largest, diff)
+                    assert np.array_equal(new, old), (stage, current, row['id'], diff)
+                    previous_reproductions['arrays_compared'] += 1
+        previous_reproductions['maximum_absolute_difference'] = largest
     report = {'status': 'passed', 'protocol_sha256': sha(a.results/'protocol.json'),
               'calibration_sha256': sha(a.results/'calibration.json'), 'sample_hashes_verified': len(unique),
               'training_runs': 30, 'updates_per_run': 320, 'metrics_recomputed': total,
               'checkpoint_restorations': restores, 'paired_training_schedules_verified': True,
               'checkpoint_tensor_sha256': tensor_hashes,
+              'previous_baseline_reproductions': previous_reproductions,
               'checkpoint_sha256': checkpoints, 'audited_artifact_sha256': artifacts}
     write(a.results/('validation_gate.json' if a.stage == 'validation' else 'verification.json'), report)
     print('ROBUSTNESS_AUDIT_PASSED', a.stage, total, flush=True)

@@ -1,0 +1,66 @@
+[
+  {
+    "corruption": "dark",
+    "metric": "abs_rel",
+    "compared": "mixed",
+    "reference": "base",
+    "mean_difference": -0.0138031660604945,
+    "scene_win_fraction": 0.6774193548387096
+  },
+  {
+    "corruption": "dark",
+    "metric": "abs_rel",
+    "compared": "mixed",
+    "reference": "expert",
+    "mean_difference": -0.010890757597943203,
+    "scene_win_fraction": 0.6129032258064516
+  },
+  {
+    "corruption": "dark",
+    "metric": "calibrated_abs_rel",
+    "compared": "mixed",
+    "reference": "base",
+    "mean_difference": -0.021215872327679658,
+    "scene_win_fraction": 0.7096774193548387
+  },
+  {
+    "corruption": "dark",
+    "metric": "calibrated_abs_rel",
+    "compared": "mixed",
+    "reference": "expert",
+    "mean_difference": 0.164570002326834,
+    "scene_win_fraction": 0.1935483870967742
+  },
+  {
+    "corruption": "blur",
+    "metric": "abs_rel",
+    "compared": "mixed",
+    "reference": "base",
+    "mean_difference": -0.008539532447905835,
+    "scene_win_fraction": 0.6451612903225806
+  },
+  {
+    "corruption": "blur",
+    "metric": "abs_rel",
+    "compared": "mixed",
+    "reference": "expert",
+    "mean_difference": -0.023147748063651132,
+    "scene_win_fraction": 0.8387096774193549
+  },
+  {
+    "corruption": "blur",
+    "metric": "calibrated_abs_rel",
+    "compared": "mixed",
+    "reference": "base",
+    "mean_difference": -0.018659774882603713,
+    "scene_win_fraction": 0.6774193548387096
+  },
+  {
+    "corruption": "blur",
+    "metric": "calibrated_abs_rel",
+    "compared": "mixed",
+    "reference": "expert",
+    "mean_difference": 0.13614420258613238,
+    "scene_win_fraction": 0.3225806451612903
+  }
+]

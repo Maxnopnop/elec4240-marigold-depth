@@ -1,16 +1,18 @@
 """English report of the predefined replication, including negative findings."""
 import csv
+import os
 from pathlib import Path
 import numpy as np
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from run_robustness import arguments, matrix, conditions, DRAWS, SEEDS, fixed_metrics
-from run_expanded import read, write
+from run_expanded import read, write, sha
 from experiment import load_sample, evaluate_depth
 from robustness_stats import CONTRASTS, bootstrap, holm
 from analyze_scaleup_multiplicity import analyze
 from crossed_bootstrap_sensitivity import crossed_bootstrap
+from audit_bootstrap_intervals import matched_intervals
 
 
 def csv_out(path, rows):
@@ -22,7 +24,11 @@ def csv_out(path, rows):
 def main():
     a = arguments()
     out = a.results
-    assert read(out/'verification.json')['metrics_recomputed'] == 9182
+    repo = Path(__file__).resolve().parent
+    def doc_link(name):
+        return os.path.relpath(repo/name, out.resolve()).replace('\\', '/')
+    audit = read(out/'verification.json')
+    assert audit['metrics_recomputed'] == 9182
     manifest = read(out/'split_manifest.json')
     groups = ['base_r256', 'high512_r256', 'mixed_r256', 'base_r512', 'high512_r512', 'mixed_r512', 'expert256', 'expert504']
     metrics = ['abs_rel', 'rmse_m', 'delta1', 'calibrated_abs_rel', 'calibrated_rmse_m', 'calibrated_delta1']
@@ -141,17 +147,24 @@ def main():
     fig.savefig(figdir/'training_draws.png', dpi=150); plt.close(fig)
     fig, ax = plt.subplots(figsize=(10, 5.2), layout='constrained')
     primary = [r for r in comparisons if r['cohort'] == 'fresh31' and r['metric'] == 'abs_rel']
+    interval_audit = []
     labels = []
     for i, r in enumerate(primary):
         h = r['hierarchical']; labels.append(f"{r['compared']} - {r['reference']}\nHolm p={h['p_holm']:.4f}")
-        ax.plot([h['bonferroni_ci_low'], h['bonferroni_ci_high']], [i, i], color='#94a3b8', lw=3)
-        ax.plot([h['ci_low'], h['ci_high']], [i, i], color='#2563eb', lw=5)
+        delta = data[('fresh31', r['compared'], 'abs_rel')]-data[('fresh31', r['reference'], 'abs_rel')]
+        matched = {kind: matched_intervals(delta, kind, r[kind]['p_bootstrap']) for kind in ['hierarchical', 'crossed']}
+        interval_audit.append({'compared': r['compared'], 'reference': r['reference'], **matched})
+        bounds = matched['hierarchical']
+        ax.plot([bounds['bonferroni_ci_low'], bounds['bonferroni_ci_high']], [i, i], color='#94a3b8', lw=3)
+        ax.plot([bounds['ci_low'], bounds['ci_high']], [i, i], color='#2563eb', lw=5)
         ax.scatter(h['difference'], i, color='#0f172a', zorder=3)
+    write(out/'interval_consistency_audit.json', {'analysis': 'post-hoc display audit; all 12 original p-values exactly reproduced',
+          'source_sha256': sha('audit_bootstrap_intervals.py'), 'comparisons': interval_audit})
     ax.axvline(0, color='black', ls='--', lw=1)
     ax.set(yticks=range(len(primary)), yticklabels=labels, xlabel='Aligned AbsRel difference (negative favors first method)',
-           title='Fresh 31 scenes | paired training-draw / seed / scene bootstrap')
+           title='Fresh 31 scenes | nested centered bootstrap | matched symmetric intervals')
     ax.invert_yaxis(); ax.grid(axis='x', alpha=.2)
-    fig.suptitle('Blue: 95% interval | gray: Bonferroni interval for six comparisons', fontsize=10)
+    fig.suptitle('Post-hoc display audit: blue 95%; gray Bonferroni | original Holm tests unchanged', fontsize=10)
     fig.savefig(figdir/'corrected_comparisons.png', dpi=150); plt.close(fig)
     fig, axes = plt.subplots(1, 2, figsize=(12, 4.5), layout='constrained')
     show = ['base_r512', 'high512_r512', 'mixed_r512', 'expert256', 'expert504']
@@ -195,7 +208,28 @@ def main():
              'before the new runs; the crossed-seed sensitivity addendum was fixed during validation, before new test inference.', '',
              '**Training-provenance correction:** the fixed Depth Anything V2 indoor reference was metric-fine-tuned on Hypersim, '
              'not NYUv2. Earlier NYUv2-supervision and derived validation-overlap descriptions are withdrawn; '
-             '[the correction](../../CORRECTIONS.md) records the pinned model-card evidence. No weights or measurements changed.', '',
+             f"[the correction]({doc_link('CORRECTIONS.md')}) records the pinned model-card evidence. No weights or measurements changed.", '',
+             '## What the replication supports', '',
+             '- On the 31 fresh scenes, mixed512 reduces mean aligned AbsRel from 0.09687 to 0.08462 (12.6%). '
+             'Each of the three training-draw means is below the pretrained score. However, the predefined six-comparison '
+             'Holm tests do not confirm this improvement at 0.05 (nested p=0.1088; crossed p=0.1094). '
+             'The result is a favorable point estimate with insufficient corrected evidence, not proof of no effect.',
+             '- At 256 inference, mixed training improves on high512-only training: aligned AbsRel 0.10128 versus 0.12696 '
+             '(nested Holm p=0.0042; crossed p=0.0084). At 512 inference, mixed does not establish an advantage over '
+             'high512-only training (0.08462 versus 0.08339; both Holm p=1). The supported benefit is resolution-dependent.',
+             '- On the previously observed 64 scenes, mixed512 improves on pretrained512 from 0.06661 to 0.06008 '
+             '(nested Holm p=0.0102; crossed p=0.0174). This supports repeatability with new training draws on an already '
+             'examined cohort; it cannot replace the fresh-cohort result.',
+             '- Without per-test-image GT alignment, mixed512 with fixed validation calibration has AbsRel 0.31261 '
+             'and RMSE 0.9220 m. Its calibrated AbsRel improvement over pretrained512 (0.32862) survives the separate '
+             'secondary six-comparison family (nested Holm p=0.0070; crossed p=0.0088), but absolute-distance errors '
+             'remain substantial. The specialist at the approximately matched input size has calibrated AbsRel 0.14752.',
+             '- A separate post-hoc [official-default specialist diagnostic]('
+             f"{doc_link('results/expert_default_diagnostic_v1/RESULTS.md')}) uses its unchanged 518x686 processor input. "
+             'It gives native AbsRel 0.25369 and calibrated AbsRel 0.15036 on fresh31. Native performance changes '
+             'substantially with preprocessing; conclusions cannot be based on only the smaller custom input. '
+             'Its larger pixel budget makes this a descriptive reference, not another confirmatory contrast. '
+             'The additional 127 predictions passed verification (9,309 verified predictions across both studies).', '',
              '## Design and audit', '',
              '- Three new scene-uniform training draws of 128 from 217 eligible scenes; five seeds (17,29,43,59,71); '
              'high512 and mixed; 30 fresh trainings of 320 updates.',
@@ -205,9 +239,13 @@ def main():
              'The other 120 previously tested scenes were not rerun. All 215 official test scenes have now been observed across project phases.',
              '- Validation-only calibration uses 32 scenes. All 9,182 saved predictions, 335 input hashes, 30 checkpoints, paired '
              'training schedules and four restoration checks passed the audit. No test result selected a checkpoint or hyperparameter.', '',
+             (f"- Historical baseline reproducibility: {audit['previous_baseline_reproductions']['arrays_compared']} raw prediction arrays are exactly equal to scaleup_v2."
+              if audit['previous_baseline_reproductions']['available'] else '- Historical raw arrays were unavailable for the optional cross-study reproducibility check.'), '',
              '## Fresh-scene scores', '',
              'AbsRel, RMSE and delta1 below use the same crop/range. Each adapted entry averages three training draws and five seeds. '
              'Aligned metrics fit one affine transform using each test image\'s GT. Calibrated metrics use a fixed transform learned on validation only.', '',
+             'The adaptation target is normalized independently per image using depth quantiles, and Marigold outputs relative depth. '
+             'The training objective therefore does not directly enforce meter-valued predictions. Fixed global calibration is a separate diagnostic of that limitation.', '',
              '| Method | Aligned AbsRel | Aligned RMSE (m) | Aligned delta1 | Calibrated AbsRel | Calibrated RMSE (m) | Calibrated delta1 |',
              '|---|---:|---:|---:|---:|---:|---:|']
     for group in groups:
@@ -224,10 +262,15 @@ def main():
               '## Predefined fresh-scene comparisons', '',
               'Negative differences favor the first method. Intervals below resample training draws, seeds within each draw, and paired test scenes. '
               'Holm p-values cover the six aligned comparisons as one family. Bootstrap p-values and interval coverage are approximate with only three training draws. '
-              'The CSV also reports scene-only intervals and conservative Bonferroni intervals.', '',
-              'The pre-test [sensitivity addendum](../../STATISTICAL_SENSITIVITY_V3.md) also resamples seed indices jointly across training draws '
+              'The CSV also reports scene-only intervals and nominal Bonferroni-adjusted percentile intervals.', '',
+              f"The pre-test [sensitivity addendum]({doc_link('STATISTICAL_SENSITIVITY_V3.md')}) also resamples seed indices jointly across training draws "
               'because numerical seeds share initialization/schedules. Both analyses are shown; no favorable analysis is selected.', '',
-              '| Comparison | Difference | Nested 95% interval | Nested Holm p | Crossed 95% interval | Crossed Holm p |', '|---|---:|---|---:|---|---:|']
+              '**Interval/test distinction:** the predefined intervals are percentile intervals, while the p-values use centered '
+              'absolute-deviation bootstrap tests. They are not mathematical inverses and can disagree for skewed samples. '
+              'The predefined Holm-adjusted tests determine significance statements; a percentile interval excluding zero does not override them. '
+              'The figure adds a post-hoc display audit with symmetric intervals matched to the centered test. All 12 underlying primary nested/crossed '
+              'p-values are replayed exactly in `interval_consistency_audit.json`; no test or decision threshold changes.', '',
+              '| Comparison | Difference | Nested percentile 95% interval | Nested Holm p | Crossed percentile 95% interval | Crossed Holm p |', '|---|---:|---|---:|---|---:|']
     for r in primary:
         h = r['hierarchical']
         x = r['crossed']
@@ -256,6 +299,7 @@ def main():
         lines.append(f"| {r['compared']} - {r['reference']} | {r['difference']:+.5f} | {r['p_holm']:.4f} |")
     lines += ['', '## Computational cost and limits', '',
               f"- New training total: {sum(r['training_seconds'] for r in costs)/60:.2f} minutes, excluding latent caching, model loading, evaluation and data extraction; peak allocated training VRAM {max(r['peak_allocated_mib'] for r in costs):.1f} MiB.",
+              f"- Individual training times range from {min(r['training_seconds'] for r in costs):.1f} to {max(r['training_seconds'] for r in costs):.1f} seconds. Late runs were substantially faster despite the same update budget. Hardware/runtime conditions were not controlled, so timing is descriptive and does not establish a causal method speedup.",
               '- Three draws and five seeds strengthen the evidence within this finite NYUv2 pool, but do not establish universal performance. The fresh cohort has only 31 scenes and is deliberately separate from the previously observed cohort. This is not the standard full 654-frame NYUv2 benchmark.',
               '- The specialist has different pretraining and Hypersim metric-depth fine-tuning, precision, architecture and compute. Its 378x504 input is approximately matched to Marigold 384x512, not an architecture-controlled comparison. The model-card evidence does not support the earlier claim of NYUv2-labeled training overlap with our validation scenes.',
               '- Calibration removes test-target fitting but adds a simple validation-trained postprocessor. It does not convert the original Marigold architecture into a natively metric model; conclusions concern the measured calibrated system and indoor split.',

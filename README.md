@@ -12,6 +12,25 @@ The analysis includes paired scene uncertainty, training-draw/seed/scene uncerta
 
 The protocol and source hashes were committed before new training. The statistical sensitivity addendum was committed during validation, before test inference. Earlier result directories are preserved; old low256 and preservation-loss results receive a retrospective 21-comparison adjustment but are not retrained in this replication.
 
+**Completed findings:** on fresh31, mixed512 reduces aligned AbsRel from **0.09687 to 0.08462 (12.6%)**, but the predefined Holm-adjusted tests do **not** confirm the improvement at 0.05 (nested p=0.1088; crossed p=0.1094). Mixed training does outperform high512-only training at 256 inference (**0.10128 vs 0.12696**, adjusted p=0.0042/0.0084), while no advantage is established at 512. On already observed64, mixed512 reaches 0.06008 versus 0.06661, with adjusted p=0.0102/0.0174; this is a separate replication on previously examined scenes.
+
+Fixed validation-only calibration yields fresh31 AbsRel **0.31261** and RMSE **0.9220 m** for mixed512, compared with calibrated specialist AbsRel 0.14752 at the approximately matched input size. A separately specified, **post-hoc official-default preprocessing diagnostic** gives specialist native AbsRel 0.25369 and calibrated AbsRel 0.15036, using larger 518x686 inputs. These results distinguish relative structure from meter-valued accuracy and show why preprocessing and metric choice matter.
+
+Read the [complete English results and figures](results/robustness_v3/RESULTS.md), [main verification](results/robustness_v3/verification.json), and [official-default diagnostic](results/expert_default_diagnostic_v1/RESULTS.md). All **9,182 main plus 127 diagnostic predictions** were verified. The 30 new trainings used **52.40 minutes** of optimizer time and peaked at **2,512 MiB** allocated training VRAM; wall times are descriptive, not a controlled speed benchmark. The report retains the original percentile intervals and adds a clearly marked interval/test consistency display audit; significance statements follow the unchanged predefined Holm tests.
+
+With the pinned assets and environment prepared, use **new external work and results directories** for a fresh reproduction (published completion markers require raw arrays that are intentionally not in Git):
+
+```powershell
+.\run_robustness.ps1 -Python 'E:\elec4240\.venv\Scripts\python.exe' -Assets 'E:\elec4240\assets' -Work 'E:\elec4240\replication-work' -Results 'E:\elec4240\replication-results' -PrepareOnly
+# Remove -PrepareOnly to run training, validation, test, perturbations, audit and report.
+```
+
+The preparation-only path verifies the frozen scene selection and input hashes without training. Resume a local run with the same work/results pair. Model/data caches, adapters and raw prediction arrays remain local; the repository contains reproducibility records, metrics and figures. After data preparation, reproduce the separate [post-hoc diagnostic](EXPERT_DEFAULT_DIAGNOSTIC.md) from the repository with the prepared Python environment:
+
+```powershell
+python diagnose_expert_default.py --assets 'E:\elec4240\assets' --work 'E:\elec4240\expert-default-work' --results 'E:\elec4240\expert-default-results'
+```
+
 ## Larger local experiment: scaleup_v2
 
 The larger study uses **128 training scenes, 32 validation scenes and 64 new test scenes** that were excluded from all earlier selections. It compares LoRA trained at 256, at 512, with alternating 256/512 updates, and with alternating resolutions plus a uniform original-denoiser preservation penalty. Each condition has three training seeds and 320 optimizer updates, followed by one-step inference at both resolutions. Original Marigold and the Depth Anything V2 specialist remain references: 27 evaluation conditions and 2,592 predictions in total.
