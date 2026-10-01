@@ -100,10 +100,10 @@ def main():
           'per_image_sha256': {s: sha(out/s/'per_image.json') for s in ['validation', 'test']}, 'prediction_sha256': hashes})
     lines = ['# Official-default specialist preprocessing diagnostic', '',
              'This post-hoc diagnostic was added after the clean robustness_v3 results were observed. It evaluates the pinned '
-             'Depth Anything V2 indoor model with its unchanged processor defaults. Actual input is 518x686, larger than Marigold384x512. '
+             'Depth Anything V2 indoor model with its unchanged processor defaults. Actual input is 518x686, larger than Marigold 384x512. '
              'It is a descriptive reference with a different pixel budget, not an added confirmatory comparison.', '',
-             'The model is metric-fine-tuned on Hypersim. Fixed calibration uses only the same32validation scenes and is saved before test prediction. '
-             'All127predictions and recomputed metrics passed the audit.', '',
+             'The model is metric-fine-tuned on Hypersim. Fixed calibration uses only the same 32validation scenes and is saved before test prediction. '
+             'All 127 predictions and recomputed metrics passed the audit.', '',
              '| Cohort | GT-aligned AbsRel | Native AbsRel | Native RMSE (m) | Calibrated AbsRel | Calibrated RMSE (m) |',
              '|---|---:|---:|---:|---:|---:|']
     for r in summary:
