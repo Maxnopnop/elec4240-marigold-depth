@@ -9,3 +9,5 @@
 *.png binary
 # Preserve the exact verified source bytes shipped in the Overleaf archive.
 reports/final/*.tex -text
+# Keep the new report's audited bytes stable across platform checkouts.
+results/metric_multitask_v7/RESULTS.html text eol=lf
