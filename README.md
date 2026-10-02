@@ -4,6 +4,12 @@ A local course-project study that measures the accuracy and compute cost of adap
 
 **Provenance correction (2026-10-01):** the fixed Depth Anything V2 indoor reference is metric-fine-tuned on **Hypersim**, not NYUv2. Earlier NYUv2-supervision wording and the overlap inference derived from it are withdrawn; measured results are unchanged. See [the correction and pinned primary sources](CORRECTIONS.md).
 
+## Research review and prerequisites for the next stage
+
+The [project review and five English proposal answers](research_v6/project_review.html) distinguish the completed relative-depth study from proposed metric-depth and multi-task extensions. A read-only [foundation audit](research_v6/foundation_audit.json) finds that only 80 of 128 training images on average appear at both resolutions in the existing mixed runs. A [training-only gradient probe](research_v6/gradient_results.json) completes 256 backward passes without updating weights: all eight grouped mean cosines are positive, with 12 negative pairs out of 128. This small diagnostic does not establish widespread gradient conflict. Exposure-matched schedules and consistent preprocessing take priority over more complex optimization.
+
+The review lists the missing metric encoding, camera calibration/label masks, task conditioning and decoding, single-task controls, memory profiling, and genuinely new evaluation scenes needed for a depth-plus-normal extension. No new metric or multi-task model has been trained. The delivered final report and its source/code archives remain unchanged. The diagnostic scripts require the retained local assets and checkpoints documented in the existing reproduction guide; their protocol is in `research_v6/gradient_protocol.json`.
+
 ## Completed final report and matched controls
 
 The [final findings](FINAL_FINDINGS.md) integrate **24 additional trainings**, **7,890 matched-control predictions**, **576 fixed-time validation predictions**, and **320 controlled timing matches**. All **939 historical result blobs** remain unchanged. The [independent audit](results/final_extension_v5/delivery_checks.json) passed.

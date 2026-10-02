@@ -1,0 +1,381 @@
+{
+  "status": "passed",
+  "scope": "training arrays and existing metadata only; no new model evaluations",
+  "manifest_sha256": "5ca21fdd731a4232b4a0e945cf62e950ce2c3dbb69a5b4bfb5f11fbf6defc0be",
+  "source_sha256": "5bf629b14bbc9b55e2040f83aab40e6e9ef4c3b0249bf52e5f652381e9976e2b",
+  "training_scene_union": 208,
+  "validation_scenes": 32,
+  "scene_role_overlap": false,
+  "training_sample_audit": [
+    {
+      "id": 5,
+      "scene": "office_0004",
+      "keys": [
+        "image",
+        "depth"
+      ],
+      "shape": [
+        480,
+        640
+      ],
+      "finite_fraction": 1.0,
+      "depth_range_m": [
+        1.3484086990356445,
+        5.201444149017334
+      ]
+    },
+    {
+      "id": 48,
+      "scene": "bathroom_0005",
+      "keys": [
+        "image",
+        "depth"
+      ],
+      "shape": [
+        480,
+        640
+      ],
+      "finite_fraction": 1.0,
+      "depth_range_m": [
+        0.9847147464752197,
+        2.796297073364258
+      ]
+    },
+    {
+      "id": 67,
+      "scene": "bedroom_0015",
+      "keys": [
+        "image",
+        "depth"
+      ],
+      "shape": [
+        480,
+        640
+      ],
+      "finite_fraction": 1.0,
+      "depth_range_m": [
+        0.7443323135375977,
+        2.0102555751800537
+      ]
+    },
+    {
+      "id": 68,
+      "scene": "bedroom_0016",
+      "keys": [
+        "image",
+        "depth"
+      ],
+      "shape": [
+        480,
+        640
+      ],
+      "finite_fraction": 1.0,
+      "depth_range_m": [
+        1.3513810634613037,
+        2.3974738121032715
+      ]
+    },
+    {
+      "id": 80,
+      "scene": "bedroom_0019",
+      "keys": [
+        "image",
+        "depth"
+      ],
+      "shape": [
+        480,
+        640
+      ],
+      "finite_fraction": 1.0,
+      "depth_range_m": [
+        1.1537199020385742,
+        2.3057773113250732
+      ]
+    },
+    {
+      "id": 130,
+      "scene": "kitchen_0006",
+      "keys": [
+        "image",
+        "depth"
+      ],
+      "shape": [
+        480,
+        640
+      ],
+      "finite_fraction": 1.0,
+      "depth_range_m": [
+        0.80246901512146,
+        2.491891384124756
+      ]
+    },
+    {
+      "id": 135,
+      "scene": "kitchen_0008",
+      "keys": [
+        "image",
+        "depth"
+      ],
+      "shape": [
+        480,
+        640
+      ],
+      "finite_fraction": 1.0,
+      "depth_range_m": [
+        0.7168440222740173,
+        2.390033483505249
+      ]
+    },
+    {
+      "id": 142,
+      "scene": "kitchen_0011",
+      "keys": [
+        "image",
+        "depth"
+      ],
+      "shape": [
+        480,
+        640
+      ],
+      "finite_fraction": 1.0,
+      "depth_range_m": [
+        0.877874493598938,
+        4.148166179656982
+      ]
+    }
+  ],
+  "local_second_task_labels_present": false,
+  "local_camera_intrinsics_in_npz": false,
+  "mixed_training_exposure": [
+    {
+      "run": "draw1_mixed_seed17",
+      "steps": 320,
+      "updates": {
+        "256": 160,
+        "512": 160
+      },
+      "unique_images": {
+        "256": 106,
+        "512": 103
+      },
+      "images_seen_at_both": 81,
+      "training_images": 128
+    },
+    {
+      "run": "draw1_mixed_seed29",
+      "steps": 320,
+      "updates": {
+        "256": 160,
+        "512": 160
+      },
+      "unique_images": {
+        "256": 103,
+        "512": 106
+      },
+      "images_seen_at_both": 81,
+      "training_images": 128
+    },
+    {
+      "run": "draw1_mixed_seed43",
+      "steps": 320,
+      "updates": {
+        "256": 160,
+        "512": 160
+      },
+      "unique_images": {
+        "256": 106,
+        "512": 111
+      },
+      "images_seen_at_both": 89,
+      "training_images": 128
+    },
+    {
+      "run": "draw1_mixed_seed59",
+      "steps": 320,
+      "updates": {
+        "256": 160,
+        "512": 160
+      },
+      "unique_images": {
+        "256": 99,
+        "512": 101
+      },
+      "images_seen_at_both": 72,
+      "training_images": 128
+    },
+    {
+      "run": "draw1_mixed_seed71",
+      "steps": 320,
+      "updates": {
+        "256": 160,
+        "512": 160
+      },
+      "unique_images": {
+        "256": 105,
+        "512": 100
+      },
+      "images_seen_at_both": 77,
+      "training_images": 128
+    },
+    {
+      "run": "draw2_mixed_seed17",
+      "steps": 320,
+      "updates": {
+        "256": 160,
+        "512": 160
+      },
+      "unique_images": {
+        "256": 106,
+        "512": 103
+      },
+      "images_seen_at_both": 81,
+      "training_images": 128
+    },
+    {
+      "run": "draw2_mixed_seed29",
+      "steps": 320,
+      "updates": {
+        "256": 160,
+        "512": 160
+      },
+      "unique_images": {
+        "256": 103,
+        "512": 106
+      },
+      "images_seen_at_both": 81,
+      "training_images": 128
+    },
+    {
+      "run": "draw2_mixed_seed43",
+      "steps": 320,
+      "updates": {
+        "256": 160,
+        "512": 160
+      },
+      "unique_images": {
+        "256": 106,
+        "512": 111
+      },
+      "images_seen_at_both": 89,
+      "training_images": 128
+    },
+    {
+      "run": "draw2_mixed_seed59",
+      "steps": 320,
+      "updates": {
+        "256": 160,
+        "512": 160
+      },
+      "unique_images": {
+        "256": 99,
+        "512": 101
+      },
+      "images_seen_at_both": 72,
+      "training_images": 128
+    },
+    {
+      "run": "draw2_mixed_seed71",
+      "steps": 320,
+      "updates": {
+        "256": 160,
+        "512": 160
+      },
+      "unique_images": {
+        "256": 105,
+        "512": 100
+      },
+      "images_seen_at_both": 77,
+      "training_images": 128
+    },
+    {
+      "run": "draw3_mixed_seed17",
+      "steps": 320,
+      "updates": {
+        "256": 160,
+        "512": 160
+      },
+      "unique_images": {
+        "256": 106,
+        "512": 103
+      },
+      "images_seen_at_both": 81,
+      "training_images": 128
+    },
+    {
+      "run": "draw3_mixed_seed29",
+      "steps": 320,
+      "updates": {
+        "256": 160,
+        "512": 160
+      },
+      "unique_images": {
+        "256": 103,
+        "512": 106
+      },
+      "images_seen_at_both": 81,
+      "training_images": 128
+    },
+    {
+      "run": "draw3_mixed_seed43",
+      "steps": 320,
+      "updates": {
+        "256": 160,
+        "512": 160
+      },
+      "unique_images": {
+        "256": 106,
+        "512": 111
+      },
+      "images_seen_at_both": 89,
+      "training_images": 128
+    },
+    {
+      "run": "draw3_mixed_seed59",
+      "steps": 320,
+      "updates": {
+        "256": 160,
+        "512": 160
+      },
+      "unique_images": {
+        "256": 99,
+        "512": 101
+      },
+      "images_seen_at_both": 72,
+      "training_images": 128
+    },
+    {
+      "run": "draw3_mixed_seed71",
+      "steps": 320,
+      "updates": {
+        "256": 160,
+        "512": 160
+      },
+      "unique_images": {
+        "256": 105,
+        "512": 100
+      },
+      "images_seen_at_both": 77,
+      "training_images": 128
+    }
+  ],
+  "mean_images_seen_at_both_resolutions": 80.0,
+  "metric_codec": {
+    "range_m": [
+      0.1,
+      10.0
+    ],
+    "mapping": "log(d/0.1)/log(100)",
+    "float_max_abs_error_m": 5.329070518200751e-15,
+    "eight_bit_max_relative_error": 0.00907063660046803,
+    "outside_range": "clipped; not invertible outside the fixed interval",
+    "learned_prediction_accuracy_tested": false
+  },
+  "per_image_normalization_loses_metric_scale_counterexample": true,
+  "notes": [
+    "NYUv2 depths are inpainted metric labels; missing raw validity masks matter for derived normals.",
+    "Original official test cohorts and external200 have already been observed.",
+    "Normal labels derived from depth are correlated supervision, not an independent geometry measurement.",
+    "Normal RGB decoding must preserve three channels; existing depth pipeline averages channels.",
+    "Affine-invariant ensembling must be disabled/replaced for metric outputs."
+  ]
+}

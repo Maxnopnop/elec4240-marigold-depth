@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-10-02T01:45:39.833956+00:00",
+  "scope": "post-hoc training-only diagnosis; no training updates or model selection on tests",
+  "training_ids": [
+    5,
+    48,
+    67,
+    68,
+    80,
+    130,
+    135,
+    142
+  ],
+  "timesteps": [
+    100,
+    500,
+    900,
+    999
+  ],
+  "noise_replicas": 2,
+  "noise_policy": "unit-variance coupled high noise and 2*average_pool_2x2 low noise; independent replicas serve within-resolution controls",
+  "checkpoints": {
+    "low256": {
+      "path": "final_extension_v5/checkpoints/draw1_low256_seed17/adapter.pt",
+      "sha256": "807ef53954a769a59a722dff700c4178bfb533509326296523c46ff086945148"
+    },
+    "mixed": {
+      "path": "robustness_v3/checkpoints/draw1_mixed_seed17/adapter.pt",
+      "sha256": "d05a3c535b6bda264e9bd562d650741ed75d78f3ee9be909263acd1679388a82"
+    }
+  },
+  "source_sha256": "0ad9031a8d6cdbcfa2f55e2555db68569d0b9b7e41f0560d1263a823e4b4b41c",
+  "decision": "Report all groups, including nonnegative results; a negative cosine alone does not establish harmful optimization or justify PCGrad."
+}

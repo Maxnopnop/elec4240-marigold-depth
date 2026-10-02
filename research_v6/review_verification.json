@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "historical_result_and_report_blobs_unchanged": 1242,
+  "local_html_links_valid": true,
+  "gradient_backward_passes": 256,
+  "gradient_records": 64,
+  "gradient_pairs": 128,
+  "checkpoints_unchanged": true,
+  "new_metric_model_trained": false,
+  "new_multitask_model_trained": false,
+  "source_hashes": {
+    "audit_foundations.py": "5bf629b14bbc9b55e2040f83aab40e6e9ef4c3b0249bf52e5f652381e9976e2b",
+    "gradient_probe.py": "0ad9031a8d6cdbcfa2f55e2555db68569d0b9b7e41f0560d1263a823e4b4b41c"
+  }
+}

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ELEC4240 · 项目复盘与下一阶段方案</title>
+<style>
+:root{font-family:Segoe UI,Microsoft YaHei,sans-serif;color:#182b37;background:#f3f6f8;line-height:1.7}body{max-width:1060px;margin:32px auto;padding:0 24px 60px}header,section{background:white;border:1px solid #dae3e9;border-radius:12px;padding:26px 30px;margin:18px 0}h1{font-size:28px;line-height:1.4;margin:8px 0}h2{font-size:21px;color:#123d55;margin:0 0 16px}h3{font-size:17px;margin-top:22px}p{margin:10px 0}a{color:#176387}table{border-collapse:collapse;width:100%;font-size:14px;margin:16px 0}th,td{text-align:left;vertical-align:top;padding:12px;border-bottom:1px solid #dae3e9}th{background:#edf4f7}code{background:#eef3f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}.note{border-left:4px solid #d29b32;padding:10px 16px;background:#fff8e9}.good{border-left:4px solid #258373;padding:10px 16px;background:#eef9f5}.meta{color:#607585;font-size:13px}.formula{padding:14px;background:#f1f5f8;font-family:Consolas,monospace;overflow-wrap:anywhere}li{margin:8px 0}summary{cursor:pointer;font-weight:600;color:#123d55}details{padding:14px 0;border-bottom:1px solid #dae3e9}@media(max-width:700px){body{padding:0 12px}section,header{padding:18px}table{font-size:12px}th,td{padding:7px}}@media print{body{background:white;margin:0}section,header{border:0;padding:8px 0}details{display:block}a{color:inherit}tr{break-inside:avoid}}
+</style></head><body>
+<header><div class="meta">ELEC4240 · 2026-10-02 · 基于已完成 v1–v5 实验与原始文献</div>
+<h1>从相对深度适配，走向可检验的模型改进</h1>
+<p>HO, Chun Wai 21053878 · Tong, Man Hung 21064669 · MA, Shenhan 21041382</p>
+<p>当前成果足以支撑“有限数据、有限显存下的深度适配研究”。下一阶段应先解释分辨率收益差异，再决定是否扩展为米制深度与表面法线两任务。</p>
+<div class="note">本文件是后续研究评审，不替换已交付的 proposal、milestone 或 8 页 final report。所有新方法仍是待验证假设；已有测试场景不能重新称为未见验证集。</div></header>
+
+<section><h2>1. 当前证据回答了什么</h2>
+<table><thead><tr><th>问题</th><th>已有证据</th><th>能支持的结论</th></tr></thead><tbody>
+<tr><td>8 GB GPU 上能否适配？</td><td>rank-4 LoRA，829,952 个可训练参数；重复训练、恢复检查与原始预测审计完成。</td><td>当前配置可运行、可复核；不能外推到更大多任务模型。</td></tr>
+<tr><td>混合分辨率是否最好？</td><td>external200 / 256：低分辨率训练 0.09277，混合 0.09632；探索性 crossed Holm8 p=0.01560。</td><td>该已观察样本中，低分辨率单独训练更好；不支持“混合必然更优”。</td></tr>
+<tr><td>512 是否稳定改善？</td><td>混合 0.07038，低分辨率训练 0.07140；两者 crossed Holm8 p=0.41038。原始冻结六比较也未确认混合优于原模型512。</td><td>较低均值与统计确认不同；不显著也不等于两者等效。</td></tr>
+<tr><td>能否直接预测距离？</td><td>主指标依赖逐图真实深度仿射对齐；固定验证集标定误差仍较大。</td><td>目前主要支持相对结构预测，不支持准确米制距离部署。</td></tr>
+<tr><td>哪里最值得改？</td><td>外部混合512边界 AbsRel 0.14719，内部0.06639；近距离均值可退化。</td><td>可提出边界/近距离改进假设；先核查标签与预处理，不直接宣布机制。</td></tr>
+</tbody></table>
+<p>所有数值来自 <a href="../FINAL_FINDINGS.md">FINAL_FINDINGS</a> 与保留的结果文件。外部样本为200个来源分组、63个更宽泛的位置代理组；不能把200个视作已证明完全独立的物理空间。</p></section>
+
+<section><h2>2. 与原文献的关系：哪些不能再当作新概念</h2>
+<table><thead><tr><th>文献</th><th>已解决/研究的内容</th><th>本项目可探索的不同约束</th></tr></thead><tbody>
+<tr><td><a href="https://arxiv.org/html/2604.20329v1">Vision Banana</a></td><td>以图像形式表达多种视觉输出，米制深度采用可逆编码；混入原始生成数据，并评估生成能力保留。</td><td>公开可训练模型、8 GB GPU、少量真实标注下的可实现性。当前实验不能称为该模型的直接复现或已验证改进。</td></tr>
+<tr><td><a href="https://arxiv.org/html/2505.09358v1">Marigold 2025</a></td><td>已研究少步推理、多种图像分析任务和高分辨率细节；v1.1 使用 trailing DDIM 与零终端信噪比。</td><td>少样本 LoRA 在低处理分辨率下的适配与迁移。当前512仍低于原模型推荐768，宜称“较高处理分辨率”，不能混同 Marigold-HR。</td></tr>
+<tr><td><a href="https://arxiv.org/html/2603.16340v1">Iris</a></td><td>已有分阶段的先验蒸馏、频谱门控和一致性约束。</td><td>更小预算下的简单可解释替代；不能把“先验保持＋一致性”本身声明为首次提出。</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2109.01903">WiSE-FT</a> / <a href="https://arxiv.org/abs/2412.08946">MoSLD</a></td><td>权重插值、共享 LoRA 专家已有相关方法。</td><td>按处理分辨率进行轻量适配的具体设计与严格预算对照；全局算法新颖性尚未建立。</td></tr>
+<tr><td><a href="https://openaccess.thecvf.com/content_cvpr_2018/html/Qi_GeoNet_Geometric_Neural_CVPR_2018_paper.html">GeoNet (Qi et al., 2018)</a></td><td>深度与表面法线联合预测及几何关系已有研究。</td><td>在生成式适配、小显存和固定米制编码约束下是否仍有帮助，需要重新验证。</td></tr>
+</tbody></table>
+<p>可辩护的课程贡献是：测出明确失败模式，提出具体改动，通过公平对照说明何时有收益及代价。不能以有限文献搜索保证“世界上首次”。</p></section>
+
+<section><h2>3. 新发现：先修实验设计，再加复杂模块</h2>
+<p><strong>曝光次数不相等：</strong>现有单分辨率训练在目标分辨率做320次更新；混合训练在每个分辨率只做160次。审查15次混合训练的完整日志后，128张训练图平均只有<strong>80张</strong>在两个分辨率下都出现过。因此，“分辨率冲突”与“训练次数被分摊”是两个不同解释。</p>
+<p><strong>预处理有差异：</strong>训练缓存采用不抗锯齿的双线性缩放；推理处理器采用抗锯齿缩放。缓存也固定了样本，未实现原始 v1.1 的完整翻转、模糊和颜色增强。这些是紧凑实现的取舍，不能称为完全复刻官方训练。</p>
+<div id="gradient-summary" class="good"><strong>梯度诊断已完成：</strong>256次反向计算，权重保持不变。8个分组的跨分辨率平均梯度余弦均为正（0.136–0.444）；128个配对中有12个为负。当前诊断没有支持“普遍梯度冲突”解释，不能据此优先上PCGrad。曝光匹配和预处理对照应排在前面。</div><table><thead><tr><th>检查点 / 时间步</th><th>跨分辨率平均余弦</th><th>负余弦比例</th><th>同分辨率独立噪声平均余弦：256 / 512</th></tr></thead><tbody><tr><td>low256_t100</td><td>0.141</td><td>12.5%</td><td>0.306 / 0.859</td></tr><tr><td>low256_t500</td><td>0.410</td><td>0.0%</td><td>0.523 / 0.865</td></tr><tr><td>low256_t900</td><td>0.297</td><td>6.2%</td><td>0.723 / 0.844</td></tr><tr><td>low256_t999</td><td>0.294</td><td>0.0%</td><td>0.769 / 0.906</td></tr><tr><td>mixed_t100</td><td>0.136</td><td>25.0%</td><td>0.390 / 0.659</td></tr><tr><td>mixed_t500</td><td>0.444</td><td>6.2%</td><td>0.417 / 0.815</td></tr><tr><td>mixed_t900</td><td>0.252</td><td>12.5%</td><td>0.664 / 0.748</td></tr><tr><td>mixed_t999</td><td>0.208</td><td>12.5%</td><td>0.718 / 0.818</td></tr></tbody></table>
+<p>诊断只访问预先固定的8张训练图、同一训练子集/种子的两个检查点，检查4个时间步和2个噪声副本；不更新权重、不访问测试图。跨分辨率采用保持高斯方差的耦合噪声，另设同分辨率独立噪声对照。局部负余弦不等于有害训练，也不能单独证明一般化收益。</p>
+<ol>
+<li><strong>先做曝光对照：</strong>低256 / 高512 / 交替混合320；再加入成对图像训练和曝光匹配的混合640。明确成对更新、梯度累计与优化器步数的不同。640步只用于机制对照，不能直接称为等成本改进。</li>
+<li><strong>再统一预处理：</strong>独立比较 RGB 抗锯齿与固定增强缓存；保持其他设置不变。深度重采样需保留无效掩码并检查边界，不能盲目套用 RGB 插值策略。</li>
+<li><strong>再决定方法：</strong>若曝光匹配后仍存在稳定的分辨率权衡，尝试分辨率条件 LoRA：共享rank2＋每分辨率rank1分支。总参数量相当于rank4、单次激活rank3；补充普通rank3/rank4和固定强度插值对照，避免容量归因错误。</li>
+<li><strong>谨慎增加梯度/几何损失：</strong><a href="https://arxiv.org/abs/2001.06782">PCGrad</a>仅作为已有优化法的对照；双前向/反向成本必须计入。边界项、跨分辨率一致性和先验项应一次增加一个。</li>
+</ol></section>
+
+<section><h2>4. 若扩展为多任务＋米制深度，需要哪些基础</h2>
+<p><strong>建议最低目标：同一个可训练骨干，在任务条件下分别输出米制深度和表面法线。</strong>分别运行两个现成专用模型，可以作为基线，但不等同于实现共享的多任务模型。</p>
+<table><thead><tr><th>基础条件</th><th>目前情况</th><th>必须补齐</th></tr></thead><tbody>
+<tr><td>米制监督</td><td>已有 NYUv2 米制深度；当前训练逐图2%/98%归一化。</td><td>新增固定单位/固定范围的可逆目标编码；训练和评估全程保留尺度，不使用测试GT标定。</td></tr>
+<tr><td>第二种任务标签</td><td>本地NPZ只有 image/depth。</td><td>获取 RGB 相机内参及 rawDepths 有效性信息，生成带置信掩码的法线。若做分割，另提取 labels、固定类别映射与 ignore 标签。</td></tr>
+<tr><td>任务条件与共享参数</td><td>当前始终输入空文本嵌入。</td><td>固定 depth/normal 任务嵌入或任务标记，明确共享骨干/适配器结构及任务抽样；验证切换任务确实改变输出。</td></tr>
+<tr><td>可解码输出</td><td>深度解码器会平均RGB三个通道。</td><td>深度用固定标量编码；法线保留三通道并单位化。禁止法线经过现有通道平均；米制深度禁止逐图仿射归一化集成。</td></tr>
+<tr><td>训练显存与成本</td><td>单任务rank4已经实测可运行于8GB。</td><td>先batch1/256、冻结VAE及文本编码器、混合精度、梯度累计；逐任务做前向。联合几何损失需对VAE解码反传，显存要另测。</td></tr>
+<tr><td>基线与验证</td><td>已有相对深度及固定标定参考；所有旧测试集均已观察。</td><td>米制深度单任务、法线单任务、联合无几何项、联合有几何项；比较每任务效果及成本。最终确认须另有真正未用于开发的场景。</td></tr>
+<tr><td>原论文级泛化主张</td><td>当前只有深度适配，没有图像生成能力评估。</td><td>若声称保留生成能力，需要可训练的生成底座、合法可用的生成训练数据及独立生成评估。当前 Marigold 不是该主张的充分起点。</td></tr>
+</tbody></table>
+<p><a href="https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html">NYUv2 官方文档</a>说明 depths 是以米为单位的填补深度，rawDepths 提供填补前的投影深度，labels 为类别图，工具箱含相机参数。法线由填补深度生成时可能继承人工平滑；不能把派生标签当作独立测量真值。</p>
+<h3>最低成本的米制编码示例</h3>
+<div class="formula">u = log(d / 0.1) / log(100), &nbsp; d = 0.1 × exp(u × log(100)), &nbsp; d ∈ [0.1, 10] metres</div>
+<p>可将 u 复制到RGB三通道作为起点，不必先实现 Vision Banana 的彩色曲线。审计中10,001个范围内数值的浮点往返最大误差约5.33×10⁻¹⁵ m；8-bit量化最大相对误差约0.91%。这只证明编码可逆，不证明模型会预测正确。范围外会截断，应报告超范围比例；训练缓存优先浮点精度。</p>
+<p><strong>关键区别：</strong>目前逐图归一化可以把1–2m与2–4m变成相同目标，尺度信息已丢失。深度—法线一致性也不能独自恢复绝对尺度：整体深度乘常数时，局部法线方向不变。真实米制监督或其他尺度约束仍不可少。</p>
+<h3>分阶段进入条件</h3>
+<ol>
+<li>数据/编码阶段：单位、相机坐标、图像与内参缩放、无效掩码、正反编码全通过。先不训练。</li>
+<li>单任务米制阶段：先做8–16张训练图过拟合与编码解码可视化；再用固定训练/验证方案检验未对齐的 AbsRel/RMSE/δ1。小样本过拟合只检验实现。</li>
+<li>两任务阶段：先训练法线单任务，然后联合训练；按相同总预算和每任务曝光对照。两任务分别输出需两次推理，完整成本计入。</li>
+<li>几何一致性阶段：只在可靠像素增加深度—法线一致性；与“只加第二任务”区分。报告深度原始米制误差、法线角误差、边界效果以及负迁移。</li>
+<li>最终确认阶段：冻结一个候选和有限主假设，再获得独立场景一次评估。不能靠反复增加样本追求显著性。</li>
+</ol></section>
+
+<section><h2>5. Proposal 五个问题：可用的英文回答</h2>
+<p class="meta">以下回答与当前证据一致；米制两任务扩展单独标为候选方向，不追溯修改已经完成的实验。</p>
+<details open><summary>1. Problem and motivation</summary><p>We investigate when parameter-efficient adaptation of a generative depth model improves indoor depth estimation under limited labeled data and an 8 GB GPU budget. Our experiments indicate that adaptation gains depend strongly on processing resolution, and that a simple low-resolution control can outperform mixed-resolution training. We will study whether this tradeoff is explained by unequal training exposure, preprocessing, or interference between resolution-specific objectives. A separate extension will assess the feasibility of jointly learning metric depth and surface normals; successful metric prediction is not assumed.</p></details>
+<details open><summary>2. Background reading</summary><p>We will examine Marigold (CVPR 2024 and its 2025 extension), LoRA, Depth Anything V2, and Vision Banana to understand generative perception, efficient adaptation, specialist baselines, and decodable task outputs. WiSE-FT, ResAdapter, Iris, PCGrad, and shared-LoRA methods provide the closest context for interpolation, resolution adaptation, prior preservation, and optimization interference. GeoNet informs the optional depth-normal extension. These established ideas will be explicitly distinguished from our implementation choices and measured contributions.</p></details>
+<details open><summary>3. Data</summary><p>We use scene-grouped NYUv2 RGB-depth pairs with separate training and validation scenes. Existing NYUv2 test cohorts and the 200 SUN3D-source external groups are already observed and will be treated as historical evidence rather than fresh confirmation. The new diagnostic uses eight predetermined training images only. For the optional two-task extension, we will retain metric depth values and obtain camera calibration and raw-depth validity information before deriving normal targets. Derived normals are correlated labels and may inherit depth artifacts. A final confirmatory evaluation will require newly reserved scenes that are not used for method selection.</p></details>
+<details open><summary>4. Method and modifications</summary><p>We will reuse the pinned Marigold checkpoint and our audited LoRA training pipeline. Before introducing an additional module, we will compare matched resolution exposure, paired-image schedules, consistent preprocessing, and fixed adapter-strength baselines. If a residual resolution tradeoff remains, we will test shared low-rank updates with small resolution-specific branches under explicit parameter and compute controls. For metric depth and normals, we propose fixed invertible depth encoding, task-conditioned shared adaptation, and separate output decoding. Geometry consistency will be an ablated extension after the single-task and joint baselines work. No proposed modification is claimed to be beneficial before evaluation.</p></details>
+<details open><summary>5. Evaluation</summary><p>Relative-depth experiments report aligned AbsRel, RMSE, and threshold accuracy, while metric-depth experiments report these quantities without per-image ground-truth alignment. Normal estimation uses angular error and angular-threshold accuracy under a fixed coordinate convention and validity mask. We will compare single-task and joint models, preprocessing and schedule ablations, boundary failures, training memory, and complete inference cost across multiple seeds. Scene-grouped paired analyses and a predeclared multiplicity family will support final claims. Figures will include depth and normal predictions, error maps, region breakdowns, and accuracy-cost plots. Diagnostics on observed data remain exploratory.</p></details>
+</section>
+
+<section><h2>6. 下一轮流程与停止条件</h2>
+<p><strong>已完成：</strong>完整项目/实际proposal对照、原文献核查、数据与曝光审计、固定米制编码数值检查，以及训练集局部梯度探测。<strong>未完成：</strong>新的分辨率条件适配器、米制训练或多任务模型；不能提前写入报告“已实现”。</p>
+<p>下一轮先固定数据角色、代码版本、预算、主要比较与最小有用效果；采用训练集诊断→开发集选择→候选冻结→未见场景确认。训练缓存按样本/预处理/模型版本作键并跨种子复用。保留每阶段不同状态：implementation check、exploratory development、frozen confirmation。</p>
+<p>建议门槛：先要求实现检查通过；再确认候选在预先指定的验证目标上有实际收益，且其他目标没有超过事先设定的可接受退化。验证门槛不是显著性证明。若简单曝光或预处理改动已解释收益，则保留简单方法；若复杂方法只增加开销，则报告负结果并停止该分支。等效/不劣结论需要预设界值及相应区间检验，不能由 p&gt;0.05 推得。</p>
+<p>复核文件：<a href="foundation_audit.json">基础审计</a> · <a href="gradient_protocol.json">梯度诊断方案</a> · <a href="gradient_results.json">梯度诊断结果</a> · <a href="audit_foundations.py">基础审计代码</a> · <a href="gradient_probe.py">梯度诊断代码</a>。</p>
+</section></body></html>
