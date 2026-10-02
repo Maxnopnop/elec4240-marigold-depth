@@ -7,3 +7,5 @@
 *.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 *.csv text eol=lf
 *.png binary
+# Preserve the exact verified source bytes shipped in the Overleaf archive.
+reports/final/*.tex -text
