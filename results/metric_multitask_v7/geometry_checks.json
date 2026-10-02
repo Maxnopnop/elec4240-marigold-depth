@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checks": [
+    "fronto-parallel plane orientation",
+    "tilted-plane analytic normal",
+    "normal invariance to global depth scale",
+    "metric codec roundtrip",
+    "metric encoding distinguishes different absolute scales",
+    "identity metrics",
+    "finite nonzero geometry gradients for both tasks"
+  ]
+}

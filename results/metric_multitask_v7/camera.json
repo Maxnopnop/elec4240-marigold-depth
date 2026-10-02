@@ -1,0 +1,25 @@
+{
+  "intrinsics": {
+    "fx_rgb": 518.8579011745019,
+    "fy_rgb": 519.4696111212749,
+    "cx_rgb": 325.58244941119034,
+    "cy_rgb": 253.73616633400465
+  },
+  "image_shape": [
+    480,
+    640
+  ],
+  "pixel_convention": "1-based toolbox coordinates; half-pixel resize for align_corners=False",
+  "normal_convention": "camera coordinates x right, y down, z forward; normals face camera",
+  "projection_approximation": "provided projected depth treated as camera-z using RGB pinhole calibration",
+  "source": {
+    "url": "https://cs.nyu.edu/~fergus/datasets/toolbox_nyu_depth_v2.zip",
+    "zip_sha256": "6211b20f78a3b90e111b4e9f8d549acf3cfc298fdcb25164222edb9a994f3e36",
+    "bytes": 30990,
+    "members": {
+      "camera_params.m": "03ad3755b605d1a4d2943c8cd56d722f1adec11c1ca7c761d5cf20dad5a1f660",
+      "demo_project_depth_map.m": "e5b8159b4ab9bba99b0f863a0b14778ccd0729bdbebe0be395a77ffc59c009f7",
+      "project_depth_map.m": "78485d3a43482e3dd53279e8c86db6e966ec0bb398c524464376b0142bfc4286"
+    }
+  }
+}

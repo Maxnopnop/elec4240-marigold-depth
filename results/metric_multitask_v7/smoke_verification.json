@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "training_ids": [
+    5,
+    48,
+    67,
+    68,
+    80,
+    130,
+    135,
+    142
+  ],
+  "overfit": {
+    "depth": {
+      "before_training_error": 0.6154809539536557,
+      "after_training_error": 0.1843093175243928,
+      "metric": "abs_rel",
+      "first10_loss": 0.33157021552324295,
+      "last10_loss": 0.14113637953996658,
+      "peak_allocated_mib": 2579.50244140625,
+      "training_seconds": 45.96892729999672
+    },
+    "normal": {
+      "before_training_error": 92.69839172737684,
+      "after_training_error": 38.81987444917924,
+      "metric": "mean_deg",
+      "first10_loss": 0.907492208480835,
+      "last10_loss": 0.4339301884174347,
+      "peak_allocated_mib": 2580.6279296875,
+      "training_seconds": 45.49445130000822
+    }
+  },
+  "geometry_profile": {
+    "loss": 0.7946494817733765,
+    "geometry_loss": 0.8759668469429016,
+    "peak_allocated_mib": 3159.36328125,
+    "all_adapter_gradients_finite": true
+  },
+  "scope": "implementation-only training subset; no validation or test outcomes consulted"
+}

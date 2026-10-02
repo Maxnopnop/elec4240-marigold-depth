@@ -1,0 +1,88 @@
+{
+  "version": "metric_multitask_v7",
+  "created_utc": "2026-10-02T02:16:55.699169+00:00",
+  "status": "frozen before formal validation predictions",
+  "modes": [
+    "depth",
+    "normal",
+    "joint",
+    "joint_geometry"
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "steps": 320,
+  "training_images": 128,
+  "validation_images": 32,
+  "processing_size": [
+    192,
+    256
+  ],
+  "draw": "existing robustness_v3 draw1",
+  "validation_status": "previously observed development scenes; exploratory, not fresh confirmation",
+  "source_sha256": {
+    "multitask_v7/__init__.py": "290fccf4051772a1b2b9e1078ba9af8a6f48e8ea1f151e7437e0120e26ed15fe",
+    "multitask_v7/common.py": "b4b79f129b265da7dd08eb7c002c1095991268affadbc9050faa9f352e9477b1",
+    "multitask_v7/engine.py": "5f5bd366102cee0e75f44834ce5c9461e06a600f09e8f35405a96b6c48ab8bf6",
+    "multitask_v7/prepare.py": "1c7095a4068abac967093d8e5c4b90b0418bff04df784528b644d92e9fc16650",
+    "multitask_v7/run.py": "2b465fc1d89c2e4cb1a4ce1366373b727ab16e21939d0bc3bdcd86ed38a6e460",
+    "multitask_v7/smoke.py": "4a61e893acb19c899185f83f1ff8fdee3e6359c47f48a42a68663d69c5b89c24",
+    "multitask_v7/test_geometry.py": "67f3b022a0e9509b33d049dba3368ca369022d72611ea61f89f1af53c0aae450"
+  },
+  "manifest_sha256": "2a496e8734a5ba88f9d3a71d6f081c8d47a9543e76ca5398be5b838a0ed03534",
+  "camera_sha256": "837013bf3cd280f1211e1bda9a4654ef4954f97ff6dd8620dfe85f112bfc1b7f",
+  "checkpoint": "prs-eth/marigold-depth-v1-1@9571e7123e258cf052b4e54241f17971c290e9a8",
+  "parameterization": "rank4 attention LoRA,829952trainableparameters, frozen VAE/text encoder/base UNet",
+  "task_conditioning": "two fixed CLIP prompts padded to77tokens; same shared LoRA in joint models",
+  "optimizer": {
+    "type": "AdamW",
+    "lr": 0.0001,
+    "weight_decay": 0.01,
+    "gradient_clip_norm": 1.0
+  },
+  "training_objective": "one-step zero-SNR t999 v_prediction latent MSE; targets are negative encoded clean task latents",
+  "loss_weights": {
+    "joint_depth": 0.5,
+    "joint_normal": 0.5,
+    "geometry": 0.1
+  },
+  "geometry": "cosine disagreement between decoded predicted normal and pinhole normal derived from decoded predicted metric depth; both branches differentiable; native192x256 reliable mask",
+  "task_exposure": "same image and noise each joint step;320images/updates per task; single-task320forwards, joint640forwards; joint geometry adds differentiable VAE decodes",
+  "metric_encoding": "log(d/0.1)/log(100), mapped to[-1,1] and repeatedRGB; fixed0.1-10m interval, no per-image affine/quantile normalization",
+  "normal_encoding": "camera-facing unit normals directly in[-1,1] RGB channels; decode preserves three channels and normalizes vectors",
+  "depth_metrics": "AbsRel/RMSE/delta1 against filled depths, crop and0.1<=GT<10; all methods clipped to fixed0.1-10m; raw-depth AbsRel secondary; NO GT alignment",
+  "normal_metrics": "mean/median angular error and11.25/22.5/30degree accuracy on fixed derived-target masks; not independent normal ground truth",
+  "baselines": [
+    "training-only constant-depth predictor",
+    "constant camera-facing normal",
+    "pinned Depth Anything V2 native metric/default processor, different prior and pixelbudget"
+  ],
+  "primary_exploratory_contrasts": [
+    [
+      "joint",
+      "depth",
+      "depth.abs_rel"
+    ],
+    [
+      "joint",
+      "normal",
+      "normal.mean_deg"
+    ],
+    [
+      "joint_geometry",
+      "joint",
+      "depth.abs_rel"
+    ],
+    [
+      "joint_geometry",
+      "joint",
+      "normal.mean_deg"
+    ]
+  ],
+  "statistics": "paired crossed seed/scene bootstrap,20000replicates,seed724240; two-sided centered tests, Holm correction for4primarycontrasts; report effects/CIs, no confirmatory or equivalence claims",
+  "selection": "no best-seed/checkpoint/hyperparameter selection; fixed final320updates; all runs reported",
+  "stop_rules": "nonfinite computation, failed data/protocol integrity or OOM; retain failure and diagnose before changing any frozen source",
+  "historical_baseline_commit": "0d7d2e9021b0c329d96ec71373a9ace84ac06f15"
+}
