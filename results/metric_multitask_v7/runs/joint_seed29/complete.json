@@ -1,0 +1,10 @@
+{
+  "protocol_sha256": "9f86a0721cbfc668f3ead81ecfb9aa5201d5a6d1c3f9c3ea1fbb2297ae28bc51",
+  "checkpoint_sha256": "7afca778ffabb4ce40d9d686486e11c83993e69030a8c9ecabc78a69ff322493",
+  "metrics_sha256": "4ecfc733a022ae5c9aa20054ae9aa22c5681fe85f67ce36a1c33af700cb83ae1",
+  "checkpoint_restored_exact_tasks": [
+    "depth",
+    "normal"
+  ],
+  "validation_images": 32
+}

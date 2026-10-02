@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "html_local_resource_links_checked": 8,
+  "author_fields_verified": 3,
+  "main_result_values_checked": 7,
+  "figures_visually_reviewed": 4,
+  "frozen_training_source_hashes_unchanged": 7,
+  "model_raw_data_checkpoint_uploads": false,
+  "artifacts": {
+    "results/metric_multitask_v7/RESULTS.html": {
+      "bytes": 11981,
+      "sha256": "b25453e91137e744c69beb8afeb49939977d8cf34b298d10f1f7a95cd331908e"
+    },
+    "results/metric_multitask_v7/analysis.json": {
+      "bytes": 14632,
+      "sha256": "c6a0c09b7a6b78a14559ac9b8825f4b956271850adfd8b3975a25e9fe0e883f0"
+    },
+    "results/metric_multitask_v7/verification.json": {
+      "bytes": 688,
+      "sha256": "6d46c4ff51bac55e609307a2e649cd3bcaa8a235338133c1e4f4f7142fb8ac96"
+    },
+    "results/metric_multitask_v7/label_quality.json": {
+      "bytes": 29727,
+      "sha256": "eec705a7ec904b040a6fc19f4d22b2d00ca08dde9cd9a770abe19b8eb66fc98e"
+    },
+    "results/metric_multitask_v7/figures/accuracy_cost.png": {
+      "bytes": 90234,
+      "sha256": "6841c4f2bf1ae48f1080bd66d869b2374d9f31bfef5a8d6b6ca2c8918bfbfaf8"
+    },
+    "results/metric_multitask_v7/figures/depth_examples.png": {
+      "bytes": 748460,
+      "sha256": "f2292f90a0c9a3b8441e1f06a963c6d08653f88ac3bd7dd3c698e1d89bb4e7a8"
+    },
+    "results/metric_multitask_v7/figures/normal_examples.png": {
+      "bytes": 1936856,
+      "sha256": "2d0d602a420312305c1f802b4b1ca071cc83ec00d7ce2497e065232db5a84663"
+    },
+    "results/metric_multitask_v7/figures/task_tradeoffs.png": {
+      "bytes": 78163,
+      "sha256": "3279c689f8f0c18ca1b747cdc131349f34c67d020ffec748edef343f8ff788ee"
+    }
+  },
+  "notes": "No new training or label changes after the frozen study. Historical result/report preservation is recorded in verification.json."
+}

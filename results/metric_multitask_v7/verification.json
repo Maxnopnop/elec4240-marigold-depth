@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "data_pairs_hashed": 160,
+  "independently_recomputed_task_predictions": 576,
+  "expert_metric_predictions_recomputed": 32,
+  "checkpoint_restored_exact_task_predictions": 18,
+  "constant_baselines_recomputed": 64,
+  "training_only_constant_calibration_verified": true,
+  "training_validation_scene_overlap": 0,
+  "post_hoc_geometric_agreement_pairs": 288,
+  "geometry_diagnostic_front_plane_and_scale_check": true,
+  "paired_training_image_orders_identical": true,
+  "historical_result_report_blobs_unchanged": 1242,
+  "frozen_source_hashes_verified": 7,
+  "protocol_sha256": "9f86a0721cbfc668f3ead81ecfb9aa5201d5a6d1c3f9c3ea1fbb2297ae28bc51"
+}

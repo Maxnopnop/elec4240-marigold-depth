@@ -1,0 +1,798 @@
+{
+  "scope": "post-hoc training-only descriptive target-quality audit; prompted by visible label noise; no validation data, new significance tests, model selection or target changes",
+  "training_images": 128,
+  "native_resolution": [
+    192,
+    256
+  ],
+  "mask": "unchanged frozen normal-valid mask",
+  "interpretation": "Round-trip errors measure sensitivity to output resolution, not an error lower bound. Smoothing changes do not identify physically correct normals. Obtain better verified normal labels before strong physical-normal accuracy claims.",
+  "manifest_sha256": "2a496e8734a5ba88f9d3a71d6f081c8d47a9543e76ca5398be5b838a0ed03534",
+  "summary": {
+    "native_resolution_roundtrip_mean_deg": {
+      "mean": 7.921434495581004,
+      "min": 5.039910512867201,
+      "max": 12.404961114578786
+    },
+    "sigma2_vs_frozen_sigma1_mean_deg": {
+      "mean": 9.972361169821209,
+      "min": 6.807495594761597,
+      "max": 14.269829786812753
+    },
+    "sigma4_vs_frozen_sigma1_mean_deg": {
+      "mean": 20.871829799302848,
+      "min": 14.191632669321088,
+      "max": 31.53958664769566
+    }
+  },
+  "records": [
+    {
+      "id": 614,
+      "native_resolution_roundtrip_mean_deg": 6.129571966145354,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.264468632406244,
+      "sigma4_vs_frozen_sigma1_mean_deg": 18.012419103784744
+    },
+    {
+      "id": 888,
+      "native_resolution_roundtrip_mean_deg": 9.117501803575031,
+      "sigma2_vs_frozen_sigma1_mean_deg": 12.326876275650756,
+      "sigma4_vs_frozen_sigma1_mean_deg": 27.455185988389847
+    },
+    {
+      "id": 377,
+      "native_resolution_roundtrip_mean_deg": 7.265828612571259,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.56367985220259,
+      "sigma4_vs_frozen_sigma1_mean_deg": 20.813130439780217
+    },
+    {
+      "id": 260,
+      "native_resolution_roundtrip_mean_deg": 8.819425112248153,
+      "sigma2_vs_frozen_sigma1_mean_deg": 11.106130119971446,
+      "sigma4_vs_frozen_sigma1_mean_deg": 23.14923195065248
+    },
+    {
+      "id": 1213,
+      "native_resolution_roundtrip_mean_deg": 8.800044661377513,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.976360787701312,
+      "sigma4_vs_frozen_sigma1_mean_deg": 22.89778344571359
+    },
+    {
+      "id": 702,
+      "native_resolution_roundtrip_mean_deg": 6.780311636467307,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.506917734228347,
+      "sigma4_vs_frozen_sigma1_mean_deg": 17.08851221082085
+    },
+    {
+      "id": 1113,
+      "native_resolution_roundtrip_mean_deg": 7.272493300944067,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.95123687987527,
+      "sigma4_vs_frozen_sigma1_mean_deg": 18.189876196276565
+    },
+    {
+      "id": 80,
+      "native_resolution_roundtrip_mean_deg": 6.982763972384832,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.786883652289635,
+      "sigma4_vs_frozen_sigma1_mean_deg": 19.23903792415674
+    },
+    {
+      "id": 1024,
+      "native_resolution_roundtrip_mean_deg": 8.901740539124884,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.850426172568637,
+      "sigma4_vs_frozen_sigma1_mean_deg": 21.343037435931404
+    },
+    {
+      "id": 67,
+      "native_resolution_roundtrip_mean_deg": 5.039910512867201,
+      "sigma2_vs_frozen_sigma1_mean_deg": 6.807495594761597,
+      "sigma4_vs_frozen_sigma1_mean_deg": 14.191632669321088
+    },
+    {
+      "id": 152,
+      "native_resolution_roundtrip_mean_deg": 7.837205275091604,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.22292832340712,
+      "sigma4_vs_frozen_sigma1_mean_deg": 22.33995859522265
+    },
+    {
+      "id": 588,
+      "native_resolution_roundtrip_mean_deg": 8.746242120295385,
+      "sigma2_vs_frozen_sigma1_mean_deg": 11.019696651219295,
+      "sigma4_vs_frozen_sigma1_mean_deg": 22.331808751096034
+    },
+    {
+      "id": 452,
+      "native_resolution_roundtrip_mean_deg": 6.767780846387922,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.959573810958663,
+      "sigma4_vs_frozen_sigma1_mean_deg": 18.445907638861218
+    },
+    {
+      "id": 722,
+      "native_resolution_roundtrip_mean_deg": 7.924966676981954,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.503372397445535,
+      "sigma4_vs_frozen_sigma1_mean_deg": 19.377883989301097
+    },
+    {
+      "id": 303,
+      "native_resolution_roundtrip_mean_deg": 9.070506358394296,
+      "sigma2_vs_frozen_sigma1_mean_deg": 11.403890175368016,
+      "sigma4_vs_frozen_sigma1_mean_deg": 24.893726294340244
+    },
+    {
+      "id": 788,
+      "native_resolution_roundtrip_mean_deg": 9.260521185351585,
+      "sigma2_vs_frozen_sigma1_mean_deg": 11.265518524514006,
+      "sigma4_vs_frozen_sigma1_mean_deg": 23.118098257270482
+    },
+    {
+      "id": 929,
+      "native_resolution_roundtrip_mean_deg": 8.156904280824685,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.536316613020244,
+      "sigma4_vs_frozen_sigma1_mean_deg": 22.811135363760805
+    },
+    {
+      "id": 276,
+      "native_resolution_roundtrip_mean_deg": 6.908157913172257,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.81781907798684,
+      "sigma4_vs_frozen_sigma1_mean_deg": 18.648218252061195
+    },
+    {
+      "id": 1050,
+      "native_resolution_roundtrip_mean_deg": 7.950342220602493,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.879797031112965,
+      "sigma4_vs_frozen_sigma1_mean_deg": 23.86797388792723
+    },
+    {
+      "id": 1199,
+      "native_resolution_roundtrip_mean_deg": 7.077814695918575,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.837912733202366,
+      "sigma4_vs_frozen_sigma1_mean_deg": 17.67701716769335
+    },
+    {
+      "id": 948,
+      "native_resolution_roundtrip_mean_deg": 8.686839884782895,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.527095607899577,
+      "sigma4_vs_frozen_sigma1_mean_deg": 21.407106717944778
+    },
+    {
+      "id": 503,
+      "native_resolution_roundtrip_mean_deg": 6.425493458998703,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.351252682140574,
+      "sigma4_vs_frozen_sigma1_mean_deg": 17.941585280295644
+    },
+    {
+      "id": 1059,
+      "native_resolution_roundtrip_mean_deg": 9.26726033622056,
+      "sigma2_vs_frozen_sigma1_mean_deg": 11.319016090873466,
+      "sigma4_vs_frozen_sigma1_mean_deg": 23.40122081575686
+    },
+    {
+      "id": 584,
+      "native_resolution_roundtrip_mean_deg": 7.8833719107436195,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.974734135172891,
+      "sigma4_vs_frozen_sigma1_mean_deg": 19.893064765062466
+    },
+    {
+      "id": 353,
+      "native_resolution_roundtrip_mean_deg": 8.886325552812039,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.866220589469304,
+      "sigma4_vs_frozen_sigma1_mean_deg": 22.268993808259207
+    },
+    {
+      "id": 1110,
+      "native_resolution_roundtrip_mean_deg": 7.550406232822673,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.439511546808934,
+      "sigma4_vs_frozen_sigma1_mean_deg": 18.956049565333938
+    },
+    {
+      "id": 1361,
+      "native_resolution_roundtrip_mean_deg": 12.404961114578786,
+      "sigma2_vs_frozen_sigma1_mean_deg": 14.269829786812753,
+      "sigma4_vs_frozen_sigma1_mean_deg": 30.765645676033394
+    },
+    {
+      "id": 223,
+      "native_resolution_roundtrip_mean_deg": 10.83239988618448,
+      "sigma2_vs_frozen_sigma1_mean_deg": 12.801561560702012,
+      "sigma4_vs_frozen_sigma1_mean_deg": 28.53886693853008
+    },
+    {
+      "id": 403,
+      "native_resolution_roundtrip_mean_deg": 8.782524530418126,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.862834269190506,
+      "sigma4_vs_frozen_sigma1_mean_deg": 22.961257851361555
+    },
+    {
+      "id": 1238,
+      "native_resolution_roundtrip_mean_deg": 8.88970503007362,
+      "sigma2_vs_frozen_sigma1_mean_deg": 11.372613813439811,
+      "sigma4_vs_frozen_sigma1_mean_deg": 24.568319911750084
+    },
+    {
+      "id": 1415,
+      "native_resolution_roundtrip_mean_deg": 8.484755423743888,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.989180606807885,
+      "sigma4_vs_frozen_sigma1_mean_deg": 23.13902350367292
+    },
+    {
+      "id": 1044,
+      "native_resolution_roundtrip_mean_deg": 7.6042914013648515,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.942828145051193,
+      "sigma4_vs_frozen_sigma1_mean_deg": 21.212385808236647
+    },
+    {
+      "id": 339,
+      "native_resolution_roundtrip_mean_deg": 7.0193761716725955,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.926556845626186,
+      "sigma4_vs_frozen_sigma1_mean_deg": 18.7022990063689
+    },
+    {
+      "id": 142,
+      "native_resolution_roundtrip_mean_deg": 5.894071904165276,
+      "sigma2_vs_frozen_sigma1_mean_deg": 7.9051450471073315,
+      "sigma4_vs_frozen_sigma1_mean_deg": 17.048877936442018
+    },
+    {
+      "id": 251,
+      "native_resolution_roundtrip_mean_deg": 6.329542836959464,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.262806521623226,
+      "sigma4_vs_frozen_sigma1_mean_deg": 17.428914934457925
+    },
+    {
+      "id": 130,
+      "native_resolution_roundtrip_mean_deg": 6.9924128364187705,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.999249729903328,
+      "sigma4_vs_frozen_sigma1_mean_deg": 18.639729424433177
+    },
+    {
+      "id": 1221,
+      "native_resolution_roundtrip_mean_deg": 9.062600212786469,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.872876780934924,
+      "sigma4_vs_frozen_sigma1_mean_deg": 21.481970185155003
+    },
+    {
+      "id": 659,
+      "native_resolution_roundtrip_mean_deg": 6.483026301521494,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.041710298884752,
+      "sigma4_vs_frozen_sigma1_mean_deg": 19.799954672657773
+    },
+    {
+      "id": 1120,
+      "native_resolution_roundtrip_mean_deg": 9.167564374086783,
+      "sigma2_vs_frozen_sigma1_mean_deg": 11.357878678333963,
+      "sigma4_vs_frozen_sigma1_mean_deg": 24.302064757468926
+    },
+    {
+      "id": 1187,
+      "native_resolution_roundtrip_mean_deg": 9.26815505883195,
+      "sigma2_vs_frozen_sigma1_mean_deg": 11.02168985506201,
+      "sigma4_vs_frozen_sigma1_mean_deg": 22.602112774154296
+    },
+    {
+      "id": 665,
+      "native_resolution_roundtrip_mean_deg": 6.7086851399712195,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.861562909343391,
+      "sigma4_vs_frozen_sigma1_mean_deg": 19.265188719218635
+    },
+    {
+      "id": 938,
+      "native_resolution_roundtrip_mean_deg": 7.0630436479231316,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.00195998476195,
+      "sigma4_vs_frozen_sigma1_mean_deg": 18.276995311067388
+    },
+    {
+      "id": 552,
+      "native_resolution_roundtrip_mean_deg": 6.796259601709652,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.151438825984552,
+      "sigma4_vs_frozen_sigma1_mean_deg": 19.162012585051993
+    },
+    {
+      "id": 288,
+      "native_resolution_roundtrip_mean_deg": 9.625050077026563,
+      "sigma2_vs_frozen_sigma1_mean_deg": 11.711797906957685,
+      "sigma4_vs_frozen_sigma1_mean_deg": 25.24913073116126
+    },
+    {
+      "id": 936,
+      "native_resolution_roundtrip_mean_deg": 6.802677133928095,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.54790861870673,
+      "sigma4_vs_frozen_sigma1_mean_deg": 17.57501349330216
+    },
+    {
+      "id": 391,
+      "native_resolution_roundtrip_mean_deg": 6.973765016549362,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.924531160810053,
+      "sigma4_vs_frozen_sigma1_mean_deg": 18.430437632375387
+    },
+    {
+      "id": 978,
+      "native_resolution_roundtrip_mean_deg": 7.892746239141621,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.711909919011518,
+      "sigma4_vs_frozen_sigma1_mean_deg": 19.08486096235755
+    },
+    {
+      "id": 1251,
+      "native_resolution_roundtrip_mean_deg": 10.535475372229397,
+      "sigma2_vs_frozen_sigma1_mean_deg": 12.606400044879168,
+      "sigma4_vs_frozen_sigma1_mean_deg": 26.838040333529047
+    },
+    {
+      "id": 1378,
+      "native_resolution_roundtrip_mean_deg": 6.906585662324316,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.1972565887544,
+      "sigma4_vs_frozen_sigma1_mean_deg": 15.58616940035182
+    },
+    {
+      "id": 872,
+      "native_resolution_roundtrip_mean_deg": 7.6087147869197045,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.495267938776221,
+      "sigma4_vs_frozen_sigma1_mean_deg": 19.6404338369533
+    },
+    {
+      "id": 1115,
+      "native_resolution_roundtrip_mean_deg": 7.434328827974455,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.023592025256821,
+      "sigma4_vs_frozen_sigma1_mean_deg": 18.706961880228686
+    },
+    {
+      "id": 1392,
+      "native_resolution_roundtrip_mean_deg": 8.76147138616316,
+      "sigma2_vs_frozen_sigma1_mean_deg": 11.155944511860506,
+      "sigma4_vs_frozen_sigma1_mean_deg": 23.736719569423062
+    },
+    {
+      "id": 265,
+      "native_resolution_roundtrip_mean_deg": 8.613674636890588,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.640893781817429,
+      "sigma4_vs_frozen_sigma1_mean_deg": 22.537240240375166
+    },
+    {
+      "id": 1177,
+      "native_resolution_roundtrip_mean_deg": 8.00620659023891,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.2547719471856,
+      "sigma4_vs_frozen_sigma1_mean_deg": 20.998312805967636
+    },
+    {
+      "id": 478,
+      "native_resolution_roundtrip_mean_deg": 7.610285302175029,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.175406193573025,
+      "sigma4_vs_frozen_sigma1_mean_deg": 22.75385518964358
+    },
+    {
+      "id": 943,
+      "native_resolution_roundtrip_mean_deg": 8.418016854152699,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.562880860658709,
+      "sigma4_vs_frozen_sigma1_mean_deg": 21.99140704829238
+    },
+    {
+      "id": 1434,
+      "native_resolution_roundtrip_mean_deg": 7.914513287947864,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.272017943556467,
+      "sigma4_vs_frozen_sigma1_mean_deg": 21.09499078106827
+    },
+    {
+      "id": 1159,
+      "native_resolution_roundtrip_mean_deg": 8.119933240202604,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.956937387114618,
+      "sigma4_vs_frozen_sigma1_mean_deg": 20.216796540446552
+    },
+    {
+      "id": 1382,
+      "native_resolution_roundtrip_mean_deg": 9.897633367922477,
+      "sigma2_vs_frozen_sigma1_mean_deg": 12.113566625632426,
+      "sigma4_vs_frozen_sigma1_mean_deg": 25.878622897328288
+    },
+    {
+      "id": 253,
+      "native_resolution_roundtrip_mean_deg": 7.574800251083178,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.710241856253544,
+      "sigma4_vs_frozen_sigma1_mean_deg": 20.67597984164952
+    },
+    {
+      "id": 624,
+      "native_resolution_roundtrip_mean_deg": 7.152875252670337,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.914482616869577,
+      "sigma4_vs_frozen_sigma1_mean_deg": 18.35106031925779
+    },
+    {
+      "id": 1168,
+      "native_resolution_roundtrip_mean_deg": 7.7178022869190865,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.629626104231932,
+      "sigma4_vs_frozen_sigma1_mean_deg": 19.045309113754115
+    },
+    {
+      "id": 1005,
+      "native_resolution_roundtrip_mean_deg": 8.615861290122487,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.819975903794122,
+      "sigma4_vs_frozen_sigma1_mean_deg": 21.924277278586374
+    },
+    {
+      "id": 490,
+      "native_resolution_roundtrip_mean_deg": 8.532065653410434,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.533491129931283,
+      "sigma4_vs_frozen_sigma1_mean_deg": 22.67301351827657
+    },
+    {
+      "id": 1372,
+      "native_resolution_roundtrip_mean_deg": 9.666403188761969,
+      "sigma2_vs_frozen_sigma1_mean_deg": 12.281763997990033,
+      "sigma4_vs_frozen_sigma1_mean_deg": 24.9075309220221
+    },
+    {
+      "id": 213,
+      "native_resolution_roundtrip_mean_deg": 7.470708939276369,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.852872193603433,
+      "sigma4_vs_frozen_sigma1_mean_deg": 21.412913604744926
+    },
+    {
+      "id": 920,
+      "native_resolution_roundtrip_mean_deg": 8.288730954773634,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.062433103921904,
+      "sigma4_vs_frozen_sigma1_mean_deg": 20.308006635055158
+    },
+    {
+      "id": 682,
+      "native_resolution_roundtrip_mean_deg": 5.941373041166641,
+      "sigma2_vs_frozen_sigma1_mean_deg": 7.378804288459099,
+      "sigma4_vs_frozen_sigma1_mean_deg": 14.495305131762462
+    },
+    {
+      "id": 1054,
+      "native_resolution_roundtrip_mean_deg": 7.688665037418262,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.557678082281683,
+      "sigma4_vs_frozen_sigma1_mean_deg": 20.75158776255455
+    },
+    {
+      "id": 1066,
+      "native_resolution_roundtrip_mean_deg": 8.670432261362885,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.667477365011466,
+      "sigma4_vs_frozen_sigma1_mean_deg": 22.331238056417387
+    },
+    {
+      "id": 514,
+      "native_resolution_roundtrip_mean_deg": 6.96225771820073,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.039831546376591,
+      "sigma4_vs_frozen_sigma1_mean_deg": 19.403432957083396
+    },
+    {
+      "id": 863,
+      "native_resolution_roundtrip_mean_deg": 7.755612786223525,
+      "sigma2_vs_frozen_sigma1_mean_deg": 11.560459456503631,
+      "sigma4_vs_frozen_sigma1_mean_deg": 27.458525507893402
+    },
+    {
+      "id": 372,
+      "native_resolution_roundtrip_mean_deg": 8.089411969035156,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.793882038603433,
+      "sigma4_vs_frozen_sigma1_mean_deg": 21.46898496948107
+    },
+    {
+      "id": 648,
+      "native_resolution_roundtrip_mean_deg": 6.015217033292299,
+      "sigma2_vs_frozen_sigma1_mean_deg": 7.611027863426129,
+      "sigma4_vs_frozen_sigma1_mean_deg": 15.278431782850973
+    },
+    {
+      "id": 1132,
+      "native_resolution_roundtrip_mean_deg": 6.956342326116655,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.81336749630733,
+      "sigma4_vs_frozen_sigma1_mean_deg": 18.365072131946917
+    },
+    {
+      "id": 1085,
+      "native_resolution_roundtrip_mean_deg": 7.089435360461235,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.838859510364518,
+      "sigma4_vs_frozen_sigma1_mean_deg": 17.778707855520032
+    },
+    {
+      "id": 540,
+      "native_resolution_roundtrip_mean_deg": 7.838348303407689,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.534515635395774,
+      "sigma4_vs_frozen_sigma1_mean_deg": 19.733679986269006
+    },
+    {
+      "id": 1097,
+      "native_resolution_roundtrip_mean_deg": 7.191989537454355,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.486725769086977,
+      "sigma4_vs_frozen_sigma1_mean_deg": 20.586305968538397
+    },
+    {
+      "id": 1013,
+      "native_resolution_roundtrip_mean_deg": 6.903637025222217,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.485077628635521,
+      "sigma4_vs_frozen_sigma1_mean_deg": 17.180366284730376
+    },
+    {
+      "id": 135,
+      "native_resolution_roundtrip_mean_deg": 6.669997802515941,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.242572269454149,
+      "sigma4_vs_frozen_sigma1_mean_deg": 16.847249469673613
+    },
+    {
+      "id": 1376,
+      "native_resolution_roundtrip_mean_deg": 7.8679135312809665,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.41773654320396,
+      "sigma4_vs_frozen_sigma1_mean_deg": 22.520956945123014
+    },
+    {
+      "id": 998,
+      "native_resolution_roundtrip_mean_deg": 8.481627184969637,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.35170803506273,
+      "sigma4_vs_frozen_sigma1_mean_deg": 21.04775859413954
+    },
+    {
+      "id": 286,
+      "native_resolution_roundtrip_mean_deg": 9.12934621106652,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.84479212652859,
+      "sigma4_vs_frozen_sigma1_mean_deg": 22.729147859776464
+    },
+    {
+      "id": 5,
+      "native_resolution_roundtrip_mean_deg": 9.239274403810535,
+      "sigma2_vs_frozen_sigma1_mean_deg": 11.482326544596985,
+      "sigma4_vs_frozen_sigma1_mean_deg": 23.23477723902752
+    },
+    {
+      "id": 830,
+      "native_resolution_roundtrip_mean_deg": 8.166833413098443,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.604146945422338,
+      "sigma4_vs_frozen_sigma1_mean_deg": 22.424967849251797
+    },
+    {
+      "id": 1404,
+      "native_resolution_roundtrip_mean_deg": 8.912872761031915,
+      "sigma2_vs_frozen_sigma1_mean_deg": 11.23680986238217,
+      "sigma4_vs_frozen_sigma1_mean_deg": 23.46422118306553
+    },
+    {
+      "id": 739,
+      "native_resolution_roundtrip_mean_deg": 8.882769598203387,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.952196949459639,
+      "sigma4_vs_frozen_sigma1_mean_deg": 22.131270064613954
+    },
+    {
+      "id": 674,
+      "native_resolution_roundtrip_mean_deg": 6.724040126899351,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.383616090708582,
+      "sigma4_vs_frozen_sigma1_mean_deg": 17.1674340995353
+    },
+    {
+      "id": 68,
+      "native_resolution_roundtrip_mean_deg": 6.827060457829221,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.766539037474917,
+      "sigma4_vs_frozen_sigma1_mean_deg": 17.891169601180344
+    },
+    {
+      "id": 458,
+      "native_resolution_roundtrip_mean_deg": 8.29879808320149,
+      "sigma2_vs_frozen_sigma1_mean_deg": 11.01087150604596,
+      "sigma4_vs_frozen_sigma1_mean_deg": 24.905028773482854
+    },
+    {
+      "id": 661,
+      "native_resolution_roundtrip_mean_deg": 10.072724413992432,
+      "sigma2_vs_frozen_sigma1_mean_deg": 11.920468239870711,
+      "sigma4_vs_frozen_sigma1_mean_deg": 25.08520373694061
+    },
+    {
+      "id": 609,
+      "native_resolution_roundtrip_mean_deg": 6.38972872315926,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.387427881610604,
+      "sigma4_vs_frozen_sigma1_mean_deg": 18.159249672556257
+    },
+    {
+      "id": 1236,
+      "native_resolution_roundtrip_mean_deg": 6.665538717848151,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.516745559352902,
+      "sigma4_vs_frozen_sigma1_mean_deg": 17.136517550871254
+    },
+    {
+      "id": 1317,
+      "native_resolution_roundtrip_mean_deg": 8.690504991458976,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.794593629563574,
+      "sigma4_vs_frozen_sigma1_mean_deg": 22.06458533871997
+    },
+    {
+      "id": 1172,
+      "native_resolution_roundtrip_mean_deg": 7.05318035655525,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.610739687440434,
+      "sigma4_vs_frozen_sigma1_mean_deg": 16.835989846759507
+    },
+    {
+      "id": 1312,
+      "native_resolution_roundtrip_mean_deg": 8.152644951243778,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.51497872866909,
+      "sigma4_vs_frozen_sigma1_mean_deg": 22.377375274932945
+    },
+    {
+      "id": 895,
+      "native_resolution_roundtrip_mean_deg": 7.439430718468754,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.339211430377366,
+      "sigma4_vs_frozen_sigma1_mean_deg": 19.305592651066423
+    },
+    {
+      "id": 1008,
+      "native_resolution_roundtrip_mean_deg": 8.913365080492442,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.864840840853464,
+      "sigma4_vs_frozen_sigma1_mean_deg": 21.86832704936227
+    },
+    {
+      "id": 608,
+      "native_resolution_roundtrip_mean_deg": 7.0542690954030425,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.0231868869028,
+      "sigma4_vs_frozen_sigma1_mean_deg": 18.92496682054233
+    },
+    {
+      "id": 321,
+      "native_resolution_roundtrip_mean_deg": 10.851017405568646,
+      "sigma2_vs_frozen_sigma1_mean_deg": 13.50698643689928,
+      "sigma4_vs_frozen_sigma1_mean_deg": 31.53958664769566
+    },
+    {
+      "id": 217,
+      "native_resolution_roundtrip_mean_deg": 7.046167734831873,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.69899734032596,
+      "sigma4_vs_frozen_sigma1_mean_deg": 17.581845582129926
+    },
+    {
+      "id": 499,
+      "native_resolution_roundtrip_mean_deg": 6.44611195985209,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.343315813801972,
+      "sigma4_vs_frozen_sigma1_mean_deg": 17.576854738380945
+    },
+    {
+      "id": 1029,
+      "native_resolution_roundtrip_mean_deg": 8.019176456918549,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.692343381542491,
+      "sigma4_vs_frozen_sigma1_mean_deg": 19.578278451524042
+    },
+    {
+      "id": 1333,
+      "native_resolution_roundtrip_mean_deg": 7.878967584809347,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.884980482554983,
+      "sigma4_vs_frozen_sigma1_mean_deg": 20.863385857274157
+    },
+    {
+      "id": 958,
+      "native_resolution_roundtrip_mean_deg": 7.813816943433558,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.588960820893348,
+      "sigma4_vs_frozen_sigma1_mean_deg": 18.68301913568857
+    },
+    {
+      "id": 1027,
+      "native_resolution_roundtrip_mean_deg": 7.68305860690892,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.614294858062225,
+      "sigma4_vs_frozen_sigma1_mean_deg": 19.159423562036633
+    },
+    {
+      "id": 1320,
+      "native_resolution_roundtrip_mean_deg": 8.927440799119822,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.94449557985601,
+      "sigma4_vs_frozen_sigma1_mean_deg": 21.66050215803799
+    },
+    {
+      "id": 1309,
+      "native_resolution_roundtrip_mean_deg": 8.168051814747457,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.919080948081335,
+      "sigma4_vs_frozen_sigma1_mean_deg": 20.82428127306011
+    },
+    {
+      "id": 48,
+      "native_resolution_roundtrip_mean_deg": 6.9251795279565105,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.673399162899281,
+      "sigma4_vs_frozen_sigma1_mean_deg": 18.092268774682182
+    },
+    {
+      "id": 336,
+      "native_resolution_roundtrip_mean_deg": 8.0423741667307,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.363493989740515,
+      "sigma4_vs_frozen_sigma1_mean_deg": 21.34494031763875
+    },
+    {
+      "id": 700,
+      "native_resolution_roundtrip_mean_deg": 5.578668711321093,
+      "sigma2_vs_frozen_sigma1_mean_deg": 7.055055652465783,
+      "sigma4_vs_frozen_sigma1_mean_deg": 14.565253081483176
+    },
+    {
+      "id": 986,
+      "native_resolution_roundtrip_mean_deg": 7.39668428665673,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.98156435665824,
+      "sigma4_vs_frozen_sigma1_mean_deg": 19.088994472555235
+    },
+    {
+      "id": 500,
+      "native_resolution_roundtrip_mean_deg": 7.075746105646317,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.063733543787448,
+      "sigma4_vs_frozen_sigma1_mean_deg": 18.642824130004463
+    },
+    {
+      "id": 735,
+      "native_resolution_roundtrip_mean_deg": 7.331612995277182,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.166547722210886,
+      "sigma4_vs_frozen_sigma1_mean_deg": 19.074520565942652
+    },
+    {
+      "id": 684,
+      "native_resolution_roundtrip_mean_deg": 7.6053008748376865,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.186857398238915,
+      "sigma4_vs_frozen_sigma1_mean_deg": 17.900560378369054
+    },
+    {
+      "id": 318,
+      "native_resolution_roundtrip_mean_deg": 9.565537729840537,
+      "sigma2_vs_frozen_sigma1_mean_deg": 12.20465432183706,
+      "sigma4_vs_frozen_sigma1_mean_deg": 26.740655924163445
+    },
+    {
+      "id": 398,
+      "native_resolution_roundtrip_mean_deg": 8.453562597761854,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.635964017303813,
+      "sigma4_vs_frozen_sigma1_mean_deg": 22.80301652723233
+    },
+    {
+      "id": 719,
+      "native_resolution_roundtrip_mean_deg": 8.42064064888212,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.22769995243443,
+      "sigma4_vs_frozen_sigma1_mean_deg": 22.05135713128745
+    },
+    {
+      "id": 795,
+      "native_resolution_roundtrip_mean_deg": 6.82823999134832,
+      "sigma2_vs_frozen_sigma1_mean_deg": 8.656226962978856,
+      "sigma4_vs_frozen_sigma1_mean_deg": 17.751085257072543
+    },
+    {
+      "id": 1244,
+      "native_resolution_roundtrip_mean_deg": 10.18301529736005,
+      "sigma2_vs_frozen_sigma1_mean_deg": 12.255212864968046,
+      "sigma4_vs_frozen_sigma1_mean_deg": 27.0582176599811
+    },
+    {
+      "id": 348,
+      "native_resolution_roundtrip_mean_deg": 7.118688781964819,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.23791415439772,
+      "sigma4_vs_frozen_sigma1_mean_deg": 18.867176905741083
+    },
+    {
+      "id": 639,
+      "native_resolution_roundtrip_mean_deg": 9.10665412480193,
+      "sigma2_vs_frozen_sigma1_mean_deg": 12.162074824509752,
+      "sigma4_vs_frozen_sigma1_mean_deg": 26.545669057762492
+    },
+    {
+      "id": 981,
+      "native_resolution_roundtrip_mean_deg": 7.4219441526770265,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.24842407540463,
+      "sigma4_vs_frozen_sigma1_mean_deg": 19.03930969023015
+    },
+    {
+      "id": 950,
+      "native_resolution_roundtrip_mean_deg": 8.278936443544977,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.283171945205853,
+      "sigma4_vs_frozen_sigma1_mean_deg": 20.747226991527146
+    },
+    {
+      "id": 1231,
+      "native_resolution_roundtrip_mean_deg": 7.806079477397064,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.205330934457425,
+      "sigma4_vs_frozen_sigma1_mean_deg": 21.142601835954093
+    },
+    {
+      "id": 628,
+      "native_resolution_roundtrip_mean_deg": 7.897641122664676,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.530933107565144,
+      "sigma4_vs_frozen_sigma1_mean_deg": 22.304810990292964
+    },
+    {
+      "id": 255,
+      "native_resolution_roundtrip_mean_deg": 7.422628550962433,
+      "sigma2_vs_frozen_sigma1_mean_deg": 9.40900848846441,
+      "sigma4_vs_frozen_sigma1_mean_deg": 19.20115238444187
+    },
+    {
+      "id": 1417,
+      "native_resolution_roundtrip_mean_deg": 8.482595380333366,
+      "sigma2_vs_frozen_sigma1_mean_deg": 10.82546541116327,
+      "sigma4_vs_frozen_sigma1_mean_deg": 22.939665725678797
+    }
+  ]
+}
