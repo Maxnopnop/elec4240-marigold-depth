@@ -8,8 +8,8 @@
   "model_raw_data_checkpoint_uploads": false,
   "artifacts": {
     "results/metric_multitask_v7/RESULTS.html": {
-      "bytes": 11981,
-      "sha256": "b25453e91137e744c69beb8afeb49939977d8cf34b298d10f1f7a95cd331908e"
+      "bytes": 11958,
+      "sha256": "00428af1a10b31f74bd9b9a2204e84d38fa9c4266b3c9d3ca822d2288a2c2b76"
     },
     "results/metric_multitask_v7/analysis.json": {
       "bytes": 14632,
@@ -40,5 +40,6 @@
       "sha256": "3279c689f8f0c18ca1b747cdc131349f34c67d020ffec748edef343f8ff788ee"
     }
   },
-  "notes": "No new training or label changes after the frozen study. Historical result/report preservation is recorded in verification.json."
+  "notes": "No new training or label changes after the frozen study. Historical result/report preservation is recorded in verification.json.",
+  "html_line_endings": "Canonical LF for byte-identical Git and local report"
 }

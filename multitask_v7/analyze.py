@@ -306,7 +306,7 @@ def report(result):
 <p>The next stage should first establish stable metric-depth learning curves and better-validated normal targets. Then compare task-specific adapters with the shared adapter while accounting for their different parameter counts, and test delayed or confidence-weighted geometric regularization as separate ablations. These are future hypotheses; this experiment does not identify gradient conflict, adapter capacity, target noise or the fixed loss weight as the proven cause. A new versioned protocol should retain these results rather than replace them with a favorable setting.</p>
 <h2>What remains</h2><p>This bounded study establishes an executable staged comparison and exposes positive or negative transfer under its constraints. Stronger claims need additional training draws, genuinely unobserved scenes and independently measured normal labels. Metric encoding is numerically invertible only within its fixed interval; neither the encoding nor depth-normal consistency identifies absolute scale without metric supervision.</p>
 <p>Sources: <a href="https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html">NYUv2 data and toolbox</a>; <a href="https://arxiv.org/abs/2505.09358">Marigold 2025</a>; <a href="https://openaccess.thecvf.com/content_cvpr_2018/html/Qi_GeoNet_Geometric_Neural_CVPR_2018_paper.html">GeoNet: joint depth and normals</a>.</p></html>'''
-    (OUT/'RESULTS.html').write_text(body,encoding='utf-8')
+    (OUT/'RESULTS.html').write_text(body,encoding='utf-8',newline='\n')
 
 
 if __name__=='__main__':main()
