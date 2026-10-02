@@ -4,6 +4,10 @@ A local course-project study that measures the accuracy and compute cost of adap
 
 **Provenance correction (2026-10-01):** the fixed Depth Anything V2 indoor reference is metric-fine-tuned on **Hypersim**, not NYUv2. Earlier NYUv2-supervision wording and the overlap inference derived from it are withdrawn; measured results are unchanged. See [the correction and pinned primary sources](CORRECTIONS.md).
 
+## Latest method innovation plan
+
+The [new research plan](METHOD_INNOVATION_PLAN.md) turns the observed V7 negative transfer into a testable question: can the reliability of depth-derived normal labels guide the strength and location of geometric supervision? It includes the candidate weighting rule, a five-condition ablation, single-task controls, evaluation safeguards and related work. **This method is proposed, not implemented or evaluated.** The plan also summarizes current project feasibility and the prerequisites for the next study; existing experimental results and the final report are unchanged.
+
 ## Metric depth, surface normals and geometric consistency
 
 The [V7 staged experiment](results/metric_multitask_v7/RESULTS.html) implements **metric depth only → normal only → shared joint training → joint training with geometric consistency**. Its 12-run matrix uses three seeds, 128 training scenes, 32 previously observed validation scenes and 320 updates per run. A fixed logarithmic 0.1–10 m codec replaces image-dependent depth normalization; evaluation uses no ground-truth scale/shift alignment. Every joint task receives the same image exposure as its single-task control.

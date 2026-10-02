@@ -1,5 +1,7 @@
 # Method extensions motivated by the validation experiments
 
+**Historical direction:** this document records the earlier resolution-adaptation proposal. For the latest direction motivated by the completed metric-depth and normal study, see [the method innovation plan](METHOD_INNOVATION_PLAN.md). That new weighting method remains proposed and untested.
+
 ## Recommended research question
 
 Can a small depth adapter retain low-resolution adaptation gains while preserving the pretrained model's stronger high-resolution geometry?
