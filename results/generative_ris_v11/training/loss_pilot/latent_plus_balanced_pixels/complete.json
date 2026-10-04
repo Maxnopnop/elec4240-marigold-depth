@@ -1,0 +1,6 @@
+{
+  "status": "complete",
+  "peak_allocated_mib": 3040.29443359375,
+  "all16_restored_predictions_exact": true,
+  "mean_training_iou": 0.6960187890284082
+}

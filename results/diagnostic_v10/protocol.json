@@ -1,0 +1,116 @@
+{
+  "version": "diagnostic_v10_v1",
+  "created_utc": "2026-10-03T07:57:28.668558+00:00",
+  "interpretation": "Post-V9 exploratory mechanism study. No new confirmatory p-values or significance-driven expansion.",
+  "regional": {
+    "scenes": 32,
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "methods": [
+      "depth",
+      "normal",
+      "joint",
+      "uniform",
+      "weaker_uniform",
+      "weighted",
+      "shuffled"
+    ],
+    "masks": "Original task mask; per-image sensitivity quartiles and depth-gradient top10%; distance <2,2-4,>=4m. No learned selection.",
+    "scope": "Validation weights are computed for post-hoc interpretation only, never used to train V9."
+  },
+  "gradient": {
+    "states": [
+      "initial_seed17",
+      "uniform_seed17",
+      "uniform_seed29",
+      "uniform_seed43",
+      "weighted_seed17",
+      "weighted_seed29",
+      "weighted_seed43"
+    ],
+    "training_indices": [
+      0,
+      32,
+      64,
+      96
+    ],
+    "noise_seeds": [
+      91001,
+      91002
+    ],
+    "optimizer_updates": 0,
+    "losses": [
+      "depth",
+      "normal",
+      "uniform_geometry",
+      "weighted_geometry"
+    ],
+    "geometry_coefficient": 0.1,
+    "scope": "Gradients on shared LoRA parameters, fixed training images. Cosine and norms are diagnostics, not causal proof."
+  },
+  "noise": {
+    "conditions": [
+      "clean",
+      "heterogeneous_noise",
+      "smooth_bias"
+    ],
+    "rules": [
+      "uniform",
+      "weighted",
+      "shuffled",
+      "oracle"
+    ],
+    "seeds": [
+      17,
+      29
+    ],
+    "train_scene_seeds": [
+      201,
+      211,
+      223,
+      227
+    ],
+    "evaluation_scene_seeds": [
+      401,
+      409
+    ],
+    "surfaces": [
+      "plane",
+      "crease",
+      "step",
+      "curved"
+    ],
+    "train_images": 16,
+    "evaluation_images": 8,
+    "steps": 64,
+    "runs": 24,
+    "geometry_coefficient": 0.1,
+    "lr": 0.0001,
+    "weight_decay": 0.01,
+    "start": "Fresh original Marigold plus new seed-matched rank4 LoRA, not a selected V9 checkpoint.",
+    "labels": "Both depth and derived sigma1 normals come from corrupted training depth. RGB always rendered from clean geometry.",
+    "mask": "Clean depth jump/erosion support and10px border fixed across corruptions/rules; differs intentionally from noisy-mask V8 component test.",
+    "oracle": "exp(-angular_error(noisy_sigma1_normal,analytic_clean_normal)/10); diagnostic privileged weight, not a deployable method or guaranteed upper bound.",
+    "rule_scope": "Only decoded geometry consistency is weighted. Supervised latent depth/normal objectives remain unweighted.",
+    "evaluation": "Clean analytic depth and normals; full480x640, identical fixed masks, no GT alignment; fixed final64step checkpoint.",
+    "rendering": "Lambertian shading plus fixed image-coordinate albedo and depth attenuation. Simplified synthetic domain, not photorealism.",
+    "limitation": "Only2training seeds and64updates. New generator seeds share the same surface families; no real-world generalization/convergence claim."
+  },
+  "source_sha256": {
+    "diagnostic_v10/__init__.py": "bd14dbe2bbf4b445c06e3e2cf2b5187296e0ca7d1043290f1ba21d575106d293",
+    "diagnostic_v10/common.py": "a46d06a2ec2f205664cec9125b5bc320138f02a2b1a26cf21012282a254f805b",
+    "diagnostic_v10/gradients.py": "c9e0bbd4ca8eeaf52ab9c3fd5c489d7d2f914b3e952a595f609091b0b0db6f98",
+    "diagnostic_v10/noise.py": "0e02a704191e755d4f5720b52acf2f1f158e91ab88c09958dd5bf9039abd2a02",
+    "diagnostic_v10/pipeline.py": "66bac597fca66d145b3bc262da3c4a9fa0ebd6e72c690353ce304bca428ba0e2",
+    "diagnostic_v10/regional.py": "08c6e7d49500262ed046a26fb345d7cf5700716cf253a03c47119f62ec36a7dc",
+    "diagnostic_v10/report.py": "6582155d2d871e47e1e21dce36c620111b38e2a2114f747548094d2db39dbb0a",
+    "diagnostic_v10/test_core.py": "537b7760d448a06d1029d0297867ba810d182037f0d3acbc64f0269af08f5990"
+  },
+  "inputs": {
+    "results/reliability_training_v9/protocol_c.json": "e88891a2f49b9bfa9ffffb55d3e1120fa20a16c4c82b25585d6b0455845c8ab0",
+    "results/reliability_training_v9/analysis_c.json": "a7cb76c86f251f09f65ceeb09758bdb13b68b9310ca31ce263cdc73acb5b6969"
+  }
+}

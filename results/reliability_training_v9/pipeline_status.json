@@ -1,0 +1,17 @@
+{
+  "state": "complete",
+  "updated_utc": "2026-10-02T20:13:27.911146+00:00",
+  "pid": 17360,
+  "report": "E:\\Codex\\2026-09-27\\yo\\outputs\\marigold-depth\\results\\reliability_training_v9\\RESULTS.html",
+  "analysis_sha256": "a7cb76c86f251f09f65ceeb09758bdb13b68b9310ca31ce263cdc73acb5b6969",
+  "completed_trainings": 21,
+  "verification": {
+    "independently_recomputed_predictions": 1536,
+    "exact_restored_tasks": 36,
+    "checkpoints": 33,
+    "data_pairs": 160,
+    "history_steps": 26880,
+    "historical_files_unchanged": 1307
+  },
+  "note": "Computed report and figures available. No new independent-data claim; no GitHub publication or shutdown."
+}

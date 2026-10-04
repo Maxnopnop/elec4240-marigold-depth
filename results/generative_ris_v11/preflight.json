@@ -1,0 +1,29 @@
+{
+  "status": "engineering_probe_complete",
+  "optimizer_updates": 0,
+  "scope": "Single analytic RGB/mask pair. Unadapted Marigold with fresh rank-4 LoRA. No object recognition or selector efficacy measured.",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "trainable_parameters": 829952,
+  "prompts": [
+    "A binary segmentation mask of the red rectangle, white foreground and black background.",
+    "A binary segmentation mask of the blue rectangle, white foreground and black background."
+  ],
+  "embedding_mean_absolute_difference": 0.12592831254005432,
+  "velocity_mean_absolute_difference_same_noise": 0.042545121163129807,
+  "mask_vae_roundtrip_iou": 1.0,
+  "mask_vae_roundtrip_is_not_prediction": true,
+  "latent_supervision_loss": 2.412050724029541,
+  "gradient_norm": 43.81140793305557,
+  "gradients_finite": true,
+  "parameters_with_grad": 256,
+  "peak_allocated_mib": 2656.55908203125,
+  "seconds_including_load": 6.589553799998612,
+  "ris_baseline_trained": false,
+  "budget_policy_validated": false,
+  "source_sha256": {
+    "generative_ris_v11\\preflight.py": "4c6cbdc2bea940b9f9d37a9cedff2336c5257e358a22fde84ad565fdc7c2a418",
+    "multitask_v7\\engine.py": "5f5bd366102cee0e75f44834ce5c9461e06a600f09e8f35405a96b6c48ab8bf6",
+    "multitask_v7\\common.py": "b4b79f129b265da7dd08eb7c002c1095991268affadbc9050faa9f352e9477b1",
+    "experiment.py": "e7dff5abdbf44e23cfafc7d375805549266fffe8acb2264a8efd437be3ee7e0a"
+  }
+}

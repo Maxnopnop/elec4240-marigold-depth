@@ -1,0 +1,11 @@
+{
+  "stage": "complete",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "updates_per_seed": 3000,
+  "reserved_evaluated": false,
+  "policy_evaluated": false
+}

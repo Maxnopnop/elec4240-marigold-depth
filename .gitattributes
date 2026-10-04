@@ -11,3 +11,22 @@
 reports/final/*.tex -text
 # Keep the new report's audited bytes stable across platform checkouts.
 results/metric_multitask_v7/RESULTS.html text eol=lf
+# Preserve the audited V8 delivery hashes without newline conversion.
+results/reliability_v8/RESULTS.html -text
+reliability_v8/colab/*.ipynb -text
+
+# Preserve frozen experiment source and delivery byte hashes.
+reliability_v8/** -text
+training_v9/** -text
+diagnostic_v10/** -text
+generative_ris_v11/** -text
+generative_ris_v12/** -text
+archive_tools/** -text
+reports/proposal/** -text
+reports/milestone/** -text
+reports/vision_banana_analysis/** -text
+results/reliability_v8/** -text
+results/reliability_training_v9/** -text
+results/diagnostic_v10/** -text
+results/generative_ris_v11/** -text
+results/generative_ris_v12/** -text

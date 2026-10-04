@@ -1,0 +1,9 @@
+{
+  "images": {
+    "train": 512,
+    "calibration": 64,
+    "test": 128
+  },
+  "all704image_hashes_verified": true,
+  "split_image_ids_and_hashes_disjoint": true
+}

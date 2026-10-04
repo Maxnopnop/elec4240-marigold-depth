@@ -1,0 +1,303 @@
+{
+  "noise": {
+    "clean": {
+      "uniform": {
+        "seed_means": [
+          {
+            "seed": 17,
+            "depth": 0.17080701069469673,
+            "normal": 17.350939852987906
+          },
+          {
+            "seed": 29,
+            "depth": 0.14591614537659547,
+            "normal": 26.201307347159652
+          }
+        ],
+        "depth": 0.1583615780356461,
+        "normal": 21.77612360007378
+      },
+      "weighted": {
+        "seed_means": [
+          {
+            "seed": 17,
+            "depth": 0.16857440959246434,
+            "normal": 17.5105214722824
+          },
+          {
+            "seed": 29,
+            "depth": 0.14588713804763084,
+            "normal": 27.01063583985692
+          }
+        ],
+        "depth": 0.15723077382004758,
+        "normal": 22.26057865606966
+      },
+      "shuffled": {
+        "seed_means": [
+          {
+            "seed": 17,
+            "depth": 0.16809579325939078,
+            "normal": 17.778067901562363
+          },
+          {
+            "seed": 29,
+            "depth": 0.16778946896292107,
+            "normal": 22.659714315883217
+          }
+        ],
+        "depth": 0.16794263111115593,
+        "normal": 20.21889110872279
+      },
+      "oracle": {
+        "seed_means": [
+          {
+            "seed": 17,
+            "depth": 0.1702429860359558,
+            "normal": 17.669643619375197
+          },
+          {
+            "seed": 29,
+            "depth": 0.14704109741895144,
+            "normal": 27.067841163887067
+          }
+        ],
+        "depth": 0.1586420417274536,
+        "normal": 22.36874239163113
+      }
+    },
+    "heterogeneous_noise": {
+      "uniform": {
+        "seed_means": [
+          {
+            "seed": 17,
+            "depth": 0.2683216004090756,
+            "normal": 19.575837985674614
+          },
+          {
+            "seed": 29,
+            "depth": 0.2986073723024922,
+            "normal": 29.84925132292117
+          }
+        ],
+        "depth": 0.2834644863557839,
+        "normal": 24.712544654297893
+      },
+      "weighted": {
+        "seed_means": [
+          {
+            "seed": 17,
+            "depth": 0.2285307892896713,
+            "normal": 25.332304231460856
+          },
+          {
+            "seed": 29,
+            "depth": 0.26622863219869203,
+            "normal": 29.917357493353254
+          }
+        ],
+        "depth": 0.24737971074418166,
+        "normal": 27.624830862407055
+      },
+      "shuffled": {
+        "seed_means": [
+          {
+            "seed": 17,
+            "depth": 0.2727982200093383,
+            "normal": 19.57326887779502
+          },
+          {
+            "seed": 29,
+            "depth": 0.2649320166792342,
+            "normal": 24.504748020013004
+          }
+        ],
+        "depth": 0.2688651183442863,
+        "normal": 22.039008448904013
+      },
+      "oracle": {
+        "seed_means": [
+          {
+            "seed": 17,
+            "depth": 0.2209057298612503,
+            "normal": 25.232164575744726
+          },
+          {
+            "seed": 29,
+            "depth": 0.29990207122281154,
+            "normal": 31.370803933333047
+          }
+        ],
+        "depth": 0.2604039005420309,
+        "normal": 28.301484254538884
+      }
+    },
+    "smooth_bias": {
+      "uniform": {
+        "seed_means": [
+          {
+            "seed": 17,
+            "depth": 0.1791115870957787,
+            "normal": 17.98629696862011
+          },
+          {
+            "seed": 29,
+            "depth": 0.1952951534021844,
+            "normal": 25.97009201622444
+          }
+        ],
+        "depth": 0.18720337024898154,
+        "normal": 21.978194492422276
+      },
+      "weighted": {
+        "seed_means": [
+          {
+            "seed": 17,
+            "depth": 0.17893395220738434,
+            "normal": 17.706867818186694
+          },
+          {
+            "seed": 29,
+            "depth": 0.1928753256078771,
+            "normal": 22.988478996308913
+          }
+        ],
+        "depth": 0.1859046389076307,
+        "normal": 20.347673407247804
+      },
+      "shuffled": {
+        "seed_means": [
+          {
+            "seed": 17,
+            "depth": 0.17445438815030279,
+            "normal": 17.67289902244665
+          },
+          {
+            "seed": 29,
+            "depth": 0.1960317805352761,
+            "normal": 16.636772872755408
+          }
+        ],
+        "depth": 0.18524308434278944,
+        "normal": 17.15483594760103
+      },
+      "oracle": {
+        "seed_means": [
+          {
+            "seed": 17,
+            "depth": 0.1753476550096841,
+            "normal": 17.25184555661264
+          },
+          {
+            "seed": 29,
+            "depth": 0.17529260213602454,
+            "normal": 17.119892325306566
+          }
+        ],
+        "depth": 0.17532012857285434,
+        "normal": 17.1858689409596
+      }
+    }
+  },
+  "initial_seed_means": [
+    {
+      "seed": 17,
+      "depth": 0.7647103813161322,
+      "normal": 71.86782439831299
+    },
+    {
+      "seed": 29,
+      "depth": 0.7647103813161322,
+      "normal": 71.86782439831299
+    }
+  ],
+  "gradients": [
+    {
+      "state": "initial_seed17",
+      "probes": 8,
+      "depth_normal_cosine": -0.01977032814003299,
+      "conflicting_task_probes": 4,
+      "max_gradient_sum_discrepancy": 0.022170063108205795,
+      "uniform_ratio": 0.13585010590464425,
+      "uniform_supervised_cosine": -0.25450144610138786,
+      "weighted_ratio": 0.1333910226419118,
+      "weighted_supervised_cosine": -0.2888226765279084
+    },
+    {
+      "state": "uniform_seed17",
+      "probes": 8,
+      "depth_normal_cosine": 0.06048808367109383,
+      "conflicting_task_probes": 2,
+      "max_gradient_sum_discrepancy": 0.011547957547008991,
+      "uniform_ratio": 0.3891091915035574,
+      "uniform_supervised_cosine": 0.08646234356605298,
+      "weighted_ratio": 0.4223600769720162,
+      "weighted_supervised_cosine": 0.11580026497955181
+    },
+    {
+      "state": "uniform_seed29",
+      "probes": 8,
+      "depth_normal_cosine": 0.012168919117902528,
+      "conflicting_task_probes": 4,
+      "max_gradient_sum_discrepancy": 0.010374325327575207,
+      "uniform_ratio": 0.44322917810286727,
+      "uniform_supervised_cosine": 0.2712805756982075,
+      "weighted_ratio": 0.4241536944368863,
+      "weighted_supervised_cosine": 0.30252608030085765
+    },
+    {
+      "state": "uniform_seed43",
+      "probes": 8,
+      "depth_normal_cosine": 0.0786637513515875,
+      "conflicting_task_probes": 2,
+      "max_gradient_sum_discrepancy": 0.009932332672178745,
+      "uniform_ratio": 0.5397643567285024,
+      "uniform_supervised_cosine": 0.3034266857582359,
+      "weighted_ratio": 0.4926755666297355,
+      "weighted_supervised_cosine": 0.24526128150250492
+    },
+    {
+      "state": "weighted_seed17",
+      "probes": 8,
+      "depth_normal_cosine": 0.02629570846082757,
+      "conflicting_task_probes": 4,
+      "max_gradient_sum_discrepancy": 0.014319449663162231,
+      "uniform_ratio": 0.4501564676633183,
+      "uniform_supervised_cosine": 0.14892699279041327,
+      "weighted_ratio": 0.45157381948050956,
+      "weighted_supervised_cosine": 0.1453300906401896
+    },
+    {
+      "state": "weighted_seed29",
+      "probes": 8,
+      "depth_normal_cosine": 0.025108428434725206,
+      "conflicting_task_probes": 4,
+      "max_gradient_sum_discrepancy": 0.01164158433675766,
+      "uniform_ratio": 0.5015810744359828,
+      "uniform_supervised_cosine": 0.3080479796578741,
+      "weighted_ratio": 0.4515231775550319,
+      "weighted_supervised_cosine": 0.3408522372838716
+    },
+    {
+      "state": "weighted_seed43",
+      "probes": 8,
+      "depth_normal_cosine": 0.06556221882421237,
+      "conflicting_task_probes": 2,
+      "max_gradient_sum_discrepancy": 0.00871710292994976,
+      "uniform_ratio": 0.5945722677722743,
+      "uniform_supervised_cosine": 0.41154672386420676,
+      "weighted_ratio": 0.5043005715116065,
+      "weighted_supervised_cosine": 0.37794720828243367
+    }
+  ],
+  "verification": {
+    "new_noise_predictions": 416,
+    "restored_tasks": 48,
+    "optimizer_updates": 1536,
+    "old_prediction_hashes": 1152,
+    "gradient_probes": 56,
+    "historical_files_unchanged": 1430
+  },
+  "optimizer_seconds": 1146.0825774999894,
+  "scope": "Exploratory diagnosis, not an independent confirmation. No additional hypothesis tests. Synthetic labels have analytic truth; real normal labels remain depth-derived."
+}

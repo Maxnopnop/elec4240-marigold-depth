@@ -1,0 +1,13 @@
+{
+  "protocol_sha256": "b8bf21cb47215e0dad6bb07fe9214c072158b56a7158fe955e2e4fb34ecfb3de",
+  "training_sha256": "878ca77b90f6850145aa24bd641c17e8e3f6881b9b5d32c3cc70f1e0b701f0f5",
+  "final_checkpoint_sha256": "4a0adf1d754a52c5930681c78941185cc0eaace60166edf224ef14164c6907d6",
+  "exact_restored_tasks": [
+    "normal"
+  ],
+  "metrics_sha256": {
+    "320": "822af4dd2077e257bd877f71b16f8138331aeb6aab08e75293f2ccf9b58d5629",
+    "640": "e7b730e562012a94540cda96938f6c0413c39201d815e85ce63b7525b5d5b9ee",
+    "1280": "0a3e4d2ef3b316c80c87d4c750514e44d53a64bac7b4cc0435cbc219f19a0f59"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "body_word_count": 322,
+  "body_paragraphs": 1,
+  "authors": [
+    [
+      "HO, Chun Wai",
+      "21053878"
+    ],
+    [
+      "Tong, Man Hung",
+      "21064669"
+    ],
+    [
+      "MA, Shenhan",
+      "21041382"
+    ]
+  ],
+  "font": "Calibri",
+  "body_font_pt": 11,
+  "title_font_pt": 14,
+  "line_spacing": 1.15,
+  "margins_cm": {
+    "top": 2.54,
+    "bottom": 1.27,
+    "left": 1.27,
+    "right": 1.27
+  },
+  "format_reference_scope": "Typography only; ELEC4240 single-paragraph scope retained"
+}

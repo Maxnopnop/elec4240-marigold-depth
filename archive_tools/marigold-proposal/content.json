@@ -1,0 +1,25 @@
+{
+  "title": "Parameter Efficient Adaptation of Marigold for Indoor Depth Estimation",
+  "authors": [
+    [
+      "HO, Chun Wai",
+      "21053878"
+    ],
+    [
+      "Tong, Man Hung",
+      "21064669"
+    ],
+    [
+      "MA, Shenhan",
+      "21041382"
+    ]
+  ],
+  "body": "We propose to investigate whether parameter-efficient adaptation can improve indoor monocular depth estimation when labeled data and GPU memory are limited. This problem matters for indoor robotics and scene understanding, where depth annotations are costly and large models can be difficult to adapt on accessible hardware. Our background reading will cover Marigold's transfer of diffusion image-generation priors to depth estimation [1], low-rank adaptation (LoRA) [2], and Depth Anything V2 [3]. Starting from the public Marigold Depth v1.1 checkpoint, we will adapt the official training recipe and use the Hugging Face Diffusers pipeline [4] for a controlled study. We will use NYU Depth V2 [5], preserving the conventional train/test split and reserving separate training scenes for validation. We will compare the pretrained model, rank-4 attention LoRA, and adaptation of the output convolution only, while freezing the variational autoencoder and text encoder. Our implementation will cache image and depth latents to support adaptation on an 8 GB GPU. Planned ablations will vary training-set size, optimization steps, and inference denoising steps; hyperparameters will be selected on validation data. A completed pilot using 32 training images and 24 distinct test scenes reduced aligned AbsRel from 0.1353 for pretrained four-step inference to 0.0900 after 80 LoRA updates, providing preliminary evidence of feasibility. We will expand evaluation beyond this pilot and repeat adaptation with three random seeds. Every method will use the same valid-depth mask, crop, and per-image ground-truth affine alignment, so our claims concern relative depth structure rather than uncalibrated metric distances. We will report AbsRel, RMSE, delta1 accuracy, variation across seeds, trainable parameters, peak GPU memory, training time, and inference latency. Depth Anything V2 Metric Indoor Small will serve as an additional reference, with differences in prior supervision and input processing disclosed. Depth predictions, error maps, and accuracy-cost plots will support qualitative analysis. We expect to identify when limited-parameter adaptation provides useful gains and when simpler inference settings or a specialist model offer a better tradeoff.",
+  "references": [
+    "[1] B. Ke et al. Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation. CVPR, 2024. https://arxiv.org/abs/2312.02145",
+    "[2] E. J. Hu et al. LoRA: Low-Rank Adaptation of Large Language Models. arXiv:2106.09685, 2021. https://arxiv.org/abs/2106.09685",
+    "[3] L. Yang et al. Depth Anything V2. NeurIPS, 2024. https://arxiv.org/abs/2406.09414",
+    "[4] Marigold official code: https://github.com/prs-eth/Marigold. Diffusers Marigold pipeline: https://huggingface.co/docs/diffusers/en/using-diffusers/marigold_usage",
+    "[5] N. Silberman, D. Hoiem, P. Kohli, and R. Fergus. Indoor Segmentation and Support Inference from RGBD Images. ECCV, 2012. https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "stage": "b",
+  "summary": {
+    "depth": {
+      "depth": {
+        "abs_rel": {
+          "mean": 0.27154770034615866,
+          "seed_sd": 0.01980336174256199,
+          "seed_means": [
+            0.2699021749102184,
+            0.25261844238682785,
+            0.2921224837414297
+          ]
+        },
+        "rmse_m": {
+          "mean": 0.8258710120324483,
+          "seed_sd": 0.03297829853048011,
+          "seed_means": [
+            0.8091010959239338,
+            0.8046477683640324,
+            0.8638641718093787
+          ]
+        },
+        "delta1": {
+          "mean": 0.5604932110021239,
+          "seed_sd": 0.025768982909816253,
+          "seed_means": [
+            0.5518164979460094,
+            0.5894806338028169,
+            0.5401825012575453
+          ]
+        },
+        "raw_depth_abs_rel": {
+          "mean": 0.27029721404157186,
+          "seed_sd": 0.021050026376387334,
+          "seed_means": [
+            0.26929555903649616,
+            0.2497658964826875,
+            0.29183018660553195
+          ]
+        }
+      }
+    },
+    "normal": {
+      "normal": {
+        "mean_deg": {
+          "mean": 32.89562966652692,
+          "seed_sd": 0.22503078396537096,
+          "seed_means": [
+            32.663074383826114,
+            32.911521133042186,
+            33.11229348271246
+          ]
+        },
+        "median_deg": {
+          "mean": 29.34902540927195,
+          "seed_sd": 0.3209737253605179,
+          "seed_means": [
+            29.11623843380989,
+            29.715182385954485,
+            29.21565540805147
+          ]
+        },
+        "within_11_25": {
+          "mean": 0.1300498245622265,
+          "seed_sd": 0.002393102517696564,
+          "seed_means": [
+            0.13122958813117136,
+            0.12729590532400042,
+            0.13162398023150768
+          ]
+        },
+        "within_22_5": {
+          "mean": 0.36547421318408263,
+          "seed_sd": 0.006573168302062963,
+          "seed_means": [
+            0.3693894213061882,
+            0.3578854546634457,
+            0.3691477635826139
+          ]
+        },
+        "within_30": {
+          "mean": 0.5155509754217572,
+          "seed_sd": 0.005726293173226519,
+          "seed_means": [
+            0.5203050801794125,
+            0.5091940613027846,
+            0.5171537847830747
+          ]
+        }
+      }
+    }
+  },
+  "comparisons": [],
+  "cost": {
+    "depth": {
+      "optimizer_seconds_total": 2162.6217987996074,
+      "peak_allocated_mib": 2674.60302734375
+    },
+    "normal": {
+      "optimizer_seconds_total": 870.99743789999,
+      "peak_allocated_mib": 2674.60302734375
+    }
+  },
+  "verification": {
+    "independently_recomputed_predictions": 576,
+    "exact_restored_tasks": 6,
+    "checkpoints": 18,
+    "data_pairs": 160,
+    "history_steps": 7680,
+    "historical_files_unchanged": 1307
+  },
+  "limitations": [
+    "All32evaluation scenes were previously observed.",
+    "One training draw and three seeds.",
+    "Normal targets are depth-derived, not independent ground truth.",
+    "Six contrasts form one exploratory Holm family. Intervals are unadjusted.",
+    "Nonsignificance does not establish equivalence or no harm.",
+    "Fixed1280updates do not prove convergence.",
+    "No new independent scenes or general superiority claim."
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "notebook_code_cells_compile": true,
+  "bundle_bytes": 59400,
+  "bundle_sha256": "4654c3bbc5f11e3340a6d9a41ae83fbbcd09c0d8e306fa5b1a077b95e835f35d",
+  "bundle_members": [
+    "multitask_v7/__init__.py",
+    "multitask_v7/common.py",
+    "multitask_v7/engine.py",
+    "multitask_v7/prepare.py",
+    "multitask_v7/run.py",
+    "multitask_v7/smoke.py",
+    "multitask_v7/test_geometry.py",
+    "reliability_v8/EXPERIMENT_PLAN.md",
+    "reliability_v8/__init__.py",
+    "reliability_v8/core.py",
+    "reliability_v8/gpu_check.py",
+    "reliability_v8/study.py",
+    "reliability_v8/test_core.py",
+    "results/metric_multitask_v7/camera.json",
+    "results/metric_multitask_v7/manifest.json",
+    "results/metric_multitask_v7/protocol.json",
+    "results/reliability_v8/component_protocol.json"
+  ],
+  "notebook_sha256": "925fb9f3dfda0d7c79bf576fe6e54ea6279855a69af6c95d21ec368ba2a71700",
+  "report_sha256": "9913e6ed99449736b67aebdabdf429c1e2aa2a65beffa8153666246addc3b104",
+  "local_environment": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.5.2",
+      "scipy": "1.18.1",
+      "matplotlib": "3.11.1",
+      "torch": "2.11.0+cu128"
+    }
+  },
+  "colab_execution": "not executed; local frozen-source unit and component checks completed",
+  "boundary_diagnostics": {
+    "crease/clean": {
+      "uniform_error_deg": 1.5353212050568021,
+      "weighted_error_deg": 1.2557749146704507,
+      "mean_weight": 0.8140052336720291
+    },
+    "crease/smooth_bias": {
+      "uniform_error_deg": 5.856135929788233,
+      "weighted_error_deg": 5.735023895491839,
+      "mean_weight": 0.816681136690971
+    },
+    "step/clean": {
+      "uniform_error_deg": 0.0,
+      "weighted_error_deg": 0.0,
+      "mean_weight": 0.3470045640317294
+    },
+    "step/smooth_bias": {
+      "uniform_error_deg": 5.541299158838636,
+      "weighted_error_deg": 5.541834257356197,
+      "mean_weight": 0.34982376033476786
+    }
+  }
+}

@@ -1,0 +1,7148 @@
+{
+  "depth_seed17": [
+    {
+      "id": 1241,
+      "depth": {
+        "high_gradient": 0.36265051453950725,
+        "other_valid": 0.22051324796208407
+      }
+    },
+    {
+      "id": 969,
+      "depth": {
+        "high_gradient": 0.16757571534191443,
+        "other_valid": 0.18757429557940597
+      }
+    },
+    {
+      "id": 1301,
+      "depth": {
+        "high_gradient": 0.1828187987541044,
+        "other_valid": 0.17274725445273784
+      }
+    },
+    {
+      "id": 294,
+      "depth": {
+        "high_gradient": 0.17558546656377352,
+        "other_valid": 0.18032886955657518
+      }
+    },
+    {
+      "id": 599,
+      "depth": {
+        "high_gradient": 0.12798927007874655,
+        "other_valid": 0.07086797501867143
+      }
+    },
+    {
+      "id": 654,
+      "depth": {
+        "high_gradient": 1.2925507338322142,
+        "other_valid": 1.2173651081441534
+      }
+    },
+    {
+      "id": 367,
+      "depth": {
+        "high_gradient": 0.14385883436629837,
+        "other_valid": 0.12262735561206083
+      }
+    },
+    {
+      "id": 407,
+      "depth": {
+        "high_gradient": 0.32005885518101496,
+        "other_valid": 0.3668438422369182
+      }
+    },
+    {
+      "id": 738,
+      "depth": {
+        "high_gradient": 0.2975105299791281,
+        "other_valid": 0.2888817728508344
+      }
+    },
+    {
+      "id": 368,
+      "depth": {
+        "high_gradient": 0.20310781245325363,
+        "other_valid": 0.22360164913074337
+      }
+    },
+    {
+      "id": 941,
+      "depth": {
+        "high_gradient": 0.23209961051534655,
+        "other_valid": 0.1356491306041046
+      }
+    },
+    {
+      "id": 826,
+      "depth": {
+        "high_gradient": 0.06833332125727454,
+        "other_valid": 0.049913156294905565
+      }
+    },
+    {
+      "id": 24,
+      "depth": {
+        "high_gradient": 0.2324516995713328,
+        "other_valid": 0.22353457719339595
+      }
+    },
+    {
+      "id": 546,
+      "depth": {
+        "high_gradient": 0.28919172066068205,
+        "other_valid": 0.4059524025854842
+      }
+    },
+    {
+      "id": 450,
+      "depth": {
+        "high_gradient": 0.3635146400518115,
+        "other_valid": 0.3574206324336908
+      }
+    },
+    {
+      "id": 114,
+      "depth": {
+        "high_gradient": 0.5589920087488822,
+        "other_valid": 0.5117080226812826
+      }
+    },
+    {
+      "id": 916,
+      "depth": {
+        "high_gradient": 0.09486907255649743,
+        "other_valid": 0.09207052192750997
+      }
+    },
+    {
+      "id": 1185,
+      "depth": {
+        "high_gradient": 0.25492282452921755,
+        "other_valid": 0.25528981307151066
+      }
+    },
+    {
+      "id": 3,
+      "depth": {
+        "high_gradient": 0.3790574688687214,
+        "other_valid": 0.46947612560177937
+      }
+    },
+    {
+      "id": 1284,
+      "depth": {
+        "high_gradient": 0.14108743976467278,
+        "other_valid": 0.08372685383708393
+      }
+    },
+    {
+      "id": 146,
+      "depth": {
+        "high_gradient": 0.29318939543327316,
+        "other_valid": 0.32138696671398803
+      }
+    },
+    {
+      "id": 440,
+      "depth": {
+        "high_gradient": 0.11237477996370693,
+        "other_valid": 0.10435962053875156
+      }
+    },
+    {
+      "id": 159,
+      "depth": {
+        "high_gradient": 0.17559692775526292,
+        "other_valid": 0.078369199414551
+      }
+    },
+    {
+      "id": 964,
+      "depth": {
+        "high_gradient": 0.1944156345681976,
+        "other_valid": 0.13253491616878108
+      }
+    },
+    {
+      "id": 179,
+      "depth": {
+        "high_gradient": 0.1997863343930184,
+        "other_valid": 0.3416039975855108
+      }
+    },
+    {
+      "id": 527,
+      "depth": {
+        "high_gradient": 0.21069905525760607,
+        "other_valid": 0.16160923358955828
+      }
+    },
+    {
+      "id": 49,
+      "depth": {
+        "high_gradient": 0.46579327297221457,
+        "other_valid": 0.4482427716782296
+      }
+    },
+    {
+      "id": 291,
+      "depth": {
+        "high_gradient": 0.16510807148723464,
+        "other_valid": 0.17985413725741584
+      }
+    },
+    {
+      "id": 165,
+      "depth": {
+        "high_gradient": 0.26410146661542205,
+        "other_valid": 0.3421117596662981
+      }
+    },
+    {
+      "id": 416,
+      "depth": {
+        "high_gradient": 0.31742187928809706,
+        "other_valid": 0.36942670772837116
+      }
+    },
+    {
+      "id": 716,
+      "depth": {
+        "high_gradient": 0.2850617155303737,
+        "other_valid": 0.2696130673737208
+      }
+    },
+    {
+      "id": 170,
+      "depth": {
+        "high_gradient": 0.2650396427648536,
+        "other_valid": 0.22944893193337731
+      }
+    }
+  ],
+  "depth_seed29": [
+    {
+      "id": 1241,
+      "depth": {
+        "high_gradient": 0.43643202404820236,
+        "other_valid": 0.26860022808640843
+      }
+    },
+    {
+      "id": 969,
+      "depth": {
+        "high_gradient": 0.11443125124461684,
+        "other_valid": 0.13010243235684843
+      }
+    },
+    {
+      "id": 1301,
+      "depth": {
+        "high_gradient": 0.2975066143481096,
+        "other_valid": 0.24313646857606885
+      }
+    },
+    {
+      "id": 294,
+      "depth": {
+        "high_gradient": 0.2812029339490075,
+        "other_valid": 0.3010779870257974
+      }
+    },
+    {
+      "id": 599,
+      "depth": {
+        "high_gradient": 0.17143246344547758,
+        "other_valid": 0.18220475237478156
+      }
+    },
+    {
+      "id": 654,
+      "depth": {
+        "high_gradient": 0.9665650313593309,
+        "other_valid": 0.9749276017812608
+      }
+    },
+    {
+      "id": 367,
+      "depth": {
+        "high_gradient": 0.1964943204637417,
+        "other_valid": 0.17088212915320924
+      }
+    },
+    {
+      "id": 407,
+      "depth": {
+        "high_gradient": 0.2751086807780784,
+        "other_valid": 0.31145522849685514
+      }
+    },
+    {
+      "id": 738,
+      "depth": {
+        "high_gradient": 0.22896799381320748,
+        "other_valid": 0.14392101591027434
+      }
+    },
+    {
+      "id": 368,
+      "depth": {
+        "high_gradient": 0.2556777053166571,
+        "other_valid": 0.32771587801003743
+      }
+    },
+    {
+      "id": 941,
+      "depth": {
+        "high_gradient": 0.28478847320023964,
+        "other_valid": 0.19944649024037603
+      }
+    },
+    {
+      "id": 826,
+      "depth": {
+        "high_gradient": 0.0836926619744143,
+        "other_valid": 0.07476580474278192
+      }
+    },
+    {
+      "id": 24,
+      "depth": {
+        "high_gradient": 0.19130580855157586,
+        "other_valid": 0.17419731370090008
+      }
+    },
+    {
+      "id": 546,
+      "depth": {
+        "high_gradient": 0.19726762090066702,
+        "other_valid": 0.24994834037211527
+      }
+    },
+    {
+      "id": 450,
+      "depth": {
+        "high_gradient": 0.29756206981442823,
+        "other_valid": 0.29403219531352537
+      }
+    },
+    {
+      "id": 114,
+      "depth": {
+        "high_gradient": 0.5494379281304107,
+        "other_valid": 0.5199441093565493
+      }
+    },
+    {
+      "id": 916,
+      "depth": {
+        "high_gradient": 0.0929237042553938,
+        "other_valid": 0.07783476391445276
+      }
+    },
+    {
+      "id": 1185,
+      "depth": {
+        "high_gradient": 0.22512726932967148,
+        "other_valid": 0.2575736686769201
+      }
+    },
+    {
+      "id": 3,
+      "depth": {
+        "high_gradient": 0.21141040570069716,
+        "other_valid": 0.22405850896708188
+      }
+    },
+    {
+      "id": 1284,
+      "depth": {
+        "high_gradient": 0.136445045960278,
+        "other_valid": 0.10470652165795814
+      }
+    },
+    {
+      "id": 146,
+      "depth": {
+        "high_gradient": 0.265246148609219,
+        "other_valid": 0.263944581136173
+      }
+    },
+    {
+      "id": 440,
+      "depth": {
+        "high_gradient": 0.09706573293648717,
+        "other_valid": 0.08451083437477593
+      }
+    },
+    {
+      "id": 159,
+      "depth": {
+        "high_gradient": 0.18433639545866484,
+        "other_valid": 0.11242664158001411
+      }
+    },
+    {
+      "id": 964,
+      "depth": {
+        "high_gradient": 0.19791918985678214,
+        "other_valid": 0.16233453583609297
+      }
+    },
+    {
+      "id": 179,
+      "depth": {
+        "high_gradient": 0.1803089436940602,
+        "other_valid": 0.276004130163551
+      }
+    },
+    {
+      "id": 527,
+      "depth": {
+        "high_gradient": 0.16016110777105041,
+        "other_valid": 0.1477839073384525
+      }
+    },
+    {
+      "id": 49,
+      "depth": {
+        "high_gradient": 0.3889195965870483,
+        "other_valid": 0.37218451533662833
+      }
+    },
+    {
+      "id": 291,
+      "depth": {
+        "high_gradient": 0.16324953195912417,
+        "other_valid": 0.1664016204870263
+      }
+    },
+    {
+      "id": 165,
+      "depth": {
+        "high_gradient": 0.4430136058226673,
+        "other_valid": 0.4675890000688797
+      }
+    },
+    {
+      "id": 416,
+      "depth": {
+        "high_gradient": 0.29708001052864785,
+        "other_valid": 0.3336462700031962
+      }
+    },
+    {
+      "id": 716,
+      "depth": {
+        "high_gradient": 0.2178324907817835,
+        "other_valid": 0.22658410282037306
+      }
+    },
+    {
+      "id": 170,
+      "depth": {
+        "high_gradient": 0.23974249284752025,
+        "other_valid": 0.21264140442208665
+      }
+    }
+  ],
+  "depth_seed43": [
+    {
+      "id": 1241,
+      "depth": {
+        "high_gradient": 0.4608055962076062,
+        "other_valid": 0.3326626771212894
+      }
+    },
+    {
+      "id": 969,
+      "depth": {
+        "high_gradient": 0.13728311188818634,
+        "other_valid": 0.15322589136120585
+      }
+    },
+    {
+      "id": 1301,
+      "depth": {
+        "high_gradient": 0.20806048519554166,
+        "other_valid": 0.20250904305915204
+      }
+    },
+    {
+      "id": 294,
+      "depth": {
+        "high_gradient": 0.2534918894333325,
+        "other_valid": 0.2441539620990909
+      }
+    },
+    {
+      "id": 599,
+      "depth": {
+        "high_gradient": 0.2121127713124886,
+        "other_valid": 0.23190364102234343
+      }
+    },
+    {
+      "id": 654,
+      "depth": {
+        "high_gradient": 1.1830507227157632,
+        "other_valid": 1.190836942140573
+      }
+    },
+    {
+      "id": 367,
+      "depth": {
+        "high_gradient": 0.11405279418895586,
+        "other_valid": 0.09511757891955509
+      }
+    },
+    {
+      "id": 407,
+      "depth": {
+        "high_gradient": 0.65646096766761,
+        "other_valid": 0.7149339895157089
+      }
+    },
+    {
+      "id": 738,
+      "depth": {
+        "high_gradient": 0.32514120407349617,
+        "other_valid": 0.28452506798333055
+      }
+    },
+    {
+      "id": 368,
+      "depth": {
+        "high_gradient": 0.19467690472665364,
+        "other_valid": 0.2235838708164415
+      }
+    },
+    {
+      "id": 941,
+      "depth": {
+        "high_gradient": 0.2228869102470954,
+        "other_valid": 0.10528969541597977
+      }
+    },
+    {
+      "id": 826,
+      "depth": {
+        "high_gradient": 0.08094399857674309,
+        "other_valid": 0.06554984486548479
+      }
+    },
+    {
+      "id": 24,
+      "depth": {
+        "high_gradient": 0.2391388799284005,
+        "other_valid": 0.2618371429398913
+      }
+    },
+    {
+      "id": 546,
+      "depth": {
+        "high_gradient": 0.2536831226783465,
+        "other_valid": 0.2890323534336644
+      }
+    },
+    {
+      "id": 450,
+      "depth": {
+        "high_gradient": 0.3827942999206381,
+        "other_valid": 0.3400663570486045
+      }
+    },
+    {
+      "id": 114,
+      "depth": {
+        "high_gradient": 0.6002791393891231,
+        "other_valid": 0.5628098926889986
+      }
+    },
+    {
+      "id": 916,
+      "depth": {
+        "high_gradient": 0.08031886495590618,
+        "other_valid": 0.058210317426737004
+      }
+    },
+    {
+      "id": 1185,
+      "depth": {
+        "high_gradient": 0.20292771476834104,
+        "other_valid": 0.204741301777922
+      }
+    },
+    {
+      "id": 3,
+      "depth": {
+        "high_gradient": 0.2483251282945634,
+        "other_valid": 0.32718593116516675
+      }
+    },
+    {
+      "id": 1284,
+      "depth": {
+        "high_gradient": 0.18509356432333193,
+        "other_valid": 0.15074805984299627
+      }
+    },
+    {
+      "id": 146,
+      "depth": {
+        "high_gradient": 0.1720799407665343,
+        "other_valid": 0.15995444492135788
+      }
+    },
+    {
+      "id": 440,
+      "depth": {
+        "high_gradient": 0.08156586689000796,
+        "other_valid": 0.07331041888237971
+      }
+    },
+    {
+      "id": 159,
+      "depth": {
+        "high_gradient": 0.12257811770559453,
+        "other_valid": 0.053763589649784616
+      }
+    },
+    {
+      "id": 964,
+      "depth": {
+        "high_gradient": 0.2229351493927528,
+        "other_valid": 0.17222822012053188
+      }
+    },
+    {
+      "id": 179,
+      "depth": {
+        "high_gradient": 0.2845995861417595,
+        "other_valid": 0.4291166512056128
+      }
+    },
+    {
+      "id": 527,
+      "depth": {
+        "high_gradient": 0.19165098719562326,
+        "other_valid": 0.19429275046675928
+      }
+    },
+    {
+      "id": 49,
+      "depth": {
+        "high_gradient": 0.4857958536887953,
+        "other_valid": 0.45012800225116006
+      }
+    },
+    {
+      "id": 291,
+      "depth": {
+        "high_gradient": 0.14211308613876725,
+        "other_valid": 0.14301036201817358
+      }
+    },
+    {
+      "id": 165,
+      "depth": {
+        "high_gradient": 0.48188571878641,
+        "other_valid": 0.4795763335885138
+      }
+    },
+    {
+      "id": 416,
+      "depth": {
+        "high_gradient": 0.39021233521235954,
+        "other_valid": 0.4472288015842427
+      }
+    },
+    {
+      "id": 716,
+      "depth": {
+        "high_gradient": 0.19143802487706238,
+        "other_valid": 0.2024529534890875
+      }
+    },
+    {
+      "id": 170,
+      "depth": {
+        "high_gradient": 0.4038179546482628,
+        "other_valid": 0.49679140129186405
+      }
+    }
+  ],
+  "normal_seed17": [
+    {
+      "id": 1241,
+      "normal": {
+        "high_gradient": 72.91832224740499,
+        "other_valid": 33.85016243178077
+      }
+    },
+    {
+      "id": 969,
+      "normal": {
+        "high_gradient": 47.4860751114072,
+        "other_valid": 32.88946412242147
+      }
+    },
+    {
+      "id": 1301,
+      "normal": {
+        "high_gradient": 46.4725350434222,
+        "other_valid": 31.499987924501543
+      }
+    },
+    {
+      "id": 294,
+      "normal": {
+        "high_gradient": 60.21995180364158,
+        "other_valid": 31.12834878394286
+      }
+    },
+    {
+      "id": 599,
+      "normal": {
+        "high_gradient": 47.82011838056514,
+        "other_valid": 27.873269523425254
+      }
+    },
+    {
+      "id": 654,
+      "normal": {
+        "high_gradient": 64.43856098035128,
+        "other_valid": 29.976369250388498
+      }
+    },
+    {
+      "id": 367,
+      "normal": {
+        "high_gradient": 52.59038427196949,
+        "other_valid": 31.60317471133543
+      }
+    },
+    {
+      "id": 407,
+      "normal": {
+        "high_gradient": 52.40768605467341,
+        "other_valid": 35.702665062060824
+      }
+    },
+    {
+      "id": 738,
+      "normal": {
+        "high_gradient": 45.178685338321145,
+        "other_valid": 26.55911357406269
+      }
+    },
+    {
+      "id": 368,
+      "normal": {
+        "high_gradient": 38.66986500902874,
+        "other_valid": 26.905388624534577
+      }
+    },
+    {
+      "id": 941,
+      "normal": {
+        "high_gradient": 50.74705509900119,
+        "other_valid": 25.687894977801985
+      }
+    },
+    {
+      "id": 826,
+      "normal": {
+        "high_gradient": 58.453700726210286,
+        "other_valid": 29.720871549142473
+      }
+    },
+    {
+      "id": 24,
+      "normal": {
+        "high_gradient": 68.31078204701564,
+        "other_valid": 35.06168031237307
+      }
+    },
+    {
+      "id": 546,
+      "normal": {
+        "high_gradient": 65.44858435133932,
+        "other_valid": 33.02437582078649
+      }
+    },
+    {
+      "id": 450,
+      "normal": {
+        "high_gradient": 42.02495416807604,
+        "other_valid": 27.854481298524306
+      }
+    },
+    {
+      "id": 114,
+      "normal": {
+        "high_gradient": 51.90407536997649,
+        "other_valid": 43.330485355657984
+      }
+    },
+    {
+      "id": 916,
+      "normal": {
+        "high_gradient": 37.67391930579481,
+        "other_valid": 25.442285563635703
+      }
+    },
+    {
+      "id": 1185,
+      "normal": {
+        "high_gradient": 45.642272109347736,
+        "other_valid": 31.963102212323836
+      }
+    },
+    {
+      "id": 3,
+      "normal": {
+        "high_gradient": 42.75508633190541,
+        "other_valid": 23.778775507802955
+      }
+    },
+    {
+      "id": 1284,
+      "normal": {
+        "high_gradient": 56.073571834723246,
+        "other_valid": 31.561090490224636
+      }
+    },
+    {
+      "id": 146,
+      "normal": {
+        "high_gradient": 50.05497556321214,
+        "other_valid": 28.669626878076063
+      }
+    },
+    {
+      "id": 440,
+      "normal": {
+        "high_gradient": 50.24847818098187,
+        "other_valid": 32.43343242891271
+      }
+    },
+    {
+      "id": 159,
+      "normal": {
+        "high_gradient": 58.954245176124985,
+        "other_valid": 29.82029295777403
+      }
+    },
+    {
+      "id": 964,
+      "normal": {
+        "high_gradient": 45.23488186931776,
+        "other_valid": 28.77218359937996
+      }
+    },
+    {
+      "id": 179,
+      "normal": {
+        "high_gradient": 42.635353536507274,
+        "other_valid": 30.380704966867896
+      }
+    },
+    {
+      "id": 527,
+      "normal": {
+        "high_gradient": 59.91231163326578,
+        "other_valid": 34.84268298506124
+      }
+    },
+    {
+      "id": 49,
+      "normal": {
+        "high_gradient": 47.136455350169335,
+        "other_valid": 26.48848391034743
+      }
+    },
+    {
+      "id": 291,
+      "normal": {
+        "high_gradient": 72.14451699198214,
+        "other_valid": 38.927175007766785
+      }
+    },
+    {
+      "id": 165,
+      "normal": {
+        "high_gradient": 48.69287868175734,
+        "other_valid": 29.709742558687157
+      }
+    },
+    {
+      "id": 416,
+      "normal": {
+        "high_gradient": 44.45634660343883,
+        "other_valid": 23.97290171174727
+      }
+    },
+    {
+      "id": 716,
+      "normal": {
+        "high_gradient": 53.50477413198906,
+        "other_valid": 30.02729057564286
+      }
+    },
+    {
+      "id": 170,
+      "normal": {
+        "high_gradient": 55.12196884776833,
+        "other_valid": 25.745737094257965
+      }
+    }
+  ],
+  "normal_seed29": [
+    {
+      "id": 1241,
+      "normal": {
+        "high_gradient": 74.27202751459208,
+        "other_valid": 34.615346659919226
+      }
+    },
+    {
+      "id": 969,
+      "normal": {
+        "high_gradient": 52.84806959284322,
+        "other_valid": 33.35761342357355
+      }
+    },
+    {
+      "id": 1301,
+      "normal": {
+        "high_gradient": 49.03955741453717,
+        "other_valid": 32.3760853716801
+      }
+    },
+    {
+      "id": 294,
+      "normal": {
+        "high_gradient": 60.683657351476505,
+        "other_valid": 30.836693437730254
+      }
+    },
+    {
+      "id": 599,
+      "normal": {
+        "high_gradient": 50.80904453113311,
+        "other_valid": 29.320361628979043
+      }
+    },
+    {
+      "id": 654,
+      "normal": {
+        "high_gradient": 54.76011750776001,
+        "other_valid": 29.840913655856664
+      }
+    },
+    {
+      "id": 367,
+      "normal": {
+        "high_gradient": 56.95244497635053,
+        "other_valid": 32.184290879311554
+      }
+    },
+    {
+      "id": 407,
+      "normal": {
+        "high_gradient": 57.20621577712238,
+        "other_valid": 36.75794048348621
+      }
+    },
+    {
+      "id": 738,
+      "normal": {
+        "high_gradient": 47.5582202842421,
+        "other_valid": 28.18227645402285
+      }
+    },
+    {
+      "id": 368,
+      "normal": {
+        "high_gradient": 39.15708037144461,
+        "other_valid": 27.585536145808373
+      }
+    },
+    {
+      "id": 941,
+      "normal": {
+        "high_gradient": 53.37548050287669,
+        "other_valid": 26.66959483370967
+      }
+    },
+    {
+      "id": 826,
+      "normal": {
+        "high_gradient": 59.91953310021763,
+        "other_valid": 32.313470324749446
+      }
+    },
+    {
+      "id": 24,
+      "normal": {
+        "high_gradient": 71.7842123695548,
+        "other_valid": 36.68968640127313
+      }
+    },
+    {
+      "id": 546,
+      "normal": {
+        "high_gradient": 66.6792499102932,
+        "other_valid": 32.07759104178993
+      }
+    },
+    {
+      "id": 450,
+      "normal": {
+        "high_gradient": 41.37806273777983,
+        "other_valid": 26.143085724813478
+      }
+    },
+    {
+      "id": 114,
+      "normal": {
+        "high_gradient": 58.51399276332809,
+        "other_valid": 44.633663064292236
+      }
+    },
+    {
+      "id": 916,
+      "normal": {
+        "high_gradient": 41.60772671636624,
+        "other_valid": 26.454722788184526
+      }
+    },
+    {
+      "id": 1185,
+      "normal": {
+        "high_gradient": 48.241965670050355,
+        "other_valid": 31.254042326346937
+      }
+    },
+    {
+      "id": 3,
+      "normal": {
+        "high_gradient": 39.96845126803604,
+        "other_valid": 24.902585599444244
+      }
+    },
+    {
+      "id": 1284,
+      "normal": {
+        "high_gradient": 59.40084838931225,
+        "other_valid": 31.98419843861346
+      }
+    },
+    {
+      "id": 146,
+      "normal": {
+        "high_gradient": 47.81880032609673,
+        "other_valid": 25.72849802549338
+      }
+    },
+    {
+      "id": 440,
+      "normal": {
+        "high_gradient": 53.59903641947439,
+        "other_valid": 31.764386011227312
+      }
+    },
+    {
+      "id": 159,
+      "normal": {
+        "high_gradient": 55.855140871691546,
+        "other_valid": 22.638822454115665
+      }
+    },
+    {
+      "id": 964,
+      "normal": {
+        "high_gradient": 45.61642054819577,
+        "other_valid": 28.676850097580445
+      }
+    },
+    {
+      "id": 179,
+      "normal": {
+        "high_gradient": 50.531168547645734,
+        "other_valid": 30.60340171831066
+      }
+    },
+    {
+      "id": 527,
+      "normal": {
+        "high_gradient": 64.32155778026063,
+        "other_valid": 33.83911356230781
+      }
+    },
+    {
+      "id": 49,
+      "normal": {
+        "high_gradient": 51.48912147660646,
+        "other_valid": 27.935802846480584
+      }
+    },
+    {
+      "id": 291,
+      "normal": {
+        "high_gradient": 73.4964286097241,
+        "other_valid": 36.924144655633306
+      }
+    },
+    {
+      "id": 165,
+      "normal": {
+        "high_gradient": 45.419120040289094,
+        "other_valid": 26.997808729766273
+      }
+    },
+    {
+      "id": 416,
+      "normal": {
+        "high_gradient": 44.52233332225593,
+        "other_valid": 25.76814922214788
+      }
+    },
+    {
+      "id": 716,
+      "normal": {
+        "high_gradient": 54.75702620839247,
+        "other_valid": 31.052877185532424
+      }
+    },
+    {
+      "id": 170,
+      "normal": {
+        "high_gradient": 58.8240175553943,
+        "other_valid": 27.807969293173656
+      }
+    }
+  ],
+  "normal_seed43": [
+    {
+      "id": 1241,
+      "normal": {
+        "high_gradient": 71.61768659138484,
+        "other_valid": 35.45861011676497
+      }
+    },
+    {
+      "id": 969,
+      "normal": {
+        "high_gradient": 49.18874509379774,
+        "other_valid": 34.22386343094182
+      }
+    },
+    {
+      "id": 1301,
+      "normal": {
+        "high_gradient": 45.99227139112596,
+        "other_valid": 32.11783278890869
+      }
+    },
+    {
+      "id": 294,
+      "normal": {
+        "high_gradient": 61.53966576077594,
+        "other_valid": 32.3005026280474
+      }
+    },
+    {
+      "id": 599,
+      "normal": {
+        "high_gradient": 47.61559546742242,
+        "other_valid": 28.22794684962522
+      }
+    },
+    {
+      "id": 654,
+      "normal": {
+        "high_gradient": 62.62172222582309,
+        "other_valid": 29.56969177163006
+      }
+    },
+    {
+      "id": 367,
+      "normal": {
+        "high_gradient": 52.62389543895814,
+        "other_valid": 31.278791630918917
+      }
+    },
+    {
+      "id": 407,
+      "normal": {
+        "high_gradient": 47.6640378163148,
+        "other_valid": 35.94274210085255
+      }
+    },
+    {
+      "id": 738,
+      "normal": {
+        "high_gradient": 47.94860958015248,
+        "other_valid": 27.767485640688847
+      }
+    },
+    {
+      "id": 368,
+      "normal": {
+        "high_gradient": 38.76063041566322,
+        "other_valid": 27.538177374206565
+      }
+    },
+    {
+      "id": 941,
+      "normal": {
+        "high_gradient": 55.184288826285545,
+        "other_valid": 27.373812694050244
+      }
+    },
+    {
+      "id": 826,
+      "normal": {
+        "high_gradient": 57.50639956125047,
+        "other_valid": 32.01422604115984
+      }
+    },
+    {
+      "id": 24,
+      "normal": {
+        "high_gradient": 67.55054653358339,
+        "other_valid": 35.33169211739527
+      }
+    },
+    {
+      "id": 546,
+      "normal": {
+        "high_gradient": 64.89955845632271,
+        "other_valid": 34.82540662731491
+      }
+    },
+    {
+      "id": 450,
+      "normal": {
+        "high_gradient": 41.3923430892356,
+        "other_valid": 27.882259513905698
+      }
+    },
+    {
+      "id": 114,
+      "normal": {
+        "high_gradient": 50.753233401783916,
+        "other_valid": 42.03869480862428
+      }
+    },
+    {
+      "id": 916,
+      "normal": {
+        "high_gradient": 37.34096162213794,
+        "other_valid": 26.82895670559252
+      }
+    },
+    {
+      "id": 1185,
+      "normal": {
+        "high_gradient": 47.96259074958123,
+        "other_valid": 31.742637346204873
+      }
+    },
+    {
+      "id": 3,
+      "normal": {
+        "high_gradient": 45.78501271714032,
+        "other_valid": 24.539966157737254
+      }
+    },
+    {
+      "id": 1284,
+      "normal": {
+        "high_gradient": 55.99914295242356,
+        "other_valid": 31.046302990354825
+      }
+    },
+    {
+      "id": 146,
+      "normal": {
+        "high_gradient": 47.73616587240938,
+        "other_valid": 27.947107724868737
+      }
+    },
+    {
+      "id": 440,
+      "normal": {
+        "high_gradient": 54.23314938125819,
+        "other_valid": 32.768201334934254
+      }
+    },
+    {
+      "id": 159,
+      "normal": {
+        "high_gradient": 60.217498463224985,
+        "other_valid": 27.285146782590036
+      }
+    },
+    {
+      "id": 964,
+      "normal": {
+        "high_gradient": 47.461938804376445,
+        "other_valid": 32.84455062708695
+      }
+    },
+    {
+      "id": 179,
+      "normal": {
+        "high_gradient": 40.76142154891709,
+        "other_valid": 30.647035050119204
+      }
+    },
+    {
+      "id": 527,
+      "normal": {
+        "high_gradient": 59.95107147732533,
+        "other_valid": 33.10707773785509
+      }
+    },
+    {
+      "id": 49,
+      "normal": {
+        "high_gradient": 47.18873040134492,
+        "other_valid": 27.258823987720763
+      }
+    },
+    {
+      "id": 291,
+      "normal": {
+        "high_gradient": 72.01973329681866,
+        "other_valid": 38.68139595855326
+      }
+    },
+    {
+      "id": 165,
+      "normal": {
+        "high_gradient": 45.093986644467826,
+        "other_valid": 32.19372754262327
+      }
+    },
+    {
+      "id": 416,
+      "normal": {
+        "high_gradient": 45.63571124103945,
+        "other_valid": 22.22877426645318
+      }
+    },
+    {
+      "id": 716,
+      "normal": {
+        "high_gradient": 53.93798877511481,
+        "other_valid": 31.388359078527948
+      }
+    },
+    {
+      "id": 170,
+      "normal": {
+        "high_gradient": 58.05985701065506,
+        "other_valid": 26.007828564807156
+      }
+    }
+  ],
+  "joint_seed17": [
+    {
+      "id": 1241,
+      "depth": {
+        "high_gradient": 0.38656436328105864,
+        "other_valid": 0.2268318059146406
+      },
+      "normal": {
+        "high_gradient": 70.49903912160727,
+        "other_valid": 38.89245648343404
+      },
+      "geometry_disagreement_deg": 41.80377146705489
+    },
+    {
+      "id": 969,
+      "depth": {
+        "high_gradient": 0.10803199962945667,
+        "other_valid": 0.1157191206718781
+      },
+      "normal": {
+        "high_gradient": 48.100880481024866,
+        "other_valid": 33.065563936245816
+      },
+      "geometry_disagreement_deg": 35.329577904015814
+    },
+    {
+      "id": 1301,
+      "depth": {
+        "high_gradient": 0.1691751449835469,
+        "other_valid": 0.16893686904255345
+      },
+      "normal": {
+        "high_gradient": 47.40585601781429,
+        "other_valid": 31.168052286190157
+      },
+      "geometry_disagreement_deg": 35.91449030334447
+    },
+    {
+      "id": 294,
+      "depth": {
+        "high_gradient": 0.2137963539716244,
+        "other_valid": 0.22120048466255804
+      },
+      "normal": {
+        "high_gradient": 59.16786719163471,
+        "other_valid": 30.841845759386445
+      },
+      "geometry_disagreement_deg": 29.485149189056767
+    },
+    {
+      "id": 599,
+      "depth": {
+        "high_gradient": 0.17918758708630494,
+        "other_valid": 0.1575812450325432
+      },
+      "normal": {
+        "high_gradient": 49.44320232057772,
+        "other_valid": 28.79872000072947
+      },
+      "geometry_disagreement_deg": 33.865975262089194
+    },
+    {
+      "id": 654,
+      "depth": {
+        "high_gradient": 0.7391434849004193,
+        "other_valid": 0.7485518780159968
+      },
+      "normal": {
+        "high_gradient": 58.07618086375846,
+        "other_valid": 28.930840384691876
+      },
+      "geometry_disagreement_deg": 30.974228567654226
+    },
+    {
+      "id": 367,
+      "depth": {
+        "high_gradient": 0.14302135820860576,
+        "other_valid": 0.09505454820212392
+      },
+      "normal": {
+        "high_gradient": 53.89043489374795,
+        "other_valid": 32.48009989727807
+      },
+      "geometry_disagreement_deg": 35.305884491848225
+    },
+    {
+      "id": 407,
+      "depth": {
+        "high_gradient": 0.21229149983032997,
+        "other_valid": 0.2117143855312515
+      },
+      "normal": {
+        "high_gradient": 47.69928743991123,
+        "other_valid": 34.78953843418942
+      },
+      "geometry_disagreement_deg": 41.771215699362905
+    },
+    {
+      "id": 738,
+      "depth": {
+        "high_gradient": 0.28324187104873716,
+        "other_valid": 0.2488442250981895
+      },
+      "normal": {
+        "high_gradient": 51.36987690775346,
+        "other_valid": 32.91895189942312
+      },
+      "geometry_disagreement_deg": 34.80135903773206
+    },
+    {
+      "id": 368,
+      "depth": {
+        "high_gradient": 0.2765042447437871,
+        "other_valid": 0.32141138626675014
+      },
+      "normal": {
+        "high_gradient": 37.62914729113239,
+        "other_valid": 28.02871240990791
+      },
+      "geometry_disagreement_deg": 35.37938085805045
+    },
+    {
+      "id": 941,
+      "depth": {
+        "high_gradient": 0.22872523008040754,
+        "other_valid": 0.12180799916681252
+      },
+      "normal": {
+        "high_gradient": 57.41040771970658,
+        "other_valid": 29.112399506542477
+      },
+      "geometry_disagreement_deg": 30.440051372114688
+    },
+    {
+      "id": 826,
+      "depth": {
+        "high_gradient": 0.08869286861395528,
+        "other_valid": 0.10246043350280956
+      },
+      "normal": {
+        "high_gradient": 60.28220916259153,
+        "other_valid": 29.146736009933
+      },
+      "geometry_disagreement_deg": 33.96574370034223
+    },
+    {
+      "id": 24,
+      "depth": {
+        "high_gradient": 0.12585471992131977,
+        "other_valid": 0.1384798305550642
+      },
+      "normal": {
+        "high_gradient": 68.41863304088906,
+        "other_valid": 34.648391425601766
+      },
+      "geometry_disagreement_deg": 38.09804180960963
+    },
+    {
+      "id": 546,
+      "depth": {
+        "high_gradient": 0.2846854999420327,
+        "other_valid": 0.37158402356143316
+      },
+      "normal": {
+        "high_gradient": 65.09354496839016,
+        "other_valid": 31.004629458831023
+      },
+      "geometry_disagreement_deg": 34.723235429325946
+    },
+    {
+      "id": 450,
+      "depth": {
+        "high_gradient": 0.3250502298559706,
+        "other_valid": 0.32369182848145023
+      },
+      "normal": {
+        "high_gradient": 42.70414556306825,
+        "other_valid": 27.59754502169656
+      },
+      "geometry_disagreement_deg": 30.432849477512466
+    },
+    {
+      "id": 114,
+      "depth": {
+        "high_gradient": 0.5169977225965913,
+        "other_valid": 0.4863604521759749
+      },
+      "normal": {
+        "high_gradient": 58.27047558282776,
+        "other_valid": 44.585904571241464
+      },
+      "geometry_disagreement_deg": 41.08251530121655
+    },
+    {
+      "id": 916,
+      "depth": {
+        "high_gradient": 0.09352308850106282,
+        "other_valid": 0.07768129072051938
+      },
+      "normal": {
+        "high_gradient": 41.194366628588504,
+        "other_valid": 27.00061288023033
+      },
+      "geometry_disagreement_deg": 34.166946272514544
+    },
+    {
+      "id": 1185,
+      "depth": {
+        "high_gradient": 0.26942275178541697,
+        "other_valid": 0.27013297518699214
+      },
+      "normal": {
+        "high_gradient": 47.44411421446919,
+        "other_valid": 33.10467581402521
+      },
+      "geometry_disagreement_deg": 37.7679828996491
+    },
+    {
+      "id": 3,
+      "depth": {
+        "high_gradient": 0.16524211390415125,
+        "other_valid": 0.20956045681348143
+      },
+      "normal": {
+        "high_gradient": 41.58297890658505,
+        "other_valid": 23.387884739838352
+      },
+      "geometry_disagreement_deg": 33.07926076065665
+    },
+    {
+      "id": 1284,
+      "depth": {
+        "high_gradient": 0.1756731235612246,
+        "other_valid": 0.11820735243291489
+      },
+      "normal": {
+        "high_gradient": 54.92786996201349,
+        "other_valid": 32.01639983805309
+      },
+      "geometry_disagreement_deg": 34.58734380981627
+    },
+    {
+      "id": 146,
+      "depth": {
+        "high_gradient": 0.26147900473126967,
+        "other_valid": 0.26779099571428927
+      },
+      "normal": {
+        "high_gradient": 49.288235211815056,
+        "other_valid": 28.378281964720884
+      },
+      "geometry_disagreement_deg": 29.401282161376376
+    },
+    {
+      "id": 440,
+      "depth": {
+        "high_gradient": 0.07671700342731226,
+        "other_valid": 0.078267605897485
+      },
+      "normal": {
+        "high_gradient": 53.448448684438986,
+        "other_valid": 32.59991112455494
+      },
+      "geometry_disagreement_deg": 38.207786500803984
+    },
+    {
+      "id": 159,
+      "depth": {
+        "high_gradient": 0.22522909394607302,
+        "other_valid": 0.131523852332305
+      },
+      "normal": {
+        "high_gradient": 55.61814552004867,
+        "other_valid": 25.039347261608718
+      },
+      "geometry_disagreement_deg": 31.706819396363084
+    },
+    {
+      "id": 964,
+      "depth": {
+        "high_gradient": 0.15421414967981137,
+        "other_valid": 0.11834609752700051
+      },
+      "normal": {
+        "high_gradient": 48.176817130354614,
+        "other_valid": 28.508255857568024
+      },
+      "geometry_disagreement_deg": 33.62329122161829
+    },
+    {
+      "id": 179,
+      "depth": {
+        "high_gradient": 0.19422537367675902,
+        "other_valid": 0.2535479449186145
+      },
+      "normal": {
+        "high_gradient": 43.71372629653962,
+        "other_valid": 29.928310100732315
+      },
+      "geometry_disagreement_deg": 34.06802482315393
+    },
+    {
+      "id": 527,
+      "depth": {
+        "high_gradient": 0.19856506119978645,
+        "other_valid": 0.15164574980075202
+      },
+      "normal": {
+        "high_gradient": 56.46762962378414,
+        "other_valid": 33.84945954527063
+      },
+      "geometry_disagreement_deg": 36.31387924651687
+    },
+    {
+      "id": 49,
+      "depth": {
+        "high_gradient": 0.3386075180774654,
+        "other_valid": 0.3383269914141387
+      },
+      "normal": {
+        "high_gradient": 51.79060428764771,
+        "other_valid": 28.451485946658313
+      },
+      "geometry_disagreement_deg": 32.61996677360749
+    },
+    {
+      "id": 291,
+      "depth": {
+        "high_gradient": 0.15447252037279077,
+        "other_valid": 0.16296308881926996
+      },
+      "normal": {
+        "high_gradient": 72.1851880440573,
+        "other_valid": 39.47699907703951
+      },
+      "geometry_disagreement_deg": 40.54862501813042
+    },
+    {
+      "id": 165,
+      "depth": {
+        "high_gradient": 0.37581112551964446,
+        "other_valid": 0.42972352469449554
+      },
+      "normal": {
+        "high_gradient": 47.34877310333499,
+        "other_valid": 25.463747826739965
+      },
+      "geometry_disagreement_deg": 37.49228133052425
+    },
+    {
+      "id": 416,
+      "depth": {
+        "high_gradient": 0.42411561814173393,
+        "other_valid": 0.4583162553226233
+      },
+      "normal": {
+        "high_gradient": 49.031662580547284,
+        "other_valid": 25.850748244623237
+      },
+      "geometry_disagreement_deg": 36.10909057374288
+    },
+    {
+      "id": 716,
+      "depth": {
+        "high_gradient": 0.17613781402251613,
+        "other_valid": 0.1623518842670329
+      },
+      "normal": {
+        "high_gradient": 54.084487444213785,
+        "other_valid": 31.1501277628319
+      },
+      "geometry_disagreement_deg": 34.62355740437368
+    },
+    {
+      "id": 170,
+      "depth": {
+        "high_gradient": 0.23670722175335585,
+        "other_valid": 0.13922309024745214
+      },
+      "normal": {
+        "high_gradient": 55.538983299397344,
+        "other_valid": 29.131815694011273
+      },
+      "geometry_disagreement_deg": 38.099846891219904
+    }
+  ],
+  "joint_seed29": [
+    {
+      "id": 1241,
+      "depth": {
+        "high_gradient": 0.38833898254322674,
+        "other_valid": 0.22708020217492167
+      },
+      "normal": {
+        "high_gradient": 75.53976370822743,
+        "other_valid": 39.15806768812403
+      },
+      "geometry_disagreement_deg": 40.0790558604169
+    },
+    {
+      "id": 969,
+      "depth": {
+        "high_gradient": 0.13011308443870612,
+        "other_valid": 0.17055218131182698
+      },
+      "normal": {
+        "high_gradient": 55.34623874559673,
+        "other_valid": 33.643432089678505
+      },
+      "geometry_disagreement_deg": 40.901846829970204
+    },
+    {
+      "id": 1301,
+      "depth": {
+        "high_gradient": 0.23334589653604018,
+        "other_valid": 0.2339971291653567
+      },
+      "normal": {
+        "high_gradient": 48.793206990660046,
+        "other_valid": 33.84417918142808
+      },
+      "geometry_disagreement_deg": 38.91952988602965
+    },
+    {
+      "id": 294,
+      "depth": {
+        "high_gradient": 0.15118884095224291,
+        "other_valid": 0.16708572510301695
+      },
+      "normal": {
+        "high_gradient": 59.455014033493605,
+        "other_valid": 32.17236577761461
+      },
+      "geometry_disagreement_deg": 31.667870929563165
+    },
+    {
+      "id": 599,
+      "depth": {
+        "high_gradient": 0.12497828439944951,
+        "other_valid": 0.10808752298155715
+      },
+      "normal": {
+        "high_gradient": 50.957225525645896,
+        "other_valid": 29.90994131331134
+      },
+      "geometry_disagreement_deg": 34.06095674781721
+    },
+    {
+      "id": 654,
+      "depth": {
+        "high_gradient": 0.9052467383178796,
+        "other_valid": 0.9144116925359571
+      },
+      "normal": {
+        "high_gradient": 54.96756960674343,
+        "other_valid": 28.810646477426914
+      },
+      "geometry_disagreement_deg": 36.73376052834928
+    },
+    {
+      "id": 367,
+      "depth": {
+        "high_gradient": 0.08931539578198133,
+        "other_valid": 0.07211951767632008
+      },
+      "normal": {
+        "high_gradient": 57.50005852512957,
+        "other_valid": 34.865056511944914
+      },
+      "geometry_disagreement_deg": 39.08083036732978
+    },
+    {
+      "id": 407,
+      "depth": {
+        "high_gradient": 0.15159735887935202,
+        "other_valid": 0.16872405134582624
+      },
+      "normal": {
+        "high_gradient": 55.215728301051406,
+        "other_valid": 37.14622237433523
+      },
+      "geometry_disagreement_deg": 45.472328852637304
+    },
+    {
+      "id": 738,
+      "depth": {
+        "high_gradient": 0.23312456876882634,
+        "other_valid": 0.1610344441686816
+      },
+      "normal": {
+        "high_gradient": 49.370059439585475,
+        "other_valid": 29.298010467866096
+      },
+      "geometry_disagreement_deg": 38.40606535100334
+    },
+    {
+      "id": 368,
+      "depth": {
+        "high_gradient": 0.17176069499488697,
+        "other_valid": 0.2091615814517151
+      },
+      "normal": {
+        "high_gradient": 43.07348415134707,
+        "other_valid": 28.979405538034293
+      },
+      "geometry_disagreement_deg": 35.36720839867024
+    },
+    {
+      "id": 941,
+      "depth": {
+        "high_gradient": 0.18872175299544458,
+        "other_valid": 0.09061316829527619
+      },
+      "normal": {
+        "high_gradient": 52.40112689126135,
+        "other_valid": 28.015609016023618
+      },
+      "geometry_disagreement_deg": 32.65922112727786
+    },
+    {
+      "id": 826,
+      "depth": {
+        "high_gradient": 0.10562727778503342,
+        "other_valid": 0.08506125199051726
+      },
+      "normal": {
+        "high_gradient": 61.003865036019114,
+        "other_valid": 31.476357729817483
+      },
+      "geometry_disagreement_deg": 35.043847230358516
+    },
+    {
+      "id": 24,
+      "depth": {
+        "high_gradient": 0.11005802948533719,
+        "other_valid": 0.13697554536738038
+      },
+      "normal": {
+        "high_gradient": 69.50196808537848,
+        "other_valid": 35.35764730763669
+      },
+      "geometry_disagreement_deg": 37.40782604362036
+    },
+    {
+      "id": 546,
+      "depth": {
+        "high_gradient": 0.27570908690587853,
+        "other_valid": 0.38031040244885694
+      },
+      "normal": {
+        "high_gradient": 65.84156081410846,
+        "other_valid": 35.188838650429894
+      },
+      "geometry_disagreement_deg": 38.10758328830592
+    },
+    {
+      "id": 450,
+      "depth": {
+        "high_gradient": 0.3004972456921834,
+        "other_valid": 0.2938736444543157
+      },
+      "normal": {
+        "high_gradient": 42.7627105395655,
+        "other_valid": 26.50045965969964
+      },
+      "geometry_disagreement_deg": 29.250122553428028
+    },
+    {
+      "id": 114,
+      "depth": {
+        "high_gradient": 0.5005526180994102,
+        "other_valid": 0.48660665211820847
+      },
+      "normal": {
+        "high_gradient": 60.15530595956577,
+        "other_valid": 46.428412141288824
+      },
+      "geometry_disagreement_deg": 47.525123455627984
+    },
+    {
+      "id": 916,
+      "depth": {
+        "high_gradient": 0.10513285530680637,
+        "other_valid": 0.0784100083743475
+      },
+      "normal": {
+        "high_gradient": 44.561799959097044,
+        "other_valid": 27.832412315354226
+      },
+      "geometry_disagreement_deg": 34.419887384432805
+    },
+    {
+      "id": 1185,
+      "depth": {
+        "high_gradient": 0.21214488141804447,
+        "other_valid": 0.23059557347803372
+      },
+      "normal": {
+        "high_gradient": 48.11576774642566,
+        "other_valid": 31.252630092157304
+      },
+      "geometry_disagreement_deg": 35.452026170267644
+    },
+    {
+      "id": 3,
+      "depth": {
+        "high_gradient": 0.17725986730898594,
+        "other_valid": 0.148387954374418
+      },
+      "normal": {
+        "high_gradient": 49.40498765447372,
+        "other_valid": 24.311785431867516
+      },
+      "geometry_disagreement_deg": 35.35972039061007
+    },
+    {
+      "id": 1284,
+      "depth": {
+        "high_gradient": 0.19119383430510714,
+        "other_valid": 0.12698480572296628
+      },
+      "normal": {
+        "high_gradient": 60.60529063530496,
+        "other_valid": 32.05661707177176
+      },
+      "geometry_disagreement_deg": 33.99354453026667
+    },
+    {
+      "id": 146,
+      "depth": {
+        "high_gradient": 0.3261096996281507,
+        "other_valid": 0.35683461846266706
+      },
+      "normal": {
+        "high_gradient": 50.806432448160315,
+        "other_valid": 27.32962308575637
+      },
+      "geometry_disagreement_deg": 34.70120141408848
+    },
+    {
+      "id": 440,
+      "depth": {
+        "high_gradient": 0.10589004382682671,
+        "other_valid": 0.09309675382033529
+      },
+      "normal": {
+        "high_gradient": 53.48955221630727,
+        "other_valid": 31.960285927729167
+      },
+      "geometry_disagreement_deg": 36.35896416436347
+    },
+    {
+      "id": 159,
+      "depth": {
+        "high_gradient": 0.13160135573457715,
+        "other_valid": 0.11008387951494253
+      },
+      "normal": {
+        "high_gradient": 55.3097885518077,
+        "other_valid": 23.351341512760698
+      },
+      "geometry_disagreement_deg": 30.079678035820614
+    },
+    {
+      "id": 964,
+      "depth": {
+        "high_gradient": 0.16170596406729426,
+        "other_valid": 0.1241217608144357
+      },
+      "normal": {
+        "high_gradient": 50.01055579143527,
+        "other_valid": 30.361920230166433
+      },
+      "geometry_disagreement_deg": 33.9108039317183
+    },
+    {
+      "id": 179,
+      "depth": {
+        "high_gradient": 0.1467277541247041,
+        "other_valid": 0.18558460105416366
+      },
+      "normal": {
+        "high_gradient": 48.403675025944146,
+        "other_valid": 28.81718412377604
+      },
+      "geometry_disagreement_deg": 35.05892639416606
+    },
+    {
+      "id": 527,
+      "depth": {
+        "high_gradient": 0.17787891401359657,
+        "other_valid": 0.12597329173391422
+      },
+      "normal": {
+        "high_gradient": 62.63812248895396,
+        "other_valid": 34.45377369711041
+      },
+      "geometry_disagreement_deg": 37.69783618628759
+    },
+    {
+      "id": 49,
+      "depth": {
+        "high_gradient": 0.19779259537469465,
+        "other_valid": 0.22053973318213105
+      },
+      "normal": {
+        "high_gradient": 55.72892988637866,
+        "other_valid": 29.55875396395702
+      },
+      "geometry_disagreement_deg": 35.71449955898736
+    },
+    {
+      "id": 291,
+      "depth": {
+        "high_gradient": 0.17983717257921686,
+        "other_valid": 0.1861934103879499
+      },
+      "normal": {
+        "high_gradient": 72.78314754254836,
+        "other_valid": 39.33570767107365
+      },
+      "geometry_disagreement_deg": 44.36660852948404
+    },
+    {
+      "id": 165,
+      "depth": {
+        "high_gradient": 0.3307292761531694,
+        "other_valid": 0.3722458204827825
+      },
+      "normal": {
+        "high_gradient": 51.10703433152342,
+        "other_valid": 27.886127494775927
+      },
+      "geometry_disagreement_deg": 36.43959700736642
+    },
+    {
+      "id": 416,
+      "depth": {
+        "high_gradient": 0.18106058056080343,
+        "other_valid": 0.2183129380959499
+      },
+      "normal": {
+        "high_gradient": 46.04521103949225,
+        "other_valid": 31.562828915680157
+      },
+      "geometry_disagreement_deg": 38.184332750981454
+    },
+    {
+      "id": 716,
+      "depth": {
+        "high_gradient": 0.14930042831985996,
+        "other_valid": 0.12013979333651462
+      },
+      "normal": {
+        "high_gradient": 54.36479959441695,
+        "other_valid": 31.695620715661637
+      },
+      "geometry_disagreement_deg": 34.21673099047347
+    },
+    {
+      "id": 170,
+      "depth": {
+        "high_gradient": 0.2507928677559594,
+        "other_valid": 0.1748809947139924
+      },
+      "normal": {
+        "high_gradient": 56.85042161058189,
+        "other_valid": 27.657243096066864
+      },
+      "geometry_disagreement_deg": 33.97761067006783
+    }
+  ],
+  "joint_seed43": [
+    {
+      "id": 1241,
+      "depth": {
+        "high_gradient": 0.4592491319662907,
+        "other_valid": 0.3038058226491734
+      },
+      "normal": {
+        "high_gradient": 74.75547639123086,
+        "other_valid": 40.03475983452665
+      },
+      "geometry_disagreement_deg": 41.430218203330455
+    },
+    {
+      "id": 969,
+      "depth": {
+        "high_gradient": 0.11143805991566003,
+        "other_valid": 0.1254780315769592
+      },
+      "normal": {
+        "high_gradient": 48.35680496507528,
+        "other_valid": 35.50237504299282
+      },
+      "geometry_disagreement_deg": 39.646923290899565
+    },
+    {
+      "id": 1301,
+      "depth": {
+        "high_gradient": 0.13196228251430261,
+        "other_valid": 0.1278250060574857
+      },
+      "normal": {
+        "high_gradient": 49.76969822262989,
+        "other_valid": 31.51085387746878
+      },
+      "geometry_disagreement_deg": 33.40169027354482
+    },
+    {
+      "id": 294,
+      "depth": {
+        "high_gradient": 0.11033869472628935,
+        "other_valid": 0.1103347367726654
+      },
+      "normal": {
+        "high_gradient": 61.437650722100635,
+        "other_valid": 33.09186013536742
+      },
+      "geometry_disagreement_deg": 33.95443624267415
+    },
+    {
+      "id": 599,
+      "depth": {
+        "high_gradient": 0.11390174959633238,
+        "other_valid": 0.09981503509793586
+      },
+      "normal": {
+        "high_gradient": 51.713517327839,
+        "other_valid": 29.476027599144427
+      },
+      "geometry_disagreement_deg": 34.847899435813254
+    },
+    {
+      "id": 654,
+      "depth": {
+        "high_gradient": 0.9980813851556353,
+        "other_valid": 0.9781673481309089
+      },
+      "normal": {
+        "high_gradient": 60.17508008782724,
+        "other_valid": 30.85339617872832
+      },
+      "geometry_disagreement_deg": 30.177444624928235
+    },
+    {
+      "id": 367,
+      "depth": {
+        "high_gradient": 0.12528422292569763,
+        "other_valid": 0.09954368444698307
+      },
+      "normal": {
+        "high_gradient": 52.91037642293917,
+        "other_valid": 31.74490456725827
+      },
+      "geometry_disagreement_deg": 34.618552613352215
+    },
+    {
+      "id": 407,
+      "depth": {
+        "high_gradient": 0.41575113450131135,
+        "other_valid": 0.43949354496129717
+      },
+      "normal": {
+        "high_gradient": 48.36573150036266,
+        "other_valid": 37.49009038988932
+      },
+      "geometry_disagreement_deg": 45.432951990159545
+    },
+    {
+      "id": 738,
+      "depth": {
+        "high_gradient": 0.3389606666092145,
+        "other_valid": 0.3087754321206701
+      },
+      "normal": {
+        "high_gradient": 48.33211453095868,
+        "other_valid": 27.92303695014622
+      },
+      "geometry_disagreement_deg": 35.50402757577719
+    },
+    {
+      "id": 368,
+      "depth": {
+        "high_gradient": 0.2910597059617382,
+        "other_valid": 0.29914809903324807
+      },
+      "normal": {
+        "high_gradient": 37.873380329822,
+        "other_valid": 28.542626561310446
+      },
+      "geometry_disagreement_deg": 38.87475125501473
+    },
+    {
+      "id": 941,
+      "depth": {
+        "high_gradient": 0.21947810740789708,
+        "other_valid": 0.12207992134165112
+      },
+      "normal": {
+        "high_gradient": 58.85307379113241,
+        "other_valid": 28.66556482456566
+      },
+      "geometry_disagreement_deg": 31.5037628741888
+    },
+    {
+      "id": 826,
+      "depth": {
+        "high_gradient": 0.0898096999078656,
+        "other_valid": 0.09407206138650075
+      },
+      "normal": {
+        "high_gradient": 60.33699003670169,
+        "other_valid": 34.013304315302236
+      },
+      "geometry_disagreement_deg": 40.67426641497355
+    },
+    {
+      "id": 24,
+      "depth": {
+        "high_gradient": 0.1016097938823858,
+        "other_valid": 0.08862905443045627
+      },
+      "normal": {
+        "high_gradient": 68.86346599936857,
+        "other_valid": 35.584039039147015
+      },
+      "geometry_disagreement_deg": 40.18143142859972
+    },
+    {
+      "id": 546,
+      "depth": {
+        "high_gradient": 0.33553557843812926,
+        "other_valid": 0.5452817656762846
+      },
+      "normal": {
+        "high_gradient": 67.33346126132965,
+        "other_valid": 36.80182588889341
+      },
+      "geometry_disagreement_deg": 39.55679020903224
+    },
+    {
+      "id": 450,
+      "depth": {
+        "high_gradient": 0.3096707217610508,
+        "other_valid": 0.2993941707773077
+      },
+      "normal": {
+        "high_gradient": 44.381796876665966,
+        "other_valid": 28.717531806269424
+      },
+      "geometry_disagreement_deg": 31.706709866195652
+    },
+    {
+      "id": 114,
+      "depth": {
+        "high_gradient": 0.4949335743902088,
+        "other_valid": 0.46952704141630974
+      },
+      "normal": {
+        "high_gradient": 52.30991842635879,
+        "other_valid": 42.480172880589755
+      },
+      "geometry_disagreement_deg": 35.788501284906026
+    },
+    {
+      "id": 916,
+      "depth": {
+        "high_gradient": 0.09772898376323079,
+        "other_valid": 0.0673929072554602
+      },
+      "normal": {
+        "high_gradient": 40.95582559794457,
+        "other_valid": 28.923869984236124
+      },
+      "geometry_disagreement_deg": 35.530515879667746
+    },
+    {
+      "id": 1185,
+      "depth": {
+        "high_gradient": 0.3074972223486899,
+        "other_valid": 0.31745221186078265
+      },
+      "normal": {
+        "high_gradient": 47.88708983252168,
+        "other_valid": 31.891167666620028
+      },
+      "geometry_disagreement_deg": 36.70224759918318
+    },
+    {
+      "id": 3,
+      "depth": {
+        "high_gradient": 0.17703601492576596,
+        "other_valid": 0.09072503671695588
+      },
+      "normal": {
+        "high_gradient": 50.91641276088306,
+        "other_valid": 29.468089130674755
+      },
+      "geometry_disagreement_deg": 38.00757584481053
+    },
+    {
+      "id": 1284,
+      "depth": {
+        "high_gradient": 0.15083243311314562,
+        "other_valid": 0.07989894483263875
+      },
+      "normal": {
+        "high_gradient": 58.8986763017828,
+        "other_valid": 32.035572678607124
+      },
+      "geometry_disagreement_deg": 36.06403311350074
+    },
+    {
+      "id": 146,
+      "depth": {
+        "high_gradient": 0.2927871570878259,
+        "other_valid": 0.32595902543325117
+      },
+      "normal": {
+        "high_gradient": 52.432474027608976,
+        "other_valid": 29.204259581850753
+      },
+      "geometry_disagreement_deg": 40.60834391090959
+    },
+    {
+      "id": 440,
+      "depth": {
+        "high_gradient": 0.0773212988466893,
+        "other_valid": 0.07882405195768503
+      },
+      "normal": {
+        "high_gradient": 56.34502795539508,
+        "other_valid": 33.82666830984042
+      },
+      "geometry_disagreement_deg": 38.41854851427552
+    },
+    {
+      "id": 159,
+      "depth": {
+        "high_gradient": 0.2338791489470968,
+        "other_valid": 0.2140989222288849
+      },
+      "normal": {
+        "high_gradient": 60.7114347445949,
+        "other_valid": 29.43061081335623
+      },
+      "geometry_disagreement_deg": 34.42015274480186
+    },
+    {
+      "id": 964,
+      "depth": {
+        "high_gradient": 0.2314475959973465,
+        "other_valid": 0.19988277849298378
+      },
+      "normal": {
+        "high_gradient": 52.419730282601186,
+        "other_valid": 35.715097297318465
+      },
+      "geometry_disagreement_deg": 42.50092093188246
+    },
+    {
+      "id": 179,
+      "depth": {
+        "high_gradient": 0.13996867891586276,
+        "other_valid": 0.17644333990902175
+      },
+      "normal": {
+        "high_gradient": 47.68243939662065,
+        "other_valid": 31.359567946469156
+      },
+      "geometry_disagreement_deg": 34.54236037146477
+    },
+    {
+      "id": 527,
+      "depth": {
+        "high_gradient": 0.10550977628069451,
+        "other_valid": 0.07958369257507127
+      },
+      "normal": {
+        "high_gradient": 61.689511652330985,
+        "other_valid": 34.81298051738911
+      },
+      "geometry_disagreement_deg": 40.02736181777103
+    },
+    {
+      "id": 49,
+      "depth": {
+        "high_gradient": 0.2733081334672073,
+        "other_valid": 0.27918901337395274
+      },
+      "normal": {
+        "high_gradient": 51.5725834732078,
+        "other_valid": 30.19209721860475
+      },
+      "geometry_disagreement_deg": 37.59138360126039
+    },
+    {
+      "id": 291,
+      "depth": {
+        "high_gradient": 0.1655793011122373,
+        "other_valid": 0.1622270945833319
+      },
+      "normal": {
+        "high_gradient": 76.23436909729286,
+        "other_valid": 41.24935734739529
+      },
+      "geometry_disagreement_deg": 46.89783228314498
+    },
+    {
+      "id": 165,
+      "depth": {
+        "high_gradient": 0.24805315704260764,
+        "other_valid": 0.30072969558393364
+      },
+      "normal": {
+        "high_gradient": 47.35557358836036,
+        "other_valid": 27.438549431991053
+      },
+      "geometry_disagreement_deg": 39.1464342151058
+    },
+    {
+      "id": 416,
+      "depth": {
+        "high_gradient": 0.4538961211269985,
+        "other_valid": 0.49536249826557893
+      },
+      "normal": {
+        "high_gradient": 42.29585522726694,
+        "other_valid": 21.380815108946233
+      },
+      "geometry_disagreement_deg": 34.34974728600055
+    },
+    {
+      "id": 716,
+      "depth": {
+        "high_gradient": 0.1865300634134123,
+        "other_valid": 0.21295466793713128
+      },
+      "normal": {
+        "high_gradient": 54.33737391917467,
+        "other_valid": 32.10852352397261
+      },
+      "geometry_disagreement_deg": 37.99171008580965
+    },
+    {
+      "id": 170,
+      "depth": {
+        "high_gradient": 0.29951184385182783,
+        "other_valid": 0.2983285681359285
+      },
+      "normal": {
+        "high_gradient": 55.539870787756584,
+        "other_valid": 30.397177764899315
+      },
+      "geometry_disagreement_deg": 42.188078735201735
+    }
+  ],
+  "uniform_seed17": [
+    {
+      "id": 1241,
+      "depth": {
+        "high_gradient": 0.4413407724271708,
+        "other_valid": 0.27901293727062676
+      },
+      "normal": {
+        "high_gradient": 63.77605363581562,
+        "other_valid": 39.77491533829892
+      },
+      "geometry_disagreement_deg": 27.84530711372246
+    },
+    {
+      "id": 969,
+      "depth": {
+        "high_gradient": 0.09621984976089595,
+        "other_valid": 0.08794804954923478
+      },
+      "normal": {
+        "high_gradient": 44.6481258865655,
+        "other_valid": 31.591900425006294
+      },
+      "geometry_disagreement_deg": 21.36449622048238
+    },
+    {
+      "id": 1301,
+      "depth": {
+        "high_gradient": 0.15985166439580056,
+        "other_valid": 0.13227968651439753
+      },
+      "normal": {
+        "high_gradient": 46.08881085483397,
+        "other_valid": 34.21622277286129
+      },
+      "geometry_disagreement_deg": 25.994461600157944
+    },
+    {
+      "id": 294,
+      "depth": {
+        "high_gradient": 0.11009124378898232,
+        "other_valid": 0.12395633970046636
+      },
+      "normal": {
+        "high_gradient": 59.0601666091378,
+        "other_valid": 29.823270463260627
+      },
+      "geometry_disagreement_deg": 22.709793862122435
+    },
+    {
+      "id": 599,
+      "depth": {
+        "high_gradient": 0.1591101391555199,
+        "other_valid": 0.13457781073703026
+      },
+      "normal": {
+        "high_gradient": 47.95618998844085,
+        "other_valid": 27.7835626042926
+      },
+      "geometry_disagreement_deg": 25.973661063696586
+    },
+    {
+      "id": 654,
+      "depth": {
+        "high_gradient": 0.5796651438622576,
+        "other_valid": 0.6581511973886296
+      },
+      "normal": {
+        "high_gradient": 56.0985520656937,
+        "other_valid": 28.588582171254263
+      },
+      "geometry_disagreement_deg": 22.11409434377775
+    },
+    {
+      "id": 367,
+      "depth": {
+        "high_gradient": 0.12884318339673437,
+        "other_valid": 0.09823998869881058
+      },
+      "normal": {
+        "high_gradient": 51.447701071574365,
+        "other_valid": 31.402122577576687
+      },
+      "geometry_disagreement_deg": 24.24652550382711
+    },
+    {
+      "id": 407,
+      "depth": {
+        "high_gradient": 0.1540045797409142,
+        "other_valid": 0.12863874208608472
+      },
+      "normal": {
+        "high_gradient": 52.82077076768317,
+        "other_valid": 36.9673131714247
+      },
+      "geometry_disagreement_deg": 30.067609633497923
+    },
+    {
+      "id": 738,
+      "depth": {
+        "high_gradient": 0.28285846574619017,
+        "other_valid": 0.246605058143975
+      },
+      "normal": {
+        "high_gradient": 50.82491421403747,
+        "other_valid": 32.1180991030359
+      },
+      "geometry_disagreement_deg": 24.75714395612816
+    },
+    {
+      "id": 368,
+      "depth": {
+        "high_gradient": 0.20624291329646946,
+        "other_valid": 0.21750711044280363
+      },
+      "normal": {
+        "high_gradient": 36.56956226294396,
+        "other_valid": 27.075607278554138
+      },
+      "geometry_disagreement_deg": 25.405749640644615
+    },
+    {
+      "id": 941,
+      "depth": {
+        "high_gradient": 0.1952879641772845,
+        "other_valid": 0.08608002214782878
+      },
+      "normal": {
+        "high_gradient": 55.202743303564766,
+        "other_valid": 28.504168560619792
+      },
+      "geometry_disagreement_deg": 22.85041808356423
+    },
+    {
+      "id": 826,
+      "depth": {
+        "high_gradient": 0.15213704373178905,
+        "other_valid": 0.1073964992983216
+      },
+      "normal": {
+        "high_gradient": 59.27988818241193,
+        "other_valid": 29.137782238933113
+      },
+      "geometry_disagreement_deg": 24.595263614125333
+    },
+    {
+      "id": 24,
+      "depth": {
+        "high_gradient": 0.11458835406776655,
+        "other_valid": 0.1082703430217427
+      },
+      "normal": {
+        "high_gradient": 65.13477571953851,
+        "other_valid": 33.905791686608104
+      },
+      "geometry_disagreement_deg": 27.592947779898644
+    },
+    {
+      "id": 546,
+      "depth": {
+        "high_gradient": 0.25251606729306186,
+        "other_valid": 0.34277063115625955
+      },
+      "normal": {
+        "high_gradient": 63.83267097622343,
+        "other_valid": 31.228133133487752
+      },
+      "geometry_disagreement_deg": 26.18628517732768
+    },
+    {
+      "id": 450,
+      "depth": {
+        "high_gradient": 0.1445106080099556,
+        "other_valid": 0.1442491229923689
+      },
+      "normal": {
+        "high_gradient": 40.08078143836366,
+        "other_valid": 25.912584557588684
+      },
+      "geometry_disagreement_deg": 21.872993955548186
+    },
+    {
+      "id": 114,
+      "depth": {
+        "high_gradient": 0.4585400486340077,
+        "other_valid": 0.42156227333686874
+      },
+      "normal": {
+        "high_gradient": 55.72664448735965,
+        "other_valid": 43.80131049663423
+      },
+      "geometry_disagreement_deg": 31.616079002213027
+    },
+    {
+      "id": 916,
+      "depth": {
+        "high_gradient": 0.13698398065404566,
+        "other_valid": 0.09356549993612905
+      },
+      "normal": {
+        "high_gradient": 39.73131758269244,
+        "other_valid": 25.23116709579549
+      },
+      "geometry_disagreement_deg": 22.24654472478808
+    },
+    {
+      "id": 1185,
+      "depth": {
+        "high_gradient": 0.12659052356653977,
+        "other_valid": 0.14655750982770407
+      },
+      "normal": {
+        "high_gradient": 45.34612453541263,
+        "other_valid": 31.86059874985931
+      },
+      "geometry_disagreement_deg": 22.925520075598477
+    },
+    {
+      "id": 3,
+      "depth": {
+        "high_gradient": 0.16355450451248518,
+        "other_valid": 0.14611170303386425
+      },
+      "normal": {
+        "high_gradient": 42.31018323025592,
+        "other_valid": 24.563599932723143
+      },
+      "geometry_disagreement_deg": 20.948944255669872
+    },
+    {
+      "id": 1284,
+      "depth": {
+        "high_gradient": 0.20128617093475043,
+        "other_valid": 0.12609331588902
+      },
+      "normal": {
+        "high_gradient": 55.02826387080892,
+        "other_valid": 31.412353198731076
+      },
+      "geometry_disagreement_deg": 24.235831463720988
+    },
+    {
+      "id": 146,
+      "depth": {
+        "high_gradient": 0.2782427022366906,
+        "other_valid": 0.31180725913036444
+      },
+      "normal": {
+        "high_gradient": 51.0337007362961,
+        "other_valid": 27.73367583742242
+      },
+      "geometry_disagreement_deg": 19.324045725742906
+    },
+    {
+      "id": 440,
+      "depth": {
+        "high_gradient": 0.09403228265013494,
+        "other_valid": 0.08301905308447581
+      },
+      "normal": {
+        "high_gradient": 50.578566535928964,
+        "other_valid": 31.3685659332937
+      },
+      "geometry_disagreement_deg": 24.282244463071613
+    },
+    {
+      "id": 159,
+      "depth": {
+        "high_gradient": 0.16370533042895705,
+        "other_valid": 0.21207067135497634
+      },
+      "normal": {
+        "high_gradient": 58.68351080769169,
+        "other_valid": 29.24880941148828
+      },
+      "geometry_disagreement_deg": 20.96074691124315
+    },
+    {
+      "id": 964,
+      "depth": {
+        "high_gradient": 0.11438533292253443,
+        "other_valid": 0.05270458942149259
+      },
+      "normal": {
+        "high_gradient": 45.955407110215404,
+        "other_valid": 29.948628322206876
+      },
+      "geometry_disagreement_deg": 23.513208940252806
+    },
+    {
+      "id": 179,
+      "depth": {
+        "high_gradient": 0.11461439013519961,
+        "other_valid": 0.11027611136810117
+      },
+      "normal": {
+        "high_gradient": 42.19907493206243,
+        "other_valid": 29.461028949058836
+      },
+      "geometry_disagreement_deg": 23.252043019833874
+    },
+    {
+      "id": 527,
+      "depth": {
+        "high_gradient": 0.20729470609765818,
+        "other_valid": 0.16417678690978021
+      },
+      "normal": {
+        "high_gradient": 54.91158437824433,
+        "other_valid": 34.403432697784986
+      },
+      "geometry_disagreement_deg": 27.492402737848654
+    },
+    {
+      "id": 49,
+      "depth": {
+        "high_gradient": 0.21928515082149502,
+        "other_valid": 0.20182843203169062
+      },
+      "normal": {
+        "high_gradient": 54.263519031550786,
+        "other_valid": 28.705345215956527
+      },
+      "geometry_disagreement_deg": 21.831439774960263
+    },
+    {
+      "id": 291,
+      "depth": {
+        "high_gradient": 0.14877124814929882,
+        "other_valid": 0.18036906069436573
+      },
+      "normal": {
+        "high_gradient": 69.34321873393868,
+        "other_valid": 37.203666788742446
+      },
+      "geometry_disagreement_deg": 27.80634733898974
+    },
+    {
+      "id": 165,
+      "depth": {
+        "high_gradient": 0.19176339549583302,
+        "other_valid": 0.287602925166789
+      },
+      "normal": {
+        "high_gradient": 49.721155996775224,
+        "other_valid": 25.159077828802218
+      },
+      "geometry_disagreement_deg": 27.113327303029624
+    },
+    {
+      "id": 416,
+      "depth": {
+        "high_gradient": 0.2646999639034781,
+        "other_valid": 0.31423069873590015
+      },
+      "normal": {
+        "high_gradient": 45.19890888755465,
+        "other_valid": 26.044474981998405
+      },
+      "geometry_disagreement_deg": 23.743660315868194
+    },
+    {
+      "id": 716,
+      "depth": {
+        "high_gradient": 0.15280237913026137,
+        "other_valid": 0.09575143826023583
+      },
+      "normal": {
+        "high_gradient": 54.911401076344006,
+        "other_valid": 31.820982754972796
+      },
+      "geometry_disagreement_deg": 23.595609420471597
+    },
+    {
+      "id": 170,
+      "depth": {
+        "high_gradient": 0.2604968470975466,
+        "other_valid": 0.13668231191528996
+      },
+      "normal": {
+        "high_gradient": 55.11688979454683,
+        "other_valid": 28.919511723098395
+      },
+      "geometry_disagreement_deg": 21.959342579506927
+    }
+  ],
+  "uniform_seed29": [
+    {
+      "id": 1241,
+      "depth": {
+        "high_gradient": 0.42421967950261646,
+        "other_valid": 0.26194939562184233
+      },
+      "normal": {
+        "high_gradient": 69.62591093022162,
+        "other_valid": 38.970911623098715
+      },
+      "geometry_disagreement_deg": 32.0187486690761
+    },
+    {
+      "id": 969,
+      "depth": {
+        "high_gradient": 0.11986684095584896,
+        "other_valid": 0.10365515492392624
+      },
+      "normal": {
+        "high_gradient": 54.263940738392854,
+        "other_valid": 32.86244091018544
+      },
+      "geometry_disagreement_deg": 24.653448018531076
+    },
+    {
+      "id": 1301,
+      "depth": {
+        "high_gradient": 0.1893729970288352,
+        "other_valid": 0.16265295159879423
+      },
+      "normal": {
+        "high_gradient": 47.19690791606269,
+        "other_valid": 34.63998094871036
+      },
+      "geometry_disagreement_deg": 30.756428141480527
+    },
+    {
+      "id": 294,
+      "depth": {
+        "high_gradient": 0.11105849522786615,
+        "other_valid": 0.1252467065020901
+      },
+      "normal": {
+        "high_gradient": 59.13051954475148,
+        "other_valid": 30.71453527961124
+      },
+      "geometry_disagreement_deg": 22.637937236373304
+    },
+    {
+      "id": 599,
+      "depth": {
+        "high_gradient": 0.1568460269815368,
+        "other_valid": 0.1273937787769497
+      },
+      "normal": {
+        "high_gradient": 48.839595905222616,
+        "other_valid": 29.355674876506992
+      },
+      "geometry_disagreement_deg": 27.105537272505227
+    },
+    {
+      "id": 654,
+      "depth": {
+        "high_gradient": 0.8731610338874319,
+        "other_valid": 0.8959390826226284
+      },
+      "normal": {
+        "high_gradient": 50.86724733223561,
+        "other_valid": 29.072491719313337
+      },
+      "geometry_disagreement_deg": 23.99588279789332
+    },
+    {
+      "id": 367,
+      "depth": {
+        "high_gradient": 0.08689470465324338,
+        "other_valid": 0.07500564240652864
+      },
+      "normal": {
+        "high_gradient": 55.67137238530085,
+        "other_valid": 33.34532567914167
+      },
+      "geometry_disagreement_deg": 27.75435912688866
+    },
+    {
+      "id": 407,
+      "depth": {
+        "high_gradient": 0.22948649269378302,
+        "other_valid": 0.26380269174498494
+      },
+      "normal": {
+        "high_gradient": 55.89080946051774,
+        "other_valid": 38.81507179294966
+      },
+      "geometry_disagreement_deg": 30.49203371140868
+    },
+    {
+      "id": 738,
+      "depth": {
+        "high_gradient": 0.3026058813314317,
+        "other_valid": 0.2466461812947636
+      },
+      "normal": {
+        "high_gradient": 50.72015900275831,
+        "other_valid": 29.5682501737593
+      },
+      "geometry_disagreement_deg": 25.10844592551406
+    },
+    {
+      "id": 368,
+      "depth": {
+        "high_gradient": 0.23383897269545043,
+        "other_valid": 0.2502181027142106
+      },
+      "normal": {
+        "high_gradient": 43.7282109753093,
+        "other_valid": 29.735403824716844
+      },
+      "geometry_disagreement_deg": 26.472415095774934
+    },
+    {
+      "id": 941,
+      "depth": {
+        "high_gradient": 0.20916326594988377,
+        "other_valid": 0.09725042106574541
+      },
+      "normal": {
+        "high_gradient": 52.699397846553076,
+        "other_valid": 27.79402113957694
+      },
+      "geometry_disagreement_deg": 23.982556161686517
+    },
+    {
+      "id": 826,
+      "depth": {
+        "high_gradient": 0.12967901136199053,
+        "other_valid": 0.10251710380964862
+      },
+      "normal": {
+        "high_gradient": 60.69058324039973,
+        "other_valid": 30.961027528646145
+      },
+      "geometry_disagreement_deg": 23.07950446781933
+    },
+    {
+      "id": 24,
+      "depth": {
+        "high_gradient": 0.06233582860590585,
+        "other_valid": 0.0815284380858701
+      },
+      "normal": {
+        "high_gradient": 66.97521657869697,
+        "other_valid": 35.48111342332171
+      },
+      "geometry_disagreement_deg": 28.94668309696445
+    },
+    {
+      "id": 546,
+      "depth": {
+        "high_gradient": 0.27924562600922603,
+        "other_valid": 0.39249809306894523
+      },
+      "normal": {
+        "high_gradient": 66.55359705124442,
+        "other_valid": 33.39397583907517
+      },
+      "geometry_disagreement_deg": 30.38870248206884
+    },
+    {
+      "id": 450,
+      "depth": {
+        "high_gradient": 0.1857405206424438,
+        "other_valid": 0.181303046861504
+      },
+      "normal": {
+        "high_gradient": 41.43660458739773,
+        "other_valid": 26.48069519592119
+      },
+      "geometry_disagreement_deg": 24.746158484746896
+    },
+    {
+      "id": 114,
+      "depth": {
+        "high_gradient": 0.49350253316344755,
+        "other_valid": 0.44843718903431107
+      },
+      "normal": {
+        "high_gradient": 61.77024577893782,
+        "other_valid": 46.72338883756491
+      },
+      "geometry_disagreement_deg": 38.42364124923438
+    },
+    {
+      "id": 916,
+      "depth": {
+        "high_gradient": 0.17033619886013251,
+        "other_valid": 0.1197156184228305
+      },
+      "normal": {
+        "high_gradient": 43.971527239489205,
+        "other_valid": 27.558889703357327
+      },
+      "geometry_disagreement_deg": 21.141544355669254
+    },
+    {
+      "id": 1185,
+      "depth": {
+        "high_gradient": 0.15296807734337928,
+        "other_valid": 0.19176667372750447
+      },
+      "normal": {
+        "high_gradient": 46.8256000842488,
+        "other_valid": 32.41380228841638
+      },
+      "geometry_disagreement_deg": 26.181390684738595
+    },
+    {
+      "id": 3,
+      "depth": {
+        "high_gradient": 0.16633217515828627,
+        "other_valid": 0.137603937074228
+      },
+      "normal": {
+        "high_gradient": 49.392619315367256,
+        "other_valid": 24.562315285020713
+      },
+      "geometry_disagreement_deg": 24.60380034409809
+    },
+    {
+      "id": 1284,
+      "depth": {
+        "high_gradient": 0.20383701460715684,
+        "other_valid": 0.1271071326251836
+      },
+      "normal": {
+        "high_gradient": 59.74425081002789,
+        "other_valid": 30.80328187645218
+      },
+      "geometry_disagreement_deg": 24.585291446538807
+    },
+    {
+      "id": 146,
+      "depth": {
+        "high_gradient": 0.23385971465629207,
+        "other_valid": 0.24837945779803636
+      },
+      "normal": {
+        "high_gradient": 48.017102114865466,
+        "other_valid": 29.026772570614366
+      },
+      "geometry_disagreement_deg": 20.60473128546196
+    },
+    {
+      "id": 440,
+      "depth": {
+        "high_gradient": 0.10545473913320273,
+        "other_valid": 0.0757824306978146
+      },
+      "normal": {
+        "high_gradient": 52.01501987418569,
+        "other_valid": 31.412229442543083
+      },
+      "geometry_disagreement_deg": 25.479059351324732
+    },
+    {
+      "id": 159,
+      "depth": {
+        "high_gradient": 0.0938469621922838,
+        "other_valid": 0.0949366463170507
+      },
+      "normal": {
+        "high_gradient": 55.29325634392306,
+        "other_valid": 22.51307053856136
+      },
+      "geometry_disagreement_deg": 19.481909272728828
+    },
+    {
+      "id": 964,
+      "depth": {
+        "high_gradient": 0.15129046989765646,
+        "other_valid": 0.10211738058764037
+      },
+      "normal": {
+        "high_gradient": 47.91693250949824,
+        "other_valid": 29.205132515317235
+      },
+      "geometry_disagreement_deg": 25.41905064437854
+    },
+    {
+      "id": 179,
+      "depth": {
+        "high_gradient": 0.23518055188598339,
+        "other_valid": 0.29290852797850286
+      },
+      "normal": {
+        "high_gradient": 48.28201239567273,
+        "other_valid": 29.41477740849745
+      },
+      "geometry_disagreement_deg": 25.382458145853125
+    },
+    {
+      "id": 527,
+      "depth": {
+        "high_gradient": 0.13993124723030523,
+        "other_valid": 0.08832001468366635
+      },
+      "normal": {
+        "high_gradient": 59.85855389473325,
+        "other_valid": 33.63638170164751
+      },
+      "geometry_disagreement_deg": 26.538283628177084
+    },
+    {
+      "id": 49,
+      "depth": {
+        "high_gradient": 0.2628838563158426,
+        "other_valid": 0.2452883542722689
+      },
+      "normal": {
+        "high_gradient": 51.690782309937276,
+        "other_valid": 29.086163776278703
+      },
+      "geometry_disagreement_deg": 23.227584962424878
+    },
+    {
+      "id": 291,
+      "depth": {
+        "high_gradient": 0.18023036001535883,
+        "other_valid": 0.17452453862112066
+      },
+      "normal": {
+        "high_gradient": 69.15066560606449,
+        "other_valid": 37.60376614749075
+      },
+      "geometry_disagreement_deg": 31.579282706759457
+    },
+    {
+      "id": 165,
+      "depth": {
+        "high_gradient": 0.2567273165341329,
+        "other_valid": 0.36724431836728133
+      },
+      "normal": {
+        "high_gradient": 47.767997977641336,
+        "other_valid": 26.686205575186612
+      },
+      "geometry_disagreement_deg": 29.4977925019945
+    },
+    {
+      "id": 416,
+      "depth": {
+        "high_gradient": 0.3150184605583368,
+        "other_valid": 0.367686046326072
+      },
+      "normal": {
+        "high_gradient": 44.29917396789047,
+        "other_valid": 28.892999218796387
+      },
+      "geometry_disagreement_deg": 26.152746222994733
+    },
+    {
+      "id": 716,
+      "depth": {
+        "high_gradient": 0.15443815942046327,
+        "other_valid": 0.09741811159532177
+      },
+      "normal": {
+        "high_gradient": 55.34272448148818,
+        "other_valid": 32.290943516198354
+      },
+      "geometry_disagreement_deg": 22.562298269409432
+    },
+    {
+      "id": 170,
+      "depth": {
+        "high_gradient": 0.2811159094352171,
+        "other_valid": 0.20725927144999814
+      },
+      "normal": {
+        "high_gradient": 60.373750927179486,
+        "other_valid": 30.73451649713201
+      },
+      "geometry_disagreement_deg": 22.271079024726088
+    }
+  ],
+  "uniform_seed43": [
+    {
+      "id": 1241,
+      "depth": {
+        "high_gradient": 0.4800600570963373,
+        "other_valid": 0.3024769356794508
+      },
+      "normal": {
+        "high_gradient": 77.18327765046439,
+        "other_valid": 36.715649791685415
+      },
+      "geometry_disagreement_deg": 26.71205075244746
+    },
+    {
+      "id": 969,
+      "depth": {
+        "high_gradient": 0.12265951640716219,
+        "other_valid": 0.11971898759663178
+      },
+      "normal": {
+        "high_gradient": 45.222598588685756,
+        "other_valid": 34.068280935049835
+      },
+      "geometry_disagreement_deg": 27.4580173005287
+    },
+    {
+      "id": 1301,
+      "depth": {
+        "high_gradient": 0.08602863736849944,
+        "other_valid": 0.08810666952437543
+      },
+      "normal": {
+        "high_gradient": 47.05681902619309,
+        "other_valid": 31.497331802691413
+      },
+      "geometry_disagreement_deg": 24.074805482585557
+    },
+    {
+      "id": 294,
+      "depth": {
+        "high_gradient": 0.08811206164554228,
+        "other_valid": 0.0869927007622124
+      },
+      "normal": {
+        "high_gradient": 59.62272273352789,
+        "other_valid": 30.463293383471925
+      },
+      "geometry_disagreement_deg": 21.139780062588684
+    },
+    {
+      "id": 599,
+      "depth": {
+        "high_gradient": 0.08395780441447738,
+        "other_valid": 0.049404507674525804
+      },
+      "normal": {
+        "high_gradient": 49.679432413418155,
+        "other_valid": 29.55438678799874
+      },
+      "geometry_disagreement_deg": 23.974758874489584
+    },
+    {
+      "id": 654,
+      "depth": {
+        "high_gradient": 0.9585627190580579,
+        "other_valid": 1.009780301299358
+      },
+      "normal": {
+        "high_gradient": 59.91559701967594,
+        "other_valid": 29.477201722667417
+      },
+      "geometry_disagreement_deg": 21.3734043177712
+    },
+    {
+      "id": 367,
+      "depth": {
+        "high_gradient": 0.1204056020360257,
+        "other_valid": 0.1009642038477103
+      },
+      "normal": {
+        "high_gradient": 49.75466146054466,
+        "other_valid": 31.08408125032945
+      },
+      "geometry_disagreement_deg": 24.15882851796889
+    },
+    {
+      "id": 407,
+      "depth": {
+        "high_gradient": 0.24921996511747047,
+        "other_valid": 0.2867959866747633
+      },
+      "normal": {
+        "high_gradient": 49.637125422473005,
+        "other_valid": 36.592885706865374
+      },
+      "geometry_disagreement_deg": 25.943500963308395
+    },
+    {
+      "id": 738,
+      "depth": {
+        "high_gradient": 0.29334590859265486,
+        "other_valid": 0.2499847973557618
+      },
+      "normal": {
+        "high_gradient": 47.320017430614584,
+        "other_valid": 26.790232691902787
+      },
+      "geometry_disagreement_deg": 24.764354580062818
+    },
+    {
+      "id": 368,
+      "depth": {
+        "high_gradient": 0.2814233832339698,
+        "other_valid": 0.2867681721926323
+      },
+      "normal": {
+        "high_gradient": 34.57174616254285,
+        "other_valid": 27.226373335185706
+      },
+      "geometry_disagreement_deg": 27.123339187467842
+    },
+    {
+      "id": 941,
+      "depth": {
+        "high_gradient": 0.17353282121830277,
+        "other_valid": 0.08413160764535894
+      },
+      "normal": {
+        "high_gradient": 54.75208776502797,
+        "other_valid": 26.933910101451723
+      },
+      "geometry_disagreement_deg": 21.467895986003594
+    },
+    {
+      "id": 826,
+      "depth": {
+        "high_gradient": 0.10504687008073811,
+        "other_valid": 0.09125845367937016
+      },
+      "normal": {
+        "high_gradient": 58.40724375408353,
+        "other_valid": 30.428589551807153
+      },
+      "geometry_disagreement_deg": 24.71172928867343
+    },
+    {
+      "id": 24,
+      "depth": {
+        "high_gradient": 0.07942876437028086,
+        "other_valid": 0.07685283337388756
+      },
+      "normal": {
+        "high_gradient": 63.607504846206346,
+        "other_valid": 35.211270002832805
+      },
+      "geometry_disagreement_deg": 26.870682731708495
+    },
+    {
+      "id": 546,
+      "depth": {
+        "high_gradient": 0.29473330764302164,
+        "other_valid": 0.4491645027970813
+      },
+      "normal": {
+        "high_gradient": 65.52050657650605,
+        "other_valid": 33.61078968841088
+      },
+      "geometry_disagreement_deg": 28.96707777564891
+    },
+    {
+      "id": 450,
+      "depth": {
+        "high_gradient": 0.1664435711996569,
+        "other_valid": 0.14923885587581148
+      },
+      "normal": {
+        "high_gradient": 39.85051400706308,
+        "other_valid": 26.650166069164538
+      },
+      "geometry_disagreement_deg": 23.324123557653262
+    },
+    {
+      "id": 114,
+      "depth": {
+        "high_gradient": 0.5129810284317803,
+        "other_valid": 0.4742127052547591
+      },
+      "normal": {
+        "high_gradient": 52.52540170969427,
+        "other_valid": 42.66335931963608
+      },
+      "geometry_disagreement_deg": 29.09334539096824
+    },
+    {
+      "id": 916,
+      "depth": {
+        "high_gradient": 0.13992362701762548,
+        "other_valid": 0.10223781554713333
+      },
+      "normal": {
+        "high_gradient": 41.99768312274085,
+        "other_valid": 27.223672490824892
+      },
+      "geometry_disagreement_deg": 22.360189934761618
+    },
+    {
+      "id": 1185,
+      "depth": {
+        "high_gradient": 0.14957534373530615,
+        "other_valid": 0.17953723669399302
+      },
+      "normal": {
+        "high_gradient": 45.70924883461177,
+        "other_valid": 31.277863547120706
+      },
+      "geometry_disagreement_deg": 24.554016266198293
+    },
+    {
+      "id": 3,
+      "depth": {
+        "high_gradient": 0.15266057453779378,
+        "other_valid": 0.08724044363206726
+      },
+      "normal": {
+        "high_gradient": 49.60279919450702,
+        "other_valid": 27.715962048757675
+      },
+      "geometry_disagreement_deg": 22.40132042523318
+    },
+    {
+      "id": 1284,
+      "depth": {
+        "high_gradient": 0.2303045423113874,
+        "other_valid": 0.1470674482049766
+      },
+      "normal": {
+        "high_gradient": 58.24135680835873,
+        "other_valid": 32.304338545130875
+      },
+      "geometry_disagreement_deg": 23.316279031280594
+    },
+    {
+      "id": 146,
+      "depth": {
+        "high_gradient": 0.29239651270007183,
+        "other_valid": 0.3278726458432243
+      },
+      "normal": {
+        "high_gradient": 49.454483344232706,
+        "other_valid": 28.010463466681053
+      },
+      "geometry_disagreement_deg": 22.197150987608197
+    },
+    {
+      "id": 440,
+      "depth": {
+        "high_gradient": 0.0806554169957009,
+        "other_valid": 0.07803056530426179
+      },
+      "normal": {
+        "high_gradient": 54.421748011631735,
+        "other_valid": 32.02022443532627
+      },
+      "geometry_disagreement_deg": 25.917226212010476
+    },
+    {
+      "id": 159,
+      "depth": {
+        "high_gradient": 0.18919771471069288,
+        "other_valid": 0.2366112017172628
+      },
+      "normal": {
+        "high_gradient": 57.16471476200833,
+        "other_valid": 26.555785782351904
+      },
+      "geometry_disagreement_deg": 16.704063942188085
+    },
+    {
+      "id": 964,
+      "depth": {
+        "high_gradient": 0.13769415217385694,
+        "other_valid": 0.08604097833867326
+      },
+      "normal": {
+        "high_gradient": 48.2798453856791,
+        "other_valid": 32.407977670894866
+      },
+      "geometry_disagreement_deg": 28.04824721924515
+    },
+    {
+      "id": 179,
+      "depth": {
+        "high_gradient": 0.09805851084059694,
+        "other_valid": 0.07402678163061481
+      },
+      "normal": {
+        "high_gradient": 47.05788379108334,
+        "other_valid": 29.794925224989157
+      },
+      "geometry_disagreement_deg": 21.394662322073238
+    },
+    {
+      "id": 527,
+      "depth": {
+        "high_gradient": 0.1165344362452458,
+        "other_valid": 0.05866764588552864
+      },
+      "normal": {
+        "high_gradient": 59.55841510406735,
+        "other_valid": 32.71131366529384
+      },
+      "geometry_disagreement_deg": 23.937389513576743
+    },
+    {
+      "id": 49,
+      "depth": {
+        "high_gradient": 0.2711622090750865,
+        "other_valid": 0.2623083559491548
+      },
+      "normal": {
+        "high_gradient": 48.26803303062413,
+        "other_valid": 29.176562033965535
+      },
+      "geometry_disagreement_deg": 22.324206465126377
+    },
+    {
+      "id": 291,
+      "depth": {
+        "high_gradient": 0.12056650726194627,
+        "other_valid": 0.09883976412801712
+      },
+      "normal": {
+        "high_gradient": 70.30798277979973,
+        "other_valid": 39.595602635704296
+      },
+      "geometry_disagreement_deg": 31.55384833537845
+    },
+    {
+      "id": 165,
+      "depth": {
+        "high_gradient": 0.13877722603724066,
+        "other_valid": 0.2173696602067851
+      },
+      "normal": {
+        "high_gradient": 44.3956261612065,
+        "other_valid": 27.869862568706555
+      },
+      "geometry_disagreement_deg": 26.04857213516093
+    },
+    {
+      "id": 416,
+      "depth": {
+        "high_gradient": 0.3938751751266297,
+        "other_valid": 0.46200506439827055
+      },
+      "normal": {
+        "high_gradient": 44.28251626091286,
+        "other_valid": 25.056757481433152
+      },
+      "geometry_disagreement_deg": 22.51840262270367
+    },
+    {
+      "id": 716,
+      "depth": {
+        "high_gradient": 0.14561036159016458,
+        "other_valid": 0.11016409584515018
+      },
+      "normal": {
+        "high_gradient": 52.171247691535434,
+        "other_valid": 31.3865025356484
+      },
+      "geometry_disagreement_deg": 23.733985648236676
+    },
+    {
+      "id": 170,
+      "depth": {
+        "high_gradient": 0.31293679064136976,
+        "other_valid": 0.27298236724369795
+      },
+      "normal": {
+        "high_gradient": 58.728674263809125,
+        "other_valid": 28.133924382151243
+      },
+      "geometry_disagreement_deg": 21.094540267657774
+    }
+  ],
+  "weaker_uniform_seed17": [
+    {
+      "id": 1241,
+      "depth": {
+        "high_gradient": 0.3331792732494997,
+        "other_valid": 0.19846673753627525
+      },
+      "normal": {
+        "high_gradient": 64.26788926029022,
+        "other_valid": 38.9729109287266
+      },
+      "geometry_disagreement_deg": 32.47940694522215
+    },
+    {
+      "id": 969,
+      "depth": {
+        "high_gradient": 0.16389911028437765,
+        "other_valid": 0.15132544928849526
+      },
+      "normal": {
+        "high_gradient": 44.728649917035966,
+        "other_valid": 32.24376441033367
+      },
+      "geometry_disagreement_deg": 28.096637022251866
+    },
+    {
+      "id": 1301,
+      "depth": {
+        "high_gradient": 0.2121261866818748,
+        "other_valid": 0.17245893263937634
+      },
+      "normal": {
+        "high_gradient": 46.32493779111911,
+        "other_valid": 32.42804672214543
+      },
+      "geometry_disagreement_deg": 30.414448129864123
+    },
+    {
+      "id": 294,
+      "depth": {
+        "high_gradient": 0.15970899450289497,
+        "other_valid": 0.18046252306838517
+      },
+      "normal": {
+        "high_gradient": 58.370859463437235,
+        "other_valid": 30.03579851350346
+      },
+      "geometry_disagreement_deg": 24.770017577112988
+    },
+    {
+      "id": 599,
+      "depth": {
+        "high_gradient": 0.15302398981595716,
+        "other_valid": 0.10997748850557357
+      },
+      "normal": {
+        "high_gradient": 48.91872926347291,
+        "other_valid": 27.820057533543277
+      },
+      "geometry_disagreement_deg": 29.258417950820842
+    },
+    {
+      "id": 654,
+      "depth": {
+        "high_gradient": 0.6059154914810009,
+        "other_valid": 0.6658768850226948
+      },
+      "normal": {
+        "high_gradient": 59.276987996043545,
+        "other_valid": 28.970672654155273
+      },
+      "geometry_disagreement_deg": 26.34012501691771
+    },
+    {
+      "id": 367,
+      "depth": {
+        "high_gradient": 0.16276030594734917,
+        "other_valid": 0.10245562881929623
+      },
+      "normal": {
+        "high_gradient": 51.588068873797305,
+        "other_valid": 31.957604113617418
+      },
+      "geometry_disagreement_deg": 29.99642056061069
+    },
+    {
+      "id": 407,
+      "depth": {
+        "high_gradient": 0.13383399061267362,
+        "other_valid": 0.12567517240421355
+      },
+      "normal": {
+        "high_gradient": 49.02307322615986,
+        "other_valid": 35.326525143598865
+      },
+      "geometry_disagreement_deg": 35.083920118931594
+    },
+    {
+      "id": 738,
+      "depth": {
+        "high_gradient": 0.26487323376446,
+        "other_valid": 0.21634279680944649
+      },
+      "normal": {
+        "high_gradient": 50.632868677424646,
+        "other_valid": 32.46417719192036
+      },
+      "geometry_disagreement_deg": 28.549677167058956
+    },
+    {
+      "id": 368,
+      "depth": {
+        "high_gradient": 0.26777325486405706,
+        "other_valid": 0.30409691383573156
+      },
+      "normal": {
+        "high_gradient": 35.39681165092783,
+        "other_valid": 26.993422321968705
+      },
+      "geometry_disagreement_deg": 30.16821897522677
+    },
+    {
+      "id": 941,
+      "depth": {
+        "high_gradient": 0.19227710352096233,
+        "other_valid": 0.0788956189994305
+      },
+      "normal": {
+        "high_gradient": 56.553938341753785,
+        "other_valid": 28.690534579897424
+      },
+      "geometry_disagreement_deg": 25.740366120819477
+    },
+    {
+      "id": 826,
+      "depth": {
+        "high_gradient": 0.10346320318591987,
+        "other_valid": 0.09303013135889869
+      },
+      "normal": {
+        "high_gradient": 59.950855257384575,
+        "other_valid": 29.58167831470796
+      },
+      "geometry_disagreement_deg": 28.88581589939715
+    },
+    {
+      "id": 24,
+      "depth": {
+        "high_gradient": 0.07042280773172818,
+        "other_valid": 0.07308377822689616
+      },
+      "normal": {
+        "high_gradient": 66.39613850118238,
+        "other_valid": 34.956330334169316
+      },
+      "geometry_disagreement_deg": 32.6380133358567
+    },
+    {
+      "id": 546,
+      "depth": {
+        "high_gradient": 0.28243312048619995,
+        "other_valid": 0.3906486066177527
+      },
+      "normal": {
+        "high_gradient": 63.59349075056736,
+        "other_valid": 30.893396656447027
+      },
+      "geometry_disagreement_deg": 29.472496446149623
+    },
+    {
+      "id": 450,
+      "depth": {
+        "high_gradient": 0.2688655229388911,
+        "other_valid": 0.2722422335384327
+      },
+      "normal": {
+        "high_gradient": 40.56120238174598,
+        "other_valid": 26.93220442367832
+      },
+      "geometry_disagreement_deg": 26.367072101434996
+    },
+    {
+      "id": 114,
+      "depth": {
+        "high_gradient": 0.4535671616968743,
+        "other_valid": 0.4242916836053791
+      },
+      "normal": {
+        "high_gradient": 56.54525356940757,
+        "other_valid": 43.90445083667716
+      },
+      "geometry_disagreement_deg": 36.67819470157934
+    },
+    {
+      "id": 916,
+      "depth": {
+        "high_gradient": 0.08546566589172598,
+        "other_valid": 0.06752266807594294
+      },
+      "normal": {
+        "high_gradient": 39.40056215752766,
+        "other_valid": 26.068956927160034
+      },
+      "geometry_disagreement_deg": 26.903815356063543
+    },
+    {
+      "id": 1185,
+      "depth": {
+        "high_gradient": 0.28194385911993824,
+        "other_valid": 0.3013958649273665
+      },
+      "normal": {
+        "high_gradient": 46.051678882615455,
+        "other_valid": 33.126903299914616
+      },
+      "geometry_disagreement_deg": 29.86475956770797
+    },
+    {
+      "id": 3,
+      "depth": {
+        "high_gradient": 0.1765554397692553,
+        "other_valid": 0.2000061138719529
+      },
+      "normal": {
+        "high_gradient": 41.287636872006225,
+        "other_valid": 23.24224969286681
+      },
+      "geometry_disagreement_deg": 25.199186747713174
+    },
+    {
+      "id": 1284,
+      "depth": {
+        "high_gradient": 0.1490444690732453,
+        "other_valid": 0.09566829360245821
+      },
+      "normal": {
+        "high_gradient": 54.53970213828765,
+        "other_valid": 31.421747969056575
+      },
+      "geometry_disagreement_deg": 27.8578646352361
+    },
+    {
+      "id": 146,
+      "depth": {
+        "high_gradient": 0.2648977818241138,
+        "other_valid": 0.2980698645614218
+      },
+      "normal": {
+        "high_gradient": 50.393314440990935,
+        "other_valid": 28.108802247512816
+      },
+      "geometry_disagreement_deg": 24.124646490284803
+    },
+    {
+      "id": 440,
+      "depth": {
+        "high_gradient": 0.08787930855787848,
+        "other_valid": 0.08736327755539035
+      },
+      "normal": {
+        "high_gradient": 51.71779459563725,
+        "other_valid": 31.714837495994175
+      },
+      "geometry_disagreement_deg": 29.165572686425204
+    },
+    {
+      "id": 159,
+      "depth": {
+        "high_gradient": 0.15641637018422735,
+        "other_valid": 0.16113824820687936
+      },
+      "normal": {
+        "high_gradient": 59.61725222809835,
+        "other_valid": 31.216167369092023
+      },
+      "geometry_disagreement_deg": 29.308057379640818
+    },
+    {
+      "id": 964,
+      "depth": {
+        "high_gradient": 0.10404942538319166,
+        "other_valid": 0.05157468370381246
+      },
+      "normal": {
+        "high_gradient": 47.2609394306579,
+        "other_valid": 29.359107725053263
+      },
+      "geometry_disagreement_deg": 26.975552113819727
+    },
+    {
+      "id": 179,
+      "depth": {
+        "high_gradient": 0.15423062584199396,
+        "other_valid": 0.1574630261116505
+      },
+      "normal": {
+        "high_gradient": 42.01526498413818,
+        "other_valid": 29.376145809185054
+      },
+      "geometry_disagreement_deg": 26.927010504796247
+    },
+    {
+      "id": 527,
+      "depth": {
+        "high_gradient": 0.14922420364546704,
+        "other_valid": 0.09304290920931993
+      },
+      "normal": {
+        "high_gradient": 54.559319819992304,
+        "other_valid": 33.99034959072392
+      },
+      "geometry_disagreement_deg": 29.147943334983793
+    },
+    {
+      "id": 49,
+      "depth": {
+        "high_gradient": 0.33664977349312725,
+        "other_valid": 0.3260602740981438
+      },
+      "normal": {
+        "high_gradient": 52.582912407199274,
+        "other_valid": 28.453373722434435
+      },
+      "geometry_disagreement_deg": 25.977786333737654
+    },
+    {
+      "id": 291,
+      "depth": {
+        "high_gradient": 0.1784098174820632,
+        "other_valid": 0.20213065202329827
+      },
+      "normal": {
+        "high_gradient": 68.89631706496003,
+        "other_valid": 38.2742468473355
+      },
+      "geometry_disagreement_deg": 35.345671818610455
+    },
+    {
+      "id": 165,
+      "depth": {
+        "high_gradient": 0.31856086704131087,
+        "other_valid": 0.37917267104707714
+      },
+      "normal": {
+        "high_gradient": 43.18805512083874,
+        "other_valid": 25.801130602350376
+      },
+      "geometry_disagreement_deg": 32.47295769740132
+    },
+    {
+      "id": 416,
+      "depth": {
+        "high_gradient": 0.29527326549954924,
+        "other_valid": 0.33632244878752604
+      },
+      "normal": {
+        "high_gradient": 45.698626186304,
+        "other_valid": 25.492668525871213
+      },
+      "geometry_disagreement_deg": 29.989856101283586
+    },
+    {
+      "id": 716,
+      "depth": {
+        "high_gradient": 0.13806461098593872,
+        "other_valid": 0.11260984599010075
+      },
+      "normal": {
+        "high_gradient": 54.09621794696635,
+        "other_valid": 31.18036116356709
+      },
+      "geometry_disagreement_deg": 29.526273642553384
+    },
+    {
+      "id": 170,
+      "depth": {
+        "high_gradient": 0.24781020291218808,
+        "other_valid": 0.1326918799161827
+      },
+      "normal": {
+        "high_gradient": 54.473355424683774,
+        "other_valid": 29.041710352949654
+      },
+      "geometry_disagreement_deg": 27.517394971647587
+    }
+  ],
+  "weaker_uniform_seed29": [
+    {
+      "id": 1241,
+      "depth": {
+        "high_gradient": 0.3568491173447299,
+        "other_valid": 0.2119828963701289
+      },
+      "normal": {
+        "high_gradient": 73.21727746592144,
+        "other_valid": 37.924527299121635
+      },
+      "geometry_disagreement_deg": 36.52364442864439
+    },
+    {
+      "id": 969,
+      "depth": {
+        "high_gradient": 0.12065276627272419,
+        "other_valid": 0.13782792007373057
+      },
+      "normal": {
+        "high_gradient": 53.84224441139519,
+        "other_valid": 32.87613372567453
+      },
+      "geometry_disagreement_deg": 31.395453402773654
+    },
+    {
+      "id": 1301,
+      "depth": {
+        "high_gradient": 0.2069639667747688,
+        "other_valid": 0.2030668770676692
+      },
+      "normal": {
+        "high_gradient": 47.01690788999918,
+        "other_valid": 32.895014042860076
+      },
+      "geometry_disagreement_deg": 34.80285159119027
+    },
+    {
+      "id": 294,
+      "depth": {
+        "high_gradient": 0.11727765406716206,
+        "other_valid": 0.13396626296952097
+      },
+      "normal": {
+        "high_gradient": 60.13991301209206,
+        "other_valid": 31.34609141182085
+      },
+      "geometry_disagreement_deg": 25.30581143231721
+    },
+    {
+      "id": 599,
+      "depth": {
+        "high_gradient": 0.11568704561455674,
+        "other_valid": 0.08614890552666354
+      },
+      "normal": {
+        "high_gradient": 50.374499702758236,
+        "other_valid": 29.622326820208734
+      },
+      "geometry_disagreement_deg": 30.10948343123366
+    },
+    {
+      "id": 654,
+      "depth": {
+        "high_gradient": 0.7907138079804548,
+        "other_valid": 0.7945133299242793
+      },
+      "normal": {
+        "high_gradient": 49.926112969756716,
+        "other_valid": 27.7797472652965
+      },
+      "geometry_disagreement_deg": 30.227868997920126
+    },
+    {
+      "id": 367,
+      "depth": {
+        "high_gradient": 0.08689511946448586,
+        "other_valid": 0.06950927311374282
+      },
+      "normal": {
+        "high_gradient": 57.03670286145463,
+        "other_valid": 34.26105270797038
+      },
+      "geometry_disagreement_deg": 33.85710830051276
+    },
+    {
+      "id": 407,
+      "depth": {
+        "high_gradient": 0.18635635145355353,
+        "other_valid": 0.21392124820844663
+      },
+      "normal": {
+        "high_gradient": 53.1078732478301,
+        "other_valid": 36.97803603971989
+      },
+      "geometry_disagreement_deg": 36.51451999143375
+    },
+    {
+      "id": 738,
+      "depth": {
+        "high_gradient": 0.2722005049058895,
+        "other_valid": 0.20156059453841565
+      },
+      "normal": {
+        "high_gradient": 49.10782639710028,
+        "other_valid": 28.58906170781923
+      },
+      "geometry_disagreement_deg": 30.364554278522082
+    },
+    {
+      "id": 368,
+      "depth": {
+        "high_gradient": 0.1756737987915415,
+        "other_valid": 0.2029830987259043
+      },
+      "normal": {
+        "high_gradient": 43.78398754456237,
+        "other_valid": 29.572186106171948
+      },
+      "geometry_disagreement_deg": 30.69285072666171
+    },
+    {
+      "id": 941,
+      "depth": {
+        "high_gradient": 0.19023268758582773,
+        "other_valid": 0.08192019916961692
+      },
+      "normal": {
+        "high_gradient": 51.02087323535935,
+        "other_valid": 27.192106509968784
+      },
+      "geometry_disagreement_deg": 26.29781734300869
+    },
+    {
+      "id": 826,
+      "depth": {
+        "high_gradient": 0.10245655157118862,
+        "other_valid": 0.08389831830466239
+      },
+      "normal": {
+        "high_gradient": 60.67733813630604,
+        "other_valid": 30.84626115679624
+      },
+      "geometry_disagreement_deg": 28.17799574652285
+    },
+    {
+      "id": 24,
+      "depth": {
+        "high_gradient": 0.06031692094361255,
+        "other_valid": 0.06439962398550507
+      },
+      "normal": {
+        "high_gradient": 67.28748876201831,
+        "other_valid": 35.49308586026028
+      },
+      "geometry_disagreement_deg": 33.64101241186274
+    },
+    {
+      "id": 546,
+      "depth": {
+        "high_gradient": 0.25538397359293824,
+        "other_valid": 0.33084506675807573
+      },
+      "normal": {
+        "high_gradient": 66.63319988416059,
+        "other_valid": 35.08397472643607
+      },
+      "geometry_disagreement_deg": 35.370471183760024
+    },
+    {
+      "id": 450,
+      "depth": {
+        "high_gradient": 0.17689491495980533,
+        "other_valid": 0.17194726151083525
+      },
+      "normal": {
+        "high_gradient": 41.75568607937147,
+        "other_valid": 26.558584366438293
+      },
+      "geometry_disagreement_deg": 27.444171130739832
+    },
+    {
+      "id": 114,
+      "depth": {
+        "high_gradient": 0.4863740475698789,
+        "other_valid": 0.46638898816344715
+      },
+      "normal": {
+        "high_gradient": 59.20553059734665,
+        "other_valid": 46.16065261770234
+      },
+      "geometry_disagreement_deg": 43.489080205140205
+    },
+    {
+      "id": 916,
+      "depth": {
+        "high_gradient": 0.11923819762187683,
+        "other_valid": 0.07674921121195792
+      },
+      "normal": {
+        "high_gradient": 43.133896674693894,
+        "other_valid": 27.887743956488936
+      },
+      "geometry_disagreement_deg": 27.354738593034316
+    },
+    {
+      "id": 1185,
+      "depth": {
+        "high_gradient": 0.13885445758296347,
+        "other_valid": 0.16318718117623685
+      },
+      "normal": {
+        "high_gradient": 47.274405095194325,
+        "other_valid": 31.755991689740583
+      },
+      "geometry_disagreement_deg": 30.375270875143613
+    },
+    {
+      "id": 3,
+      "depth": {
+        "high_gradient": 0.14826179112521226,
+        "other_valid": 0.11976913109162048
+      },
+      "normal": {
+        "high_gradient": 48.93969674163643,
+        "other_valid": 24.834682397114037
+      },
+      "geometry_disagreement_deg": 30.0872027673592
+    },
+    {
+      "id": 1284,
+      "depth": {
+        "high_gradient": 0.21231904694251535,
+        "other_valid": 0.14005524437568795
+      },
+      "normal": {
+        "high_gradient": 59.348897005937694,
+        "other_valid": 30.871447548983134
+      },
+      "geometry_disagreement_deg": 27.07258959416996
+    },
+    {
+      "id": 146,
+      "depth": {
+        "high_gradient": 0.29605427920649857,
+        "other_valid": 0.3197924619230315
+      },
+      "normal": {
+        "high_gradient": 48.63553990851168,
+        "other_valid": 28.32811379875382
+      },
+      "geometry_disagreement_deg": 25.83393654393092
+    },
+    {
+      "id": 440,
+      "depth": {
+        "high_gradient": 0.09585849429190259,
+        "other_valid": 0.0865050825120636
+      },
+      "normal": {
+        "high_gradient": 50.828146759617326,
+        "other_valid": 31.56114031481101
+      },
+      "geometry_disagreement_deg": 29.681538171181103
+    },
+    {
+      "id": 159,
+      "depth": {
+        "high_gradient": 0.0803047109364402,
+        "other_valid": 0.08232685472756551
+      },
+      "normal": {
+        "high_gradient": 55.925978078438,
+        "other_valid": 23.258699546296818
+      },
+      "geometry_disagreement_deg": 22.50271822260525
+    },
+    {
+      "id": 964,
+      "depth": {
+        "high_gradient": 0.152094074770107,
+        "other_valid": 0.11062604998684994
+      },
+      "normal": {
+        "high_gradient": 48.61866662015584,
+        "other_valid": 30.34832948952011
+      },
+      "geometry_disagreement_deg": 30.130152781440053
+    },
+    {
+      "id": 179,
+      "depth": {
+        "high_gradient": 0.1948560824300757,
+        "other_valid": 0.24993080910239057
+      },
+      "normal": {
+        "high_gradient": 49.10261955362416,
+        "other_valid": 29.619643932646586
+      },
+      "geometry_disagreement_deg": 28.003681898829782
+    },
+    {
+      "id": 527,
+      "depth": {
+        "high_gradient": 0.1588693416339034,
+        "other_valid": 0.1062583905529059
+      },
+      "normal": {
+        "high_gradient": 60.62112057312899,
+        "other_valid": 33.378515650984696
+      },
+      "geometry_disagreement_deg": 31.31099298501035
+    },
+    {
+      "id": 49,
+      "depth": {
+        "high_gradient": 0.21590210971941073,
+        "other_valid": 0.21469884203316478
+      },
+      "normal": {
+        "high_gradient": 52.597810827015095,
+        "other_valid": 29.448179244760027
+      },
+      "geometry_disagreement_deg": 29.91305897389694
+    },
+    {
+      "id": 291,
+      "depth": {
+        "high_gradient": 0.18087579112857397,
+        "other_valid": 0.18456579572324502
+      },
+      "normal": {
+        "high_gradient": 70.34510881518756,
+        "other_valid": 38.43020461106128
+      },
+      "geometry_disagreement_deg": 38.16173085625617
+    },
+    {
+      "id": 165,
+      "depth": {
+        "high_gradient": 0.34847686049846144,
+        "other_valid": 0.4468504306146404
+      },
+      "normal": {
+        "high_gradient": 49.388662544726,
+        "other_valid": 28.355006635388474
+      },
+      "geometry_disagreement_deg": 33.39997187394482
+    },
+    {
+      "id": 416,
+      "depth": {
+        "high_gradient": 0.2724196869321517,
+        "other_valid": 0.32328832615608244
+      },
+      "normal": {
+        "high_gradient": 46.16117691641004,
+        "other_valid": 29.91940329104023
+      },
+      "geometry_disagreement_deg": 31.1509739961441
+    },
+    {
+      "id": 716,
+      "depth": {
+        "high_gradient": 0.1511335443960184,
+        "other_valid": 0.11225341511326738
+      },
+      "normal": {
+        "high_gradient": 53.500216476651154,
+        "other_valid": 31.195459100415118
+      },
+      "geometry_disagreement_deg": 28.205951231635815
+    },
+    {
+      "id": 170,
+      "depth": {
+        "high_gradient": 0.27651703274862777,
+        "other_valid": 0.20599600391457348
+      },
+      "normal": {
+        "high_gradient": 59.239054859293454,
+        "other_valid": 28.88906379931423
+      },
+      "geometry_disagreement_deg": 27.441890469521027
+    }
+  ],
+  "weaker_uniform_seed43": [
+    {
+      "id": 1241,
+      "depth": {
+        "high_gradient": 0.47679311196019325,
+        "other_valid": 0.3086123008216215
+      },
+      "normal": {
+        "high_gradient": 74.06672450326815,
+        "other_valid": 39.41417184063262
+      },
+      "geometry_disagreement_deg": 34.08315371469955
+    },
+    {
+      "id": 969,
+      "depth": {
+        "high_gradient": 0.11210438594641486,
+        "other_valid": 0.10043597955660302
+      },
+      "normal": {
+        "high_gradient": 45.338274732397984,
+        "other_valid": 35.705320127607465
+      },
+      "geometry_disagreement_deg": 32.04822558438287
+    },
+    {
+      "id": 1301,
+      "depth": {
+        "high_gradient": 0.06389263667235287,
+        "other_valid": 0.07322262763685547
+      },
+      "normal": {
+        "high_gradient": 49.14839429770219,
+        "other_valid": 30.59339012769284
+      },
+      "geometry_disagreement_deg": 27.59544754725862
+    },
+    {
+      "id": 294,
+      "depth": {
+        "high_gradient": 0.081197090557626,
+        "other_valid": 0.06775997668405606
+      },
+      "normal": {
+        "high_gradient": 60.243994455874976,
+        "other_valid": 32.15740339207835
+      },
+      "geometry_disagreement_deg": 26.779537382535565
+    },
+    {
+      "id": 599,
+      "depth": {
+        "high_gradient": 0.08694111923714805,
+        "other_valid": 0.053635182519483175
+      },
+      "normal": {
+        "high_gradient": 49.9571747695278,
+        "other_valid": 29.26871116800686
+      },
+      "geometry_disagreement_deg": 27.22672700035546
+    },
+    {
+      "id": 654,
+      "depth": {
+        "high_gradient": 0.9389694453525005,
+        "other_valid": 0.9421717366205421
+      },
+      "normal": {
+        "high_gradient": 59.68849479679492,
+        "other_valid": 30.603039291877124
+      },
+      "geometry_disagreement_deg": 25.918620591863522
+    },
+    {
+      "id": 367,
+      "depth": {
+        "high_gradient": 0.09179702042792079,
+        "other_valid": 0.0765652384181004
+      },
+      "normal": {
+        "high_gradient": 50.84535125275584,
+        "other_valid": 31.202435889384112
+      },
+      "geometry_disagreement_deg": 28.358351979759764
+    },
+    {
+      "id": 407,
+      "depth": {
+        "high_gradient": 0.2773705698437465,
+        "other_valid": 0.30402163749487404
+      },
+      "normal": {
+        "high_gradient": 48.109022298333116,
+        "other_valid": 36.22981052093846
+      },
+      "geometry_disagreement_deg": 34.45080909409867
+    },
+    {
+      "id": 738,
+      "depth": {
+        "high_gradient": 0.292338974983413,
+        "other_valid": 0.2467954436279766
+      },
+      "normal": {
+        "high_gradient": 46.84229064293972,
+        "other_valid": 27.830563927349516
+      },
+      "geometry_disagreement_deg": 30.09870011765024
+    },
+    {
+      "id": 368,
+      "depth": {
+        "high_gradient": 0.2203803429762514,
+        "other_valid": 0.21766463470951394
+      },
+      "normal": {
+        "high_gradient": 35.470389912249864,
+        "other_valid": 27.84747777286002
+      },
+      "geometry_disagreement_deg": 32.77218189672847
+    },
+    {
+      "id": 941,
+      "depth": {
+        "high_gradient": 0.19558063747631907,
+        "other_valid": 0.08507945086672311
+      },
+      "normal": {
+        "high_gradient": 58.528614657158904,
+        "other_valid": 28.726739296583705
+      },
+      "geometry_disagreement_deg": 24.692071105586667
+    },
+    {
+      "id": 826,
+      "depth": {
+        "high_gradient": 0.1109611946387015,
+        "other_valid": 0.08697591311324533
+      },
+      "normal": {
+        "high_gradient": 59.02306929077675,
+        "other_valid": 31.792881668615852
+      },
+      "geometry_disagreement_deg": 29.82895043609165
+    },
+    {
+      "id": 24,
+      "depth": {
+        "high_gradient": 0.14354781601437483,
+        "other_valid": 0.13001839064790752
+      },
+      "normal": {
+        "high_gradient": 66.75658070134584,
+        "other_valid": 35.10955077067944
+      },
+      "geometry_disagreement_deg": 31.594172208230617
+    },
+    {
+      "id": 546,
+      "depth": {
+        "high_gradient": 0.2797194675303125,
+        "other_valid": 0.4113586391292379
+      },
+      "normal": {
+        "high_gradient": 66.0338981225248,
+        "other_valid": 35.05767228560056
+      },
+      "geometry_disagreement_deg": 34.51814136671554
+    },
+    {
+      "id": 450,
+      "depth": {
+        "high_gradient": 0.19873651950747562,
+        "other_valid": 0.1827703167029556
+      },
+      "normal": {
+        "high_gradient": 42.23656700853163,
+        "other_valid": 27.962679823133673
+      },
+      "geometry_disagreement_deg": 26.90569684167068
+    },
+    {
+      "id": 114,
+      "depth": {
+        "high_gradient": 0.4923821536462162,
+        "other_valid": 0.46462155780702014
+      },
+      "normal": {
+        "high_gradient": 51.10687820308193,
+        "other_valid": 42.34926340893904
+      },
+      "geometry_disagreement_deg": 31.285074600700035
+    },
+    {
+      "id": 916,
+      "depth": {
+        "high_gradient": 0.1569218449166021,
+        "other_valid": 0.10828896867676858
+      },
+      "normal": {
+        "high_gradient": 40.82149422567587,
+        "other_valid": 28.347182163972615
+      },
+      "geometry_disagreement_deg": 27.055715321911816
+    },
+    {
+      "id": 1185,
+      "depth": {
+        "high_gradient": 0.18872812762035598,
+        "other_valid": 0.2166395038116668
+      },
+      "normal": {
+        "high_gradient": 46.18057913881705,
+        "other_valid": 31.66598957703658
+      },
+      "geometry_disagreement_deg": 29.182613243238553
+    },
+    {
+      "id": 3,
+      "depth": {
+        "high_gradient": 0.167404070797348,
+        "other_valid": 0.08362675660572164
+      },
+      "normal": {
+        "high_gradient": 49.06366540576116,
+        "other_valid": 29.090673140732115
+      },
+      "geometry_disagreement_deg": 29.086281497533594
+    },
+    {
+      "id": 1284,
+      "depth": {
+        "high_gradient": 0.22139115313437505,
+        "other_valid": 0.13804481710090397
+      },
+      "normal": {
+        "high_gradient": 57.73972167589259,
+        "other_valid": 32.22100707736674
+      },
+      "geometry_disagreement_deg": 27.454648839523298
+    },
+    {
+      "id": 146,
+      "depth": {
+        "high_gradient": 0.2887429004301817,
+        "other_valid": 0.3267621220099654
+      },
+      "normal": {
+        "high_gradient": 52.16327586253856,
+        "other_valid": 28.375096155698728
+      },
+      "geometry_disagreement_deg": 30.947612452581417
+    },
+    {
+      "id": 440,
+      "depth": {
+        "high_gradient": 0.08130728688044624,
+        "other_valid": 0.0767801131484307
+      },
+      "normal": {
+        "high_gradient": 56.38611673008103,
+        "other_valid": 33.821397028788965
+      },
+      "geometry_disagreement_deg": 29.846086378980267
+    },
+    {
+      "id": 159,
+      "depth": {
+        "high_gradient": 0.211455866342997,
+        "other_valid": 0.22197833674637496
+      },
+      "normal": {
+        "high_gradient": 60.13984531982967,
+        "other_valid": 29.3592332729221
+      },
+      "geometry_disagreement_deg": 24.22077885797058
+    },
+    {
+      "id": 964,
+      "depth": {
+        "high_gradient": 0.17900396255824302,
+        "other_valid": 0.1312654567471287
+      },
+      "normal": {
+        "high_gradient": 50.16050499696582,
+        "other_valid": 34.5760729096402
+      },
+      "geometry_disagreement_deg": 34.78556642125554
+    },
+    {
+      "id": 179,
+      "depth": {
+        "high_gradient": 0.10557177858550483,
+        "other_valid": 0.07874592846792085
+      },
+      "normal": {
+        "high_gradient": 47.75299944949899,
+        "other_valid": 31.73838165617189
+      },
+      "geometry_disagreement_deg": 26.364029860295897
+    },
+    {
+      "id": 527,
+      "depth": {
+        "high_gradient": 0.10902879438891325,
+        "other_valid": 0.07032645828134562
+      },
+      "normal": {
+        "high_gradient": 60.499500993425244,
+        "other_valid": 34.27881267045646
+      },
+      "geometry_disagreement_deg": 31.53690648972862
+    },
+    {
+      "id": 49,
+      "depth": {
+        "high_gradient": 0.23148728691026776,
+        "other_valid": 0.22878669334152468
+      },
+      "normal": {
+        "high_gradient": 50.139674323439216,
+        "other_valid": 29.65912630979407
+      },
+      "geometry_disagreement_deg": 26.125594467961033
+    },
+    {
+      "id": 291,
+      "depth": {
+        "high_gradient": 0.12074478571641946,
+        "other_valid": 0.1045847322672293
+      },
+      "normal": {
+        "high_gradient": 72.5266948585801,
+        "other_valid": 40.4437895773468
+      },
+      "geometry_disagreement_deg": 37.65331946831881
+    },
+    {
+      "id": 165,
+      "depth": {
+        "high_gradient": 0.13670946110236398,
+        "other_valid": 0.19066938840562517
+      },
+      "normal": {
+        "high_gradient": 43.94484186103747,
+        "other_valid": 26.75159661866528
+      },
+      "geometry_disagreement_deg": 30.685762984382386
+    },
+    {
+      "id": 416,
+      "depth": {
+        "high_gradient": 0.38518003438132714,
+        "other_valid": 0.4464988933229075
+      },
+      "normal": {
+        "high_gradient": 42.5967684889967,
+        "other_valid": 21.667188485077784
+      },
+      "geometry_disagreement_deg": 24.239197497024765
+    },
+    {
+      "id": 716,
+      "depth": {
+        "high_gradient": 0.14967194867687394,
+        "other_valid": 0.1230945712186014
+      },
+      "normal": {
+        "high_gradient": 53.58731544110193,
+        "other_valid": 31.929180491158345
+      },
+      "geometry_disagreement_deg": 29.52177276726573
+    },
+    {
+      "id": 170,
+      "depth": {
+        "high_gradient": 0.28556005380076976,
+        "other_valid": 0.22769709608363492
+      },
+      "normal": {
+        "high_gradient": 55.31092048953085,
+        "other_valid": 29.929769329176743
+      },
+      "geometry_disagreement_deg": 29.32873179708159
+    }
+  ],
+  "weighted_seed17": [
+    {
+      "id": 1241,
+      "depth": {
+        "high_gradient": 0.4400527158113318,
+        "other_valid": 0.275085046954392
+      },
+      "normal": {
+        "high_gradient": 62.690280743779006,
+        "other_valid": 39.39571560786664
+      },
+      "geometry_disagreement_deg": 27.16054509030852
+    },
+    {
+      "id": 969,
+      "depth": {
+        "high_gradient": 0.09906396204095712,
+        "other_valid": 0.08941579458927292
+      },
+      "normal": {
+        "high_gradient": 42.616376853313135,
+        "other_valid": 31.169244031774635
+      },
+      "geometry_disagreement_deg": 22.03886751926891
+    },
+    {
+      "id": 1301,
+      "depth": {
+        "high_gradient": 0.18971382533629538,
+        "other_valid": 0.16139671028367347
+      },
+      "normal": {
+        "high_gradient": 46.1445174080497,
+        "other_valid": 34.34205521488833
+      },
+      "geometry_disagreement_deg": 26.794514348837502
+    },
+    {
+      "id": 294,
+      "depth": {
+        "high_gradient": 0.11351347138267812,
+        "other_valid": 0.13547061088623613
+      },
+      "normal": {
+        "high_gradient": 59.435952766445595,
+        "other_valid": 30.02592770491617
+      },
+      "geometry_disagreement_deg": 24.16344295261036
+    },
+    {
+      "id": 599,
+      "depth": {
+        "high_gradient": 0.12699652803712166,
+        "other_valid": 0.11343083357880948
+      },
+      "normal": {
+        "high_gradient": 47.163878924782125,
+        "other_valid": 27.773673075941613
+      },
+      "geometry_disagreement_deg": 25.808462862885133
+    },
+    {
+      "id": 654,
+      "depth": {
+        "high_gradient": 0.5836206951707015,
+        "other_valid": 0.6625593789613143
+      },
+      "normal": {
+        "high_gradient": 59.46369449280447,
+        "other_valid": 28.757326489729724
+      },
+      "geometry_disagreement_deg": 20.6498302895191
+    },
+    {
+      "id": 367,
+      "depth": {
+        "high_gradient": 0.11918201270866606,
+        "other_valid": 0.08535845478259704
+      },
+      "normal": {
+        "high_gradient": 51.453568095284425,
+        "other_valid": 31.321563446663482
+      },
+      "geometry_disagreement_deg": 25.301922666036873
+    },
+    {
+      "id": 407,
+      "depth": {
+        "high_gradient": 0.15664851198505178,
+        "other_valid": 0.1331584012940116
+      },
+      "normal": {
+        "high_gradient": 53.29512239751221,
+        "other_valid": 36.82736907113662
+      },
+      "geometry_disagreement_deg": 30.58692431489339
+    },
+    {
+      "id": 738,
+      "depth": {
+        "high_gradient": 0.2667483754243353,
+        "other_valid": 0.2242561051735711
+      },
+      "normal": {
+        "high_gradient": 50.85019022980748,
+        "other_valid": 31.340570626443412
+      },
+      "geometry_disagreement_deg": 25.40990057275976
+    },
+    {
+      "id": 368,
+      "depth": {
+        "high_gradient": 0.20209035458169666,
+        "other_valid": 0.21913408363812242
+      },
+      "normal": {
+        "high_gradient": 35.88648495126205,
+        "other_valid": 26.839144073491898
+      },
+      "geometry_disagreement_deg": 26.071062550304873
+    },
+    {
+      "id": 941,
+      "depth": {
+        "high_gradient": 0.18142404276759627,
+        "other_valid": 0.07433384557048704
+      },
+      "normal": {
+        "high_gradient": 54.30499870803329,
+        "other_valid": 28.197124138959094
+      },
+      "geometry_disagreement_deg": 23.289216165406792
+    },
+    {
+      "id": 826,
+      "depth": {
+        "high_gradient": 0.159871741327889,
+        "other_valid": 0.10868429433855761
+      },
+      "normal": {
+        "high_gradient": 59.11285203388668,
+        "other_valid": 29.04253465066796
+      },
+      "geometry_disagreement_deg": 25.054494956177546
+    },
+    {
+      "id": 24,
+      "depth": {
+        "high_gradient": 0.11182035657962548,
+        "other_valid": 0.10865668295036687
+      },
+      "normal": {
+        "high_gradient": 65.11718083041036,
+        "other_valid": 33.663777342564366
+      },
+      "geometry_disagreement_deg": 28.526982524896304
+    },
+    {
+      "id": 546,
+      "depth": {
+        "high_gradient": 0.2616808736001808,
+        "other_valid": 0.37856148184534827
+      },
+      "normal": {
+        "high_gradient": 64.23849817928563,
+        "other_valid": 31.242534471736555
+      },
+      "geometry_disagreement_deg": 26.943020309062
+    },
+    {
+      "id": 450,
+      "depth": {
+        "high_gradient": 0.1602990580110937,
+        "other_valid": 0.16076332857690367
+      },
+      "normal": {
+        "high_gradient": 40.10238382254954,
+        "other_valid": 25.935168464361062
+      },
+      "geometry_disagreement_deg": 22.673970095966247
+    },
+    {
+      "id": 114,
+      "depth": {
+        "high_gradient": 0.46038253767235343,
+        "other_valid": 0.4231376428201045
+      },
+      "normal": {
+        "high_gradient": 54.45786013647865,
+        "other_valid": 43.44675677320842
+      },
+      "geometry_disagreement_deg": 31.295310867469624
+    },
+    {
+      "id": 916,
+      "depth": {
+        "high_gradient": 0.15378802163117333,
+        "other_valid": 0.10225556139243666
+      },
+      "normal": {
+        "high_gradient": 39.42503312389696,
+        "other_valid": 25.20831482758313
+      },
+      "geometry_disagreement_deg": 22.764866190172942
+    },
+    {
+      "id": 1185,
+      "depth": {
+        "high_gradient": 0.104888690121569,
+        "other_valid": 0.11307113375856713
+      },
+      "normal": {
+        "high_gradient": 45.41265825642415,
+        "other_valid": 32.4947019369388
+      },
+      "geometry_disagreement_deg": 23.546078339618585
+    },
+    {
+      "id": 3,
+      "depth": {
+        "high_gradient": 0.1727483418727733,
+        "other_valid": 0.13382659219334042
+      },
+      "normal": {
+        "high_gradient": 42.23597118299404,
+        "other_valid": 24.463939778769646
+      },
+      "geometry_disagreement_deg": 21.539095111734348
+    },
+    {
+      "id": 1284,
+      "depth": {
+        "high_gradient": 0.21560667446600923,
+        "other_valid": 0.1356585302228145
+      },
+      "normal": {
+        "high_gradient": 54.722418339671954,
+        "other_valid": 31.320726059770713
+      },
+      "geometry_disagreement_deg": 25.251899175073266
+    },
+    {
+      "id": 146,
+      "depth": {
+        "high_gradient": 0.2979436449933355,
+        "other_valid": 0.329150958417151
+      },
+      "normal": {
+        "high_gradient": 50.97290259394849,
+        "other_valid": 27.251214940347943
+      },
+      "geometry_disagreement_deg": 19.52006827846686
+    },
+    {
+      "id": 440,
+      "depth": {
+        "high_gradient": 0.09772043735168084,
+        "other_valid": 0.0819882056361034
+      },
+      "normal": {
+        "high_gradient": 51.22881780359857,
+        "other_valid": 31.204657546088413
+      },
+      "geometry_disagreement_deg": 24.643680284040705
+    },
+    {
+      "id": 159,
+      "depth": {
+        "high_gradient": 0.20394173563769324,
+        "other_valid": 0.22975278757467282
+      },
+      "normal": {
+        "high_gradient": 56.66800204655684,
+        "other_valid": 26.6574179302441
+      },
+      "geometry_disagreement_deg": 20.9330817171083
+    },
+    {
+      "id": 964,
+      "depth": {
+        "high_gradient": 0.12071220335003842,
+        "other_valid": 0.05373106731980308
+      },
+      "normal": {
+        "high_gradient": 45.9977395546283,
+        "other_valid": 29.86057753222858
+      },
+      "geometry_disagreement_deg": 23.796904183154236
+    },
+    {
+      "id": 179,
+      "depth": {
+        "high_gradient": 0.11093359753228416,
+        "other_valid": 0.11391634402476006
+      },
+      "normal": {
+        "high_gradient": 44.07675199093125,
+        "other_valid": 30.047978040108127
+      },
+      "geometry_disagreement_deg": 23.401477141806055
+    },
+    {
+      "id": 527,
+      "depth": {
+        "high_gradient": 0.2123672116716542,
+        "other_valid": 0.16448392558720237
+      },
+      "normal": {
+        "high_gradient": 54.05925011085328,
+        "other_valid": 35.182349595467194
+      },
+      "geometry_disagreement_deg": 28.309709891978073
+    },
+    {
+      "id": 49,
+      "depth": {
+        "high_gradient": 0.2116479399286896,
+        "other_valid": 0.19959528854440156
+      },
+      "normal": {
+        "high_gradient": 54.36518871888903,
+        "other_valid": 28.598371827122275
+      },
+      "geometry_disagreement_deg": 22.250509139065322
+    },
+    {
+      "id": 291,
+      "depth": {
+        "high_gradient": 0.15202749841576413,
+        "other_valid": 0.18471092957844548
+      },
+      "normal": {
+        "high_gradient": 69.36191004911025,
+        "other_valid": 37.65433112579761
+      },
+      "geometry_disagreement_deg": 28.919705053439277
+    },
+    {
+      "id": 165,
+      "depth": {
+        "high_gradient": 0.19187733149401093,
+        "other_valid": 0.28600579420718825
+      },
+      "normal": {
+        "high_gradient": 48.0698237217485,
+        "other_valid": 24.867578102605044
+      },
+      "geometry_disagreement_deg": 27.28385836977109
+    },
+    {
+      "id": 416,
+      "depth": {
+        "high_gradient": 0.2485523103059519,
+        "other_valid": 0.302636445392263
+      },
+      "normal": {
+        "high_gradient": 45.14019503118431,
+        "other_valid": 25.510157128069217
+      },
+      "geometry_disagreement_deg": 24.02026326559558
+    },
+    {
+      "id": 716,
+      "depth": {
+        "high_gradient": 0.1559784403326373,
+        "other_valid": 0.09648078536850105
+      },
+      "normal": {
+        "high_gradient": 54.30064086501374,
+        "other_valid": 31.33298545477878
+      },
+      "geometry_disagreement_deg": 24.249328753515808
+    },
+    {
+      "id": 170,
+      "depth": {
+        "high_gradient": 0.26090953565470715,
+        "other_valid": 0.12838550542911029
+      },
+      "normal": {
+        "high_gradient": 55.13479070245663,
+        "other_valid": 28.490402877524218
+      },
+      "geometry_disagreement_deg": 22.64681268190536
+    }
+  ],
+  "weighted_seed29": [
+    {
+      "id": 1241,
+      "depth": {
+        "high_gradient": 0.4351125484138487,
+        "other_valid": 0.27455852231636896
+      },
+      "normal": {
+        "high_gradient": 69.63197972749887,
+        "other_valid": 37.5392195572791
+      },
+      "geometry_disagreement_deg": 33.142380605736065
+    },
+    {
+      "id": 969,
+      "depth": {
+        "high_gradient": 0.13396147030394293,
+        "other_valid": 0.12007564455536739
+      },
+      "normal": {
+        "high_gradient": 54.529928969306035,
+        "other_valid": 33.02522160748018
+      },
+      "geometry_disagreement_deg": 25.564993643051732
+    },
+    {
+      "id": 1301,
+      "depth": {
+        "high_gradient": 0.18873585636678245,
+        "other_valid": 0.1683365739191637
+      },
+      "normal": {
+        "high_gradient": 47.01023059005314,
+        "other_valid": 33.557341642170655
+      },
+      "geometry_disagreement_deg": 30.50691660326487
+    },
+    {
+      "id": 294,
+      "depth": {
+        "high_gradient": 0.10922506508573167,
+        "other_valid": 0.13119620591849998
+      },
+      "normal": {
+        "high_gradient": 59.12228355103613,
+        "other_valid": 30.69363373641902
+      },
+      "geometry_disagreement_deg": 23.15661959550683
+    },
+    {
+      "id": 599,
+      "depth": {
+        "high_gradient": 0.12737227600938444,
+        "other_valid": 0.10411590343832278
+      },
+      "normal": {
+        "high_gradient": 48.714820042224446,
+        "other_valid": 29.046435755591286
+      },
+      "geometry_disagreement_deg": 26.593076992022354
+    },
+    {
+      "id": 654,
+      "depth": {
+        "high_gradient": 0.7477185943785903,
+        "other_valid": 0.7843914052515868
+      },
+      "normal": {
+        "high_gradient": 50.84889865167234,
+        "other_valid": 29.198661483519178
+      },
+      "geometry_disagreement_deg": 25.073788924761423
+    },
+    {
+      "id": 367,
+      "depth": {
+        "high_gradient": 0.09372987180838109,
+        "other_valid": 0.08401182411493513
+      },
+      "normal": {
+        "high_gradient": 55.24514079035286,
+        "other_valid": 33.272014391683136
+      },
+      "geometry_disagreement_deg": 29.057066494173075
+    },
+    {
+      "id": 407,
+      "depth": {
+        "high_gradient": 0.21318986679525137,
+        "other_valid": 0.24884285883898227
+      },
+      "normal": {
+        "high_gradient": 54.941377107338596,
+        "other_valid": 38.27868955185955
+      },
+      "geometry_disagreement_deg": 30.451097775317123
+    },
+    {
+      "id": 738,
+      "depth": {
+        "high_gradient": 0.2602637256528899,
+        "other_valid": 0.17559616134261238
+      },
+      "normal": {
+        "high_gradient": 50.27124365029112,
+        "other_valid": 29.554334525380686
+      },
+      "geometry_disagreement_deg": 25.63127136588855
+    },
+    {
+      "id": 368,
+      "depth": {
+        "high_gradient": 0.18717497221687682,
+        "other_valid": 0.2122947448808756
+      },
+      "normal": {
+        "high_gradient": 44.94867078889909,
+        "other_valid": 30.00463204054828
+      },
+      "geometry_disagreement_deg": 26.973330720591342
+    },
+    {
+      "id": 941,
+      "depth": {
+        "high_gradient": 0.20073278252288546,
+        "other_valid": 0.09307887733675446
+      },
+      "normal": {
+        "high_gradient": 52.3716010420195,
+        "other_valid": 27.344212796192146
+      },
+      "geometry_disagreement_deg": 22.917146061480416
+    },
+    {
+      "id": 826,
+      "depth": {
+        "high_gradient": 0.13115150688799168,
+        "other_valid": 0.10012567250688742
+      },
+      "normal": {
+        "high_gradient": 61.1830499929278,
+        "other_valid": 30.108927466748746
+      },
+      "geometry_disagreement_deg": 23.682099185830435
+    },
+    {
+      "id": 24,
+      "depth": {
+        "high_gradient": 0.06190343869719358,
+        "other_valid": 0.07586693320656641
+      },
+      "normal": {
+        "high_gradient": 67.6599840962648,
+        "other_valid": 35.86826367766452
+      },
+      "geometry_disagreement_deg": 30.771234135678085
+    },
+    {
+      "id": 546,
+      "depth": {
+        "high_gradient": 0.26734656233020054,
+        "other_valid": 0.3566855377077869
+      },
+      "normal": {
+        "high_gradient": 67.04801537566237,
+        "other_valid": 33.59741786934155
+      },
+      "geometry_disagreement_deg": 31.91799569522814
+    },
+    {
+      "id": 450,
+      "depth": {
+        "high_gradient": 0.1656064486069004,
+        "other_valid": 0.1702693988127418
+      },
+      "normal": {
+        "high_gradient": 41.29651442772307,
+        "other_valid": 26.735059718338256
+      },
+      "geometry_disagreement_deg": 25.726844456962837
+    },
+    {
+      "id": 114,
+      "depth": {
+        "high_gradient": 0.4918270498693418,
+        "other_valid": 0.4473367583194141
+      },
+      "normal": {
+        "high_gradient": 61.42246835861098,
+        "other_valid": 45.95302241116044
+      },
+      "geometry_disagreement_deg": 37.758144289757524
+    },
+    {
+      "id": 916,
+      "depth": {
+        "high_gradient": 0.14480783244868228,
+        "other_valid": 0.09928565580046
+      },
+      "normal": {
+        "high_gradient": 42.348593496877704,
+        "other_valid": 27.15288412046683
+      },
+      "geometry_disagreement_deg": 22.102773225246125
+    },
+    {
+      "id": 1185,
+      "depth": {
+        "high_gradient": 0.1355284759419362,
+        "other_valid": 0.16607555254751916
+      },
+      "normal": {
+        "high_gradient": 46.57664654611253,
+        "other_valid": 32.95943444909097
+      },
+      "geometry_disagreement_deg": 27.030429520341873
+    },
+    {
+      "id": 3,
+      "depth": {
+        "high_gradient": 0.16336302216350318,
+        "other_valid": 0.09669663192032509
+      },
+      "normal": {
+        "high_gradient": 47.32027944283039,
+        "other_valid": 24.522488589534674
+      },
+      "geometry_disagreement_deg": 25.164560165615615
+    },
+    {
+      "id": 1284,
+      "depth": {
+        "high_gradient": 0.2255395431559211,
+        "other_valid": 0.14683597767268894
+      },
+      "normal": {
+        "high_gradient": 59.87900310891467,
+        "other_valid": 30.876155695555124
+      },
+      "geometry_disagreement_deg": 24.72093356956977
+    },
+    {
+      "id": 146,
+      "depth": {
+        "high_gradient": 0.29929086098181484,
+        "other_valid": 0.32298572524360725
+      },
+      "normal": {
+        "high_gradient": 48.195575812235774,
+        "other_valid": 28.497234797406005
+      },
+      "geometry_disagreement_deg": 20.861955570720642
+    },
+    {
+      "id": 440,
+      "depth": {
+        "high_gradient": 0.10066709484581318,
+        "other_valid": 0.08674225840205725
+      },
+      "normal": {
+        "high_gradient": 50.72510827470952,
+        "other_valid": 31.80243262547258
+      },
+      "geometry_disagreement_deg": 25.534912472837735
+    },
+    {
+      "id": 159,
+      "depth": {
+        "high_gradient": 0.08816516281162261,
+        "other_valid": 0.11581021747380238
+      },
+      "normal": {
+        "high_gradient": 56.122778159063685,
+        "other_valid": 23.08759731991542
+      },
+      "geometry_disagreement_deg": 20.03079600157816
+    },
+    {
+      "id": 964,
+      "depth": {
+        "high_gradient": 0.1460009869822276,
+        "other_valid": 0.09958435781000946
+      },
+      "normal": {
+        "high_gradient": 48.05036875000366,
+        "other_valid": 29.220667548606308
+      },
+      "geometry_disagreement_deg": 25.728212189638626
+    },
+    {
+      "id": 179,
+      "depth": {
+        "high_gradient": 0.21060953350341483,
+        "other_valid": 0.2685602394225321
+      },
+      "normal": {
+        "high_gradient": 50.61756386869079,
+        "other_valid": 30.988687267051052
+      },
+      "geometry_disagreement_deg": 24.731627314845493
+    },
+    {
+      "id": 527,
+      "depth": {
+        "high_gradient": 0.15601043488030217,
+        "other_valid": 0.08709542595031046
+      },
+      "normal": {
+        "high_gradient": 59.90670265411935,
+        "other_valid": 33.09710766903176
+      },
+      "geometry_disagreement_deg": 26.69235716241944
+    },
+    {
+      "id": 49,
+      "depth": {
+        "high_gradient": 0.20725018502712683,
+        "other_valid": 0.19849552688891497
+      },
+      "normal": {
+        "high_gradient": 51.93525889565344,
+        "other_valid": 29.11074164576834
+      },
+      "geometry_disagreement_deg": 23.56244428125704
+    },
+    {
+      "id": 291,
+      "depth": {
+        "high_gradient": 0.16662119057320132,
+        "other_valid": 0.14971028055001154
+      },
+      "normal": {
+        "high_gradient": 69.4089573762262,
+        "other_valid": 38.312115066791804
+      },
+      "geometry_disagreement_deg": 33.01117264534231
+    },
+    {
+      "id": 165,
+      "depth": {
+        "high_gradient": 0.32384292097320005,
+        "other_valid": 0.4029407563741957
+      },
+      "normal": {
+        "high_gradient": 47.07577804562734,
+        "other_valid": 27.37125599313959
+      },
+      "geometry_disagreement_deg": 30.53563530789992
+    },
+    {
+      "id": 416,
+      "depth": {
+        "high_gradient": 0.24547675430039984,
+        "other_valid": 0.2851065565232474
+      },
+      "normal": {
+        "high_gradient": 42.76198767190815,
+        "other_valid": 27.42706379126502
+      },
+      "geometry_disagreement_deg": 25.895123107970797
+    },
+    {
+      "id": 716,
+      "depth": {
+        "high_gradient": 0.16141193558695954,
+        "other_valid": 0.1047893193109934
+      },
+      "normal": {
+        "high_gradient": 55.92121246872432,
+        "other_valid": 32.4017898644287
+      },
+      "geometry_disagreement_deg": 23.86060993544328
+    },
+    {
+      "id": 170,
+      "depth": {
+        "high_gradient": 0.2711255145949382,
+        "other_valid": 0.18812537206577887
+      },
+      "normal": {
+        "high_gradient": 59.517316777629986,
+        "other_valid": 30.311934677123983
+      },
+      "geometry_disagreement_deg": 23.576213853094114
+    }
+  ],
+  "weighted_seed43": [
+    {
+      "id": 1241,
+      "depth": {
+        "high_gradient": 0.4740806017231064,
+        "other_valid": 0.2963555529881383
+      },
+      "normal": {
+        "high_gradient": 72.83285907708255,
+        "other_valid": 36.77055346175801
+      },
+      "geometry_disagreement_deg": 26.807378273378074
+    },
+    {
+      "id": 969,
+      "depth": {
+        "high_gradient": 0.12837338795048137,
+        "other_valid": 0.11990932921809841
+      },
+      "normal": {
+        "high_gradient": 44.18953205215669,
+        "other_valid": 34.01941018553643
+      },
+      "geometry_disagreement_deg": 26.71789808120208
+    },
+    {
+      "id": 1301,
+      "depth": {
+        "high_gradient": 0.086062945425403,
+        "other_valid": 0.09436342888716955
+      },
+      "normal": {
+        "high_gradient": 46.714947559842756,
+        "other_valid": 31.557270856112453
+      },
+      "geometry_disagreement_deg": 24.533947505212268
+    },
+    {
+      "id": 294,
+      "depth": {
+        "high_gradient": 0.09372808679041468,
+        "other_valid": 0.07913833454246487
+      },
+      "normal": {
+        "high_gradient": 59.325819778877914,
+        "other_valid": 30.58192722939862
+      },
+      "geometry_disagreement_deg": 22.030144460259333
+    },
+    {
+      "id": 599,
+      "depth": {
+        "high_gradient": 0.08627800505600679,
+        "other_valid": 0.04961020519261327
+      },
+      "normal": {
+        "high_gradient": 49.01713852216576,
+        "other_valid": 29.280015179453255
+      },
+      "geometry_disagreement_deg": 23.337572248251192
+    },
+    {
+      "id": 654,
+      "depth": {
+        "high_gradient": 0.81281124061829,
+        "other_valid": 0.8910703533917116
+      },
+      "normal": {
+        "high_gradient": 53.97536626911639,
+        "other_valid": 29.51473299461214
+      },
+      "geometry_disagreement_deg": 21.53028105792622
+    },
+    {
+      "id": 367,
+      "depth": {
+        "high_gradient": 0.08993690425815154,
+        "other_valid": 0.07806173725037416
+      },
+      "normal": {
+        "high_gradient": 49.45059956726227,
+        "other_valid": 30.79386058626474
+      },
+      "geometry_disagreement_deg": 23.572993726490456
+    },
+    {
+      "id": 407,
+      "depth": {
+        "high_gradient": 0.20443831403219725,
+        "other_valid": 0.24369021499705937
+      },
+      "normal": {
+        "high_gradient": 49.68951570938789,
+        "other_valid": 36.829287402041
+      },
+      "geometry_disagreement_deg": 25.73004444332926
+    },
+    {
+      "id": 738,
+      "depth": {
+        "high_gradient": 0.29632455927760776,
+        "other_valid": 0.25154782604812037
+      },
+      "normal": {
+        "high_gradient": 46.83721228432037,
+        "other_valid": 27.045572923746086
+      },
+      "geometry_disagreement_deg": 25.355120287007868
+    },
+    {
+      "id": 368,
+      "depth": {
+        "high_gradient": 0.26059065580114565,
+        "other_valid": 0.26990385907858844
+      },
+      "normal": {
+        "high_gradient": 34.643114491525196,
+        "other_valid": 27.91914599707917
+      },
+      "geometry_disagreement_deg": 28.229962934542222
+    },
+    {
+      "id": 941,
+      "depth": {
+        "high_gradient": 0.19408467308104363,
+        "other_valid": 0.09037082432263749
+      },
+      "normal": {
+        "high_gradient": 56.62127152056379,
+        "other_valid": 27.61622484153542
+      },
+      "geometry_disagreement_deg": 22.011822100527088
+    },
+    {
+      "id": 826,
+      "depth": {
+        "high_gradient": 0.13060825931873912,
+        "other_valid": 0.09780547531012243
+      },
+      "normal": {
+        "high_gradient": 58.24347238100502,
+        "other_valid": 30.89628181914084
+      },
+      "geometry_disagreement_deg": 24.7784359244524
+    },
+    {
+      "id": 24,
+      "depth": {
+        "high_gradient": 0.10000500948262464,
+        "other_valid": 0.09692584500079945
+      },
+      "normal": {
+        "high_gradient": 62.105906719890875,
+        "other_valid": 36.00280360291984
+      },
+      "geometry_disagreement_deg": 27.49280849407787
+    },
+    {
+      "id": 546,
+      "depth": {
+        "high_gradient": 0.2983267947614795,
+        "other_valid": 0.4560398611663029
+      },
+      "normal": {
+        "high_gradient": 65.46837576306564,
+        "other_valid": 34.13981975958584
+      },
+      "geometry_disagreement_deg": 29.68776792854636
+    },
+    {
+      "id": 450,
+      "depth": {
+        "high_gradient": 0.11075705266399254,
+        "other_valid": 0.10617562443748774
+      },
+      "normal": {
+        "high_gradient": 39.57374879877998,
+        "other_valid": 26.894990665238762
+      },
+      "geometry_disagreement_deg": 23.73184011286553
+    },
+    {
+      "id": 114,
+      "depth": {
+        "high_gradient": 0.5135455644688108,
+        "other_valid": 0.47280676086003803
+      },
+      "normal": {
+        "high_gradient": 51.88455679410879,
+        "other_valid": 42.03461219930626
+      },
+      "geometry_disagreement_deg": 27.49233582316548
+    },
+    {
+      "id": 916,
+      "depth": {
+        "high_gradient": 0.1709670489167682,
+        "other_valid": 0.12558680097656016
+      },
+      "normal": {
+        "high_gradient": 41.2809648078324,
+        "other_valid": 27.49823767123327
+      },
+      "geometry_disagreement_deg": 22.759366718429746
+    },
+    {
+      "id": 1185,
+      "depth": {
+        "high_gradient": 0.14500815995519284,
+        "other_valid": 0.17594347243037614
+      },
+      "normal": {
+        "high_gradient": 45.47140597284325,
+        "other_valid": 31.53250437927862
+      },
+      "geometry_disagreement_deg": 25.006310315852662
+    },
+    {
+      "id": 3,
+      "depth": {
+        "high_gradient": 0.1856038246148934,
+        "other_valid": 0.11971710173143206
+      },
+      "normal": {
+        "high_gradient": 48.16109083787434,
+        "other_valid": 29.408990804372277
+      },
+      "geometry_disagreement_deg": 23.79230409016252
+    },
+    {
+      "id": 1284,
+      "depth": {
+        "high_gradient": 0.2432960389767806,
+        "other_valid": 0.15561064122701188
+      },
+      "normal": {
+        "high_gradient": 58.16836368332195,
+        "other_valid": 32.282205545792934
+      },
+      "geometry_disagreement_deg": 24.129825473402015
+    },
+    {
+      "id": 146,
+      "depth": {
+        "high_gradient": 0.32150032388062744,
+        "other_valid": 0.36047039921158563
+      },
+      "normal": {
+        "high_gradient": 51.281701771534486,
+        "other_valid": 27.824462045194473
+      },
+      "geometry_disagreement_deg": 21.712056154758038
+    },
+    {
+      "id": 440,
+      "depth": {
+        "high_gradient": 0.08129983839133491,
+        "other_valid": 0.07807132968576691
+      },
+      "normal": {
+        "high_gradient": 53.940320625062746,
+        "other_valid": 32.295721700312775
+      },
+      "geometry_disagreement_deg": 26.044342248040426
+    },
+    {
+      "id": 159,
+      "depth": {
+        "high_gradient": 0.21149364164910217,
+        "other_valid": 0.2693055739091338
+      },
+      "normal": {
+        "high_gradient": 59.18109083884028,
+        "other_valid": 29.376803767052436
+      },
+      "geometry_disagreement_deg": 18.806299874721624
+    },
+    {
+      "id": 964,
+      "depth": {
+        "high_gradient": 0.11277544290690002,
+        "other_valid": 0.0605596249171555
+      },
+      "normal": {
+        "high_gradient": 48.01672813861204,
+        "other_valid": 32.55311578309419
+      },
+      "geometry_disagreement_deg": 27.611652182367084
+    },
+    {
+      "id": 179,
+      "depth": {
+        "high_gradient": 0.11945745014911524,
+        "other_valid": 0.08456046906521827
+      },
+      "normal": {
+        "high_gradient": 46.791095036936944,
+        "other_valid": 30.79624334193454
+      },
+      "geometry_disagreement_deg": 22.55179232342332
+    },
+    {
+      "id": 527,
+      "depth": {
+        "high_gradient": 0.13876088566293873,
+        "other_valid": 0.0690855673285973
+      },
+      "normal": {
+        "high_gradient": 59.87894936528871,
+        "other_valid": 33.26561118541223
+      },
+      "geometry_disagreement_deg": 24.79812898508491
+    },
+    {
+      "id": 49,
+      "depth": {
+        "high_gradient": 0.17453253047108647,
+        "other_valid": 0.17887173756583616
+      },
+      "normal": {
+        "high_gradient": 49.309594898541135,
+        "other_valid": 28.93828411554143
+      },
+      "geometry_disagreement_deg": 21.755054168596093
+    },
+    {
+      "id": 291,
+      "depth": {
+        "high_gradient": 0.1255187020830404,
+        "other_valid": 0.09739406031057939
+      },
+      "normal": {
+        "high_gradient": 69.0446828437992,
+        "other_valid": 40.71842896250453
+      },
+      "geometry_disagreement_deg": 32.31516269761183
+    },
+    {
+      "id": 165,
+      "depth": {
+        "high_gradient": 0.13603435958681884,
+        "other_valid": 0.1845292545270335
+      },
+      "normal": {
+        "high_gradient": 43.86411863476843,
+        "other_valid": 27.334366835800274
+      },
+      "geometry_disagreement_deg": 24.143130047116923
+    },
+    {
+      "id": 416,
+      "depth": {
+        "high_gradient": 0.3305546379334835,
+        "other_valid": 0.4007144798529935
+      },
+      "normal": {
+        "high_gradient": 42.40275876781335,
+        "other_valid": 23.50222435804166
+      },
+      "geometry_disagreement_deg": 21.645190240860693
+    },
+    {
+      "id": 716,
+      "depth": {
+        "high_gradient": 0.13806356405099202,
+        "other_valid": 0.09013349118182913
+      },
+      "normal": {
+        "high_gradient": 52.296460849270446,
+        "other_valid": 31.40387018445249
+      },
+      "geometry_disagreement_deg": 24.640789251895068
+    },
+    {
+      "id": 170,
+      "depth": {
+        "high_gradient": 0.2850500040442233,
+        "other_valid": 0.20039410346382316
+      },
+      "normal": {
+        "high_gradient": 57.779653140138855,
+        "other_valid": 28.212514091776868
+      },
+      "geometry_disagreement_deg": 21.365259821675068
+    }
+  ],
+  "shuffled_seed17": [
+    {
+      "id": 1241,
+      "depth": {
+        "high_gradient": 0.44222342577883433,
+        "other_valid": 0.2799054033799169
+      },
+      "normal": {
+        "high_gradient": 64.31899297078097,
+        "other_valid": 39.80539185770784
+      },
+      "geometry_disagreement_deg": 28.032701351088367
+    },
+    {
+      "id": 969,
+      "depth": {
+        "high_gradient": 0.09685948177745364,
+        "other_valid": 0.08753976945842754
+      },
+      "normal": {
+        "high_gradient": 44.41426152899774,
+        "other_valid": 31.60842823288963
+      },
+      "geometry_disagreement_deg": 21.362368204006525
+    },
+    {
+      "id": 1301,
+      "depth": {
+        "high_gradient": 0.16842123974023487,
+        "other_valid": 0.13657297049027453
+      },
+      "normal": {
+        "high_gradient": 46.15326007002932,
+        "other_valid": 34.22696900344022
+      },
+      "geometry_disagreement_deg": 26.002946799776826
+    },
+    {
+      "id": 294,
+      "depth": {
+        "high_gradient": 0.1094240172013922,
+        "other_valid": 0.12281038918706841
+      },
+      "normal": {
+        "high_gradient": 58.9018903775893,
+        "other_valid": 29.75584638810826
+      },
+      "geometry_disagreement_deg": 22.657014079284316
+    },
+    {
+      "id": 599,
+      "depth": {
+        "high_gradient": 0.16186309648395694,
+        "other_valid": 0.1368392403733183
+      },
+      "normal": {
+        "high_gradient": 48.21984942303869,
+        "other_valid": 27.88237395693387
+      },
+      "geometry_disagreement_deg": 25.90132649430994
+    },
+    {
+      "id": 654,
+      "depth": {
+        "high_gradient": 0.5939995152443868,
+        "other_valid": 0.6690502488121602
+      },
+      "normal": {
+        "high_gradient": 56.07643347330474,
+        "other_valid": 28.600090431353475
+      },
+      "geometry_disagreement_deg": 22.444937861364966
+    },
+    {
+      "id": 367,
+      "depth": {
+        "high_gradient": 0.13159317982078642,
+        "other_valid": 0.09661655818745071
+      },
+      "normal": {
+        "high_gradient": 51.255059678383574,
+        "other_valid": 31.4530334986434
+      },
+      "geometry_disagreement_deg": 24.27776480736515
+    },
+    {
+      "id": 407,
+      "depth": {
+        "high_gradient": 0.15091168848049857,
+        "other_valid": 0.12384261793386508
+      },
+      "normal": {
+        "high_gradient": 52.70375558890656,
+        "other_valid": 36.92786962226483
+      },
+      "geometry_disagreement_deg": 30.11577861912462
+    },
+    {
+      "id": 738,
+      "depth": {
+        "high_gradient": 0.2841038566880667,
+        "other_valid": 0.2473442389431265
+      },
+      "normal": {
+        "high_gradient": 50.72311735016188,
+        "other_valid": 31.466155648928574
+      },
+      "geometry_disagreement_deg": 24.8328050357102
+    },
+    {
+      "id": 368,
+      "depth": {
+        "high_gradient": 0.2134707868238234,
+        "other_valid": 0.22650376521388213
+      },
+      "normal": {
+        "high_gradient": 36.20111071112712,
+        "other_valid": 27.081318949453664
+      },
+      "geometry_disagreement_deg": 25.482717155612324
+    },
+    {
+      "id": 941,
+      "depth": {
+        "high_gradient": 0.19688121548665607,
+        "other_valid": 0.08651001059280931
+      },
+      "normal": {
+        "high_gradient": 55.164840871371005,
+        "other_valid": 28.503857100963796
+      },
+      "geometry_disagreement_deg": 22.605104050888446
+    },
+    {
+      "id": 826,
+      "depth": {
+        "high_gradient": 0.15079654935041228,
+        "other_valid": 0.1074332981005034
+      },
+      "normal": {
+        "high_gradient": 59.4109206721829,
+        "other_valid": 29.255476580328224
+      },
+      "geometry_disagreement_deg": 24.661045413586173
+    },
+    {
+      "id": 24,
+      "depth": {
+        "high_gradient": 0.11021280591956557,
+        "other_valid": 0.10675470377460719
+      },
+      "normal": {
+        "high_gradient": 64.79132781439417,
+        "other_valid": 34.00136420086165
+      },
+      "geometry_disagreement_deg": 27.483822662111567
+    },
+    {
+      "id": 546,
+      "depth": {
+        "high_gradient": 0.25460179184057796,
+        "other_valid": 0.35039040074653666
+      },
+      "normal": {
+        "high_gradient": 63.941544876145166,
+        "other_valid": 31.3154789931572
+      },
+      "geometry_disagreement_deg": 26.282346962142984
+    },
+    {
+      "id": 450,
+      "depth": {
+        "high_gradient": 0.14878557662190883,
+        "other_valid": 0.14993667628792234
+      },
+      "normal": {
+        "high_gradient": 39.80767058172177,
+        "other_valid": 25.93877162463749
+      },
+      "geometry_disagreement_deg": 21.97657280688706
+    },
+    {
+      "id": 114,
+      "depth": {
+        "high_gradient": 0.4629418775238484,
+        "other_valid": 0.42633839791869393
+      },
+      "normal": {
+        "high_gradient": 55.38516190212831,
+        "other_valid": 43.68400292640946
+      },
+      "geometry_disagreement_deg": 31.591652747964098
+    },
+    {
+      "id": 916,
+      "depth": {
+        "high_gradient": 0.13641613138902794,
+        "other_valid": 0.09256805293692451
+      },
+      "normal": {
+        "high_gradient": 39.77346270213015,
+        "other_valid": 25.314862302267848
+      },
+      "geometry_disagreement_deg": 22.29029270934851
+    },
+    {
+      "id": 1185,
+      "depth": {
+        "high_gradient": 0.1298090963368194,
+        "other_valid": 0.15218229172274736
+      },
+      "normal": {
+        "high_gradient": 45.232958691705555,
+        "other_valid": 31.96683448862368
+      },
+      "geometry_disagreement_deg": 23.04880208315289
+    },
+    {
+      "id": 3,
+      "depth": {
+        "high_gradient": 0.16010697722387146,
+        "other_valid": 0.14668453624352207
+      },
+      "normal": {
+        "high_gradient": 41.50155580806989,
+        "other_valid": 24.52042896360238
+      },
+      "geometry_disagreement_deg": 21.059973253078542
+    },
+    {
+      "id": 1284,
+      "depth": {
+        "high_gradient": 0.19448415900552077,
+        "other_valid": 0.12008374402946946
+      },
+      "normal": {
+        "high_gradient": 54.97528936133665,
+        "other_valid": 31.447686458663846
+      },
+      "geometry_disagreement_deg": 24.198648776003683
+    },
+    {
+      "id": 146,
+      "depth": {
+        "high_gradient": 0.274043869211876,
+        "other_valid": 0.3060110679010852
+      },
+      "normal": {
+        "high_gradient": 51.31540124314468,
+        "other_valid": 27.862292352228955
+      },
+      "geometry_disagreement_deg": 19.624819553006326
+    },
+    {
+      "id": 440,
+      "depth": {
+        "high_gradient": 0.09379032908896874,
+        "other_valid": 0.08389687298038656
+      },
+      "normal": {
+        "high_gradient": 50.80061674405737,
+        "other_valid": 31.46325360125891
+      },
+      "geometry_disagreement_deg": 24.208232483494417
+    },
+    {
+      "id": 159,
+      "depth": {
+        "high_gradient": 0.1556158502974183,
+        "other_valid": 0.20319351730999494
+      },
+      "normal": {
+        "high_gradient": 58.47587419238679,
+        "other_valid": 29.062337914807813
+      },
+      "geometry_disagreement_deg": 20.987987847151423
+    },
+    {
+      "id": 964,
+      "depth": {
+        "high_gradient": 0.11389664633623438,
+        "other_valid": 0.05411341186408553
+      },
+      "normal": {
+        "high_gradient": 45.83870159971535,
+        "other_valid": 30.00840193404738
+      },
+      "geometry_disagreement_deg": 23.604602977514133
+    },
+    {
+      "id": 179,
+      "depth": {
+        "high_gradient": 0.11761467692931131,
+        "other_valid": 0.11664009329634185
+      },
+      "normal": {
+        "high_gradient": 41.92662373532688,
+        "other_valid": 29.548244849217813
+      },
+      "geometry_disagreement_deg": 23.46545542445259
+    },
+    {
+      "id": 527,
+      "depth": {
+        "high_gradient": 0.20941939305728716,
+        "other_valid": 0.16581882009408763
+      },
+      "normal": {
+        "high_gradient": 55.21131772827141,
+        "other_valid": 34.56648138493047
+      },
+      "geometry_disagreement_deg": 27.571239068965525
+    },
+    {
+      "id": 49,
+      "depth": {
+        "high_gradient": 0.22234516819109285,
+        "other_valid": 0.20349846268183044
+      },
+      "normal": {
+        "high_gradient": 54.2439777381248,
+        "other_valid": 28.713407624587905
+      },
+      "geometry_disagreement_deg": 22.29072325923674
+    },
+    {
+      "id": 291,
+      "depth": {
+        "high_gradient": 0.1520863943479456,
+        "other_valid": 0.18740838354142808
+      },
+      "normal": {
+        "high_gradient": 69.32843871991894,
+        "other_valid": 37.37008208182079
+      },
+      "geometry_disagreement_deg": 27.88874734470085
+    },
+    {
+      "id": 165,
+      "depth": {
+        "high_gradient": 0.19746429678487637,
+        "other_valid": 0.2971451789670379
+      },
+      "normal": {
+        "high_gradient": 49.6808695585887,
+        "other_valid": 25.27976949607313
+      },
+      "geometry_disagreement_deg": 26.688176831379295
+    },
+    {
+      "id": 416,
+      "depth": {
+        "high_gradient": 0.2780495799586145,
+        "other_valid": 0.3295880385829751
+      },
+      "normal": {
+        "high_gradient": 45.55698881351374,
+        "other_valid": 25.789293954966862
+      },
+      "geometry_disagreement_deg": 23.598797119273996
+    },
+    {
+      "id": 716,
+      "depth": {
+        "high_gradient": 0.15125254918575876,
+        "other_valid": 0.09486054572163133
+      },
+      "normal": {
+        "high_gradient": 54.84752357170756,
+        "other_valid": 31.845824557023036
+      },
+      "geometry_disagreement_deg": 23.523808870478213
+    },
+    {
+      "id": 170,
+      "depth": {
+        "high_gradient": 0.2584818408676998,
+        "other_valid": 0.13436551014947157
+      },
+      "normal": {
+        "high_gradient": 54.944445515541915,
+        "other_valid": 29.108224112810444
+      },
+      "geometry_disagreement_deg": 22.4662579255415
+    }
+  ],
+  "shuffled_seed29": [
+    {
+      "id": 1241,
+      "depth": {
+        "high_gradient": 0.439768447478577,
+        "other_valid": 0.27405084857149464
+      },
+      "normal": {
+        "high_gradient": 70.12166130055067,
+        "other_valid": 39.138383994692006
+      },
+      "geometry_disagreement_deg": 31.674192325376435
+    },
+    {
+      "id": 969,
+      "depth": {
+        "high_gradient": 0.12095369390838344,
+        "other_valid": 0.10674286590353839
+      },
+      "normal": {
+        "high_gradient": 54.56697841886644,
+        "other_valid": 32.93228502155174
+      },
+      "geometry_disagreement_deg": 25.155155644621157
+    },
+    {
+      "id": 1301,
+      "depth": {
+        "high_gradient": 0.19499251338007254,
+        "other_valid": 0.16988128082143708
+      },
+      "normal": {
+        "high_gradient": 47.250928433280606,
+        "other_valid": 35.00728755578126
+      },
+      "geometry_disagreement_deg": 30.924653108070515
+    },
+    {
+      "id": 294,
+      "depth": {
+        "high_gradient": 0.10845514165934393,
+        "other_valid": 0.12259515216138067
+      },
+      "normal": {
+        "high_gradient": 59.195931466868096,
+        "other_valid": 30.815845891196087
+      },
+      "geometry_disagreement_deg": 22.492617212326678
+    },
+    {
+      "id": 599,
+      "depth": {
+        "high_gradient": 0.14760946425567698,
+        "other_valid": 0.11521743527980895
+      },
+      "normal": {
+        "high_gradient": 49.24678979627475,
+        "other_valid": 29.359217058790286
+      },
+      "geometry_disagreement_deg": 27.381795470069164
+    },
+    {
+      "id": 654,
+      "depth": {
+        "high_gradient": 0.8490428257221749,
+        "other_valid": 0.8690157280171774
+      },
+      "normal": {
+        "high_gradient": 50.836592488834995,
+        "other_valid": 28.944428440484426
+      },
+      "geometry_disagreement_deg": 24.369989831106917
+    },
+    {
+      "id": 367,
+      "depth": {
+        "high_gradient": 0.08572983364463725,
+        "other_valid": 0.07419363104994553
+      },
+      "normal": {
+        "high_gradient": 56.181339213083675,
+        "other_valid": 33.52502474303031
+      },
+      "geometry_disagreement_deg": 28.073002539838058
+    },
+    {
+      "id": 407,
+      "depth": {
+        "high_gradient": 0.22373721721150142,
+        "other_valid": 0.25856039963630373
+      },
+      "normal": {
+        "high_gradient": 56.65705271542044,
+        "other_valid": 39.0860368763473
+      },
+      "geometry_disagreement_deg": 31.05914401681637
+    },
+    {
+      "id": 738,
+      "depth": {
+        "high_gradient": 0.30542693314203045,
+        "other_valid": 0.2511729193737786
+      },
+      "normal": {
+        "high_gradient": 50.86344227547469,
+        "other_valid": 29.496523955269055
+      },
+      "geometry_disagreement_deg": 25.22043868082743
+    },
+    {
+      "id": 368,
+      "depth": {
+        "high_gradient": 0.23434677392538464,
+        "other_valid": 0.25107518133811313
+      },
+      "normal": {
+        "high_gradient": 43.9579573115495,
+        "other_valid": 29.778476895433734
+      },
+      "geometry_disagreement_deg": 26.609809882930975
+    },
+    {
+      "id": 941,
+      "depth": {
+        "high_gradient": 0.20357181713690017,
+        "other_valid": 0.09368717677751733
+      },
+      "normal": {
+        "high_gradient": 52.59889740047051,
+        "other_valid": 27.670542483025287
+      },
+      "geometry_disagreement_deg": 24.01871577405121
+    },
+    {
+      "id": 826,
+      "depth": {
+        "high_gradient": 0.1283088872271025,
+        "other_valid": 0.10148397421931556
+      },
+      "normal": {
+        "high_gradient": 60.65401823646968,
+        "other_valid": 31.247700592566144
+      },
+      "geometry_disagreement_deg": 23.484223797164205
+    },
+    {
+      "id": 24,
+      "depth": {
+        "high_gradient": 0.05801050015811902,
+        "other_valid": 0.07358826829597355
+      },
+      "normal": {
+        "high_gradient": 67.01954568597478,
+        "other_valid": 35.68445269536357
+      },
+      "geometry_disagreement_deg": 28.90807263786313
+    },
+    {
+      "id": 546,
+      "depth": {
+        "high_gradient": 0.27302533271298,
+        "other_valid": 0.38213778881856214
+      },
+      "normal": {
+        "high_gradient": 66.48019171025175,
+        "other_valid": 33.28025740213301
+      },
+      "geometry_disagreement_deg": 30.4301799684882
+    },
+    {
+      "id": 450,
+      "depth": {
+        "high_gradient": 0.18357569198419546,
+        "other_valid": 0.17955584084560094
+      },
+      "normal": {
+        "high_gradient": 41.49656514225521,
+        "other_valid": 26.520205851698034
+      },
+      "geometry_disagreement_deg": 24.67777800854554
+    },
+    {
+      "id": 114,
+      "depth": {
+        "high_gradient": 0.4963616514063432,
+        "other_valid": 0.4526781812630992
+      },
+      "normal": {
+        "high_gradient": 61.900268540074535,
+        "other_valid": 46.881226920427366
+      },
+      "geometry_disagreement_deg": 38.90140244595256
+    },
+    {
+      "id": 916,
+      "depth": {
+        "high_gradient": 0.16735787564864676,
+        "other_valid": 0.11711807847391188
+      },
+      "normal": {
+        "high_gradient": 44.17879644298069,
+        "other_valid": 27.568709739801275
+      },
+      "geometry_disagreement_deg": 21.39214119053515
+    },
+    {
+      "id": 1185,
+      "depth": {
+        "high_gradient": 0.1490419927819448,
+        "other_valid": 0.18591095553780498
+      },
+      "normal": {
+        "high_gradient": 46.97421346751145,
+        "other_valid": 32.758853924301995
+      },
+      "geometry_disagreement_deg": 26.61659258802882
+    },
+    {
+      "id": 3,
+      "depth": {
+        "high_gradient": 0.17278900226496938,
+        "other_valid": 0.13267358183780126
+      },
+      "normal": {
+        "high_gradient": 49.33945121028215,
+        "other_valid": 24.60904361297135
+      },
+      "geometry_disagreement_deg": 24.76980579593255
+    },
+    {
+      "id": 1284,
+      "depth": {
+        "high_gradient": 0.20801959373554715,
+        "other_valid": 0.13214851877624664
+      },
+      "normal": {
+        "high_gradient": 60.002266872783395,
+        "other_valid": 30.812584126593503
+      },
+      "geometry_disagreement_deg": 24.748527198449334
+    },
+    {
+      "id": 146,
+      "depth": {
+        "high_gradient": 0.2380097443931227,
+        "other_valid": 0.2533825330524097
+      },
+      "normal": {
+        "high_gradient": 48.09112186217653,
+        "other_valid": 28.871956505132804
+      },
+      "geometry_disagreement_deg": 20.668712215046114
+    },
+    {
+      "id": 440,
+      "depth": {
+        "high_gradient": 0.10159703781269058,
+        "other_valid": 0.0763563359802231
+      },
+      "normal": {
+        "high_gradient": 52.02854876066903,
+        "other_valid": 31.493184330401956
+      },
+      "geometry_disagreement_deg": 25.75276956366159
+    },
+    {
+      "id": 159,
+      "depth": {
+        "high_gradient": 0.10033397311564342,
+        "other_valid": 0.10516595842244182
+      },
+      "normal": {
+        "high_gradient": 55.72180886660158,
+        "other_valid": 22.692421104391556
+      },
+      "geometry_disagreement_deg": 20.46761591806075
+    },
+    {
+      "id": 964,
+      "depth": {
+        "high_gradient": 0.15024991420348985,
+        "other_valid": 0.10064675726234086
+      },
+      "normal": {
+        "high_gradient": 47.93906260748831,
+        "other_valid": 29.33802462360856
+      },
+      "geometry_disagreement_deg": 25.587236115627874
+    },
+    {
+      "id": 179,
+      "depth": {
+        "high_gradient": 0.2305849670937577,
+        "other_valid": 0.2858970016199108
+      },
+      "normal": {
+        "high_gradient": 48.61254310549405,
+        "other_valid": 29.403313414172285
+      },
+      "geometry_disagreement_deg": 25.5181541216485
+    },
+    {
+      "id": 527,
+      "depth": {
+        "high_gradient": 0.14108260174890092,
+        "other_valid": 0.09143747367779925
+      },
+      "normal": {
+        "high_gradient": 60.32380376431168,
+        "other_valid": 33.905327264430035
+      },
+      "geometry_disagreement_deg": 26.810916567934665
+    },
+    {
+      "id": 49,
+      "depth": {
+        "high_gradient": 0.2596380889422054,
+        "other_valid": 0.24519651508538567
+      },
+      "normal": {
+        "high_gradient": 51.72079912167081,
+        "other_valid": 29.079669922171778
+      },
+      "geometry_disagreement_deg": 22.820942586588142
+    },
+    {
+      "id": 291,
+      "depth": {
+        "high_gradient": 0.17860021237589363,
+        "other_valid": 0.1723423558842945
+      },
+      "normal": {
+        "high_gradient": 69.34625417550139,
+        "other_valid": 37.86491019512295
+      },
+      "geometry_disagreement_deg": 31.711150317696486
+    },
+    {
+      "id": 165,
+      "depth": {
+        "high_gradient": 0.24990065221778615,
+        "other_valid": 0.3601643018955
+      },
+      "normal": {
+        "high_gradient": 48.23580925570747,
+        "other_valid": 26.936571892017174
+      },
+      "geometry_disagreement_deg": 29.750961982178527
+    },
+    {
+      "id": 416,
+      "depth": {
+        "high_gradient": 0.31765449961310455,
+        "other_valid": 0.3692314116113094
+      },
+      "normal": {
+        "high_gradient": 43.277087520756,
+        "other_valid": 28.836069234632348
+      },
+      "geometry_disagreement_deg": 25.973185300940006
+    },
+    {
+      "id": 716,
+      "depth": {
+        "high_gradient": 0.15312080948787374,
+        "other_valid": 0.09834142545345623
+      },
+      "normal": {
+        "high_gradient": 55.62383780536182,
+        "other_valid": 32.265042427557866
+      },
+      "geometry_disagreement_deg": 22.771392794347893
+    },
+    {
+      "id": 170,
+      "depth": {
+        "high_gradient": 0.2817833469096733,
+        "other_valid": 0.21176843987235322
+      },
+      "normal": {
+        "high_gradient": 60.13998525916749,
+        "other_valid": 30.694441974955474
+      },
+      "geometry_disagreement_deg": 22.42004711290704
+    }
+  ],
+  "shuffled_seed43": [
+    {
+      "id": 1241,
+      "depth": {
+        "high_gradient": 0.4894457807747945,
+        "other_valid": 0.3127703814221875
+      },
+      "normal": {
+        "high_gradient": 77.41879069513688,
+        "other_valid": 37.01573520683113
+      },
+      "geometry_disagreement_deg": 26.600553113353588
+    },
+    {
+      "id": 969,
+      "depth": {
+        "high_gradient": 0.12440294796469617,
+        "other_valid": 0.1227271969342161
+      },
+      "normal": {
+        "high_gradient": 44.88524377218754,
+        "other_valid": 34.207025296886236
+      },
+      "geometry_disagreement_deg": 27.135130924185034
+    },
+    {
+      "id": 1301,
+      "depth": {
+        "high_gradient": 0.07971899356525204,
+        "other_valid": 0.08058558912492025
+      },
+      "normal": {
+        "high_gradient": 46.65131516094956,
+        "other_valid": 31.190853666675324
+      },
+      "geometry_disagreement_deg": 23.917194211670623
+    },
+    {
+      "id": 294,
+      "depth": {
+        "high_gradient": 0.09151910789983439,
+        "other_valid": 0.09409382511050735
+      },
+      "normal": {
+        "high_gradient": 59.5806538741128,
+        "other_valid": 30.490858381402873
+      },
+      "geometry_disagreement_deg": 22.07128632794152
+    },
+    {
+      "id": 599,
+      "depth": {
+        "high_gradient": 0.08207282114828275,
+        "other_valid": 0.047969816715282255
+      },
+      "normal": {
+        "high_gradient": 48.821657060548034,
+        "other_valid": 29.429770543741565
+      },
+      "geometry_disagreement_deg": 23.79622390945328
+    },
+    {
+      "id": 654,
+      "depth": {
+        "high_gradient": 0.9192151601472371,
+        "other_valid": 0.9572259860294443
+      },
+      "normal": {
+        "high_gradient": 61.643061782572964,
+        "other_valid": 29.637681303618834
+      },
+      "geometry_disagreement_deg": 20.62681582806354
+    },
+    {
+      "id": 367,
+      "depth": {
+        "high_gradient": 0.11004191369634266,
+        "other_valid": 0.09173611562543486
+      },
+      "normal": {
+        "high_gradient": 49.05116426684365,
+        "other_valid": 31.091005773433643
+      },
+      "geometry_disagreement_deg": 24.02711719956847
+    },
+    {
+      "id": 407,
+      "depth": {
+        "high_gradient": 0.23911842119473992,
+        "other_valid": 0.2751962448730702
+      },
+      "normal": {
+        "high_gradient": 49.03436481345769,
+        "other_valid": 36.3538437672451
+      },
+      "geometry_disagreement_deg": 25.927598354313222
+    },
+    {
+      "id": 738,
+      "depth": {
+        "high_gradient": 0.2853105535881569,
+        "other_valid": 0.2349424395693485
+      },
+      "normal": {
+        "high_gradient": 47.05105670825713,
+        "other_valid": 26.951758578125144
+      },
+      "geometry_disagreement_deg": 24.78085596813999
+    },
+    {
+      "id": 368,
+      "depth": {
+        "high_gradient": 0.2726446500953256,
+        "other_valid": 0.2739702574005486
+      },
+      "normal": {
+        "high_gradient": 34.43153498409531,
+        "other_valid": 27.336477197869954
+      },
+      "geometry_disagreement_deg": 27.39050375808897
+    },
+    {
+      "id": 941,
+      "depth": {
+        "high_gradient": 0.174705373209731,
+        "other_valid": 0.0808430221816552
+      },
+      "normal": {
+        "high_gradient": 55.11495252117116,
+        "other_valid": 27.00944329592558
+      },
+      "geometry_disagreement_deg": 21.534913561300126
+    },
+    {
+      "id": 826,
+      "depth": {
+        "high_gradient": 0.10608403452031595,
+        "other_valid": 0.09171837513807936
+      },
+      "normal": {
+        "high_gradient": 58.31201875015689,
+        "other_valid": 30.640616259652365
+      },
+      "geometry_disagreement_deg": 24.9664480936578
+    },
+    {
+      "id": 24,
+      "depth": {
+        "high_gradient": 0.08374487785881675,
+        "other_valid": 0.09397402562169893
+      },
+      "normal": {
+        "high_gradient": 62.72420216624555,
+        "other_valid": 35.07509390136899
+      },
+      "geometry_disagreement_deg": 26.296486915518205
+    },
+    {
+      "id": 546,
+      "depth": {
+        "high_gradient": 0.3011912979606515,
+        "other_valid": 0.4394646522564333
+      },
+      "normal": {
+        "high_gradient": 65.77297565196872,
+        "other_valid": 34.45320874353329
+      },
+      "geometry_disagreement_deg": 29.324804620762713
+    },
+    {
+      "id": 450,
+      "depth": {
+        "high_gradient": 0.15723696489349254,
+        "other_valid": 0.14147460747246543
+      },
+      "normal": {
+        "high_gradient": 39.8157110702502,
+        "other_valid": 26.84776273553774
+      },
+      "geometry_disagreement_deg": 23.51705708540798
+    },
+    {
+      "id": 114,
+      "depth": {
+        "high_gradient": 0.5140676860830962,
+        "other_valid": 0.4756456145045442
+      },
+      "normal": {
+        "high_gradient": 51.813674494527895,
+        "other_valid": 42.40276414030422
+      },
+      "geometry_disagreement_deg": 28.078953438564536
+    },
+    {
+      "id": 916,
+      "depth": {
+        "high_gradient": 0.15204734570127743,
+        "other_valid": 0.10893562596659749
+      },
+      "normal": {
+        "high_gradient": 41.3679844100901,
+        "other_valid": 27.393829566503275
+      },
+      "geometry_disagreement_deg": 22.626168494949496
+    },
+    {
+      "id": 1185,
+      "depth": {
+        "high_gradient": 0.14000506073079494,
+        "other_valid": 0.16657066640038537
+      },
+      "normal": {
+        "high_gradient": 45.369058120988676,
+        "other_valid": 31.514649556194815
+      },
+      "geometry_disagreement_deg": 24.49592911979151
+    },
+    {
+      "id": 3,
+      "depth": {
+        "high_gradient": 0.14322222344944702,
+        "other_valid": 0.08123625134386715
+      },
+      "normal": {
+        "high_gradient": 49.065471144868994,
+        "other_valid": 28.422707204486372
+      },
+      "geometry_disagreement_deg": 22.797732706198566
+    },
+    {
+      "id": 1284,
+      "depth": {
+        "high_gradient": 0.2397540935189663,
+        "other_valid": 0.1588010143362062
+      },
+      "normal": {
+        "high_gradient": 57.78691726462229,
+        "other_valid": 32.36938901325612
+      },
+      "geometry_disagreement_deg": 23.29553203899848
+    },
+    {
+      "id": 146,
+      "depth": {
+        "high_gradient": 0.29385453396227745,
+        "other_valid": 0.32722474835670357
+      },
+      "normal": {
+        "high_gradient": 49.93700364722616,
+        "other_valid": 28.37201978843487
+      },
+      "geometry_disagreement_deg": 22.29102173962693
+    },
+    {
+      "id": 440,
+      "depth": {
+        "high_gradient": 0.07923725024147182,
+        "other_valid": 0.07430441342343631
+      },
+      "normal": {
+        "high_gradient": 53.78678162370616,
+        "other_valid": 32.01645025852278
+      },
+      "geometry_disagreement_deg": 25.931140118204976
+    },
+    {
+      "id": 159,
+      "depth": {
+        "high_gradient": 0.20295973865512584,
+        "other_valid": 0.2577667373286453
+      },
+      "normal": {
+        "high_gradient": 59.566190566436156,
+        "other_valid": 29.937697547829504
+      },
+      "geometry_disagreement_deg": 19.207105813959675
+    },
+    {
+      "id": 964,
+      "depth": {
+        "high_gradient": 0.13947951245314513,
+        "other_valid": 0.08624994770270397
+      },
+      "normal": {
+        "high_gradient": 47.98020433854323,
+        "other_valid": 32.48024954097101
+      },
+      "geometry_disagreement_deg": 28.246402995611053
+    },
+    {
+      "id": 179,
+      "depth": {
+        "high_gradient": 0.09885323963583771,
+        "other_valid": 0.08286432009505214
+      },
+      "normal": {
+        "high_gradient": 46.43606979827487,
+        "other_valid": 30.423370514575563
+      },
+      "geometry_disagreement_deg": 22.154416175403476
+    },
+    {
+      "id": 527,
+      "depth": {
+        "high_gradient": 0.11628949282562236,
+        "other_valid": 0.05858756679398941
+      },
+      "normal": {
+        "high_gradient": 59.86820428650615,
+        "other_valid": 32.71791683568505
+      },
+      "geometry_disagreement_deg": 24.635305575427363
+    },
+    {
+      "id": 49,
+      "depth": {
+        "high_gradient": 0.25327237040251166,
+        "other_valid": 0.2383408043007962
+      },
+      "normal": {
+        "high_gradient": 47.901838067507555,
+        "other_valid": 29.117862189088406
+      },
+      "geometry_disagreement_deg": 22.4093459843417
+    },
+    {
+      "id": 291,
+      "depth": {
+        "high_gradient": 0.1204302809486838,
+        "other_valid": 0.09358189521383557
+      },
+      "normal": {
+        "high_gradient": 69.93719915846205,
+        "other_valid": 39.94404923849542
+      },
+      "geometry_disagreement_deg": 31.744161756059547
+    },
+    {
+      "id": 165,
+      "depth": {
+        "high_gradient": 0.14084245461152214,
+        "other_valid": 0.21421936804691258
+      },
+      "normal": {
+        "high_gradient": 43.8119101112019,
+        "other_valid": 27.908169447037142
+      },
+      "geometry_disagreement_deg": 25.96240175849099
+    },
+    {
+      "id": 416,
+      "depth": {
+        "high_gradient": 0.4021615690603913,
+        "other_valid": 0.4706049553240054
+      },
+      "normal": {
+        "high_gradient": 43.043204877485444,
+        "other_valid": 24.373289452112548
+      },
+      "geometry_disagreement_deg": 22.081772331646512
+    },
+    {
+      "id": 716,
+      "depth": {
+        "high_gradient": 0.14199704869188884,
+        "other_valid": 0.10385446662341473
+      },
+      "normal": {
+        "high_gradient": 51.91520748000655,
+        "other_valid": 31.43101253763207
+      },
+      "geometry_disagreement_deg": 24.01309992691567
+    },
+    {
+      "id": 170,
+      "depth": {
+        "high_gradient": 0.30082824570717176,
+        "other_valid": 0.25031652033855634
+      },
+      "normal": {
+        "high_gradient": 57.56162824700644,
+        "other_valid": 28.0522255273656
+      },
+      "geometry_disagreement_deg": 21.193187436886245
+    }
+  ]
+}

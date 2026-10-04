@@ -1,0 +1,7 @@
+{
+  "regional_sha256": "7c053b1885d9dda8bc4663f665d7a4d73182b69c72a933c89024ea0c33c179ac",
+  "gradients_sha256": "b594b90eeca0a5f89f564068bf8fdb8a71da75d76aede67bb1806a37c415c0d2",
+  "figure_sha256": "f5b5c9dd43522634893fbc0fdbb1ac70072401dbad3aa5f05cee31d545a6d1f9",
+  "script_sha256": "e9f4e44310c87d6b1e92e243695f9ae24cd4daf6b1e6f68d7cafef9f37d79d7d",
+  "scope": "Descriptive plot of already completed fixed diagnostics. BF16 primary probes include one numerically flagged probe with separate FP32 reference."
+}

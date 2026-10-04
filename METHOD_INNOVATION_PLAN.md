@@ -2,7 +2,7 @@
 
 Updated: 2 October 2026.
 
-**Status: proposed research direction. The weighting method below has not been implemented, trained or evaluated. This document is not a frozen experimental protocol.** The completed [V7 experiment](results/metric_multitask_v7/RESULTS.html), its labels and its results remain unchanged.
+**Status update: the candidate weighting component is now implemented and has completed its initial synthetic/training-label audit and GPU gradient checks. It has not been trained or evaluated for adapted-model accuracy.** See the [executable design](reliability_v8/EXPERIMENT_PLAN.md) and [V8 component evidence](results/reliability_v8/RESULTS.html). The design below records the initial proposal; this document is not a frozen experimental protocol. The completed [V7 experiment](results/metric_multitask_v7/RESULTS.html), its labels and its results remain unchanged.
 
 The next question is whether the reliability of depth-derived normal labels can guide geometric regularization and reduce negative transfer during parameter-efficient depth and normal adaptation. This is motivated by measured failures, but neither the cause of those failures nor the proposed remedy has been established.
 

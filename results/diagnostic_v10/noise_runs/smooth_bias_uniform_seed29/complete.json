@@ -1,0 +1,10 @@
+{
+  "training_sha256": "4941e3222ef6a9c9d759aa36404427ee49dddf38af47dbfbcaab554825e2a898",
+  "evaluation_sha256": "99f3be09934b3796bead8e92694a3cd3d53494027bc3b4c03e0eb81ca379b902",
+  "checkpoint_sha256": "d618b4e6f2a41d0084eb9f40c8261e0e43279e1fe9ffa783e7eeaf22c8c6b061",
+  "exact_restored_tasks": [
+    "depth",
+    "normal"
+  ],
+  "protocol_sha256": "931bb2f4eff69601b509d9d991331b4df869c082a9e2dd0dfcf248f1a1471c5b"
+}

@@ -1,0 +1,10 @@
+{
+  "checks": "source hashes, finite gradient result, zero updates, local report links",
+  "files": {
+    "results\\generative_ris_v11\\preflight.json": "132567aeefc505e6666926092367caaf25530dc49552b37d8a3b8a0ca88ee25b",
+    "generative_ris_v11\\PROTOCOL.html": "392290a23afda0204458a371765a2d9b3ce757067493ad755ff947895b7e9083",
+    "generative_ris_v11\\preflight.py": "4c6cbdc2bea940b9f9d37a9cedff2336c5257e358a22fde84ad565fdc7c2a418"
+  },
+  "ris_accuracy_verified": false,
+  "selector_gain_verified": false
+}

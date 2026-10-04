@@ -1,0 +1,101 @@
+{
+  "version": "reliability_v8_component_v1",
+  "created_utc": "2026-10-02T07:30:25.996124+00:00",
+  "status": "frozen before component outcomes; engineering gate, not a confirmatory clinical/statistical trial",
+  "dimensions": [
+    480,
+    640
+  ],
+  "sigmas_fullres_pixels": [
+    1.0,
+    2.0,
+    4.0
+  ],
+  "gaussian_truncate": 2.0,
+  "temperature_deg": 10.0,
+  "proxy": "mean of all three pairwise angular differences; exp(-disagreement_deg/10)",
+  "surface_families": [
+    "plane",
+    "crease",
+    "step",
+    "curved"
+  ],
+  "corruptions": [
+    "clean",
+    "iid_noise",
+    "heterogeneous_noise",
+    "outliers",
+    "holes",
+    "smooth_bias"
+  ],
+  "development_seeds": [
+    11,
+    23,
+    37,
+    53
+  ],
+  "heldout_seeds": [
+    101,
+    103,
+    107,
+    109
+  ],
+  "cases": 192,
+  "corruption_parameters": {
+    "iid_noise": "Gaussian std=1% camera-z",
+    "heterogeneous_noise": "std=.2% in left half,1.5% in right half",
+    "outliers": "1% locations, random signed15% camera-z",
+    "holes": "8 random 9-25px rectangles, nearest-valid fill, exclude raw missing support",
+    "smooth_bias": "multiplicative1+.08*ray_x+.12*ray_y^2; intentional stable-but-wrong counterexample"
+  },
+  "truth": "analytic normals of the clean pinhole-parametrized surfaces; exact crease/step line excluded by the existing jump/erosion mask as applicable",
+  "mask": "V7 erosion3 and jump threshold >.1m AND >5% local depth, dilated2; also 10px outer border",
+  "boundary_band": "12px either side of centre for crease/step, no band for other surfaces; report separately",
+  "metrics": [
+    "mean normal target error",
+    "weight-normalized target error",
+    "spatially shuffled weighted error",
+    "Spearman sensitivity/error",
+    "AUROC error>10deg",
+    "top20/50/80% stable coverage error",
+    "effective pixel fraction",
+    "mean weight"
+  ],
+  "interpretation": "Weighted errors characterize selection of supervision, NOT improved model predictions. Use cases/seeds as units, never pixels as independent trials.",
+  "gate": {
+    "heldout_noise_scope": [
+      "iid_noise",
+      "heterogeneous_noise",
+      "outliers",
+      "holes"
+    ],
+    "overall_weighted_error_relative_reduction_at_least": 0.1,
+    "weighted_vs_shuffled_relative_reduction_at_least": 0.05,
+    "families_with_nonpositive_weighted_minus_uniform_at_least": 3,
+    "median_synthetic_effective_fraction_at_least": 0.25,
+    "max_clean_family_weighted_minus_uniform_deg": 1.0,
+    "real_train_fraction_with_effective_fraction_ge_0_25_at_least": 0.9,
+    "meaning": "predeclared engineering screen. Passing permits further pilot work; it does not demonstrate normal/depth model benefit."
+  },
+  "real_data": "all128 frozen V7 training scenes only; no validation/test image loading; target consistency and weight distribution, no truth claim",
+  "training_next": "stable single-task learning curves and weighted-loss gradient/profile smoke before a separately frozen 7-condition x3-seed ablation",
+  "stop": "retain failures; no post-outcome temperature/scale tuning or full training under this version",
+  "source_sha256": {
+    "reliability_v8/__init__.py": "602fa6ab9c4cf82f004a49ac5c9f819295b378532ad4149abd57b877a94a4950",
+    "reliability_v8/core.py": "1541cc5a1c8ec0afbd984b6c9247beb430e0911a7d49ee4cb87df19ee34be8ea",
+    "reliability_v8/gpu_check.py": "6543a706f73a42a1880b22b47fa3a2c3e9e5fbe569d53570a9f697f9f6d1e2dc",
+    "reliability_v8/study.py": "2c829157942e7ee2db799cc5f535fcf6c99099a26e8b1df16dbad3be08288041",
+    "reliability_v8/test_core.py": "4bf3b6fc2d2d9dc2246d88c391871109fa9fd40a9efa6b2f3ad5951e5c0c82c5"
+  },
+  "v7_source_sha256": {
+    "multitask_v7/__init__.py": "290fccf4051772a1b2b9e1078ba9af8a6f48e8ea1f151e7437e0120e26ed15fe",
+    "multitask_v7/common.py": "b4b79f129b265da7dd08eb7c002c1095991268affadbc9050faa9f352e9477b1",
+    "multitask_v7/engine.py": "5f5bd366102cee0e75f44834ce5c9461e06a600f09e8f35405a96b6c48ab8bf6",
+    "multitask_v7/prepare.py": "1c7095a4068abac967093d8e5c4b90b0418bff04df784528b644d92e9fc16650",
+    "multitask_v7/run.py": "2b465fc1d89c2e4cb1a4ce1366373b727ab16e21939d0bc3bdcd86ed38a6e460",
+    "multitask_v7/smoke.py": "4a61e893acb19c899185f83f1ff8fdee3e6359c47f48a42a68663d69c5b89c24",
+    "multitask_v7/test_geometry.py": "67f3b022a0e9509b33d049dba3368ca369022d72611ea61f89f1af53c0aae450"
+  },
+  "manifest_sha256": "2a496e8734a5ba88f9d3a71d6f081c8d47a9543e76ca5398be5b838a0ed03534",
+  "camera_sha256": "837013bf3cd280f1211e1bda9a4654ef4954f97ff6dd8620dfe85f112bfc1b7f"
+}

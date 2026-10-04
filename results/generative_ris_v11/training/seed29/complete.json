@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "updates": 3000,
+  "final_predictions_audited": 128,
+  "restored_first_prediction_exact": true,
+  "final_mean_iou": 0.20831844472776967,
+  "protocol_sha256": "897c7f07da42838dfb45b6f6dbbdbaa17f3575a47fb098cc813c060df8feccd9"
+}

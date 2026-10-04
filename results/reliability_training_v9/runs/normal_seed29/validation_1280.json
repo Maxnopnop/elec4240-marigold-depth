@@ -1,0 +1,514 @@
+[
+  {
+    "id": 1241,
+    "scene": "living_room_0039",
+    "seconds_all_requested_tasks": 0.1144965000000866,
+    "tasks": {
+      "normal": {
+        "mean_deg": 38.581228712586544,
+        "median_deg": 35.20939855792359,
+        "within_11_25": 0.09235279306499766,
+        "within_22_5": 0.2786950109708284,
+        "within_30": 0.41138807956548323,
+        "valid_pixels": 111204,
+        "prediction_sha256": "1ed6cbf380d5e8cd0d86a9952eef0e0426ed1e67335ec522a623ef80b8702c64"
+      }
+    }
+  },
+  {
+    "id": 969,
+    "scene": "bedroom_0047",
+    "seconds_all_requested_tasks": 0.08436860000006163,
+    "tasks": {
+      "normal": {
+        "mean_deg": 35.3066703093308,
+        "median_deg": 33.69146815168105,
+        "within_11_25": 0.12143918500916402,
+        "within_22_5": 0.2727640654721639,
+        "within_30": 0.4242855243150111,
+        "valid_pixels": 172959,
+        "prediction_sha256": "f0228b1840e9282569451a1224e79916e00862b60a4285f61da37fd40ad75ff6"
+      }
+    }
+  },
+  {
+    "id": 1301,
+    "scene": "living_room_0058",
+    "seconds_all_requested_tasks": 0.07749629999989338,
+    "tasks": {
+      "normal": {
+        "mean_deg": 34.04245118106611,
+        "median_deg": 31.041242499917534,
+        "within_11_25": 0.07529252824795676,
+        "within_22_5": 0.294945513822518,
+        "within_30": 0.47594457594569245,
+        "valid_pixels": 179128,
+        "prediction_sha256": "4a205d60827dbb2287a00ed7aabe2b5916e34886f8a970674189bbb88edab08b"
+      }
+    }
+  },
+  {
+    "id": 294,
+    "scene": "classroom_0006",
+    "seconds_all_requested_tasks": 0.07980489999999918,
+    "tasks": {
+      "normal": {
+        "mean_deg": 33.82147801632283,
+        "median_deg": 28.53279801429115,
+        "within_11_25": 0.12707342295760082,
+        "within_22_5": 0.3817461958930418,
+        "within_30": 0.5245028807800266,
+        "valid_pixels": 169225,
+        "prediction_sha256": "2190334e25a3ca9d11c9f3355cb78e14ce05edb6aa7c8bc747272c3d74589592"
+      }
+    }
+  },
+  {
+    "id": 599,
+    "scene": "living_room_0086",
+    "seconds_all_requested_tasks": 0.07920769999986987,
+    "tasks": {
+      "normal": {
+        "mean_deg": 31.4693121284714,
+        "median_deg": 26.531633409229762,
+        "within_11_25": 0.10923811163395693,
+        "within_22_5": 0.39415719805654387,
+        "within_30": 0.5783886147136462,
+        "valid_pixels": 209112,
+        "prediction_sha256": "052ec1b54d18878fcc951d62db45788b1962634136bf3bbb2d40299c44d7ae98"
+      }
+    }
+  },
+  {
+    "id": 654,
+    "scene": "bathroom_0011",
+    "seconds_all_requested_tasks": 0.08144189999984519,
+    "tasks": {
+      "normal": {
+        "mean_deg": 32.332921689050416,
+        "median_deg": 28.976415845105752,
+        "within_11_25": 0.12688262811719603,
+        "within_22_5": 0.35820055573141996,
+        "within_30": 0.5210791037951532,
+        "valid_pixels": 142155,
+        "prediction_sha256": "79a86f64d55607e52c1f73a56a966e0ad5c3373cfe1fc3c0fe55c5ee38e4550f"
+      }
+    }
+  },
+  {
+    "id": 367,
+    "scene": "home_office_0004",
+    "seconds_all_requested_tasks": 0.08302839999987555,
+    "tasks": {
+      "normal": {
+        "mean_deg": 34.66122202805329,
+        "median_deg": 31.308743509759235,
+        "within_11_25": 0.12473831775700935,
+        "within_22_5": 0.3604158878504673,
+        "within_30": 0.4808551401869159,
+        "valid_pixels": 214000,
+        "prediction_sha256": "95cfe16afd94f2a4c72c85ddc6adc955e1762efcbdf70ab82d29210b220c318f"
+      }
+    }
+  },
+  {
+    "id": 407,
+    "scene": "laundry_room_0001",
+    "seconds_all_requested_tasks": 0.07898550000004434,
+    "tasks": {
+      "normal": {
+        "mean_deg": 38.80286145935291,
+        "median_deg": 38.43283072467442,
+        "within_11_25": 0.09030115618383171,
+        "within_22_5": 0.22246256493061373,
+        "within_30": 0.3335973718017071,
+        "valid_pixels": 196941,
+        "prediction_sha256": "2b87e639684711fc1ba77aec9d983bc4893a8375ec968a0f42d07dc2dde30b13"
+      }
+    }
+  },
+  {
+    "id": 738,
+    "scene": "bathroom_0049",
+    "seconds_all_requested_tasks": 0.08880739999995058,
+    "tasks": {
+      "normal": {
+        "mean_deg": 30.11994425739025,
+        "median_deg": 25.88289370728284,
+        "within_11_25": 0.13234776677691587,
+        "within_22_5": 0.42779579176433014,
+        "within_30": 0.5770436251238273,
+        "valid_pixels": 184733,
+        "prediction_sha256": "5f8ac956e81b1bfd5ec3be0305448a54c0ce8d3fb6b855627b5e8b9a3885a1d2"
+      }
+    }
+  },
+  {
+    "id": 368,
+    "scene": "home_office_0005",
+    "seconds_all_requested_tasks": 0.08376229999998941,
+    "tasks": {
+      "normal": {
+        "mean_deg": 28.74270953739104,
+        "median_deg": 25.98292690123493,
+        "within_11_25": 0.16239269536137962,
+        "within_22_5": 0.4157928385253023,
+        "within_30": 0.5892178987688995,
+        "valid_pixels": 183007,
+        "prediction_sha256": "1d3abd97361450fbe22a02ee159dd9dc0470ff6699695044263b2fef65b0aa80"
+      }
+    }
+  },
+  {
+    "id": 941,
+    "scene": "bedroom_0035",
+    "seconds_all_requested_tasks": 0.0826787000000877,
+    "tasks": {
+      "normal": {
+        "mean_deg": 29.34019594513815,
+        "median_deg": 23.968060668973376,
+        "within_11_25": 0.19086942021429007,
+        "within_22_5": 0.47005246865737543,
+        "within_30": 0.6157246264485248,
+        "valid_pixels": 212889,
+        "prediction_sha256": "9a08d6261b771a9ee21075c5c6738adbd66cff10cec68650a058d17fd6ed5ee7"
+      }
+    }
+  },
+  {
+    "id": 826,
+    "scene": "kitchen_0035",
+    "seconds_all_requested_tasks": 0.0792514999998275,
+    "tasks": {
+      "normal": {
+        "mean_deg": 35.07414023052803,
+        "median_deg": 31.51084997193692,
+        "within_11_25": 0.07676927154760121,
+        "within_22_5": 0.3014532170145091,
+        "within_30": 0.4684348818180771,
+        "valid_pixels": 173546,
+        "prediction_sha256": "78e522b4bad071069c9eea81d90177c28680b632afaa2856b8f15fe04ae9c0c4"
+      }
+    }
+  },
+  {
+    "id": 24,
+    "scene": "office_0011",
+    "seconds_all_requested_tasks": 0.08843580000007023,
+    "tasks": {
+      "normal": {
+        "mean_deg": 40.199238857326115,
+        "median_deg": 36.827977411615194,
+        "within_11_25": 0.08501688291979664,
+        "within_22_5": 0.25404526140071326,
+        "within_30": 0.3850017072615525,
+        "valid_pixels": 210864,
+        "prediction_sha256": "7b76cef467e8a36468d4d89a8fa7550949417ec336eb9dded4de80691e9030ac"
+      }
+    }
+  },
+  {
+    "id": 546,
+    "scene": "dining_room_0037",
+    "seconds_all_requested_tasks": 0.08987279999996645,
+    "tasks": {
+      "normal": {
+        "mean_deg": 35.537756928640256,
+        "median_deg": 31.184810046315093,
+        "within_11_25": 0.08785314032220407,
+        "within_22_5": 0.3493987858977352,
+        "within_30": 0.4826523464861079,
+        "valid_pixels": 171320,
+        "prediction_sha256": "93d565e83e1880700afc6c9f6bfaf21032832455be66f36f688302f15e093bdb"
+      }
+    }
+  },
+  {
+    "id": 450,
+    "scene": "printer_room_0001",
+    "seconds_all_requested_tasks": 0.07826309999995829,
+    "tasks": {
+      "normal": {
+        "mean_deg": 27.666590510201928,
+        "median_deg": 24.26711981076074,
+        "within_11_25": 0.13884096922239944,
+        "within_22_5": 0.44953710377152317,
+        "within_30": 0.638136511375948,
+        "valid_pixels": 215059,
+        "prediction_sha256": "4ce2843050267fe28205d2626c936c834a191bc83aeffd97874658aedb10ef0d"
+      }
+    }
+  },
+  {
+    "id": 114,
+    "scene": "bookstore_0002",
+    "seconds_all_requested_tasks": 0.0782745999999861,
+    "tasks": {
+      "normal": {
+        "mean_deg": 46.02174778977843,
+        "median_deg": 44.63161187188932,
+        "within_11_25": 0.01813080278906745,
+        "within_22_5": 0.08167716917111004,
+        "within_30": 0.17644207464857004,
+        "valid_pixels": 107276,
+        "prediction_sha256": "b495a5f55d2ec7fcf2ba471dac512f65305fc67460854bca9b6aa02d59b68dec"
+      }
+    }
+  },
+  {
+    "id": 916,
+    "scene": "bedroom_0026",
+    "seconds_all_requested_tasks": 0.0874589999998534,
+    "tasks": {
+      "normal": {
+        "mean_deg": 27.97007962675727,
+        "median_deg": 24.051595828517044,
+        "within_11_25": 0.18746798781907414,
+        "within_22_5": 0.4672195267319172,
+        "within_30": 0.6144941842597853,
+        "valid_pixels": 214762,
+        "prediction_sha256": "88e39a98dadd875fb8e82dcb7af329b867bf66a5d989129953ab7ae8c437e0fe"
+      }
+    }
+  },
+  {
+    "id": 1185,
+    "scene": "bedroom_0124",
+    "seconds_all_requested_tasks": 0.08364920000008169,
+    "tasks": {
+      "normal": {
+        "mean_deg": 32.95288177218278,
+        "median_deg": 28.975348397594797,
+        "within_11_25": 0.1066492877413868,
+        "within_22_5": 0.364791036911728,
+        "within_30": 0.5192693456095103,
+        "valid_pixels": 216354,
+        "prediction_sha256": "a1f03f704cfbbe1daf25675c3be2fbb04e365466a84dd20a9180abdfd4678851"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "scene": "office_0003",
+    "seconds_all_requested_tasks": 0.0800720000002002,
+    "tasks": {
+      "normal": {
+        "mean_deg": 26.40922884431508,
+        "median_deg": 24.492583540702505,
+        "within_11_25": 0.21360250550194684,
+        "within_22_5": 0.4551520794537554,
+        "within_30": 0.6210428305400373,
+        "valid_pixels": 212652,
+        "prediction_sha256": "d17b6a7df1b5c1e0457297522a2caf8b915c2f7388e7e2e2f4562bf3fe664de8"
+      }
+    }
+  },
+  {
+    "id": 1284,
+    "scene": "living_room_0050",
+    "seconds_all_requested_tasks": 0.07851709999999912,
+    "tasks": {
+      "normal": {
+        "mean_deg": 34.72592665084294,
+        "median_deg": 30.42729183834293,
+        "within_11_25": 0.11306463141875533,
+        "within_22_5": 0.33845604002859186,
+        "within_30": 0.4925407549171067,
+        "valid_pixels": 173476,
+        "prediction_sha256": "46fbbc93ba35e56a65611666c81be734d82b9767695dd8a58fd60c43913f853b"
+      }
+    }
+  },
+  {
+    "id": 146,
+    "scene": "living_room_0004",
+    "seconds_all_requested_tasks": 0.07857120000016948,
+    "tasks": {
+      "normal": {
+        "mean_deg": 27.93758185783051,
+        "median_deg": 24.718175810698853,
+        "within_11_25": 0.14542057435424577,
+        "within_22_5": 0.446513715831746,
+        "within_30": 0.6118377152008542,
+        "valid_pixels": 164846,
+        "prediction_sha256": "42cfbf7268978c054a372c7a5063aa389f04329f78a5f0a3b4de184750d90235"
+      }
+    }
+  },
+  {
+    "id": 440,
+    "scene": "playroom_0006",
+    "seconds_all_requested_tasks": 0.0783289999999397,
+    "tasks": {
+      "normal": {
+        "mean_deg": 33.947938850718664,
+        "median_deg": 31.671331020591023,
+        "within_11_25": 0.0695846234267562,
+        "within_22_5": 0.2682707386706341,
+        "within_30": 0.4565774659214283,
+        "valid_pixels": 198952,
+        "prediction_sha256": "519cb272a0a90bc5e2708197ad36ed4b82b73c13c404b120be43922dec753128"
+      }
+    }
+  },
+  {
+    "id": 159,
+    "scene": "living_room_0010",
+    "seconds_all_requested_tasks": 0.07924160000015945,
+    "tasks": {
+      "normal": {
+        "mean_deg": 25.96057690215396,
+        "median_deg": 23.222508154194795,
+        "within_11_25": 0.2625037570593167,
+        "within_22_5": 0.48665650722673653,
+        "within_30": 0.627320808044589,
+        "valid_pixels": 189643,
+        "prediction_sha256": "a9292bc8582476ff4853e1e3c685ad0efab3fc292121155c764d93afc31890f2"
+      }
+    }
+  },
+  {
+    "id": 964,
+    "scene": "bedroom_0045",
+    "seconds_all_requested_tasks": 0.0805768000000171,
+    "tasks": {
+      "normal": {
+        "mean_deg": 30.370841278484416,
+        "median_deg": 27.43595787688049,
+        "within_11_25": 0.13173565210382074,
+        "within_22_5": 0.39016907141705626,
+        "within_30": 0.5544343462840561,
+        "valid_pixels": 198496,
+        "prediction_sha256": "d584238724294dab629be3af38621cd97fce08676275e0556a5aaa80067899c7"
+      }
+    }
+  },
+  {
+    "id": 179,
+    "scene": "bedroom_0004",
+    "seconds_all_requested_tasks": 0.07916809999983343,
+    "tasks": {
+      "normal": {
+        "mean_deg": 32.5962624448529,
+        "median_deg": 31.364760774048456,
+        "within_11_25": 0.13303124165303817,
+        "within_22_5": 0.3174586810745966,
+        "within_30": 0.46959011438559334,
+        "valid_pixels": 213401,
+        "prediction_sha256": "6b1a83301a691c38b9f30d52a4202adcf8d86f953fd88c911f980b1650da365e"
+      }
+    }
+  },
+  {
+    "id": 527,
+    "scene": "bedroom_0136",
+    "seconds_all_requested_tasks": 0.08430429999998523,
+    "tasks": {
+      "normal": {
+        "mean_deg": 36.88748844469828,
+        "median_deg": 35.772641539938796,
+        "within_11_25": 0.12407849263329089,
+        "within_22_5": 0.28061972373503385,
+        "within_30": 0.39822492804485293,
+        "valid_pixels": 186922,
+        "prediction_sha256": "b41026214108eab5df9572bed4c5dee025ed2bc9ecd22c9ccc79ab660301507d"
+      }
+    }
+  },
+  {
+    "id": 49,
+    "scene": "bathroom_0006",
+    "seconds_all_requested_tasks": 0.07915329999991627,
+    "tasks": {
+      "normal": {
+        "mean_deg": 30.2911668207948,
+        "median_deg": 28.015509223916844,
+        "within_11_25": 0.1381682095188755,
+        "within_22_5": 0.37110935391075545,
+        "within_30": 0.5454675592032612,
+        "valid_pixels": 146698,
+        "prediction_sha256": "5e6194c06fe9d779ed34cde55fe895c0fab00ace14963d43c4963b43cc8a7fde"
+      }
+    }
+  },
+  {
+    "id": 291,
+    "scene": "classroom_0005",
+    "seconds_all_requested_tasks": 0.08018950000018776,
+    "tasks": {
+      "normal": {
+        "mean_deg": 40.58155343617514,
+        "median_deg": 37.7042022351334,
+        "within_11_25": 0.07562297570572858,
+        "within_22_5": 0.2854755002164728,
+        "within_30": 0.40272700867535116,
+        "valid_pixels": 182471,
+        "prediction_sha256": "f6b71619e84baf23a4164623922dbbc9b5f7a8ab8ddb834c24f4480203f6729d"
+      }
+    }
+  },
+  {
+    "id": 165,
+    "scene": "living_room_0012",
+    "seconds_all_requested_tasks": 0.08161580000000868,
+    "tasks": {
+      "normal": {
+        "mean_deg": 28.839983938322707,
+        "median_deg": 24.861236547067058,
+        "within_11_25": 0.18221233220874308,
+        "within_22_5": 0.4508123369942335,
+        "within_30": 0.5972914124374895,
+        "valid_pixels": 208965,
+        "prediction_sha256": "1364392dc6f447343e99176b32519ed416187ede376d6eb9f5ee4f5eba72bf5e"
+      }
+    }
+  },
+  {
+    "id": 416,
+    "scene": "office_kitchen_0003",
+    "seconds_all_requested_tasks": 0.08562689999985196,
+    "tasks": {
+      "normal": {
+        "mean_deg": 27.643614336639075,
+        "median_deg": 23.530176150666342,
+        "within_11_25": 0.16652471672269953,
+        "within_22_5": 0.4754576017930519,
+        "within_30": 0.62665670526709,
+        "valid_pixels": 200775,
+        "prediction_sha256": "74c01aa5bedaff48b37953340537c5976745d620e89a0c3dee352538eb850e60"
+      }
+    }
+  },
+  {
+    "id": 716,
+    "scene": "bathroom_0039",
+    "seconds_all_requested_tasks": 0.08170620000009876,
+    "tasks": {
+      "normal": {
+        "mean_deg": 33.42337757286665,
+        "median_deg": 29.22304574348809,
+        "within_11_25": 0.12025058860501898,
+        "within_22_5": 0.35328665708412543,
+        "within_30": 0.5160353008454275,
+        "valid_pixels": 194103,
+        "prediction_sha256": "e07052c608d5ddcfff8ed7daab3992d7d80c76a14be37552a5afc68eb11d4610"
+      }
+    }
+  },
+  {
+    "id": 170,
+    "scene": "bathroom_0001",
+    "seconds_all_requested_tasks": 0.07729979999999159,
+    "tasks": {
+      "normal": {
+        "mean_deg": 30.90970389908634,
+        "median_deg": 27.43869056617125,
+        "within_11_25": 0.14401230176994853,
+        "within_22_5": 0.38774634921963264,
+        "within_30": 0.5580045190175321,
+        "valid_pixels": 191192,
+        "prediction_sha256": "16a95b36110d7b09294ca5b402701a10e63779d74912d1207683b465c0e78d64"
+      }
+    }
+  }
+]

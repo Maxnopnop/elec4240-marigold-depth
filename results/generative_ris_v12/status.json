@@ -1,0 +1,4 @@
+{
+  "stage": "failed_no_shutdown",
+  "error": "Traceback (most recent call last):\n  File \"E:\\Codex\\2026-09-27\\yo\\outputs\\marigold-depth\\generative_ris_v12\\run.py\", line 80, in main\n    if result.returncode:raise RuntimeError('Windows declined shutdown; no alternate bypass attempted')\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Windows declined shutdown; no alternate bypass attempted\n"
+}

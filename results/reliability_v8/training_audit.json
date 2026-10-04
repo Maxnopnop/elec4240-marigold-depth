@@ -1,0 +1,3079 @@
+{
+  "protocol_sha256": "3474436a130f79724acec25d1c43e009d842fda6bfa27921540bd98dde719eec",
+  "scope": "128 training scenes only; no normal-truth accuracy claims; no validation or test images accessed",
+  "seconds": 37.84141580000869,
+  "records": [
+    {
+      "id": 614,
+      "scene": "office_0021",
+      "source_sha256": "2f1090fe5949d4d57eff5cb0515b13920c5055a4c053267b20ba4f3ffb6043a9",
+      "derived_sha256": "3d34985361921aa02d50df18d2fe9672789f5c3929650c2788f710c42dfcb37a",
+      "weight_sha256": "af2d5bcc1b1a848fbec5a3812e9a913a19d87d522a1a18cec90a0538c89aeb80",
+      "full_valid_pixels": 157678,
+      "native_valid_pixels": 23469,
+      "sensitivity_mean_deg": 12.574254989624023,
+      "fullres": {
+        "mean_weight": 0.4286026135210658,
+        "min_weight": 5.061053525423631e-05,
+        "effective_fraction": 0.745146482418668,
+        "fraction_below_0_1": 0.1477187686297391
+      },
+      "native": {
+        "mean_weight": 0.44387671876933965,
+        "min_weight": 0.00022890161199029535,
+        "effective_fraction": 0.800922074899156,
+        "fraction_below_0_1": 0.09582853977587456
+      },
+      "high_depth_gradient_mean_weight": 0.49133679270744324,
+      "other_mean_weight": 0.4216320216655731
+    },
+    {
+      "id": 888,
+      "scene": "kitchen_0051",
+      "source_sha256": "ed0a3b39fb6e8455210996af729a30d6e7f9bb5122f29c712d8a5d742fa77d86",
+      "derived_sha256": "27773aa829d0fd8e56ad3f1c9e54fd5be2e7a0feb51fb6c02b18ed47336e22ee",
+      "weight_sha256": "7e37ccfb91960985553888afad75b7c92e591b8bf8ee1914e1e33e81aa51a2d2",
+      "full_valid_pixels": 114884,
+      "native_valid_pixels": 16312,
+      "sensitivity_mean_deg": 19.186079025268555,
+      "fullres": {
+        "mean_weight": 0.27463737452395465,
+        "min_weight": 2.6899544536718167e-05,
+        "effective_fraction": 0.6055531333384659,
+        "fraction_below_0_1": 0.28522683750565786
+      },
+      "native": {
+        "mean_weight": 0.28995789373501346,
+        "min_weight": 4.849750257562846e-05,
+        "effective_fraction": 0.6940542223217633,
+        "fraction_below_0_1": 0.17992888670917115
+      },
+      "high_depth_gradient_mean_weight": 0.27069756388664246,
+      "other_mean_weight": 0.27507516741752625
+    },
+    {
+      "id": 377,
+      "scene": "home_office_0007",
+      "source_sha256": "6111ae093eb78ae9e5d359104cea07f5ad23d3a16d302af821f31843d01885f0",
+      "derived_sha256": "54161b98aa7a88ffcec111380c33c687d3e3aa434913d218404a6f1af61d88d4",
+      "weight_sha256": "f66a5836a1cb237e772bcf218a45eb1985c994a0b0057578fd535ae3f1b3f936",
+      "full_valid_pixels": 196319,
+      "native_valid_pixels": 29495,
+      "sensitivity_mean_deg": 14.511116981506348,
+      "fullres": {
+        "mean_weight": 0.3476901920846163,
+        "min_weight": 2.5291576093877666e-05,
+        "effective_fraction": 0.718374225640944,
+        "fraction_below_0_1": 0.15875692113346135
+      },
+      "native": {
+        "mean_weight": 0.3577414184772995,
+        "min_weight": 4.185657235211693e-05,
+        "effective_fraction": 0.791161550453792,
+        "fraction_below_0_1": 0.09838955755212749
+      },
+      "high_depth_gradient_mean_weight": 0.36795032024383545,
+      "other_mean_weight": 0.34543904662132263
+    },
+    {
+      "id": 260,
+      "scene": "living_room_0020",
+      "source_sha256": "6c19d499c0917f896fe546d45f6c2790459880ca4a837186db110cfc025a0ef6",
+      "derived_sha256": "36e85a79e042e8c544355d4e6996b4d386037d8077d194d8c1bd6e19a0c643d1",
+      "weight_sha256": "55f406d14aab224756dde69742c11623da8eed0f8574f7d8d3f036465008ced5",
+      "full_valid_pixels": 178900,
+      "native_valid_pixels": 26801,
+      "sensitivity_mean_deg": 16.247406005859375,
+      "fullres": {
+        "mean_weight": 0.3141054653574902,
+        "min_weight": 1.4601629118260462e-05,
+        "effective_fraction": 0.6713654934384381,
+        "fraction_below_0_1": 0.20402459474566798
+      },
+      "native": {
+        "mean_weight": 0.3187041122001369,
+        "min_weight": 4.345068373368122e-05,
+        "effective_fraction": 0.7459922380461644,
+        "fraction_below_0_1": 0.12678631394350956
+      },
+      "high_depth_gradient_mean_weight": 0.36334025859832764,
+      "other_mean_weight": 0.3086349368095398
+    },
+    {
+      "id": 1213,
+      "scene": "living_room_0029",
+      "source_sha256": "ed8b6b6647a11b65c129654b79a354229caaa94f36e34661735bec453ea7fcfb",
+      "derived_sha256": "2498551a95e99fe71a10abb19e2b1278798aeb756048dd40b0156bef50f79214",
+      "weight_sha256": "a7566462cb0a0e145f1be5411b7ea1a8578ad941bc4b32782bbc7b4c63ee39a2",
+      "full_valid_pixels": 170370,
+      "native_valid_pixels": 25694,
+      "sensitivity_mean_deg": 16.002195358276367,
+      "fullres": {
+        "mean_weight": 0.3048305863002023,
+        "min_weight": 3.224477404728532e-05,
+        "effective_fraction": 0.6596634396972793,
+        "fraction_below_0_1": 0.2057874038856606
+      },
+      "native": {
+        "mean_weight": 0.3124805831881554,
+        "min_weight": 0.0001781485480023548,
+        "effective_fraction": 0.7301644178846303,
+        "fraction_below_0_1": 0.12030045925118704
+      },
+      "high_depth_gradient_mean_weight": 0.2800515294075012,
+      "other_mean_weight": 0.3075838088989258
+    },
+    {
+      "id": 702,
+      "scene": "bathroom_0034",
+      "source_sha256": "d1551051ae7904190f7bacc0b860ac8478c68fd2610fc3c0aabf6f18ca077295",
+      "derived_sha256": "86b2078a75689e07dee9195bf016b878efecd6702451c98c975db8612ddab99b",
+      "weight_sha256": "c50830bc99f2267364587ca7ad468b1b1cdf9ac7a7a4b7c20cd1b395cc54eba5",
+      "full_valid_pixels": 172426,
+      "native_valid_pixels": 26573,
+      "sensitivity_mean_deg": 11.898785591125488,
+      "fullres": {
+        "mean_weight": 0.38917063647796757,
+        "min_weight": 6.47788037895225e-05,
+        "effective_fraction": 0.7683776295435891,
+        "fraction_below_0_1": 0.08337489705728834
+      },
+      "native": {
+        "mean_weight": 0.39568996597242717,
+        "min_weight": 0.00015640498895663768,
+        "effective_fraction": 0.8300965222315443,
+        "fraction_below_0_1": 0.043352274865464946
+      },
+      "high_depth_gradient_mean_weight": 0.5229891538619995,
+      "other_mean_weight": 0.3743015229701996
+    },
+    {
+      "id": 1113,
+      "scene": "bedroom_0097",
+      "source_sha256": "ed74b12846b54bbc7c024244db8f4ccde6ca2d0b77e3effd25fbb6bf1b2a14c8",
+      "derived_sha256": "e108c5073a05b7d3dab98cb5628493c87eead531cf678976e5577423db17f12a",
+      "weight_sha256": "a3791d155fbb802b54d4e13ce99432b0467baa4fa58a58ccd0cab68cbc48a705",
+      "full_valid_pixels": 200006,
+      "native_valid_pixels": 30692,
+      "sensitivity_mean_deg": 12.74141788482666,
+      "fullres": {
+        "mean_weight": 0.3971693311980193,
+        "min_weight": 4.502059528022073e-05,
+        "effective_fraction": 0.7371970860274946,
+        "fraction_below_0_1": 0.1449306520804376
+      },
+      "native": {
+        "mean_weight": 0.40461020015616206,
+        "min_weight": 0.00011898027150891721,
+        "effective_fraction": 0.7945249670490565,
+        "fraction_below_0_1": 0.08559233676528086
+      },
+      "high_depth_gradient_mean_weight": 0.3652884364128113,
+      "other_mean_weight": 0.4007117450237274
+    },
+    {
+      "id": 80,
+      "scene": "bedroom_0019",
+      "source_sha256": "7b90e4cdf4149f4b576b09316389611c00b6ffda503f8e1bd548f8099c14653a",
+      "derived_sha256": "a8c41a5ccfccd842aa891a635c61aabb3880a76ef1796264365dd9c4031a7189",
+      "weight_sha256": "2ef6132335b9010a2b06788884020bc5443c0493ac3607af3d928ddd954a6138",
+      "full_valid_pixels": 209720,
+      "native_valid_pixels": 32165,
+      "sensitivity_mean_deg": 13.440112113952637,
+      "fullres": {
+        "mean_weight": 0.35832148886723914,
+        "min_weight": 2.0802219296456315e-05,
+        "effective_fraction": 0.7496234488607435,
+        "fraction_below_0_1": 0.1183292008392142
+      },
+      "native": {
+        "mean_weight": 0.36511275832805207,
+        "min_weight": 0.0001509150752099231,
+        "effective_fraction": 0.8199452970114276,
+        "fraction_below_0_1": 0.07004508005596145
+      },
+      "high_depth_gradient_mean_weight": 0.3922632038593292,
+      "other_mean_weight": 0.35455018281936646
+    },
+    {
+      "id": 1024,
+      "scene": "bedroom_0065",
+      "source_sha256": "d2a0db12d0c1cd1107414e74d9264c550806d81e123c1305003b16d6478b5924",
+      "derived_sha256": "e1e8fc9b659a6dc4fbfc356a99fbd62d2452ebcf919cd7cd26a707178cbef822",
+      "weight_sha256": "db144971c22826e324978ee27bab823be28bf40ceab8f911b0ef0d6b83ced2a6",
+      "full_valid_pixels": 223484,
+      "native_valid_pixels": 34882,
+      "sensitivity_mean_deg": 14.913469314575195,
+      "fullres": {
+        "mean_weight": 0.3173005664319321,
+        "min_weight": 3.8502723327837884e-05,
+        "effective_fraction": 0.6812209649114266,
+        "fraction_below_0_1": 0.16989135687566
+      },
+      "native": {
+        "mean_weight": 0.3197609400490124,
+        "min_weight": 0.00035786759690381587,
+        "effective_fraction": 0.7476567009604695,
+        "fraction_below_0_1": 0.09420331403015882
+      },
+      "high_depth_gradient_mean_weight": 0.39685308933258057,
+      "other_mean_weight": 0.30846112966537476
+    },
+    {
+      "id": 67,
+      "scene": "bedroom_0015",
+      "source_sha256": "9a1e5b7177b029e3d5d6b099f7ae1c5baeadb5a9ab698a1074f383f12f40d02b",
+      "derived_sha256": "bd542f43cbb1873b7ebc3359c9bdedd3664c6c678fe5258887ea80c0ae64000c",
+      "weight_sha256": "cc2f052093efd22a11d0c245fbe023abafde90884e806b94eec2d9a1eba8de29",
+      "full_valid_pixels": 201482,
+      "native_valid_pixels": 30801,
+      "sensitivity_mean_deg": 9.878366470336914,
+      "fullres": {
+        "mean_weight": 0.48975989067716497,
+        "min_weight": 4.2379826481919736e-05,
+        "effective_fraction": 0.8083060198867656,
+        "fraction_below_0_1": 0.08648911565301119
+      },
+      "native": {
+        "mean_weight": 0.5022432532549841,
+        "min_weight": 0.00041253623203374445,
+        "effective_fraction": 0.8568366428505766,
+        "fraction_below_0_1": 0.052498295509886043
+      },
+      "high_depth_gradient_mean_weight": 0.5982463955879211,
+      "other_mean_weight": 0.47770532965660095
+    },
+    {
+      "id": 152,
+      "scene": "living_room_0006",
+      "source_sha256": "d9e277a8b3cc6a5cd26ce9776614273e11728bd070824a569dcbe2166bcd02ca",
+      "derived_sha256": "fb3d2ecb1ad3a4736c43d6298a6162ad5e0429290e7f96c60599e5731798dcb1",
+      "weight_sha256": "ac25e85c4b64b2be70f134c7a69e8279e2fb21967f463b9f503e3d63fcf931db",
+      "full_valid_pixels": 166527,
+      "native_valid_pixels": 24409,
+      "sensitivity_mean_deg": 15.609697341918945,
+      "fullres": {
+        "mean_weight": 0.31235952418470053,
+        "min_weight": 4.239025292918086e-05,
+        "effective_fraction": 0.7056651626781202,
+        "fraction_below_0_1": 0.17902202045313972
+      },
+      "native": {
+        "mean_weight": 0.3240310898897065,
+        "min_weight": 5.832262468175031e-05,
+        "effective_fraction": 0.797008033308594,
+        "fraction_below_0_1": 0.10852554385677414
+      },
+      "high_depth_gradient_mean_weight": 0.3209151029586792,
+      "other_mean_weight": 0.3114088773727417
+    },
+    {
+      "id": 588,
+      "scene": "living_room_0083",
+      "source_sha256": "ac8d8a6065760a3f956b98ca6f1779df5319a050fa579a2a46c12635292b497b",
+      "derived_sha256": "e2ded1f42081f7366a3f2ed01d9f28f0747c7a7b1054670009dd79d464b7cccd",
+      "weight_sha256": "94d82cefc37639c407eb91d3f65f35cfafdd75e142a6d96b76927963148caece",
+      "full_valid_pixels": 208620,
+      "native_valid_pixels": 32072,
+      "sensitivity_mean_deg": 15.617424011230469,
+      "fullres": {
+        "mean_weight": 0.30205705827407897,
+        "min_weight": 3.488327274681069e-05,
+        "effective_fraction": 0.6995898332110182,
+        "fraction_below_0_1": 0.17127792157990604
+      },
+      "native": {
+        "mean_weight": 0.3077749682517291,
+        "min_weight": 0.00012925850751344115,
+        "effective_fraction": 0.7858284899535893,
+        "fraction_below_0_1": 0.09375779496133699
+      },
+      "high_depth_gradient_mean_weight": 0.3248983919620514,
+      "other_mean_weight": 0.2995191216468811
+    },
+    {
+      "id": 452,
+      "scene": "reception_room_0001",
+      "source_sha256": "2ba3ed41d825967a4dade975af7e75910127a0a7fb6146705a424e9bb00f2356",
+      "derived_sha256": "c219bf048ef70c798a454db592c3a16ff4d2c597a4ccf11f4e8035b92552ced5",
+      "weight_sha256": "6b5c2590b628d260060458b935c9b6c53109c2514c4ef4b7b786a59e4051fe7e",
+      "full_valid_pixels": 164927,
+      "native_valid_pixels": 24220,
+      "sensitivity_mean_deg": 12.935895919799805,
+      "fullres": {
+        "mean_weight": 0.41377062333837406,
+        "min_weight": 2.4920514988480136e-05,
+        "effective_fraction": 0.7191779082212181,
+        "fraction_below_0_1": 0.14439115487458087
+      },
+      "native": {
+        "mean_weight": 0.43400568008705853,
+        "min_weight": 0.0001739296712912619,
+        "effective_fraction": 0.782394766911755,
+        "fraction_below_0_1": 0.067588769611891
+      },
+      "high_depth_gradient_mean_weight": 0.4936627149581909,
+      "other_mean_weight": 0.40489357709884644
+    },
+    {
+      "id": 722,
+      "scene": "bathroom_0042",
+      "source_sha256": "41665960f371ac17ba11bc5976d88e7b4db0cf4ce86dcec84bfba3762b849f44",
+      "derived_sha256": "1d38a064c9a27118ed30c57702eb96271fa2bbf6a4ded188792d85c2173622a8",
+      "weight_sha256": "41933f305e583ea3abef966ad995bc827b058358f3f90d7d75d484a2588ef90b",
+      "full_valid_pixels": 184742,
+      "native_valid_pixels": 28274,
+      "sensitivity_mean_deg": 13.592737197875977,
+      "fullres": {
+        "mean_weight": 0.35753789629994237,
+        "min_weight": 5.4681724577676505e-05,
+        "effective_fraction": 0.7166513770135684,
+        "fraction_below_0_1": 0.14282621168981607
+      },
+      "native": {
+        "mean_weight": 0.36345620064037193,
+        "min_weight": 0.0001731378142721951,
+        "effective_fraction": 0.7756694939400163,
+        "fraction_below_0_1": 0.08403480229185824
+      },
+      "high_depth_gradient_mean_weight": 0.30156460404396057,
+      "other_mean_weight": 0.363757461309433
+    },
+    {
+      "id": 303,
+      "scene": "classroom_0010",
+      "source_sha256": "632d42377b64c66715479a3b2dfcf53111147492a45d923f485fc7c7cd14aed9",
+      "derived_sha256": "50141807a7c3ae6d0a226ba22ee08707c52068d8cb6d07d0ff8c6dd8d2e67a51",
+      "weight_sha256": "ef35d19bcc30778c81246ab2a6a7716f68117bf23f4143831f870eea31034d96",
+      "full_valid_pixels": 188066,
+      "native_valid_pixels": 28337,
+      "sensitivity_mean_deg": 17.44613265991211,
+      "fullres": {
+        "mean_weight": 0.3129238393005399,
+        "min_weight": 2.190860323025845e-05,
+        "effective_fraction": 0.6244024291801816,
+        "fraction_below_0_1": 0.24850318505205618
+      },
+      "native": {
+        "mean_weight": 0.3221972855569132,
+        "min_weight": 3.5148794268025085e-05,
+        "effective_fraction": 0.6881986066849201,
+        "fraction_below_0_1": 0.16646081095387655
+      },
+      "high_depth_gradient_mean_weight": 0.31035590171813965,
+      "other_mean_weight": 0.3132091462612152
+    },
+    {
+      "id": 788,
+      "scene": "kitchen_0028",
+      "source_sha256": "8e38ee3638504e37d078d75dd164d780edb4e0bb7809387a3370c1e9e401d85c",
+      "derived_sha256": "4f72e989a4805a50af14fb8adb2f69034adf579dcfaff78d9e5736337a5ecb37",
+      "weight_sha256": "c63f5296a1d55c47b766041d652e2f93e725175fed5c68949d5f6ea31edcfcfb",
+      "full_valid_pixels": 144905,
+      "native_valid_pixels": 21636,
+      "sensitivity_mean_deg": 16.258583068847656,
+      "fullres": {
+        "mean_weight": 0.32041615077937324,
+        "min_weight": 1.6504398445249535e-05,
+        "effective_fraction": 0.6482061069497251,
+        "fraction_below_0_1": 0.23219350609019704
+      },
+      "native": {
+        "mean_weight": 0.32775126385755443,
+        "min_weight": 6.897719140397385e-05,
+        "effective_fraction": 0.7123943164128723,
+        "fraction_below_0_1": 0.15622111295988167
+      },
+      "high_depth_gradient_mean_weight": 0.3377998471260071,
+      "other_mean_weight": 0.3184845447540283
+    },
+    {
+      "id": 929,
+      "scene": "bedroom_0031",
+      "source_sha256": "0ed49fe9daf8f5253041d5dfaefdb5a625031aefe47863e76d081988ff498b2c",
+      "derived_sha256": "25ecd9b78014a288035366068187fbd995a8e23797699bb90f7c7de312054f8f",
+      "weight_sha256": "27232e3913453f4c2fe81f8aa42b857ce9942f126854ad441196ad233e985859",
+      "full_valid_pixels": 167125,
+      "native_valid_pixels": 25366,
+      "sensitivity_mean_deg": 15.872547149658203,
+      "fullres": {
+        "mean_weight": 0.33306201837531574,
+        "min_weight": 4.008911128039472e-05,
+        "effective_fraction": 0.6733396256697308,
+        "fraction_below_0_1": 0.1997845923709798
+      },
+      "native": {
+        "mean_weight": 0.3439929845491044,
+        "min_weight": 0.00032757563167251647,
+        "effective_fraction": 0.7418815012155697,
+        "fraction_below_0_1": 0.1246944729165024
+      },
+      "high_depth_gradient_mean_weight": 0.39259079098701477,
+      "other_mean_weight": 0.3264474868774414
+    },
+    {
+      "id": 276,
+      "scene": "study_room_0005",
+      "source_sha256": "801e35b2619d34bfadef55a472ad91280e4774c541e2148cdb6e2d7db4ade7bc",
+      "derived_sha256": "75f40f06ef5611f383414d8ce70d8255f0baf37ff95c2644db86e5bdaf5e1e72",
+      "weight_sha256": "bba6ae8f1be7e0e6e41a55882d26cf3a927f686ccc7092514090facddba0810b",
+      "full_valid_pixels": 140810,
+      "native_valid_pixels": 20831,
+      "sensitivity_mean_deg": 13.062121391296387,
+      "fullres": {
+        "mean_weight": 0.45206038675374893,
+        "min_weight": 1.585971585882362e-05,
+        "effective_fraction": 0.729138332948941,
+        "fraction_below_0_1": 0.16738157801292522
+      },
+      "native": {
+        "mean_weight": 0.4669759649231165,
+        "min_weight": 3.884009856847115e-05,
+        "effective_fraction": 0.7800327994404431,
+        "fraction_below_0_1": 0.11310066727473476
+      },
+      "high_depth_gradient_mean_weight": 0.4628990888595581,
+      "other_mean_weight": 0.4508560597896576
+    },
+    {
+      "id": 1050,
+      "scene": "bedroom_0074",
+      "source_sha256": "8f5ebfbdbb0908029b3d0cfc985940a2bdd19c22a983e748c9b868e603da240f",
+      "derived_sha256": "a0174c7371891563b1974c107768e49db1fe7bccddc32273dd9c369af4381159",
+      "weight_sha256": "72a15ef26aaf308d4df7cbd2fcbf72a35282d0ca7a923cdb9f9c3579a0de598d",
+      "full_valid_pixels": 159964,
+      "native_valid_pixels": 23196,
+      "sensitivity_mean_deg": 16.652315139770508,
+      "fullres": {
+        "mean_weight": 0.3138930558843605,
+        "min_weight": 3.682331953314133e-05,
+        "effective_fraction": 0.6676135269118862,
+        "fraction_below_0_1": 0.21544222450051262
+      },
+      "native": {
+        "mean_weight": 0.3220711348379411,
+        "min_weight": 9.795223013497889e-05,
+        "effective_fraction": 0.7414634746705486,
+        "fraction_below_0_1": 0.13998103121227798
+      },
+      "high_depth_gradient_mean_weight": 0.42977601289749146,
+      "other_mean_weight": 0.301016628742218
+    },
+    {
+      "id": 1199,
+      "scene": "bedroom_0130",
+      "source_sha256": "f7bb40e8f3d49c5c7ace548bce0d26123fce2908feef7a4f042a259e5203f141",
+      "derived_sha256": "6a803e6ebc3de0304399c321aff4e04a2f1b13a69d345dbbabf0a611fdf41ea7",
+      "weight_sha256": "f743d8fc09ccca9344fcc019c8637e1bbe5a4fa1e41d0c47d9c2add3c1e2f28f",
+      "full_valid_pixels": 220822,
+      "native_valid_pixels": 34284,
+      "sensitivity_mean_deg": 12.387723922729492,
+      "fullres": {
+        "mean_weight": 0.40617481295994556,
+        "min_weight": 1.6279107512673363e-05,
+        "effective_fraction": 0.7417734090663431,
+        "fraction_below_0_1": 0.13131843747452698
+      },
+      "native": {
+        "mean_weight": 0.41185295332691674,
+        "min_weight": 0.00016691892233211547,
+        "effective_fraction": 0.7951277283264344,
+        "fraction_below_0_1": 0.07528293081320733
+      },
+      "high_depth_gradient_mean_weight": 0.520602822303772,
+      "other_mean_weight": 0.39346006512641907
+    },
+    {
+      "id": 948,
+      "scene": "bedroom_0038",
+      "source_sha256": "ba1e3392f1914d066970d855d60b7a61d54ebbd6ddda55aec726261817f84515",
+      "derived_sha256": "e6e1973cadeb5ec399ecc477108e777d8e9607ae27016cf6027979c3cedccedd",
+      "weight_sha256": "62ac54d7655fb69517b6e14cb42b28bb3240133279f6fed083b61fc456e4b412",
+      "full_valid_pixels": 167471,
+      "native_valid_pixels": 25100,
+      "sensitivity_mean_deg": 15.040518760681152,
+      "fullres": {
+        "mean_weight": 0.32601380099174226,
+        "min_weight": 7.372468098765239e-05,
+        "effective_fraction": 0.6857921492886533,
+        "fraction_below_0_1": 0.18297496282938538
+      },
+      "native": {
+        "mean_weight": 0.33332851406329844,
+        "min_weight": 0.00019544937822502106,
+        "effective_fraction": 0.7548962414286523,
+        "fraction_below_0_1": 0.10725099601593625
+      },
+      "high_depth_gradient_mean_weight": 0.3143925964832306,
+      "other_mean_weight": 0.3273051381111145
+    },
+    {
+      "id": 503,
+      "scene": "bathroom_0056",
+      "source_sha256": "9302e01b751b8896c2c1149d83bf11b4a56cc28f998f8c29005309eb78a73141",
+      "derived_sha256": "89f361ccdf257180fcb27162027b95e4e9d1220233488d94c4dd3b62c13cf157",
+      "weight_sha256": "9366017714e44b6fdbc702e5973bd1bf74a3e388c3fe63bbd7c94e6ae492c77f",
+      "full_valid_pixels": 176679,
+      "native_valid_pixels": 26982,
+      "sensitivity_mean_deg": 12.531333923339844,
+      "fullres": {
+        "mean_weight": 0.39759681691157606,
+        "min_weight": 3.124007707810961e-05,
+        "effective_fraction": 0.756453258065608,
+        "fraction_below_0_1": 0.1206029013068899
+      },
+      "native": {
+        "mean_weight": 0.40647545040991506,
+        "min_weight": 0.00014728493988513947,
+        "effective_fraction": 0.816122384434692,
+        "fraction_below_0_1": 0.07063968571640353
+      },
+      "high_depth_gradient_mean_weight": 0.4295813739299774,
+      "other_mean_weight": 0.3940429389476776
+    },
+    {
+      "id": 1059,
+      "scene": "bedroom_0078",
+      "source_sha256": "abf150faaece06c8a5369fe00ab040f4f11812f5f7e96e19b8624fb005db9457",
+      "derived_sha256": "82b7f6efa79a2f7199a149ba027e98159ffb06330a025a73afd58800bf9a8d03",
+      "weight_sha256": "4f30f1f9308a73917241442d786802a4c5c9f002853e2850366060d9ff3e30bd",
+      "full_valid_pixels": 166322,
+      "native_valid_pixels": 24732,
+      "sensitivity_mean_deg": 16.360769271850586,
+      "fullres": {
+        "mean_weight": 0.29489096124098085,
+        "min_weight": 6.394581578206271e-05,
+        "effective_fraction": 0.668838463144694,
+        "fraction_below_0_1": 0.21582232055891584
+      },
+      "native": {
+        "mean_weight": 0.30019779830426674,
+        "min_weight": 0.000259874330367893,
+        "effective_fraction": 0.7504860990605414,
+        "fraction_below_0_1": 0.13431990942907973
+      },
+      "high_depth_gradient_mean_weight": 0.2744980752468109,
+      "other_mean_weight": 0.2971569299697876
+    },
+    {
+      "id": 584,
+      "scene": "living_room_0082",
+      "source_sha256": "e4b7e9ce7ab5c99004d70fe03382aaff6289aa9e09015b2dba39274167b74799",
+      "derived_sha256": "fc99d168e0fa020953fab06b3197bb23813a7f3e0fdee6fdeed279f68fb60b2c",
+      "weight_sha256": "d6a394edfcd6a89b6c029809f95dc0f9e3dae86ae5b2237a1a4d1851340aa158",
+      "full_valid_pixels": 207150,
+      "native_valid_pixels": 31724,
+      "sensitivity_mean_deg": 13.910160064697266,
+      "fullres": {
+        "mean_weight": 0.3429302591888842,
+        "min_weight": 2.0442208551685326e-05,
+        "effective_fraction": 0.7349886629079221,
+        "fraction_below_0_1": 0.12538257301472364
+      },
+      "native": {
+        "mean_weight": 0.3509688803394498,
+        "min_weight": 4.305201946408488e-05,
+        "effective_fraction": 0.8131035590338506,
+        "fraction_below_0_1": 0.07095574328584037
+      },
+      "high_depth_gradient_mean_weight": 0.3970679044723511,
+      "other_mean_weight": 0.33691495656967163
+    },
+    {
+      "id": 353,
+      "scene": "foyer_0002",
+      "source_sha256": "0e0875cc7674ed50e04a22c05eac3bc8a70308f46952f63e5afe2db6729cb1a7",
+      "derived_sha256": "92d6e92ac5f3da36cff0a04615323c3d6b15107051933464388dbc2ccf4dbe68",
+      "weight_sha256": "5cfdd4979d289be7259be3bfc272ca427bcd8bf8e5c4a8143fb87c86c1bb375b",
+      "full_valid_pixels": 193539,
+      "native_valid_pixels": 29566,
+      "sensitivity_mean_deg": 15.648011207580566,
+      "fullres": {
+        "mean_weight": 0.3186682999474246,
+        "min_weight": 1.8471007933840156e-05,
+        "effective_fraction": 0.6697624103927319,
+        "fraction_below_0_1": 0.20736389048202172
+      },
+      "native": {
+        "mean_weight": 0.3248700732635708,
+        "min_weight": 0.00011624252510955557,
+        "effective_fraction": 0.7397297523053472,
+        "fraction_below_0_1": 0.1268687005343976
+      },
+      "high_depth_gradient_mean_weight": 0.33274316787719727,
+      "other_mean_weight": 0.31710442900657654
+    },
+    {
+      "id": 1110,
+      "scene": "bedroom_0096",
+      "source_sha256": "728d33fae7b26859e52ee7bc506cd7f8d12ed9f16a672fdd06e477eff2728e4d",
+      "derived_sha256": "ec05ff2c15f35e80c6ca2f658234836ebff5d49fd087b18eef28e738bbdbd000",
+      "weight_sha256": "c970883e182bb68fa5bcdb90dabde9ceafe595fd408eebc85ef5349193fb89a0",
+      "full_valid_pixels": 200450,
+      "native_valid_pixels": 30574,
+      "sensitivity_mean_deg": 13.232205390930176,
+      "fullres": {
+        "mean_weight": 0.3578328785489838,
+        "min_weight": 7.856960291974247e-05,
+        "effective_fraction": 0.7482886016046274,
+        "fraction_below_0_1": 0.1121227238712896
+      },
+      "native": {
+        "mean_weight": 0.3639837453491515,
+        "min_weight": 0.00016138717182911932,
+        "effective_fraction": 0.8213261349708524,
+        "fraction_below_0_1": 0.06377968208281547
+      },
+      "high_depth_gradient_mean_weight": 0.3872656524181366,
+      "other_mean_weight": 0.35456255078315735
+    },
+    {
+      "id": 1361,
+      "scene": "dining_room_0008",
+      "source_sha256": "14bfc484bf051d7ae883d90e64ce4416d10048761bc64675b6d8d4672ebed7f0",
+      "derived_sha256": "6a36e6b14b68b16b66e1ffdfa96c084c32229aa81a84865f1e475e804c91c836",
+      "weight_sha256": "09421ef66f0731553a580b70d4b9246723a6f26d04010bf050c631681b508a21",
+      "full_valid_pixels": 92363,
+      "native_valid_pixels": 12977,
+      "sensitivity_mean_deg": 21.648099899291992,
+      "fullres": {
+        "mean_weight": 0.2045386078678892,
+        "min_weight": 1.913165397127159e-05,
+        "effective_fraction": 0.5624073727202886,
+        "fraction_below_0_1": 0.379221116680922
+      },
+      "native": {
+        "mean_weight": 0.20989973644140925,
+        "min_weight": 0.00016290281200781465,
+        "effective_fraction": 0.6542803570669152,
+        "fraction_below_0_1": 0.29020574863219545
+      },
+      "high_depth_gradient_mean_weight": 0.1887190043926239,
+      "other_mean_weight": 0.20629648864269257
+    },
+    {
+      "id": 223,
+      "scene": "furniture_store_0001",
+      "source_sha256": "c88fd2d09811c9d7eca381f74a57fd8bee658f3a5c8a79ffe81cad676cd757dd",
+      "derived_sha256": "153a3bb1f1cd6b65965353f443077d78af4a2e02cf44c206a7cfb2120a79668f",
+      "weight_sha256": "12b0967509d4ed4ae78e5faa470b7f0a5bd0f5fdea089a6e7657e544ca533ecd",
+      "full_valid_pixels": 89387,
+      "native_valid_pixels": 12361,
+      "sensitivity_mean_deg": 20.026485443115234,
+      "fullres": {
+        "mean_weight": 0.2569188174510435,
+        "min_weight": 2.0285098798922263e-05,
+        "effective_fraction": 0.5614383242706635,
+        "fraction_below_0_1": 0.3377113003009386
+      },
+      "native": {
+        "mean_weight": 0.2704034895685828,
+        "min_weight": 0.00016604606935288757,
+        "effective_fraction": 0.6289069868609939,
+        "fraction_below_0_1": 0.255561847746946
+      },
+      "high_depth_gradient_mean_weight": 0.18309907615184784,
+      "other_mean_weight": 0.26512134075164795
+    },
+    {
+      "id": 403,
+      "scene": "indoor_balcony_0001",
+      "source_sha256": "796345cb90ecf580e66a402fe0be53590e0a2f8bcea165a0789994350cda4ec7",
+      "derived_sha256": "c2fdf666d4a4638c25b625f19919e387f693a76aec2fa979f6b19515cf7fa5c9",
+      "weight_sha256": "2fab32c1b75292de39bc28d41a1d024e0cab8392fd80832c9686e4759b8173bb",
+      "full_valid_pixels": 166433,
+      "native_valid_pixels": 25091,
+      "sensitivity_mean_deg": 16.085559844970703,
+      "fullres": {
+        "mean_weight": 0.3307088733643222,
+        "min_weight": 2.124554885085672e-05,
+        "effective_fraction": 0.6634887511424556,
+        "fraction_below_0_1": 0.22633131650574104
+      },
+      "native": {
+        "mean_weight": 0.34177144394083625,
+        "min_weight": 7.557396747870371e-05,
+        "effective_fraction": 0.7274376348257928,
+        "fraction_below_0_1": 0.15965884181579051
+      },
+      "high_depth_gradient_mean_weight": 0.16650010645389557,
+      "other_mean_weight": 0.3489551544189453
+    },
+    {
+      "id": 1238,
+      "scene": "living_room_0038",
+      "source_sha256": "f73be43eb4f47abc93b705be6e391b9e0341e03c2b5ccf54aceb7c99ab7cbe87",
+      "derived_sha256": "d7f18c87e3209fb3e0cb4a12015a39f164db0afe7abd2f988544d07fc587e922",
+      "weight_sha256": "fb751273c824e770d236a7f6a5bb40ac82fe5c21578c463ea0f094c6df0d283e",
+      "full_valid_pixels": 167389,
+      "native_valid_pixels": 24689,
+      "sensitivity_mean_deg": 17.244056701660156,
+      "fullres": {
+        "mean_weight": 0.3145384029115795,
+        "min_weight": 1.2731940842058975e-05,
+        "effective_fraction": 0.645937587609483,
+        "fraction_below_0_1": 0.24644988619323852
+      },
+      "native": {
+        "mean_weight": 0.32817973256105404,
+        "min_weight": 5.492374475579709e-05,
+        "effective_fraction": 0.7198973803481573,
+        "fraction_below_0_1": 0.178541050670339
+      },
+      "high_depth_gradient_mean_weight": 0.21209439635276794,
+      "other_mean_weight": 0.3259211778640747
+    },
+    {
+      "id": 1415,
+      "scene": "dining_room_0028",
+      "source_sha256": "b75b68bf1bda5e52a05d9b46dd43772131b6f66ec25070dff01edee2ffdac6a9",
+      "derived_sha256": "6f311bcbeb1ba64276265388aaf61277ee1da0dd7f485587113979fb4aa26b5e",
+      "weight_sha256": "e3efc41714d71bc19d62c692d94094b3cdeef4de5c18e1e6a2faf5d3e1d1fea3",
+      "full_valid_pixels": 180995,
+      "native_valid_pixels": 26984,
+      "sensitivity_mean_deg": 16.185768127441406,
+      "fullres": {
+        "mean_weight": 0.32861862266367176,
+        "min_weight": 1.2772682566719595e-05,
+        "effective_fraction": 0.6644508128559878,
+        "fraction_below_0_1": 0.21509986463714467
+      },
+      "native": {
+        "mean_weight": 0.3400097757649416,
+        "min_weight": 9.30494352360256e-05,
+        "effective_fraction": 0.7364822006211427,
+        "fraction_below_0_1": 0.13685887933590277
+      },
+      "high_depth_gradient_mean_weight": 0.2717658281326294,
+      "other_mean_weight": 0.3349358141422272
+    },
+    {
+      "id": 1044,
+      "scene": "bedroom_0072",
+      "source_sha256": "9de6b4be8fee7fd028f49c4385b899d04c710e5b30c3f9e392c76fb57e509ce0",
+      "derived_sha256": "0522eee9ea6e292760a8d0ff512176958a4c45889006159a8fc5bdd0f8388068",
+      "weight_sha256": "5b2b92848f4b8f86fa758b6b9b8775ab68bb0e978b9909c7e955d2640fa437ed",
+      "full_valid_pixels": 191579,
+      "native_valid_pixels": 28814,
+      "sensitivity_mean_deg": 14.794374465942383,
+      "fullres": {
+        "mean_weight": 0.3531221453514302,
+        "min_weight": 3.141847628285177e-05,
+        "effective_fraction": 0.7119926366166031,
+        "fraction_below_0_1": 0.16770105282938108
+      },
+      "native": {
+        "mean_weight": 0.3637863387308372,
+        "min_weight": 8.007614087546244e-05,
+        "effective_fraction": 0.7858223113968287,
+        "fraction_below_0_1": 0.10095786770319984
+      },
+      "high_depth_gradient_mean_weight": 0.3731336295604706,
+      "other_mean_weight": 0.3508986234664917
+    },
+    {
+      "id": 339,
+      "scene": "conference_room_0001",
+      "source_sha256": "41635c7cfe425da127b94ddbc2f04a2c53473ee2a9dc88081ddcb03cb4ad4ea0",
+      "derived_sha256": "87d6fb2a73ecb329f50a44a40490826eeb32a48239e4b9ee108873f90b9fbf44",
+      "weight_sha256": "5dc3f105fc992678a80951259cd5d2c9c90d86ae72c163e1733639467bafb5a7",
+      "full_valid_pixels": 203813,
+      "native_valid_pixels": 31228,
+      "sensitivity_mean_deg": 13.141069412231445,
+      "fullres": {
+        "mean_weight": 0.43126244162309163,
+        "min_weight": 1.8958475266117603e-05,
+        "effective_fraction": 0.6960516410454165,
+        "fraction_below_0_1": 0.17263373778905172
+      },
+      "native": {
+        "mean_weight": 0.4411864810359531,
+        "min_weight": 0.00010110283619724214,
+        "effective_fraction": 0.7382494337081421,
+        "fraction_below_0_1": 0.10881260407326758
+      },
+      "high_depth_gradient_mean_weight": 0.6403202414512634,
+      "other_mean_weight": 0.40803295373916626
+    },
+    {
+      "id": 142,
+      "scene": "kitchen_0011",
+      "source_sha256": "45443e6632c681607af01192335d06ae97ac87daacaa0ea9b9b12859dc588461",
+      "derived_sha256": "15fbe2b5256a5cdadd8ad1f04f726af9863971847c6c892b9e63200cb9c3858c",
+      "weight_sha256": "346e9e6197cec20155939aa455c8d2bb15d74e36eecc7bde6393b1acc66934c8",
+      "full_valid_pixels": 162671,
+      "native_valid_pixels": 24176,
+      "sensitivity_mean_deg": 11.906807899475098,
+      "fullres": {
+        "mean_weight": 0.44015525814140316,
+        "min_weight": 1.924679963849485e-05,
+        "effective_fraction": 0.759672652040567,
+        "fraction_below_0_1": 0.12271394409575155
+      },
+      "native": {
+        "mean_weight": 0.45666765020786254,
+        "min_weight": 4.810355312656611e-05,
+        "effective_fraction": 0.8165258278105738,
+        "fraction_below_0_1": 0.074867637326274
+      },
+      "high_depth_gradient_mean_weight": 0.4834041893482208,
+      "other_mean_weight": 0.4353495240211487
+    },
+    {
+      "id": 251,
+      "scene": "kitchen_0016",
+      "source_sha256": "3df88c78cdeb15cbd40363edc81020ce2013319882422f2fd45485d3904231a5",
+      "derived_sha256": "45683bb497c9272373a233711a1dcd31c68fa4900c8ad2605818574dccff820b",
+      "weight_sha256": "9c0aa2149f5e28b99d921ede79f6d915b43093705c44299b3383224d6cc86e24",
+      "full_valid_pixels": 166926,
+      "native_valid_pixels": 25031,
+      "sensitivity_mean_deg": 12.205886840820312,
+      "fullres": {
+        "mean_weight": 0.4170277048421166,
+        "min_weight": 2.9160773920011707e-05,
+        "effective_fraction": 0.749852718052502,
+        "fraction_below_0_1": 0.12178450331284521
+      },
+      "native": {
+        "mean_weight": 0.4287937381429487,
+        "min_weight": 8.725436055101454e-05,
+        "effective_fraction": 0.8073855868721718,
+        "fraction_below_0_1": 0.07386840318005673
+      },
+      "high_depth_gradient_mean_weight": 0.37323033809661865,
+      "other_mean_weight": 0.42189422249794006
+    },
+    {
+      "id": 130,
+      "scene": "kitchen_0006",
+      "source_sha256": "079369e82e0e5d89555921994bb04126cb4dc51f98e5f13d5d857bbfcbc0ac32",
+      "derived_sha256": "14b3d8027c0390286d70d48d9b116de093357b38bc17a8cfa817a8d8c5a0a39f",
+      "weight_sha256": "8c955af1205a6de8df06bf180520a33384eeeb0b2e673b0b09d0f74e57e2f477",
+      "full_valid_pixels": 192454,
+      "native_valid_pixels": 29240,
+      "sensitivity_mean_deg": 13.007627487182617,
+      "fullres": {
+        "mean_weight": 0.36668450054965435,
+        "min_weight": 6.061576277716085e-05,
+        "effective_fraction": 0.7614538954937825,
+        "fraction_below_0_1": 0.11165785070718198
+      },
+      "native": {
+        "mean_weight": 0.37535817836383506,
+        "min_weight": 0.0006658185739070177,
+        "effective_fraction": 0.8332392179364041,
+        "fraction_below_0_1": 0.06419288645690835
+      },
+      "high_depth_gradient_mean_weight": 0.379343181848526,
+      "other_mean_weight": 0.3652779161930084
+    },
+    {
+      "id": 1221,
+      "scene": "living_room_0032",
+      "source_sha256": "b3d0dc89f0e6273bba32477e12427bcf396b07e8cc687a6de479782ccdce08aa",
+      "derived_sha256": "f6ef2f24f5b108eab7464ccc26df174ea3043e09d0e9d748e8a9e82e9d623ba7",
+      "weight_sha256": "ee27ae499eb4d4a2269304d06e2da527c9f96fe9f86b854fce928681a555e6b0",
+      "full_valid_pixels": 188987,
+      "native_valid_pixels": 28849,
+      "sensitivity_mean_deg": 15.066978454589844,
+      "fullres": {
+        "mean_weight": 0.321423111683874,
+        "min_weight": 5.837822027388029e-05,
+        "effective_fraction": 0.692319040837964,
+        "fraction_below_0_1": 0.18335123579928778
+      },
+      "native": {
+        "mean_weight": 0.3260110213399367,
+        "min_weight": 0.0002469635510351509,
+        "effective_fraction": 0.768732084663918,
+        "fraction_below_0_1": 0.11227425560678013
+      },
+      "high_depth_gradient_mean_weight": 0.30739378929138184,
+      "other_mean_weight": 0.32298192381858826
+    },
+    {
+      "id": 659,
+      "scene": "bathroom_0013",
+      "source_sha256": "eb4c6705481e6d0d4f2c39dc8005f9050ff89ffb7f852845bdbae8a2039d30ef",
+      "derived_sha256": "6e7d80f90e941daabb2dec950e4eee6c43bb7eab543df9dc719c36bfed2f7340",
+      "weight_sha256": "1888d44ca14e5380032486ab4c639d8e9042345dc7cfbbb83e2c60a224771e2e",
+      "full_valid_pixels": 155771,
+      "native_valid_pixels": 22829,
+      "sensitivity_mean_deg": 13.843379020690918,
+      "fullres": {
+        "mean_weight": 0.4050607548385333,
+        "min_weight": 5.106573735247366e-05,
+        "effective_fraction": 0.7063923337474441,
+        "fraction_below_0_1": 0.177395022179995
+      },
+      "native": {
+        "mean_weight": 0.4215867912113666,
+        "min_weight": 0.0001497495686635375,
+        "effective_fraction": 0.7639729468530155,
+        "fraction_below_0_1": 0.11121818739322792
+      },
+      "high_depth_gradient_mean_weight": 0.36424946784973145,
+      "other_mean_weight": 0.4095956087112427
+    },
+    {
+      "id": 1120,
+      "scene": "bedroom_0100",
+      "source_sha256": "84420534140f0b046704b811c25284865143a236999fefe7cee0c802395f0fb5",
+      "derived_sha256": "f95ca77804168585bdf45e13d14443443f0e69f327f945efeb7d91710d261a1d",
+      "weight_sha256": "9625185a130adf963af9228c5cadb5dec184562127dedc59ee4dc1c6026ec20b",
+      "full_valid_pixels": 208071,
+      "native_valid_pixels": 31827,
+      "sensitivity_mean_deg": 16.96063995361328,
+      "fullres": {
+        "mean_weight": 0.2900338610396439,
+        "min_weight": 1.7311624105786905e-05,
+        "effective_fraction": 0.6524102901101865,
+        "fraction_below_0_1": 0.2183245142283163
+      },
+      "native": {
+        "mean_weight": 0.296426570454546,
+        "min_weight": 6.128224777057767e-05,
+        "effective_fraction": 0.729451270035797,
+        "fraction_below_0_1": 0.1324033053696547
+      },
+      "high_depth_gradient_mean_weight": 0.3478846549987793,
+      "other_mean_weight": 0.283605694770813
+    },
+    {
+      "id": 1187,
+      "scene": "bedroom_0125",
+      "source_sha256": "392535dc7bc908a97d4bbbfb083add3db51f7ecb640f3db105966435031d9516",
+      "derived_sha256": "2042cceab865908267b37893d669c3b1e5e98e8df5c26bad03ba84ca9f7f7918",
+      "weight_sha256": "fe1ef88c5ff2ae42a03ef69a0cdaeeec5d0ed077aea9f5260b6d854258a41f20",
+      "full_valid_pixels": 181085,
+      "native_valid_pixels": 27606,
+      "sensitivity_mean_deg": 15.866565704345703,
+      "fullres": {
+        "mean_weight": 0.3107856335353981,
+        "min_weight": 5.4817421187181026e-05,
+        "effective_fraction": 0.663905367622447,
+        "fraction_below_0_1": 0.20888533009360244
+      },
+      "native": {
+        "mean_weight": 0.311833450721357,
+        "min_weight": 0.0003200534265488386,
+        "effective_fraction": 0.7295231222746952,
+        "fraction_below_0_1": 0.13363037020937477
+      },
+      "high_depth_gradient_mean_weight": 0.3922766149044037,
+      "other_mean_weight": 0.30173081159591675
+    },
+    {
+      "id": 665,
+      "scene": "bathroom_0016",
+      "source_sha256": "d163a67f6f7cb5c978fbdae98545adc92500d021ac68911d932143868cab9ea8",
+      "derived_sha256": "69d81192ac4dccb1805083a6641cce3d0a6f065ecbffbf8e876312ab2ae5cc70",
+      "weight_sha256": "6f1088b93c11c5aacfd3064d68974a829cf521a2eb920a07fe0a5caff5a53de4",
+      "full_valid_pixels": 180517,
+      "native_valid_pixels": 26883,
+      "sensitivity_mean_deg": 13.455780029296875,
+      "fullres": {
+        "mean_weight": 0.3896707045057575,
+        "min_weight": 2.78254065051442e-05,
+        "effective_fraction": 0.7285673811708175,
+        "fraction_below_0_1": 0.1520023044920977
+      },
+      "native": {
+        "mean_weight": 0.4011126645621621,
+        "min_weight": 6.285901326918975e-05,
+        "effective_fraction": 0.7867387609198978,
+        "fraction_below_0_1": 0.09277238403451996
+      },
+      "high_depth_gradient_mean_weight": 0.256957083940506,
+      "other_mean_weight": 0.40441691875457764
+    },
+    {
+      "id": 938,
+      "scene": "bedroom_0034",
+      "source_sha256": "2a6d8f0302b046ca6b4a59f819ce34952b01667350371ea72a0e09ef9d32ca7b",
+      "derived_sha256": "37fd0e88f7313eb4c7741ca894e69fd37810eaa31b0d97b791e362207a23bfa8",
+      "weight_sha256": "5065913688b881dfc3438a17e05f8187bd9dc342d7a03f5287b2736989143364",
+      "full_valid_pixels": 182881,
+      "native_valid_pixels": 27291,
+      "sensitivity_mean_deg": 12.779705047607422,
+      "fullres": {
+        "mean_weight": 0.3892316512673729,
+        "min_weight": 3.2252559321932495e-05,
+        "effective_fraction": 0.7421413759667357,
+        "fraction_below_0_1": 0.12938468184229088
+      },
+      "native": {
+        "mean_weight": 0.403024445329973,
+        "min_weight": 0.00017299801402259618,
+        "effective_fraction": 0.808694377485699,
+        "fraction_below_0_1": 0.06947345278663296
+      },
+      "high_depth_gradient_mean_weight": 0.3703879117965698,
+      "other_mean_weight": 0.3913255035877228
+    },
+    {
+      "id": 552,
+      "scene": "home_office_0013",
+      "source_sha256": "2269a343d33e8952db7df77fda12b91c80fe116b0163e3e0cd7caead3a82a89a",
+      "derived_sha256": "83318de59b0c7351a49dcbaba9cddda83beaaa8633eea2b77b6d7268560be0f4",
+      "weight_sha256": "d104babdc2bedb24f578d4c340f7ad18bd9af1b606d1f8cacbc481b2affcb0ad",
+      "full_valid_pixels": 167561,
+      "native_valid_pixels": 25155,
+      "sensitivity_mean_deg": 13.367391586303711,
+      "fullres": {
+        "mean_weight": 0.3874628984878372,
+        "min_weight": 2.7771297027356923e-05,
+        "effective_fraction": 0.7307321158484528,
+        "fraction_below_0_1": 0.1454515072122988
+      },
+      "native": {
+        "mean_weight": 0.4028364585559261,
+        "min_weight": 0.00011636449926299974,
+        "effective_fraction": 0.7982827982528917,
+        "fraction_below_0_1": 0.08662293778572848
+      },
+      "high_depth_gradient_mean_weight": 0.34390807151794434,
+      "other_mean_weight": 0.39230263233184814
+    },
+    {
+      "id": 288,
+      "scene": "classroom_0004",
+      "source_sha256": "db2d666541294bfa11868e0fe23b00d7451301b6566be3871604bac9d4d37fe3",
+      "derived_sha256": "949e6f065119eadca5af43f8110b5315902bdc9eac1e764165df92ff512b3640",
+      "weight_sha256": "bcc3ea12402acd3a234ea5b771436629cf371b83d00ea7cc4a0290a7570d01ba",
+      "full_valid_pixels": 155329,
+      "native_valid_pixels": 22686,
+      "sensitivity_mean_deg": 17.79422950744629,
+      "fullres": {
+        "mean_weight": 0.31560808381477196,
+        "min_weight": 1.7868787836050615e-05,
+        "effective_fraction": 0.6028931376546101,
+        "fraction_below_0_1": 0.2889866026305455
+      },
+      "native": {
+        "mean_weight": 0.32758055525494834,
+        "min_weight": 6.010556171531789e-05,
+        "effective_fraction": 0.659487124771759,
+        "fraction_below_0_1": 0.2186811249228599
+      },
+      "high_depth_gradient_mean_weight": 0.25554296374320984,
+      "other_mean_weight": 0.32228201627731323
+    },
+    {
+      "id": 936,
+      "scene": "bedroom_0033",
+      "source_sha256": "4d96014fbc08d47dbade6ec0342a1f99279314d6abff421aff4eff0bc2f66fd8",
+      "derived_sha256": "e8d1f2eb62fbb899d5c11f2b9a9ff9799907e099944907b04250e3abdf38e160",
+      "weight_sha256": "6f20392b9f77f349050691031cecd0bec35329fb45ff71b3a82d24fd9268ed6d",
+      "full_valid_pixels": 198022,
+      "native_valid_pixels": 29949,
+      "sensitivity_mean_deg": 12.274320602416992,
+      "fullres": {
+        "mean_weight": 0.42112975984924395,
+        "min_weight": 3.385116360732354e-05,
+        "effective_fraction": 0.7552452327147902,
+        "fraction_below_0_1": 0.1344850572158649
+      },
+      "native": {
+        "mean_weight": 0.43198512125147565,
+        "min_weight": 0.00012137574231019244,
+        "effective_fraction": 0.8112423059742209,
+        "fraction_below_0_1": 0.08454372433136331
+      },
+      "high_depth_gradient_mean_weight": 0.38386616110801697,
+      "other_mean_weight": 0.42527034878730774
+    },
+    {
+      "id": 391,
+      "scene": "home_office_0011",
+      "source_sha256": "cb089af2a6b8c73e2f339b603938d813107b579125f8b98a28a6c4a2ef8cb4fe",
+      "derived_sha256": "7a94fd4f85bf45ff7a8a821860d39f4e413e6bee2a11d302dc0fc95a30714364",
+      "weight_sha256": "25ec69074054df1431bc03a3bc5156f1b4c0ec76bbb937b19b27ec9f33c67589",
+      "full_valid_pixels": 200561,
+      "native_valid_pixels": 30786,
+      "sensitivity_mean_deg": 12.8999605178833,
+      "fullres": {
+        "mean_weight": 0.38667060267608466,
+        "min_weight": 2.3643959139008075e-05,
+        "effective_fraction": 0.757627837838624,
+        "fraction_below_0_1": 0.12155902692946285
+      },
+      "native": {
+        "mean_weight": 0.39549194218448624,
+        "min_weight": 6.647339614573866e-05,
+        "effective_fraction": 0.8251982733436692,
+        "fraction_below_0_1": 0.07353992074319496
+      },
+      "high_depth_gradient_mean_weight": 0.36806225776672363,
+      "other_mean_weight": 0.3887382745742798
+    },
+    {
+      "id": 978,
+      "scene": "bedroom_0050",
+      "source_sha256": "f1883db3075010e4cf8a06e93c3f4a7d4174b36bf9f5378bc6a7cbf0fb07545a",
+      "derived_sha256": "9a0145edfb390411ce68ac85a5235f4cf7ebf12aca2e061b3ac3f94193e8767a",
+      "weight_sha256": "2195c2b53190db05715521c9707fc98993b6872ce58eb0947d260960e8f1d59d",
+      "full_valid_pixels": 214034,
+      "native_valid_pixels": 33310,
+      "sensitivity_mean_deg": 13.355663299560547,
+      "fullres": {
+        "mean_weight": 0.34897434125059545,
+        "min_weight": 8.299648470710963e-05,
+        "effective_fraction": 0.7341497142378326,
+        "fraction_below_0_1": 0.120574301279236
+      },
+      "native": {
+        "mean_weight": 0.3523707161094374,
+        "min_weight": 0.00015890058421064168,
+        "effective_fraction": 0.8002017270237838,
+        "fraction_below_0_1": 0.06025217652356649
+      },
+      "high_depth_gradient_mean_weight": 0.4281253516674042,
+      "other_mean_weight": 0.3401795029640198
+    },
+    {
+      "id": 1251,
+      "scene": "living_room_0042",
+      "source_sha256": "a27d44fd5988fd353f04fc244807c2f202f20a4025be7e5670a8089453d42178",
+      "derived_sha256": "c46713759d8ec2c7cb92651802c827267e208c8a9208054499c00c8a5cf547c6",
+      "weight_sha256": "65baee22d9b08a367f9e96670895faa91e778d6d1fa306a72414e80317b5a3a0",
+      "full_valid_pixels": 189142,
+      "native_valid_pixels": 28701,
+      "sensitivity_mean_deg": 18.841215133666992,
+      "fullres": {
+        "mean_weight": 0.2574609512549138,
+        "min_weight": 1.504450301581528e-05,
+        "effective_fraction": 0.6099405010625115,
+        "fraction_below_0_1": 0.28793710545516066
+      },
+      "native": {
+        "mean_weight": 0.25912054686841457,
+        "min_weight": 8.031995821511373e-05,
+        "effective_fraction": 0.6871179251080581,
+        "fraction_below_0_1": 0.20393017664889726
+      },
+      "high_depth_gradient_mean_weight": 0.31135526299476624,
+      "other_mean_weight": 0.2514724135398865
+    },
+    {
+      "id": 1378,
+      "scene": "dining_room_0015",
+      "source_sha256": "a160b4a71004cb19bb4c55198c66955bfda26831217a77a5b8d829e5fc5dc4ba",
+      "derived_sha256": "5d28bce01b4dc7679b59eefdcb1bcb392d0d010ce949bdbce6baafca1088cdc0",
+      "weight_sha256": "eb2c66005ff2aa823f2160b0abc232ecad3d98ab31ad6dcf736d99326ed91dbd",
+      "full_valid_pixels": 204228,
+      "native_valid_pixels": 31832,
+      "sensitivity_mean_deg": 10.936036109924316,
+      "fullres": {
+        "mean_weight": 0.4284068221330883,
+        "min_weight": 0.00015972700202837586,
+        "effective_fraction": 0.7643023471926477,
+        "fraction_below_0_1": 0.10006463364474999
+      },
+      "native": {
+        "mean_weight": 0.43282132557628744,
+        "min_weight": 0.0011801144573837519,
+        "effective_fraction": 0.808371943539902,
+        "fraction_below_0_1": 0.045802965569238505
+      },
+      "high_depth_gradient_mean_weight": 0.4664149582386017,
+      "other_mean_weight": 0.4241836667060852
+    },
+    {
+      "id": 872,
+      "scene": "kitchen_0047",
+      "source_sha256": "37181afb54e989690a3c2b1d58a5df79138046e3d52271ce978c4ca0fa751a10",
+      "derived_sha256": "4420be653b40a9c2924ea0c789171794c6eac4c1418e94e1fd527987371a7bb6",
+      "weight_sha256": "1adaf28450c95a07686d9c1ad3d15e572df35db5ba65fd4d0162485f5c9ff014",
+      "full_valid_pixels": 180167,
+      "native_valid_pixels": 27146,
+      "sensitivity_mean_deg": 13.775476455688477,
+      "fullres": {
+        "mean_weight": 0.3745637493309775,
+        "min_weight": 1.7610391296329908e-05,
+        "effective_fraction": 0.7215612101545761,
+        "fraction_below_0_1": 0.15637713898771696
+      },
+      "native": {
+        "mean_weight": 0.38418067118265065,
+        "min_weight": 4.206260564387776e-05,
+        "effective_fraction": 0.7875069797204717,
+        "fraction_below_0_1": 0.09548368083695571
+      },
+      "high_depth_gradient_mean_weight": 0.36702629923820496,
+      "other_mean_weight": 0.37540125846862793
+    },
+    {
+      "id": 1115,
+      "scene": "bedroom_0098",
+      "source_sha256": "828be6b4c6d35e7758817c9d358428ff350122bfa58abbc5d15d98d98171bdfc",
+      "derived_sha256": "840589ce4be940b642f31eab0a8e39fd47be95b63f0914ad72ea76a6d3925b55",
+      "weight_sha256": "816f81d79bb18dd6dc9c2bc0701d192adc07eb0bc2180790d5ab286e04dcdb38",
+      "full_valid_pixels": 200374,
+      "native_valid_pixels": 31010,
+      "sensitivity_mean_deg": 13.124873161315918,
+      "fullres": {
+        "mean_weight": 0.39647469807507013,
+        "min_weight": 5.381050505093299e-05,
+        "effective_fraction": 0.7119801256730184,
+        "fraction_below_0_1": 0.1619571401479234
+      },
+      "native": {
+        "mean_weight": 0.40194046861608784,
+        "min_weight": 0.0002035971701843664,
+        "effective_fraction": 0.7588766172689788,
+        "fraction_below_0_1": 0.10203160270880361
+      },
+      "high_depth_gradient_mean_weight": 0.3586992919445038,
+      "other_mean_weight": 0.40067213773727417
+    },
+    {
+      "id": 1392,
+      "scene": "dining_room_0019",
+      "source_sha256": "38fc0856015930bb9d19ff3a01e50eaa34bb49204499b0496a4148c8cf16006d",
+      "derived_sha256": "4c94774fad7cb6fde14145402e9786f16f1caf2ca094c686bd967d01b0fd1be7",
+      "weight_sha256": "f54c022571aedaa4f8bc8e73769b5cba2d57131cbfea483fe9345ef7b45c8074",
+      "full_valid_pixels": 143590,
+      "native_valid_pixels": 20725,
+      "sensitivity_mean_deg": 16.62187957763672,
+      "fullres": {
+        "mean_weight": 0.34799518787358896,
+        "min_weight": 2.062817475234624e-05,
+        "effective_fraction": 0.6393966723031729,
+        "fraction_below_0_1": 0.24482902709102305
+      },
+      "native": {
+        "mean_weight": 0.36387487822882403,
+        "min_weight": 4.3560750782489777e-05,
+        "effective_fraction": 0.7031382166610345,
+        "fraction_below_0_1": 0.16361881785283475
+      },
+      "high_depth_gradient_mean_weight": 0.28810247778892517,
+      "other_mean_weight": 0.35464993119239807
+    },
+    {
+      "id": 265,
+      "scene": "living_room_0022",
+      "source_sha256": "8785c32cf2c53b70d5678bb5e7a7f14dc20e414db2cb2b274717b89ebe14fa19",
+      "derived_sha256": "a404b76ded5db96b9872a0f4cc4735bc8d014fa0bd8ec74fa05134a48976eb5e",
+      "weight_sha256": "a787ef2012a54925bf003b0636ce1b65b92aea8a33e032ba915ce642d435af25",
+      "full_valid_pixels": 179321,
+      "native_valid_pixels": 26557,
+      "sensitivity_mean_deg": 15.841231346130371,
+      "fullres": {
+        "mean_weight": 0.3424448376626453,
+        "min_weight": 2.4420149202342145e-05,
+        "effective_fraction": 0.6807588196821509,
+        "fraction_below_0_1": 0.20995867745551275
+      },
+      "native": {
+        "mean_weight": 0.35167568860022025,
+        "min_weight": 6.778240640414879e-05,
+        "effective_fraction": 0.7527226864485623,
+        "fraction_below_0_1": 0.14900026358398916
+      },
+      "high_depth_gradient_mean_weight": 0.3301616311073303,
+      "other_mean_weight": 0.34380972385406494
+    },
+    {
+      "id": 1177,
+      "scene": "bedroom_0120",
+      "source_sha256": "a3271ad2d5da060b7932e73aecef37b416064835b1246c897f6149966b50e49c",
+      "derived_sha256": "7878b1117c06040aef4eda928703803dd6e3041c21449e165cb19c5676d47a1b",
+      "weight_sha256": "dd4cfb8b740ad3b72757ff46e1266041ec6440f71311bb3237340d68b6989a8e",
+      "full_valid_pixels": 197783,
+      "native_valid_pixels": 30025,
+      "sensitivity_mean_deg": 14.699681282043457,
+      "fullres": {
+        "mean_weight": 0.36023613290972406,
+        "min_weight": 3.051974636036903e-05,
+        "effective_fraction": 0.683466837581184,
+        "fraction_below_0_1": 0.1802177133525126
+      },
+      "native": {
+        "mean_weight": 0.3690382014138198,
+        "min_weight": 6.205136742210016e-05,
+        "effective_fraction": 0.7440250738945923,
+        "fraction_below_0_1": 0.10830974188176519
+      },
+      "high_depth_gradient_mean_weight": 0.37339547276496887,
+      "other_mean_weight": 0.35877394676208496
+    },
+    {
+      "id": 478,
+      "scene": "study_0003",
+      "source_sha256": "fed514b086630785bb01413cc80bcee057c056dd3dcd42511df69e61d5e257a3",
+      "derived_sha256": "bf552e9fd95efc02bcee9e620603a9d069c27e800bd3fe0cf56ba18bb217718a",
+      "weight_sha256": "221f4ae4524acd4a68d067032a37f22346d6ac20c53ba3314b886066d2aebecf",
+      "full_valid_pixels": 151824,
+      "native_valid_pixels": 22011,
+      "sensitivity_mean_deg": 15.883219718933105,
+      "fullres": {
+        "mean_weight": 0.35626370439388466,
+        "min_weight": 2.064551335934084e-05,
+        "effective_fraction": 0.6736113057631872,
+        "fraction_below_0_1": 0.2228040362525029
+      },
+      "native": {
+        "mean_weight": 0.3722368221223965,
+        "min_weight": 6.599276093766093e-05,
+        "effective_fraction": 0.744106667236618,
+        "fraction_below_0_1": 0.15196946981054926
+      },
+      "high_depth_gradient_mean_weight": 0.28358525037765503,
+      "other_mean_weight": 0.3643394410610199
+    },
+    {
+      "id": 943,
+      "scene": "bedroom_0036",
+      "source_sha256": "7a934571bcf68b4c3e5a1f8560f4c04318dcb41d2688762700239a58504c6590",
+      "derived_sha256": "799761ed1c60254e41f3d9788da6f3249330313c9c5c7ae1e5885705ada53211",
+      "weight_sha256": "eb9fbdecf02a2d9780d41db26054cb0c5888679ccedb28e444abc98b18ee0598",
+      "full_valid_pixels": 208210,
+      "native_valid_pixels": 31639,
+      "sensitivity_mean_deg": 15.380207061767578,
+      "fullres": {
+        "mean_weight": 0.32352348600639025,
+        "min_weight": 2.8488744646892883e-05,
+        "effective_fraction": 0.6754805365994405,
+        "fraction_below_0_1": 0.1917823351424043
+      },
+      "native": {
+        "mean_weight": 0.3298311919396226,
+        "min_weight": 4.875849117524922e-05,
+        "effective_fraction": 0.742665414163274,
+        "fraction_below_0_1": 0.11021208002781377
+      },
+      "high_depth_gradient_mean_weight": 0.4360203742980957,
+      "other_mean_weight": 0.31102314591407776
+    },
+    {
+      "id": 1434,
+      "scene": "dining_room_0033",
+      "source_sha256": "3d242d8eadb6c9876a26d6c91026c211686e183306fe1cc4446f4860c2da46df",
+      "derived_sha256": "d757209c9a2451bcd16fe23851be12d74931b20d0cf5dd2f8cfb079ba3571e00",
+      "weight_sha256": "487341c7082c60cf914364780f8c3eae799fab06a72ef18531c8e6cffd069a5a",
+      "full_valid_pixels": 193720,
+      "native_valid_pixels": 29380,
+      "sensitivity_mean_deg": 14.725275993347168,
+      "fullres": {
+        "mean_weight": 0.3522690292283824,
+        "min_weight": 1.7617496268940158e-05,
+        "effective_fraction": 0.7069465561282353,
+        "fraction_below_0_1": 0.17273384265950856
+      },
+      "native": {
+        "mean_weight": 0.36249609653950127,
+        "min_weight": 6.797434616601095e-05,
+        "effective_fraction": 0.7818379611918967,
+        "fraction_below_0_1": 0.10207624234172907
+      },
+      "high_depth_gradient_mean_weight": 0.3069027066230774,
+      "other_mean_weight": 0.3573097288608551
+    },
+    {
+      "id": 1159,
+      "scene": "bedroom_0113",
+      "source_sha256": "36758ff3e8ef62b2e0c16ad5fa0a8b68fe0fdd25956d8fe9a18aba83eb0334f0",
+      "derived_sha256": "9029d21846e9d12e18187c52c3a3e7e76832770975be0927db2b9e4ac93152c0",
+      "weight_sha256": "f1df806871af5f247976c3c69fd3fe6a5f7ff934b19f277d747e556f686530b3",
+      "full_valid_pixels": 195171,
+      "native_valid_pixels": 29548,
+      "sensitivity_mean_deg": 14.14225959777832,
+      "fullres": {
+        "mean_weight": 0.3265709569245628,
+        "min_weight": 2.4688552002771758e-05,
+        "effective_fraction": 0.7416644372364882,
+        "fraction_below_0_1": 0.12778537795061767
+      },
+      "native": {
+        "mean_weight": 0.33141306936086007,
+        "min_weight": 0.00038016997859813273,
+        "effective_fraction": 0.8236662123828196,
+        "fraction_below_0_1": 0.06856640043319345
+      },
+      "high_depth_gradient_mean_weight": 0.38994187116622925,
+      "other_mean_weight": 0.31952938437461853
+    },
+    {
+      "id": 1382,
+      "scene": "dining_room_0016",
+      "source_sha256": "d023eef9b60f2de23c2bbe7dff67a09e422e8f223885d9cb08c61737d6d3bbeb",
+      "derived_sha256": "1f2955a202401db67c15214e4717bd3cded20eab4cad3cbad084430b426c9496",
+      "weight_sha256": "73f1fb36e8d5ee4ae60cb3348126c959e6c498ea5e8314c1f8821a17a1f55377",
+      "full_valid_pixels": 136177,
+      "native_valid_pixels": 19234,
+      "sensitivity_mean_deg": 18.20531463623047,
+      "fullres": {
+        "mean_weight": 0.29389437929366524,
+        "min_weight": 1.4368959455168806e-05,
+        "effective_fraction": 0.6172436163044892,
+        "fraction_below_0_1": 0.27783693281537997
+      },
+      "native": {
+        "mean_weight": 0.29939962601173203,
+        "min_weight": 8.72504388098605e-05,
+        "effective_fraction": 0.6897353129737072,
+        "fraction_below_0_1": 0.19767079130706042
+      },
+      "high_depth_gradient_mean_weight": 0.3320094645023346,
+      "other_mean_weight": 0.2896592915058136
+    },
+    {
+      "id": 253,
+      "scene": "kitchen_0017",
+      "source_sha256": "3f06872a83ab6544c2067bec344b518677a52ddf221222c7ed9f8bcf7c9dac71",
+      "derived_sha256": "ad0f69f8e938376f6d44434c613b7fcd350689b9977b0c4ee7333cc1d042d9c9",
+      "weight_sha256": "58b46a3a53e710d43ac512b4ef0468a59c60f1296655b4d698d36d9d74e9da38",
+      "full_valid_pixels": 169501,
+      "native_valid_pixels": 25218,
+      "sensitivity_mean_deg": 14.521288871765137,
+      "fullres": {
+        "mean_weight": 0.353738432516687,
+        "min_weight": 4.288523632567376e-05,
+        "effective_fraction": 0.6688240855337148,
+        "fraction_below_0_1": 0.1671022589837228
+      },
+      "native": {
+        "mean_weight": 0.3657590463132794,
+        "min_weight": 0.00017507544544059783,
+        "effective_fraction": 0.7326834565776771,
+        "fraction_below_0_1": 0.08961852644936157
+      },
+      "high_depth_gradient_mean_weight": 0.2217017114162445,
+      "other_mean_weight": 0.36841005086898804
+    },
+    {
+      "id": 624,
+      "scene": "office_0024",
+      "source_sha256": "f3f8f80d853167dd7c995a91751c0b8f8ea016b45b177ea6a901aae1bfca1336",
+      "derived_sha256": "08cd461215d111d84c04f2d0b0c05d486404325c86dca5dffc5a4aabfbd1778d",
+      "weight_sha256": "915bbfad1f2f51b0d53187b4e04b8cffa0e5b4f97ed95b3c3e815f4119415068",
+      "full_valid_pixels": 188694,
+      "native_valid_pixels": 28642,
+      "sensitivity_mean_deg": 12.835871696472168,
+      "fullres": {
+        "mean_weight": 0.39505708138694606,
+        "min_weight": 3.767650559893809e-05,
+        "effective_fraction": 0.7362670357149944,
+        "fraction_below_0_1": 0.14329019470677393
+      },
+      "native": {
+        "mean_weight": 0.40445911120344064,
+        "min_weight": 5.4640582675347105e-05,
+        "effective_fraction": 0.794316682191647,
+        "fraction_below_0_1": 0.08627190838628587
+      },
+      "high_depth_gradient_mean_weight": 0.37467971444129944,
+      "other_mean_weight": 0.39732131361961365
+    },
+    {
+      "id": 1168,
+      "scene": "bedroom_0116",
+      "source_sha256": "b9aed4dd17ce58850429ccd0ba2325ed1f2561b95cf8cd7319b3d99dabc6388d",
+      "derived_sha256": "fabfd9ee948bef915003cdcc04e9a3110b2c075cde135436bf72f4361115016a",
+      "weight_sha256": "d70cbd8761ddb3221069b85ed8986c43dd4ae35e6fa6d84a885b5456183951c8",
+      "full_valid_pixels": 215115,
+      "native_valid_pixels": 33277,
+      "sensitivity_mean_deg": 13.3208589553833,
+      "fullres": {
+        "mean_weight": 0.35933686274900806,
+        "min_weight": 2.701845187402796e-05,
+        "effective_fraction": 0.7348922364769882,
+        "fraction_below_0_1": 0.12410106222253213
+      },
+      "native": {
+        "mean_weight": 0.36426281473715244,
+        "min_weight": 4.439153417479247e-05,
+        "effective_fraction": 0.7987031638600212,
+        "fraction_below_0_1": 0.06493974817441477
+      },
+      "high_depth_gradient_mean_weight": 0.4280731976032257,
+      "other_mean_weight": 0.35169926285743713
+    },
+    {
+      "id": 1005,
+      "scene": "bedroom_0059",
+      "source_sha256": "0438786253ef33c987d33cbca8b49a2b38636bed296987a4bc33a906c8d78317",
+      "derived_sha256": "3cde659f5d05bf56b61a9da16c7b03626b9e1414557a3e53fcbabc1c2a10fdb2",
+      "weight_sha256": "476b3f52c3e1e14ddddc5981fb02087581d0a02cde00c842da43858051438877",
+      "full_valid_pixels": 188793,
+      "native_valid_pixels": 28504,
+      "sensitivity_mean_deg": 15.345379829406738,
+      "fullres": {
+        "mean_weight": 0.30853387116404885,
+        "min_weight": 5.924978177063167e-05,
+        "effective_fraction": 0.7150357917869612,
+        "fraction_below_0_1": 0.1601807270396678
+      },
+      "native": {
+        "mean_weight": 0.31534425844862973,
+        "min_weight": 0.00022993811580818146,
+        "effective_fraction": 0.8055408052210077,
+        "fraction_below_0_1": 0.08560202076901488
+      },
+      "high_depth_gradient_mean_weight": 0.35165783762931824,
+      "other_mean_weight": 0.30374211072921753
+    },
+    {
+      "id": 490,
+      "scene": "basement_0001",
+      "source_sha256": "5df5bbc53b88d74f706c1819bc0dcf1e0e1f0f0cd5b5ce6047a8fc37c57cdaa7",
+      "derived_sha256": "60eb485f1677d35c3db630bd5ac2cc639153db7754dc3fdeb10775632549636f",
+      "weight_sha256": "0a67e006e5569be2ee2c2ab16b5d3f535a49118b711f9e4449e405c8de7773a0",
+      "full_valid_pixels": 198600,
+      "native_valid_pixels": 30282,
+      "sensitivity_mean_deg": 15.84567928314209,
+      "fullres": {
+        "mean_weight": 0.32830911427239046,
+        "min_weight": 1.8041835573967546e-05,
+        "effective_fraction": 0.6896351046864958,
+        "fraction_below_0_1": 0.19561430010070494
+      },
+      "native": {
+        "mean_weight": 0.33570269636247857,
+        "min_weight": 2.3101609258446842e-05,
+        "effective_fraction": 0.7656108992960768,
+        "fraction_below_0_1": 0.12819496730731128
+      },
+      "high_depth_gradient_mean_weight": 0.3370349407196045,
+      "other_mean_weight": 0.3273395895957947
+    },
+    {
+      "id": 1372,
+      "scene": "dining_room_0013",
+      "source_sha256": "519c144d65bc7f55c1b2c9e07fbcfa0a260a00ed8cb0c287179adb72ac243b74",
+      "derived_sha256": "806ca36dd3af181eaba19642658bfca506fbc8f4fd424e26a84038ffb980dc83",
+      "weight_sha256": "aa1d7fb84e2721b1b7094c5f200189dfb9c8335e66ce5ab8dfcf124e0c9285c2",
+      "full_valid_pixels": 177724,
+      "native_valid_pixels": 26494,
+      "sensitivity_mean_deg": 17.48448944091797,
+      "fullres": {
+        "mean_weight": 0.2939721428434219,
+        "min_weight": 1.6285643141600303e-05,
+        "effective_fraction": 0.6369666347646935,
+        "fraction_below_0_1": 0.2525939096576714
+      },
+      "native": {
+        "mean_weight": 0.30197167647479645,
+        "min_weight": 5.080911432742141e-05,
+        "effective_fraction": 0.7151596801941794,
+        "fraction_below_0_1": 0.17094436476183286
+      },
+      "high_depth_gradient_mean_weight": 0.3722105920314789,
+      "other_mean_weight": 0.28527864813804626
+    },
+    {
+      "id": 213,
+      "scene": "office_0000",
+      "source_sha256": "e84dd8c592ec8450abce1848c357657f03173200b2e1d249ae712e4ea24a2759",
+      "derived_sha256": "e13325b2c2e7bae29fbd35c529cd0bf88af8bba81d4d5a8b7e0debd81a6cb5c2",
+      "weight_sha256": "f24b06af9642922657d2fb44d632fb86ef4ee89b69b99f9bb7aef459def15620",
+      "full_valid_pixels": 153714,
+      "native_valid_pixels": 22614,
+      "sensitivity_mean_deg": 15.003281593322754,
+      "fullres": {
+        "mean_weight": 0.3687405076763388,
+        "min_weight": 1.9602857719291933e-05,
+        "effective_fraction": 0.6780374188437311,
+        "fraction_below_0_1": 0.20329312879763717
+      },
+      "native": {
+        "mean_weight": 0.3844697874471178,
+        "min_weight": 5.081832568976097e-05,
+        "effective_fraction": 0.7424384448795069,
+        "fraction_below_0_1": 0.12638188732643496
+      },
+      "high_depth_gradient_mean_weight": 0.45632418990135193,
+      "other_mean_weight": 0.3590085506439209
+    },
+    {
+      "id": 920,
+      "scene": "bedroom_0028",
+      "source_sha256": "c003429344d44a149773edc8433392f3429f393e4eb26750ea96c4e7f2d87621",
+      "derived_sha256": "b9c14bd6d62f32a861a60468490b43749820238e27f19b1a7bbdaf74fa4d2382",
+      "weight_sha256": "bf5a789960f06e3bf336d91a9fdc574acf9a5bdf4b35ff5ab4b53f487b9cd63e",
+      "full_valid_pixels": 212937,
+      "native_valid_pixels": 33041,
+      "sensitivity_mean_deg": 14.263063430786133,
+      "fullres": {
+        "mean_weight": 0.34754576123484515,
+        "min_weight": 3.0084484023973346e-05,
+        "effective_fraction": 0.701804281353033,
+        "fraction_below_0_1": 0.17021936065596865
+      },
+      "native": {
+        "mean_weight": 0.35175014798308407,
+        "min_weight": 0.0001866108359536156,
+        "effective_fraction": 0.7601641332256431,
+        "fraction_below_0_1": 0.10420386792167308
+      },
+      "high_depth_gradient_mean_weight": 0.3853437602519989,
+      "other_mean_weight": 0.3433459401130676
+    },
+    {
+      "id": 682,
+      "scene": "bathroom_0023",
+      "source_sha256": "af641328af32937b43a81114da56d39a1b36aae8d66912eb8354c6de3070ed87",
+      "derived_sha256": "0f1c8ef63fa6adbc12796362c7fa8514183449646764cf2dfb04b5637d822e18",
+      "weight_sha256": "3398039d44e3c0561372c9ed43012413219fdb785ceb1c0194eaeb4608af8537",
+      "full_valid_pixels": 157731,
+      "native_valid_pixels": 24125,
+      "sensitivity_mean_deg": 10.149924278259277,
+      "fullres": {
+        "mean_weight": 0.4578704334346414,
+        "min_weight": 4.799919042852707e-05,
+        "effective_fraction": 0.7984588585535339,
+        "fraction_below_0_1": 0.07238272755514134
+      },
+      "native": {
+        "mean_weight": 0.46759679328787823,
+        "min_weight": 0.00019928622350562364,
+        "effective_fraction": 0.8485025599720378,
+        "fraction_below_0_1": 0.03738860103626943
+      },
+      "high_depth_gradient_mean_weight": 0.40582942962646484,
+      "other_mean_weight": 0.46365317702293396
+    },
+    {
+      "id": 1054,
+      "scene": "bedroom_0076",
+      "source_sha256": "d60a5fb1043fef2783f9dca970654368ff70e29fa45516de9bad185044b010a0",
+      "derived_sha256": "79e745ba7ded58ca692bea8b79f27ed469ec328e9699a3f443ae50f4a08d3291",
+      "weight_sha256": "268cf6ca2064fea38cb9b2fe9bdd111d44796795f1008bef4f0fcd801dd6db1d",
+      "full_valid_pixels": 165765,
+      "native_valid_pixels": 24637,
+      "sensitivity_mean_deg": 14.546801567077637,
+      "fullres": {
+        "mean_weight": 0.37734817957237826,
+        "min_weight": 1.3628540727950167e-05,
+        "effective_fraction": 0.6855604385358575,
+        "fraction_below_0_1": 0.19779205501764546
+      },
+      "native": {
+        "mean_weight": 0.38903179874842514,
+        "min_weight": 0.00010469629341969267,
+        "effective_fraction": 0.7396131648859541,
+        "fraction_below_0_1": 0.1339448796525551
+      },
+      "high_depth_gradient_mean_weight": 0.3138556480407715,
+      "other_mean_weight": 0.38440313935279846
+    },
+    {
+      "id": 1066,
+      "scene": "bedroom_0080",
+      "source_sha256": "eca1d57c15b8bca827de594aa0ff0a100cdbf184f95ab48c4f04ea83942c37b7",
+      "derived_sha256": "93f2fcd4719afc3084dc1413c850efe2b2fbed0b506cc9037c5e4c1707c30c56",
+      "weight_sha256": "5962a9c67ac5f6e7cf69eabe253186f49a420a077c0b796ceba67d84e154850e",
+      "full_valid_pixels": 164622,
+      "native_valid_pixels": 24414,
+      "sensitivity_mean_deg": 15.654067039489746,
+      "fullres": {
+        "mean_weight": 0.3288258695850334,
+        "min_weight": 1.6150326700881124e-05,
+        "effective_fraction": 0.6753457667172568,
+        "fraction_below_0_1": 0.20686785484321657
+      },
+      "native": {
+        "mean_weight": 0.33188199445816075,
+        "min_weight": 5.7781431678449735e-05,
+        "effective_fraction": 0.7411758004438517,
+        "fraction_below_0_1": 0.1406570000819202
+      },
+      "high_depth_gradient_mean_weight": 0.3355873227119446,
+      "other_mean_weight": 0.32807457447052
+    },
+    {
+      "id": 514,
+      "scene": "bedroom_0132",
+      "source_sha256": "1236eeba6b2540da710937b415011d0418879239f39fd4eba9666dc39d4ed455",
+      "derived_sha256": "2f47bf7e31fb804d6f68ce0f6a129a7b2c44f43b820ef2cde899b1995c09ec85",
+      "weight_sha256": "52ceeba77f7458efd8eadd9c01e49759acac8ff61da8caaac789fb2ef1e4a79d",
+      "full_valid_pixels": 211647,
+      "native_valid_pixels": 32307,
+      "sensitivity_mean_deg": 13.547054290771484,
+      "fullres": {
+        "mean_weight": 0.3803100995231588,
+        "min_weight": 4.760485899168998e-05,
+        "effective_fraction": 0.7195562649052021,
+        "fraction_below_0_1": 0.15510260008410232
+      },
+      "native": {
+        "mean_weight": 0.3881964817427149,
+        "min_weight": 0.00013184935960453004,
+        "effective_fraction": 0.7757206187273029,
+        "fraction_below_0_1": 0.09836877456897886
+      },
+      "high_depth_gradient_mean_weight": 0.500598132610321,
+      "other_mean_weight": 0.3669445812702179
+    },
+    {
+      "id": 863,
+      "scene": "kitchen_0045",
+      "source_sha256": "daa5631b9eb357fd34dca39d774e3421d20a891f5ca95cd4020db9e8519ad710",
+      "derived_sha256": "b439d9ca1ada3b1fc15c72e3bccf2273fb04e26b2e49a89855dae561e480545e",
+      "weight_sha256": "e0be31e1078ba5336d7f8f1a5fcb31d501935d1cc2b0415c852cef648eb30235",
+      "full_valid_pixels": 116357,
+      "native_valid_pixels": 16307,
+      "sensitivity_mean_deg": 19.099655151367188,
+      "fullres": {
+        "mean_weight": 0.30531449518495407,
+        "min_weight": 1.5063740647747181e-05,
+        "effective_fraction": 0.6136440341531146,
+        "fraction_below_0_1": 0.28172778603779747
+      },
+      "native": {
+        "mean_weight": 0.3280307985579485,
+        "min_weight": 5.352604785002768e-05,
+        "effective_fraction": 0.7014349480487011,
+        "fraction_below_0_1": 0.18298890047218985
+      },
+      "high_depth_gradient_mean_weight": 0.3037309944629669,
+      "other_mean_weight": 0.3054904639720917
+    },
+    {
+      "id": 372,
+      "scene": "home_office_0006",
+      "source_sha256": "54136145ec0d0c17dc8437bdc33ceee5d5e6498d6ec52b7dd55716a2b87db5dc",
+      "derived_sha256": "1b678402ceabf304f859708b716a683c8dca38202a316322cc3dc340f7c054e4",
+      "weight_sha256": "5aa3158092e85fbc7d1dabf064dcfd2286a33c8a92fb2a4ed4093ab04b612f68",
+      "full_valid_pixels": 170072,
+      "native_valid_pixels": 24969,
+      "sensitivity_mean_deg": 15.034424781799316,
+      "fullres": {
+        "mean_weight": 0.337509559098751,
+        "min_weight": 5.008319567423314e-05,
+        "effective_fraction": 0.6741533866237723,
+        "fraction_below_0_1": 0.19432358060115715
+      },
+      "native": {
+        "mean_weight": 0.34731770612610485,
+        "min_weight": 8.677430014358833e-05,
+        "effective_fraction": 0.7333600473792545,
+        "fraction_below_0_1": 0.12223156714325764
+      },
+      "high_depth_gradient_mean_weight": 0.36302849650382996,
+      "other_mean_weight": 0.33467400074005127
+    },
+    {
+      "id": 648,
+      "scene": "bathroom_0007",
+      "source_sha256": "4921252e34a039d59585557dca8f31fb183700c234d35e76ebae4f424d945bd8",
+      "derived_sha256": "fc8ad124052329c7b053a5d1f7303f9d8bf43bb2c999e8a0a8b9210c50175c19",
+      "weight_sha256": "5a0f4a832c8d490d0a5eda18b0e49d86e3e2971b19fec123b608b0a160ad495c",
+      "full_valid_pixels": 203145,
+      "native_valid_pixels": 31373,
+      "sensitivity_mean_deg": 10.708659172058105,
+      "fullres": {
+        "mean_weight": 0.4364241423262008,
+        "min_weight": 7.196961087174714e-05,
+        "effective_fraction": 0.8077152275761343,
+        "fraction_below_0_1": 0.08285707253439661
+      },
+      "native": {
+        "mean_weight": 0.4449786005962175,
+        "min_weight": 0.0003479048900771886,
+        "effective_fraction": 0.8662544843810079,
+        "fraction_below_0_1": 0.047907436330602744
+      },
+      "high_depth_gradient_mean_weight": 0.310776948928833,
+      "other_mean_weight": 0.45038536190986633
+    },
+    {
+      "id": 1132,
+      "scene": "bedroom_0104",
+      "source_sha256": "26eb84ba9080dde40a21887b7365b3fe7338896cfdc2c80196f349dedd58a6e9",
+      "derived_sha256": "1e508b34822ef175cbccebdbea6f9c938f23b052dc8fd0e86eb504aa88de0bea",
+      "weight_sha256": "c7693c5ea5e4c3bdff5b4412665f14dd816d505644bae0f78b6a9aabcc53e24d",
+      "full_valid_pixels": 184119,
+      "native_valid_pixels": 27943,
+      "sensitivity_mean_deg": 12.895417213439941,
+      "fullres": {
+        "mean_weight": 0.4127619110356014,
+        "min_weight": 1.9302791770314798e-05,
+        "effective_fraction": 0.7135837899604717,
+        "fraction_below_0_1": 0.15619246248350252
+      },
+      "native": {
+        "mean_weight": 0.4243813340705015,
+        "min_weight": 3.942168041248806e-05,
+        "effective_fraction": 0.765467187014732,
+        "fraction_below_0_1": 0.08295458612174784
+      },
+      "high_depth_gradient_mean_weight": 0.4919200837612152,
+      "other_mean_weight": 0.4039665162563324
+    },
+    {
+      "id": 1085,
+      "scene": "bedroom_0086",
+      "source_sha256": "6c71d76d8b9efc9e61483ea3fdbd58ef83553016616f9fab526b1cddfd9d60ac",
+      "derived_sha256": "7b2c0721cf266f19a77ca6d39e2e6a4f38cd483dc07972f261943761f6e5e878",
+      "weight_sha256": "2aad0cdcc9a4326b0ed3db4277b3261a2bb8acf48319b2e00aa3e76654383deb",
+      "full_valid_pixels": 214296,
+      "native_valid_pixels": 33063,
+      "sensitivity_mean_deg": 12.478921890258789,
+      "fullres": {
+        "mean_weight": 0.4097044956002499,
+        "min_weight": 2.714254333113786e-05,
+        "effective_fraction": 0.7361945166433945,
+        "fraction_below_0_1": 0.1431757942285437
+      },
+      "native": {
+        "mean_weight": 0.4167017251666897,
+        "min_weight": 0.00018486032786313444,
+        "effective_fraction": 0.7881344226704802,
+        "fraction_below_0_1": 0.08873967879502767
+      },
+      "high_depth_gradient_mean_weight": 0.5014448165893555,
+      "other_mean_weight": 0.39951092004776
+    },
+    {
+      "id": 540,
+      "scene": "bedroom_0140",
+      "source_sha256": "0ea2ce2cfa3cdf6af423c87b3ff2d0d0b273c5dab3480d260bd2a2142684a48c",
+      "derived_sha256": "3aa5419750bdd2fdbdf03e5554c391ae84d4ca45b80c1d27850818d654c187aa",
+      "weight_sha256": "7a72d66809f08c88cba1a1ee70c5963f76228d7f0bd27f886a952231e976eb07",
+      "full_valid_pixels": 201391,
+      "native_valid_pixels": 31186,
+      "sensitivity_mean_deg": 13.822491645812988,
+      "fullres": {
+        "mean_weight": 0.3598320655108783,
+        "min_weight": 3.351151826791465e-05,
+        "effective_fraction": 0.7226259900988905,
+        "fraction_below_0_1": 0.15852247617818074
+      },
+      "native": {
+        "mean_weight": 0.3638630019608397,
+        "min_weight": 6.714049231959507e-05,
+        "effective_fraction": 0.7806989068466205,
+        "fraction_below_0_1": 0.10161610979285576
+      },
+      "high_depth_gradient_mean_weight": 0.3520442843437195,
+      "other_mean_weight": 0.3606973886489868
+    },
+    {
+      "id": 1097,
+      "scene": "bedroom_0090",
+      "source_sha256": "5cdbea67bc5af56d01d8592c081deaf6575798ccb0be35a435feee72f2c406d3",
+      "derived_sha256": "ddd8de750c904b7897f1e3d12d0840db143eac860e70a94f698d272dcda47ac1",
+      "weight_sha256": "f88f00099e8730ded2c2039ef5b168eb4cff684b08a4b773d55d0daf85190515",
+      "full_valid_pixels": 158758,
+      "native_valid_pixels": 23457,
+      "sensitivity_mean_deg": 14.363069534301758,
+      "fullres": {
+        "mean_weight": 0.37305653612655254,
+        "min_weight": 3.146183007629588e-05,
+        "effective_fraction": 0.7052085127335722,
+        "fraction_below_0_1": 0.17411406039380692
+      },
+      "native": {
+        "mean_weight": 0.38947468621786946,
+        "min_weight": 6.881292210891843e-05,
+        "effective_fraction": 0.7695461937090752,
+        "fraction_below_0_1": 0.1075158801210726
+      },
+      "high_depth_gradient_mean_weight": 0.42555004358291626,
+      "other_mean_weight": 0.3672238290309906
+    },
+    {
+      "id": 1013,
+      "scene": "bedroom_0062",
+      "source_sha256": "30d997db1280a75b8ca5eaf195455757542cce814c811d7eeeaa65437d96bbe3",
+      "derived_sha256": "82f894dcbcca160553e9079695aacf1f716666f2dc84c1290213e4681a02f3a9",
+      "weight_sha256": "5f26399029877c87e71ce108eabc20672e63021f0f08e33b57b6bb458a1a8d8e",
+      "full_valid_pixels": 200227,
+      "native_valid_pixels": 30528,
+      "sensitivity_mean_deg": 12.058772087097168,
+      "fullres": {
+        "mean_weight": 0.4176158310355606,
+        "min_weight": 9.273401519749314e-05,
+        "effective_fraction": 0.7267281815124234,
+        "fraction_below_0_1": 0.13583083200567356
+      },
+      "native": {
+        "mean_weight": 0.4219683704076997,
+        "min_weight": 0.0008425861597061157,
+        "effective_fraction": 0.7691253240172407,
+        "fraction_below_0_1": 0.07959905660377359
+      },
+      "high_depth_gradient_mean_weight": 0.5937095880508423,
+      "other_mean_weight": 0.3980494737625122
+    },
+    {
+      "id": 135,
+      "scene": "kitchen_0008",
+      "source_sha256": "23abfb440976ffbec4f68edfc42742e0d4c20e7d21b62fe773e0c668cca2f047",
+      "derived_sha256": "7f1db75076953f41ad95364cca9e04533dcef2e9e51ba3cef099dca527cfb0cf",
+      "weight_sha256": "a0e39defa63317f30e80c731de1e8bb2c5cceae2d89c5c1ddb4c6055f53e695e",
+      "full_valid_pixels": 205030,
+      "native_valid_pixels": 31780,
+      "sensitivity_mean_deg": 11.749589920043945,
+      "fullres": {
+        "mean_weight": 0.4069679082513617,
+        "min_weight": 0.00010720373393269256,
+        "effective_fraction": 0.7649176824119055,
+        "fraction_below_0_1": 0.0979368872847876
+      },
+      "native": {
+        "mean_weight": 0.4116482789837809,
+        "min_weight": 0.00019666786829475313,
+        "effective_fraction": 0.8183942658634094,
+        "fraction_below_0_1": 0.0539332913782253
+      },
+      "high_depth_gradient_mean_weight": 0.4838903248310089,
+      "other_mean_weight": 0.39842095971107483
+    },
+    {
+      "id": 1376,
+      "scene": "dining_room_0014",
+      "source_sha256": "dbc77880fe49f72ffa3fe89897a7b8e572b4bfc8700b776a099736f49e92c63d",
+      "derived_sha256": "dbaa57bdbd0b2b8010434c374d19e448dbe1706834184745305858583e3fc0ca",
+      "weight_sha256": "8d7ca3c5808f655ef0abb96f37087b28f9d9aa5a941833805cb5ef4381c497a7",
+      "full_valid_pixels": 153972,
+      "native_valid_pixels": 22840,
+      "sensitivity_mean_deg": 15.71347713470459,
+      "fullres": {
+        "mean_weight": 0.3531536968411301,
+        "min_weight": 1.6074034647317603e-05,
+        "effective_fraction": 0.6959787347792401,
+        "fraction_below_0_1": 0.19803600654664485
+      },
+      "native": {
+        "mean_weight": 0.3682992830658981,
+        "min_weight": 0.00010159399971598759,
+        "effective_fraction": 0.7774775568749166,
+        "fraction_below_0_1": 0.12740805604203154
+      },
+      "high_depth_gradient_mean_weight": 0.35100314021110535,
+      "other_mean_weight": 0.35339266061782837
+    },
+    {
+      "id": 998,
+      "scene": "bedroom_0057",
+      "source_sha256": "ce8c34c0ab9ae25a56be27770307970f6945af443b89588cf05de979bbb3063e",
+      "derived_sha256": "5d2caef85a9affb8bc6fda1c4c910165f8180cb78b62ea7b32b21452810ca87c",
+      "weight_sha256": "66cf8c85d6bc1bc6bcb6e926d73c44f6511b153049d57217aaefcd8df7107c7a",
+      "full_valid_pixels": 203751,
+      "native_valid_pixels": 31316,
+      "sensitivity_mean_deg": 14.761841773986816,
+      "fullres": {
+        "mean_weight": 0.3473156145836767,
+        "min_weight": 1.4761721104150638e-05,
+        "effective_fraction": 0.700669615919215,
+        "fraction_below_0_1": 0.17028137285215778
+      },
+      "native": {
+        "mean_weight": 0.3528561578277583,
+        "min_weight": 2.697293348319363e-05,
+        "effective_fraction": 0.7658759912953332,
+        "fraction_below_0_1": 0.10394047771107422
+      },
+      "high_depth_gradient_mean_weight": 0.32242849469184875,
+      "other_mean_weight": 0.3500809967517853
+    },
+    {
+      "id": 286,
+      "scene": "classroom_0003",
+      "source_sha256": "31d3f99ec0ace435d86057321587894a35bfc10b79a0f44977c6914f715908be",
+      "derived_sha256": "0006d57177381b9c3adc569f783a2eb3349a044fd359c66d2f8e5a4c739d209b",
+      "weight_sha256": "c6dc70b451fe815f187cd808f3e8c03d8c4b01cae22d1f756a68d92010470a58",
+      "full_valid_pixels": 141669,
+      "native_valid_pixels": 20839,
+      "sensitivity_mean_deg": 16.02495765686035,
+      "fullres": {
+        "mean_weight": 0.332732876627358,
+        "min_weight": 3.140331682516262e-05,
+        "effective_fraction": 0.6558006401284237,
+        "fraction_below_0_1": 0.23772314338352074
+      },
+      "native": {
+        "mean_weight": 0.343925931254417,
+        "min_weight": 0.00014757046301383525,
+        "effective_fraction": 0.7206370512442494,
+        "fraction_below_0_1": 0.17539229329622344
+      },
+      "high_depth_gradient_mean_weight": 0.23122143745422363,
+      "other_mean_weight": 0.34401199221611023
+    },
+    {
+      "id": 5,
+      "scene": "office_0004",
+      "source_sha256": "8c2d9981c2553d95574a095e03f7c7a5bb0c7b6b38817a14f7b4a02e13059dc6",
+      "derived_sha256": "7d9a3c729e94d1986289f6616fad73cad719af20a7241271332dbb8d1200337c",
+      "weight_sha256": "2c944748579ed2bef7ac1160d7935dddc809cef6314097936763cb3df7de1615",
+      "full_valid_pixels": 209994,
+      "native_valid_pixels": 32230,
+      "sensitivity_mean_deg": 16.293285369873047,
+      "fullres": {
+        "mean_weight": 0.31271511287441833,
+        "min_weight": 2.9497985451598652e-05,
+        "effective_fraction": 0.6555529643504843,
+        "fraction_below_0_1": 0.216763336095317
+      },
+      "native": {
+        "mean_weight": 0.3183729796752641,
+        "min_weight": 8.637632708996534e-05,
+        "effective_fraction": 0.725356374788389,
+        "fraction_below_0_1": 0.13112007446478435
+      },
+      "high_depth_gradient_mean_weight": 0.36457934975624084,
+      "other_mean_weight": 0.30695223808288574
+    },
+    {
+      "id": 830,
+      "scene": "kitchen_0037",
+      "source_sha256": "8d4ce6069cae849286ff62939209966a8e4cee235683398139f92aa49e859b18",
+      "derived_sha256": "f04ba3d365496c0d7398726a9ab1af6843be8752fe57585ad426045dbe7723a6",
+      "weight_sha256": "1f441da3c91ba4b5c2f19fb7726574e9c1997ccf48723ec7ee9e2f7e43885328",
+      "full_valid_pixels": 167587,
+      "native_valid_pixels": 24990,
+      "sensitivity_mean_deg": 15.700072288513184,
+      "fullres": {
+        "mean_weight": 0.3425853426484926,
+        "min_weight": 1.451610205549514e-05,
+        "effective_fraction": 0.6937156291435455,
+        "fraction_below_0_1": 0.19457953182526092
+      },
+      "native": {
+        "mean_weight": 0.35384638375173905,
+        "min_weight": 3.3887336030602455e-05,
+        "effective_fraction": 0.7688206244992805,
+        "fraction_below_0_1": 0.12881152460984394
+      },
+      "high_depth_gradient_mean_weight": 0.2740808427333832,
+      "other_mean_weight": 0.35019710659980774
+    },
+    {
+      "id": 1404,
+      "scene": "dining_room_0024",
+      "source_sha256": "34eb49327db42b30bcc62dafeb72f23bf8e385ce58ca16ca680f14c6a90a8c7a",
+      "derived_sha256": "9eb63232855fc6cb336dbe1b6d223027c50bf87c81f02727cd3af411768a9aee",
+      "weight_sha256": "b5650b5062157c2c4be8225df993434ef1ad9af8d56c9f0298023db72276b8b9",
+      "full_valid_pixels": 84837,
+      "native_valid_pixels": 11604,
+      "sensitivity_mean_deg": 16.422046661376953,
+      "fullres": {
+        "mean_weight": 0.30653791426401644,
+        "min_weight": 3.1338186090579256e-05,
+        "effective_fraction": 0.674865250644603,
+        "fraction_below_0_1": 0.2174522908636562
+      },
+      "native": {
+        "mean_weight": 0.3253986723802277,
+        "min_weight": 9.499434963800013e-05,
+        "effective_fraction": 0.7754019413594219,
+        "fraction_below_0_1": 0.12323336780420545
+      },
+      "high_depth_gradient_mean_weight": 0.20817957818508148,
+      "other_mean_weight": 0.31746706366539
+    },
+    {
+      "id": 739,
+      "scene": "bathroom_0050",
+      "source_sha256": "9c39f67cb8c0ccd655cc2afe1308bcb0dcbdb2366244dfbdab0212c312d12adb",
+      "derived_sha256": "21e36c3fb3f30796f81d5bd133fc57b03a3d766570eafda836ce59f558cfae83",
+      "weight_sha256": "553773993a0909ba1e865237a1ae3b03578167c2a688edd324cdf410115e30c4",
+      "full_valid_pixels": 184181,
+      "native_valid_pixels": 28211,
+      "sensitivity_mean_deg": 15.499215126037598,
+      "fullres": {
+        "mean_weight": 0.2989143771135192,
+        "min_weight": 4.505478500504978e-05,
+        "effective_fraction": 0.7031948798039839,
+        "fraction_below_0_1": 0.16860045281543698
+      },
+      "native": {
+        "mean_weight": 0.3036942341352524,
+        "min_weight": 0.00011847420682897791,
+        "effective_fraction": 0.78931978225035,
+        "fraction_below_0_1": 0.09219807876360285
+      },
+      "high_depth_gradient_mean_weight": 0.3145831823348999,
+      "other_mean_weight": 0.29717332124710083
+    },
+    {
+      "id": 674,
+      "scene": "bathroom_0019",
+      "source_sha256": "1fadab71c2916af54e7eed31997a42fe0f64f707ee8f0ec3a80cc32877973018",
+      "derived_sha256": "9e7347d8fa8c51985b83788d1c6e7ff1f8859c61014198c3e2412bf53b2f3c43",
+      "weight_sha256": "adfe8487cdfaf443cd98745fa8b5077471efdf10fcda82de3bf13388bafeb750",
+      "full_valid_pixels": 181218,
+      "native_valid_pixels": 27521,
+      "sensitivity_mean_deg": 11.993855476379395,
+      "fullres": {
+        "mean_weight": 0.40341759589881815,
+        "min_weight": 2.0030040104757063e-05,
+        "effective_fraction": 0.7560729591310954,
+        "fraction_below_0_1": 0.10867022039753226
+      },
+      "native": {
+        "mean_weight": 0.4125128911087129,
+        "min_weight": 7.812944386387244e-05,
+        "effective_fraction": 0.8134697992767721,
+        "fraction_below_0_1": 0.059481850223465714
+      },
+      "high_depth_gradient_mean_weight": 0.3728873133659363,
+      "other_mean_weight": 0.40680986642837524
+    },
+    {
+      "id": 68,
+      "scene": "bedroom_0016",
+      "source_sha256": "c23909cfff460a810096e53125e37199e3ba1975c8292288e0657c911a66b2d0",
+      "derived_sha256": "59863340fa4517bdf5faf21f267f2bd943554268e279f5b71966c254cde369c1",
+      "weight_sha256": "aecfd50068e8d05c642c959ea0d2fa83a09547a899cf87b5891367d6dc29d482",
+      "full_valid_pixels": 215782,
+      "native_valid_pixels": 33345,
+      "sensitivity_mean_deg": 12.4800386428833,
+      "fullres": {
+        "mean_weight": 0.37167081919725625,
+        "min_weight": 5.9855137806152925e-05,
+        "effective_fraction": 0.7883240767655425,
+        "fraction_below_0_1": 0.09412740636383016
+      },
+      "native": {
+        "mean_weight": 0.3789229904280417,
+        "min_weight": 0.0001228287728736177,
+        "effective_fraction": 0.8648366916761446,
+        "fraction_below_0_1": 0.057339931024141554
+      },
+      "high_depth_gradient_mean_weight": 0.3405534327030182,
+      "other_mean_weight": 0.37512844800949097
+    },
+    {
+      "id": 458,
+      "scene": "reception_room_0002",
+      "source_sha256": "ca53cb53cd22eb36e89be3cdac215d2589bcc0c0159df052dab9548259815978",
+      "derived_sha256": "16a9561ceb8ab1d6927be8ea72c8cac128eecb5ea753d93d4a74a3dda89c2cfe",
+      "weight_sha256": "c762a16dbb7881335a0f38868293e7d59fe4b75f6fb39a4e3985fbfa7f4685e0",
+      "full_valid_pixels": 46895,
+      "native_valid_pixels": 6370,
+      "sensitivity_mean_deg": 17.49093246459961,
+      "fullres": {
+        "mean_weight": 0.3128175627071854,
+        "min_weight": 2.3763224817230366e-05,
+        "effective_fraction": 0.6306291950530448,
+        "fraction_below_0_1": 0.258790915875893
+      },
+      "native": {
+        "mean_weight": 0.33620091694892335,
+        "min_weight": 0.00014355884923134,
+        "effective_fraction": 0.7089628386927457,
+        "fraction_below_0_1": 0.16593406593406593
+      },
+      "high_depth_gradient_mean_weight": 0.25371983647346497,
+      "other_mean_weight": 0.31938472390174866
+    },
+    {
+      "id": 661,
+      "scene": "bathroom_0014",
+      "source_sha256": "c368a1aee77b2368e559d550d6113fc5365133a94be203ff955a6edda74342f4",
+      "derived_sha256": "b465d0e5e445065794d3bf06a7a56c0a5d554ee60bf36227fbaff5fe9da4f81e",
+      "weight_sha256": "c99723a3e05486857e97201393b8ba4085cbe9a107ae35c24278ca529b044bcd",
+      "full_valid_pixels": 137802,
+      "native_valid_pixels": 19989,
+      "sensitivity_mean_deg": 17.610401153564453,
+      "fullres": {
+        "mean_weight": 0.2666218861343146,
+        "min_weight": 3.60475096385926e-05,
+        "effective_fraction": 0.6242907696963693,
+        "fraction_below_0_1": 0.25905284393550165
+      },
+      "native": {
+        "mean_weight": 0.2737776504141058,
+        "min_weight": 0.00011254374840063974,
+        "effective_fraction": 0.7039055450964459,
+        "fraction_below_0_1": 0.15168342588423633
+      },
+      "high_depth_gradient_mean_weight": 0.23738765716552734,
+      "other_mean_weight": 0.2698703408241272
+    },
+    {
+      "id": 609,
+      "scene": "office_0019",
+      "source_sha256": "cac1f3276286e328100ed82e21c707259da2722135a605aced6f540a41ecde61",
+      "derived_sha256": "05ea11818ad196a9c923f4ed1983032aacb7ee5f4cc847ca8a506437192c9641",
+      "weight_sha256": "daea98e1a7427c1d0115f12279423cd0a5927e4d40b3a2d4a91841444841621d",
+      "full_valid_pixels": 179832,
+      "native_valid_pixels": 27112,
+      "sensitivity_mean_deg": 12.636160850524902,
+      "fullres": {
+        "mean_weight": 0.4093357638615598,
+        "min_weight": 1.9893128410330974e-05,
+        "effective_fraction": 0.7540921254006321,
+        "fraction_below_0_1": 0.11581364829396325
+      },
+      "native": {
+        "mean_weight": 0.42254405698604514,
+        "min_weight": 8.215024718083441e-05,
+        "effective_fraction": 0.819779632424898,
+        "fraction_below_0_1": 0.06521097668928888
+      },
+      "high_depth_gradient_mean_weight": 0.5093681216239929,
+      "other_mean_weight": 0.3982205092906952
+    },
+    {
+      "id": 1236,
+      "scene": "living_room_0037",
+      "source_sha256": "7ca69673cc85649e870aeb6bba17b03d39c88e3a53d4131c02e70a66c9921024",
+      "derived_sha256": "54bb404dd30bcaae9a48e659f8f85795b8ce3270397b55e3f3872a4fde9cfaaf",
+      "weight_sha256": "2efe23874bc6b8666ca7e752880a96682713025f21a47e63eb22c26370707255",
+      "full_valid_pixels": 179658,
+      "native_valid_pixels": 27380,
+      "sensitivity_mean_deg": 11.962474822998047,
+      "fullres": {
+        "mean_weight": 0.39276812296858615,
+        "min_weight": 7.814387936377898e-05,
+        "effective_fraction": 0.7815798900032974,
+        "fraction_below_0_1": 0.09329392512440303
+      },
+      "native": {
+        "mean_weight": 0.4015050813900669,
+        "min_weight": 0.00046887481585144997,
+        "effective_fraction": 0.8529585502344033,
+        "fraction_below_0_1": 0.04970781592403214
+      },
+      "high_depth_gradient_mean_weight": 0.4000161588191986,
+      "other_mean_weight": 0.39196279644966125
+    },
+    {
+      "id": 1317,
+      "scene": "living_room_0068",
+      "source_sha256": "78c2c1c3fa50e5835a755e3d97bf159afe4348f53db3346aa88f2ed9c53e1660",
+      "derived_sha256": "8737a8cf6be19f90363b6ef089eac1200ffd5f59bbf4e10d94bb984a8422c0c7",
+      "weight_sha256": "b3b3f28b19686f93e2eb02e89b16a5c85bebd7cda0b07374e4e8ca93ab581c94",
+      "full_valid_pixels": 183931,
+      "native_valid_pixels": 27703,
+      "sensitivity_mean_deg": 15.463417053222656,
+      "fullres": {
+        "mean_weight": 0.3206296904295248,
+        "min_weight": 1.764187436492648e-05,
+        "effective_fraction": 0.691741219000326,
+        "fraction_below_0_1": 0.18576531416672556
+      },
+      "native": {
+        "mean_weight": 0.32688917805056705,
+        "min_weight": 0.0001785053318599239,
+        "effective_fraction": 0.7638589192653362,
+        "fraction_below_0_1": 0.11121539183481934
+      },
+      "high_depth_gradient_mean_weight": 0.3041045069694519,
+      "other_mean_weight": 0.3224658966064453
+    },
+    {
+      "id": 1172,
+      "scene": "bedroom_0118",
+      "source_sha256": "bba786487e9ca63dd25e92ccf883d3646d40e0ec67baf9016b0d6c0af5e5e4fd",
+      "derived_sha256": "e5e7a437f577431989761e5d55c786545f91f298a067e83ca14d083d0aa90429",
+      "weight_sha256": "761a5fb7c4226a43f1f7258b60c261bb265a2af9cf40907147a78f2415881ad3",
+      "full_valid_pixels": 225833,
+      "native_valid_pixels": 35287,
+      "sensitivity_mean_deg": 11.763398170471191,
+      "fullres": {
+        "mean_weight": 0.39603350521097747,
+        "min_weight": 8.07237665867433e-05,
+        "effective_fraction": 0.7682169752115422,
+        "fraction_below_0_1": 0.09362227840926703
+      },
+      "native": {
+        "mean_weight": 0.39895686112929124,
+        "min_weight": 0.000431285792728886,
+        "effective_fraction": 0.8223390686558404,
+        "fraction_below_0_1": 0.04585258027035452
+      },
+      "high_depth_gradient_mean_weight": 0.44183266162872314,
+      "other_mean_weight": 0.39094454050064087
+    },
+    {
+      "id": 1312,
+      "scene": "living_room_0063",
+      "source_sha256": "83c1596ff2d1150cd22fbded440f1d941603b6e73071644656cc10858ba312cb",
+      "derived_sha256": "9dc4a8e73cc980026596261e9f9239940ae2911b4e4ee9bbe529a578dec10485",
+      "weight_sha256": "7d72faa8b96555626021f39da25c99743be0abb0919eb781f72c303d30a8ef32",
+      "full_valid_pixels": 174398,
+      "native_valid_pixels": 25876,
+      "sensitivity_mean_deg": 15.662582397460938,
+      "fullres": {
+        "mean_weight": 0.3403422939391292,
+        "min_weight": 2.247656630061101e-05,
+        "effective_fraction": 0.6822602188094867,
+        "fraction_below_0_1": 0.19892429959059163
+      },
+      "native": {
+        "mean_weight": 0.3533888131757643,
+        "min_weight": 5.1145329052815214e-05,
+        "effective_fraction": 0.7547897777536948,
+        "fraction_below_0_1": 0.12567630236512597
+      },
+      "high_depth_gradient_mean_weight": 0.24052123725414276,
+      "other_mean_weight": 0.3514336943626404
+    },
+    {
+      "id": 895,
+      "scene": "kitchen_0052",
+      "source_sha256": "ebb4d415e89f08164580caba8a49a430256261f5c43261a7c48774ca93aa7e3e",
+      "derived_sha256": "bedda58ce176cd69fbe2a6df778d29b54e5bcc105c0869e3647b6c777824b36a",
+      "weight_sha256": "16ab096b4d9b16a84ed7cc6d99108fd4c6f3c73740d015faa2f0bc491eef8ef3",
+      "full_valid_pixels": 182780,
+      "native_valid_pixels": 27555,
+      "sensitivity_mean_deg": 13.486615180969238,
+      "fullres": {
+        "mean_weight": 0.356600859629019,
+        "min_weight": 0.00012259886716492474,
+        "effective_fraction": 0.7323312043563246,
+        "fraction_below_0_1": 0.12949447423131633
+      },
+      "native": {
+        "mean_weight": 0.36569309726925614,
+        "min_weight": 0.0007174782804213464,
+        "effective_fraction": 0.801724101695396,
+        "fraction_below_0_1": 0.06956995100707676
+      },
+      "high_depth_gradient_mean_weight": 0.3461133539676666,
+      "other_mean_weight": 0.35776612162590027
+    },
+    {
+      "id": 1008,
+      "scene": "bedroom_0060",
+      "source_sha256": "6ad36213e1a94f750b237613c12845fdc89b18a21e24df7d75ef78d354d1d297",
+      "derived_sha256": "f9b74d08f2b32f75eefccd05e9d8b842c3ca359ead007324c5b148ffa73e019d",
+      "weight_sha256": "82dc4521e561d3bd24f04b42b95e014ead2ef74bb4df4f6704bbff6170bd8ae0",
+      "full_valid_pixels": 207626,
+      "native_valid_pixels": 31813,
+      "sensitivity_mean_deg": 15.376715660095215,
+      "fullres": {
+        "mean_weight": 0.3176431751649887,
+        "min_weight": 2.8833659598603845e-05,
+        "effective_fraction": 0.6778324089139335,
+        "fraction_below_0_1": 0.20216639534547695
+      },
+      "native": {
+        "mean_weight": 0.3211452272268554,
+        "min_weight": 8.886091382009909e-05,
+        "effective_fraction": 0.7437182205631395,
+        "fraction_below_0_1": 0.12677207430924464
+      },
+      "high_depth_gradient_mean_weight": 0.3788805305957794,
+      "other_mean_weight": 0.31083887815475464
+    },
+    {
+      "id": 608,
+      "scene": "office_0018",
+      "source_sha256": "b27637a13c7ff03d57826c7cd67a718e567f2a4dac447b203dce692a9e362363",
+      "derived_sha256": "f75893ef4ccbe96353be6e06f137580e902e4af88456f9025cfac7057020b4d9",
+      "weight_sha256": "93d4fa1cfe4f03f0f446b15be2be039dffdcb70b78f0241d6168e6168561b6ff",
+      "full_valid_pixels": 168641,
+      "native_valid_pixels": 25476,
+      "sensitivity_mean_deg": 13.196555137634277,
+      "fullres": {
+        "mean_weight": 0.3786032314024406,
+        "min_weight": 2.8390641091391444e-05,
+        "effective_fraction": 0.7389885539884897,
+        "fraction_below_0_1": 0.12943471635011652
+      },
+      "native": {
+        "mean_weight": 0.38848633275221783,
+        "min_weight": 0.00013286092143971473,
+        "effective_fraction": 0.8077062012326458,
+        "fraction_below_0_1": 0.06814256555189198
+      },
+      "high_depth_gradient_mean_weight": 0.5200395584106445,
+      "other_mean_weight": 0.3628871440887451
+    },
+    {
+      "id": 321,
+      "scene": "classroom_0022",
+      "source_sha256": "182b814f79267a7b555bae2357339bb827ce81bb73ea32a2e00e183b49741e8c",
+      "derived_sha256": "11972c3b0a143697c5fac9f99b79b1193bf0edd01cac68b29e2c32c66aa3c250",
+      "weight_sha256": "ad8a663414db26709c2b3b664ee6b70eb7b78c9c506ace22d12692f931906618",
+      "full_valid_pixels": 136622,
+      "native_valid_pixels": 19573,
+      "sensitivity_mean_deg": 22.118396759033203,
+      "fullres": {
+        "mean_weight": 0.2269098283814681,
+        "min_weight": 1.6213753042393364e-05,
+        "effective_fraction": 0.5548078613606268,
+        "fraction_below_0_1": 0.36521204491223963
+      },
+      "native": {
+        "mean_weight": 0.23635725434190608,
+        "min_weight": 0.00012260042421985418,
+        "effective_fraction": 0.6393621679365629,
+        "fraction_below_0_1": 0.27624789250498133
+      },
+      "high_depth_gradient_mean_weight": 0.16391927003860474,
+      "other_mean_weight": 0.2339092344045639
+    },
+    {
+      "id": 217,
+      "scene": "bedroom_0020",
+      "source_sha256": "fc602f260b6a01a9b5fa211d0d9ca7a781c6beb84586c1bbc8845dd591b3d199",
+      "derived_sha256": "cdbd12a65b06364362538ae590357dd643c3f1db58ce49de3878a1cfdddd9c79",
+      "weight_sha256": "e430d7e5d1da91641e481a77e851cc8dadd0ef3e1f1624c37894c2b32be3f3fb",
+      "full_valid_pixels": 218527,
+      "native_valid_pixels": 33905,
+      "sensitivity_mean_deg": 12.261137008666992,
+      "fullres": {
+        "mean_weight": 0.3744186026969157,
+        "min_weight": 8.662178879603744e-05,
+        "effective_fraction": 0.779261340492348,
+        "fraction_below_0_1": 0.08785642048808615
+      },
+      "native": {
+        "mean_weight": 0.37821504916819915,
+        "min_weight": 0.00047591354814358056,
+        "effective_fraction": 0.8485145382658785,
+        "fraction_below_0_1": 0.05070048665388586
+      },
+      "high_depth_gradient_mean_weight": 0.43072614073753357,
+      "other_mean_weight": 0.3681621551513672
+    },
+    {
+      "id": 499,
+      "scene": "bathroom_0054",
+      "source_sha256": "821910658cc3b57db362b60e1eb9dbf4779578ff0c9db36fab53815278566030",
+      "derived_sha256": "2d0249dc0ad8c486e5b8d9d067bd3085b861a4362efff7adacbe16385d18845a",
+      "weight_sha256": "b55aa976e5310f098a278ed281f0896fdd6c715de8c079370f5e6f176d98ab4f",
+      "full_valid_pixels": 185409,
+      "native_valid_pixels": 28318,
+      "sensitivity_mean_deg": 12.268050193786621,
+      "fullres": {
+        "mean_weight": 0.3964211659120458,
+        "min_weight": 4.799685484613292e-05,
+        "effective_fraction": 0.7711455020858541,
+        "fraction_below_0_1": 0.10651586492565086
+      },
+      "native": {
+        "mean_weight": 0.40510354266898696,
+        "min_weight": 0.00011401755182305351,
+        "effective_fraction": 0.8333971377767797,
+        "fraction_below_0_1": 0.06218659509852391
+      },
+      "high_depth_gradient_mean_weight": 0.40761685371398926,
+      "other_mean_weight": 0.3951772153377533
+    },
+    {
+      "id": 1029,
+      "scene": "bedroom_0067",
+      "source_sha256": "871f23e459bdf54f5a98d0c24b120afde10a798fb8b87e740baf8147dc98ef0c",
+      "derived_sha256": "4c4df201207a644de4042f0cf9fd049bf79bf3ffa017a6cd7cd1fb91d3096503",
+      "weight_sha256": "851d75351769bd3eb419b57c947307a045f2abeb7045001c25ea231ef53cc71c",
+      "full_valid_pixels": 199757,
+      "native_valid_pixels": 30802,
+      "sensitivity_mean_deg": 13.754035949707031,
+      "fullres": {
+        "mean_weight": 0.37256602818635687,
+        "min_weight": 2.3574366423417814e-05,
+        "effective_fraction": 0.7028387084035631,
+        "fraction_below_0_1": 0.17573351622220998
+      },
+      "native": {
+        "mean_weight": 0.37715586741343626,
+        "min_weight": 0.00013523796224035323,
+        "effective_fraction": 0.7557703362091973,
+        "fraction_below_0_1": 0.11694045841179145
+      },
+      "high_depth_gradient_mean_weight": 0.4635510742664337,
+      "other_mean_weight": 0.36245641112327576
+    },
+    {
+      "id": 1333,
+      "scene": "living_room_0078",
+      "source_sha256": "c2a62c0449ab1be73da235b65985699c6a86488f45ab50a29d96f1a00f9ce039",
+      "derived_sha256": "50539759f53a9df4e44c420a8dec7b0883597893f41d8a24a7eb6bb29369fb61",
+      "weight_sha256": "7ae150a9990300ed0de338921c7d3dba60eff7e2aa655ae84c53e36b285ea009",
+      "full_valid_pixels": 178045,
+      "native_valid_pixels": 26918,
+      "sensitivity_mean_deg": 14.628593444824219,
+      "fullres": {
+        "mean_weight": 0.356201938266299,
+        "min_weight": 1.2200256605865434e-05,
+        "effective_fraction": 0.6915365272623663,
+        "fraction_below_0_1": 0.1820213990845011
+      },
+      "native": {
+        "mean_weight": 0.3655945533104211,
+        "min_weight": 4.608104063663632e-05,
+        "effective_fraction": 0.7509832816434475,
+        "fraction_below_0_1": 0.11977115684671967
+      },
+      "high_depth_gradient_mean_weight": 0.233270063996315,
+      "other_mean_weight": 0.3698614537715912
+    },
+    {
+      "id": 958,
+      "scene": "bedroom_0042",
+      "source_sha256": "9adc64fe0a9bb80f76717f6f2eb4dfc4fe55b0e435d1614d0d51cb53bfacfd3c",
+      "derived_sha256": "a280547d2f81aebae228ade15920118426592e551592de4ff016979d77b20b6b",
+      "weight_sha256": "d7dfbf17a11f5c4972baae1a46439ff672195fbe78d30fb269ede1b129b3cc34",
+      "full_valid_pixels": 211709,
+      "native_valid_pixels": 32757,
+      "sensitivity_mean_deg": 13.108420372009277,
+      "fullres": {
+        "mean_weight": 0.3630447176785252,
+        "min_weight": 7.521935913246125e-05,
+        "effective_fraction": 0.7390072416174065,
+        "fraction_below_0_1": 0.12223854441710083
+      },
+      "native": {
+        "mean_weight": 0.36869639944698335,
+        "min_weight": 0.00038672753726132214,
+        "effective_fraction": 0.8046285824137696,
+        "fraction_below_0_1": 0.0658485209268248
+      },
+      "high_depth_gradient_mean_weight": 0.4511110782623291,
+      "other_mean_weight": 0.35325950384140015
+    },
+    {
+      "id": 1027,
+      "scene": "bedroom_0066",
+      "source_sha256": "7327f9b1819d4f785b4e584ceb053609cbc4ef1f31404af78ee707c971c7a57b",
+      "derived_sha256": "de887292a8a01a31040cf26823f30f3184edd3d0a37e54ff50de5b1dcb087f21",
+      "weight_sha256": "e10a578417bb239d3d70d80cd9a3cd14af50bdfc928fb29d30abfabf1ad82eb3",
+      "full_valid_pixels": 201106,
+      "native_valid_pixels": 30932,
+      "sensitivity_mean_deg": 13.409175872802734,
+      "fullres": {
+        "mean_weight": 0.35066163515258203,
+        "min_weight": 5.745364978793077e-05,
+        "effective_fraction": 0.7467689450105638,
+        "fraction_below_0_1": 0.11794277644625223
+      },
+      "native": {
+        "mean_weight": 0.35679451692728037,
+        "min_weight": 9.836695244302973e-05,
+        "effective_fraction": 0.8193827356439985,
+        "fraction_below_0_1": 0.0558321479374111
+      },
+      "high_depth_gradient_mean_weight": 0.4314664304256439,
+      "other_mean_weight": 0.34168311953544617
+    },
+    {
+      "id": 1320,
+      "scene": "living_room_0069",
+      "source_sha256": "e824de539c7f726419fa71665aa31333b953ab7738d882d8431c130ce501cf4e",
+      "derived_sha256": "88241a21274e5f748d01aab11722ae2dd9656efbe98044f16aebda682c0595dd",
+      "weight_sha256": "b70c08aa31a73669a6511306e85dcda47c4255f5e49b0e7feced34a42145b4ad",
+      "full_valid_pixels": 184592,
+      "native_valid_pixels": 28292,
+      "sensitivity_mean_deg": 15.16794490814209,
+      "fullres": {
+        "mean_weight": 0.2978268635221335,
+        "min_weight": 5.736008097301237e-05,
+        "effective_fraction": 0.722507318955934,
+        "fraction_below_0_1": 0.14354359885585508
+      },
+      "native": {
+        "mean_weight": 0.30236714187654873,
+        "min_weight": 9.93849171209149e-05,
+        "effective_fraction": 0.8138758306512224,
+        "fraction_below_0_1": 0.07076205287713841
+      },
+      "high_depth_gradient_mean_weight": 0.289574533700943,
+      "other_mean_weight": 0.2987438440322876
+    },
+    {
+      "id": 1309,
+      "scene": "living_room_0062",
+      "source_sha256": "6c98337384f03ba8f20a308f51ecf17a6815787de723865c037a485137d6d752",
+      "derived_sha256": "584a7e94dc88a6832053767e8e23de1f590497b723b14035d74abb982aa0da8b",
+      "weight_sha256": "e9dec6e3867a90537a42dc00d87c57206a732964df64a0f870d8cee532963cc4",
+      "full_valid_pixels": 168478,
+      "native_valid_pixels": 25262,
+      "sensitivity_mean_deg": 14.623363494873047,
+      "fullres": {
+        "mean_weight": 0.3713881587861976,
+        "min_weight": 3.0255823730840348e-05,
+        "effective_fraction": 0.6872586243130027,
+        "fraction_below_0_1": 0.19607901328363347
+      },
+      "native": {
+        "mean_weight": 0.38260859063387137,
+        "min_weight": 0.00012236526526976377,
+        "effective_fraction": 0.7428303858138113,
+        "fraction_below_0_1": 0.1373604623545246
+      },
+      "high_depth_gradient_mean_weight": 0.2228865921497345,
+      "other_mean_weight": 0.3878885507583618
+    },
+    {
+      "id": 48,
+      "scene": "bathroom_0005",
+      "source_sha256": "91bc95d587e5755b92590b67f68accb4913ed97ea9b69044f5e8aec5a993fd69",
+      "derived_sha256": "6f6247d1fcded20b087c0c627f0e312af0eb96b2c2f8667b27c1284940fe0b4d",
+      "weight_sha256": "1758a0f44f357f80c775c62bdcd1e1f88585347b0b517bd66e319fa8b9e98c7c",
+      "full_valid_pixels": 178843,
+      "native_valid_pixels": 27222,
+      "sensitivity_mean_deg": 12.637272834777832,
+      "fullres": {
+        "mean_weight": 0.36535528125168437,
+        "min_weight": 4.3035925045842305e-05,
+        "effective_fraction": 0.7663984447637509,
+        "fraction_below_0_1": 0.0930928244326029
+      },
+      "native": {
+        "mean_weight": 0.3733749880523567,
+        "min_weight": 0.00013373226101975888,
+        "effective_fraction": 0.8399786936512181,
+        "fraction_below_0_1": 0.04709426199397546
+      },
+      "high_depth_gradient_mean_weight": 0.32721057534217834,
+      "other_mean_weight": 0.3695937395095825
+    },
+    {
+      "id": 336,
+      "scene": "computer_lab_0002",
+      "source_sha256": "1decf34b3856b22d7000bc2b9f48c6342d8c1cb16765df5668d322a7ca857577",
+      "derived_sha256": "0bcb0f65a4aacdad5fbfc06c6c43e35915aa50cb4b0c16d125b75fce81ca02fa",
+      "weight_sha256": "11d92ab696f7a5cc0ad0df5895faa91e8f966ba17e2efcf04265e9a7cac52957",
+      "full_valid_pixels": 191624,
+      "native_valid_pixels": 28946,
+      "sensitivity_mean_deg": 14.895018577575684,
+      "fullres": {
+        "mean_weight": 0.3287039916233816,
+        "min_weight": 3.9044061850290745e-05,
+        "effective_fraction": 0.7194494481745402,
+        "fraction_below_0_1": 0.15209472717404918
+      },
+      "native": {
+        "mean_weight": 0.3369819078386699,
+        "min_weight": 0.00010695462697185576,
+        "effective_fraction": 0.8025374020462352,
+        "fraction_below_0_1": 0.08564223035998066
+      },
+      "high_depth_gradient_mean_weight": 0.3498842716217041,
+      "other_mean_weight": 0.32635053992271423
+    },
+    {
+      "id": 700,
+      "scene": "bathroom_0033",
+      "source_sha256": "8934abeef793c2d1564bd7561491e73b76111edfd98b49da37e6c69d8c4b9028",
+      "derived_sha256": "e302817e225bcacdd75a5d14cee295a489d4d72b6f8be2c3779ff87ec5cd9578",
+      "weight_sha256": "8143e21ff8e305f2a09946e18692569ed4bf64b4938ced88fb02568156bfade2",
+      "full_valid_pixels": 181641,
+      "native_valid_pixels": 27880,
+      "sensitivity_mean_deg": 10.184443473815918,
+      "fullres": {
+        "mean_weight": 0.45147283596674465,
+        "min_weight": 7.596266368636861e-05,
+        "effective_fraction": 0.8091931421392875,
+        "fraction_below_0_1": 0.07565472553002901
+      },
+      "native": {
+        "mean_weight": 0.4602251030345238,
+        "min_weight": 0.00036284702946431935,
+        "effective_fraction": 0.8593226625153622,
+        "fraction_below_0_1": 0.04296987087517934
+      },
+      "high_depth_gradient_mean_weight": 0.3787538409233093,
+      "other_mean_weight": 0.45955318212509155
+    },
+    {
+      "id": 986,
+      "scene": "bedroom_0052",
+      "source_sha256": "a66eee654c7eb99ca9c61885e180741f58eb3824176351e8ad2141420fb7ae13",
+      "derived_sha256": "66e1ab4eebbb44e756e0b189ed7df873567a2a14107af6600843a5138ac507a4",
+      "weight_sha256": "ff4614c387991afbaef76c5f69adcf63201bc4d48fb5e318d0b24910247e7236",
+      "full_valid_pixels": 177258,
+      "native_valid_pixels": 26718,
+      "sensitivity_mean_deg": 13.433588027954102,
+      "fullres": {
+        "mean_weight": 0.40932490394279525,
+        "min_weight": 4.1897590563166887e-05,
+        "effective_fraction": 0.697952575878973,
+        "fraction_below_0_1": 0.18051653521984903
+      },
+      "native": {
+        "mean_weight": 0.4218910783300159,
+        "min_weight": 8.983183215605095e-05,
+        "effective_fraction": 0.7468915208466529,
+        "fraction_below_0_1": 0.11239613743543679
+      },
+      "high_depth_gradient_mean_weight": 0.45702245831489563,
+      "other_mean_weight": 0.4040251076221466
+    },
+    {
+      "id": 500,
+      "scene": "bathroom_0055",
+      "source_sha256": "af039ce1d84ec54c850316d29b5efc54dde5c1a660e7441aed2e4d44a747bcc0",
+      "derived_sha256": "f36f1ffcc553b0c6b602db5002f6f94c1d6456489f77f25dbc107757f31c02fa",
+      "weight_sha256": "16e1177fa85336b72720458a3a221e29e49ebf23197697e65b3ab0caccbe619f",
+      "full_valid_pixels": 190898,
+      "native_valid_pixels": 28808,
+      "sensitivity_mean_deg": 13.032166481018066,
+      "fullres": {
+        "mean_weight": 0.3822606101236621,
+        "min_weight": 3.537561497068964e-05,
+        "effective_fraction": 0.7473724897886064,
+        "fraction_below_0_1": 0.12418673846766336
+      },
+      "native": {
+        "mean_weight": 0.3888880702934186,
+        "min_weight": 0.00013458084140438586,
+        "effective_fraction": 0.8109314604133236,
+        "fraction_below_0_1": 0.06987642321577339
+      },
+      "high_depth_gradient_mean_weight": 0.40389296412467957,
+      "other_mean_weight": 0.37985697388648987
+    },
+    {
+      "id": 735,
+      "scene": "bathroom_0048",
+      "source_sha256": "24e9530fa25ab05d1dec2812a49542e5e2c8f45a642d7d34003682674e6ef632",
+      "derived_sha256": "a6d004840278941f440b8c6e179c0e239365e5febc8fa0f134bd8851a32a205b",
+      "weight_sha256": "c22d5d97ac12673295c9bf69c1e67de41dd2a4ff11125b50886eb6aade987bbe",
+      "full_valid_pixels": 128426,
+      "native_valid_pixels": 18868,
+      "sensitivity_mean_deg": 13.355757713317871,
+      "fullres": {
+        "mean_weight": 0.3697001542285888,
+        "min_weight": 6.942702020751312e-05,
+        "effective_fraction": 0.7166624469522491,
+        "fraction_below_0_1": 0.13926307756996248
+      },
+      "native": {
+        "mean_weight": 0.38168545919066293,
+        "min_weight": 0.0003927145153284073,
+        "effective_fraction": 0.7801674627096525,
+        "fraction_below_0_1": 0.07080771676913292
+      },
+      "high_depth_gradient_mean_weight": 0.44077086448669434,
+      "other_mean_weight": 0.3618031144142151
+    },
+    {
+      "id": 684,
+      "scene": "bathroom_0024",
+      "source_sha256": "d9e80d2d24c29acb749d954456f00d74c8c4255772f9b0e5f0f4f538b4e18b3e",
+      "derived_sha256": "d1cf7dd5a364e84d2671c93edf53735a547d18b8a56ae94e7b720cc12f57dbd3",
+      "weight_sha256": "fa4d67cf4ae57efb47944628f35bab657b57429bba68e21fae561939889a97a5",
+      "full_valid_pixels": 209713,
+      "native_valid_pixels": 32417,
+      "sensitivity_mean_deg": 12.532065391540527,
+      "fullres": {
+        "mean_weight": 0.3796968376469103,
+        "min_weight": 1.4786081010242924e-05,
+        "effective_fraction": 0.731696968409669,
+        "fraction_below_0_1": 0.11216281298727308
+      },
+      "native": {
+        "mean_weight": 0.38341086435429794,
+        "min_weight": 7.118431676644832e-05,
+        "effective_fraction": 0.785428542417914,
+        "fraction_below_0_1": 0.055742357405065245
+      },
+      "high_depth_gradient_mean_weight": 0.5269863605499268,
+      "other_mean_weight": 0.3633307218551636
+    },
+    {
+      "id": 318,
+      "scene": "classroom_0018",
+      "source_sha256": "444dab4bdf2321a84fd4d2d650a38dff7262ef4f386b1b8fcd8722a1d09e24ab",
+      "derived_sha256": "87e0fcdfbd70b3a3f6cd1c493916a605f97ddeb97494fc03e0612b365a358bd6",
+      "weight_sha256": "49ee63e5d3e7cabbb7a015e82d294f1d901ca85f2af1ec25829cfbe4bacc62a2",
+      "full_valid_pixels": 154717,
+      "native_valid_pixels": 22271,
+      "sensitivity_mean_deg": 18.807031631469727,
+      "fullres": {
+        "mean_weight": 0.29653012150237035,
+        "min_weight": 2.1825835574418306e-05,
+        "effective_fraction": 0.6078409688040763,
+        "fraction_below_0_1": 0.2895932573666759
+      },
+      "native": {
+        "mean_weight": 0.31161505798163963,
+        "min_weight": 4.768602957483381e-05,
+        "effective_fraction": 0.6815685026123541,
+        "fraction_below_0_1": 0.20775896906290692
+      },
+      "high_depth_gradient_mean_weight": 0.20711749792099,
+      "other_mean_weight": 0.3064650893211365
+    },
+    {
+      "id": 398,
+      "scene": "home_storage_0001",
+      "source_sha256": "ec905855affdc53a531574e91a1949aa43b53cce5973f3fea37c220075669d13",
+      "derived_sha256": "21f61f81e0632673f7fffae2db24a75fbfb0fd857c0f51c8fddd10d7c6b23edf",
+      "weight_sha256": "cd130df0217b4b59a21104f8a13a15ca7ac261db12539b37582474c580a793a4",
+      "full_valid_pixels": 191634,
+      "native_valid_pixels": 28687,
+      "sensitivity_mean_deg": 15.931486129760742,
+      "fullres": {
+        "mean_weight": 0.3357576056800694,
+        "min_weight": 1.8681681467569433e-05,
+        "effective_fraction": 0.6680866821275415,
+        "fraction_below_0_1": 0.21371990356617301
+      },
+      "native": {
+        "mean_weight": 0.3458064587073439,
+        "min_weight": 5.492093987413682e-05,
+        "effective_fraction": 0.7386022061512615,
+        "fraction_below_0_1": 0.13954055844110572
+      },
+      "high_depth_gradient_mean_weight": 0.3727158010005951,
+      "other_mean_weight": 0.3316510021686554
+    },
+    {
+      "id": 719,
+      "scene": "bathroom_0041",
+      "source_sha256": "cc52007cb2acf5804790bc010a4e569d6046e972984ae1e42bcb5f6f1439dfb7",
+      "derived_sha256": "6b2f8bc4b4d698fc407192d4a50d35e4804296ed26049ec8d8c01559c591e53b",
+      "weight_sha256": "760186ad3dff27f27aa4657b2dbecb1f297adb07044be0fae6ff2864b3af19ac",
+      "full_valid_pixels": 139109,
+      "native_valid_pixels": 20187,
+      "sensitivity_mean_deg": 15.440598487854004,
+      "fullres": {
+        "mean_weight": 0.34062101398093747,
+        "min_weight": 4.279441054677591e-05,
+        "effective_fraction": 0.6693238938003738,
+        "fraction_below_0_1": 0.210611822383886
+      },
+      "native": {
+        "mean_weight": 0.35546119763575446,
+        "min_weight": 0.00011132688814541325,
+        "effective_fraction": 0.7369774482501334,
+        "fraction_below_0_1": 0.13305592708178532
+      },
+      "high_depth_gradient_mean_weight": 0.3163309097290039,
+      "other_mean_weight": 0.34331992268562317
+    },
+    {
+      "id": 795,
+      "scene": "kitchen_0029",
+      "source_sha256": "a45f0ae6994462fe13ce3585da61b483e8501a233e4e794b0d8bd9ff2afbc7f8",
+      "derived_sha256": "041666b70ba2af236e9ada6fa433e704193e5d062b583765f18cd08c4294e43b",
+      "weight_sha256": "989cf708a170e4cd2226cce11da4d8be4104b858a43230885e036139c20e9c07",
+      "full_valid_pixels": 169820,
+      "native_valid_pixels": 25830,
+      "sensitivity_mean_deg": 12.433844566345215,
+      "fullres": {
+        "mean_weight": 0.402879291547858,
+        "min_weight": 4.559083390631713e-05,
+        "effective_fraction": 0.7354282169678877,
+        "fraction_below_0_1": 0.11427982569779767
+      },
+      "native": {
+        "mean_weight": 0.4128304548167561,
+        "min_weight": 0.0002857786021195352,
+        "effective_fraction": 0.7956690004493011,
+        "fraction_below_0_1": 0.059233449477351915
+      },
+      "high_depth_gradient_mean_weight": 0.4634193480014801,
+      "other_mean_weight": 0.3961526155471802
+    },
+    {
+      "id": 1244,
+      "scene": "living_room_0040",
+      "source_sha256": "772dd63d92a2a7efa5f18c42b16b5c2c7fc58e45aac2aae4412a3774178f403e",
+      "derived_sha256": "1e4a64ffd77e673e113258511dd528752275c704921e0c4f265652ff4f2a3730",
+      "weight_sha256": "92115d51cc3975e0924930b3a0e2f61116c8c52a6bf636c3e10e0441fc5c8c41",
+      "full_valid_pixels": 148102,
+      "native_valid_pixels": 21918,
+      "sensitivity_mean_deg": 19.03554344177246,
+      "fullres": {
+        "mean_weight": 0.27165609844176986,
+        "min_weight": 2.2270027329795994e-05,
+        "effective_fraction": 0.5965679036227113,
+        "fraction_below_0_1": 0.29546528743703665
+      },
+      "native": {
+        "mean_weight": 0.2809682330220967,
+        "min_weight": 4.397816155687906e-05,
+        "effective_fraction": 0.6642743604277372,
+        "fraction_below_0_1": 0.22492928186878364
+      },
+      "high_depth_gradient_mean_weight": 0.1370486170053482,
+      "other_mean_weight": 0.2866133749485016
+    },
+    {
+      "id": 348,
+      "scene": "excercise_room_0001",
+      "source_sha256": "5c1413724161b9b4c1acf1a40ea7aa5e05fd18ccd8d5349a27a262207c92ffe7",
+      "derived_sha256": "03419f066edc38de092e891da86f7a592aadfcb11e874fe487d11733a95452c0",
+      "weight_sha256": "46846383ada5f13b82a28f85b205fb4726a8af436a48e84cbfe0dd3fe90cbbdc",
+      "full_valid_pixels": 117232,
+      "native_valid_pixels": 17173,
+      "sensitivity_mean_deg": 13.177074432373047,
+      "fullres": {
+        "mean_weight": 0.38390201701814425,
+        "min_weight": 3.487974754534662e-05,
+        "effective_fraction": 0.7325439773249505,
+        "fraction_below_0_1": 0.13030571857513307
+      },
+      "native": {
+        "mean_weight": 0.400207071095346,
+        "min_weight": 0.00064482307061553,
+        "effective_fraction": 0.802746244760359,
+        "fraction_below_0_1": 0.07214813952134164
+      },
+      "high_depth_gradient_mean_weight": 0.23659704625606537,
+      "other_mean_weight": 0.4002704620361328
+    },
+    {
+      "id": 639,
+      "scene": "student_lounge_0001",
+      "source_sha256": "dc8ec646b10532495547118519ebc927345c386e33543f46e950d8fae6709b5a",
+      "derived_sha256": "c29cf6009ea6a96ff5a84d41bb2c7d1fa58a3059e28bf409936f95dc232e219a",
+      "weight_sha256": "0f9c5f004a03aa1471617a6f61fc9c2c293fc15f3b77c93b7874163203a864a9",
+      "full_valid_pixels": 179493,
+      "native_valid_pixels": 26408,
+      "sensitivity_mean_deg": 18.59420394897461,
+      "fullres": {
+        "mean_weight": 0.2843876373283633,
+        "min_weight": 1.7915899661602452e-05,
+        "effective_fraction": 0.6240981569945219,
+        "fraction_below_0_1": 0.26552567509596475
+      },
+      "native": {
+        "mean_weight": 0.2974938659120286,
+        "min_weight": 0.00013945675163995475,
+        "effective_fraction": 0.7100487678485689,
+        "fraction_below_0_1": 0.17244774310814903
+      },
+      "high_depth_gradient_mean_weight": 0.2883364260196686,
+      "other_mean_weight": 0.2839488685131073
+    },
+    {
+      "id": 981,
+      "scene": "bedroom_0051",
+      "source_sha256": "57f691ef41765ff8965d4e1a4a0d27ddacb7792645cf59036ea0fc2cf0a88ca3",
+      "derived_sha256": "eb3f1e7e0935c5f984ef9daaa89db2a46951067bc907373b129c4342b5128d5a",
+      "weight_sha256": "8f42a0316945b4770096de6ce6d8cccb2e3052542ddebadb089b1c8ee75e309e",
+      "full_valid_pixels": 146074,
+      "native_valid_pixels": 21447,
+      "sensitivity_mean_deg": 13.317463874816895,
+      "fullres": {
+        "mean_weight": 0.39094061057389967,
+        "min_weight": 2.564479837019462e-05,
+        "effective_fraction": 0.7309851257030406,
+        "fraction_below_0_1": 0.15590043402658926
+      },
+      "native": {
+        "mean_weight": 0.40487598544345826,
+        "min_weight": 0.00010583770927041769,
+        "effective_fraction": 0.7974779340268233,
+        "fraction_below_0_1": 0.09810229868979345
+      },
+      "high_depth_gradient_mean_weight": 0.35777607560157776,
+      "other_mean_weight": 0.394625723361969
+    },
+    {
+      "id": 950,
+      "scene": "bedroom_0039",
+      "source_sha256": "c6eafd197aab8c5a6e52afc202ffac9df409a70270d6515ed7eba3504aedb1c8",
+      "derived_sha256": "ecf1d7013c26287de2664accfcc80deab7ab851b7e648b978a0e9215d3992288",
+      "weight_sha256": "b14eca52502d971b436e58bb265fccacedd907496db5e5c3bdc5aa58d172d9e6",
+      "full_valid_pixels": 204117,
+      "native_valid_pixels": 31242,
+      "sensitivity_mean_deg": 14.497215270996094,
+      "fullres": {
+        "mean_weight": 0.3428633638011872,
+        "min_weight": 7.601107790833339e-05,
+        "effective_fraction": 0.6956337429457875,
+        "fraction_below_0_1": 0.16699246020664618
+      },
+      "native": {
+        "mean_weight": 0.3485073842168842,
+        "min_weight": 0.0001358435401925817,
+        "effective_fraction": 0.7600409185521156,
+        "fraction_below_0_1": 0.10021765571986428
+      },
+      "high_depth_gradient_mean_weight": 0.3982223570346832,
+      "other_mean_weight": 0.3367122709751129
+    },
+    {
+      "id": 1231,
+      "scene": "living_room_0035",
+      "source_sha256": "c088c415d09b8c74460e6b61613e8c11e5977e934df0b2b3325049cc856e5a2e",
+      "derived_sha256": "20b07158cf9b8e632bc1f137277dcc94ee91946aa3398276b81b06219569c4a3",
+      "weight_sha256": "b52504a3e14dc55c9b06f57ea8ef408c4c16548e6f02c7e04a7d4faf729afd23",
+      "full_valid_pixels": 172026,
+      "native_valid_pixels": 25614,
+      "sensitivity_mean_deg": 14.781875610351562,
+      "fullres": {
+        "mean_weight": 0.3456211370202544,
+        "min_weight": 1.986012648558244e-05,
+        "effective_fraction": 0.7157908241999732,
+        "fraction_below_0_1": 0.15566832920605025
+      },
+      "native": {
+        "mean_weight": 0.359007759011957,
+        "min_weight": 5.011695975554176e-05,
+        "effective_fraction": 0.7972255558873308,
+        "fraction_below_0_1": 0.08729600999453424
+      },
+      "high_depth_gradient_mean_weight": 0.3194890320301056,
+      "other_mean_weight": 0.3485247790813446
+    },
+    {
+      "id": 628,
+      "scene": "office_0025",
+      "source_sha256": "f9fbcbce850d0a09d1e3814c1e6f81c20d403311ff76e6102300c2e7d5c3af36",
+      "derived_sha256": "45b846b86db1fd37175a7a348a1c1987832c5e3ed448d0a1548e6c8ce47a4cd6",
+      "weight_sha256": "433ba894be72f40856edf6909d03c4ce2fde1ed9ddd1efcd43818dfe9a7269b3",
+      "full_valid_pixels": 161512,
+      "native_valid_pixels": 23685,
+      "sensitivity_mean_deg": 15.571257591247559,
+      "fullres": {
+        "mean_weight": 0.32263271198669435,
+        "min_weight": 1.3901370039093308e-05,
+        "effective_fraction": 0.6901410930941775,
+        "fraction_below_0_1": 0.17194388033087324
+      },
+      "native": {
+        "mean_weight": 0.3336911019517132,
+        "min_weight": 9.97788374661468e-05,
+        "effective_fraction": 0.7663580143878183,
+        "fraction_below_0_1": 0.09727675744141862
+      },
+      "high_depth_gradient_mean_weight": 0.2630108892917633,
+      "other_mean_weight": 0.3292577266693115
+    },
+    {
+      "id": 255,
+      "scene": "living_room_0018",
+      "source_sha256": "061add05fb531862c2e3ae873c3d6477b6a91c403b295ddd8298303725050f57",
+      "derived_sha256": "74da3b51e54bf59b54e80f9f833d57133aeef0be77f0ce9b50aa746e2f9e2184",
+      "weight_sha256": "2b16dabda13dd2022a1ec16d192a2cecf37a237f680b72ff711e4d79b083ec16",
+      "full_valid_pixels": 219584,
+      "native_valid_pixels": 34048,
+      "sensitivity_mean_deg": 13.478775978088379,
+      "fullres": {
+        "mean_weight": 0.36769640365040146,
+        "min_weight": 2.696887167985551e-05,
+        "effective_fraction": 0.7095676317508853,
+        "fraction_below_0_1": 0.13523298600990966
+      },
+      "native": {
+        "mean_weight": 0.37417796978432993,
+        "min_weight": 0.00010701894643716514,
+        "effective_fraction": 0.768535492219846,
+        "fraction_below_0_1": 0.06984257518796992
+      },
+      "high_depth_gradient_mean_weight": 0.43481147289276123,
+      "other_mean_weight": 0.3602389395236969
+    },
+    {
+      "id": 1417,
+      "scene": "dining_room_0029",
+      "source_sha256": "21a9807dd61f3569cb1c58d6c7d4019c3a0d7dfb013f83af6c7e6379e8cde173",
+      "derived_sha256": "9d421102116e977287af85257b6d60d8ce8088d43fa2153704eb06f9ad7026ad",
+      "weight_sha256": "41264cf4ef651d844dbcc24b58bda7786750ba52b9c63fc9b4f0f1c963172dad",
+      "full_valid_pixels": 149751,
+      "native_valid_pixels": 21667,
+      "sensitivity_mean_deg": 16.065744400024414,
+      "fullres": {
+        "mean_weight": 0.3155760372837378,
+        "min_weight": 2.489025609975215e-05,
+        "effective_fraction": 0.6636282652866968,
+        "fraction_below_0_1": 0.20405205975252252
+      },
+      "native": {
+        "mean_weight": 0.32563573701431603,
+        "min_weight": 6.696519994875416e-05,
+        "effective_fraction": 0.7360641124389744,
+        "fraction_below_0_1": 0.11524438085567915
+      },
+      "high_depth_gradient_mean_weight": 0.3878159523010254,
+      "other_mean_weight": 0.3075488805770874
+    }
+  ]
+}

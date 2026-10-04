@@ -1,0 +1,103 @@
+{
+  "protocol_sha256": "3474436a130f79724acec25d1c43e009d842fda6bfa27921540bd98dde719eec",
+  "synthetic_cases": 192,
+  "heldout_cases": 96,
+  "training_scenes": 128,
+  "heldout_macro_by_corruption": {
+    "clean": {
+      "uniform_error_deg": 0.015110240395160554,
+      "weighted_error_deg": 0.010168955306814446,
+      "shuffled_error_deg": 0.015126948357565843,
+      "effective_fraction": 0.9946352079301759,
+      "mean_weight": 0.9933932364335805
+    },
+    "iid_noise": {
+      "uniform_error_deg": 42.837766501261584,
+      "weighted_error_deg": 27.060186448018307,
+      "shuffled_error_deg": 42.84122289731426,
+      "effective_fraction": 0.45278914994564196,
+      "mean_weight": 0.09118223012562568
+    },
+    "heterogeneous_noise": {
+      "uniform_error_deg": 25.434191902568834,
+      "weighted_error_deg": 10.374477883644648,
+      "shuffled_error_deg": 25.42514913689827,
+      "effective_fraction": 0.6422754845512304,
+      "mean_weight": 0.34381556971701166
+    },
+    "outliers": {
+      "uniform_error_deg": 3.8902692091616977,
+      "weighted_error_deg": 0.9855222607324683,
+      "shuffled_error_deg": 3.8899459741486995,
+      "effective_fraction": 0.7538541302992909,
+      "mean_weight": 0.4932254939483291
+    },
+    "holes": {
+      "uniform_error_deg": 0.0151961375934395,
+      "weighted_error_deg": 0.010216010762413163,
+      "shuffled_error_deg": 0.015200122556175172,
+      "effective_fraction": 0.9946639613651146,
+      "mean_weight": 0.993043950907651
+    },
+    "smooth_bias": {
+      "uniform_error_deg": 5.356134606303605,
+      "weighted_error_deg": 5.3553672602842965,
+      "shuffled_error_deg": 5.356206617137912,
+      "effective_fraction": 0.9946923393557583,
+      "mean_weight": 0.9934340530639391
+    }
+  },
+  "checks": {
+    "noise_relative_reduction": {
+      "value": 0.46755646563450437,
+      "required": ">=0.10",
+      "pass": true
+    },
+    "shuffled_relative_reduction": {
+      "value": 0.4675128970760182,
+      "required": ">=0.05",
+      "pass": true
+    },
+    "noise_families_nonworse": {
+      "value": 4,
+      "required": ">=3 of4",
+      "pass": true
+    },
+    "synthetic_median_effective_fraction": {
+      "value": 0.6956708616572851,
+      "required": ">=0.25",
+      "pass": true
+    },
+    "clean_surface_max_increase_deg": {
+      "value": 0.0,
+      "required": "<=1.0",
+      "pass": true
+    },
+    "real_scene_fraction_effective_ge_0_25": {
+      "value": 1.0,
+      "required": ">=0.90",
+      "pass": true
+    }
+  },
+  "engineering_gate_passed": true,
+  "clean_surface_differences": {
+    "plane": -4.721113955745357e-08,
+    "crease": -0.01976505890191356,
+    "step": 0.0,
+    "curved": -3.424033130717597e-08
+  },
+  "real_native_mean_weight": 0.3629944783727762,
+  "real_native_median_effective_fraction": 0.769335758863158,
+  "historical_files_unchanged": 1296,
+  "training_audit_sha256": "7ed44b70efd2abcde5cc0c4ee4dfaf5ecaaef4bbc67fa5f19471fd0abfd71917",
+  "synthetic_sha256": "092605ec51e0fd6bafaa7ad22b2d44049ca9e48015484cd89e93173ca1436d99",
+  "decision": "Proceed to bounded integration and stable single-task pilot; full model study remains separately gated.",
+  "limitations": [
+    "Synthetic weighted label error is not trained-model accuracy.",
+    "Heldout seeds share the same synthetic surface families and corruption generator.",
+    "No independent real-world normal ground truth.",
+    "No proof that label uncertainty caused V7 negative transfer.",
+    "Engineering thresholds are not significance tests or Holm-adjusted evidence.",
+    "Clean complex geometry and smooth bias must be reported even when noise averages improve."
+  ]
+}

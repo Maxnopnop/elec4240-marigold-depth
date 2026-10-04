@@ -1,0 +1,6 @@
+{
+  "analysis_sha256": "6f37da12aae01cab25a182af9f5d0a20f3e442a2eadf9a7db2a39be65c861938",
+  "figure_sha256": "c060a66297332790c10ef9d6f9c5cd564310ac716abd84ba85f21376a0be4c37",
+  "source_sha256": "50d59992f64f148baeb962b83aecd3ab13a93ff08b8e319fb3982c15049260b5",
+  "change": "Presentation only: shorter wrapped y-axis label and taller canvas; plotted values unchanged."
+}

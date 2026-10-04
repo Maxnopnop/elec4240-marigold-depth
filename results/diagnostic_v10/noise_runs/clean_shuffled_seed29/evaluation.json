@@ -1,0 +1,178 @@
+[
+  {
+    "id": "plane_401",
+    "tasks": {
+      "depth": {
+        "abs_rel": 0.12378826042648393,
+        "rmse_m": 0.5452693153690309,
+        "delta1": 0.857124824684432,
+        "valid_pixels": 285200,
+        "prediction_outside_range_fraction": 0.0,
+        "prediction_sha256": "abb01c6b49e0cfdfe6786db62c13c23da522089b981061d80414e3921424c232"
+      },
+      "normal": {
+        "mean_deg": 18.553661655703245,
+        "median_deg": 18.154851657773904,
+        "within_11_25": 0.0,
+        "within_22_5": 0.9589866760168303,
+        "within_30": 1.0,
+        "valid_pixels": 285200,
+        "prediction_sha256": "f2634ee773fe61595d5bd98503306faefebda3815a57cf03be2711ed54425c0f"
+      }
+    }
+  },
+  {
+    "id": "crease_401",
+    "tasks": {
+      "depth": {
+        "abs_rel": 0.1474737429744375,
+        "rmse_m": 0.5597729790137723,
+        "delta1": 0.8179488078541375,
+        "valid_pixels": 285200,
+        "prediction_outside_range_fraction": 0.0,
+        "prediction_sha256": "34a7cc2c204649ce408924129566cd8d2d9d759e12f87f4a16e5017387bd2277"
+      },
+      "normal": {
+        "mean_deg": 25.753852975532443,
+        "median_deg": 26.90487768552859,
+        "within_11_25": 0.0,
+        "within_22_5": 0.484758064516129,
+        "within_30": 0.6399403927068724,
+        "valid_pixels": 285200,
+        "prediction_sha256": "198c13da7f83b1745644f8358c0b84b6339f1cb524c0a39a8b718bb927fd6095"
+      }
+    }
+  },
+  {
+    "id": "step_401",
+    "tasks": {
+      "depth": {
+        "abs_rel": 0.07371048232007414,
+        "rmse_m": 0.37975596495258646,
+        "delta1": 0.9999221073502337,
+        "valid_pixels": 282440,
+        "prediction_outside_range_fraction": 0.0,
+        "prediction_sha256": "1fcc8faecace0f3603bbc884f52d48b6322be628cc7c0c59227d65fb10e4e9a5"
+      },
+      "normal": {
+        "mean_deg": 21.425360416630795,
+        "median_deg": 21.81117519807046,
+        "within_11_25": 0.0,
+        "within_22_5": 0.6196785157909644,
+        "within_30": 1.0,
+        "valid_pixels": 282440,
+        "prediction_sha256": "5c8b2b63284930be9fc847412541446358268f4680545a36a980493859497f8e"
+      }
+    }
+  },
+  {
+    "id": "curved_401",
+    "tasks": {
+      "depth": {
+        "abs_rel": 0.05772486714960097,
+        "rmse_m": 0.2564397526157249,
+        "delta1": 1.0,
+        "valid_pixels": 285200,
+        "prediction_outside_range_fraction": 0.0,
+        "prediction_sha256": "84d71b35984664f9bb49ae1b4b141d1d766bb8e67bd4c588e5aa876e93631ef2"
+      },
+      "normal": {
+        "mean_deg": 29.294527960909868,
+        "median_deg": 29.059430891990722,
+        "within_11_25": 0.0,
+        "within_22_5": 0.18355539971949508,
+        "within_30": 0.5375105189340813,
+        "valid_pixels": 285200,
+        "prediction_sha256": "c2f24f8ba92a7882cc9c3ef62476c9574078c3039a5a589997113a5f1377ea3f"
+      }
+    }
+  },
+  {
+    "id": "plane_409",
+    "tasks": {
+      "depth": {
+        "abs_rel": 0.23000640321952523,
+        "rmse_m": 0.7244720128865683,
+        "delta1": 0.5621458625525947,
+        "valid_pixels": 285200,
+        "prediction_outside_range_fraction": 0.0,
+        "prediction_sha256": "f8bab6cdcd26c1f831b9e22e1884a3e1e94b32a6842f430f7fc7a9caba2d57c6"
+      },
+      "normal": {
+        "mean_deg": 22.044367237629846,
+        "median_deg": 21.80602431963617,
+        "within_11_25": 0.0,
+        "within_22_5": 0.6705119214586255,
+        "within_30": 1.0,
+        "valid_pixels": 285200,
+        "prediction_sha256": "a60e89d4540a5d8549c7305e3d891f54549bfbeffdb59ce314bf17081841d6f8"
+      }
+    }
+  },
+  {
+    "id": "crease_409",
+    "tasks": {
+      "depth": {
+        "abs_rel": 0.1838178655029283,
+        "rmse_m": 0.5594056568297888,
+        "delta1": 0.7450771388499299,
+        "valid_pixels": 285200,
+        "prediction_outside_range_fraction": 0.0,
+        "prediction_sha256": "c1afc11e4ca2d23525b7f55e3ccca12bdb3a3345587cd5d6c228d08d0e01a2f2"
+      },
+      "normal": {
+        "mean_deg": 34.544694226565824,
+        "median_deg": 38.785113911161645,
+        "within_11_25": 0.0,
+        "within_22_5": 0.004715988779803647,
+        "within_30": 0.48397615708274894,
+        "valid_pixels": 285200,
+        "prediction_sha256": "d8d780482297367366f300dbc153cd49f5a226d5fc61ab969edd0119bc6ae313"
+      }
+    }
+  },
+  {
+    "id": "step_409",
+    "tasks": {
+      "depth": {
+        "abs_rel": 0.16650832516865868,
+        "rmse_m": 0.6285550226385215,
+        "delta1": 0.6713461266109616,
+        "valid_pixels": 282440,
+        "prediction_outside_range_fraction": 0.0,
+        "prediction_sha256": "94fb30f6167c3ad161b461ac0a73a97fa6c573e31be4d1d23aac0efe489b5a79"
+      },
+      "normal": {
+        "mean_deg": 9.074134766489713,
+        "median_deg": 8.749740976568836,
+        "within_11_25": 0.694767030165699,
+        "within_22_5": 1.0,
+        "within_30": 1.0,
+        "valid_pixels": 282440,
+        "prediction_sha256": "6bc74f9080639bde7ee2951f41380075e03ea2d83c7488dcb81fd90410d210f2"
+      }
+    }
+  },
+  {
+    "id": "curved_409",
+    "tasks": {
+      "depth": {
+        "abs_rel": 0.35928580494165985,
+        "rmse_m": 1.1282854981529054,
+        "delta1": 0.0074544179523141655,
+        "valid_pixels": 285200,
+        "prediction_outside_range_fraction": 0.0,
+        "prediction_sha256": "f14b730801924393277a3059bfdaa8597cacc6f558c777bbb5948a55ae9bd5e8"
+      },
+      "normal": {
+        "mean_deg": 20.587115287604,
+        "median_deg": 20.89470686095353,
+        "within_11_25": 0.15025946704067322,
+        "within_22_5": 0.5609537166900421,
+        "within_30": 0.8368793828892006,
+        "valid_pixels": 285200,
+        "prediction_sha256": "c404722cb7dc5ee529bcf5b24902a92dcd068f2d3f1c4db344187e2c3376fdc4"
+      }
+    }
+  }
+]

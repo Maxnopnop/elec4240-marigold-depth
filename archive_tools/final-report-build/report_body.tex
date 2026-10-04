@@ -1,0 +1,239 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[pagenumbers]{cvpr}
+\usepackage{amsmath,amssymb,booktabs,graphicx}
+\usepackage[breaklinks=true,colorlinks=true,citecolor=blue,urlcolor=blue,linkcolor=blue]{hyperref}
+\def\cvprPaperID{}
+\def\confName{ELEC4240}
+\def\confYear{2026}
+\title{Low-Cost Adaptation of Marigold for Indoor Depth:\\Resolution, Generalization, and Calibration}
+\author{HO, Chun Wai\\21053878\and Tong, Man Hung\\21064669\and MA, Shenhan\\21041382}
+\begin{document}
+\maketitle
+\begin{abstract}
+Adapting a pretrained diffusion depth model is feasible on a small GPU, but improvement on one resolution or test subset does not establish general usefulness. We study rank-4 LoRA adaptation of Marigold Depth v1.1 on an 8\,GB laptop GPU, comparing fixed and mixed training resolutions. A replicated study uses three training-scene draws and five seeds per method. A subsequent external validation freezes 30 adapters and evaluates 200 SUN3D-source scene groups. Mixed training reduces aligned absolute relative error by 13.3\% at 256-pixel inference, with support after Holm correction and broader-location resampling. At 512 pixels, the mean reduction is only 2.6\% and is not confirmed by the predefined tests. A post-hoc extension adds a matched fixed-256 control, depth-range and boundary diagnostics, and controlled cost measurements. @@ABSTRACT_NEW@@ Fixed validation calibration still produces substantial absolute-distance errors. The project provides a reproducible study of affordable adaptation, with separate prospective and exploratory evidence.
+\end{abstract}
+
+\section{Introduction}
+Predicting depth from a single RGB image is useful for indoor scene understanding, navigation and geometric reasoning. A monocular image, however, does not uniquely determine physical scale. Practical systems also face limited labeled data and hardware budgets. Pretrained models provide a useful starting point, but successful adaptation must be evaluated across scenes, training randomness and deployment resolutions.
+
+Marigold~\cite{marigold,marigold25} transfers representations from diffusion image generation to relative depth prediction. This motivates a course project on affordable adaptation: can a small trainable update improve indoor depth without updating the entire denoising network? The broader idea of using image generators for perception also appears in Vision Banana~\cite{banana}. We take Marigold's public depth-specialized checkpoint as our implementation starting point; we do not reproduce Vision Banana or train a generalist perception model.
+
+Our central question is how training resolution affects the accuracy and cost of LoRA adaptation at low and high inference resolutions. A fixed low-resolution adapter may learn useful indoor structure cheaply yet transfer imperfectly to a larger input. Alternating resolutions is a simple way to expose one adapter to both operating points. It is also necessary to compare against each fixed-resolution alternative: outperforming a mismatched high-resolution-trained model at low-resolution inference does not demonstrate that mixing itself is essential.
+
+The experimental sequence separates development from later evidence. Initial ablations examine training resolution, adapter strength and a preservation penalty. A replication varies both the sampled training scenes and optimization seed. Finally, a frozen external test evaluates all selected methods without adding samples until a favorable outcome appears. Further controls conducted after that external test are explicitly exploratory.
+
+The main findings are: (i) small adapters are feasible within the local memory budget; (ii) mixed training improves relative-depth accuracy at 256 inference on the frozen external cohort; (iii) the 512-inference advantage over original Marigold remains unconfirmed; and (iv) per-image GT alignment can conceal substantial metric-depth error. @@INTRO_NEW@@ These findings motivate evaluating adaptation across deployment resolutions and calibration protocols.
+
+\section{Related Work}
+\paragraph{Diffusion models for perception.}
+Marigold~\cite{marigold} conditions a diffusion denoiser on image latents and predicts depth latents. Its later framework~\cite{marigold25} broadens affordable adaptation for image analysis. Our training follows the public latent-denoising formulation but uses a much smaller real indoor subset and freezes the pretrained backbone. We omit the original large synthetic-data mixture, full U-Net optimization and long training schedule. Vision Banana~\cite{banana} provides broader context for transferring image generators to visual tasks; our scope is restricted to depth estimation with a public Marigold implementation.
+
+\paragraph{Parameter and resolution adaptation.}
+LoRA~\cite{lora} represents weight updates with low-rank factors, reducing trainable parameters while reusing a pretrained model. We apply this existing mechanism to attention projections; LoRA itself is not our proposed innovation. ResAdapter~\cite{resadapter} addresses resolution flexibility in diffusion image generation. Our comparison instead concerns supervised relative-depth adaptation, using an alternating-resolution schedule without reproducing ResAdapter's architecture or training procedure. The question is empirical: which resolutions should a small depth adapter observe under a limited budget?
+
+\paragraph{Preserving pretrained behavior.}
+WiSE-FT~\cite{wise} studies weight interpolation between pretrained and fine-tuned models as a way to manage distribution-shift robustness. Our early scalar adapter-strength diagnostic is a related simple control, not a new interpolation algorithm. We also test a uniform penalty on changes to the original denoiser's velocity output. This is distinct from learned confidence weighting or explicit cross-resolution geometric consistency, neither of which is implemented in this project.
+
+\paragraph{Depth references and evaluation.}
+Depth Anything V2~\cite{dav2} supplies a complementary discriminative depth reference. We use its indoor Small metric checkpoint, whose metric fine-tuning source is Hypersim, not NYUv2. Different architecture, prior supervision, precision and input processing limit causal comparisons with Marigold. NYUv2~\cite{nyu} and SUN RGB-D~\cite{sunrgbd}, including its SUN3D~\cite{sun3d} source, provide indoor RGB-D observations. Holm correction~\cite{holm} addresses a family of comparisons, but it cannot remove dependence between scenes or repair approximate bootstrap p-values. We therefore report effect sizes, uncertainty and analysis provenance together.
+
+\section{Data and Evaluation Design}
+\subsection{NYUv2 adaptation and replication}
+We use RGB images and labeled depth from the official NYUv2 data, with the conventional train/test membership. Scene identity is the sampling unit, and one selected frame represents each scene. Within a study, training, validation and test roles are separated by scene. Experiments across phases reuse some data deliberately; a previously examined cohort is never presented again as newly unseen.
+
+The main replication draws three sets of 128 training scenes from 217 eligible scenes and uses seeds 17, 29, 43, 59 and 71. The training draws overlap pairwise in 76, 68 and 68 scenes; they are different random draws from one finite pool, not three independent domains. A fixed 32-scene validation set is used for calibration. The 31-scene primary cohort was unused in earlier project phases when the replication started; a previously observed 64-scene cohort is secondary. This scene-based subset protocol is not the standard full 654-frame NYUv2 benchmark.
+
+\begin{table}[t]
+\centering\small
+\caption{Roles of the principal data cohorts. ``Fresh'' refers to the time a cohort was first evaluated, not its current status.}
+\label{tab:data}
+\begin{tabular}{p{.37\columnwidth}p{.53\columnwidth}}\toprule
+Cohort & Role and scope\\\midrule
+NYUv2 training & Three draws of 128 scenes; draws overlap\\
+NYUv2 validation & Fixed 32 scenes; calibration and diagnostics\\
+NYUv2 primary & 31 scenes, fresh at replication start\\
+NYUv2 secondary & 64 previously observed scenes\\
+External SUN3D source & 200 groups; one frame/group; 63 broader location proxies\\\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Prospective external cohort}
+SUN RGB-D includes NYUv2, so we restrict acquisition to its SUN3D-source branch and exclude all other branches. The metadata census contains 3,090 frames in 207 source-space groups. We rank groups and frames by fixed SHA256 rules before model prediction. The first 200 eligible groups supply one frame each; all accepted samples were their first-ranked candidates. No replacement was based on prediction quality.
+
+Quality control checks decodable RGB, unsigned 16-bit raw depth, equal image/depth dimensions and at least 10\% valid measured depth in $(0.1,10)$ meters. Depth is decoded using the official SUN3D bit-rotation convention; filled depth maps are not used. Exact decoded-RGB duplicates against 546 earlier local inputs and the accepted external set are excluded. Transport problems required a pinned public mirror, with member names, sizes and CRCs checked against the official archive inventory. Source members and content hashes are retained.
+
+The 200 source-space groups map to 63 conservative location proxies. These are not verified building identities: groups may share physical context, and broad pretraining overlap is unknown. A location-resampling sensitivity supplements scene-level analysis. The external subset is custom and uses full-image measured depths; its scores are not pooled with the cropped NYUv2 evaluation.
+
+\subsection{Evaluation chronology}
+Exploration used increasingly larger subsets before the replicated and external studies. The main external protocol, sample manifest and source hashes were committed before its first prediction. All 30 high-only/mixed adapters were retained without checkpoint selection. The evaluation stopped after all 63 conditions and 12,600 predictions were complete, regardless of significance.
+
+After inspecting that result, we added the missing fixed-low-resolution control and descriptive diagnostics. These additions use observed cohorts and cannot retroactively become prospective evidence. The original six-comparison family is unchanged. A separate exploratory eight-comparison family and a clearly labeled resolution-interaction diagnostic describe the extensions.
+
+\section{Methods}
+\subsection{Compact latent-denoising adaptation}
+We use Marigold Depth v1.1 through Diffusers and implement the compact training loop from the public Marigold formulation.\footnote{Base code: \url{https://github.com/prs-eth/Marigold}; execution libraries: \url{https://github.com/huggingface/diffusers} and \url{https://github.com/huggingface/peft}. Versions and pinned model revisions are included in the supplement.} The VAE, text encoder and original U-Net parameters remain frozen. An empty text embedding is used for every input. RGB and depth are resized to the processing resolution and encoded into cached VAE latents, reducing repeated encoder work during optimization.
+
+Depth is normalized per image using its 2nd and 98th percentiles, mapped to $[-1,1]$ and clipped. The validity mask is reduced to latent resolution so that cells affected by invalid target pixels are excluded. For RGB latent $z_x$ and normalized depth latent $z_d$, the noisy target at timestep $t$ is
+\begin{equation}
+z_{d,t}=\sqrt{\bar\alpha_t}z_d+\sqrt{1-\bar\alpha_t}\epsilon,
+\end{equation}
+where $\epsilon$ is Gaussian noise. The denoiser receives the concatenation of $z_x$ and $z_{d,t}$ and predicts the velocity target supplied by the diffusion scheduler. We minimize
+\begin{equation}
+\mathcal L_{\rm sup}=\frac{1}{|M|}\sum_{j\in M}\|v_{\theta,\phi}(z_x,z_{d,t},t)_j-v_{t,j}\|^2,
+\end{equation}
+with frozen backbone $\theta$, trainable adapter $\phi$, and valid latent entries $M$ (including channels). This objective supervises relative depth structure; the per-image normalization does not directly constrain meter-valued output.
+
+For each attention projection, LoRA replaces $W$ by $W+(\alpha/r)BA$. We use rank $r=4$ and scaling $\alpha=4$ for query, key, value and output projections, totaling 829,952 trainable parameters. Adapter parameters and optimizer state use FP32; forward operations use BF16 autocasting. Gradient checkpointing limits activation memory. We use AdamW with learning rate $10^{-4}$, weight decay 0.01, batch size 1 and gradient-norm clipping at 1.0. No image augmentation is applied.
+
+\subsection{Training-resolution and preservation ablations}
+The fixed-update conditions are: \textit{low-only}, 320 updates at long side 256; \textit{high-only}, 320 updates at 512; and \textit{mixed}, alternating 256 and 512 for 160 updates each. NYUv2 training inputs are $192\times256$ or $384\times512$. Each paired method uses the same sampled images, image order and timestep schedule for a given seed. The noise arrays differ in spatial dimensions. Equal update counts isolate one budget convention, not equal compute.
+
+An earlier \textit{mixed+prior} ablation adds uniform original-denoiser preservation:
+\begin{equation}
+\mathcal L=\mathcal L_{\rm sup}+0.1\frac{1}{|M|}\sum_{j\in M}\|v_{\theta,\phi,j}-v_{\theta,0,j}\|^2.
+\end{equation}
+The teacher is the same U-Net with its adapter disabled, evaluated without gradients at identical noisy inputs. The term preserves velocity predictions uniformly; it is not a confidence-weighted depth loss or a cross-resolution geometric constraint. It requires an extra forward pass and is retained in the report even though its observed benefit was weak.
+
+The latest matched-control extension trains 15 low-only adapters on the exact three replication draws and five seeds. It changes the training-resolution exposure while retaining the fixed-update recipe. All new models are evaluated at both inference resolutions on validation32, NYUv2-31 and external200, yielding 7,890 additional predictions. No external scene is used for training or calibration.
+
+\subsection{Inference, calibration and metrics}
+Marigold inference uses one denoising step, ensemble size 1 and a fixed image-specific noise seed shared across matched methods. Predictions are resized to the input image dimensions. All 15 adapted runs per method enter the reported mean. Original Marigold is the main resolution-matched reference. The Depth Anything V2 indoor Small model uses its official default processor as a descriptive specialist reference; the larger default input budget prevents an equal-compute interpretation.
+
+Relative-depth evaluation fits one least-squares affine transform $(a,b)$ to each image's valid GT pixels, then clips $a\hat d+b$ to the protocol's depth range. For valid pixels $V$, the main metric is
+\begin{equation}
+\mathrm{AbsRel}=\frac{1}{|V|}\sum_{i\in V}\frac{|a\hat d_i+b-d_i|}{d_i}.
+\end{equation}
+RMSE and $\delta_1$, the fraction with depth ratio below 1.25, are secondary metrics. NYUv2 uses the fixed crop and range implemented in the original evaluation; external data uses all finite measured pixels with $0.1<d<10$ meters. The two protocols are kept separate.
+
+For the absolute-depth diagnostic, each condition instead uses a single affine transform learned on validation32 by equal-image-weighted squared error. These coefficients remain fixed on both test cohorts. No test target enters calibration. Specialist native metric output is additionally evaluated without a fitted scale or shift. Per-image GT alignment, fixed calibration and native metric output answer different questions and are never treated as interchangeable.
+
+\subsection{Uncertainty and stopping rules}
+The original external family contains six aligned-AbsRel comparisons: mixed versus original, high-only versus original and mixed versus high-only, each at 256/512 inference. Paired resampling retains the shared evaluation scene across methods. We run 20,000 nested draw/seed/scene replicates and 20,000 crossed draw/seed/scene replicates, using centered two-sided bootstrap tests. Holm correction is applied separately to the six p-values in each branch. Improvement requires a negative mean difference and both adjusted p-values below 0.05. Broader-location block resampling is an additional sensitivity analysis.
+
+Bootstrap intervals are approximate with only three training draws. Percentile intervals are not exact inverses of the centered tests, so interval exclusion alone cannot override the decision rule. The exploratory extension adds mixed-versus-low-only at both resolutions to a separate eight-comparison family. We also examine the paired difference of differences,
+\begin{equation}
+\Delta_{\rm int}=(e_{M,256}-e_{O,256})-(e_{M,512}-e_{O,512}),
+\end{equation}
+as a separate, post-hoc single diagnostic. It evaluates variation of the measured effect with resolution, not a causal explanation of the mechanism.
+
+\subsection{Failure strata and cost controls}
+Depth-range diagnostics use $(0.1,1)$, $[1,2)$, $[2,4)$ and $[4,10)$ meters. A scene contributes to a bin only with at least 100 valid pixels. We average per-scene errors across runs and then across contributing scenes, avoiding pixel-count weighting across rooms. A depth boundary is a valid adjacent-pixel jump greater than both 0.1\,m and 5\% of the smaller depth, followed by two four-connected dilation steps. Interior pixels are the remaining valid region. Stratum analyses are descriptive, with no extra confirmatory significance claims.
+
+Inference timing uses the first eight validation images, three warmups per condition and five randomized condition rounds. The original, low-only, high-only and mixed models are measured at both resolutions, using draw1/seed17 for adapters. CUDA synchronization brackets the measured pipeline through resized CPU output; loading is excluded. Every timed prediction must exactly match a saved reference. Temperature, power, clocks and utilization are recorded when available.
+
+For a bounded compute-budget diagnostic, all three training schedules receive 120 seconds of synchronized optimizer-loop wall time on draw1, repeated with three seeds in randomized order. Warmup forward/backward passes take no optimizer step. Loading, caching and warmup are excluded and recorded separately. Training stops at the first completed update reaching the budget, then evaluates validation32 only. Different update counts are an outcome of this budget. One draw and a validation set cannot establish general equal-compute superiority.
+
+\section{Experiments and Results}
+\subsection{Earlier ablations and replication}
+The feasibility pilot used 32 training scenes (with a nested eight-scene subset), eight validation scenes and 24 test scenes, one seed and 80 updates. With four-step inference, LoRA on eight/32 images obtained AbsRel 0.0988/0.0900; updating only the 11,524-parameter output head gave 0.1354 versus original 0.1353. These exploratory means motivated the more expressive LoRA update. The one-step original scored 0.1019, showing that inference settings also mattered. Later resolution studies fix one-step inference; their scores are not directly compared with this pilot cohort.
+
+The fixed-update development study trained low-only, high-only, mixed and mixed+prior with three seeds on one 128-scene training subset. At 256 inference, low-only obtained AbsRel 0.08149 versus mixed 0.08545. At 512, mixed obtained 0.05968 versus low-only 0.06554 and high-only 0.06075. These are cohort-specific results; they do not imply that mixed dominates both fixed-resolution alternatives. A retrospective Holm adjustment of the full 21-comparison family is retained separately from the original exploratory intervals.
+
+Adding uniform preservation gave 512 AbsRel 0.05967 versus 0.05968 without it, while mean optimizer time increased from 105.5 to 137.0 seconds in that study. The evidence does not support paying this extra cost for a reliable mean-accuracy gain. A validation-only adapter-strength study also found a favorable half-strength point at 512, but its interval against the original crossed zero. Neither diagnostic was promoted into an unqualified improvement claim.
+
+The subsequent three-draw/five-seed replication used 30 high-only/mixed trainings. On its fresh31 NYUv2 cohort, mixed512 reduced AbsRel from 0.09687 to 0.08462, but nested/crossed Holm p-values were 0.1088/0.1094. Mixed versus high-only at 256 was supported (0.10128 versus 0.12696; adjusted p=0.0042/0.0084). A separate already-observed64 cohort gave a mixed512 improvement, but it does not replace the fresh-cohort test. Fixed brightness reduction and blur were also evaluated: mixed512 aligned AbsRel changed from 0.08462 to 0.08316 under darkening and to 0.08830 under blur. These two synthetic perturbations are limited diagnostics, not a general robustness benchmark.
+
+\subsection{Frozen external validation}
+The external study reused all 30 replication adapters. At 256 inference, mixed training reduced aligned AbsRel from 0.11106 to 0.09632 (13.3\%), with nested/crossed Holm p=0.00030/0.00030. The broader-location sensitivity remained favorable (p=0.00150). Mixed also improved over high-only at 256, with all three adjusted p-values 0.00030. At 512, original and mixed scores were 0.07224 and 0.07038 (2.6\% lower), but adjusted p=0.29684/0.30778 and location p=0.61617 did not confirm an advantage. None of the original three 512 comparisons passed the predefined rule.
+
+\begin{table}[t]
+\centering\small
+\caption{External aligned AbsRel. The first three training strategies belonged to the frozen study; low-only was added afterward. Each adapted mean uses three draws and five seeds.}
+\label{tab:external}
+\begin{tabular}{lrr}\toprule
+Training & Inference 256 & Inference 512\\\midrule
+Original & 0.11106 & 0.07224\\
+High-only & 0.11188 & 0.07154\\
+Mixed & 0.09632 & 0.07038\\
+Low-only (post-hoc) & @@LOW256@@ & @@LOW512@@\\\bottomrule
+\end{tabular}
+\end{table}
+
+The planning simulation explored 480 scenarios using only earlier NYUv2 results. Under a hypothetical AbsRel gain of 0.009 and fresh31-like variation, 200 groups gave approximately 84.3\% power; inflating error SD by 1.5 lowered this to 38.5\%. These conditional pilot-distribution approximations did not guarantee performance under domain shift. The observed mixed512 mean gain was only 0.00186. We retained the fixed sample and all outcomes instead of extending the test until significant.
+
+\subsection{Exploratory low-only control and interaction}
+@@LOW_DISCUSSION@@
+
+\begin{table}[t]
+\centering\small
+\caption{Separate exploratory eight-comparison external family. M/O/H/L denote mixed, original, high-only and low-only. Entries are Holm-adjusted p-values; location uses broader location proxies. The original six-test decisions remain unchanged.}
+\label{tab:exploratory}
+\begin{tabular}{lrrr}\toprule
+Contrast & Nested & Crossed & Location\\\midrule
+@@HOLM_ROWS@@
+\bottomrule\end{tabular}
+\end{table}
+
+@@INTERACTION@@ Its interpretation remains exploratory because the contrast was specified after the external results were known. Statistical evidence for an interaction would not by itself identify whether resolution exposure, optimization dynamics or pretrained representation mismatch causes it.
+
+\subsection{Absolute depth and failure analysis}
+With fixed NYUv2 validation calibration, external mixed512 obtained AbsRel 0.37886 and RMSE 0.94306\,m. The specialist achieved 0.18231 and 0.47903\,m with calibration, and native AbsRel 0.29033 without calibration. The specialist's aligned AbsRel was 0.07528, illustrating that the ranking depends on what is measured. Relative geometry and absolute distances must be discussed separately.
+
+@@FAILURE_DISCUSSION@@ The bin means use different contributing scene sets, so the plot is not a controlled comparison of equal scene populations across depth ranges. Boundary labels also depend on imperfect measured depth. These diagnostics describe where errors accumulate; they do not prove the cause of those errors.
+
+\begin{figure*}[t]
+\centering\includegraphics[width=\textwidth]{figures/failure_strata.png}
+\caption{Exploratory external error strata at 512 inference. Left: per-image GT-aligned AbsRel. Right: fixed-validation-calibrated AbsRel. The threshold and weighting rules are fixed in the extension protocol. Different ranges may include different scene counts; these curves do not constitute extra confirmatory tests.}
+\label{fig:strata}
+\end{figure*}
+
+We preserve the first three manifest samples as outcome-independent qualitative examples. Figure~\ref{fig:failures} instead shows the three largest regressions of scene-mean mixed512 against original512, selected explicitly after measuring error. The displayed adapter is fixed to draw1/seed17, whereas selection averages all 15 runs. This distinction prevents a few difficult images from being mistaken for a representative sample or a failure frequency estimate.
+The selected cases show doorway-boundary errors (ID125), smoothed chair structure (ID196), and errors in a cluttered computer room with missing measured depth (ID58).
+
+\begin{figure*}[t]
+\centering\includegraphics[width=.96\textwidth]{figures/selected_failures.png}
+\caption{Explicitly error-selected failures. Rows are the three largest mean mixed512 regressions on the observed external cohort; the shown adapter is draw1/seed17. GT-aligned predictions use the target depth and therefore cannot demonstrate absolute-distance accuracy. Invalid measured pixels are masked.}
+\label{fig:failures}
+\end{figure*}
+
+\subsection{Controlled cost and fixed-time validation}
+The 30 replication trainings consumed 52.40 minutes of optimizer time, with peak allocated memory 2,512\,MiB. The frozen external predictions took 32.10 minutes of measured inference and peaked at 2,946.7\,MiB. These original timings exclude loading, caching and audits. The later low-only execution also contains isolated, extremely long wall-time readings. We retain those records but use the separate controlled benchmark for speed comparisons.
+
+@@TIMING_DISCUSSION@@ The 320 timed predictions exactly matched the stored outputs, verifying that warmup and measurement did not change the evaluated configuration. Within-run quantiles are descriptive and are not confidence intervals over hardware installations or independently selected checkpoints.
+
+\begin{table}[t]
+\centering\small
+\caption{Fixed 120-second optimizer budget on draw1; validation32 only. Values are mean (sample SD) across three seeds. Update ranges show the achieved work within the budget.}
+\label{tab:budget}
+\begin{tabular}{lrrr}\toprule
+Training & Updates & AbsRel@256 & AbsRel@512\\\midrule
+@@BUDGET_ROWS@@
+\bottomrule\end{tabular}
+\end{table}
+
+@@BUDGET_DISCUSSION@@ This comparison does not select a final checkpoint or reuse the external cohort as unseen confirmation. Equal optimizer-loop wall time also excludes different latent-cache costs and cannot be equated with equal total project time or equal energy.
+
+\begin{figure*}[t]
+\centering\includegraphics[width=\textwidth]{figures/controlled_cost.png}
+\caption{Controlled local timing and the exploratory fixed-time training diagnostic. Left: inference medians across five randomized rounds and eight validation images. Right: validation AbsRel after 120 seconds of optimizer time, with SD across three seeds. Loading, caching and warmup are excluded; the timing scope is identical across conditions.}
+\label{fig:cost}
+\end{figure*}
+
+\section{Discussion and Limitations}
+The experiments show why a positive point estimate, a corrected statistical claim and a practical deployment advantage are different outcomes. Low-resolution relative-depth improvements are supported on the original frozen external cohort, while the 512 improvement is not. The added low-only control further constrains what can be attributed to mixing resolutions. Negative or inconclusive comparisons are informative because they rule out stronger interpretations of the project contribution.
+
+The statistical evidence remains conditional on small numbers of training draws, overlapping training samples, selected indoor scenes and one inference noise seed per image. Location proxies are imperfect, and bootstrap p-values are approximate. The fixed calibration set is not resampled, so calibrated diagnostics do not include uncertainty from choosing a different calibration dataset. No result proves independence from all pretraining data or transfer to arbitrary cameras and outdoor scenes.
+
+The method is deliberately modest: short LoRA training, cached latents, no image augmentation, one inference step and no new architecture. Our preservation term has a single tested weight; its weak result does not rule out all teacher regularizers. The specialist uses different supervision and input processing, and the compute-budget diagnostic covers only one training draw and a validation set. Remaining work could investigate metric-aware objectives, boundary-aware supervision or explicitly geometric consistency, with method selection confined to development data and a new frozen cohort for any confirmatory claim.
+
+\section{Conclusion}
+We built and audited a small-GPU depth-adaptation pipeline, progressing from exploratory ablations to replicated training and a fixed external evaluation. Mixed-resolution LoRA improves relative depth at 256 inference on the frozen external cohort, but its 512 advantage over original Marigold and accurate absolute-distance prediction are not established. @@CONCLUSION_NEW@@ The study identifies conditional accuracy, resolution, calibration and cost tradeoffs while retaining unsuccessful variants and the limits of the evidence.
+
+\paragraph{Reproducibility.}
+The separate supplement contains our source code, pinned dependency/model identifiers, protocols, small result summaries and execution instructions, excluding weights and raw datasets. Prediction metrics, input decoding, checkpoint restoration and historical-result preservation were audited. The code archive is below the course's 10\,MB limit. No previously frozen result file is overwritten by an exploratory extension.
+
+{\small\begin{thebibliography}{12}
+\bibitem{marigold} Bingxin Ke et al. Repurposing diffusion-based image generators for monocular depth estimation. In \emph{CVPR}, 2024.
+\bibitem{marigold25} Bingxin Ke et al. Marigold: Affordable adaptation of diffusion-based image generators for image analysis. arXiv:2505.09358, 2025.
+\bibitem{banana} Valentin Gabeur et al. Image generators are generalist vision learners. arXiv:2604.20329v1, 2026.
+\bibitem{lora} Edward J. Hu et al. LoRA: Low-rank adaptation of large language models. In \emph{ICLR}, 2022.
+\bibitem{resadapter} Jiaxiang Cheng et al. ResAdapter: Domain consistent resolution adapter for diffusion models. In \emph{AAAI}, 2025.
+\bibitem{wise} Mitchell Wortsman et al. Robust fine-tuning of zero-shot models. In \emph{CVPR}, 2022.
+\bibitem{dav2} Lihe Yang et al. Depth Anything V2. In \emph{NeurIPS}, 2024.
+\bibitem{nyu} Nathan Silberman, Derek Hoiem, Pushmeet Kohli, and Rob Fergus. Indoor segmentation and support inference from RGBD images. In \emph{ECCV}, 2012.
+\bibitem{sunrgbd} Shuran Song, Samuel P. Lichtenberg, and Jianxiong Xiao. SUN RGB-D: A RGB-D scene understanding benchmark suite. In \emph{CVPR}, 2015.
+\bibitem{sun3d} Jianxiong Xiao, Andrew Owens, and Antonio Torralba. SUN3D: A database of big spaces reconstructed using SfM and object labels. In \emph{ICCV}, 2013.
+\bibitem{holm} Sture Holm. A simple sequentially rejective multiple test procedure. \emph{Scandinavian Journal of Statistics}, 6(2):65--70, 1979.
+\end{thebibliography}}
+\end{document}

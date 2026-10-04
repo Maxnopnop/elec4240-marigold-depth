@@ -1,0 +1,58 @@
+{
+  "scope": "post-hoc training-only recovery pilot; not generalization or novelty evidence",
+  "initialization": "same seed17 step1000 adapter; fresh optimizer in both arms",
+  "checkpoint_sha256": "58bf367d3d0383c4ae64710ad96f0447031acca0fde7ae7fa077cb9144f2533b",
+  "manifest_sha256": "944088cd09a2ffb29debc8250fbfb4ead49dbacc9f9b5eccd3551d7908fcdc53",
+  "cache_sha256": "996286b2ef24f4a179dca8bd5bfba8a0f9ca6e7a14437b05cb48222ca20613dd",
+  "source_sha256": {
+    "generative_ris_v11\\loss_pilot.py": "7a6be2502561c4a3ee19ab36f2ce47c52c13d3afe21dfa4d678312b5fe2c4ecf",
+    "generative_ris_v11\\train_baseline.py": "910d9cc7e537ebf8ebb38f8d82ffdb0679d5ff0552d7ac860ccd126c177e0f04",
+    "multitask_v7\\engine.py": "5f5bd366102cee0e75f44834ce5c9461e06a600f09e8f35405a96b6c48ab8bf6",
+    "experiment.py": "e7dff5abdbf44e23cfafc7d375805549266fffe8acb2264a8efd437be3ee7e0a"
+  },
+  "selected_sent_ids": [
+    71297,
+    22439,
+    99899,
+    62659,
+    2885,
+    4454,
+    88549,
+    23047,
+    6153,
+    25902,
+    67189,
+    65867,
+    79613,
+    78420,
+    8787,
+    53401
+  ],
+  "images": 8,
+  "expressions": 16,
+  "arms": [
+    "latent_mse",
+    "latent_plus_balanced_pixels"
+  ],
+  "updates": 128,
+  "seed": 424024,
+  "lr": 0.0001,
+  "accumulation": 1,
+  "rank": 4,
+  "resolution": [
+    192,
+    256
+  ],
+  "optimizer": "AdamW weight_decay0.01, grad_clip1",
+  "pixel_loss": "0.5*mean(softplus(-4*d) on foreground)+0.5*mean(softplus(4*d) on background)+soft Dice(sigmoid(4*d)); coefficient1 added to velocity MSE",
+  "evaluation": [
+    0,
+    64,
+    128
+  ],
+  "threshold": 0,
+  "noise": "matched between arms; eval shared per image",
+  "selection_rule": "first8 train image groups, first expression per distinct annotation; no dev/reserved used",
+  "interpretation": "can these losses recover nonempty masks and fit different targets in the same training images? No held-out efficacy claim.",
+  "stop": "finite128 updates per arm; stop on nonfinite/OOM; no automatic parameter search"
+}

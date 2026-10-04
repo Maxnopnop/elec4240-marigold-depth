@@ -1,0 +1,225 @@
+{
+  "contrasts": [
+    {
+      "condition": "clean",
+      "rule": "weighted",
+      "task": "depth",
+      "difference": -0.0011308042155985104,
+      "seed_differences": [
+        -0.00223260110223239,
+        -2.9007328964630874e-05
+      ],
+      "improving_seeds": 2,
+      "difference_in_differences_vs_clean": 0.0
+    },
+    {
+      "condition": "clean",
+      "rule": "weighted",
+      "task": "normal",
+      "difference": 0.48445505599588046,
+      "seed_differences": [
+        0.15958161929449233,
+        0.8093284926972686
+      ],
+      "improving_seeds": 0,
+      "difference_in_differences_vs_clean": 0.0
+    },
+    {
+      "condition": "clean",
+      "rule": "shuffled",
+      "task": "depth",
+      "difference": 0.009581053075509827,
+      "seed_differences": [
+        -0.002711217435305946,
+        0.0218733235863256
+      ],
+      "improving_seeds": 1,
+      "difference_in_differences_vs_clean": 0.0
+    },
+    {
+      "condition": "clean",
+      "rule": "shuffled",
+      "task": "normal",
+      "difference": -1.5572324913509892,
+      "seed_differences": [
+        0.4271280485744562,
+        -3.5415930312764345
+      ],
+      "improving_seeds": 1,
+      "difference_in_differences_vs_clean": 0.0
+    },
+    {
+      "condition": "clean",
+      "rule": "oracle",
+      "task": "depth",
+      "difference": 0.0002804636918075226,
+      "seed_differences": [
+        -0.0005640246587409192,
+        0.0011249520423559645
+      ],
+      "improving_seeds": 1,
+      "difference_in_differences_vs_clean": 0.0
+    },
+    {
+      "condition": "clean",
+      "rule": "oracle",
+      "task": "normal",
+      "difference": 0.5926187915573529,
+      "seed_differences": [
+        0.3187037663872907,
+        0.866533816727415
+      ],
+      "improving_seeds": 0,
+      "difference_in_differences_vs_clean": 0.0
+    },
+    {
+      "condition": "heterogeneous_noise",
+      "rule": "weighted",
+      "task": "depth",
+      "difference": -0.03608477561160223,
+      "seed_differences": [
+        -0.0397908111194043,
+        -0.03237874010380015
+      ],
+      "improving_seeds": 2,
+      "difference_in_differences_vs_clean": -0.034953971396003716
+    },
+    {
+      "condition": "heterogeneous_noise",
+      "rule": "weighted",
+      "task": "normal",
+      "difference": 2.9122862081091636,
+      "seed_differences": [
+        5.7564662457862426,
+        0.06810617043208467
+      ],
+      "improving_seeds": 0,
+      "difference_in_differences_vs_clean": 2.427831152113283
+    },
+    {
+      "condition": "heterogeneous_noise",
+      "rule": "shuffled",
+      "task": "depth",
+      "difference": -0.014599368011497638,
+      "seed_differences": [
+        0.004476619600262688,
+        -0.03367535562325796
+      ],
+      "improving_seeds": 1,
+      "difference_in_differences_vs_clean": -0.024180421087007464
+    },
+    {
+      "condition": "heterogeneous_noise",
+      "rule": "shuffled",
+      "task": "normal",
+      "difference": -2.67353620539388,
+      "seed_differences": [
+        -0.0025691078795944122,
+        -5.344503302908166
+      ],
+      "improving_seeds": 2,
+      "difference_in_differences_vs_clean": -1.1163037140428909
+    },
+    {
+      "condition": "heterogeneous_noise",
+      "rule": "oracle",
+      "task": "depth",
+      "difference": -0.023060585813752976,
+      "seed_differences": [
+        -0.04741587054782531,
+        0.0012946989203193593
+      ],
+      "improving_seeds": 1,
+      "difference_in_differences_vs_clean": -0.0233410495055605
+    },
+    {
+      "condition": "heterogeneous_noise",
+      "rule": "oracle",
+      "task": "normal",
+      "difference": 3.5889396002409946,
+      "seed_differences": [
+        5.656326590070112,
+        1.5215526104118773
+      ],
+      "improving_seeds": 0,
+      "difference_in_differences_vs_clean": 2.9963208086836417
+    },
+    {
+      "condition": "smooth_bias",
+      "rule": "weighted",
+      "task": "depth",
+      "difference": -0.001298731341350834,
+      "seed_differences": [
+        -0.00017763488839436792,
+        -0.0024198277943073
+      ],
+      "improving_seeds": 2,
+      "difference_in_differences_vs_clean": -0.0001679271257523235
+    },
+    {
+      "condition": "smooth_bias",
+      "rule": "weighted",
+      "task": "normal",
+      "difference": -1.6305210851744718,
+      "seed_differences": [
+        -0.27942915043341543,
+        -2.981613019915528
+      ],
+      "improving_seeds": 2,
+      "difference_in_differences_vs_clean": -2.1149761411703523
+    },
+    {
+      "condition": "smooth_bias",
+      "rule": "shuffled",
+      "task": "depth",
+      "difference": -0.0019602859061921135,
+      "seed_differences": [
+        -0.004657198945475921,
+        0.000736627133091694
+      ],
+      "improving_seeds": 1,
+      "difference_in_differences_vs_clean": -0.01154133898170194
+    },
+    {
+      "condition": "smooth_bias",
+      "rule": "shuffled",
+      "task": "normal",
+      "difference": -4.823358544821247,
+      "seed_differences": [
+        -0.31339794617345973,
+        -9.333319143469033
+      ],
+      "improving_seeds": 2,
+      "difference_in_differences_vs_clean": -3.2661260534702574
+    },
+    {
+      "condition": "smooth_bias",
+      "rule": "oracle",
+      "task": "depth",
+      "difference": -0.011883241676127226,
+      "seed_differences": [
+        -0.0037639320860946013,
+        -0.02000255126615985
+      ],
+      "improving_seeds": 2,
+      "difference_in_differences_vs_clean": -0.012163705367934749
+    },
+    {
+      "condition": "smooth_bias",
+      "rule": "oracle",
+      "task": "normal",
+      "difference": -4.792325551462673,
+      "seed_differences": [
+        -0.7344514120074699,
+        -8.850199690917876
+      ],
+      "improving_seeds": 2,
+      "difference_in_differences_vs_clean": -5.384944343020026
+    }
+  ],
+  "geometry_direction_similarity_mean": 0.9579450316749626,
+  "geometry_direction_similarity_min": 0.8554611490114588,
+  "scope": "Post-hoc descriptive paired differences and difference-in-differences; two seeds only; no p-values or confirmation claim.",
+  "analysis_sha256": "6f37da12aae01cab25a182af9f5d0a20f3e442a2eadf9a7db2a39be65c861938",
+  "source_sha256": "2c8c0b5213e215886a14d7331f1ab3f4ea36f8a0d210a6fa4b10e8ab5bbb4c1d"
+}

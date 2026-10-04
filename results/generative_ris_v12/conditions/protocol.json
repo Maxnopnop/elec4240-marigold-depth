@@ -1,0 +1,87 @@
+{
+  "scope": "3 exploratory mechanisms; frozen generative candidates + small color verifier; GQA box/condition diagnostic, NOT RIS mask benchmark",
+  "images": {
+    "train": 512,
+    "calibration": 64,
+    "test": 128
+  },
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "colors": [
+    "black",
+    "white",
+    "red",
+    "green",
+    "blue",
+    "yellow",
+    "brown",
+    "gray",
+    "orange",
+    "pink",
+    "purple"
+  ],
+  "generator": "fixedV11seed17step3000, selected before V12outcomes; Marigold/VAE/CLIP allfrozen",
+  "generator_sha256": "99e7f33fd4e4aab0ad286d25d8cc08f8fef13f03cca28d9f14a6d2344759970f",
+  "verifier": "VAEcrop latent adaptivepool4x4(64dims)+RGBmean/std(6dims), standardized trainingfeatures;MLP70-64-11,CPUAdamW1e-3,50epochs,batch128,square-root-inverse-frequencyCE",
+  "relation": "geometry on predicted candidate mask bounding boxes and oracle reference-object boxes; naivefirstreference vs all-reference agreement/abstention; no learned relation detector",
+  "training_variants": [
+    "clean",
+    "lowres96",
+    "occluded25"
+  ],
+  "evaluation_variants": [
+    "clean",
+    "lowres48",
+    "occluded50"
+  ],
+  "corruptions": "separate derived imagecopies: resizefullimage thenupsample; blackrectangle covering leftfraction25/50% originaltargetbox; sourcefiles/scenegraphsunchanged",
+  "labels": "original sole color attributes and original left/right edges; graph-derived queries; opposite relation is contradiction; no colour guessed from text",
+  "threshold": "smallest in[.5,.6,.7,.8,.9,.95,.99,.999] with Wilson95%upper falseveto<=.10 oncalibration original target+distractor colors,3trainingperturbations; otherwise1(abstain). No test tuning.",
+  "candidates": "3 direct generative masks:fullquery/noise0,fullquery/noise1,nounonly/noise0; samepool allpolicies; no GTcandidate added",
+  "verifier_feature_training": "oracle object boxes, separately diagnosed; application uses generatedmaskboundingboxes",
+  "policies": [
+    "original",
+    "hard_all",
+    "safe_all",
+    "color_first_1",
+    "color_first_2",
+    "relation_first_1",
+    "relation_first_2",
+    "random_1",
+    "random_2",
+    "adaptive_1",
+    "adaptive_2"
+  ],
+  "adaptive": "untrained heuristic choose geometry center spread/(referencecount*fixedrelativecostprior0.01) vs RGBmean spread; only cheap preview statistics; not a learned policy or novelty claim",
+  "decision": "veto thenretain lowestoriginalcandidateindex; ifallvetoedretain original;budgetmethods stop atunique survivor; safe_all executes both; hard_all threshold.5 naivefirstreference",
+  "uncertainty": "support ifp>=threshold,refute ifp<=1-threshold,otherwiseunknown; unknown never vetoes",
+  "metrics": [
+    "originalcolor accuracy",
+    "false veto oftruecolor",
+    "contradiction coverage",
+    "boxIoU",
+    "boxIoU>=.5",
+    "correction count",
+    "harm count",
+    "candidateboxrecall",
+    "conditioncalls",
+    "decision latency onfirst16cleantestimages"
+  ],
+  "limitations": [
+    "oracle reference boxes",
+    "scenegraph annotationnoise",
+    "derivedqueries notoriginalGQAquestions",
+    "three candidate masks may miss target",
+    "no segmaskGT",
+    "adaptive heuristic not trained",
+    "stress results separatefromoriginalbenchmarks"
+  ],
+  "manifest_sha256": "79635d20181876ec836963600f261ad28ccafa50962f65d05152fbab0a958168",
+  "sources": {
+    "generative_ris_v12\\conditions.py": "0db1757c4a893b16c22f12f3526867e37a0a612048dae8f480742dc4044225b1",
+    "generative_ris_v12\\gqa_data.py": "a337a69e73444cc01dd009a769f81feeb24df25ed7d18c4ec98a86d2bf9bc7c0"
+  }
+}

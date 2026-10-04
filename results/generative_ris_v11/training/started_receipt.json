@@ -1,0 +1,12 @@
+{
+  "status": "actual_training_started_checkpoint_verified",
+  "seed": 17,
+  "verified_adapter_step": 200,
+  "trainable_parameters": 829952,
+  "adapter_finite": true,
+  "lora_B_updated": true,
+  "optimizer_state_present": true,
+  "training_complete": false,
+  "checkpoint_sha256": "30a018422d1d7a1392afee1ba6afe9de6f7a1f3dd28ec4a0b115b60e807635c0",
+  "protocol_sha256": "897c7f07da42838dfb45b6f6dbbdbaa17f3575a47fb098cc813c060df8feccd9"
+}

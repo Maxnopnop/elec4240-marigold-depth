@@ -1,12 +1,15 @@
 # ELEC4240: Low-cost adaptation of Marigold for indoor depth
 
+
+**Complete project archive (2026-10-04):** [all reports and experiments through V12](EXPERIMENT_ARCHIVE.md), including historical depth studies, reliability diagnostics, generative segmentation, and large-artifact download instructions. Earlier sections below retain their historical scope.
+
 A local course-project study that measures the accuracy and compute cost of adapting a diffusion-based depth model on an 8 GB laptop GPU. The starting point is the public **Marigold Depth v1.1** checkpoint. The project is inspired by transferring image generators to perception, including Vision Banana, but does not implement Vision Banana.
 
 **Provenance correction (2026-10-01):** the fixed Depth Anything V2 indoor reference is metric-fine-tuned on **Hypersim**, not NYUv2. Earlier NYUv2-supervision wording and the overlap inference derived from it are withdrawn; measured results are unchanged. See [the correction and pinned primary sources](CORRECTIONS.md).
 
 ## Latest method innovation plan
 
-The [new research plan](METHOD_INNOVATION_PLAN.md) turns the observed V7 negative transfer into a testable question: can the reliability of depth-derived normal labels guide the strength and location of geometric supervision? It includes the candidate weighting rule, a five-condition ablation, single-task controls, evaluation safeguards and related work. **This method is proposed, not implemented or evaluated.** The plan also summarizes current project feasibility and the prerequisites for the next study; existing experimental results and the final report are unchanged.
+The [initial research plan](METHOD_INNOVATION_PLAN.md) turns the observed V7 negative transfer into a testable question: can the reliability of depth-derived normal labels guide geometric supervision? The [executable experiment design](reliability_v8/EXPERIMENT_PLAN.md) and [V8 component results](results/reliability_v8/RESULTS.html) now implement the candidate rule and its first validation stage. **192 synthetic cases, 128 training-scene audits and 12 GPU forward/backward checks are complete; no weighted-model optimizer updates or model-accuracy comparison have been performed.** The fixed proxy passes its engineering screen under specified noise conditions, but fails to meaningfully identify smooth systematic bias. Weighted label-selection error is not trained-model accuracy. The next stages are stable single-task learning curves and a separately frozen seven-condition, three-seed model study. A [Colab notebook](reliability_v8/colab/reliability_v8_component.ipynb) and [portable bundle](reliability_v8/colab/reliability_v8_colab_bundle.zip) rerun the synthetic component; Google-hosted execution is unverified. Existing experimental results and the final report remain unchanged.
 
 ## Metric depth, surface normals and geometric consistency
 

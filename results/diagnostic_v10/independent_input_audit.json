@@ -1,0 +1,25 @@
+{
+  "verified_hashed_files": 59,
+  "training_condition_images": 48,
+  "rgb_truth_and_mask_equal_across_conditions": true,
+  "oracle_recomputed": true,
+  "shuffled_native_distribution_identical": true,
+  "label_quality_degrees": {
+    "clean": {
+      "normal_target_error": 0.014944232053835549,
+      "weighted_target_error": 0.010223917419466488,
+      "oracle_target_error": 0.005568746501808164
+    },
+    "heterogeneous_noise": {
+      "normal_target_error": 32.11333644390106,
+      "weighted_target_error": 11.372009754180908,
+      "oracle_target_error": 9.112226754426956
+    },
+    "smooth_bias": {
+      "normal_target_error": 5.39134293794632,
+      "weighted_target_error": 5.390780657529831,
+      "oracle_target_error": 5.279362231492996
+    }
+  },
+  "scope": "Input/label audit only, not trained-model improvement."
+}

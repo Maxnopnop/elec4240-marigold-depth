@@ -1,0 +1,5 @@
+{
+  "state": "failed",
+  "message": "Command '['E:\\\\Codex\\\\2026-09-27\\\\yo\\\\work\\\\marigold-local\\\\.venv\\\\Scripts\\\\python.exe', '-u', '-m', 'diagnostic_v10.gradients']' returned non-zero exit status 1.",
+  "traceback": "Traceback (most recent call last):\n  File \"E:\\Codex\\2026-09-27\\yo\\outputs\\marigold-depth\\diagnostic_v10\\pipeline.py\", line 17, in main\n    subprocess.run([sys.executable,'-u','-m','diagnostic_v10.'+module],cwd=ROOT,check=True)\n  File \"E:\\conda-envs\\comp4471\\Lib\\subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['E:\\\\Codex\\\\2026-09-27\\\\yo\\\\work\\\\marigold-local\\\\.venv\\\\Scripts\\\\python.exe', '-u', '-m', 'diagnostic_v10.gradients']' returned non-zero exit status 1.\n"
+}

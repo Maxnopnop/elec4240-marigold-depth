@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "training_only": true,
+  "formal_verifier_updates": 0,
+  "maximum_prompt_tokens": 26,
+  "feature_dimensions": 70,
+  "generated_candidates": 3,
+  "candidate_generation_seconds": 0.5482068999990588,
+  "peak_allocated_mib": 2655.005859375,
+  "frozen_generator": true
+}

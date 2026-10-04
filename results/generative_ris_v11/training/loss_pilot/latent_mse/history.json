@@ -1,0 +1,898 @@
+[
+  {
+    "step": 1,
+    "latent_loss": 0.3631232678890228,
+    "pixel_loss": 0.0,
+    "gradient_norm": 2.672088146209717,
+    "seconds": 0.7518721000014921
+  },
+  {
+    "step": 2,
+    "latent_loss": 0.3227069079875946,
+    "pixel_loss": 0.0,
+    "gradient_norm": 2.911644220352173,
+    "seconds": 0.39088380000248435
+  },
+  {
+    "step": 3,
+    "latent_loss": 0.6309384703636169,
+    "pixel_loss": 0.0,
+    "gradient_norm": 6.0004048347473145,
+    "seconds": 0.3558440000015253
+  },
+  {
+    "step": 4,
+    "latent_loss": 0.48886287212371826,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.699506402015686,
+    "seconds": 0.383953600001405
+  },
+  {
+    "step": 5,
+    "latent_loss": 1.3210866451263428,
+    "pixel_loss": 0.0,
+    "gradient_norm": 7.148683071136475,
+    "seconds": 0.3895526999986032
+  },
+  {
+    "step": 6,
+    "latent_loss": 0.38718289136886597,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.6998000144958496,
+    "seconds": 0.39078349999908824
+  },
+  {
+    "step": 7,
+    "latent_loss": 2.141073703765869,
+    "pixel_loss": 0.0,
+    "gradient_norm": 20.247068405151367,
+    "seconds": 0.3571671999998216
+  },
+  {
+    "step": 8,
+    "latent_loss": 0.38170719146728516,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.3332213163375854,
+    "seconds": 0.37357950000296114
+  },
+  {
+    "step": 9,
+    "latent_loss": 0.5818164944648743,
+    "pixel_loss": 0.0,
+    "gradient_norm": 4.26379919052124,
+    "seconds": 0.3764973999968788
+  },
+  {
+    "step": 10,
+    "latent_loss": 0.6476473212242126,
+    "pixel_loss": 0.0,
+    "gradient_norm": 5.262893199920654,
+    "seconds": 0.3788466000005428
+  },
+  {
+    "step": 11,
+    "latent_loss": 1.29989755153656,
+    "pixel_loss": 0.0,
+    "gradient_norm": 9.134336471557617,
+    "seconds": 0.38165209999715444
+  },
+  {
+    "step": 12,
+    "latent_loss": 0.6097015738487244,
+    "pixel_loss": 0.0,
+    "gradient_norm": 2.1129415035247803,
+    "seconds": 0.38144459999966784
+  },
+  {
+    "step": 13,
+    "latent_loss": 0.494218111038208,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.755358099937439,
+    "seconds": 0.3823005000012927
+  },
+  {
+    "step": 14,
+    "latent_loss": 0.6020669937133789,
+    "pixel_loss": 0.0,
+    "gradient_norm": 3.016364336013794,
+    "seconds": 0.3856563000008464
+  },
+  {
+    "step": 15,
+    "latent_loss": 0.6581775546073914,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.3501811027526855,
+    "seconds": 0.5722702000020945
+  },
+  {
+    "step": 16,
+    "latent_loss": 0.6523301601409912,
+    "pixel_loss": 0.0,
+    "gradient_norm": 2.3353612422943115,
+    "seconds": 0.38688709999769344
+  },
+  {
+    "step": 17,
+    "latent_loss": 0.33206042647361755,
+    "pixel_loss": 0.0,
+    "gradient_norm": 5.221865177154541,
+    "seconds": 0.3921531000014511
+  },
+  {
+    "step": 18,
+    "latent_loss": 1.161355972290039,
+    "pixel_loss": 0.0,
+    "gradient_norm": 8.098531723022461,
+    "seconds": 0.380739000000176
+  },
+  {
+    "step": 19,
+    "latent_loss": 0.43528056144714355,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.8983955383300781,
+    "seconds": 0.35397849999935715
+  },
+  {
+    "step": 20,
+    "latent_loss": 0.48588523268699646,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.8331096172332764,
+    "seconds": 0.3005111999991641
+  },
+  {
+    "step": 21,
+    "latent_loss": 0.43633389472961426,
+    "pixel_loss": 0.0,
+    "gradient_norm": 2.407681703567505,
+    "seconds": 0.34979889999885927
+  },
+  {
+    "step": 22,
+    "latent_loss": 0.5860781669616699,
+    "pixel_loss": 0.0,
+    "gradient_norm": 2.489436149597168,
+    "seconds": 0.3482336999986728
+  },
+  {
+    "step": 23,
+    "latent_loss": 0.5129944086074829,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.738598346710205,
+    "seconds": 0.348775200000091
+  },
+  {
+    "step": 24,
+    "latent_loss": 1.0765612125396729,
+    "pixel_loss": 0.0,
+    "gradient_norm": 4.0068488121032715,
+    "seconds": 0.38848330000109854
+  },
+  {
+    "step": 25,
+    "latent_loss": 0.5601924657821655,
+    "pixel_loss": 0.0,
+    "gradient_norm": 0.8430215120315552,
+    "seconds": 0.37629329999981564
+  },
+  {
+    "step": 26,
+    "latent_loss": 0.9508399963378906,
+    "pixel_loss": 0.0,
+    "gradient_norm": 3.1830859184265137,
+    "seconds": 0.38073140000051353
+  },
+  {
+    "step": 27,
+    "latent_loss": 0.309851735830307,
+    "pixel_loss": 0.0,
+    "gradient_norm": 3.3443973064422607,
+    "seconds": 0.37953050000214716
+  },
+  {
+    "step": 28,
+    "latent_loss": 0.6584195494651794,
+    "pixel_loss": 0.0,
+    "gradient_norm": 0.9991781711578369,
+    "seconds": 0.3751846999984991
+  },
+  {
+    "step": 29,
+    "latent_loss": 0.48287367820739746,
+    "pixel_loss": 0.0,
+    "gradient_norm": 2.208822727203369,
+    "seconds": 0.3860896000005596
+  },
+  {
+    "step": 30,
+    "latent_loss": 0.4855448603630066,
+    "pixel_loss": 0.0,
+    "gradient_norm": 2.3087453842163086,
+    "seconds": 0.3852827000009711
+  },
+  {
+    "step": 31,
+    "latent_loss": 0.32260486483573914,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.8129006624221802,
+    "seconds": 0.3839312999989488
+  },
+  {
+    "step": 32,
+    "latent_loss": 0.6333684921264648,
+    "pixel_loss": 0.0,
+    "gradient_norm": 6.429449081420898,
+    "seconds": 0.35393480000129784
+  },
+  {
+    "step": 33,
+    "latent_loss": 0.5354295969009399,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.2565760612487793,
+    "seconds": 0.30378989999735495
+  },
+  {
+    "step": 34,
+    "latent_loss": 0.2849985957145691,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.2869511842727661,
+    "seconds": 0.35382749999916996
+  },
+  {
+    "step": 35,
+    "latent_loss": 0.3916980028152466,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.718422293663025,
+    "seconds": 0.38352320000194595
+  },
+  {
+    "step": 36,
+    "latent_loss": 0.37353843450546265,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.778242588043213,
+    "seconds": 0.3867261999985203
+  },
+  {
+    "step": 37,
+    "latent_loss": 0.4736693501472473,
+    "pixel_loss": 0.0,
+    "gradient_norm": 7.023176193237305,
+    "seconds": 0.3839644999970915
+  },
+  {
+    "step": 38,
+    "latent_loss": 0.4351479411125183,
+    "pixel_loss": 0.0,
+    "gradient_norm": 2.2172582149505615,
+    "seconds": 0.3835014999967825
+  },
+  {
+    "step": 39,
+    "latent_loss": 0.4972885251045227,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.7092890739440918,
+    "seconds": 0.38488199999846984
+  },
+  {
+    "step": 40,
+    "latent_loss": 0.2299007624387741,
+    "pixel_loss": 0.0,
+    "gradient_norm": 2.064718246459961,
+    "seconds": 0.39455959999759216
+  },
+  {
+    "step": 41,
+    "latent_loss": 0.20336806774139404,
+    "pixel_loss": 0.0,
+    "gradient_norm": 3.468539237976074,
+    "seconds": 0.380176599999686
+  },
+  {
+    "step": 42,
+    "latent_loss": 1.123684048652649,
+    "pixel_loss": 0.0,
+    "gradient_norm": 3.2424697875976562,
+    "seconds": 0.379872699999396
+  },
+  {
+    "step": 43,
+    "latent_loss": 0.5823566913604736,
+    "pixel_loss": 0.0,
+    "gradient_norm": 4.3560919761657715,
+    "seconds": 0.5678459000009752
+  },
+  {
+    "step": 44,
+    "latent_loss": 0.4186027944087982,
+    "pixel_loss": 0.0,
+    "gradient_norm": 2.0026657581329346,
+    "seconds": 0.3776350000007369
+  },
+  {
+    "step": 45,
+    "latent_loss": 1.3085830211639404,
+    "pixel_loss": 0.0,
+    "gradient_norm": 21.1788272857666,
+    "seconds": 0.38976829999955953
+  },
+  {
+    "step": 46,
+    "latent_loss": 0.5161070823669434,
+    "pixel_loss": 0.0,
+    "gradient_norm": 4.144032001495361,
+    "seconds": 0.35432549999677576
+  },
+  {
+    "step": 47,
+    "latent_loss": 0.6672336459159851,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.6161794662475586,
+    "seconds": 0.3108600000014121
+  },
+  {
+    "step": 48,
+    "latent_loss": 0.9925497770309448,
+    "pixel_loss": 0.0,
+    "gradient_norm": 5.229482173919678,
+    "seconds": 0.3027887999996892
+  },
+  {
+    "step": 49,
+    "latent_loss": 0.6370339393615723,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.7185885906219482,
+    "seconds": 0.36334899999928894
+  },
+  {
+    "step": 50,
+    "latent_loss": 0.29700136184692383,
+    "pixel_loss": 0.0,
+    "gradient_norm": 2.075620651245117,
+    "seconds": 0.3616208999992523
+  },
+  {
+    "step": 51,
+    "latent_loss": 0.5265628695487976,
+    "pixel_loss": 0.0,
+    "gradient_norm": 3.0854532718658447,
+    "seconds": 0.38161480000053416
+  },
+  {
+    "step": 52,
+    "latent_loss": 0.40688556432724,
+    "pixel_loss": 0.0,
+    "gradient_norm": 2.031785488128662,
+    "seconds": 0.38820570000098087
+  },
+  {
+    "step": 53,
+    "latent_loss": 0.15145829319953918,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.3471579551696777,
+    "seconds": 0.3471358999995573
+  },
+  {
+    "step": 54,
+    "latent_loss": 0.3885154128074646,
+    "pixel_loss": 0.0,
+    "gradient_norm": 3.141111373901367,
+    "seconds": 0.39064909999797237
+  },
+  {
+    "step": 55,
+    "latent_loss": 0.24688081443309784,
+    "pixel_loss": 0.0,
+    "gradient_norm": 2.1698546409606934,
+    "seconds": 0.38029659999665455
+  },
+  {
+    "step": 56,
+    "latent_loss": 0.4326300323009491,
+    "pixel_loss": 0.0,
+    "gradient_norm": 4.374589920043945,
+    "seconds": 0.38414040000134264
+  },
+  {
+    "step": 57,
+    "latent_loss": 0.581016480922699,
+    "pixel_loss": 0.0,
+    "gradient_norm": 2.5301573276519775,
+    "seconds": 0.3864786999984062
+  },
+  {
+    "step": 58,
+    "latent_loss": 0.23599421977996826,
+    "pixel_loss": 0.0,
+    "gradient_norm": 5.516479969024658,
+    "seconds": 0.37954269999681856
+  },
+  {
+    "step": 59,
+    "latent_loss": 0.40622639656066895,
+    "pixel_loss": 0.0,
+    "gradient_norm": 8.718785285949707,
+    "seconds": 0.26746189999903436
+  },
+  {
+    "step": 60,
+    "latent_loss": 1.1852045059204102,
+    "pixel_loss": 0.0,
+    "gradient_norm": 19.657135009765625,
+    "seconds": 0.27794360000189045
+  },
+  {
+    "step": 61,
+    "latent_loss": 0.5284935832023621,
+    "pixel_loss": 0.0,
+    "gradient_norm": 9.76707935333252,
+    "seconds": 0.29737480000039795
+  },
+  {
+    "step": 62,
+    "latent_loss": 0.8454028964042664,
+    "pixel_loss": 0.0,
+    "gradient_norm": 3.1343417167663574,
+    "seconds": 0.334103099998174
+  },
+  {
+    "step": 63,
+    "latent_loss": 1.0846691131591797,
+    "pixel_loss": 0.0,
+    "gradient_norm": 3.6291351318359375,
+    "seconds": 0.34107200000289595
+  },
+  {
+    "step": 64,
+    "latent_loss": 0.5876274108886719,
+    "pixel_loss": 0.0,
+    "gradient_norm": 2.884248971939087,
+    "seconds": 0.3561764999976731
+  },
+  {
+    "step": 65,
+    "latent_loss": 1.0494554042816162,
+    "pixel_loss": 0.0,
+    "gradient_norm": 3.837986469268799,
+    "seconds": 0.39245429999937187
+  },
+  {
+    "step": 66,
+    "latent_loss": 0.6189606189727783,
+    "pixel_loss": 0.0,
+    "gradient_norm": 3.52656626701355,
+    "seconds": 0.38246369999978924
+  },
+  {
+    "step": 67,
+    "latent_loss": 0.22964346408843994,
+    "pixel_loss": 0.0,
+    "gradient_norm": 4.875959396362305,
+    "seconds": 0.40789500000028056
+  },
+  {
+    "step": 68,
+    "latent_loss": 0.5185357332229614,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.7926371097564697,
+    "seconds": 0.41239069999937783
+  },
+  {
+    "step": 69,
+    "latent_loss": 0.3850162923336029,
+    "pixel_loss": 0.0,
+    "gradient_norm": 2.6843016147613525,
+    "seconds": 0.45898850000230595
+  },
+  {
+    "step": 70,
+    "latent_loss": 0.3467024266719818,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.3945873975753784,
+    "seconds": 0.38150319999840576
+  },
+  {
+    "step": 71,
+    "latent_loss": 0.11269374936819077,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.2390633821487427,
+    "seconds": 0.28503420000197366
+  },
+  {
+    "step": 72,
+    "latent_loss": 0.306413859128952,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.801058053970337,
+    "seconds": 0.3164805000014894
+  },
+  {
+    "step": 73,
+    "latent_loss": 0.23683059215545654,
+    "pixel_loss": 0.0,
+    "gradient_norm": 5.020111560821533,
+    "seconds": 0.3832793000001402
+  },
+  {
+    "step": 74,
+    "latent_loss": 0.33222609758377075,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.566146969795227,
+    "seconds": 0.5819741000013892
+  },
+  {
+    "step": 75,
+    "latent_loss": 0.562187671661377,
+    "pixel_loss": 0.0,
+    "gradient_norm": 3.021414041519165,
+    "seconds": 0.3913442000011855
+  },
+  {
+    "step": 76,
+    "latent_loss": 0.19997882843017578,
+    "pixel_loss": 0.0,
+    "gradient_norm": 3.6056926250457764,
+    "seconds": 0.380385300002672
+  },
+  {
+    "step": 77,
+    "latent_loss": 0.903364360332489,
+    "pixel_loss": 0.0,
+    "gradient_norm": 6.4614577293396,
+    "seconds": 0.3803044000014779
+  },
+  {
+    "step": 78,
+    "latent_loss": 1.2254040241241455,
+    "pixel_loss": 0.0,
+    "gradient_norm": 31.81657600402832,
+    "seconds": 0.3966584000008879
+  },
+  {
+    "step": 79,
+    "latent_loss": 0.20602582395076752,
+    "pixel_loss": 0.0,
+    "gradient_norm": 3.934560537338257,
+    "seconds": 0.48418239999955404
+  },
+  {
+    "step": 80,
+    "latent_loss": 0.5853664875030518,
+    "pixel_loss": 0.0,
+    "gradient_norm": 5.903941631317139,
+    "seconds": 0.3796613000013167
+  },
+  {
+    "step": 81,
+    "latent_loss": 0.2367871254682541,
+    "pixel_loss": 0.0,
+    "gradient_norm": 2.1497116088867188,
+    "seconds": 0.36902159999954165
+  },
+  {
+    "step": 82,
+    "latent_loss": 0.9309119582176208,
+    "pixel_loss": 0.0,
+    "gradient_norm": 8.240431785583496,
+    "seconds": 0.37239449999833596
+  },
+  {
+    "step": 83,
+    "latent_loss": 0.08877136558294296,
+    "pixel_loss": 0.0,
+    "gradient_norm": 0.7761349678039551,
+    "seconds": 0.4013770999990811
+  },
+  {
+    "step": 84,
+    "latent_loss": 0.7928079962730408,
+    "pixel_loss": 0.0,
+    "gradient_norm": 5.945375919342041,
+    "seconds": 0.3922268000023905
+  },
+  {
+    "step": 85,
+    "latent_loss": 0.32725709676742554,
+    "pixel_loss": 0.0,
+    "gradient_norm": 2.46061372756958,
+    "seconds": 0.39289199999984703
+  },
+  {
+    "step": 86,
+    "latent_loss": 0.1787734031677246,
+    "pixel_loss": 0.0,
+    "gradient_norm": 7.26694393157959,
+    "seconds": 0.38904879999972763
+  },
+  {
+    "step": 87,
+    "latent_loss": 0.4034873843193054,
+    "pixel_loss": 0.0,
+    "gradient_norm": 9.329014778137207,
+    "seconds": 0.386026000000129
+  },
+  {
+    "step": 88,
+    "latent_loss": 0.4839910864830017,
+    "pixel_loss": 0.0,
+    "gradient_norm": 5.161937236785889,
+    "seconds": 0.3850689999999304
+  },
+  {
+    "step": 89,
+    "latent_loss": 0.32142373919487,
+    "pixel_loss": 0.0,
+    "gradient_norm": 3.2706382274627686,
+    "seconds": 0.37983929999973043
+  },
+  {
+    "step": 90,
+    "latent_loss": 0.5603703260421753,
+    "pixel_loss": 0.0,
+    "gradient_norm": 3.0591275691986084,
+    "seconds": 0.3574257000000216
+  },
+  {
+    "step": 91,
+    "latent_loss": 0.5383579134941101,
+    "pixel_loss": 0.0,
+    "gradient_norm": 3.4883835315704346,
+    "seconds": 0.3809681999991881
+  },
+  {
+    "step": 92,
+    "latent_loss": 0.1685665100812912,
+    "pixel_loss": 0.0,
+    "gradient_norm": 7.508573055267334,
+    "seconds": 0.3863538999976299
+  },
+  {
+    "step": 93,
+    "latent_loss": 0.5517995953559875,
+    "pixel_loss": 0.0,
+    "gradient_norm": 11.898164749145508,
+    "seconds": 0.4040567000010924
+  },
+  {
+    "step": 94,
+    "latent_loss": 0.5497950315475464,
+    "pixel_loss": 0.0,
+    "gradient_norm": 6.923920631408691,
+    "seconds": 0.40638980000221636
+  },
+  {
+    "step": 95,
+    "latent_loss": 0.18273529410362244,
+    "pixel_loss": 0.0,
+    "gradient_norm": 4.1478424072265625,
+    "seconds": 0.30255769999712356
+  },
+  {
+    "step": 96,
+    "latent_loss": 0.26703840494155884,
+    "pixel_loss": 0.0,
+    "gradient_norm": 5.711775302886963,
+    "seconds": 0.38253940000140574
+  },
+  {
+    "step": 97,
+    "latent_loss": 0.08319037407636642,
+    "pixel_loss": 0.0,
+    "gradient_norm": 0.9910142421722412,
+    "seconds": 0.3408640000016021
+  },
+  {
+    "step": 98,
+    "latent_loss": 0.9246773719787598,
+    "pixel_loss": 0.0,
+    "gradient_norm": 5.602181434631348,
+    "seconds": 0.38063830000101007
+  },
+  {
+    "step": 99,
+    "latent_loss": 0.21307802200317383,
+    "pixel_loss": 0.0,
+    "gradient_norm": 12.351035118103027,
+    "seconds": 0.3726920999979484
+  },
+  {
+    "step": 100,
+    "latent_loss": 0.15746675431728363,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.077326774597168,
+    "seconds": 0.37209140000049956
+  },
+  {
+    "step": 101,
+    "latent_loss": 0.3983631134033203,
+    "pixel_loss": 0.0,
+    "gradient_norm": 17.1751651763916,
+    "seconds": 0.37303700000120443
+  },
+  {
+    "step": 102,
+    "latent_loss": 0.6185733675956726,
+    "pixel_loss": 0.0,
+    "gradient_norm": 20.52455711364746,
+    "seconds": 0.558562999998685
+  },
+  {
+    "step": 103,
+    "latent_loss": 0.5160910487174988,
+    "pixel_loss": 0.0,
+    "gradient_norm": 17.41289520263672,
+    "seconds": 0.39157780000095954
+  },
+  {
+    "step": 104,
+    "latent_loss": 0.12572067975997925,
+    "pixel_loss": 0.0,
+    "gradient_norm": 2.557147979736328,
+    "seconds": 0.31372579999879235
+  },
+  {
+    "step": 105,
+    "latent_loss": 0.4336915910243988,
+    "pixel_loss": 0.0,
+    "gradient_norm": 4.859511375427246,
+    "seconds": 0.3067805999999109
+  },
+  {
+    "step": 106,
+    "latent_loss": 0.298039972782135,
+    "pixel_loss": 0.0,
+    "gradient_norm": 3.9381091594696045,
+    "seconds": 0.2842772000003606
+  },
+  {
+    "step": 107,
+    "latent_loss": 0.6330525279045105,
+    "pixel_loss": 0.0,
+    "gradient_norm": 14.655048370361328,
+    "seconds": 0.2755429000026197
+  },
+  {
+    "step": 108,
+    "latent_loss": 0.331754207611084,
+    "pixel_loss": 0.0,
+    "gradient_norm": 14.976810455322266,
+    "seconds": 0.25668230000155745
+  },
+  {
+    "step": 109,
+    "latent_loss": 0.42537039518356323,
+    "pixel_loss": 0.0,
+    "gradient_norm": 4.551954746246338,
+    "seconds": 0.3240962000018044
+  },
+  {
+    "step": 110,
+    "latent_loss": 0.16986319422721863,
+    "pixel_loss": 0.0,
+    "gradient_norm": 10.626437187194824,
+    "seconds": 0.3614403999999922
+  },
+  {
+    "step": 111,
+    "latent_loss": 0.32150882482528687,
+    "pixel_loss": 0.0,
+    "gradient_norm": 6.567841529846191,
+    "seconds": 0.40110880000065663
+  },
+  {
+    "step": 112,
+    "latent_loss": 0.09179139137268066,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.1397316455841064,
+    "seconds": 0.36258059999818215
+  },
+  {
+    "step": 113,
+    "latent_loss": 0.17170724272727966,
+    "pixel_loss": 0.0,
+    "gradient_norm": 4.079697132110596,
+    "seconds": 0.38317319999987376
+  },
+  {
+    "step": 114,
+    "latent_loss": 0.397807776927948,
+    "pixel_loss": 0.0,
+    "gradient_norm": 3.6806693077087402,
+    "seconds": 0.3911710000029416
+  },
+  {
+    "step": 115,
+    "latent_loss": 0.10000276565551758,
+    "pixel_loss": 0.0,
+    "gradient_norm": 2.0886306762695312,
+    "seconds": 0.38403589999870746
+  },
+  {
+    "step": 116,
+    "latent_loss": 0.2929781377315521,
+    "pixel_loss": 0.0,
+    "gradient_norm": 3.5286056995391846,
+    "seconds": 0.378989000000729
+  },
+  {
+    "step": 117,
+    "latent_loss": 0.06269398331642151,
+    "pixel_loss": 0.0,
+    "gradient_norm": 1.671164870262146,
+    "seconds": 0.3760705999993661
+  },
+  {
+    "step": 118,
+    "latent_loss": 0.2728872299194336,
+    "pixel_loss": 0.0,
+    "gradient_norm": 9.694402694702148,
+    "seconds": 0.391470800001116
+  },
+  {
+    "step": 119,
+    "latent_loss": 0.32280147075653076,
+    "pixel_loss": 0.0,
+    "gradient_norm": 18.82900619506836,
+    "seconds": 0.26877760000206763
+  },
+  {
+    "step": 120,
+    "latent_loss": 0.5630170702934265,
+    "pixel_loss": 0.0,
+    "gradient_norm": 11.087559700012207,
+    "seconds": 0.24096699999790872
+  },
+  {
+    "step": 121,
+    "latent_loss": 0.9259847402572632,
+    "pixel_loss": 0.0,
+    "gradient_norm": 6.477930068969727,
+    "seconds": 0.2575704000009864
+  },
+  {
+    "step": 122,
+    "latent_loss": 0.30127084255218506,
+    "pixel_loss": 0.0,
+    "gradient_norm": 5.181291103363037,
+    "seconds": 0.27824450000116485
+  },
+  {
+    "step": 123,
+    "latent_loss": 0.37912309169769287,
+    "pixel_loss": 0.0,
+    "gradient_norm": 3.4751434326171875,
+    "seconds": 0.34158469999965746
+  },
+  {
+    "step": 124,
+    "latent_loss": 0.2250090092420578,
+    "pixel_loss": 0.0,
+    "gradient_norm": 12.809807777404785,
+    "seconds": 0.37702730000091833
+  },
+  {
+    "step": 125,
+    "latent_loss": 0.09205684065818787,
+    "pixel_loss": 0.0,
+    "gradient_norm": 2.507793664932251,
+    "seconds": 0.3874348999997892
+  },
+  {
+    "step": 126,
+    "latent_loss": 0.6030139923095703,
+    "pixel_loss": 0.0,
+    "gradient_norm": 9.647562980651855,
+    "seconds": 0.36828869999953895
+  },
+  {
+    "step": 127,
+    "latent_loss": 0.08527028560638428,
+    "pixel_loss": 0.0,
+    "gradient_norm": 3.347667932510376,
+    "seconds": 0.3387208999993163
+  },
+  {
+    "step": 128,
+    "latent_loss": 0.29578882455825806,
+    "pixel_loss": 0.0,
+    "gradient_norm": 9.855450630187988,
+    "seconds": 0.39110600000276463
+  }
+]

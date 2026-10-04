@@ -1,0 +1,123 @@
+{
+  "version": "reliability_training_v9_stage_b",
+  "created_utc": "2026-10-02T07:51:44.212208+00:00",
+  "modes": [
+    "depth",
+    "normal"
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "steps": 1280,
+  "evaluation_checkpoints": [
+    320,
+    640,
+    1280
+  ],
+  "training_images": 128,
+  "validation_images": 32,
+  "validation_status": "previously observed development scenes; exploratory only",
+  "size": [
+    192,
+    256
+  ],
+  "rank": 4,
+  "trainable_parameters": 829952,
+  "optimizer": {
+    "type": "AdamW",
+    "lr": 0.0001,
+    "weight_decay": 0.01,
+    "clip": 1.0
+  },
+  "loss": "unchanged V7 single-step zero-SNR latent supervision; per-task mean, optional decoded geometry",
+  "geometry_coefficients": {
+    "depth": 0.0,
+    "normal": 0.0,
+    "joint": 0.0,
+    "uniform": 0.1,
+    "weaker_uniform": 0.03,
+    "weighted": 0.1,
+    "shuffled": 0.1
+  },
+  "weighting": "frozen V8 fullres sigma1/2/4, temperature10deg; native valid-normalized area resampling; normalized detached weights",
+  "shuffle": "permute native weights within each image original support; seed90000+image_id, same map in all model seeds",
+  "order": "per-seed numpy default_rng permutations, pop last; same order across all modes;10 complete passes",
+  "noise": "seed+1000*zero_based_update; shared across tasks each update",
+  "inference": "one-step fixed seed73000+image_id; fixed metric codec; no GT alignment",
+  "selection": "fixed final1280checkpoint; report all seeds and all scheduled learning-curve points",
+  "baseline_gate": "all runs finite and exact final checkpoint restoration; task-wise mean final error <=1.05*mean320 error; feasibility only, not convergence",
+  "resume": "atomic adapter/optimizer/local sampler/global RNG state every160 updates; failure/interrupt retained; no skip without hash validation",
+  "statistics": {
+    "family": [
+      [
+        "weighted",
+        "uniform",
+        "depth",
+        "abs_rel"
+      ],
+      [
+        "weighted",
+        "uniform",
+        "normal",
+        "mean_deg"
+      ],
+      [
+        "weighted",
+        "weaker_uniform",
+        "depth",
+        "abs_rel"
+      ],
+      [
+        "weighted",
+        "weaker_uniform",
+        "normal",
+        "mean_deg"
+      ],
+      [
+        "weighted",
+        "shuffled",
+        "depth",
+        "abs_rel"
+      ],
+      [
+        "weighted",
+        "shuffled",
+        "normal",
+        "mean_deg"
+      ]
+    ],
+    "bootstrap": "paired crossed seed/scene resampling,20000 replicates,seed934240; centered two-sided tests and Holm6",
+    "other_comparisons": "descriptive only; no non-inferiority claim or fresh-confirmation claim"
+  },
+  "diagnostics": "descriptive per-task metrics, geometry agreement, high-depth-gradient/other-valid pixel errors, time/memory; all methods identical masks",
+  "stop": "nonfinite/OOM/integrity failure; diagnose before any new protocol. No accuracy-based early stopping within a frozen run.",
+  "source_sha256": {
+    "reliability_v8/__init__.py": "602fa6ab9c4cf82f004a49ac5c9f819295b378532ad4149abd57b877a94a4950",
+    "reliability_v8/core.py": "1541cc5a1c8ec0afbd984b6c9247beb430e0911a7d49ee4cb87df19ee34be8ea",
+    "reliability_v8/gpu_check.py": "6543a706f73a42a1880b22b47fa3a2c3e9e5fbe569d53570a9f697f9f6d1e2dc",
+    "reliability_v8/study.py": "2c829157942e7ee2db799cc5f535fcf6c99099a26e8b1df16dbad3be08288041",
+    "reliability_v8/test_core.py": "4bf3b6fc2d2d9dc2246d88c391871109fa9fd40a9efa6b2f3ad5951e5c0c82c5",
+    "multitask_v7/__init__.py": "290fccf4051772a1b2b9e1078ba9af8a6f48e8ea1f151e7437e0120e26ed15fe",
+    "multitask_v7/common.py": "b4b79f129b265da7dd08eb7c002c1095991268affadbc9050faa9f352e9477b1",
+    "multitask_v7/engine.py": "5f5bd366102cee0e75f44834ce5c9461e06a600f09e8f35405a96b6c48ab8bf6",
+    "multitask_v7/prepare.py": "1c7095a4068abac967093d8e5c4b90b0418bff04df784528b644d92e9fc16650",
+    "multitask_v7/run.py": "2b465fc1d89c2e4cb1a4ce1366373b727ab16e21939d0bc3bdcd86ed38a6e460",
+    "multitask_v7/smoke.py": "4a61e893acb19c899185f83f1ff8fdee3e6359c47f48a42a68663d69c5b89c24",
+    "multitask_v7/test_geometry.py": "67f3b022a0e9509b33d049dba3368ca369022d72611ea61f89f1af53c0aae450",
+    "experiment.py": "e7dff5abdbf44e23cfafc7d375805549266fffe8acb2264a8efd437be3ee7e0a",
+    "training_v9/__init__.py": "2e0c722f785e02bbe5d99a8c6e6009c36111bf7dadb8bc68f61d633b221b3aea",
+    "training_v9/protocol.py": "1fe27bd83a2f998d1e87427efd6278cce8f9f8e1a39b6ae564ed0612a4b31e23",
+    "training_v9/run.py": "d99a513e196bdbc8aaa7f8cb92f09a5d188d5bcbb90692322674dfce2075f27b",
+    "training_v9/test_resume.py": "fb3079e9d2a652f3c0cc4d83c19ab501bcdf0f7da58578cfbce68f4f4ea3f3be"
+  },
+  "inputs": {
+    "results/metric_multitask_v7/manifest.json": "2a496e8734a5ba88f9d3a71d6f081c8d47a9543e76ca5398be5b838a0ed03534",
+    "results/metric_multitask_v7/camera.json": "837013bf3cd280f1211e1bda9a4654ef4954f97ff6dd8620dfe85f112bfc1b7f",
+    "results/reliability_v8/component_protocol.json": "3474436a130f79724acec25d1c43e009d842fda6bfa27921540bd98dde719eec",
+    "results/reliability_v8/analysis.json": "c24c70c0f4a405e42d0637a45f4b7db2138e31dc06c0d0cacac66d6de03df5a9",
+    "results/reliability_v8/training_audit.json": "7ed44b70efd2abcde5cc0c4ee4dfaf5ecaaef4bbc67fa5f19471fd0abfd71917",
+    "results/reliability_v8/gpu_check.json": "b1a470cd84aae4ea1c1f41e6d7c957eb15728c604099176fe3ecfd444d38ea2c"
+  }
+}

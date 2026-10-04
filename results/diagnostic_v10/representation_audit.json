@@ -1,0 +1,615 @@
+{
+  "records": [
+    {
+      "condition": "clean",
+      "id": "plane_201",
+      "normal_fullres_deg": 0.00046653582830913365,
+      "normal_native_deg": 0.0,
+      "depth_fullres_absrel": 0.0,
+      "depth_native_absrel": 0.0,
+      "latent_target_mse": {
+        "depth": 0.0,
+        "normal": 0.0
+      }
+    },
+    {
+      "condition": "clean",
+      "id": "crease_201",
+      "normal_fullres_deg": 0.06408422440290451,
+      "normal_native_deg": 0.05444898083806038,
+      "depth_fullres_absrel": 0.0,
+      "depth_native_absrel": 0.0,
+      "latent_target_mse": {
+        "depth": 0.0,
+        "normal": 0.0
+      }
+    },
+    {
+      "condition": "clean",
+      "id": "step_201",
+      "normal_fullres_deg": 0.0,
+      "normal_native_deg": 0.0,
+      "depth_fullres_absrel": 0.0,
+      "depth_native_absrel": 0.0,
+      "latent_target_mse": {
+        "depth": 0.0,
+        "normal": 0.0
+      }
+    },
+    {
+      "condition": "clean",
+      "id": "curved_201",
+      "normal_fullres_deg": 0.00034917358425445855,
+      "normal_native_deg": 8.020101813599467e-05,
+      "depth_fullres_absrel": 0.0,
+      "depth_native_absrel": 0.0,
+      "latent_target_mse": {
+        "depth": 0.0,
+        "normal": 0.0
+      }
+    },
+    {
+      "condition": "clean",
+      "id": "plane_211",
+      "normal_fullres_deg": 0.00018242481746710837,
+      "normal_native_deg": 0.0,
+      "depth_fullres_absrel": 0.0,
+      "depth_native_absrel": 0.0,
+      "latent_target_mse": {
+        "depth": 0.0,
+        "normal": 0.0
+      }
+    },
+    {
+      "condition": "clean",
+      "id": "crease_211",
+      "normal_fullres_deg": 0.05485982075333595,
+      "normal_native_deg": 0.0468316525220871,
+      "depth_fullres_absrel": 0.0,
+      "depth_native_absrel": 0.0,
+      "latent_target_mse": {
+        "depth": 0.0,
+        "normal": 0.0
+      }
+    },
+    {
+      "condition": "clean",
+      "id": "step_211",
+      "normal_fullres_deg": 0.0,
+      "normal_native_deg": 0.0,
+      "depth_fullres_absrel": 0.0,
+      "depth_native_absrel": 0.0,
+      "latent_target_mse": {
+        "depth": 0.0,
+        "normal": 0.0
+      }
+    },
+    {
+      "condition": "clean",
+      "id": "curved_211",
+      "normal_fullres_deg": 0.0003419597924221307,
+      "normal_native_deg": 4.2484865844016895e-05,
+      "depth_fullres_absrel": 0.0,
+      "depth_native_absrel": 0.0,
+      "latent_target_mse": {
+        "depth": 0.0,
+        "normal": 0.0
+      }
+    },
+    {
+      "condition": "clean",
+      "id": "plane_223",
+      "normal_fullres_deg": 0.00043005088809877634,
+      "normal_native_deg": 0.0,
+      "depth_fullres_absrel": 0.0,
+      "depth_native_absrel": 0.0,
+      "latent_target_mse": {
+        "depth": 0.0,
+        "normal": 0.0
+      }
+    },
+    {
+      "condition": "clean",
+      "id": "crease_223",
+      "normal_fullres_deg": 0.05717633664608002,
+      "normal_native_deg": 0.04860344156622887,
+      "depth_fullres_absrel": 0.0,
+      "depth_native_absrel": 0.0,
+      "latent_target_mse": {
+        "depth": 0.0,
+        "normal": 0.0
+      }
+    },
+    {
+      "condition": "clean",
+      "id": "step_223",
+      "normal_fullres_deg": 0.0,
+      "normal_native_deg": 0.0,
+      "depth_fullres_absrel": 0.0,
+      "depth_native_absrel": 0.0,
+      "latent_target_mse": {
+        "depth": 0.0,
+        "normal": 0.0
+      }
+    },
+    {
+      "condition": "clean",
+      "id": "curved_223",
+      "normal_fullres_deg": 0.00028730169287882745,
+      "normal_native_deg": 6.416082032956183e-05,
+      "depth_fullres_absrel": 0.0,
+      "depth_native_absrel": 0.0,
+      "latent_target_mse": {
+        "depth": 0.0,
+        "normal": 0.0
+      }
+    },
+    {
+      "condition": "clean",
+      "id": "plane_227",
+      "normal_fullres_deg": 1.9144199541187845e-05,
+      "normal_native_deg": 0.0,
+      "depth_fullres_absrel": 0.0,
+      "depth_native_absrel": 0.0,
+      "latent_target_mse": {
+        "depth": 0.0,
+        "normal": 0.0
+      }
+    },
+    {
+      "condition": "clean",
+      "id": "crease_227",
+      "normal_fullres_deg": 0.06055386736989021,
+      "normal_native_deg": 0.05182451754808426,
+      "depth_fullres_absrel": 0.0,
+      "depth_native_absrel": 0.0,
+      "latent_target_mse": {
+        "depth": 0.0,
+        "normal": 0.0
+      }
+    },
+    {
+      "condition": "clean",
+      "id": "step_227",
+      "normal_fullres_deg": 0.0,
+      "normal_native_deg": 0.0,
+      "depth_fullres_absrel": 0.0,
+      "depth_native_absrel": 0.0,
+      "latent_target_mse": {
+        "depth": 0.0,
+        "normal": 0.0
+      }
+    },
+    {
+      "condition": "clean",
+      "id": "curved_227",
+      "normal_fullres_deg": 0.0003568728861864656,
+      "normal_native_deg": 4.5519500417867675e-05,
+      "depth_fullres_absrel": 0.0,
+      "depth_native_absrel": 0.0,
+      "latent_target_mse": {
+        "depth": 0.0,
+        "normal": 0.0
+      }
+    },
+    {
+      "condition": "heterogeneous_noise",
+      "id": "plane_201",
+      "normal_fullres_deg": 31.504308700561523,
+      "normal_native_deg": 21.921260833740234,
+      "depth_fullres_absrel": 0.006712921895086765,
+      "depth_native_absrel": 0.0017834985628724098,
+      "latent_target_mse": {
+        "depth": 0.018844403326511383,
+        "normal": 1.2760448455810547
+      }
+    },
+    {
+      "condition": "heterogeneous_noise",
+      "id": "crease_201",
+      "normal_fullres_deg": 33.37653350830078,
+      "normal_native_deg": 23.10011100769043,
+      "depth_fullres_absrel": 0.006712921895086765,
+      "depth_native_absrel": 0.0017835047328844666,
+      "latent_target_mse": {
+        "depth": 0.017827365547418594,
+        "normal": 1.321825385093689
+      }
+    },
+    {
+      "condition": "heterogeneous_noise",
+      "id": "step_201",
+      "normal_fullres_deg": 32.635433197021484,
+      "normal_native_deg": 22.62997055053711,
+      "depth_fullres_absrel": 0.0067092194221913815,
+      "depth_native_absrel": 0.0017802681541070342,
+      "latent_target_mse": {
+        "depth": 0.010565844364464283,
+        "normal": 1.2564877271652222
+      }
+    },
+    {
+      "condition": "heterogeneous_noise",
+      "id": "curved_201",
+      "normal_fullres_deg": 31.16045570373535,
+      "normal_native_deg": 21.65540885925293,
+      "depth_fullres_absrel": 0.006712921895086765,
+      "depth_native_absrel": 0.0017834986792877316,
+      "latent_target_mse": {
+        "depth": 0.01725982502102852,
+        "normal": 1.1822433471679688
+      }
+    },
+    {
+      "condition": "heterogeneous_noise",
+      "id": "plane_211",
+      "normal_fullres_deg": 31.79338264465332,
+      "normal_native_deg": 22.166736602783203,
+      "depth_fullres_absrel": 0.006707823369652033,
+      "depth_native_absrel": 0.0017784960800781846,
+      "latent_target_mse": {
+        "depth": 0.006080547347664833,
+        "normal": 1.2767435312271118
+      }
+    },
+    {
+      "condition": "heterogeneous_noise",
+      "id": "crease_211",
+      "normal_fullres_deg": 33.4152717590332,
+      "normal_native_deg": 23.182964324951172,
+      "depth_fullres_absrel": 0.006707823369652033,
+      "depth_native_absrel": 0.001778502599336207,
+      "latent_target_mse": {
+        "depth": 0.006607405375689268,
+        "normal": 1.337208867073059
+      }
+    },
+    {
+      "condition": "heterogeneous_noise",
+      "id": "step_211",
+      "normal_fullres_deg": 32.72365188598633,
+      "normal_native_deg": 22.761465072631836,
+      "depth_fullres_absrel": 0.006703134160488844,
+      "depth_native_absrel": 0.0017768386751413345,
+      "latent_target_mse": {
+        "depth": 0.011304432526230812,
+        "normal": 1.247811198234558
+      }
+    },
+    {
+      "condition": "heterogeneous_noise",
+      "id": "curved_211",
+      "normal_fullres_deg": 30.827096939086914,
+      "normal_native_deg": 21.503326416015625,
+      "depth_fullres_absrel": 0.006707823369652033,
+      "depth_native_absrel": 0.0017785041127353907,
+      "latent_target_mse": {
+        "depth": 0.01627412810921669,
+        "normal": 1.1718987226486206
+      }
+    },
+    {
+      "condition": "heterogeneous_noise",
+      "id": "plane_223",
+      "normal_fullres_deg": 31.57469940185547,
+      "normal_native_deg": 21.8568172454834,
+      "depth_fullres_absrel": 0.006703129969537258,
+      "depth_native_absrel": 0.0017657671123743057,
+      "latent_target_mse": {
+        "depth": 0.019770946353673935,
+        "normal": 1.2376762628555298
+      }
+    },
+    {
+      "condition": "heterogeneous_noise",
+      "id": "crease_223",
+      "normal_fullres_deg": 33.26708221435547,
+      "normal_native_deg": 22.932144165039062,
+      "depth_fullres_absrel": 0.006703129503875971,
+      "depth_native_absrel": 0.0017657751450315118,
+      "latent_target_mse": {
+        "depth": 0.017711665481328964,
+        "normal": 1.2476229667663574
+      }
+    },
+    {
+      "condition": "heterogeneous_noise",
+      "id": "step_223",
+      "normal_fullres_deg": 32.58689880371094,
+      "normal_native_deg": 22.52426528930664,
+      "depth_fullres_absrel": 0.006703941151499748,
+      "depth_native_absrel": 0.0017638641875237226,
+      "latent_target_mse": {
+        "depth": 0.012613155879080296,
+        "normal": 1.2296780347824097
+      }
+    },
+    {
+      "condition": "heterogeneous_noise",
+      "id": "curved_223",
+      "normal_fullres_deg": 31.019235610961914,
+      "normal_native_deg": 21.487049102783203,
+      "depth_fullres_absrel": 0.006703129503875971,
+      "depth_native_absrel": 0.0017657694406807423,
+      "latent_target_mse": {
+        "depth": 0.01777890883386135,
+        "normal": 1.1706336736679077
+      }
+    },
+    {
+      "condition": "heterogeneous_noise",
+      "id": "plane_227",
+      "normal_fullres_deg": 31.408254623413086,
+      "normal_native_deg": 21.79191780090332,
+      "depth_fullres_absrel": 0.006688251160085201,
+      "depth_native_absrel": 0.0017758110770955682,
+      "latent_target_mse": {
+        "depth": 0.005042018834501505,
+        "normal": 1.2686480283737183
+      }
+    },
+    {
+      "condition": "heterogeneous_noise",
+      "id": "crease_227",
+      "normal_fullres_deg": 33.19761276245117,
+      "normal_native_deg": 22.916717529296875,
+      "depth_fullres_absrel": 0.006688251160085201,
+      "depth_native_absrel": 0.0017758205067366362,
+      "latent_target_mse": {
+        "depth": 0.00647305091843009,
+        "normal": 1.3318390846252441
+      }
+    },
+    {
+      "condition": "heterogeneous_noise",
+      "id": "step_227",
+      "normal_fullres_deg": 32.592750549316406,
+      "normal_native_deg": 22.551057815551758,
+      "depth_fullres_absrel": 0.006687608547508717,
+      "depth_native_absrel": 0.001774460426531732,
+      "latent_target_mse": {
+        "depth": 0.011539832688868046,
+        "normal": 1.234571933746338
+      }
+    },
+    {
+      "condition": "heterogeneous_noise",
+      "id": "curved_227",
+      "normal_fullres_deg": 30.730714797973633,
+      "normal_native_deg": 21.30901527404785,
+      "depth_fullres_absrel": 0.006688251160085201,
+      "depth_native_absrel": 0.0017758070025593042,
+      "latent_target_mse": {
+        "depth": 0.016502931714057922,
+        "normal": 1.1643506288528442
+      }
+    },
+    {
+      "condition": "smooth_bias",
+      "id": "plane_201",
+      "normal_fullres_deg": 5.22128438949585,
+      "normal_native_deg": 5.221224784851074,
+      "depth_fullres_absrel": 0.024971388280391693,
+      "depth_native_absrel": 0.024971241131424904,
+      "latent_target_mse": {
+        "depth": 0.018875161185860634,
+        "normal": 0.013216366991400719
+      }
+    },
+    {
+      "condition": "smooth_bias",
+      "id": "crease_201",
+      "normal_fullres_deg": 5.970894813537598,
+      "normal_native_deg": 5.955949306488037,
+      "depth_fullres_absrel": 0.024971388280391693,
+      "depth_native_absrel": 0.024971147999167442,
+      "latent_target_mse": {
+        "depth": 0.026215091347694397,
+        "normal": 0.019823135808110237
+      }
+    },
+    {
+      "condition": "smooth_bias",
+      "id": "step_201",
+      "normal_fullres_deg": 5.565713882446289,
+      "normal_native_deg": 5.5658392906188965,
+      "depth_fullres_absrel": 0.025137966498732567,
+      "depth_native_absrel": 0.025250332430005074,
+      "latent_target_mse": {
+        "depth": 0.006167956627905369,
+        "normal": 0.016775019466876984
+      }
+    },
+    {
+      "condition": "smooth_bias",
+      "id": "curved_201",
+      "normal_fullres_deg": 4.858687877655029,
+      "normal_native_deg": 4.8586602210998535,
+      "depth_fullres_absrel": 0.024971388280391693,
+      "depth_native_absrel": 0.024971285834908485,
+      "latent_target_mse": {
+        "depth": 0.02221968211233616,
+        "normal": 0.012218794785439968
+      }
+    },
+    {
+      "condition": "smooth_bias",
+      "id": "plane_211",
+      "normal_fullres_deg": 5.322970867156982,
+      "normal_native_deg": 5.322900295257568,
+      "depth_fullres_absrel": 0.024971388280391693,
+      "depth_native_absrel": 0.024971239268779755,
+      "latent_target_mse": {
+        "depth": 0.005941956304013729,
+        "normal": 0.01439571101218462
+      }
+    },
+    {
+      "condition": "smooth_bias",
+      "id": "crease_211",
+      "normal_fullres_deg": 5.978638172149658,
+      "normal_native_deg": 5.964980602264404,
+      "depth_fullres_absrel": 0.024971388280391693,
+      "depth_native_absrel": 0.024971161037683487,
+      "latent_target_mse": {
+        "depth": 0.0028113839216530323,
+        "normal": 0.01618427224457264
+      }
+    },
+    {
+      "condition": "smooth_bias",
+      "id": "step_211",
+      "normal_fullres_deg": 5.565712928771973,
+      "normal_native_deg": 5.565838813781738,
+      "depth_fullres_absrel": 0.025137966498732567,
+      "depth_native_absrel": 0.025250373408198357,
+      "latent_target_mse": {
+        "depth": 0.005613279994577169,
+        "normal": 0.01665293239057064
+      }
+    },
+    {
+      "condition": "smooth_bias",
+      "id": "curved_211",
+      "normal_fullres_deg": 4.697124004364014,
+      "normal_native_deg": 4.697088718414307,
+      "depth_fullres_absrel": 0.024971388280391693,
+      "depth_native_absrel": 0.02497130073606968,
+      "latent_target_mse": {
+        "depth": 0.021900206804275513,
+        "normal": 0.011352737434208393
+      }
+    },
+    {
+      "condition": "smooth_bias",
+      "id": "plane_223",
+      "normal_fullres_deg": 5.278067111968994,
+      "normal_native_deg": 5.278019905090332,
+      "depth_fullres_absrel": 0.024971388280391693,
+      "depth_native_absrel": 0.024971241131424904,
+      "latent_target_mse": {
+        "depth": 0.02144165150821209,
+        "normal": 0.017569107934832573
+      }
+    },
+    {
+      "condition": "smooth_bias",
+      "id": "crease_223",
+      "normal_fullres_deg": 5.943367004394531,
+      "normal_native_deg": 5.92936372756958,
+      "depth_fullres_absrel": 0.024971388280391693,
+      "depth_native_absrel": 0.02497115731239319,
+      "latent_target_mse": {
+        "depth": 0.021072115749120712,
+        "normal": 0.022854411974549294
+      }
+    },
+    {
+      "condition": "smooth_bias",
+      "id": "step_223",
+      "normal_fullres_deg": 5.565713882446289,
+      "normal_native_deg": 5.56583833694458,
+      "depth_fullres_absrel": 0.025137966498732567,
+      "depth_native_absrel": 0.025250446051359177,
+      "latent_target_mse": {
+        "depth": 0.0067712911404669285,
+        "normal": 0.016618948429822922
+      }
+    },
+    {
+      "condition": "smooth_bias",
+      "id": "curved_223",
+      "normal_fullres_deg": 4.83252477645874,
+      "normal_native_deg": 4.832493305206299,
+      "depth_fullres_absrel": 0.024971388280391693,
+      "depth_native_absrel": 0.024971291422843933,
+      "latent_target_mse": {
+        "depth": 0.023162752389907837,
+        "normal": 0.01232863962650299
+      }
+    },
+    {
+      "condition": "smooth_bias",
+      "id": "plane_227",
+      "normal_fullres_deg": 5.226593017578125,
+      "normal_native_deg": 5.226518154144287,
+      "depth_fullres_absrel": 0.024971388280391693,
+      "depth_native_absrel": 0.024971239268779755,
+      "latent_target_mse": {
+        "depth": 0.0033181242179125547,
+        "normal": 0.0147766824811697
+      }
+    },
+    {
+      "condition": "smooth_bias",
+      "id": "crease_227",
+      "normal_fullres_deg": 5.95351505279541,
+      "normal_native_deg": 5.939013957977295,
+      "depth_fullres_absrel": 0.024971388280391693,
+      "depth_native_absrel": 0.02497115358710289,
+      "latent_target_mse": {
+        "depth": 0.002810208359733224,
+        "normal": 0.01579364389181137
+      }
+    },
+    {
+      "condition": "smooth_bias",
+      "id": "step_227",
+      "normal_fullres_deg": 5.565712928771973,
+      "normal_native_deg": 5.565840244293213,
+      "depth_fullres_absrel": 0.025137966498732567,
+      "depth_native_absrel": 0.025250384584069252,
+      "latent_target_mse": {
+        "depth": 0.006211156491190195,
+        "normal": 0.016661331057548523
+      }
+    },
+    {
+      "condition": "smooth_bias",
+      "id": "curved_227",
+      "normal_fullres_deg": 4.714966297149658,
+      "normal_native_deg": 4.714931011199951,
+      "depth_fullres_absrel": 0.024971388280391693,
+      "depth_native_absrel": 0.02497130073606968,
+      "latent_target_mse": {
+        "depth": 0.02088363841176033,
+        "normal": 0.011574579402804375
+      }
+    }
+  ],
+  "summary": {
+    "clean": {
+      "normal_fullres_deg": 0.014944232053835549,
+      "normal_native_deg": 0.012621309917449253,
+      "depth_fullres_absrel": 0.0,
+      "depth_native_absrel": 0.0,
+      "latent_target_mse": {
+        "depth": 0.0,
+        "normal": 0.0
+      }
+    },
+    "heterogeneous_noise": {
+      "normal_fullres_deg": 32.11333644390106,
+      "normal_native_deg": 22.268139243125916,
+      "depth_fullres_absrel": 0.006702517595840618,
+      "depth_native_absrel": 0.0017753866559360176,
+      "latent_target_mse": {
+        "depth": 0.013262278895126656,
+        "normal": 1.247205264866352
+      }
+    },
+    "smooth_bias": {
+      "normal_fullres_deg": 5.39134293794632,
+      "normal_native_deg": 5.3877812922000885,
+      "depth_fullres_absrel": 0.02501303283497691,
+      "depth_native_absrel": 0.025041018496267498,
+      "latent_target_mse": {
+        "depth": 0.013463478535413742,
+        "normal": 0.015549769683275372
+      }
+    }
+  },
+  "source_sha256": "325cd224b011cb28a0a2cfa0a66d39c93a6138cd32aae9a0ff31d2b1928615e5",
+  "noise_data_sha256": "499dd2e6cb073b4e41a85b71d926fc2469e5a6fb1178223bbb8f6e9704dd9fbc",
+  "scope": "Post-hoc preprocessing diagnosis; latent MSE compares noisy with clean encoded targets and is not a physical angular or distance error. No new training or tests."
+}

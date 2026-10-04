@@ -1,0 +1,48 @@
+{
+  "arm": "pixel",
+  "seed": 17,
+  "step": "restore",
+  "split": "dev",
+  "images": 1,
+  "expressions": 2,
+  "mean_iou": 0.6700856701980153,
+  "precision_iou_above_05": 1.0,
+  "empty_rate": 0.0,
+  "empty_prompt_mean_iou": 0.0,
+  "target_selection_rate": 1.0,
+  "both_targets_selected_rate": 1.0,
+  "matched_minus_swapped_iou": 0.6700856701980153,
+  "seconds": 0.25909300000057556,
+  "records": [
+    {
+      "image_id": 32707,
+      "ann_id": 539319,
+      "iou": 0.7030800104702906,
+      "distractor_iou": 0.0,
+      "target_selected": true,
+      "empty": false,
+      "empty_prompt_iou": 0.0,
+      "prediction": "runs\\pixel_s17\\dev_restore\\539319.png",
+      "sha256": "0a179904aa64717f6d47fcc268f043ef435dc0278aa2dec25316c038300feed6",
+      "empty_prediction": "runs\\pixel_s17\\dev_restore\\32707_empty.png",
+      "empty_sha256": "4849a540919e763b5322e5f898c2442c1afd3bffe45c8643b3c626ee41a28cca",
+      "truth": "E:\\Codex\\2026-09-27\\yo\\work\\marigold-local\\generative_ris_v11\\data\\masks\\539319.png",
+      "truth_sha256": "b2f4266e1ab94e6f08f76213ae4896f19c8e59a1a3a8fffdbd591ce28aca2e1b"
+    },
+    {
+      "image_id": 32707,
+      "ann_id": 1715003,
+      "iou": 0.6370913299257401,
+      "distractor_iou": 0.0,
+      "target_selected": true,
+      "empty": false,
+      "empty_prompt_iou": 0.0,
+      "prediction": "runs\\pixel_s17\\dev_restore\\1715003.png",
+      "sha256": "d02103c7370bd66a7de6d5a8adf7a102efd68e04ecca477d7b38989abea494d5",
+      "empty_prediction": "runs\\pixel_s17\\dev_restore\\32707_empty.png",
+      "empty_sha256": "4849a540919e763b5322e5f898c2442c1afd3bffe45c8643b3c626ee41a28cca",
+      "truth": "E:\\Codex\\2026-09-27\\yo\\work\\marigold-local\\generative_ris_v11\\data\\masks\\1715003.png",
+      "truth_sha256": "a0a0806e01afedba18ec904707efb946c9115464745633546ec0e5237cb749b1"
+    }
+  ]
+}

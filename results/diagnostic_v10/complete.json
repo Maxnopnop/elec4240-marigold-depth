@@ -1,0 +1,16 @@
+{
+  "analysis_sha256": "6f37da12aae01cab25a182af9f5d0a20f3e442a2eadf9a7db2a39be65c861938",
+  "report_sha256": "1ed76530949597acd531f27d2fbe512d4b2cb599f31a6da7dd492a07d5b4577f",
+  "protocol_sha256": "931bb2f4eff69601b509d9d991331b4df869c082a9e2dd0dfcf248f1a1471c5b",
+  "verification": {
+    "new_noise_predictions": 416,
+    "restored_tasks": 48,
+    "optimizer_updates": 1536,
+    "old_prediction_hashes": 1152,
+    "gradient_probes": 56,
+    "historical_files_unchanged": 1430
+  },
+  "numerical_amendment_sha256": "c10af40fda853d652b81d492f07b71c5b76b94ea341cc24bda8e5adaa377d30f",
+  "bf16_precision_flags": 1,
+  "fp32_references": 1
+}

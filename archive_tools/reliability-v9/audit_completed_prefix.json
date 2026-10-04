@@ -1,0 +1,9 @@
+{
+  "new_depth_predictions_checked": 96,
+  "historical_normal_metric_crosschecks": 32,
+  "first_seed_learning_curve": {
+    "320": 0.36400399306025744,
+    "640": 0.2853495822749629,
+    "1280": 0.2699021749102184
+  }
+}

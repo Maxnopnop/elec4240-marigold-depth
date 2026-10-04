@@ -1,0 +1,23 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>生成式指代表达分割：第一轮训练</title><style>body{max-width:1000px;margin:36px auto;padding:0 24px;font:16px/1.8 system-ui;color:#20313f}table{border-collapse:collapse;width:100%}td,th{padding:10px;border:1px solid #d5dce3}a{color:#176387}img{max-width:100%}.note{background:#fff4dc;padding:16px}</style>
+<h1>生成式指代表达分割：第一轮真实数据训练</h1>
+<p>2026-10-03。此页记录启动配置，不代表任务已完成。实际进度见 <a href="../results/generative_ris_v11/training/status.json">status.json</a>。状态为 complete 且各随机种子的 complete.json 存在时，才表示训练及其程序内审计完成。</p>
+<div class="note">主题保持：由图像生成模型迁移而来的 Marigold 主干接收 RGB 与逐样本自然语言描述，经扩散预测和 VAE 解码输出目标掩码。没有使用普通分割器替代生成式感知。当前阶段是基线训练，尚未训练预算条件选择器。</div>
+<table><tr><th>项目</th><th>固定设置</th></tr><tr><td>训练数据</td><td>512 张图像，1,024 个同类成对实例，1,936 条描述</td></tr><tr><td>开发集</td><td>64 张独立图像，128 个实例/描述</td></tr><tr><td>保留集</td><td>另 64 张图像，128 条描述；本轮不评估、不调参</td></tr><tr><td>模型</td><td>固定版本 Marigold Depth v1.1；rank-4 LoRA，829,952 个可训练参数</td></tr><tr><td>目标</td><td>二值实例掩码的 VAE 潜变量，单步零信噪比 velocity MSE</td></tr><tr><td>更新</td><td>种子 17、29、43；每个 3,000 次优化器更新，梯度累积 2；共 9,000 次更新</td></tr><tr><td>尺寸及优化器</td><td>192×256；AdamW，学习率 1e-4，weight decay 0.01，梯度裁剪 1.0</td></tr><tr><td>存档与评估</td><td>每 100 次保存模型及优化器/RNG 断点；0/500/1000/1500/2000/2500/3000 次评估；只使用最后检查点作为主结果</td></tr><tr><td>执行资源</td><td>本机 RTX 5060 Laptop；进程存续期间防止系统自动休眠，结束后释放。没有安排关机。</td></tr></table>
+<p><a href="../results/generative_ris_v11/training/training_protocol.json">冻结配置及源代码哈希</a> · <a href="../results/generative_ris_v11/training/input_audit.json">数据审计</a> · <a href="../results/generative_ris_v11/training/preparation_status.json">数据准备状态</a> · <a href="PROTOCOL.html">整体研究方案</a></p>
+<h2>阶段观察：种子 17，尚未完成</h2>
+<p>以下为固定评估点的快照，不是最佳检查点选择，也不是三个种子的最终结果。</p>
+<table><tr><th>更新次数</th><th>平均 IoU</th><th>IoU &gt; 0.5 的比例</th><th>同图两个目标均选对</th></tr><tr><td>0</td><td>0.02561</td><td>0%</td><td>1.56%</td></tr><tr><td>500</td><td>0.000025</td><td>0%</td><td>0%</td></tr><tr><td>1000</td><td>0</td><td>0%</td><td>0%</td></tr><tr><td>1500</td><td>0.13140</td><td>11.72%</td><td>4.69%</td></tr><tr><td>2000</td><td>0.22084</td><td>20.31%</td><td>15.63%</td></tr></table>
+<p>第 1000 步的 128 个预测均为空；第 1500 步已恢复部分前景输出，第 2000 步平均 IoU 进一步升至 0.22084，因此不能认定训练永久塌缩。两个目标均选对的比例仍低，尚不能证明可靠的描述条件分割。</p>
+<p>固定第 1000 步检查点的诊断中，前 8 条训练及前 8 条开发描述的标签 VAE 往返 IoU 分别约 0.9958 和 0.9943。训练缓存与重新编码的 RGB、掩码、文字一致。模型潜空间误差可以低于纯黑目标潜变量的误差，但解码仍无正值前景，提示潜空间目标和最终分割质量可能不一致；这并未确认唯一原因。抽查存在同实例重复描述，不能当作 16 个独立场景。</p>
+<p><a href="../results/generative_ris_v11/training/collapse_diagnostic/results.json">诊断原始记录</a> · <a href="../results/generative_ris_v11/training/collapse_diagnostic/diagnostic.png">图像、标签和连续预测对照</a> · <a href="../results/generative_ris_v11/training/seed17/eval_1500.json">第 1500 步评估</a></p>
+<p>另已冻结并排队一个训练集小实验：从相同第 1000 步权重出发，在 8 张训练图像的 16 个目标上比较原损失与“原损失 + 前景/背景平衡像素损失及 Dice”，每组 128 步。原三种子训练结束且核验通过后才运行；不会使用开发集或保留集，不构成泛化证据。像素损失的梯度方向已通过小型检查，完整 GPU 运行尚待执行。</p>
+<p><a href="../results/generative_ris_v11/training/loss_pilot/protocol.json">小实验冻结方案</a> · <a href="../results/generative_ris_v11/training/loss_pilot/queue_status.json">队列状态</a></p>
+<h2>怎样判断模型是否真正使用了描述</h2>
+<p>每张开发图像有两个同类目标，使用相同生成噪声分别输入两个描述。报告每个预测与本目标及另一目标的 IoU、两个目标均被正确选择的比例、正常描述相对交换描述的 IoU 差，以及空描述 IoU。预测同类对象的并集或永远分割同一个对象，不能在“两个目标均正确选择”指标上通过。总体 IoU 与指代能力分别报告。</p>
+<p>训练前检查通过：1,920 个图像/掩码文件的哈希核验；训练、开发、保留图像不重叠；最长训练/开发/保留提示为 43 token，未截断；分割与切换指标的反例测试通过。已有通用断点恢复测试验证参数、损失、数据顺序和 RNG 精确恢复，但不自动保证完整扩散训练跨设备逐位确定性。</p>
+<h2>数据来源与局限</h2>
+<p>使用固定版本 <a href="https://huggingface.co/datasets/jxu124/refcocog/tree/55319436ad54b9480cefda6b9d64397de92456dd">RefCOCOg 标注镜像</a>的原始多边形和 COCO 原图。检查了原始 ID、图像尺寸、非空实例掩码及镜像 train/validation 的图像隔离；未验证与最初发布压缩包逐字节等同。为诊断同类对象混淆而筛选了具有两个同类标注实例的图像，因此这是难例富集子集，不能作为完整 RefCOCOg 基准成绩。开发集结果仅供探索，不代表独立确认性证据。</p>
+<p>模型从已完成深度适配的生成式主干继续迁移到分割，不等于直接从原始图像生成权重开始，也不等于复现 Vision Banana。当前没有验证图像生成能力保留或条件选择策略收益。</p>
+<h2>训练数据视觉检查</h2><p>左列为训练图像，右两列为该图两个不同描述对应的真实实例掩码。</p><img src="../results/generative_ris_v11/training/training_data_check.png" alt="训练图像及两种描述对应掩码">
+<p>云端入口保留：<a href="https://colab.research.google.com/drive/14ZIOhBrtA7u1ElDxZyXr6lWkjoXv_zr_">Colab 工程检查笔记本</a>。该链接完成的是环境检查；本轮正式训练实际在本机运行。</p>
+</html>

@@ -1,0 +1,7 @@
+{
+  "sha256": "9fc505b84e2646279e0c1acdb6bfeb1e62e54f863fabd3a984a9f0af47c498c5",
+  "images": 2048,
+  "masks": 4096,
+  "texts": 7786,
+  "max_tokens": 46
+}

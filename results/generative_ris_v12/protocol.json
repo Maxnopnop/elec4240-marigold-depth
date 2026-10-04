@@ -1,0 +1,97 @@
+{
+  "version": 12,
+  "arms": [
+    "latent",
+    "pixel",
+    "pair_always",
+    "pair_ramp",
+    "pair_ready"
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "updates": 2048,
+  "training_images": 2048,
+  "starting_point": "each matching V11 seed adapter1000, optimizer reset equally in all arms; continuation study, not from scratch",
+  "initial_sha256": {
+    "17": "58bf367d3d0383c4ae64710ad96f0447031acca0fde7ae7fa077cb9144f2533b",
+    "29": "8234026fa1996a133164e7283a9af6b428d422809a6505755faf93551a714c03",
+    "43": "5aa8d7d1958d4ad377870a9dbc513c10c581ea11176f1cb710a00b209cc8c59c"
+  },
+  "base_model_revision": "9571e7123e258cf052b4e54241f17971c290e9a8",
+  "lora_rank": 4,
+  "size": [
+    192,
+    256
+  ],
+  "optimizer": "AdamW lr1e-4 weight_decay0.01 clip1.0;2expressions/sameimage/update",
+  "pair_schedule": "same shuffle seed424026 across all arms/seeds; choose original sentence by stable update+annotation rotation",
+  "noise": "same noise per paired description, seed-dependent but matched across arms",
+  "objectives": {
+    "latent": "mean2 velocity MSE",
+    "pixel": "latent+mean2 balanced decoded softplus(4*d)+Dice",
+    "pair_always": "pixel+0.25*pair_term",
+    "pair_ramp": "pixel+0.25*min(step/512,1)*pair_term",
+    "pair_ready": "pixel+0.25*clamp((min(detached softDiceA,softDiceB)-0.1)/0.5,0,1)*pair_term"
+  },
+  "pair_term": "mean region-balanced softplus(1-signed(4*dA-4*dB)) on exclusive original target pixels; overlap excluded from this auxiliary only; never alter labels",
+  "dev_updates": [
+    0,
+    512,
+    1024,
+    2048
+  ],
+  "selection": "always last2048; no early stopping or bestcheckpoint selection",
+  "heldout": "reserved256 + externalRefCOCO128 + externalRefCOCOplus128, allmethods aftertraining; no retuning",
+  "threshold": 0,
+  "primary_metrics": [
+    "native-resolution meanIoU",
+    "both_targets_selected_rate"
+  ],
+  "secondary": [
+    "IoU>0.5",
+    "empty_rate",
+    "target_selection_rate",
+    "matched-minus-swapped IoU",
+    "empty-prompt IoU",
+    "GPUmemory",
+    "trainingtime",
+    "inference time"
+  ],
+  "contrasts": [
+    [
+      "pixel",
+      "latent"
+    ],
+    [
+      "pair_always",
+      "pixel"
+    ],
+    [
+      "pair_ramp",
+      "pair_always"
+    ],
+    [
+      "pair_ready",
+      "pair_always"
+    ],
+    [
+      "pair_ready",
+      "pair_ramp"
+    ]
+  ],
+  "statistics": "reserved image-cluster paired differences, first average3seeds;5000bootstrap95%CI;10000two-sided sign-flip MonteCarlo p plus-one;Holm across5contrasts x2primarymetrics. Conditional on fixed3seeds; seed spread separate. Exploratory, not universal confirmation.",
+  "bound": "15runs x2048updates; no additionaladaptivearms; stop/fail onintegrity,nonfinite,OOM;wallclockcap36h excludingpreparation",
+  "data_manifest_sha256": "692323047fde00089e35d579982367927766c6d41843007140da6a70afe92bc9",
+  "source_sha256": {
+    "generative_ris_v12\\data.py": "8f1ccbad3c897765a841227207a3b331734e728db231231c1c84c4c9eac4f883",
+    "generative_ris_v12\\train.py": "33026c280db815851eae6b2d1c1a30a74d04941634acf50480838d34e6949fca",
+    "generative_ris_v12\\report.py": "d042e41f0e3d2280d4b630f395cdbda8fe23131e58c33ec8853ae1dac30d2452",
+    "generative_ris_v12\\run.py": "eab1c08575c2cfa4f4500c9e8c8ab794ba0f96602144b3d57a9a1dc5cf18ce8c",
+    "multitask_v7\\engine.py": "5f5bd366102cee0e75f44834ce5c9461e06a600f09e8f35405a96b6c48ab8bf6",
+    "experiment.py": "e7dff5abdbf44e23cfafc7d375805549266fffe8acb2264a8efd437be3ee7e0a",
+    "generative_ris_v11\\train_baseline.py": "910d9cc7e537ebf8ebb38f8d82ffdb0679d5ff0552d7ac860ccd126c177e0f04"
+  }
+}

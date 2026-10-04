@@ -1,0 +1,10 @@
+{
+  "primary_and_aux_source_hashes_verified": true,
+  "data_manifest_pins_verified": true,
+  "extra_execution_registered": true,
+  "overview_local_links_verified": true,
+  "shutdown_ordering_mock_tests": 3,
+  "primary_gpu_preflight": "passed",
+  "aux_gpu_preflight": "passed",
+  "formal_batch_complete": false
+}

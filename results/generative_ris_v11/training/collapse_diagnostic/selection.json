@@ -1,0 +1,71 @@
+{
+  "checkpoint": "E:\\Codex\\2026-09-27\\yo\\work\\marigold-local\\generative_ris_v11\\seed17\\adapter_1000.pt",
+  "checkpoint_sha256": "58bf367d3d0383c4ae64710ad96f0447031acca0fde7ae7fa077cb9144f2533b",
+  "rows": [
+    {
+      "split": "train",
+      "sent_id": 71297
+    },
+    {
+      "split": "train",
+      "sent_id": 71298
+    },
+    {
+      "split": "train",
+      "sent_id": 22439
+    },
+    {
+      "split": "train",
+      "sent_id": 22440
+    },
+    {
+      "split": "train",
+      "sent_id": 99899
+    },
+    {
+      "split": "train",
+      "sent_id": 99900
+    },
+    {
+      "split": "train",
+      "sent_id": 62659
+    },
+    {
+      "split": "train",
+      "sent_id": 62660
+    },
+    {
+      "split": "dev",
+      "sent_id": 21486
+    },
+    {
+      "split": "dev",
+      "sent_id": 79560
+    },
+    {
+      "split": "dev",
+      "sent_id": 103341
+    },
+    {
+      "split": "dev",
+      "sent_id": 90768
+    },
+    {
+      "split": "dev",
+      "sent_id": 17824
+    },
+    {
+      "split": "dev",
+      "sent_id": 16211
+    },
+    {
+      "split": "dev",
+      "sent_id": 31886
+    },
+    {
+      "split": "dev",
+      "sent_id": 99274
+    }
+  ],
+  "scope": "post-hoc first8train+8dev expressions, not independent test; no parameter updates"
+}

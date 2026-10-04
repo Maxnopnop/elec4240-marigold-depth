@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "pages": 3,
+  "page_size_points": [
+    612,
+    792
+  ],
+  "all_author_names_and_ids_verified": true,
+  "external_score_values_verified": 21,
+  "holm_values_verified": 18,
+  "references": 8,
+  "times_compatible_fonts": true,
+  "body_font_size_pt": 10,
+  "official_cvpr2022_style_unchanged": true,
+  "overfull_boxes": 0,
+  "undefined_references": 0,
+  "all_characters_within_page": true,
+  "all_three_pages_visually_reviewed": true,
+  "native_editor_compile": "platform-directory error",
+  "bundled_engine_compile": "success",
+  "pdf_sha256": "08ed19f1057f13d86a89fc24eaef10ad51316f8740c59c2122caef49350bda89",
+  "source_sha256": "6a84dabee1921fd91d1bbe20dd655c2834e42231b3a4b4942bf110e6107c98e8"
+}

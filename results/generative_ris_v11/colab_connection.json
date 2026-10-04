@@ -1,0 +1,22 @@
+{
+  "cloud_notebook_url": "https://colab.research.google.com/drive/14ZIOhBrtA7u1ElDxZyXr6lWkjoXv_zr_",
+  "connection_verified": true,
+  "gpu": "Tesla T4",
+  "vram_gib": 14.56317138671875,
+  "torch": "2.11.0+cu130",
+  "python": "3.13.15",
+  "model_probe_status": "complete",
+  "training_started": false,
+  "paid_resources_used": false,
+  "drive_mounted": false,
+  "file_upload_blocked": "Chrome extension file-URL permission unavailable; used native Colab editor instead",
+  "local_files": {
+    "build_colab.py": "c4fe49565fbc2b5bb3c4ef6c17c189a581c0b4bafaf147478c2561a5ec2639f8",
+    "colab_preflight.py": "71062fb73ca11c52a2e5331d90c4811fd2d749349ecd0763a71dc83cd50b3ee4",
+    "ELEC4240_Generative_RIS_Preflight.ipynb": "7d5e10075e13aa6794d8e5b996b90a2132323abae8678b39301c2e45fd129ad2",
+    "preflight.py": "4c6cbdc2bea940b9f9d37a9cedff2336c5257e358a22fde84ad565fdc7c2a418",
+    "PROTOCOL.html": "392290a23afda0204458a371765a2d9b3ce757067493ad755ff947895b7e9083"
+  },
+  "cloud_result_sha256": "4758457508bcb17cbc1662a55b8b191490d4ca8310e8ed150692461e6b771146",
+  "download_manifest_verified": true
+}

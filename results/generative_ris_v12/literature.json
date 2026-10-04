@@ -1,0 +1,65 @@
+{
+  "scope": "bounded primary-source search; not exhaustive novelty proof",
+  "references": [
+    {
+      "title": "Vision Banana",
+      "url": "https://vision-banana.github.io/",
+      "relevance": "Image generation models adapted to perception; broad theme, not a reproduction."
+    },
+    {
+      "title": "Ref-Diff: Zero-shot Referring Image Segmentation with Generative Models",
+      "url": "https://arxiv.org/abs/2308.16777",
+      "relevance": "Generative-model referring segmentation precedent; not evidence of novelty here."
+    },
+    {
+      "title": "Prompt-Driven Referring Image Segmentation with Instance Contrasting",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Shang_Prompt-Driven_Referring_Image_Segmentation_with_Instance_Contrasting_CVPR_2024_paper.pdf",
+      "relevance": "Existing instance contrast and BCE/Dice; these components are not new. Search-indexed paper extract read; direct PDF returned403."
+    },
+    {
+      "title": "Contrastive Grouping With Transformer for Referring Image Segmentation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Tang_Contrastive_Grouping_With_Transformer_for_Referring_Image_Segmentation_CVPR_2023_paper.pdf",
+      "relevance": "Prior contrastive grounding and pixel losses."
+    },
+    {
+      "title": "CroBIM-U: Uncertainty-Driven Referring Remote Sensing Image Segmentation",
+      "url": "https://arxiv.org/abs/2601.03490",
+      "relevance": "Prior uncertainty gated language fusion; differs from decoder-fit gated paired training loss, novelty remains unproven."
+    },
+    {
+      "title": "RefChess",
+      "url": "https://proceedings.mlr.press/v306/tong26m.html",
+      "relevance": "Prior language decomposition and budgeted contextual proposal search. Adaptive checking alone is not new."
+    },
+    {
+      "title": "Counterfactual Segmentation Reasoning",
+      "url": "https://arxiv.org/abs/2506.21546",
+      "relevance": "Counterfactual hallucination and abstention already investigated."
+    },
+    {
+      "title": "GQA",
+      "url": "https://cs.stanford.edu/people/dorarad/gqa/download.html",
+      "relevance": "Original color and relation scene-graph annotations for separate condition/box diagnostics."
+    },
+    {
+      "title": "CLEVR-Ref+",
+      "url": "https://arxiv.org/abs/1901.00850",
+      "relevance": "Prior compositional diagnostics including false-premise empty segmentation; considered alternative dataset."
+    },
+    {
+      "title": "DeRecG: Mitigating Hallucination in Long Referring Expressions via Training-Free, Anchor-Preserved Visual Grounding",
+      "url": "https://www.mdpi.com/2078-2489/17/9/832",
+      "relevance": "Already studies conservative anchor preservation, correction/harm transitions and cost. Direction3 is an adaptation/diagnosis, not firstproposal."
+    },
+    {
+      "title": "RESAnything",
+      "url": "https://suikei-wang.github.io/RESAnything/",
+      "relevance": "Attribute prompting and candidate/proposal evaluation already exist."
+    },
+    {
+      "title": "Improving Selective Visual Question Answering by Learning From Your Peers",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Dancette_Improving_Selective_Visual_Question_Answering_by_Learning_From_Your_Peers_CVPR_2023_paper.html",
+      "relevance": "Selective prediction/abstention precedent; no claim of new genericabstention."
+    }
+  ]
+}

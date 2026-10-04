@@ -1,0 +1,15 @@
+{
+  "frozen_sources_verified": 12,
+  "synthetic_case_matrix_verified": 192,
+  "heldout_cases": 96,
+  "training_caches_verified": 128,
+  "validation_scene_overlap": 0,
+  "gpu_forward_backward_checks": 12,
+  "optimizer_updates": 0,
+  "historical_files_unchanged": 1296,
+  "portable_source_hashes_verified": true,
+  "notebook_code_cells_compile": true,
+  "report_local_links_valid": true,
+  "colab_runtime_executed": false,
+  "all_checks_passed": true
+}

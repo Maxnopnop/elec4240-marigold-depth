@@ -1,0 +1,8 @@
+{
+  "status": "trained",
+  "updates": 2048,
+  "peak_mib": 3165.4248046875,
+  "optimizer_seconds": 1609.531894799944,
+  "adapter_sha256": "8fc43d82b63405626f51abc625d9510be7aa44087a3754fb70afc9c8c1540f52",
+  "protocol_sha256": "7d3dc3727a43bab620db04109f97cd03f31bc64a1a911f576e1c61b66e9a65e8"
+}

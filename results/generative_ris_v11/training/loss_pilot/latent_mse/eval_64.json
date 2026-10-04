@@ -1,0 +1,153 @@
+{
+  "arm": "latent_mse",
+  "step": 64,
+  "mean_iou": 0.2736545385220348,
+  "empty_rate": 0.25,
+  "target_selection_rate": 0.5,
+  "records": [
+    {
+      "ann_id": 1726565,
+      "iou": 0.687727603787327,
+      "distractor_iou": 0.0,
+      "empty": false,
+      "target_selected": true,
+      "prediction": "latent_mse\\step64\\1726565.png",
+      "sha256": "f1286225600faa9d714687e1dea3bd24140757f83b0aebdbfe2f7cc8c549d1be"
+    },
+    {
+      "ann_id": 217941,
+      "iou": 0.0,
+      "distractor_iou": 0.0,
+      "empty": true,
+      "target_selected": false,
+      "prediction": "latent_mse\\step64\\217941.png",
+      "sha256": "146bef1b50177a8a388a3875e1ab0add866d2adc8cbdcfbb6d125048a6068f12"
+    },
+    {
+      "ann_id": 481149,
+      "iou": 0.0,
+      "distractor_iou": 0.0,
+      "empty": true,
+      "target_selected": false,
+      "prediction": "latent_mse\\step64\\481149.png",
+      "sha256": "146bef1b50177a8a388a3875e1ab0add866d2adc8cbdcfbb6d125048a6068f12"
+    },
+    {
+      "ann_id": 501829,
+      "iou": 0.0,
+      "distractor_iou": 0.15962891874600127,
+      "empty": false,
+      "target_selected": false,
+      "prediction": "latent_mse\\step64\\501829.png",
+      "sha256": "5d18a517f47e40a1bbc6260857fad3be5c58cf3ef306f900a5d22457a69396de"
+    },
+    {
+      "ann_id": 1726734,
+      "iou": 0.0,
+      "distractor_iou": 0.24576706003078502,
+      "empty": false,
+      "target_selected": false,
+      "prediction": "latent_mse\\step64\\1726734.png",
+      "sha256": "089074f029d5c1c78e3d29f32a037b32c27e4bec99f28783936f363183d392c2"
+    },
+    {
+      "ann_id": 463745,
+      "iou": 0.24166239096972805,
+      "distractor_iou": 0.0,
+      "empty": false,
+      "target_selected": true,
+      "prediction": "latent_mse\\step64\\463745.png",
+      "sha256": "03549e623df695882c33908e43dc1a5155765231a42582c79a458fb55d11b1b5"
+    },
+    {
+      "ann_id": 1724968,
+      "iou": 0.24154816837743667,
+      "distractor_iou": 0.5998737487600324,
+      "empty": false,
+      "target_selected": false,
+      "prediction": "latent_mse\\step64\\1724968.png",
+      "sha256": "10de9450131a0b74b056afc10cacd449dcc65c13ac09d87a31a51c3019f53d69"
+    },
+    {
+      "ann_id": 460623,
+      "iou": 0.7065050212611961,
+      "distractor_iou": 0.2043273278329685,
+      "empty": false,
+      "target_selected": true,
+      "prediction": "latent_mse\\step64\\460623.png",
+      "sha256": "ded0b0415fac0aa9f8e11243144a58607e0b5e98ca6d9b8590588746e6da9ada"
+    },
+    {
+      "ann_id": 1403074,
+      "iou": 0.4278362573099415,
+      "distractor_iou": 0.38675228589376703,
+      "empty": false,
+      "target_selected": true,
+      "prediction": "latent_mse\\step64\\1403074.png",
+      "sha256": "833898f2ee3fe0d9ba7ee3278670ba5255e134109b5c7e643a83ac68ce8f241b"
+    },
+    {
+      "ann_id": 11952,
+      "iou": 0.43309962021618464,
+      "distractor_iou": 0.3687400560648534,
+      "empty": false,
+      "target_selected": true,
+      "prediction": "latent_mse\\step64\\11952.png",
+      "sha256": "4e9728fcdfcd8f5a16dec6b8a2c496a86faca46ea4d63ae0fa4f14b66d2c4507"
+    },
+    {
+      "ann_id": 574507,
+      "iou": 0.6621276595744681,
+      "distractor_iou": 0.0,
+      "empty": false,
+      "target_selected": true,
+      "prediction": "latent_mse\\step64\\574507.png",
+      "sha256": "b6ffc75d6548f4cb429b3e20305c5044e522de2894f2c61440a3e2641cdc73b4"
+    },
+    {
+      "ann_id": 574062,
+      "iou": 0.18068849706129303,
+      "distractor_iou": 0.0,
+      "empty": false,
+      "target_selected": true,
+      "prediction": "latent_mse\\step64\\574062.png",
+      "sha256": "319ac44bf9c8331a5e6e3968122f3d804719ffb8acaedf0bd4d7d894a0537314"
+    },
+    {
+      "ann_id": 1059828,
+      "iou": 0.0,
+      "distractor_iou": 0.0,
+      "empty": true,
+      "target_selected": false,
+      "prediction": "latent_mse\\step64\\1059828.png",
+      "sha256": "146bef1b50177a8a388a3875e1ab0add866d2adc8cbdcfbb6d125048a6068f12"
+    },
+    {
+      "ann_id": 1059339,
+      "iou": 0.0,
+      "distractor_iou": 0.0,
+      "empty": true,
+      "target_selected": false,
+      "prediction": "latent_mse\\step64\\1059339.png",
+      "sha256": "146bef1b50177a8a388a3875e1ab0add866d2adc8cbdcfbb6d125048a6068f12"
+    },
+    {
+      "ann_id": 439385,
+      "iou": 0.45267787216097355,
+      "distractor_iou": 0.008073144635735824,
+      "empty": false,
+      "target_selected": true,
+      "prediction": "latent_mse\\step64\\439385.png",
+      "sha256": "812a486f488c483e4733bf78f36d06e2353e59b0808a398808fc5c320f570739"
+    },
+    {
+      "ann_id": 563344,
+      "iou": 0.3445995256340084,
+      "distractor_iou": 0.34787958329915514,
+      "empty": false,
+      "target_selected": false,
+      "prediction": "latent_mse\\step64\\563344.png",
+      "sha256": "2d24361b6b39bfb0a3cc4e4dc1d699918eb3245929c7e382b73a8ec7c796ee90"
+    }
+  ]
+}

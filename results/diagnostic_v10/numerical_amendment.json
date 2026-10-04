@@ -1,0 +1,18 @@
+{
+  "reason": "Initial BF16 probe gradient-sum discrepancy0.021708793938159943 exceeded0.02 screen. Preserve all BF16 outcomes, including flagged probes, and additionally recompute flagged probes with FP32 (TF32 disabled) and1e-3 linearity tolerance. Do not discard flags or relax FP32 tolerance.",
+  "completed_regional_sha256": "7c053b1885d9dda8bc4663f665d7a4d73182b69c72a933c89024ea0c33c179ac",
+  "source_sha256": {
+    "diagnostic_v10/resume_precision_v2.py": "eeb0eb47a76884538141d5ade15372912eee205dd536cbee3e1cda0de785ee70",
+    "diagnostic_v10/gradients_precision_v2.py": "e6b923056185f95aa5f03ac41aa876c2363ab806d6365a38ac7c9a10f767f39e"
+  },
+  "unchanged": "All training conditions, noise generation, masks, train/eval scenes, seeds, loss coefficients, update budgets, baseline/result bytes, regional definitions and absence of new hypothesis tests.",
+  "created": "2026-10-03T08:01:34.5813231Z",
+  "engineering_precheck": {
+    "training_index": 0,
+    "peak_mib": 5232.32861328125,
+    "fp32_sum_relative_error": 9.94895117401029E-07,
+    "noise_seed": 91002
+  },
+  "version": "numerical_precision_v2",
+  "base_protocol_sha256": "931bb2f4eff69601b509d9d991331b4df869c082a9e2dd0dfcf248f1a1471c5b"
+}

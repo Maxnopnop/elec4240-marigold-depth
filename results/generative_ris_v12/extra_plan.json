@@ -1,0 +1,8 @@
+{
+  "module": "generative_ris_v12.conditions",
+  "source_sha256": {
+    "generative_ris_v12\\conditions.py": "0db1757c4a893b16c22f12f3526867e37a0a612048dae8f480742dc4044225b1",
+    "generative_ris_v12\\gqa_data.py": "a337a69e73444cc01dd009a769f81feeb24df25ed7d18c4ec98a86d2bf9bc7c0"
+  },
+  "protocol_sha256": "734f540751dd237976684f2eebb1d5ead6c7eeaf7cb0bd2c3a9d44f8eb0c9b42"
+}

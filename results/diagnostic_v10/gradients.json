@@ -1,0 +1,1998 @@
+{
+  "records": [
+    {
+      "state": "initial_seed17",
+      "id": 614,
+      "training_index": 0,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.4380798935890198,
+        "normal": 1.2007478475570679,
+        "uniform_geometry": 0.7552124857902527,
+        "weighted_geometry": 0.6950444579124451
+      },
+      "sum_relative_error": 0.008499628864228725,
+      "norms": {
+        "depth": 5.154876219814019,
+        "normal": 5.007737202123695,
+        "uniform_geometry": 3.842387115364833,
+        "weighted_geometry": 3.8091213051890653,
+        "supervised": 4.593269367591352
+      },
+      "cosines": {
+        "depth__normal": 0.634190295081112,
+        "supervised__uniform_geometry": -0.6363695070225088,
+        "supervised__weighted_geometry": -0.6572663732728191,
+        "depth__uniform_geometry": -0.7057164180378557,
+        "depth__weighted_geometry": -0.732905898129097,
+        "normal__uniform_geometry": -0.4409481280166398,
+        "normal__weighted_geometry": -0.4512944111400807,
+        "uniform_geometry__weighted_geometry": 0.9829955033640886
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.08365255350525476,
+        "weighted": 0.08292832404006205
+      }
+    },
+    {
+      "state": "initial_seed17",
+      "id": 614,
+      "training_index": 0,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.5010488033294678,
+        "normal": 1.2597860097885132,
+        "uniform_geometry": 0.7406261563301086,
+        "weighted_geometry": 0.7109910845756531
+      },
+      "sum_relative_error": 0.007657031062990427,
+      "norms": {
+        "depth": 5.427285557996542,
+        "normal": 4.827691743673848,
+        "uniform_geometry": 4.743773965654529,
+        "weighted_geometry": 5.4990762947958425,
+        "supervised": 4.782685518160295
+      },
+      "cosines": {
+        "depth__normal": 0.7391683545090304,
+        "supervised__uniform_geometry": -0.33705334860143993,
+        "supervised__weighted_geometry": -0.23953914778047677,
+        "depth__uniform_geometry": -0.3438524579680827,
+        "depth__weighted_geometry": -0.24401648905684178,
+        "normal__uniform_geometry": -0.2812637863580685,
+        "normal__weighted_geometry": -0.20028902229313442,
+        "uniform_geometry__weighted_geometry": 0.9415153970236972
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.09918640787988223,
+        "weighted": 0.1149788392716884
+      }
+    },
+    {
+      "state": "initial_seed17",
+      "id": 339,
+      "training_index": 32,
+      "noise_seed": 91001,
+      "precision_flag": true,
+      "losses": {
+        "depth": 0.3518102467060089,
+        "normal": 1.0084445476531982,
+        "uniform_geometry": 1.0395920276641846,
+        "weighted_geometry": 0.9498371481895447
+      },
+      "sum_relative_error": 0.022170063108205795,
+      "norms": {
+        "depth": 9.156644968936263,
+        "normal": 4.9773837858000345,
+        "uniform_geometry": 6.283696017638462,
+        "weighted_geometry": 6.614782110859537,
+        "supervised": 3.052027898158224
+      },
+      "cosines": {
+        "depth__normal": -0.7828548580719039,
+        "supervised__uniform_geometry": -0.5732058582827716,
+        "supervised__weighted_geometry": -0.6759977687792522,
+        "depth__uniform_geometry": -0.7145870551970039,
+        "depth__weighted_geometry": -0.8420741835660326,
+        "normal__uniform_geometry": 0.6116344555925781,
+        "normal__weighted_geometry": 0.7201064639284057,
+        "uniform_geometry__weighted_geometry": 0.9522591822688277
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.20588592985766677,
+        "weighted": 0.2167339988881259
+      },
+      "fp32_reference": {
+        "losses": {
+          "depth": 0.34798601269721985,
+          "normal": 1.0122166872024536,
+          "uniform_geometry": 1.042903184890747,
+          "weighted_geometry": 0.9540336728096008
+        },
+        "sum_relative_error": 2.825930778271868e-06,
+        "norms": {
+          "depth": 9.057844437731672,
+          "normal": 5.096787389526755,
+          "uniform_geometry": 6.447225625224426,
+          "weighted_geometry": 6.748075676463828,
+          "supervised": 2.986476711968449
+        },
+        "cosines": {
+          "depth__normal": -0.7835394035182273,
+          "supervised__uniform_geometry": -0.5646886204141095,
+          "supervised__weighted_geometry": -0.6579643095516905,
+          "depth__uniform_geometry": -0.7227355108436686,
+          "depth__weighted_geometry": -0.8423962480313962,
+          "normal__uniform_geometry": 0.6226602672513077,
+          "normal__weighted_geometry": 0.7260071317936103,
+          "uniform_geometry__weighted_geometry": 0.954497774104344
+        },
+        "geometry_to_supervised_ratio": {
+          "uniform": 0.21588065962097944,
+          "weighted": 0.2259544047144446
+        }
+      }
+    },
+    {
+      "state": "initial_seed17",
+      "id": 339,
+      "training_index": 32,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.2463129609823227,
+        "normal": 1.1143933534622192,
+        "uniform_geometry": 1.1900709867477417,
+        "weighted_geometry": 1.131505012512207
+      },
+      "sum_relative_error": 0.01602400653064251,
+      "norms": {
+        "depth": 3.713162642111936,
+        "normal": 6.944760173099327,
+        "uniform_geometry": 5.028830936428592,
+        "weighted_geometry": 5.241955014070799,
+        "supervised": 2.281296438525735
+      },
+      "cosines": {
+        "depth__normal": -0.7988517180949397,
+        "supervised__uniform_geometry": 0.4126337702251221,
+        "supervised__weighted_geometry": 0.43472248480473025,
+        "depth__uniform_geometry": -0.6555993691002536,
+        "depth__weighted_geometry": -0.8131108620995803,
+        "normal__uniform_geometry": 0.6216236239686641,
+        "normal__weighted_geometry": 0.7203523901495884,
+        "uniform_geometry__weighted_geometry": 0.9451718030475945
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.22043741670321565,
+        "weighted": 0.22977965184824292
+      }
+    },
+    {
+      "state": "initial_seed17",
+      "id": 1372,
+      "training_index": 64,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.8807146549224854,
+        "normal": 1.062514066696167,
+        "uniform_geometry": 0.694844663143158,
+        "weighted_geometry": 0.6086966395378113
+      },
+      "sum_relative_error": 0.008307124488055706,
+      "norms": {
+        "depth": 7.136219792921302,
+        "normal": 3.009478646193144,
+        "uniform_geometry": 2.2681287688406635,
+        "weighted_geometry": 2.128297349096818,
+        "supervised": 4.377662860559152
+      },
+      "cosines": {
+        "depth__normal": 0.38817517422937703,
+        "supervised__uniform_geometry": -0.3970327649724093,
+        "supervised__weighted_geometry": -0.47898833285308634,
+        "depth__uniform_geometry": -0.4682973013674612,
+        "depth__weighted_geometry": -0.5431278115246821,
+        "normal__uniform_geometry": -0.044618594808572914,
+        "normal__weighted_geometry": -0.10560614293035843,
+        "uniform_geometry__weighted_geometry": 0.9571243040136621
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.05181140807519744,
+        "weighted": 0.048617205501863936
+      }
+    },
+    {
+      "state": "initial_seed17",
+      "id": 1372,
+      "training_index": 64,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.8228451013565063,
+        "normal": 0.9788385033607483,
+        "uniform_geometry": 0.702183187007904,
+        "weighted_geometry": 0.6287583112716675
+      },
+      "sum_relative_error": 0.009507300332188606,
+      "norms": {
+        "depth": 7.082229702404145,
+        "normal": 2.830209288637928,
+        "uniform_geometry": 2.2722383881056216,
+        "weighted_geometry": 1.9926557598679842,
+        "supervised": 3.9861825083732056
+      },
+      "cosines": {
+        "depth__normal": 0.13446642567777964,
+        "supervised__uniform_geometry": -0.37945420595827933,
+        "supervised__weighted_geometry": -0.4268439312646719,
+        "depth__uniform_geometry": -0.44304993801400044,
+        "depth__weighted_geometry": -0.4857449000082318,
+        "normal__uniform_geometry": 0.03979705460800129,
+        "normal__weighted_geometry": 0.013144375419159988,
+        "uniform_geometry__weighted_geometry": 0.9447731288897876
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.05700286886846386,
+        "weighted": 0.04998907490267433
+      }
+    },
+    {
+      "state": "initial_seed17",
+      "id": 895,
+      "training_index": 96,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.3106127083301544,
+        "normal": 1.0984270572662354,
+        "uniform_geometry": 1.373105764389038,
+        "weighted_geometry": 1.2320985794067383
+      },
+      "sum_relative_error": 0.011538350023329258,
+      "norms": {
+        "depth": 3.450667973763557,
+        "normal": 3.730460958223698,
+        "uniform_geometry": 3.5020613694562917,
+        "weighted_geometry": 3.127093849703359,
+        "supervised": 2.2450685923948375
+      },
+      "cosines": {
+        "depth__normal": -0.21992932028617168,
+        "supervised__uniform_geometry": 0.028370867515640875,
+        "supervised__weighted_geometry": -0.05638691136343137,
+        "depth__uniform_geometry": -0.2415161915534305,
+        "depth__weighted_geometry": -0.4286704065798997,
+        "normal__uniform_geometry": 0.25755028273851044,
+        "normal__weighted_geometry": 0.32864953944481456,
+        "uniform_geometry__weighted_geometry": 0.939916640045446
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.1559890589231667,
+        "weighted": 0.13928722981099018
+      }
+    },
+    {
+      "state": "initial_seed17",
+      "id": 895,
+      "training_index": 96,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.30310124158859253,
+        "normal": 1.0750625133514404,
+        "uniform_geometry": 1.3498313426971436,
+        "weighted_geometry": 1.2157269716262817
+      },
+      "sum_relative_error": 0.011510851792991161,
+      "norms": {
+        "depth": 3.566642551969171,
+        "normal": 3.575013939203483,
+        "uniform_geometry": 4.6461763268640075,
+        "weighted_geometry": 4.034472459716283,
+        "supervised": 2.18299240544405
+      },
+      "cosines": {
+        "depth__normal": -0.25252697816454767,
+        "supervised__uniform_geometry": -0.15390052171445665,
+        "supervised__weighted_geometry": -0.2102814317142595,
+        "depth__uniform_geometry": -0.5886731072763638,
+        "depth__weighted_geometry": -0.6532380773471369,
+        "normal__uniform_geometry": 0.3993436774506126,
+        "normal__weighted_geometry": 0.39490228859670196,
+        "uniform_geometry__weighted_geometry": 0.9790247511395911
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.21283520342430662,
+        "weighted": 0.18481385687164664
+      }
+    },
+    {
+      "state": "uniform_seed17",
+      "id": 614,
+      "training_index": 0,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.07665987312793732,
+        "normal": 0.33001840114593506,
+        "uniform_geometry": 0.10543037205934525,
+        "weighted_geometry": 0.09195052087306976
+      },
+      "sum_relative_error": 0.01014373917132616,
+      "norms": {
+        "depth": 0.4950232725611044,
+        "normal": 0.9388905247473617,
+        "uniform_geometry": 2.6239737151548117,
+        "weighted_geometry": 2.8482804359019247,
+        "supervised": 0.5322648225074252
+      },
+      "cosines": {
+        "depth__normal": 0.007164693461097763,
+        "supervised__uniform_geometry": -0.12694384515315224,
+        "supervised__weighted_geometry": -0.028038332875920637,
+        "depth__uniform_geometry": -0.09303117554453863,
+        "depth__weighted_geometry": -0.10295882134380141,
+        "normal__uniform_geometry": -0.09488101871452137,
+        "normal__weighted_geometry": 0.022493970895183416,
+        "uniform_geometry__weighted_geometry": 0.9452389793198237
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.4929827417099703,
+        "weighted": 0.5351246814478691
+      }
+    },
+    {
+      "state": "uniform_seed17",
+      "id": 614,
+      "training_index": 0,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.07589944452047348,
+        "normal": 0.33813801407814026,
+        "uniform_geometry": 0.10646272450685501,
+        "weighted_geometry": 0.09323916584253311
+      },
+      "sum_relative_error": 0.011288081295788288,
+      "norms": {
+        "depth": 0.3066816482736901,
+        "normal": 1.0788326567085589,
+        "uniform_geometry": 2.8918402388224247,
+        "weighted_geometry": 3.045881487098243,
+        "supervised": 0.5508336235151131
+      },
+      "cosines": {
+        "depth__normal": -0.0668909134138491,
+        "supervised__uniform_geometry": 0.2160074368088198,
+        "supervised__weighted_geometry": 0.29145590551644857,
+        "depth__uniform_geometry": -0.02570134380459272,
+        "depth__weighted_geometry": -0.052760572722910855,
+        "normal__uniform_geometry": 0.22788561988672235,
+        "normal__weighted_geometry": 0.3126232065467082,
+        "uniform_geometry__weighted_geometry": 0.9573348204460654
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.5249934127783109,
+        "weighted": 0.5529585263261755
+      }
+    },
+    {
+      "state": "uniform_seed17",
+      "id": 339,
+      "training_index": 32,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.1120254248380661,
+        "normal": 0.3061486482620239,
+        "uniform_geometry": 0.1070917546749115,
+        "weighted_geometry": 0.08930674195289612
+      },
+      "sum_relative_error": 0.009993696585297585,
+      "norms": {
+        "depth": 0.7221073010542024,
+        "normal": 1.6011788798009259,
+        "uniform_geometry": 2.6195493781873544,
+        "weighted_geometry": 3.192805717878422,
+        "supervised": 0.8834880612279287
+      },
+      "cosines": {
+        "depth__normal": 0.015996853233247954,
+        "supervised__uniform_geometry": 0.07896533799359828,
+        "supervised__weighted_geometry": 0.025776160626609715,
+        "depth__uniform_geometry": -0.11868435113887175,
+        "depth__weighted_geometry": -0.05342129768384927,
+        "normal__uniform_geometry": 0.14066679623116676,
+        "normal__weighted_geometry": 0.052537396356091455,
+        "uniform_geometry__weighted_geometry": 0.9298540501562792
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.2965008236270376,
+        "weighted": 0.361386402147965
+      }
+    },
+    {
+      "state": "uniform_seed17",
+      "id": 339,
+      "training_index": 32,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.11354856193065643,
+        "normal": 0.2952340245246887,
+        "uniform_geometry": 0.11558800935745239,
+        "weighted_geometry": 0.09502596408128738
+      },
+      "sum_relative_error": 0.0065377503633499146,
+      "norms": {
+        "depth": 0.8463880754953755,
+        "normal": 1.5702101744015797,
+        "uniform_geometry": 2.6837383935740253,
+        "weighted_geometry": 3.284677657633426,
+        "supervised": 0.8826393346107102
+      },
+      "cosines": {
+        "depth__normal": -0.024726723725581334,
+        "supervised__uniform_geometry": 0.1217350413333639,
+        "supervised__weighted_geometry": 0.07597531142825305,
+        "depth__uniform_geometry": -0.13921143086192622,
+        "depth__weighted_geometry": -0.08322977574342569,
+        "normal__uniform_geometry": 0.2118972174814508,
+        "normal__weighted_geometry": 0.1302770098564031,
+        "uniform_geometry__weighted_geometry": 0.9353009651126042
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.304058326922139,
+        "weighted": 0.3721426780829045
+      }
+    },
+    {
+      "state": "uniform_seed17",
+      "id": 1372,
+      "training_index": 64,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.09338464587926865,
+        "normal": 0.31569698452949524,
+        "uniform_geometry": 0.1390291154384613,
+        "weighted_geometry": 0.12849242985248566
+      },
+      "sum_relative_error": 0.008177440613508224,
+      "norms": {
+        "depth": 0.6317120327085299,
+        "normal": 0.999762028969857,
+        "uniform_geometry": 2.7661599419399576,
+        "weighted_geometry": 3.087354007446816,
+        "supervised": 0.6400776494161764
+      },
+      "cosines": {
+        "depth__normal": 0.19017411991687755,
+        "supervised__uniform_geometry": 0.24111219841278045,
+        "supervised__weighted_geometry": 0.3109520677851259,
+        "depth__uniform_geometry": -0.043952660786532226,
+        "depth__weighted_geometry": 0.0020694060320929366,
+        "normal__uniform_geometry": 0.3365065619128354,
+        "normal__weighted_geometry": 0.3968541083479531,
+        "uniform_geometry__weighted_geometry": 0.9581589384855902
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.4321600581527898,
+        "weighted": 0.4823405426299191
+      }
+    },
+    {
+      "state": "uniform_seed17",
+      "id": 1372,
+      "training_index": 64,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.09175647795200348,
+        "normal": 0.3169039189815521,
+        "uniform_geometry": 0.12184814363718033,
+        "weighted_geometry": 0.11461469531059265
+      },
+      "sum_relative_error": 0.010345757007598877,
+      "norms": {
+        "depth": 0.5319709640452236,
+        "normal": 0.8450817714994749,
+        "uniform_geometry": 2.46757664096013,
+        "weighted_geometry": 2.7707727316957462,
+        "supervised": 0.530547823944622
+      },
+      "cosines": {
+        "depth__normal": 0.14321554787901167,
+        "supervised__uniform_geometry": 0.07763719406982446,
+        "supervised__weighted_geometry": 0.1593043110209867,
+        "depth__uniform_geometry": -0.1442383587333581,
+        "depth__weighted_geometry": -0.07459880984906979,
+        "normal__uniform_geometry": 0.18827894868349732,
+        "normal__weighted_geometry": 0.2469838055269532,
+        "uniform_geometry__weighted_geometry": 0.9646541509262699
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.46509975719317875,
+        "weighted": 0.5222474971426811
+      }
+    },
+    {
+      "state": "uniform_seed17",
+      "id": 895,
+      "training_index": 96,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.05546962469816208,
+        "normal": 0.2833923399448395,
+        "uniform_geometry": 0.07939694076776505,
+        "weighted_geometry": 0.07023075222969055
+      },
+      "sum_relative_error": 0.011547957547008991,
+      "norms": {
+        "depth": 0.4828869391493547,
+        "normal": 1.1962749102456849,
+        "uniform_geometry": 2.0733746300674363,
+        "weighted_geometry": 2.0057674614010077,
+        "supervised": 0.6685919042556101
+      },
+      "cosines": {
+        "depth__normal": 0.10716156190355355,
+        "supervised__uniform_geometry": -0.04261929710573218,
+        "supervised__weighted_geometry": -0.03452294570667614,
+        "depth__uniform_geometry": -0.06312016445977187,
+        "depth__weighted_geometry": -0.008476063693812834,
+        "normal__uniform_geometry": -0.02216040040485893,
+        "normal__weighted_geometry": -0.03516795613417886,
+        "uniform_geometry__weighted_geometry": 0.9570130539694304
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.31011063952021206,
+        "weighted": 0.2999987658591482
+      }
+    },
+    {
+      "state": "uniform_seed17",
+      "id": 895,
+      "training_index": 96,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.057684410363435745,
+        "normal": 0.2776520848274231,
+        "uniform_geometry": 0.08141589909791946,
+        "weighted_geometry": 0.06998185813426971
+      },
+      "sum_relative_error": 0.009626609273254871,
+      "norms": {
+        "depth": 0.7280297359714927,
+        "normal": 1.1485525125343872,
+        "uniform_geometry": 2.0474431811034295,
+        "weighted_geometry": 1.8028193746796723,
+        "supervised": 0.7134749543279265
+      },
+      "cosines": {
+        "depth__normal": 0.11180953011439265,
+        "supervised__uniform_geometry": 0.1258046821689213,
+        "supervised__weighted_geometry": 0.1254996420415874,
+        "depth__uniform_geometry": -0.03883758860844428,
+        "depth__weighted_geometry": 0.015204334744005631,
+        "normal__uniform_geometry": 0.1809163245407769,
+        "normal__weighted_geometry": 0.14628194453865215,
+        "uniform_geometry__weighted_geometry": 0.965077715816602
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.2869677721248203,
+        "weighted": 0.2526815221394671
+      }
+    },
+    {
+      "state": "uniform_seed29",
+      "id": 614,
+      "training_index": 0,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.07753346860408783,
+        "normal": 0.35204291343688965,
+        "uniform_geometry": 0.12866301834583282,
+        "weighted_geometry": 0.11768964678049088
+      },
+      "sum_relative_error": 0.007991070859134197,
+      "norms": {
+        "depth": 0.5858994016159652,
+        "normal": 1.6971302833662947,
+        "uniform_geometry": 4.191356606107017,
+        "weighted_geometry": 3.8052068646852506,
+        "supervised": 0.8718464811250722
+      },
+      "cosines": {
+        "depth__normal": -0.09205239581836328,
+        "supervised__uniform_geometry": 0.21241021385489425,
+        "supervised__weighted_geometry": 0.31699007268065443,
+        "depth__uniform_geometry": 0.09750757828672514,
+        "depth__weighted_geometry": 0.08160948952137236,
+        "normal__uniform_geometry": 0.18457543672856852,
+        "normal__weighted_geometry": 0.297513050535016,
+        "uniform_geometry__weighted_geometry": 0.9758818482655952
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.4807447981780337,
+        "weighted": 0.43645377334950425
+      }
+    },
+    {
+      "state": "uniform_seed29",
+      "id": 614,
+      "training_index": 0,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.075799360871315,
+        "normal": 0.3607734441757202,
+        "uniform_geometry": 0.13023336231708527,
+        "weighted_geometry": 0.11917024105787277
+      },
+      "sum_relative_error": 0.007182632572948933,
+      "norms": {
+        "depth": 0.4625691105856079,
+        "normal": 1.68693872783726,
+        "uniform_geometry": 4.233246685860909,
+        "weighted_geometry": 3.94789252098069,
+        "supervised": 0.8515583121754297
+      },
+      "cosines": {
+        "depth__normal": -0.10196140395677122,
+        "supervised__uniform_geometry": 0.35153271718991397,
+        "supervised__weighted_geometry": 0.4243271063026557,
+        "depth__uniform_geometry": 0.0425250276638868,
+        "depth__weighted_geometry": 0.027674989208852842,
+        "normal__uniform_geometry": 0.3432433205013944,
+        "normal__weighted_geometry": 0.4208077875318209,
+        "uniform_geometry__weighted_geometry": 0.9805309857497221
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.4971176518782917,
+        "weighted": 0.46360800717160805
+      }
+    },
+    {
+      "state": "uniform_seed29",
+      "id": 339,
+      "training_index": 32,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.10515736043453217,
+        "normal": 0.30848538875579834,
+        "uniform_geometry": 0.13526473939418793,
+        "weighted_geometry": 0.10970071703195572
+      },
+      "sum_relative_error": 0.005187861155718565,
+      "norms": {
+        "depth": 0.34492279489111827,
+        "normal": 2.0162895470789644,
+        "uniform_geometry": 3.674783682191701,
+        "weighted_geometry": 3.0304391283360186,
+        "supervised": 1.0246286724866518
+      },
+      "cosines": {
+        "depth__normal": 0.010827583411932124,
+        "supervised__uniform_geometry": 0.6629066547626963,
+        "supervised__weighted_geometry": 0.6644306464160428,
+        "depth__uniform_geometry": -0.15379304709298453,
+        "depth__weighted_geometry": -0.15810739859463552,
+        "normal__uniform_geometry": 0.7000547421312363,
+        "normal__weighted_geometry": 0.7023417000109068,
+        "uniform_geometry__weighted_geometry": 0.9568997425817156
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.3586454079284585,
+        "weighted": 0.29575974298879454
+      }
+    },
+    {
+      "state": "uniform_seed29",
+      "id": 339,
+      "training_index": 32,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.10852396488189697,
+        "normal": 0.29802462458610535,
+        "uniform_geometry": 0.13524100184440613,
+        "weighted_geometry": 0.10911425948143005
+      },
+      "sum_relative_error": 0.004625195171684027,
+      "norms": {
+        "depth": 0.4568339871802947,
+        "normal": 1.8401312463256554,
+        "uniform_geometry": 4.060325461689973,
+        "weighted_geometry": 3.754073031727077,
+        "supervised": 0.9624891857046431
+      },
+      "cosines": {
+        "depth__normal": 0.06587966328498662,
+        "supervised__uniform_geometry": 0.6799928989471333,
+        "supervised__weighted_geometry": 0.6607489514664963,
+        "depth__uniform_geometry": -0.10175826204889203,
+        "depth__weighted_geometry": -0.12981350011964973,
+        "normal__uniform_geometry": 0.7366095535152843,
+        "normal__weighted_geometry": 0.7234433206935862,
+        "uniform_geometry__weighted_geometry": 0.9404524270629531
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.42185673584658395,
+        "weighted": 0.39003794406050407
+      }
+    },
+    {
+      "state": "uniform_seed29",
+      "id": 1372,
+      "training_index": 64,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.09094610065221786,
+        "normal": 0.3192930519580841,
+        "uniform_geometry": 0.14859741926193237,
+        "weighted_geometry": 0.14410433173179626
+      },
+      "sum_relative_error": 0.00912153348326683,
+      "norms": {
+        "depth": 0.6525551586474455,
+        "normal": 0.8616232219455751,
+        "uniform_geometry": 3.3113990778516156,
+        "weighted_geometry": 3.603690164116349,
+        "supervised": 0.5338365935943921
+      },
+      "cosines": {
+        "depth__normal": -0.0251635757510415,
+        "supervised__uniform_geometry": 0.24439829443428,
+        "supervised__weighted_geometry": 0.25547651895476764,
+        "depth__uniform_geometry": 0.018733785224794918,
+        "depth__weighted_geometry": 0.015260862405115032,
+        "normal__uniform_geometry": 0.2886559594008104,
+        "normal__weighted_geometry": 0.30501368586960653,
+        "uniform_geometry__weighted_geometry": 0.9564657000378192
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.6203020020706205,
+        "weighted": 0.6750549151852309
+      }
+    },
+    {
+      "state": "uniform_seed29",
+      "id": 1372,
+      "training_index": 64,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.09476244449615479,
+        "normal": 0.32008910179138184,
+        "uniform_geometry": 0.14007563889026642,
+        "weighted_geometry": 0.13714176416397095
+      },
+      "sum_relative_error": 0.008573148399591446,
+      "norms": {
+        "depth": 0.7437730478432694,
+        "normal": 0.9421547821782045,
+        "uniform_geometry": 3.368959711273043,
+        "weighted_geometry": 3.6532157194670694,
+        "supervised": 0.5900821874513092
+      },
+      "cosines": {
+        "depth__normal": -0.03429616423881898,
+        "supervised__uniform_geometry": 0.18699741328443822,
+        "supervised__weighted_geometry": 0.18500436667442763,
+        "depth__uniform_geometry": 0.055442587873796065,
+        "depth__weighted_geometry": 0.054149072584587475,
+        "normal__uniform_geometry": 0.19046868538855607,
+        "normal__weighted_geometry": 0.18899330063876518,
+        "uniform_geometry__weighted_geometry": 0.9772171981319183
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.570930589486915,
+        "weighted": 0.6191028634919632
+      }
+    },
+    {
+      "state": "uniform_seed29",
+      "id": 895,
+      "training_index": 96,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.05945955216884613,
+        "normal": 0.29420992732048035,
+        "uniform_geometry": 0.12123426049947739,
+        "weighted_geometry": 0.10941869765520096
+      },
+      "sum_relative_error": 0.010374325327575207,
+      "norms": {
+        "depth": 0.6034438271094723,
+        "normal": 2.253565514556799,
+        "uniform_geometry": 3.299458621514048,
+        "weighted_geometry": 2.814249000006425,
+        "supervised": 1.2067893488948875
+      },
+      "cosines": {
+        "depth__normal": 0.140694203111835,
+        "supervised__uniform_geometry": -0.08963067085849477,
+        "supervised__weighted_geometry": -0.052284618174124456,
+        "depth__uniform_geometry": 0.11004629398595836,
+        "depth__weighted_geometry": 0.18171332282838681,
+        "normal__uniform_geometry": -0.1254622653872016,
+        "normal__weighted_geometry": -0.10465496657986577,
+        "uniform_geometry__weighted_geometry": 0.9597705316371001
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.2734079998746686,
+        "weighted": 0.23320134558558728
+      }
+    },
+    {
+      "state": "uniform_seed29",
+      "id": 895,
+      "training_index": 96,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.05656758323311806,
+        "normal": 0.2886130213737488,
+        "uniform_geometry": 0.12063145637512207,
+        "weighted_geometry": 0.1074182391166687
+      },
+      "sum_relative_error": 0.009701555594801903,
+      "norms": {
+        "depth": 0.5074840260640053,
+        "normal": 1.9045498821195106,
+        "uniform_geometry": 3.285388214655483,
+        "weighted_geometry": 2.8496414106918664,
+        "supervised": 1.0176892266735298
+      },
+      "cosines": {
+        "depth__normal": 0.13342344289946145,
+        "supervised__uniform_geometry": -0.07836291602920108,
+        "supervised__weighted_geometry": -0.03448440191405839,
+        "depth__uniform_geometry": 0.11653236121084068,
+        "depth__weighted_geometry": 0.19603958058976168,
+        "normal__uniform_geometry": -0.11479694216146745,
+        "normal__weighted_geometry": -0.08908969297732403,
+        "uniform_geometry__weighted_geometry": 0.9464146810278736
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.3228282395593661,
+        "weighted": 0.2800109636618978
+      }
+    },
+    {
+      "state": "uniform_seed43",
+      "id": 614,
+      "training_index": 0,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.08175534754991531,
+        "normal": 0.34708401560783386,
+        "uniform_geometry": 0.11327891051769257,
+        "weighted_geometry": 0.09464207291603088
+      },
+      "sum_relative_error": 0.007903438061475754,
+      "norms": {
+        "depth": 0.8230903883015808,
+        "normal": 1.1777426532367214,
+        "uniform_geometry": 3.7507902836246925,
+        "weighted_geometry": 3.0324696957637323,
+        "supervised": 0.7334200677668262
+      },
+      "cosines": {
+        "depth__normal": 0.04490687916907047,
+        "supervised__uniform_geometry": -0.006458822791391307,
+        "supervised__weighted_geometry": -0.049636806706282594,
+        "depth__uniform_geometry": 0.10176661155227362,
+        "depth__weighted_geometry": 0.07510732129150176,
+        "normal__uniform_geometry": -0.07916600461159407,
+        "normal__weighted_geometry": -0.1143113685766759,
+        "uniform_geometry__weighted_geometry": 0.9753734803430743
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.5114109155814875,
+        "weighted": 0.4134696920684526
+      }
+    },
+    {
+      "state": "uniform_seed43",
+      "id": 614,
+      "training_index": 0,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.07962428033351898,
+        "normal": 0.3491227924823761,
+        "uniform_geometry": 0.1191129982471466,
+        "weighted_geometry": 0.10166115313768387
+      },
+      "sum_relative_error": 0.008593715727329254,
+      "norms": {
+        "depth": 0.7204830825777752,
+        "normal": 1.2996427969548277,
+        "uniform_geometry": 4.251292095372909,
+        "weighted_geometry": 3.6085194588879217,
+        "supervised": 0.7612490398945018
+      },
+      "cosines": {
+        "depth__normal": 0.05864832006859458,
+        "supervised__uniform_geometry": 0.14674160211855566,
+        "supervised__weighted_geometry": 0.1361705315294056,
+        "depth__uniform_geometry": 0.11576661299988043,
+        "depth__weighted_geometry": 0.10409556446030518,
+        "normal__uniform_geometry": 0.10772646267494919,
+        "normal__weighted_geometry": 0.10181280573583092,
+        "uniform_geometry__weighted_geometry": 0.9846200077128419
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.558462720158186,
+        "weighted": 0.4740261425338561
+      }
+    },
+    {
+      "state": "uniform_seed43",
+      "id": 339,
+      "training_index": 32,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.1088280901312828,
+        "normal": 0.29416176676750183,
+        "uniform_geometry": 0.10645979642868042,
+        "weighted_geometry": 0.0875433087348938
+      },
+      "sum_relative_error": 0.005878189112991095,
+      "norms": {
+        "depth": 0.7669762134798211,
+        "normal": 1.6465849102338024,
+        "uniform_geometry": 2.8965193103095226,
+        "weighted_geometry": 3.2353159017472604,
+        "supervised": 0.8961607288971819
+      },
+      "cosines": {
+        "depth__normal": -0.03447571440910139,
+        "supervised__uniform_geometry": 0.4028967468524623,
+        "supervised__weighted_geometry": 0.20645855009727257,
+        "depth__uniform_geometry": -0.24260861116929427,
+        "depth__weighted_geometry": -0.18926584214886227,
+        "normal__uniform_geometry": 0.5515631249666187,
+        "normal__weighted_geometry": 0.3128915400807989,
+        "uniform_geometry__weighted_geometry": 0.8697184923633894
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.32321426468597747,
+        "weighted": 0.3610196025581985
+      }
+    },
+    {
+      "state": "uniform_seed43",
+      "id": 339,
+      "training_index": 32,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.11495406925678253,
+        "normal": 0.2892751693725586,
+        "uniform_geometry": 0.10216053575277328,
+        "weighted_geometry": 0.08100271224975586
+      },
+      "sum_relative_error": 0.006173429079353809,
+      "norms": {
+        "depth": 0.6687507490954587,
+        "normal": 1.2863586888773897,
+        "uniform_geometry": 2.968096853557524,
+        "weighted_geometry": 2.9944481810455117,
+        "supervised": 0.6963875690931556
+      },
+      "cosines": {
+        "depth__normal": -0.09423018103058917,
+        "supervised__uniform_geometry": 0.3493473961705152,
+        "supervised__weighted_geometry": 0.1571914188308707,
+        "depth__uniform_geometry": -0.3011513173722571,
+        "depth__weighted_geometry": -0.27695828452295146,
+        "normal__uniform_geometry": 0.5348100362742383,
+        "normal__weighted_geometry": 0.3141801457255185,
+        "uniform_geometry__weighted_geometry": 0.8554611490114588
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.42621335952659467,
+        "weighted": 0.42999736266759025
+      }
+    },
+    {
+      "state": "uniform_seed43",
+      "id": 1372,
+      "training_index": 64,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.0907784178853035,
+        "normal": 0.31747904419898987,
+        "uniform_geometry": 0.158026784658432,
+        "weighted_geometry": 0.14707428216934204
+      },
+      "sum_relative_error": 0.00870176125317812,
+      "norms": {
+        "depth": 0.7193026194182162,
+        "normal": 0.9785616452507208,
+        "uniform_geometry": 4.345912837672685,
+        "weighted_geometry": 4.174072308691179,
+        "supervised": 0.656110346404563
+      },
+      "cosines": {
+        "depth__normal": 0.1754157732933712,
+        "supervised__uniform_geometry": 0.3786293592172196,
+        "supervised__weighted_geometry": 0.37974434001794116,
+        "depth__uniform_geometry": -0.06759077343205247,
+        "depth__weighted_geometry": -0.036917204446996026,
+        "normal__uniform_geometry": 0.5574135294341306,
+        "normal__weighted_geometry": 0.5363617359788634,
+        "uniform_geometry__weighted_geometry": 0.9790992350255846
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.6623752942607858,
+        "weighted": 0.6361844972518406
+      }
+    },
+    {
+      "state": "uniform_seed43",
+      "id": 1372,
+      "training_index": 64,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.0888630598783493,
+        "normal": 0.3230189383029938,
+        "uniform_geometry": 0.15849089622497559,
+        "weighted_geometry": 0.1464962363243103
+      },
+      "sum_relative_error": 0.006882708519697189,
+      "norms": {
+        "depth": 0.48394664210622185,
+        "normal": 1.0553621074498611,
+        "uniform_geometry": 3.999200625528238,
+        "weighted_geometry": 3.8937126552995625,
+        "supervised": 0.6145024083090128
+      },
+      "cosines": {
+        "depth__normal": 0.15904339156598746,
+        "supervised__uniform_geometry": 0.39744368547016495,
+        "supervised__weighted_geometry": 0.37507078120803033,
+        "depth__uniform_geometry": 0.03169280791099899,
+        "depth__weighted_geometry": 0.04390968881118874,
+        "normal__uniform_geometry": 0.4483035466879166,
+        "normal__weighted_geometry": 0.4166473735576501,
+        "uniform_geometry__weighted_geometry": 0.9828681102364861
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.6508030841625561,
+        "weighted": 0.6336366794744186
+      }
+    },
+    {
+      "state": "uniform_seed43",
+      "id": 895,
+      "training_index": 96,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.05095556378364563,
+        "normal": 0.2720898985862732,
+        "uniform_geometry": 0.10612067580223083,
+        "weighted_geometry": 0.09194815903902054
+      },
+      "sum_relative_error": 0.009173833765089512,
+      "norms": {
+        "depth": 0.20392268049940884,
+        "normal": 1.2836760265757032,
+        "uniform_geometry": 3.9193558626376217,
+        "weighted_geometry": 3.29355210264254,
+        "supervised": 0.6624156424214849
+      },
+      "cosines": {
+        "depth__normal": 0.12562395919025263,
+        "supervised__uniform_geometry": 0.38889282328318914,
+        "supervised__weighted_geometry": 0.38634179460848783,
+        "depth__uniform_geometry": -0.10349031140738689,
+        "depth__weighted_geometry": -0.10476200859388198,
+        "normal__uniform_geometry": 0.41780121256534286,
+        "normal__weighted_geometry": 0.41537041645080774,
+        "uniform_geometry__weighted_geometry": 0.9830785117751742
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.5916762243582099,
+        "weighted": 0.4972032500021948
+      }
+    },
+    {
+      "state": "uniform_seed43",
+      "id": 895,
+      "training_index": 96,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.050699446350336075,
+        "normal": 0.28020423650741577,
+        "uniform_geometry": 0.10100473463535309,
+        "weighted_geometry": 0.08578130602836609
+      },
+      "sum_relative_error": 0.009932332672178745,
+      "norms": {
+        "depth": 0.223017919750708,
+        "normal": 0.9973575724849519,
+        "uniform_geometry": 3.158233317124283,
+        "weighted_geometry": 2.636654502555703,
+        "supervised": 0.5317258202129452
+      },
+      "cosines": {
+        "depth__normal": 0.19437758296511423,
+        "supervised__uniform_geometry": 0.3699206957451716,
+        "supervised__weighted_geometry": 0.37074964243431396,
+        "depth__uniform_geometry": -0.09777864664357298,
+        "depth__weighted_geometry": -0.07257858143805145,
+        "normal__uniform_geometry": 0.41629920155285427,
+        "normal__weighted_geometry": 0.4115481257761725,
+        "uniform_geometry__weighted_geometry": 0.9778484680036688
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.5939589910942215,
+        "weighted": 0.4958673064813323
+      }
+    },
+    {
+      "state": "weighted_seed17",
+      "id": 614,
+      "training_index": 0,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.07533259689807892,
+        "normal": 0.33057451248168945,
+        "uniform_geometry": 0.113090381026268,
+        "weighted_geometry": 0.0954587459564209
+      },
+      "sum_relative_error": 0.01333547942340374,
+      "norms": {
+        "depth": 0.36953593663782186,
+        "normal": 0.9197410007116122,
+        "uniform_geometry": 2.8037781149503944,
+        "weighted_geometry": 2.7459345442273726,
+        "supervised": 0.49248754400375205
+      },
+      "cosines": {
+        "depth__normal": -0.018101225020031232,
+        "supervised__uniform_geometry": -0.14500354496455575,
+        "supervised__weighted_geometry": -0.09385836516816431,
+        "depth__uniform_geometry": -0.04523857340253061,
+        "depth__weighted_geometry": -0.0623011515061844,
+        "normal__uniform_geometry": -0.13711207912970033,
+        "normal__weighted_geometry": -0.07548389933968927,
+        "uniform_geometry__weighted_geometry": 0.9379913339225522
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.5693094473327499,
+        "weighted": 0.5575642628245746
+      }
+    },
+    {
+      "state": "weighted_seed17",
+      "id": 614,
+      "training_index": 0,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.07535490393638611,
+        "normal": 0.3402174413204193,
+        "uniform_geometry": 0.1160394474864006,
+        "weighted_geometry": 0.09855534881353378
+      },
+      "sum_relative_error": 0.012981515377759933,
+      "norms": {
+        "depth": 0.2629422569454558,
+        "normal": 1.0963106671851035,
+        "uniform_geometry": 3.1601626428472698,
+        "weighted_geometry": 3.0138140423563793,
+        "supervised": 0.5630618764459939
+      },
+      "cosines": {
+        "depth__normal": -0.0049971183468803925,
+        "supervised__uniform_geometry": 0.21527227423145837,
+        "supervised__weighted_geometry": 0.2503591758894245,
+        "depth__uniform_geometry": 0.022356737777331118,
+        "depth__weighted_geometry": 0.014683692102673179,
+        "normal__uniform_geometry": 0.2157642877537332,
+        "normal__weighted_geometry": 0.2536456680621026,
+        "uniform_geometry__weighted_geometry": 0.9552886262183722
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.5612460681575513,
+        "weighted": 0.535254501934913
+      }
+    },
+    {
+      "state": "weighted_seed17",
+      "id": 339,
+      "training_index": 32,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.10987962782382965,
+        "normal": 0.3030475080013275,
+        "uniform_geometry": 0.11234448105096817,
+        "weighted_geometry": 0.0877576693892479
+      },
+      "sum_relative_error": 0.006683118175715208,
+      "norms": {
+        "depth": 0.6472867550591559,
+        "normal": 1.5531994246945489,
+        "uniform_geometry": 2.746440168502016,
+        "weighted_geometry": 3.0548063036602855,
+        "supervised": 0.8271272823886031
+      },
+      "cosines": {
+        "depth__normal": -0.0471721175163267,
+        "supervised__uniform_geometry": 0.22806643764149162,
+        "supervised__weighted_geometry": 0.1180884512204375,
+        "depth__uniform_geometry": -0.06295284059619059,
+        "depth__weighted_geometry": -0.03446006829498736,
+        "normal__uniform_geometry": 0.26914025256891105,
+        "normal__weighted_geometry": 0.14013262032173507,
+        "uniform_geometry__weighted_geometry": 0.9180743566254359
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.3320456508907267,
+        "weighted": 0.36932723278556645
+      }
+    },
+    {
+      "state": "weighted_seed17",
+      "id": 339,
+      "training_index": 32,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.1118301972746849,
+        "normal": 0.293842613697052,
+        "uniform_geometry": 0.12006338685750961,
+        "weighted_geometry": 0.09438969939947128
+      },
+      "sum_relative_error": 0.005919576156884432,
+      "norms": {
+        "depth": 0.80490813993081,
+        "normal": 1.5297187668660197,
+        "uniform_geometry": 2.9363982805924826,
+        "weighted_geometry": 3.1945312354025988,
+        "supervised": 0.839307413058413
+      },
+      "cosines": {
+        "depth__normal": -0.06910225874582118,
+        "supervised__uniform_geometry": 0.2241887931213489,
+        "supervised__weighted_geometry": 0.14516085808495008,
+        "depth__uniform_geometry": -0.1402309282845114,
+        "depth__weighted_geometry": -0.09643251224730068,
+        "normal__uniform_geometry": 0.31979711449263915,
+        "normal__weighted_geometry": 0.2100310786363043,
+        "uniform_geometry__weighted_geometry": 0.9255693578368417
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.34985968608240076,
+        "weighted": 0.38061515789093475
+      }
+    },
+    {
+      "state": "weighted_seed17",
+      "id": 1372,
+      "training_index": 64,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.0976179912686348,
+        "normal": 0.3191763758659363,
+        "uniform_geometry": 0.14186495542526245,
+        "weighted_geometry": 0.12731392681598663
+      },
+      "sum_relative_error": 0.011878155171871185,
+      "norms": {
+        "depth": 0.6148929791699183,
+        "normal": 1.0538536666443366,
+        "uniform_geometry": 2.9951059426574087,
+        "weighted_geometry": 3.1510262773075306,
+        "supervised": 0.6267832953559535
+      },
+      "cosines": {
+        "depth__normal": 0.06383283100499196,
+        "supervised__uniform_geometry": 0.35427921247965877,
+        "supervised__weighted_geometry": 0.38971432338276896,
+        "depth__uniform_geometry": -0.04025905070474097,
+        "depth__weighted_geometry": -0.026841621178484418,
+        "normal__uniform_geometry": 0.4449076821714504,
+        "normal__weighted_geometry": 0.47922932387269307,
+        "uniform_geometry__weighted_geometry": 0.9638527525514272
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.4778535045284627,
+        "weighted": 0.5027297792801014
+      }
+    },
+    {
+      "state": "weighted_seed17",
+      "id": 1372,
+      "training_index": 64,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.09226243197917938,
+        "normal": 0.31724682450294495,
+        "uniform_geometry": 0.13228650391101837,
+        "weighted_geometry": 0.12019506841897964
+      },
+      "sum_relative_error": 0.008530554361641407,
+      "norms": {
+        "depth": 0.4228983580960418,
+        "normal": 0.8703426779957173,
+        "uniform_geometry": 2.7658890431830057,
+        "weighted_geometry": 2.8990872963698253,
+        "supervised": 0.4949297016598527
+      },
+      "cosines": {
+        "depth__normal": 0.059068457954160325,
+        "supervised__uniform_geometry": 0.2866800079341026,
+        "supervised__weighted_geometry": 0.33671593771926306,
+        "depth__uniform_geometry": -0.053375364696168034,
+        "depth__weighted_geometry": -0.0015505544570763245,
+        "normal__uniform_geometry": 0.35198234377704907,
+        "normal__weighted_geometry": 0.3837076735132873,
+        "uniform_geometry__weighted_geometry": 0.9693739844846735
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.5588448286508174,
+        "weighted": 0.5857573887053283
+      }
+    },
+    {
+      "state": "weighted_seed17",
+      "id": 895,
+      "training_index": 96,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.052998945116996765,
+        "normal": 0.285346657037735,
+        "uniform_geometry": 0.08850893378257751,
+        "weighted_geometry": 0.07610321044921875
+      },
+      "sum_relative_error": 0.009744785726070404,
+      "norms": {
+        "depth": 0.2762841493529263,
+        "normal": 1.074388875389954,
+        "uniform_geometry": 2.2465484322493054,
+        "weighted_geometry": 2.1178924522626947,
+        "supervised": 0.5726570082219619
+      },
+      "cosines": {
+        "depth__normal": 0.13660681500600608,
+        "supervised__uniform_geometry": -0.054313549196752006,
+        "supervised__weighted_geometry": -0.048186266992503224,
+        "depth__uniform_geometry": -0.13354441813744705,
+        "depth__weighted_geometry": -0.08350907987327176,
+        "normal__uniform_geometry": -0.023557450930171205,
+        "normal__weighted_geometry": -0.02989250226453987,
+        "uniform_geometry__weighted_geometry": 0.9608708471364464
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.39230261744715145,
+        "weighted": 0.3698361186285875
+      }
+    },
+    {
+      "state": "weighted_seed17",
+      "id": 895,
+      "training_index": 96,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.05449641868472099,
+        "normal": 0.27806389331817627,
+        "uniform_geometry": 0.08888324350118637,
+        "weighted_geometry": 0.07381341606378555
+      },
+      "sum_relative_error": 0.014319449663162231,
+      "norms": {
+        "depth": 0.5292650555591695,
+        "normal": 1.0761103711201154,
+        "uniform_geometry": 2.2331016299347053,
+        "weighted_geometry": 1.9334192998727477,
+        "supervised": 0.620668171267703
+      },
+      "cosines": {
+        "depth__normal": 0.09023028335052168,
+        "supervised__uniform_geometry": 0.08224631107655375,
+        "supervised__weighted_geometry": 0.06464661098534,
+        "depth__uniform_geometry": -0.06507749539947,
+        "depth__weighted_geometry": -0.024999271891936674,
+        "normal__uniform_geometry": 0.12688157540469433,
+        "normal__weighted_geometry": 0.08686788193238376,
+        "uniform_geometry__weighted_geometry": 0.972335471457723
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.3597899382166863,
+        "weighted": 0.31150611379407056
+      }
+    },
+    {
+      "state": "weighted_seed29",
+      "id": 614,
+      "training_index": 0,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.07512681186199188,
+        "normal": 0.34855833649635315,
+        "uniform_geometry": 0.1358395516872406,
+        "weighted_geometry": 0.11879609525203705
+      },
+      "sum_relative_error": 0.009665993973612785,
+      "norms": {
+        "depth": 0.3689442119042771,
+        "normal": 1.59350055117385,
+        "uniform_geometry": 3.868031266670633,
+        "weighted_geometry": 3.3246458129678222,
+        "supervised": 0.8139391185333176
+      },
+      "cosines": {
+        "depth__normal": -0.02158167261972801,
+        "supervised__uniform_geometry": 0.25196027139288474,
+        "supervised__weighted_geometry": 0.34664992860819005,
+        "depth__uniform_geometry": 0.11737666282892026,
+        "depth__weighted_geometry": 0.10422094281927784,
+        "normal__uniform_geometry": 0.23021968945807186,
+        "normal__weighted_geometry": 0.32999810427566384,
+        "uniform_geometry__weighted_geometry": 0.9715052884464054
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.47522365968116326,
+        "weighted": 0.4084636967637933
+      }
+    },
+    {
+      "state": "weighted_seed29",
+      "id": 614,
+      "training_index": 0,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.07481265813112259,
+        "normal": 0.3583747446537018,
+        "uniform_geometry": 0.14132626354694366,
+        "weighted_geometry": 0.12464568018913269
+      },
+      "sum_relative_error": 0.007737472653388977,
+      "norms": {
+        "depth": 0.319391639700564,
+        "normal": 1.5506958676805171,
+        "uniform_geometry": 3.9771731294312955,
+        "weighted_geometry": 3.487506261804682,
+        "supervised": 0.7987487696269555
+      },
+      "cosines": {
+        "depth__normal": 0.04576174973351898,
+        "supervised__uniform_geometry": 0.36096723397232594,
+        "supervised__weighted_geometry": 0.42095892852179,
+        "depth__uniform_geometry": 0.1227559745897408,
+        "depth__weighted_geometry": 0.13972525010415615,
+        "normal__uniform_geometry": 0.34657797651753924,
+        "normal__weighted_geometry": 0.40488518012323643,
+        "uniform_geometry__weighted_geometry": 0.9750712727756238
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.4979254154330377,
+        "weighted": 0.4366211748198966
+      }
+    },
+    {
+      "state": "weighted_seed29",
+      "id": 339,
+      "training_index": 32,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.10501483082771301,
+        "normal": 0.30702802538871765,
+        "uniform_geometry": 0.1441984474658966,
+        "weighted_geometry": 0.11325225979089737
+      },
+      "sum_relative_error": 0.005641528870910406,
+      "norms": {
+        "depth": 0.3677610450024918,
+        "normal": 1.9707342731200608,
+        "uniform_geometry": 3.8910512996875264,
+        "weighted_geometry": 3.0806441097071513,
+        "supervised": 0.9972671524385099
+      },
+      "cosines": {
+        "depth__normal": -0.02819878846836288,
+        "supervised__uniform_geometry": 0.6715899128435918,
+        "supervised__weighted_geometry": 0.6744052979288452,
+        "depth__uniform_geometry": -0.09386913082429382,
+        "depth__weighted_geometry": -0.04997044702543824,
+        "normal__uniform_geometry": 0.6972175540672813,
+        "normal__weighted_geometry": 0.691874954693163,
+        "uniform_geometry__weighted_geometry": 0.971190483526468
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.39017140895227104,
+        "weighted": 0.3089086111153249
+      }
+    },
+    {
+      "state": "weighted_seed29",
+      "id": 339,
+      "training_index": 32,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.10858121514320374,
+        "normal": 0.29673415422439575,
+        "uniform_geometry": 0.14059340953826904,
+        "weighted_geometry": 0.10856042057275772
+      },
+      "sum_relative_error": 0.004941355902701616,
+      "norms": {
+        "depth": 0.37621798260814654,
+        "normal": 1.7565973576508613,
+        "uniform_geometry": 4.1754691086512565,
+        "weighted_geometry": 3.501334540714575,
+        "supervised": 0.902219955063461
+      },
+      "cosines": {
+        "depth__normal": 0.021811721556600328,
+        "supervised__uniform_geometry": 0.6803936914063985,
+        "supervised__weighted_geometry": 0.6978546784662693,
+        "depth__uniform_geometry": -0.11524718772371466,
+        "depth__weighted_geometry": -0.13625263479428865,
+        "normal__uniform_geometry": 0.7236078264052612,
+        "normal__weighted_geometry": 0.746043206186555,
+        "uniform_geometry__weighted_geometry": 0.9679081660045538
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.462799463170548,
+        "weighted": 0.388079926747829
+      }
+    },
+    {
+      "state": "weighted_seed29",
+      "id": 1372,
+      "training_index": 64,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.08902689814567566,
+        "normal": 0.3213845193386078,
+        "uniform_geometry": 0.1438593864440918,
+        "weighted_geometry": 0.1309507042169571
+      },
+      "sum_relative_error": 0.01164158433675766,
+      "norms": {
+        "depth": 0.45823386732631116,
+        "normal": 0.8417262520699135,
+        "uniform_geometry": 3.233562531836463,
+        "weighted_geometry": 3.1945961999110932,
+        "supervised": 0.47340835230740536
+      },
+      "cosines": {
+        "depth__normal": -0.02854428529024671,
+        "supervised__uniform_geometry": 0.1677186411688083,
+        "supervised__weighted_geometry": 0.1901485840346517,
+        "depth__uniform_geometry": 0.01748837311988882,
+        "depth__weighted_geometry": 0.03507854563145313,
+        "normal__uniform_geometry": 0.1791378680600171,
+        "normal__weighted_geometry": 0.19479216395446283,
+        "uniform_geometry__weighted_geometry": 0.9817510751399829
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.6830387584156448,
+        "weighted": 0.6748077393101629
+      }
+    },
+    {
+      "state": "weighted_seed29",
+      "id": 1372,
+      "training_index": 64,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.09396829456090927,
+        "normal": 0.3204556107521057,
+        "uniform_geometry": 0.13989387452602386,
+        "weighted_geometry": 0.13183757662773132
+      },
+      "sum_relative_error": 0.010273533873260021,
+      "norms": {
+        "depth": 0.637708556922421,
+        "normal": 0.9512432271199572,
+        "uniform_geometry": 3.4248604454608733,
+        "weighted_geometry": 3.5105303129045486,
+        "supervised": 0.5528317854611575
+      },
+      "cosines": {
+        "depth__normal": -0.07339400595028196,
+        "supervised__uniform_geometry": 0.12648357076117359,
+        "supervised__weighted_geometry": 0.14072922645113098,
+        "depth__uniform_geometry": 0.09256995434107403,
+        "depth__weighted_geometry": 0.11334338301458897,
+        "normal__uniform_geometry": 0.08495789742258263,
+        "normal__weighted_geometry": 0.08758972622009197,
+        "uniform_geometry__weighted_geometry": 0.9886442903353454
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.6195122161081867,
+        "weighted": 0.635008768530948
+      }
+    },
+    {
+      "state": "weighted_seed29",
+      "id": 895,
+      "training_index": 96,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.05998833850026131,
+        "normal": 0.2810826003551483,
+        "uniform_geometry": 0.13235613703727722,
+        "weighted_geometry": 0.11882372200489044
+      },
+      "sum_relative_error": 0.009058894589543343,
+      "norms": {
+        "depth": 0.7113047186329194,
+        "normal": 1.22376567664604,
+        "uniform_geometry": 3.34614712067454,
+        "weighted_geometry": 2.863141808311011,
+        "supervised": 0.756575613691311
+      },
+      "cosines": {
+        "depth__normal": 0.16431910585850287,
+        "supervised__uniform_geometry": 0.09912541526567716,
+        "supervised__weighted_geometry": 0.12624203582512505,
+        "depth__uniform_geometry": 0.11481145467671616,
+        "depth__weighted_geometry": 0.175933955655371,
+        "normal__uniform_geometry": 0.055832432313899685,
+        "normal__weighted_geometry": 0.05383435725310338,
+        "uniform_geometry__weighted_geometry": 0.9574743829608727
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.4422753073349514,
+        "weighted": 0.3784343238796481
+      }
+    },
+    {
+      "state": "weighted_seed29",
+      "id": 895,
+      "training_index": 96,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.05733484774827957,
+        "normal": 0.2824018597602844,
+        "uniform_geometry": 0.1311761885881424,
+        "weighted_geometry": 0.11563587188720703
+      },
+      "sum_relative_error": 0.009485752321779728,
+      "norms": {
+        "depth": 0.6136075637162874,
+        "normal": 1.3150311682869322,
+        "uniform_geometry": 3.3498106608023908,
+        "weighted_geometry": 2.8959832380402184,
+        "supervised": 0.7583863967414347
+      },
+      "cosines": {
+        "depth__normal": 0.120693602657799,
+        "supervised__uniform_geometry": 0.10614510045213309,
+        "supervised__weighted_geometry": 0.12982921843497033,
+        "depth__uniform_geometry": 0.12487187973935308,
+        "depth__weighted_geometry": 0.19253482895963764,
+        "normal__uniform_geometry": 0.06416248729197702,
+        "normal__weighted_geometry": 0.0599077808136505,
+        "uniform_geometry__weighted_geometry": 0.9441124907183578
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.4417023663920596,
+        "weighted": 0.38186117927265234
+      }
+    },
+    {
+      "state": "weighted_seed43",
+      "id": 614,
+      "training_index": 0,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.08164282888174057,
+        "normal": 0.34282106161117554,
+        "uniform_geometry": 0.11860114336013794,
+        "weighted_geometry": 0.09659898281097412
+      },
+      "sum_relative_error": 0.00871710292994976,
+      "norms": {
+        "depth": 0.8007247033100177,
+        "normal": 1.0454378431243396,
+        "uniform_geometry": 4.361471043029549,
+        "weighted_geometry": 3.439759479308549,
+        "supervised": 0.685295896374023
+      },
+      "cosines": {
+        "depth__normal": 0.08626219323328713,
+        "supervised__uniform_geometry": 0.16603100669017515,
+        "supervised__weighted_geometry": 0.1304899361770758,
+        "depth__uniform_geometry": 0.11272614366710523,
+        "depth__weighted_geometry": 0.10000866637120927,
+        "normal__uniform_geometry": 0.13133074153677368,
+        "normal__weighted_geometry": 0.09447622974582923,
+        "uniform_geometry__weighted_geometry": 0.9817854807458626
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.6364361826922617,
+        "weighted": 0.5019378486736459
+      }
+    },
+    {
+      "state": "weighted_seed43",
+      "id": 614,
+      "training_index": 0,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.07848060131072998,
+        "normal": 0.3447893559932709,
+        "uniform_geometry": 0.12346222996711731,
+        "weighted_geometry": 0.10234251618385315
+      },
+      "sum_relative_error": 0.006937987636774778,
+      "norms": {
+        "depth": 0.6618924239504258,
+        "normal": 1.2032384734231771,
+        "uniform_geometry": 4.924275347994149,
+        "weighted_geometry": 4.0612360776310625,
+        "supervised": 0.7072097949513242
+      },
+      "cosines": {
+        "depth__normal": 0.07200922484892,
+        "supervised__uniform_geometry": 0.319574625421621,
+        "supervised__weighted_geometry": 0.3195099477653256,
+        "depth__uniform_geometry": 0.11848353370719997,
+        "depth__weighted_geometry": 0.11212770115407486,
+        "normal__uniform_geometry": 0.3104864626258341,
+        "normal__weighted_geometry": 0.3139067289833498,
+        "uniform_geometry__weighted_geometry": 0.9886280881543383
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.6962962593487662,
+        "weighted": 0.5742618536428203
+      }
+    },
+    {
+      "state": "weighted_seed43",
+      "id": 339,
+      "training_index": 32,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.1178726777434349,
+        "normal": 0.29346969723701477,
+        "uniform_geometry": 0.10114317387342453,
+        "weighted_geometry": 0.07634302228689194
+      },
+      "sum_relative_error": 0.005715313833206892,
+      "norms": {
+        "depth": 1.006019624314267,
+        "normal": 1.7515625797454617,
+        "uniform_geometry": 2.822718669816643,
+        "weighted_geometry": 2.3546388619407073,
+        "supervised": 0.9991517909712337
+      },
+      "cosines": {
+        "depth__normal": -0.02463805624682291,
+        "supervised__uniform_geometry": 0.46317879242594023,
+        "supervised__weighted_geometry": 0.3286840326693544,
+        "depth__uniform_geometry": -0.22869668974331897,
+        "depth__weighted_geometry": -0.21455049110117672,
+        "normal__uniform_geometry": 0.6597795655408284,
+        "normal__weighted_geometry": 0.4982137060677146,
+        "uniform_geometry__weighted_geometry": 0.8875031571727151
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.28251149578311785,
+        "weighted": 0.2356637783386107
+      }
+    },
+    {
+      "state": "weighted_seed43",
+      "id": 339,
+      "training_index": 32,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.12254875898361206,
+        "normal": 0.28757038712501526,
+        "uniform_geometry": 0.1003987118601799,
+        "weighted_geometry": 0.07431231439113617
+      },
+      "sum_relative_error": 0.006006231531500816,
+      "norms": {
+        "depth": 0.8546315987894455,
+        "normal": 1.353933760326155,
+        "uniform_geometry": 2.9978128181055204,
+        "weighted_geometry": 2.2157840885908744,
+        "supervised": 0.7662975070803282
+      },
+      "cosines": {
+        "depth__normal": -0.09276709685847517,
+        "supervised__uniform_geometry": 0.4556690141857842,
+        "supervised__weighted_geometry": 0.343179671373788,
+        "depth__uniform_geometry": -0.2379816981653619,
+        "depth__weighted_geometry": -0.25370008542133476,
+        "normal__uniform_geometry": 0.6660168797453578,
+        "normal__weighted_geometry": 0.5486055408991974,
+        "uniform_geometry__weighted_geometry": 0.9146205246458446
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.3912074345024941,
+        "weighted": 0.2891545474333119
+      }
+    },
+    {
+      "state": "weighted_seed43",
+      "id": 1372,
+      "training_index": 64,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.09233399480581284,
+        "normal": 0.31858503818511963,
+        "uniform_geometry": 0.158772274851799,
+        "weighted_geometry": 0.14168784022331238
+      },
+      "sum_relative_error": 0.006833749823272228,
+      "norms": {
+        "depth": 0.653469966689945,
+        "normal": 1.0747696714065595,
+        "uniform_geometry": 4.615297537895946,
+        "weighted_geometry": 4.30711137510513,
+        "supervised": 0.6511733206484097
+      },
+      "cosines": {
+        "depth__normal": 0.08112566643070036,
+        "supervised__uniform_geometry": 0.5226224302007874,
+        "supervised__weighted_geometry": 0.5290320671396334,
+        "depth__uniform_geometry": -0.07782275949428577,
+        "depth__weighted_geometry": -0.0523612696655279,
+        "normal__uniform_geometry": 0.6806020137649773,
+        "normal__weighted_geometry": 0.6728880356061161,
+        "uniform_geometry__weighted_geometry": 0.9846346889785027
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.7087663747188285,
+        "weighted": 0.661438550771137
+      }
+    },
+    {
+      "state": "weighted_seed43",
+      "id": 1372,
+      "training_index": 64,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.08808257430791855,
+        "normal": 0.3229921758174896,
+        "uniform_geometry": 0.16016244888305664,
+        "weighted_geometry": 0.14275327324867249
+      },
+      "sum_relative_error": 0.007225927896797657,
+      "norms": {
+        "depth": 0.37833334012671455,
+        "normal": 1.083139295929974,
+        "uniform_geometry": 4.341010559232235,
+        "weighted_geometry": 4.172468354917489,
+        "supervised": 0.5983711507052553
+      },
+      "cosines": {
+        "depth__normal": 0.14137232911424213,
+        "supervised__uniform_geometry": 0.5257852187416749,
+        "supervised__weighted_geometry": 0.5266285310812857,
+        "depth__uniform_geometry": -0.0251056446878389,
+        "depth__weighted_geometry": -0.010247050866099075,
+        "normal__uniform_geometry": 0.5897004360708005,
+        "normal__weighted_geometry": 0.5854421897885517,
+        "uniform_geometry__weighted_geometry": 0.9882371923849189
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.7254712320465002,
+        "weighted": 0.6973043987832156
+      }
+    },
+    {
+      "state": "weighted_seed43",
+      "id": 895,
+      "training_index": 96,
+      "noise_seed": 91001,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.05015145614743233,
+        "normal": 0.2728911340236664,
+        "uniform_geometry": 0.10836546123027802,
+        "weighted_geometry": 0.09144230931997299
+      },
+      "sum_relative_error": 0.008675233460962772,
+      "norms": {
+        "depth": 0.22505508859405024,
+        "normal": 1.3084793817205327,
+        "uniform_geometry": 4.509500842194243,
+        "weighted_geometry": 3.721023172503361,
+        "supervised": 0.6795202673482432
+      },
+      "cosines": {
+        "depth__normal": 0.14300310022774484,
+        "supervised__uniform_geometry": 0.4234648830345649,
+        "supervised__weighted_geometry": 0.4241248205026334,
+        "depth__uniform_geometry": -0.1724761584932563,
+        "depth__weighted_geometry": -0.17001970231080618,
+        "normal__uniform_geometry": 0.4694935103881901,
+        "normal__weighted_geometry": 0.469756444455404,
+        "uniform_geometry__weighted_geometry": 0.9922576910987055
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.6636300724027112,
+        "weighted": 0.5475956128614479
+      }
+    },
+    {
+      "state": "weighted_seed43",
+      "id": 895,
+      "training_index": 96,
+      "noise_seed": 91002,
+      "precision_flag": false,
+      "losses": {
+        "depth": 0.050952181220054626,
+        "normal": 0.28121641278266907,
+        "uniform_geometry": 0.10549407452344894,
+        "weighted_geometry": 0.0875047892332077
+      },
+      "sum_relative_error": 0.007210074923932552,
+      "norms": {
+        "depth": 0.3306468372327049,
+        "normal": 1.047819216122925,
+        "uniform_geometry": 3.7028371487815344,
+        "weighted_geometry": 2.9920209212749067,
+        "supervised": 0.5676942187039908
+      },
+      "cosines": {
+        "depth__normal": 0.11813038984410257,
+        "supervised__uniform_geometry": 0.4160478202131062,
+        "supervised__weighted_geometry": 0.42192865955037295,
+        "depth__uniform_geometry": -0.1400247033092384,
+        "depth__weighted_geometry": -0.11798884056357148,
+        "normal__uniform_geometry": 0.4950039107715264,
+        "normal__weighted_geometry": 0.4944226546470056,
+        "uniform_geometry__weighted_geometry": 0.9891268174842082
+      },
+      "geometry_to_supervised_ratio": {
+        "uniform": 0.6522590906835148,
+        "weighted": 0.5270479815886617
+      }
+    }
+  ],
+  "seconds": 151.962442,
+  "optimizer_updates": 0,
+  "numerical_amendment_sha256": "c10af40fda853d652b81d492f07b71c5b76b94ea341cc24bda8e5adaa377d30f",
+  "interpretation": "BF16 primary probes retained, including precision flags. Flagged probes additionally checked in FP32 with1e-3 linearity tolerance. FP32 is a numerical sensitivity check, not the training precision. Near-zero cosines must not be overinterpreted."
+}

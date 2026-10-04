@@ -1,0 +1,8 @@
+{
+  "stage": "colab_connection",
+  "gpu": "Tesla T4",
+  "vram_gib": 14.56317138671875,
+  "torch": "2.11.0+cu130",
+  "python": "3.13.15",
+  "training_started": false
+}

@@ -1,0 +1,25 @@
+{
+  "status": "engineering_probe_complete",
+  "gpu": "Tesla T4",
+  "dtype": "torch.bfloat16",
+  "model_revision": "9571e7123e258cf052b4e54241f17971c290e9a8",
+  "trainable_parameters": 829952,
+  "prompt_output_mae": 0.05110782012343407,
+  "mask_vae_roundtrip_iou": 1.0,
+  "roundtrip_is_not_prediction": true,
+  "loss": 2.3882601261138916,
+  "gradient_norm": 43.7621241916866,
+  "finite_gradients": true,
+  "peak_allocated_mib": 2773.94189453125,
+  "seconds_including_download": 37.177383719000034,
+  "optimizer_updates": 0,
+  "ris_accuracy_validated": false,
+  "selector_validated": false,
+  "packages": {
+    "torch": "2.11.0+cu130",
+    "diffusers": "0.35.2",
+    "transformers": "4.57.1",
+    "peft": "0.17.1",
+    "accelerate": "1.11.0"
+  }
+}
