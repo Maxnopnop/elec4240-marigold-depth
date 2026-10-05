@@ -44,9 +44,9 @@ def freeze():
     overhead_hours=max(8.,engineering_hours+eval_hours+1.)
     budget={'training_hours_with_20percent_margin':train_hours,'evaluation_estimate_hours_with_2x_margin':eval_hours,
             'cache_hours':cache_hours,'engineering_hours_charged':engineering_hours,'overhead_hours':overhead_hours,
-            'estimated_total_hours':train_hours+overhead_hours,'cap_hours':48,'passed':train_hours+overhead_hours<=48}
+            'estimated_total_hours':train_hours+overhead_hours,'cap_hours':50,'passed':train_hours+overhead_hours<=50}
     write(WORK/'budget_review.json',budget)
-    assert budget['passed'],'Measured budget exceeds48h: do not launch or alter matrix silently'
+    assert budget['passed'],'Measured budget exceeds50h: do not launch or alter matrix silently'
     protocol={'version':'v13-cloud-scale','arms':ARMS,'seeds':SEEDS,'sizes':SIZES,'steps':STEPS,'checkpoints':[2048,4096],
         'source_sha256':source_hashes,'plan_sha256':sha(ROOT/'scale_plan.json'),'manifest_sha256':EXPECTED_MANIFEST,
         'cache_audit_sha256':sha(DRIVE/'scale_cache/cache_audit.json'),'preflight_sha256':sha(DRIVE/'scale_preflight/passed.json'),
@@ -59,7 +59,7 @@ def freeze():
                       'bootstrap':5000,'sign_flips':10000,'rng':424113,'unit':'image; average two seeds first; pointwise intervals; Holm p-values'},
         'limitations':['two seeds only','same-category COCO subset, not full benchmark or cross-domain validation',
                       'equal steps not equal epochs; no convergence claim','no cross-hardware bitwise claim','negative results retained'],
-        'hard_budget_seconds':48*3600,'no_shutdown':True}
+        'hard_budget_seconds':50*3600,'no_shutdown':True}
     path=WORK/'protocol.json'
     if path.exists():assert read(path)==json.loads(json.dumps(protocol)),'Frozen protocol differs'
     else:write(path,protocol)
@@ -88,7 +88,7 @@ def main():
     write(lock,{'pid':os.getpid(),'create_time':psutil.Process().create_time()})
     p=freeze();verify(p)
     ph=sha(WORK/'protocol.json')
-    budget=Budget(WORK/'execution.json',p['budget']['engineering_hours_charged']*3600)
+    budget=Budget(WORK/'execution.json',p['budget']['engineering_hours_charged']*3600,cap=p['hard_budget_seconds'])
     budget.reserve(1200,'input_and_cache_audit')
     rr=verify_inputs();cache=load_cache()
     budget.settle()

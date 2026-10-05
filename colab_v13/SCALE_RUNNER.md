@@ -12,7 +12,7 @@ Preflight exercises the production update/cache/checkpoint path for each arm,
 with a fresh process restoring durable step16 to reproduce step17 exactly.
 It uses training images only, including inference timing.
 
-The runner refuses to start if the measured budget exceeds48 hours. It retains
+The runner refuses to start if the measured budget exceeds50 hours. It retains
 the registered20% optimization margin and an8-hour minimum overhead allowance.
 The execution ledger includes cache/preflight and a conservative prior-engineering
 allowance. Reservations are persisted before compute; interrupted reservations
@@ -40,3 +40,5 @@ test_scale_cpu -v` from this directory. The synthetic report fixture is test
 data, not an experiment result. Actual cloud preflight, protocol, budget,
 progress and completion receipts are authoritative; source existence alone
 does not establish successful formal training.
+
+Budget amendment authorized by user on 2026-10-05: 48h -> 50h. Matrix and margins unchanged; cumulative ledger explicitly uses frozen protocol cap.

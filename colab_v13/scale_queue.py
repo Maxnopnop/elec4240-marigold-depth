@@ -50,7 +50,7 @@ def main():
     subprocess.run([sys.executable,'-u',str(ROOT/'scale_preflight.py')],check=True,timeout=7500)
     for name,digest in pins.items():assert sha(ROOT/name)==digest,name
     write(ROOT/'scale_queue_status.json',{'stage':'freeze_budget_then_formal'})
-    subprocess.run([sys.executable,'-u',str(ROOT/'scale_run.py')],check=True,timeout=48*3600)
+    subprocess.run([sys.executable,'-u',str(ROOT/'scale_run.py')],check=True,timeout=50*3600)
     write(ROOT/'scale_queue_status.json',{'stage':'complete'})
 
 
