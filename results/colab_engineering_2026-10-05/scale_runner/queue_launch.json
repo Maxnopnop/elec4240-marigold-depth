@@ -1,0 +1,27 @@
+{
+  "checked_at_utc": "2026-10-05T08:36:59+00:00",
+  "stage": "waiting_for_existing_cache",
+  "cache_images": 2352,
+  "cache_total": 4096,
+  "cache_pid": 26245,
+  "queue_pid": 31700,
+  "queue_create_time": 1791189383.97,
+  "identities_verified": true,
+  "bundle_sha256": "0510c20deb3f770eed72b4b0e3fc3fb900fedb22383fd0eee8e60e8580b18bca",
+  "github_asset_id": 611984477,
+  "cpu_tests_passed": 6,
+  "production_preflight_passed": false,
+  "protocol_frozen": false,
+  "formal_training_started": false,
+  "automatic_next_stages": [
+    "production cache/state fresh-process restore tests",
+    "measured <=48h budget",
+    "immutable source/protocol freeze",
+    "12 training runs",
+    "all-run checkpoint barrier",
+    "24 fixed evaluations",
+    "prediction audit and26Holm report"
+  ],
+  "no_local_gpu": true,
+  "no_shutdown": true
+}
