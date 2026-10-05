@@ -1,0 +1,3 @@
+{'arm': 'pixel', 'warm_mean_seconds': 1.0027219833336858, 'warm_p90_seconds': 1.0755611600034176, 'peak_mib': 3212.0498046875}
+{'arm': 'pair_always', 'warm_mean_seconds': 0.9529283437477716, 'warm_p90_seconds': 1.0149845099891537, 'peak_mib': 3211.9248046875}
+{'arm': 'pair_ready', 'warm_mean_seconds': 0.9549373541661529, 'warm_p90_seconds': 1.0554906599922107, 'peak_mib': 3211.9248046875}

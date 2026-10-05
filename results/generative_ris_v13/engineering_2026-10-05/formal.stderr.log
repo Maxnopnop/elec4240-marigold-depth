@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "E:\conda-envs\comp4471\Lib\site-packages\psutil\_pswindows.py", line 666, in wrapper
+    return fun(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\conda-envs\comp4471\Lib\site-packages\psutil\_pswindows.py", line 684, in wrapper
+    return fun(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\conda-envs\comp4471\Lib\site-packages\psutil\_pswindows.py", line 768, in cmdline
+    return cext.proc_cmdline(self.pid, use_peb=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ProcessLookupError: [Errno 3] force no such process (originated from psutil_pid_is_running -> 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\Codex\2026-09-27\yo\outputs\marigold-depth\generative_ris_v13\launch_after_cache.py", line 30, in <module>
+    try:main()
+        ^^^^^^
+  File "E:\Codex\2026-09-27\yo\outputs\marigold-depth\generative_ris_v13\launch_after_cache.py", line 17, in main
+    assert p.cmdline()==expected['command'],'Cache PID command changed'
+           ^^^^^^^^^^^
+  File "E:\conda-envs\comp4471\Lib\site-packages\psutil\__init__.py", line 748, in cmdline
+    return self._proc.cmdline()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\conda-envs\comp4471\Lib\site-packages\psutil\_pswindows.py", line 668, in wrapper
+    raise convert_oserror(err, pid=self.pid, name=self._name) from err
+psutil.NoSuchProcess: process no longer exists (pid=60864)
