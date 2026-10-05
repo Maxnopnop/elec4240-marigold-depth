@@ -6,11 +6,25 @@ from pathlib import Path
 from unittest.mock import patch
 import scale_runtime as runtime
 import scale_report as report
+import scale_queue as queue
 import numpy as np
 from PIL import Image
 
 
 class ProtocolTests(unittest.TestCase):
+    def test_cache_receipt_publication_gap(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)/'local';drive=Path(tmp)/'drive'
+            with patch.object(queue,'ROOT',root),patch.object(queue,'DRIVE',drive):
+                self.assertFalse(queue.cache_complete())
+                receipt={'status':'complete','shards':{'a':'digest'}}
+                runtime.write(root/'scale_cache/cache_audit.json',receipt)
+                self.assertFalse(queue.cache_complete())
+                runtime.write(drive/'scale_cache/cache_audit.json',receipt)
+                self.assertTrue(queue.cache_complete())
+                runtime.write(drive/'scale_cache/cache_audit.json',{'status':'complete','shards':{}})
+                with self.assertRaises(AssertionError):queue.cache_complete()
+
     def test_exposure_schedule(self):
         small=runtime.schedule(range(2048))
         large=runtime.schedule(range(4096))
@@ -37,6 +51,18 @@ class ProtocolTests(unittest.TestCase):
                 self.assertEqual(other.state['charged_seconds'],60)
                 with self.assertRaises(AssertionError):other.reserve(41,'over cap')
                 self.assertEqual(runtime.read(path)['charged_seconds'],60)
+                path.unlink() # Simulate a vanished mutable Drive summary.
+                recovered=runtime.Budget(path,0,cap=100)
+                self.assertEqual(recovered.state['charged_seconds'],60)
+
+    def test_checkpoint_missing_pointer_recovery(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            dest=Path(tmp);p=dest/'staging.pt'
+            runtime.torch.save({'protocol_sha256':'test','step':2,'history':[{},{}]},p)
+            final=dest/f'resume_00002_{runtime.sha(p)[:16]}.pt';p.rename(final)
+            state,step=runtime.latest_state(dest,'test')
+            self.assertEqual((state,step),(final,2))
+            with self.assertRaises(AssertionError):runtime.latest_state(dest,'wrong protocol')
 
     def test_missing_matrix_blocks_evaluation(self):
         with tempfile.TemporaryDirectory() as tmp,patch.object(runtime,'WORK',Path(tmp)):

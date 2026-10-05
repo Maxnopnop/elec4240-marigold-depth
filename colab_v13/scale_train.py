@@ -19,11 +19,10 @@ def train(arm, size, seed, rr, cache, budget):
     pipe.unet.train()
     opt = torch.optim.AdamW(params.values(), lr=1e-4, weight_decay=.01)
     step0, history = 0, []
-    if (dest/'latest.json').exists():
-        pointer = read(dest/'latest.json')
-        assert pointer['protocol_sha256'] == ph and sha(dest/pointer['file']) == pointer['sha256']
-        step0,history = restore(dest/pointer['file'],params,opt,ph)
-        assert step0 == pointer['step']
+    state_path,state_step=latest_state(dest,ph)
+    if state_path is not None:
+        step0,history = restore(state_path,params,opt,ph)
+        assert step0 == state_step
     assert [r['image_id'] for r in history] == order[:step0]
     for milestone in [2048,4096]:
         if step0 >= milestone: assert (dest/f'adapter_{milestone}.pt').exists()

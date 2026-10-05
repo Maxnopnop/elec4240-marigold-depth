@@ -4,9 +4,23 @@ import sys
 import time
 import subprocess
 import traceback
+import json
 import psutil
 from pathlib import Path
 from prepare_scale_cache import ROOT, DRIVE, read, write, sha
+
+
+def cache_complete():
+    # Drive FUSE can briefly hide a path during replace(). The local completion
+    # receipt is written once, after the final durable receipt is committed.
+    try:
+        local=read(ROOT/'scale_cache/cache_audit.json')
+        if local.get('status')!='complete':return False
+        durable=read(DRIVE/'scale_cache/cache_audit.json')
+        assert local==durable,'Final local and durable cache receipts differ'
+        return True
+    except (FileNotFoundError,json.JSONDecodeError):
+        return False
 
 
 def main():
@@ -25,8 +39,7 @@ def main():
     started=time.monotonic()
     while True:
         assert not (DRIVE/'PAUSE').exists(),'Drive pause marker'
-        audit=DRIVE/'scale_cache/cache_audit.json'
-        if audit.exists() and read(audit).get('status')=='complete':break
+        if cache_complete():break
         assert time.monotonic()-started<7200,'Cache wait exceeded2h'
         p=psutil.Process(identity['pid'])
         assert p.create_time()==identity['create_time'] and p.status()!='zombie','Cache exited before completion'

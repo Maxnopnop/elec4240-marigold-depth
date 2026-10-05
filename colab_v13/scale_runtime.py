@@ -143,6 +143,28 @@ def restore(path, params, opt, protocol_sha):
     return state['step'], state['history']
 
 
+def latest_state(dest, protocol_sha):
+    try:
+        pointer=read(dest/'latest.json')
+    except (FileNotFoundError,json.JSONDecodeError):
+        # Recover from immutable generations if Drive lost the mutable pointer.
+        candidates=[]
+        for path in dest.glob('resume_*.pt'):
+            parts=path.stem.split('_')
+            if len(parts)==3 and parts[1].isdigit():candidates.append((int(parts[1]),parts[2],path))
+        for step,prefix,path in sorted(candidates,reverse=True):
+            digest=sha(path)
+            assert digest.startswith(prefix),'Immutable state hash mismatch'
+            state=torch.load(path,map_location='cpu',weights_only=True)
+            assert state['protocol_sha256']==protocol_sha and state['step']==step and len(state['history'])==step
+            return path,step
+        return None,0
+    assert pointer['protocol_sha256']==protocol_sha
+    path=dest/pointer['file']
+    assert path.parent==dest and sha(path)==pointer['sha256']
+    return path,pointer['step']
+
+
 class Budget:
     """Precharge bounded chunks so runtime loss cannot erase unrecorded compute.
 
@@ -151,9 +173,25 @@ class Budget:
     """
     def __init__(self, path, initial_seconds, cap=48*3600):
         self.path, self.cap = path, cap
-        if not path.exists(): write(path, {'charged_seconds':initial_seconds, 'reservations':0})
-        self.state = read(path)
+        self.journal=path.with_name(path.stem+'_journal')
+        self.journal.mkdir(parents=True,exist_ok=True)
+        entries=sorted(self.journal.glob('entry_*.json'))
+        if entries:
+            self.state=read(entries[-1])
+            self.sequence=int(entries[-1].stem.split('_')[1])
+        else:
+            self.state=read(path) if path.exists() else {'charged_seconds':initial_seconds,'reservations':0}
+            self.sequence=0
+            self.persist()
         self.active = None
+
+    def persist(self):
+        self.sequence+=1
+        entry=self.journal/f'entry_{self.sequence:08d}.json'
+        assert not entry.exists(),'Budget journal sequence collision'
+        write(entry,self.state)
+        assert read(entry)==self.state
+        write(self.path,self.state) # display summary only; journal is authoritative
 
     def reserve(self, seconds, stage):
         assert self.active is None
@@ -162,7 +200,7 @@ class Budget:
         self.state['charged_seconds'] += seconds
         self.state['reservations'] += 1
         self.state['stage'] = stage
-        write(self.path, self.state)
+        self.persist()
         self.active = (time.monotonic(), seconds)
         # Hard stop requires no main-thread progress; GPU stalls cannot bypass cap.
         import threading
@@ -177,7 +215,7 @@ class Budget:
         assert elapsed <= seconds
         self.timer.cancel()
         self.state['charged_seconds'] -= seconds-elapsed
-        write(self.path, self.state)
+        self.persist()
         self.active = None
 
 
