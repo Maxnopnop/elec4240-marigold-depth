@@ -1,0 +1,65 @@
+# Read-only engineering progress; no new work launched.
+from pathlib import Path
+import json,psutil,datetime
+r=Path('/content/v13_cloud_scale');d=Path('/content/drive/MyDrive/ELEC4240/v13-cloud-scale-2026-10-05')
+print('UTC',datetime.datetime.now(datetime.timezone.utc).isoformat())
+a=json.loads((d/'scale_cache/cache_audit.json').read_text());print('CACHE',a.get('status'),len(a['shards']),sum(s['seconds'] for s in a['sessions']))
+for arm in ['pixel','pair_always','pair_ready']:
+ out={}
+ for name in ['parent.json','child.json']:
+  p=d/'scale_preflight'/arm/name
+  if p.exists():
+   x=json.loads(p.read_text());out[name]={'adapter_sha256':x['adapter_sha256'],'loss':x['row']['loss'],'warm_mean_seconds':sum(x.get('warm_step_seconds',[]))/len(x['warm_step_seconds']) if x.get('warm_step_seconds') else None}
+ print(arm,json.dumps(out))
+i=json.loads((r/'scale_queue_process.json').read_text())
+try:
+ p=psutil.Process(i['pid']);print('QUEUE',p.status(),p.create_time()==i['create_time'])
+ print('CHILDREN',[{'pid':q.pid,'cmd':q.cmdline(),'status':q.status(),'rss_mib':q.memory_info().rss/2**20} for q in p.children(recursive=True)])
+except psutil.NoSuchProcess:print('QUEUE exited')
+print('LATEST LOG',(r/'scale_queue_v3.log').read_text()[-2200:])
+UTC 2026-10-05T09:15:42.952057+00:00
+CACHE complete 64 2366.463494702999
+pixel {"parent.json": {"adapter_sha256": "dfce16404c9c78fb80a0b966e9ea46ae9740b6a9de5eae5bbd3a132e58afe9a2", "loss": 2.1149449348449707, "warm_mean_seconds": 2.401885823444698}, "child.json": {"adapter_sha256": "dfce16404c9c78fb80a0b966e9ea46ae9740b6a9de5eae5bbd3a132e58afe9a2", "loss": 2.1149449348449707, "warm_mean_seconds": null}}
+pair_always {"parent.json": {"adapter_sha256": "92faf96a82790dcc48975be24988492ead9b07fd3f7507336c523999ac11ce73", "loss": 2.41306471824646, "warm_mean_seconds": 2.3978666222222578}, "child.json": {"adapter_sha256": "92faf96a82790dcc48975be24988492ead9b07fd3f7507336c523999ac11ce73", "loss": 2.41306471824646, "warm_mean_seconds": null}}
+pair_ready {}
+QUEUE sleeping True
+CHILDREN [{'pid': 39607, 'cmd': ['/usr/bin/python3', '-u', '/content/v13_cloud_scale/scale_preflight.py'], 'status': 'sleeping', 'rss_mib': 423.69921875}, {'pid': 41628, 'cmd': ['/usr/bin/python3', '/content/v13_cloud_scale/scale_preflight.py', '--arm', 'pair_ready'], 'status': 'running', 'rss_mib': 1575.78515625}]
+LATEST LOG  last):
+  File "/content/v13_cloud_scale/scale_queue.py", line 58, in <module>
+    try:main()
+        ~~~~^^
+  File "/content/v13_cloud_scale/scale_queue.py", line 41, in main
+    assert not (DRIVE/'PAUSE').exists(),'Drive pause marker'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Drive pause marker
+
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]
+Loading pipeline components...:  20%|██        | 1/5 [00:00<00:03,  1.17it/s]
+Loading pipeline components...:  40%|████      | 2/5 [00:10<00:18,  6.28s/it]`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading pipeline components...:  60%|██████    | 3/5 [00:14<00:09,  4.99s/it]
+Loading pipeline components...: 100%|██████████| 5/5 [00:14<00:00,  2.21s/it]
+Loading pipeline components...: 100%|██████████| 5/5 [00:14<00:00,  2.91s/it]
+
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]
+Loading pipeline components...:  20%|██        | 1/5 [00:00<00:03,  1.19it/s]`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading pipeline components...:  40%|████      | 2/5 [00:03<00:06,  2.10s/it]
+Loading pipeline components...:  80%|████████  | 4/5 [00:12<00:03,  3.62s/it]
+Loading pipeline components...: 100%|██████████| 5/5 [00:12<00:00,  2.54s/it]
+Loading pipeline components...: 100%|██████████| 5/5 [00:12<00:00,  2.60s/it]
+
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]
+Loading pipeline components...:  40%|████      | 2/5 [00:00<00:01,  2.19it/s]
+Loading pipeline components...:  60%|██████    | 3/5 [00:09<00:07,  3.86s/it]`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading pipeline components...:  80%|████████  | 4/5 [00:12<00:03,  3.64s/it]
+Loading pipeline components...: 100%|██████████| 5/5 [00:12<00:00,  2.58s/it]
+
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading pipeline components...:  40%|████      | 2/5 [00:02<00:04,  1.49s/it]
+Loading pipeline components...:  60%|██████    | 3/5 [00:03<00:02,  1.22s/it]
+Loading pipeline components...:  80%|████████  | 4/5 [00:12<00:04,  4.12s/it]
+Loading pipeline components...: 100%|██████████| 5/5 [00:12<00:00,  2.58s/it]
+

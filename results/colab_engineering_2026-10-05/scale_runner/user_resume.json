@@ -1,0 +1,14 @@
+{
+  "resumed_utc": "2026-10-05T09:05:08Z",
+  "user_authorized_resume": true,
+  "durable_shards_reused": 62,
+  "durable_images_reused": 3968,
+  "cache_pid": 38952,
+  "queue_pid": 38953,
+  "create_time": 1791191107.98,
+  "code_unchanged": true,
+  "local_gpu_stays_paused": true,
+  "pause_history": "MyDrive/ELEC4240/v13-cloud-scale-2026-10-05/pause_history/20261005T090508Z",
+  "latest_cache_images": 4041,
+  "formal_training_started": false
+}
