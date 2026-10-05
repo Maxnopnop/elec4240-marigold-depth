@@ -30,3 +30,6 @@ Third-party raw datasets/annotations, downloaded pretrained models, Python envir
 V12 completed 15 runs of 2048 updates and its registered auxiliary experiments. Its completion audit recomputed 17,040 primary predictions and 12,672 auxiliary records. The final automatic shutdown failed with Windows error 203; `failed_no_shutdown` records that shutdown failure, not an incomplete training matrix. Completion does not by itself establish method superiority or novelty. GQA auxiliary evaluation uses boxes and derived queries, not ground-truth segmentation masks. RefCOCO variants share COCO imagery.
 
 Published checkpoints are research artifacts. Read the recorded protocols and initialize a separate work/results directory for reproduction; do not overwrite published results or automatically execute historical shutdown scripts.
+
+
+Upload verified on 2026-10-04: 17 historical experiment work directories, 45,896 generated files, 197 release assets including the inventory, 18,880,926,293 archive bytes. All GitHub SHA-256 digests matched. [Upload receipt](delivery/2026-10-04/COMPLETION.json).
