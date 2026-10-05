@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "directory": "/content/drive/MyDrive/ELEC4240/v13-cloud-scale-2026-10-05/persistence_check",
+  "results": [
+    {
+      "arm": "pixel",
+      "byte_copy_verified": true,
+      "fresh_process_next_update_exact": true,
+      "row": {
+        "loss": 2.105112075805664,
+        "latent": 0.5157502293586731,
+        "pixel": 1.5893619060516357,
+        "pair": 0.0,
+        "gate": 0.0,
+        "gradient_norm": 40.523109436035156
+      },
+      "next_adapter_tensor_sha256": "46f2e64509cdcbac5313cf4f9a49cf3258929a8dc6cb96fd4f8efc6a636b5fe9",
+      "checkpoint_sha256": "6d4457e673966da5d70491fe5d8a30ac72aa1195636ad574a68ed65b3f4a9515"
+    },
+    {
+      "arm": "pair_always",
+      "byte_copy_verified": true,
+      "fresh_process_next_update_exact": true,
+      "row": {
+        "loss": 2.4973526000976562,
+        "latent": 0.5161055326461792,
+        "pixel": 1.6578643321990967,
+        "pair": 1.2935317754745483,
+        "gate": 1.0,
+        "gradient_norm": 49.39211654663086
+      },
+      "next_adapter_tensor_sha256": "903df59699ce772655be0dc667ea2badf595fb775499e4166c51d44b985c9860",
+      "checkpoint_sha256": "a1c6df3c61828a1db51994ef4aa0cdefd02ac62de9f04117279e3335477ee6d3"
+    },
+    {
+      "arm": "pair_ready",
+      "byte_copy_verified": true,
+      "fresh_process_next_update_exact": true,
+      "row": {
+        "loss": 2.1448729038238525,
+        "latent": 0.5149253010749817,
+        "pixel": 1.580238699913025,
+        "pair": 1.3222229480743408,
+        "gate": 0.1503794938325882,
+        "gradient_norm": 41.38768005371094
+      },
+      "next_adapter_tensor_sha256": "491f69efd5b973e722f14a44a4970c2dfa956802d52f136a76191460ee4b1981",
+      "checkpoint_sha256": "c9c62071a2e0053ed96b83f31c62eee346ffbf59701b83ff3aa58968cf063059"
+    }
+  ],
+  "source_sha256": "f477b327a190c89c8a2d5351ba86997d80d6bc11beb831bf749868007d11e2d3",
+  "scope": "Existing training-only step32 restored from Drive in a new process, matches original step33. Does not prove storage survival after account revocation or cross-hardware equality."
+}

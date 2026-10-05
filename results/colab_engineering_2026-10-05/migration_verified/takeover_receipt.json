@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-10-05T16:12:40+08:00",
+  "archive_sha256": "990ef865b67be27ce09ef6072a905a231c1ed6835fe397c418af57ad96e762b8",
+  "archive_bytes": 3721162,
+  "members_verified": 20,
+  "github_asset_id": 611932328,
+  "migration": "passed 4096 train + 320 fresh holdout",
+  "drive_resume": "three arms passed; fresh processes, not a runtime-reset test",
+  "formal_training_started": false,
+  "heldout_inference": false,
+  "local_gpu_paused": true,
+  "old_automation_status": "PAUSED",
+  "next_stage": "bounded cloud cache measurement started",
+  "cache_process": {
+    "pid": 26245,
+    "create_time": 1791188105.24,
+    "source_sha256": "e40b4bfdc26eefbb72f8ce06d7787a527a3966d475ca69314fc5bb29d3a0eb4e"
+  },
+  "tests": [
+    "atomic copy",
+    "idempotent reuse",
+    "corrupt durable file rejection",
+    "local GPU guard"
+  ]
+}

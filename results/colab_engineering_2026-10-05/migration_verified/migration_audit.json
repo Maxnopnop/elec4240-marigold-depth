@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "training_images": 4096,
+  "fresh_holdout_images": 320,
+  "original_image_bytes_exact": true,
+  "mask_pixels_exact": true,
+  "original_text_exact": true,
+  "manifest_sha256": "d1f063ffba5a4ebca6d8b0a9145c038838bfc612691c88001429b61bd2599a30",
+  "seconds": 752.0774564743042,
+  "training_started": false,
+  "heldout_inference": false
+}
