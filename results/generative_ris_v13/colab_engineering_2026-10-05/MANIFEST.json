@@ -1,0 +1,21 @@
+{
+  "scope": "64 previously used training images only; no holdout;64updates perarm seed17; actual resume at32 replay33",
+  "arms": [
+    "pixel",
+    "pair_always",
+    "pair_ready"
+  ],
+  "dtype": "same bfloat16 as local, no silent FP16 fallback",
+  "source_hashes": {
+    "experiment.py": "e7dff5abdbf44e23cfafc7d375805549266fffe8acb2264a8efd437be3ee7e0a",
+    "multitask_v7/engine.py": "5f5bd366102cee0e75f44834ce5c9461e06a600f09e8f35405a96b6c48ab8bf6",
+    "generative_ris_v12/train.py": "33026c280db815851eae6b2d1c1a30a74d04941634acf50480838d34e6949fca"
+  },
+  "local_reference": "deterministic_benchmark.json; same sorted64 image order and first sentence per annotation",
+  "files": {
+    "cloud_probe.py": "a832958c5be60e85452dce401ca011c0cfe5732b9230d3081af5a0b166b1f7f1",
+    "frozen_functions.py": "25e0199d093e45faf9982325a534770e288e06810125bcc119adc9b1012371cd",
+    "initial.pt": "58bf367d3d0383c4ae64710ad96f0447031acca0fde7ae7fa077cb9144f2533b",
+    "training_only_inputs.pt": "867c1c323b72c410096cbabcfedba71c09c449a7c84716fb15cc64cd7752f60b"
+  }
+}

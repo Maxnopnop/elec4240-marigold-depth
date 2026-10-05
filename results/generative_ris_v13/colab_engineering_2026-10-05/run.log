@@ -1,0 +1,21 @@
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Fetching 12 files:   8%|▊         | 1/12 [00:00<00:03,  2.95it/s]Fetching 12 files:  33%|███▎      | 4/12 [00:07<00:15,  1.97s/it]Fetching 12 files:  83%|████████▎ | 10/12 [00:22<00:04,  2.38s/it]Fetching 12 files: 100%|██████████| 12/12 [00:22<00:00,  1.89s/it]
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]Loading pipeline components...:  20%|██        | 1/5 [00:00<00:01,  2.23it/s]Loading pipeline components...:  60%|██████    | 3/5 [00:00<00:00,  5.77it/s]Loading pipeline components...:  80%|████████  | 4/5 [00:03<00:01,  1.23s/it]`torch_dtype` is deprecated! Use `dtype` instead!
+Loading pipeline components...: 100%|██████████| 5/5 [00:04<00:00,  1.19s/it]Loading pipeline components...: 100%|██████████| 5/5 [00:04<00:00,  1.01it/s]
+pixel 16 1.8114275932312012
+pixel 32 1.6379717588424683
+pixel 48 3.129357099533081
+pixel 64 2.410475015640259
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]Loading pipeline components...:  20%|██        | 1/5 [00:01<00:04,  1.01s/it]Loading pipeline components...:  80%|████████  | 4/5 [00:03<00:00,  1.24it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:05<00:00,  1.22s/it]Loading pipeline components...: 100%|██████████| 5/5 [00:05<00:00,  1.12s/it]
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]Loading pipeline components...:  20%|██        | 1/5 [00:00<00:00,  4.58it/s]Loading pipeline components...:  80%|████████  | 4/5 [00:02<00:00,  1.59it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:03<00:00,  1.35it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:03<00:00,  1.46it/s]
+pair_always 16 2.1387791633605957
+pair_always 32 1.9518647193908691
+pair_always 48 3.419684886932373
+pair_always 64 2.7561092376708984
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]Loading pipeline components...:  20%|██        | 1/5 [00:00<00:00,  4.78it/s]Loading pipeline components...:  80%|████████  | 4/5 [00:02<00:00,  1.58it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:03<00:00,  1.35it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:03<00:00,  1.46it/s]
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]Loading pipeline components...:  20%|██        | 1/5 [00:00<00:00,  4.78it/s]Loading pipeline components...:  80%|████████  | 4/5 [00:02<00:00,  1.60it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:03<00:00,  1.37it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:03<00:00,  1.48it/s]
+pair_ready 16 2.028740644454956
+pair_ready 32 1.735073447227478
+pair_ready 48 3.1130478382110596
+pair_ready 64 2.64617919921875
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]Loading pipeline components...:  20%|██        | 1/5 [00:00<00:00,  4.80it/s]Loading pipeline components...:  80%|████████  | 4/5 [00:02<00:00,  1.59it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:03<00:00,  1.35it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:03<00:00,  1.46it/s]
+CLOUD ENGINEERING COMPLETE

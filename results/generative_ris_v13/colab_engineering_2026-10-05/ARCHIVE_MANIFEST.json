@@ -1,0 +1,20 @@
+{
+  "LAUNCHED": "a7ba1b7e8ecac622d49070eadd2c96ae264edca51f7e1d572df5f0fb1cd416e7",
+  "MANIFEST.json": "472f7f340fb80b59a9915cdfb2ff5d52dacc1da1d482c21090b2f39522dfe6c8",
+  "cloud_probe.py": "a832958c5be60e85452dce401ca011c0cfe5732b9230d3081af5a0b166b1f7f1",
+  "frozen_functions.py": "25e0199d093e45faf9982325a534770e288e06810125bcc119adc9b1012371cd",
+  "model_path.json": "d7a14672e8b4edfb7d911cdc03a5d999fb802ec2f74c261698fddc196e27647a",
+  "results/completion.json": "906312e48637c811eccba2ac1ea3b26a5daf7bfc7e4d9489a5c25e3266311895",
+  "results/environment.json": "cb1abbf846f38432ccfb25510ab737afe0d3271e60b23a91a927c04c0eaa1f25",
+  "results/pair_always_adapter64.pt": "d08f3374859ccd2126b960a7bf9fc63158a177e885777ff04a4eb7c3bbd044c4",
+  "results/pair_always_history.json": "a8032725879e8f40263edad06a7a9b36874cfd58e26ce7aed4538aa47ebb81bb",
+  "results/pair_always_resume32.pt": "a1c6df3c61828a1db51994ef4aa0cdefd02ac62de9f04117279e3335477ee6d3",
+  "results/pair_ready_adapter64.pt": "080d6533187fdc8587fa13484ba0a01e6c5a752763a8301884bfc3102ea20a78",
+  "results/pair_ready_history.json": "6f76792b0f4aac389647fc28f745c5d250ebaaa92300e98b6b5aaa8605845667",
+  "results/pair_ready_resume32.pt": "c9c62071a2e0053ed96b83f31c62eee346ffbf59701b83ff3aa58968cf063059",
+  "results/pixel_adapter64.pt": "94f51a0853e76ef8c74955cbafe39a2b0fcfb8165771f326ef289ffc48c8b63a",
+  "results/pixel_history.json": "3f798b3da21b72366cb833c9dbaa16c01eddb43c8c06785b92f42f52b09faa1f",
+  "results/pixel_resume32.pt": "6d4457e673966da5d70491fe5d8a30ac72aa1195636ad574a68ed65b3f4a9515",
+  "results/results.json": "db2c23345b948859dbc77cf527fda195ac733942c4860e0992111dcf2a09ca35",
+  "run.log": "fdd992bfb734399d8dc40e00f722294df8e654e62bd139bcc33533671fade575"
+}

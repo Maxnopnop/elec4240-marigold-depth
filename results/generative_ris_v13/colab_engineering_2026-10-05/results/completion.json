@@ -1,0 +1,35 @@
+{
+  "status": "engineering_complete",
+  "results": [
+    {
+      "arm": "pixel",
+      "updates": 64,
+      "warm_mean_seconds": 2.323987743124983,
+      "peak_mib": 3295.7685546875,
+      "resume_exact": true,
+      "resume_max_parameter_difference": 0.0,
+      "same_dtype_as_local": true
+    },
+    {
+      "arm": "pair_always",
+      "updates": 64,
+      "warm_mean_seconds": 2.3173361346875083,
+      "peak_mib": 3296.6826171875,
+      "resume_exact": true,
+      "resume_max_parameter_difference": 0.0,
+      "same_dtype_as_local": true
+    },
+    {
+      "arm": "pair_ready",
+      "updates": 64,
+      "warm_mean_seconds": 2.3186527126041625,
+      "peak_mib": 3296.6826171875,
+      "resume_exact": true,
+      "resume_max_parameter_difference": 0.0,
+      "same_dtype_as_local": true
+    }
+  ],
+  "heldout_evaluated": false,
+  "formal_training_started": false,
+  "note": "Does not establish cross-hardware bitwise equivalence or segmentation generalization."
+}
