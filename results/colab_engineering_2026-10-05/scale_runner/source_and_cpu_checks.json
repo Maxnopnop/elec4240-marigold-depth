@@ -1,0 +1,23 @@
+{
+  "sha256": "0510c20deb3f770eed72b4b0e3fc3fb900fedb22383fd0eee8e60e8580b18bca",
+  "bytes": 18809,
+  "files": {
+    "scale_runtime.py": "bb4a6461aec7bb09eef10acc9082f3a1efcc11cb01a106bdfeb61eecb7ad44ab",
+    "scale_train.py": "bb5cf041541644d22b0c9375e9a66929a4c8f56eaee44e21217a1deba5116d68",
+    "scale_evaluate.py": "018e3cb275b1e024269272d84ef375c1c937f768c37d3d8e0f9110f4557ec51a",
+    "scale_report.py": "022b3e078a46aa980602982c9584a8c35a267dd77a857686a01d62b8b86b0aa1",
+    "scale_preflight.py": "4b513c12fbb22d8915b13b4810b6b956e9edc9a5f7a21a10a28ef8314bf44ba3",
+    "scale_run.py": "6ca4ebb1c447063a02023878330b40e88414568453ac8107d1c716737f908c5d",
+    "scale_queue.py": "d8f6cbc310dfd8c8784ba87b5e81e640306d489307eea78ccb94ed9d8e17404b",
+    "test_scale_cpu.py": "170594a7bcd09014f7f567e1cf2dd4a9a95645f8122b56efca96588593783e0b",
+    "SCALE_RUNNER.md": "434d51de4035e2da29eb98e9eab0fca7f3127e49069aed3d31c5e058af94d208"
+  },
+  "cpu_tests": {
+    "passed": 6,
+    "report_fixture_images": 8,
+    "report_fixture_predictions_recomputed": 384,
+    "formal_experiment_predictions_expected": 15360,
+    "large_fixture_attempt": "interrupted due excessive redundant filesystem IO; reduced image count retaining every24evaluation condition"
+  },
+  "formal_training_started": false
+}
