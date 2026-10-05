@@ -1,0 +1,17 @@
+{
+  "python": "3.13.15",
+  "cuda_matrix_test": "passed",
+  "vram_gib": 14.56317138671875,
+  "local_experiments_paused": true,
+  "evidence": "Fresh notebook cell output observed in browser, not historical stored outputs",
+  "checked_at_utc": "2026-10-05T06:34:46.943674+00:00",
+  "notebook": "https://colab.research.google.com/drive/14ZIOhBrtA7u1ElDxZyXr6lWkjoXv_zr_",
+  "torch": "2.11.0+cu130",
+  "training_started": false,
+  "gpu": "Tesla T4",
+  "bf16_native": false,
+  "compute_capability": [
+    7,
+    5
+  ]
+}

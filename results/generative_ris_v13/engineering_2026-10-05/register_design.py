@@ -1,0 +1,25 @@
+import sys,json,random,zipfile
+from pathlib import Path
+root=Path(r'E:\Codex\2026-09-27\yo');repo=root/'outputs/marigold-depth';out=root/'work/scaleup_research_v13';sys.path.insert(0,str(repo))
+import pyarrow.parquet as pq
+from generative_ris_v11.prepare_training import groups,WORK,sha
+old=json.loads((repo/'results/generative_ris_v12/data_manifest.json').read_text())['records'];used={x['image_id'] for x in old};small=sorted({r['image_id'] for r in old if r['split']=='train'})
+gqa=json.loads((repo/'results/generative_ris_v12/conditions/selection.json').read_text());vg={str(x['image_id']) for x in gqa['records']}
+with zipfile.ZipFile(root/'work/marigold-local/generative_ris_v12/conditions/raw/image_data.json.zip') as z:
+ metadata=json.loads(z.read(next(n for n in z.namelist() if n.endswith('image_data.json'))))
+excluded_gqa={int(x['coco_id']) for x in metadata if str(x['image_id']) in vg and x.get('coco_id')}
+rng=random.Random(424113);jobs=[];selected={};counts={}
+for split in ['train','validation']:
+ g=groups(pq.read_table(WORK/f'data/{split}.parquet').to_pylist());ids=sorted(set(g)-used-excluded_gqa);rng.shuffle(ids);count=6144 if split=='train' else 320
+ assert len(ids)>=count,(split,len(ids));selected[split]=ids[:count];counts[split]=len(ids)
+ for iid in ids[:count]:
+  category=rng.choice(sorted(g[iid]));anns=sorted(g[iid][category],key=lambda r:r['ann_id']);rng.shuffle(anns)
+  jobs.append({'split':'train' if split=='train' else 'fresh_holdout','image_id':iid,'ann_ids':[r['ann_id'] for r in anns[:2]]})
+p=out/'selection.json';selection={'seed':424113,'small_train_images':small,'large_train_images':sorted(small+selected['train']),'fresh_holdout_images':selected['validation'],'excluded_all_previous_v12_image_ids':sorted(used),'excluded_gqa_coco_ids':sorted(excluded_gqa),'jobs':jobs,'available_unused_counts':counts,'prior_manifest_sha256':sha(repo/'results/generative_ris_v12/data_manifest.json'),'raw_parquet_sha256':{s:sha(WORK/f'data/{s}.parquet') for s in ['train','validation']},'selection_before_new_pixels_or_inference':True,'do_not_replace_unavailable_or_duplicate_inputs':True}
+if p.exists():assert json.loads(p.read_text())==selection
+else:p.write_text(json.dumps(selection,indent=2),encoding='utf-8')
+plan={'state':'design_registered_pending_engineering_pilot_and_source_freeze','arms':['pixel','pair_always','pair_ready'],'seeds':[17,29,43],'training_image_counts':[2048,8192],'updates_per_run':8192,'analysis_checkpoints':[2048,8192],'number_of_runs':18,'total_updates':147456,'same_initialization':'matching V11 seed adapter1000 with fresh identical optimizer; do not warmstart from selected V12 winner','size':[192,256],'fresh_holdout_images':320,'train_sets':'nested; old2048 retained, new6144 pinned before pixels','interpretation':'At8192 updates compare data diversity at equal steps (small4epochs,large1epoch); within each data pool compare2048 vs8192 steps. At2048 updates both arms have seen only2048 unique images, not full8192 exposure. This is a subset/optimization interaction, not convergence proof.','primary_family':'13 predefined contrasts x2metrics=26 Holm tests on fresh image-cluster seed-averaged differences: ready-vs-pixel and ready-vs-always at8192updates for2data sizes (4); large-vs-small at8192updates for3arms (3);8192-vs2048updates for3arms x2data sizes (6). Report all intervals and seed spread, no optional positive-result stopping.','metrics':['native image meanIoU','both_targets_selected_rate'],'no_test_tuning':True,'selection_sha256':sha(p),'local_preliminary_gpu_hours_from_v12':32.9,'total_budget_cap_hours':48,'formal_execution_gate':'pilot finite losses, exact checkpoint params, acceptable measured runtime, complete immutable input audit, frozen executable protocol/source hashes before fresh evaluation','colab_status':'Existing notebook opened in IAB, sign-in page visible; GPU not connected; local fallback active'}
+(out/'scale_design.json').write_text(json.dumps(plan,indent=2),encoding='utf-8')
+refs=[{'title':'Marigold: Affordable Adaptation of Diffusion-Based Image Generators for Image Analysis','url':'https://arxiv.org/abs/2505.09358','relevance':'Generative diffusion transfer precedent; not evidence our RIS scaling will succeed.'},{'title':'Ref-Diff','url':'https://arxiv.org/abs/2308.16777','relevance':'Prior generative referring segmentation; distinguish zero-shot pipeline from our supervised adapter.'},{'title':'Prompt-Driven Referring Image Segmentation with Instance Contrasting','url':'https://openaccess.thecvf.com/content/CVPR2024/html/Shang_Prompt-Driven_Referring_Image_Segmentation_with_Instance_Contrasting_CVPR_2024_paper.html','relevance':'Prior instance contrast and quality weighting mean no broad novelty claim for contrast/readiness weighting.'}]
+(out/'literature_review.json').write_text(json.dumps({'date':'2026-10-05','scope':'bounded primary-source search, not exhaustive novelty proof','sources':refs},indent=2),encoding='utf-8')
+print(json.dumps({'available':counts,'large_train':len(selection['large_train_images']),'fresh_holdout':320,'selection_sha256':sha(p)}))

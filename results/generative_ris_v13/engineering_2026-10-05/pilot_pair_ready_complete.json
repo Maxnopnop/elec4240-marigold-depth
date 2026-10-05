@@ -1,0 +1,12 @@
+{
+  "arm": "pair_ready",
+  "updates": 128,
+  "protocol_sha256": "b6b320deb180e51e0df6c2804f88d7d936dce8ea52d1e12e29461be22d4a8ff2",
+  "checkpoint_sha256": "bb3c74507d54a1a6a52004500ebaa094c26f464e1214aa640ef935ca86cd751f",
+  "checkpoint_parameters_exact": true,
+  "peak_allocated_mib": 3164.1748046875,
+  "median_warm_step_seconds": 0.8066832499898737,
+  "optimizer_seconds": 97.93485710010282,
+  "all_losses_finite": true,
+  "heldout_evaluation": false
+}

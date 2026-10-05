@@ -1,0 +1,12 @@
+{
+  "status": "resolved_in_training_only_diagnostic",
+  "passing_receipt": "resume_test.json",
+  "original_failure": "resume_test_initial_failure.json",
+  "settings": [
+    "CUBLAS_WORKSPACE_CONFIG=:4096:8",
+    "torch.use_deterministic_algorithms(True)",
+    "cudnn.benchmark=False",
+    "cudnn.deterministic=True"
+  ],
+  "required_followup": "Use same deterministic settings in formal pipeline and remeasure cost before freeze/launch"
+}

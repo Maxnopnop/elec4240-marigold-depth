@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "training_only": true,
+  "formal_training_started": false,
+  "results": [
+    {
+      "arm": "pixel",
+      "next_update_exact": true,
+      "max_parameter_difference": 0.0
+    },
+    {
+      "arm": "pair_always",
+      "next_update_exact": true,
+      "max_parameter_difference": 0.0
+    },
+    {
+      "arm": "pair_ready",
+      "next_update_exact": true,
+      "max_parameter_difference": 0.0
+    }
+  ],
+  "exposure": {
+    "2048": {
+      "unique_at_2048": 2048,
+      "unique_at_8192": 2048
+    },
+    "8192": {
+      "unique_at_2048": 2048,
+      "unique_at_8192": 8192
+    }
+  },
+  "source_sha256": {
+    "E:\\Codex\\2026-09-27\\yo\\outputs\\marigold-depth\\generative_ris_v13\\check_resume.py": "cf9b8d9839798caba88133b5bf9b135425a5fddf4f350be91ff2db16a4758378",
+    "E:\\Codex\\2026-09-27\\yo\\outputs\\marigold-depth\\generative_ris_v13\\state.py": "7582c5a0c80acbb43d656f98ece9b0ebe6b0149fa65ef8e2fa6d00449dded204",
+    "E:\\Codex\\2026-09-27\\yo\\outputs\\marigold-depth\\generative_ris_v13\\__init__.py": "16511cb74f84df418fea013987adf8288e5a935fd472304d0b22fe90a4167d37"
+  }
+}

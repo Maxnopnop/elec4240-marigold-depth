@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-05",
+  "scope": "bounded primary-source search, not exhaustive novelty proof",
+  "sources": [
+    {
+      "title": "Marigold: Affordable Adaptation of Diffusion-Based Image Generators for Image Analysis",
+      "url": "https://arxiv.org/abs/2505.09358",
+      "relevance": "Generative diffusion transfer precedent; not evidence our RIS scaling will succeed."
+    },
+    {
+      "title": "Ref-Diff",
+      "url": "https://arxiv.org/abs/2308.16777",
+      "relevance": "Prior generative referring segmentation; distinguish zero-shot pipeline from our supervised adapter."
+    },
+    {
+      "title": "Prompt-Driven Referring Image Segmentation with Instance Contrasting",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Shang_Prompt-Driven_Referring_Image_Segmentation_with_Instance_Contrasting_CVPR_2024_paper.html",
+      "relevance": "Prior instance contrast and quality weighting mean no broad novelty claim for contrast/readiness weighting."
+    }
+  ]
+}

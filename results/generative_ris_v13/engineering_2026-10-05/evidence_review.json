@@ -1,0 +1,263 @@
+{
+  "stage": "evidence_review_started",
+  "date": "2026-10-05",
+  "upload_verified_commit": "701c78361be894d3868546ad3b5472e285a3e8bc",
+  "reserved_summaries": [
+    {
+      "split": "reserved",
+      "arm": "latent",
+      "per_seed_iou": [
+        0.20776598760515563,
+        0.20597429707798343,
+        0.18549442479213024
+      ],
+      "mean_iou": 0.19974490315842308,
+      "both_targets_selected_rate": 0.125,
+      "empty_rate": 0.5143229166666666,
+      "target_selection_rate": 0.333984375
+    },
+    {
+      "split": "reserved",
+      "arm": "pixel",
+      "per_seed_iou": [
+        0.3907896742071615,
+        0.3914080724300304,
+        0.39517492518176117
+      ],
+      "mean_iou": 0.3924575572729843,
+      "both_targets_selected_rate": 0.22786458333333334,
+      "empty_rate": 0.033203125,
+      "target_selection_rate": 0.580078125
+    },
+    {
+      "split": "reserved",
+      "arm": "pair_always",
+      "per_seed_iou": [
+        0.38798192369796003,
+        0.3838483689535412,
+        0.38174892946248495
+      ],
+      "mean_iou": 0.38452640737132876,
+      "both_targets_selected_rate": 0.24479166666666666,
+      "empty_rate": 0.0390625,
+      "target_selection_rate": 0.5768229166666666
+    },
+    {
+      "split": "reserved",
+      "arm": "pair_ramp",
+      "per_seed_iou": [
+        0.3923100792493317,
+        0.38604362981496965,
+        0.37912946208479886
+      ],
+      "mean_iou": 0.38582772371636676,
+      "both_targets_selected_rate": 0.234375,
+      "empty_rate": 0.046875,
+      "target_selection_rate": 0.572265625
+    },
+    {
+      "split": "reserved",
+      "arm": "pair_ready",
+      "per_seed_iou": [
+        0.39004089725768765,
+        0.39148797985950684,
+        0.377634280872096
+      ],
+      "mean_iou": 0.3863877193297635,
+      "both_targets_selected_rate": 0.23046875,
+      "empty_rate": 0.043619791666666664,
+      "target_selection_rate": 0.576171875
+    }
+  ],
+  "predefined_contrasts": [
+    {
+      "a": "pixel",
+      "b": "latent",
+      "metric": "mean_iou",
+      "difference": 0.19271265411456123,
+      "ci95": [
+        0.17395515727734448,
+        0.21205689810663192
+      ],
+      "p": 9.999000099990002e-05,
+      "images": 256,
+      "per_seed_differences": [
+        0.18302368660200585,
+        0.18543377535204697,
+        0.2096805003896309
+      ],
+      "holm_p": 0.000999900009999
+    },
+    {
+      "a": "pixel",
+      "b": "latent",
+      "metric": "both_targets_selected_rate",
+      "difference": 0.10286458333333334,
+      "ci95": [
+        0.07161458333333333,
+        0.13411458333333331
+      ],
+      "p": 9.999000099990002e-05,
+      "images": 256,
+      "per_seed_differences": [
+        0.09375,
+        0.078125,
+        0.13671875
+      ],
+      "holm_p": 0.000999900009999
+    },
+    {
+      "a": "pair_always",
+      "b": "pixel",
+      "metric": "mean_iou",
+      "difference": -0.00793114990165563,
+      "ci95": [
+        -0.01618014480785484,
+        0.00025305546665012205
+      ],
+      "p": 0.07069293070692931,
+      "images": 256,
+      "per_seed_differences": [
+        -0.0028077505092014825,
+        -0.007559703476489195,
+        -0.013425995719276208
+      ],
+      "holm_p": 0.5655434456554345
+    },
+    {
+      "a": "pair_always",
+      "b": "pixel",
+      "metric": "both_targets_selected_rate",
+      "difference": 0.016927083333333336,
+      "ci95": [
+        -0.007812499999999999,
+        0.04296874999999999
+      ],
+      "p": 0.1730826917308269,
+      "images": 256,
+      "per_seed_differences": [
+        0.04296875,
+        0.02734375,
+        -0.01953125
+      ],
+      "holm_p": 1
+    },
+    {
+      "a": "pair_ramp",
+      "b": "pair_always",
+      "metric": "mean_iou",
+      "difference": 0.0013013163450379932,
+      "ci95": [
+        -0.0066092322181024715,
+        0.008890618521924423
+      ],
+      "p": 0.7426257374262574,
+      "images": 256,
+      "per_seed_differences": [
+        0.00432815555137166,
+        0.0021952608614284335,
+        -0.002619467377686118
+      ],
+      "holm_p": 1
+    },
+    {
+      "a": "pair_ramp",
+      "b": "pair_always",
+      "metric": "both_targets_selected_rate",
+      "difference": -0.010416666666666666,
+      "ci95": [
+        -0.03515625,
+        0.014322916666666666
+      ],
+      "p": 0.43745625437456254,
+      "images": 256,
+      "per_seed_differences": [
+        -0.015625,
+        -0.015625,
+        0.0
+      ],
+      "holm_p": 1
+    },
+    {
+      "a": "pair_ready",
+      "b": "pair_always",
+      "metric": "mean_iou",
+      "difference": 0.0018613119584347682,
+      "ci95": [
+        -0.004933705997075569,
+        0.008755943984742434
+      ],
+      "p": 0.5994400559944005,
+      "images": 256,
+      "per_seed_differences": [
+        0.00205897355972758,
+        0.007639610905965661,
+        -0.004114648590388942
+      ],
+      "holm_p": 1
+    },
+    {
+      "a": "pair_ready",
+      "b": "pair_always",
+      "metric": "both_targets_selected_rate",
+      "difference": -0.014322916666666664,
+      "ci95": [
+        -0.03645833333333333,
+        0.006510416666666668
+      ],
+      "p": 0.2566743325667433,
+      "images": 256,
+      "per_seed_differences": [
+        -0.015625,
+        -0.02734375,
+        0.0
+      ],
+      "holm_p": 1
+    },
+    {
+      "a": "pair_ready",
+      "b": "pair_ramp",
+      "metric": "mean_iou",
+      "difference": 0.0005599956133967737,
+      "ci95": [
+        -0.0049723373073281354,
+        0.006264293272678131
+      ],
+      "p": 0.8442155784421558,
+      "images": 256,
+      "per_seed_differences": [
+        -0.0022691819916440797,
+        0.0054443500445372234,
+        -0.001495181212702824
+      ],
+      "holm_p": 1
+    },
+    {
+      "a": "pair_ready",
+      "b": "pair_ramp",
+      "metric": "both_targets_selected_rate",
+      "difference": -0.00390625,
+      "ci95": [
+        -0.02734375,
+        0.01953125
+      ],
+      "p": 0.7712228777122287,
+      "images": 256,
+      "per_seed_differences": [
+        0.0,
+        -0.01171875,
+        0.0
+      ],
+      "holm_p": 1
+    }
+  ],
+  "interpretation": "Pixel decoding supervision is an essential control. Do not assume readiness gating improves upon the pixel baseline. Auxiliary clean GQA candidate recall is low, so candidate generation must be considered before scaling condition verification. These are previous-study observations, not new-scale validation.",
+  "next_steps": [
+    "Primary literature review",
+    "Separate data-size and update-budget axes and freeze feasible matrix",
+    "Check free Colab runtime and local capacity",
+    "Fresh image-disjoint evaluation selected before new inference"
+  ],
+  "new_training_started": false,
+  "colab_connected": false
+}

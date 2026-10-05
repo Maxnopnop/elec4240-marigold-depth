@@ -1,0 +1,24 @@
+{
+  "stage": "paused_by_user",
+  "paused_at": "2026-10-05T14:31:18+08:00",
+  "request": "现在暂停",
+  "request_thread": "01a10a9d-b072-7e21-b701-194f1caee623",
+  "formal_training_started": false,
+  "cache_status_at_pause": {
+    "stage": "caching",
+    "elapsed_seconds": 567.8280000000086,
+    "images": 7168,
+    "total": 8192
+  },
+  "previous_status": {
+    "deterministic_resume_verified": true,
+    "stage": "pilot_and_resume_test_complete_data_preparation_running",
+    "next": "Implement formal cache/train/eval/report; remeasure deterministic runtime; freeze after complete input audit",
+    "formal_training_started": false
+  },
+  "pause_mechanism": "Existing PAUSE marker checked by cache/runner; cache exited gracefully at tick. No process was forcibly killed.",
+  "verified_v13_processes_remaining": 0,
+  "automation_id": "elec4240-v12",
+  "automation_status": "PAUSED",
+  "resume_policy": "Wait for explicit user request. Preserve PAUSE and all cache/checkpoint files. Review user-pause cache_error and queue NoSuchProcess before a future controlled restart; do not auto-recover now."
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "ProcessId": 52312,
+    "CreationDate": "2026-10-05T13:46:55.8718+08:00",
+    "CommandLine": "\"E:\\Codex\\2026-09-27\\yo\\work\\marigold-local\\.venv\\Scripts\\python.exe\" -u E:\\Codex\\2026-09-27\\yo\\work\\scaleup_research_v13\\pilot.py"
+  },
+  {
+    "ProcessId": 59624,
+    "CreationDate": "2026-10-05T13:46:55.921203+08:00",
+    "CommandLine": "\"E:\\conda-envs\\comp4471\\python.exe\" -u E:\\Codex\\2026-09-27\\yo\\work\\scaleup_research_v13\\pilot.py"
+  },
+  {
+    "ProcessId": 40328,
+    "CreationDate": "2026-10-05T13:48:57.398481+08:00",
+    "CommandLine": "\"E:\\Codex\\2026-09-27\\yo\\work\\marigold-local\\.venv\\Scripts\\python.exe\" -u E:\\Codex\\2026-09-27\\yo\\work\\scaleup_research_v13\\prepare_data.py"
+  },
+  {
+    "ProcessId": 7640,
+    "CreationDate": "2026-10-05T13:48:57.43595+08:00",
+    "CommandLine": "\"E:\\conda-envs\\comp4471\\python.exe\" -u E:\\Codex\\2026-09-27\\yo\\work\\scaleup_research_v13\\prepare_data.py"
+  }
+]

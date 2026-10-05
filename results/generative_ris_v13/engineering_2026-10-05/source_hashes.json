@@ -1,0 +1,14 @@
+[
+  {
+    "path": "work/scaleup_research_v13/pilot.py",
+    "sha256": "89f9511ca8604f41461d5e67f7f3c0f8ff79da5dfe77e80cdc7211c68fd1477a"
+  },
+  {
+    "path": "work/scaleup_research_v13/prepare_data.py",
+    "sha256": "8188e4a19b2edba0b43a25998cc1d0499811db4aa16078872d1b84dca87b2cd7"
+  },
+  {
+    "path": "work/scaleup_research_v13/register_design.py",
+    "sha256": "cb73eaa4847db3669c1b4a93a7e8b0d7286b9034566152fde9f8bfed12343dd5"
+  }
+]

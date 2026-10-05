@@ -1,0 +1,43 @@
+{
+  "state": "design_registered_pending_engineering_pilot_and_source_freeze",
+  "arms": [
+    "pixel",
+    "pair_always",
+    "pair_ready"
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "training_image_counts": [
+    2048,
+    8192
+  ],
+  "updates_per_run": 8192,
+  "analysis_checkpoints": [
+    2048,
+    8192
+  ],
+  "number_of_runs": 18,
+  "total_updates": 147456,
+  "same_initialization": "matching V11 seed adapter1000 with fresh identical optimizer; do not warmstart from selected V12 winner",
+  "size": [
+    192,
+    256
+  ],
+  "fresh_holdout_images": 320,
+  "train_sets": "nested; old2048 retained, new6144 pinned before pixels",
+  "interpretation": "At8192 updates compare data diversity at equal steps (small4epochs,large1epoch); within each data pool compare2048 vs8192 steps. At2048 updates both arms have seen only2048 unique images, not full8192 exposure. This is a subset/optimization interaction, not convergence proof.",
+  "primary_family": "13 predefined contrasts x2metrics=26 Holm tests on fresh image-cluster seed-averaged differences: ready-vs-pixel and ready-vs-always at8192updates for2data sizes (4); large-vs-small at8192updates for3arms (3);8192-vs2048updates for3arms x2data sizes (6). Report all intervals and seed spread, no optional positive-result stopping.",
+  "metrics": [
+    "native image meanIoU",
+    "both_targets_selected_rate"
+  ],
+  "no_test_tuning": true,
+  "selection_sha256": "cd51f861e1ab56d65222c2ffdd9c00c966b08b82237d81a1136348a63458dd83",
+  "local_preliminary_gpu_hours_from_v12": 32.9,
+  "total_budget_cap_hours": 48,
+  "formal_execution_gate": "pilot finite losses, exact checkpoint params, acceptable measured runtime, complete immutable input audit, frozen executable protocol/source hashes before fresh evaluation",
+  "colab_status": "Existing notebook opened in IAB, sign-in page visible; GPU not connected; local fallback active"
+}

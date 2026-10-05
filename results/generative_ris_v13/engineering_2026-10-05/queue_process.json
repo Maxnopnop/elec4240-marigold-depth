@@ -1,0 +1,10 @@
+{
+  "pid": 45324,
+  "create_time": 1791181375.1706755,
+  "command": [
+    "E:\\conda-envs\\comp4471\\python.exe",
+    "-u",
+    "-m",
+    "generative_ris_v13.launch_after_cache"
+  ]
+}

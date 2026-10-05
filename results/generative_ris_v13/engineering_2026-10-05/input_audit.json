@@ -1,0 +1,13 @@
+{
+  "status": "verified",
+  "counts": {
+    "train": 8192,
+    "dev": 64,
+    "fresh_holdout": 320
+  },
+  "files": 25728,
+  "manifest_sha256": "54e4e86b02155988089f3bf4f85abeebd3fb54598650eb542cd1dec1ef7f1dce",
+  "new_pixels_checked_against_previous_images": true,
+  "selection_before_pixels": true,
+  "no_new_evaluation": true
+}
