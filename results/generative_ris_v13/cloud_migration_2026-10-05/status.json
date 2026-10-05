@@ -1,0 +1,12 @@
+{
+  "fresh_holdout_images": 320,
+  "proposed_directory": "MyDrive/ELEC4240/v13-cloud-scale-2026-10-05",
+  "persistence_status": "awaiting_explicit_Drive_mount_approval",
+  "training_images": 4096,
+  "create_time": 1791184976.04,
+  "stage": "cloud_input_migration_running",
+  "pid": 12790,
+  "cloud_root": "/content/v13_cloud_scale",
+  "local_experiments_paused": true,
+  "formal_training_started": false
+}
