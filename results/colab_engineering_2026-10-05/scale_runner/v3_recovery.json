@@ -1,0 +1,15 @@
+{
+  "observed_utc": "2026-10-05T08:46:36+00:00",
+  "failure": "v2 queue TOCTOU FileNotFoundError while Drive cache receipt replaced",
+  "cache_unaffected": true,
+  "cache_images": 3386,
+  "cache_total": 4096,
+  "fix": "local completion receipt written only after final durable cache receipt; retry transient missing JSON; compare final receipts",
+  "additional_recovery": "immutable checkpoint-generation fallback; append-only budget journal",
+  "cpu_tests_passed": 8,
+  "queue_pid": 34128,
+  "queue_create_time": 1791189957.74,
+  "bundle_sha256": "169dfb92dedb6428542cb0ba54b2de31afc06f39900684320cd55f6c2fb4e2d5",
+  "github_asset_id": 612007454,
+  "formal_training_started": false
+}
