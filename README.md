@@ -203,3 +203,21 @@ All model and method sources are acknowledged in [REFERENCES.md](REFERENCES.md).
 [Milestone (3 pages), final report draft (8 pages), editable CVPR2022 LaTeX sources and evidence supplement](https://github.com/Maxnopnop/elec4240-marigold-depth/releases/tag/report-draft-as-of-2026-10-13). These drafts follow the second proposal, *Adapting Generative Models for Visual Recognition*, and retain all three authors. They are for team review and have not been submitted to Canvas.
 
 The depth-adapted initialization improves mask overlap in the evaluated recipe; a both-target-selection advantage over CLIPSeg is not established. Attribute, pair-loss and local-binding studies retain negative/uncertain findings. The spatial study deployed zero gates on effective1023 images and retains its recorded protocol deviation; ungated mechanisms remain unresolved. The subsequent fixed-gate study has no completed fit or final evaluation. No new experiment was run for report writing. Earlier scientific releases and reports remain unchanged.
+
+<!-- ELEC4240-SPATIAL-GATE-20261013-BEGIN -->
+## ELEC4240 research index — 13 October 2026
+
+Latest: [gate diagnosis and identifiable ungated factorial study](https://github.com/Maxnopnop/elec4240-marigold-depth/releases/tag/spatial-gate-factorial-2026-10-13). Spatial main both-selection effect +0.024pp, paired95%CI [-0.334,+0.382], Holm7 p=1.00000; frozen benefit acceptance=False. New1024-image final cohort,24 endpoints, fixed nonzero primary branches. Recovery preserves the 11 October scientific freeze; 13 October operational attempts and their full reservations are explicitly retained. Full scientific conclusions, null/harm outcomes and interpretation limits are retained.
+
+- [Course report draft as of 13 October](https://github.com/Maxnopnop/elec4240-marigold-depth/releases/tag/report-draft-as-of-2026-10-13): verified draft archive completed before this factorial final result; its PDFs still mark this experiment incomplete and do not yet contain these new final effects. Updating the milestone/final PDFs with these audited effects is a subsequent report task.
+- [Previous spatial study and contribution addendum,21 original assets](https://github.com/Maxnopnop/elec4240-marigold-depth/releases/tag/spatial-decoder-label-budget-2026-10-11): all18 gates0; latent mechanism unresolved; effective1023 after recorded metadata deviation.
+- [Comprehensive prior science and negative results](https://github.com/Maxnopnop/elec4240-marigold-depth/releases/tag/elec4240-comprehensive-validation-2026-10-10).
+- [Original initialization experiments and large model files](https://github.com/Maxnopnop/elec4240-marigold-depth/releases/tag/v14-final-2026-10-08).
+
+Statistical families remain separate; original pretraining recipe contrasts are not pure causal isolation. No final-data-driven tuning. Automatic shutdown is cancelled; no shutdown follows completion.
+
+
+Current [three-page milestone revision](https://github.com/Maxnopnop/elec4240-marigold-depth/releases/tag/milestone-revision-fixedgate-2026-10-13) includes this audited factorial result and the requested MA/HO/Tong author order; its9 public assets were separately byte/SHA verified by the report task. The eight-page final report remains the [pre-final-experiment draft](https://github.com/Maxnopnop/elec4240-marigold-depth/releases/tag/report-draft-as-of-2026-10-13) and awaits these new results. The course-draft link above is retained as historical context; the new milestone link is the current milestone.
+
+The new archive contains all new images, source masks, native predictions, heads, feature caches, training histories, frozen protocol, diagnostic results, independent audits, failure/recovery records and conservative budget receipts. Large fixed model files are referenced by exact hashes in the original public archives. The already-published previous contribution summary is also included as an unchanged copy.
+<!-- ELEC4240-SPATIAL-GATE-20261013-END -->
