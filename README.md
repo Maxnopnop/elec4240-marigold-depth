@@ -196,3 +196,10 @@ Weights, dataset arrays, raw predictions, environments and checkpoints are exclu
 The original work here is the constrained experiment: controlled trainable-parameter and data-budget comparisons, consistent evaluation, and a measured quality/cost analysis. The expanded phase now includes more scenes and three training seeds, with separate validation exploration of inference cost and resolution. A useful next research question is whether adapting at higher resolution preserves or improves the already strong pretrained high-resolution predictions. A future training search should use validation data and reserve new unseen evaluation scenes for any selected configuration. Claims of broad novelty or general improvement require additional evidence.
 
 All model and method sources are acknowledged in [REFERENCES.md](REFERENCES.md). Academic claims should cite the original papers as well as describe this pilot's departures from their training recipes.
+
+
+## RIS report drafts — 2026-10-13
+
+[Milestone (3 pages), final report draft (8 pages), editable CVPR2022 LaTeX sources and evidence supplement](https://github.com/Maxnopnop/elec4240-marigold-depth/releases/tag/report-draft-as-of-2026-10-13). These drafts follow the second proposal, *Adapting Generative Models for Visual Recognition*, and retain all three authors. They are for team review and have not been submitted to Canvas.
+
+The depth-adapted initialization improves mask overlap in the evaluated recipe; a both-target-selection advantage over CLIPSeg is not established. Attribute, pair-loss and local-binding studies retain negative/uncertain findings. The spatial study deployed zero gates on effective1023 images and retains its recorded protocol deviation; ungated mechanisms remain unresolved. The subsequent fixed-gate study has no completed fit or final evaluation. No new experiment was run for report writing. Earlier scientific releases and reports remain unchanged.
