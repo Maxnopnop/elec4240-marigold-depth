@@ -221,3 +221,9 @@ Current [three-page milestone revision](https://github.com/Maxnopnop/elec4240-ma
 
 The new archive contains all new images, source masks, native predictions, heads, feature caches, training histories, frozen protocol, diagnostic results, independent audits, failure/recovery records and conservative budget receipts. Large fixed model files are referenced by exact hashes in the original public archives. The already-published previous contribution summary is also included as an unchanged copy.
 <!-- ELEC4240-SPATIAL-GATE-20261013-END -->
+
+
+<!-- discriminative-ranking-window-20261016 -->
+### Native margin ranking, 2026-10-16
+
+Fixed same images, GT, candidates, features, donors and 200-step linear-head budget. Native margin correct17/64 vs own16/64 (paired95%CI delta [0,4.6875]pp; exact p1), below originalC18/64: frozen objective gate failed, no tuning/new final. Correct vs shuffled remains exploratory and does not rescue the failed objective comparison. Read-only14image decomposition, identical-text ambiguity, full supervision caveats, independent audits, code and verified assets: [release](https://github.com/Maxnopnop/elec4240-marigold-depth/releases/tag/ris-discriminative-ranking-2026-10-16).
